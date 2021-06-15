@@ -1,0 +1,47 @@
+@charset 'utf-8';
+
+// Based on SASS 7-1 Architecture
+// https://github.com/HugoGiraudel/sass-boilerplate
+
+// 1. Configuration and helpers
+@import
+    'abstracts/variables',
+    'abstracts/mixins';
+
+// 2. Vendors
+@import
+    'vendors/normalize';
+
+// 3. Base stuff
+@import
+    'base/base',
+    'base/fonts',
+    'base/helpers',
+    'base/typography';
+
+// 4. Layout-related sections
+@import
+    'layout/header',
+    'layout/navbar',
+    'layout/contact',
+    'layout/layout_containers',
+    'layout/footer';
+
+// 5. Components
+@import
+    'components/button',
+    'components/splash',
+    'components/news',
+    'components/mapresponsive';
+
+// 6. Page-specific styles
+@import
+    'pages/home',
+    'pages/about',
+    'pages/gear',
+    'pages/beta',
+    'pages/guiding',
+    'pages/other',
+    'pages/shop',
+    'pages/secret',
+    'pages/error';

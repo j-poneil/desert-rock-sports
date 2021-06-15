@@ -1,0 +1,74 @@
+// // comments in SASS will be lost during compilation
+// /// comments will persist
+// /**/ comments should persist as well
+
+// for colors, order of preferance is:
+// hsl(), rgb(), #hex
+
+// lighten() and darken() functions don't work as expected, its better to use the mix() function instead
+
+
+// ==== if you want a dif function instead of mix() =====
+// https://sass-guidelin.es/
+/// Slightly lighten a color
+/// @access public
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+///@function tint($color, $percentage) {
+///  @return mix(white, $color, $percentage);
+///}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+///@function shade($color, $percentage) {
+///  @return mix(black, $color, $percentage);
+///}
+
+// lists stored in variables can be handy
+//$font-stack: ('Helvetica', 'Arial', sans-serif);
+// maps can be handy
+// $breakpoints: (
+//   'small': 767px,
+//   'medium': 992px,
+//   'large': 1200px,
+// );
+
+
+// Trying to set breakpoints at:
+// 600px, 900px, 1200px, and 1800px
+// https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/#.ioazjk440
+
+
+
+
+// original DRS colors
+// BG #BDAD7F
+// header #
+// text #443829
+//
+
+// Climbing - https://coolors.co/002626-0e4749-95c623-e55812-efe7da
+// #002626 - dark green
+// #0E4749 - deep jungle green
+// #95C623 - yellow-green
+// #E55812 - flame
+// #EFE7DA - eggshell
+
+// Bright - https://coolors.co/app/6699cc-fff275-ff8c42-ff3c38-a23e48
+// #6699CC - livid
+// #FFF275 - sunny
+// #FF8C42 - mango tango
+// #FF3C38 - coral red
+// #A23E48 - smoky topaz
+
+
+
+
+
+
+// stylesheets/components/_splash.sass
+$splash-text-color: white

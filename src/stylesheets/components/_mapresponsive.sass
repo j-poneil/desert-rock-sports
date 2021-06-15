@@ -1,0 +1,16 @@
+/// https://www.ostraining.com/blog/coding/responsive-google-maps/
+.map-responsive
+    overflow: hidden
+    padding-bottom: 56.25% // from 16:9 aspect ratio... 9/16x100 = 56.25
+    position: relative
+    height: 0
+
+.map-responsive iframe
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    position: absolute
+
+
+// I should probably do different map aspect ratio for different screen sizes. 56.25% is pretty fine for smaller screens, but the map gets pretty large on bigger ones... would be nice for it to not take up so much vertical space

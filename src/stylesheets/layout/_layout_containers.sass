@@ -1,0 +1,15 @@
+
+// remember to do @media so that its column for small screens, row for everything else
+.twoflex-container
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+
+// remember to do @media so that its a single column w/ two rows for small
+// and 2 col, single row for everything else
+.twogrid-container
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: 1fr
+    grid-column-gap: 20px
+    //grid-row-gap: 0px
