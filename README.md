@@ -13,3 +13,5 @@ This is one idea for a new website to replace the very aged current one. I don't
 
 ### Other notes
 The images used all pretty much all temporary. Everything will be replaced with better images closer to production.
+
+( also the image directory is in the .gitignore, so you wont be seeing them anyways )
