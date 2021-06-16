@@ -61,13 +61,15 @@ https://nomadventures.com/
 
 =======================================================================================================
 
-todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
-    // remove default underline
-    // remove default visited color (only for the nav at this time)
-    style hover and active together with a background and/or color change
-    style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
-
-
+@ index.html & other general stuff
+todo - use the fonts in index.html (make a easy to read and copy/paste list)
+todo - make/implement a proper favicon
+todo - add react-icons icons to various parts of the app/pages/components
+todo - email list?
+todo - some sort of server integration?
+    Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
+    The site reads/updates a DB, like firebase
+    Then the deployed site gets updated values from firebase with fallbacks if no connection?
 todo - add more photos of the inside / outside of DRS
     clothing
     artwork?
@@ -77,35 +79,53 @@ todo - add more photos of the inside / outside of DRS
     chalk selection
     canyoneering ropes, bags, critter, quicklinks, etc?
 
+@ About page --------------------------------------
+
+@ Beta page ---------------------------------------
+
+@ Error page --------------------------------------
+
+@ Footer component ----------
+
+@ Guiding page ------------------------------------
+
+@ Header component ----------
+
+@ Home page ---------------------------------------
 todo - Better business name display, colors, font, size, position
     Maybe just use the main large backdrop of Desert Rock Sports, then after a short delay, start the carusel?
-
-todo - Mention resoling drop off boxes
-
-todo - use html5 style address, for shop for screen readers, etc?
-
-todo - make/implement a proper favicon
-
-todo - add react-icons icons to various parts of the app/pages/components
-
-todo - replace secret section link '.' with something else, like a FA icon
-
+todo - Instagram feed embed
+    Apparently this is WAY harder than it used to be, due to recently increased security.
+    Check your bookmarks, you made a folder with all the info you need to do it.
+    Need a certain FB account, IG acct, verify stuff, Heroku acct, etc...
+    Requires setting up a free heroku site and running an access token refresh agent...
+    then getting that token to here and using it. Very doable, but a hassle for another time I think.
 todo - better style the google map on the bottom of the home page
     It currently takes up 100% width and full height
     When doing less than full height, it leaves a gap at the bottom
     ... in _mapresponsive.sass mess with aspect ratio stuff, maybe breakpoints for them?
+todo - Mention resoling drop off boxes
+    - contact info
+    - prices
+    - other info: does approach shoes, rubber used, etc...
+    - turn around time: ?
+todo - play with parrallax
+todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 
-todo - embed instagram thing / good for news
-todo - embed instagram thing for SNCC / other
+@ Navbar component ----------
+todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
+    // remove default underline
+    // remove default visited color (only for the nav at this time)
+    style hover and active together with a background and/or color change
+    style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
 
-todo - email list?
+@ Other page --------------------------------------
+    What will it be?
 
+@ Secret page -------------------------------------
+todo - replace secret section link '.' with something else, like a FA icon
 
-
-todo - some sort of server integration?
-    Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
-    The site reads/updates a DB, like firebase
-    Then the deployed site gets updated values from firebase with fallbacks if no connection?
+@ Shop page ---------------------------------------
 
 
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
