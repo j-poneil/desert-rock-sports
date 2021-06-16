@@ -3,6 +3,9 @@ import GearCarousel from '../components/sub/GearCarousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import Styled from 'styled-components';
+// styles here:
+// src\stylesheets\pages\_gear.sass
+
 
 // generic responsive media query template from: https://angrytools.com/css/mediaquery/
 

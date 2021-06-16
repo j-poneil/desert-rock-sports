@@ -1,6 +1,7 @@
 import React from 'react';
 
-// style in stylesheets/_header.sass
+// styles here:
+// src\stylesheets\layout\_header.sass
 
 export default function Header(){
     return (

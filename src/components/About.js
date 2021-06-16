@@ -1,5 +1,8 @@
 import React from 'react';
 
+// styles here:
+// src\stylesheets\pages\_about.sass
+
 export default function About(){
     const staff = [
         {

@@ -1,5 +1,8 @@
 import React from 'react';
 
+// styles here:
+// src\stylesheets\layout\_footer.sass
+
 export default function Footer(){
     return (
         <div id="footer">

@@ -1,5 +1,8 @@
 import React from 'react';
 
+// styles here:
+// src\stylesheets\pages\_error.sass
+
 export default function Error(){
     return (
         <div id="error-container">

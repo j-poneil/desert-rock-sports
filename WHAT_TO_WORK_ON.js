@@ -81,6 +81,7 @@ todo - add more photos of the inside / outside of DRS
 todo - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site?
     IE Hours of operation, resole turn around time, guide service pricing, News, etc...
     Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
+todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
 
 @ Home page ---------------------------------------
 todo - Better business name display, colors, font, size, position
@@ -177,6 +178,10 @@ todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
     // remove default visited color (only for the nav at this time)
     style hover and active together with a background and/or color change
     style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
+
+@ RRResoles component / sub page ----------
+// todo - make a basic skeleton frame one
+todo - add before/after photos as a gallery or carousel
 
 @ Footer component ----------
 todo - fill it out in a meaningful way, or comment it out if it seems like it is currently useless

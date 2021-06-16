@@ -1,5 +1,8 @@
 import React from 'react';
 
+// styles here:
+// src\stylesheets\pages\_guiding.sass
+
 export default function Guiding(){
 
     const guides = [

@@ -4,12 +4,16 @@ import React from 'react';
 import Map from './sub/Map';
 import Splash from './sub/Splash';
 import News from './sub/News';
+import RRResoles from './sub/RRResoles';
 import Contact from './sub/Contact';
 
 // TEMP IMAGES for mocking up only
 import Pickles from '../img/temp/Pickles.jpg';
 import Simba from '../img/temp/IMG_20190320_215434_122.jpg';
 import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
+
+// Styles here:
+// src\stylesheets\pages\_home.sass
 
 
 export default function Home(){
@@ -63,6 +67,9 @@ Desert Rock Sports is owned and operated by climbers for backpackers, climbers, 
             {/* Maybe as a carousel */}
 
             {/* Check us out on IG? Subscribe to our mailing list? */}
+
+            {/* Resoles */}
+            <RRResoles />
 
             {/* Contact Us / where you at info */}
             <Contact />

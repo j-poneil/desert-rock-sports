@@ -422,6 +422,7 @@ a:focus {
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
   grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 #footer {
@@ -506,6 +507,10 @@ a:focus {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.rrresoles-text, .rrresoles-gallery, .rrresoles-cost, .rrresoles-contact {
+  border: 2px solid black;
 }
 
 .secret-flex-container {
