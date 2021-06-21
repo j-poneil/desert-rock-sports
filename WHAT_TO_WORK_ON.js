@@ -62,7 +62,8 @@ https://nomadventures.com/
 =======================================================================================================
 
 @ index.html & other general stuff
-todo - use the fonts in index.html (make a easy to read and copy/paste list)
+//todo - make a easy to read and copy/paste list of the fonts in index.html
+todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
 todo - make/implement a proper favicon
 todo - add react-icons icons to various parts of the app/pages/components
 todo - email list?
@@ -105,6 +106,7 @@ todo - play with parrallax
 todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 
 @ About page --------------------------------------
+todo - the flex looks shitty, switch out for grid ???
 todo - Touch up and make responsive the main story
 todo - Decide how to display personel
     * Carousel, slower, and succinct bio for each could look great, worry the bio would be too long on mobile
