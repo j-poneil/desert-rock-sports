@@ -239,3 +239,37 @@ FaRegCircle / FaRegDotCircle
 @media (min-width: 320px) and (max-width: 480px) {}
 
 =====================================
+
+Fonts I have installed in index.html
+
+Handwriting style fonts:
+  Amatic SC wt 400, 700
+  Caveat wt 400, 700
+  Gochi Hand
+  Indie Flower
+  Loved by the King
+  Pacifico
+  Permanent Marker
+  Rock Salt
+
+Monospace style fonts:
+  Inconsolata wt 400, 700
+
+Display Style Fonts:
+  Abril Fatface
+  Alfa Slab One
+  Bowlby One SC
+  Eater
+  Fredricka the Great
+  Frijole
+  Miltonian
+  Rye
+  Trade Winds
+
+Sans Serif fonts:
+  Roboto:ital wt 0,400; 0,700; 1,400; 1,700
+
+Serif Fonts:
+  Roboto Slab wt 400, 700, 900
+
+==============================================================
