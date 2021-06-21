@@ -10,7 +10,7 @@ import React from 'react';
 // * Img or gallery/carousel
 // * Contact info ???
 
-// IG feed embed for him would be great too, but a big hassle as I have noted elsewhere
+// IG feed embed for him would be great too, but IG embeds are now, after FB changes, a big hassle as I have noted elsewhere
 
 function RRResoles() {
     return (
