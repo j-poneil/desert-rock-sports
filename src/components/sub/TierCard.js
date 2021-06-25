@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TierCard = (img, imgSm, imgAltText, imgCredit, tierName, tierDuration, tierDescription, costTable, tierNotes) => {
+const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, tierDescription, costTable, tierNotes }) => {
     const outputCostTable = (
         <table>
             <thead>
