@@ -138,8 +138,10 @@ todo - fill this out
         hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 
 @ Guiding page ------------------------------------
+// todo - download original guiding page images
 todo - replicate / improve upon the existing graphics and info, pricing display, etc that is available on the gym site
 todo - take direction from that site i didn't even know existed !!!, images!
+    TO LATE, ITS GONE
 todo - decide on guide bio cards or carousel
     bio cards I could just re-use the card i develop for the employee cards, probably
 todo - gallery or carousel of photos from guiding
@@ -166,6 +168,7 @@ todo - what content can go here ?
 todo - make a great one
     slightly random error page graphic/text?
     ladylockoff rope/gear art spelling 404 ? ha not a bad idea
+    Some classic photo with abysmal gear placement?
 
 
 
