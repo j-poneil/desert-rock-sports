@@ -139,9 +139,8 @@ todo - fill this out
 
 @ Guiding page ------------------------------------
 // todo - download original guiding page images
-todo - replicate / improve upon the existing graphics and info, pricing display, etc that is available on the gym site
-todo - take direction from that site i didn't even know existed !!!, images!
-    TO LATE, ITS GONE
+// todo - re-make it rough
+todo - make it better, more
 todo - decide on guide bio cards or carousel
     bio cards I could just re-use the card i develop for the employee cards, probably
 todo - gallery or carousel of photos from guiding
