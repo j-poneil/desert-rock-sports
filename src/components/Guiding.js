@@ -28,11 +28,11 @@ export default function Guiding(){
             tierDuration: "4-5 Hours",
             tierDescription: "Description of a tier 1 half day",
             costTable: [
-                {1: "$225"},
-                {2: "$300"},
-                {3: "$420"},
-                {4: "$520"},
-                {5: "$600"}
+                {1: '$225'},
+                {2: '$300'},
+                {3: '$420'},
+                {4: '$520'},
+                {5: '$600'}
             ],
             tierNotes: "Prices are total, not per-person. We can accomodate large groups. In general for every climber after 5 climbers, we add $100. Example: 8 climbers would be $900 total."
         },
