@@ -4,37 +4,37 @@ import { Table } from 'react-bootstrap'; // ! -- REACT-BOOTSTRAP
 
 const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, tierDescription, costTable, tierNotes }) => {
     const outputCostTable = (
-        <table>
+        <Table striped bordered hover>
             <thead>
                 <tr>
-                    <td>Number of Climbers</td>
-                    <td>Total Cost</td>
+                    <th>Number of Climbers</th>
+                    <th>Total Cost</th>
                 </tr>
             </thead>
-            <tobdy>
+            <tbody>
                 {
-                    costTable.map(row => (
-                        <tr>
-                            <td>{ row.keys }</td>
-                            <td>{ row.values }</td>
+                    costTable.map((item, index) => (
+                        <tr key={index}>
+                            <td>{ index + 1 }</td>
+                            <td>{ item[index + 1] }</td>
                         </tr>
                         )
                     )
                 }
-            </tobdy>
-        </table>
+            </tbody>
+        </Table>
     );
 
     return (
         <div>
             {/* <picture>
-                <source srcset="extralarge.jpg" media="(min-width: 1000px)" />
-                <source srcset="large.jpg" media="(min-width: 800px)" />
-                <img srcset="medium.jpg" alt="alt text" />
+                <source srcSet="extralarge.jpg" media="(min-width: 1000px)" />
+                <source srcSet="large.jpg" media="(min-width: 800px)" />
+                <img srcSet="medium.jpg" alt="alt text" />
             </picture> */}
             <picture>
-                <source srcset={ img } media="(min-width: 800px)" />
-                <img srcset={ imgSm } alt={ imgAltText } />
+                <source srcSet={ img } media="(min-width: 800px)" />
+                <img src={ imgSm } alt={ imgAltText } />
             </picture>
             <p>{ imgCredit }</p>
             <h2>{ tierName }</h2>
