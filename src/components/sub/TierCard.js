@@ -4,7 +4,7 @@ import { Table } from 'react-bootstrap'; // ! -- REACT-BOOTSTRAP
 
 const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, tierDescription, costTable, tierNotes }) => {
     const outputCostTable = (
-        <Table striped bordered hover>
+        <Table striped bordered hover size="sm">
             <thead>
                 <tr>
                     <th>Number of Climbers</th>

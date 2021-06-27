@@ -140,7 +140,11 @@ todo - fill this out
 @ Guiding page ------------------------------------
 // todo - download original guiding page images
 // todo - re-make it rough
-todo - make it better, more
+todo - possibly separate the objects in Guiding.js into other .js files that have their own imports for pictures, etc... then export them and import them into Guiding.js. More clean.
+todo - work on the styling of Guiding.js AND TierCard.js
+todo - work on responsive aspects of both
+todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
+todo - make sure tab through accessibility is there
 todo - decide on guide bio cards or carousel
     bio cards I could just re-use the card i develop for the employee cards, probably
 todo - gallery or carousel of photos from guiding
@@ -161,6 +165,7 @@ todo - gallery or carousel of photos from guiding
 
 @ Secret page -------------------------------------
 todo - replace secret section link '.' with something else, like a FA icon
+    it could be cool if it was a transparent icon, which you hover over for like a full second, then a opaque dropshadow or something shows up and it doesn't appear clickable until after this time ?
 todo - what content can go here ?
 
 @ Error page --------------------------------------
