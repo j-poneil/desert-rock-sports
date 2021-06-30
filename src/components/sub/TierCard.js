@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Table } from 'react-bootstrap'; // ! -- REACT-BOOTSTRAP
+import Table from 'react-bootstrap/Table'; // ! -- REACT-BOOTSTRAP
 
 const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, tierDescription, costTable, tierNotes }) => {
     const outputCostTable = (
