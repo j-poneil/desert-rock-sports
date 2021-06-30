@@ -3,6 +3,9 @@ import React from 'react';
 // styles here:
 // src\stylesheets\layout\_header.sass
 
+// ! CURRENTLY NOT USING.
+// ? I think it looks better to not use it actually.
+
 export default function Header(){
     return (
         <div id="header">
