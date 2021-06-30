@@ -25,8 +25,8 @@ import Error from './components/Error';
 function App() {
   return (
     <main>
-      {/* Header here (DRS Text, Logo, etc...) */}
-      <Header />
+      {/* Header here (DRS Text, Logo, etc...) THAT WILL BE VISIBLE ON EVERY PAGE. */}
+      {/* <Header /> */}
 
       {/* Navbar here */}
       <Navbar />
