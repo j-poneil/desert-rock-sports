@@ -62,7 +62,6 @@ https://nomadventures.com/
 =======================================================================================================
 
 @ index.html & other general stuff
-//todo - make a easy to read and copy/paste list of the fonts in index.html
 todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
 todo - make/implement a proper favicon
 todo - add react-icons icons to various parts of the app/pages/components
@@ -84,6 +83,7 @@ todo - is this a stupid idea: a central object with a lot of the info that could
     Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
 todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
+//todo - make a easy to read and copy/paste list of the fonts in index.html
 // todo - should I have a navbar link to the gym ??? Seems like yes, duh.
 
 
@@ -145,13 +145,7 @@ todo - fill this out
 
 @ Guiding page ------------------------------------
 todo - add some sort of divider between tiers and guiding roster
-todo - possibly separate the objects in Guiding.js into other .js files that have their own imports for pictures, etc... then export them and import them into Guiding.js. More clean.
-    - fully separate files so that in Guiding.js I just have <Tiers/> and <Guides/> or something could be good
-        - THEN in those individual files can have them import the data from components/data/file.json using require
-            - NO. Don't do this, double quotes are necessary around the keys to be properly formatted JSON
-            - AND can't do any comments
-            - May be kinda lame to not actually use JSON, but regular JS is a bit more versatile here
-        - OR in file.js and export as a named export, and import as such
+todo - SOME DIVIDER between tiers and guides... could be a good place for a gallery or carousel
 todo - fix 'Red Rock Climbing Guides' -- maybe with a Jumbotron or Card, a logo would be good here
     - AND the text to the side can use better formatting and possibly a similar treatment, I think Card probably best
 todo - fix photo credit
@@ -165,13 +159,11 @@ todo - give some bit of info that makes it clear that a bit of advanced noticed 
 todo - give some info on how booking usually goes, payment, when the guide reaches out, where you typically meet, what will happen there (waivers, gear), carpool, etc...
 todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
 todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
-todo - SOME DIVIDER between tiers and guides... could be a good place for a gallery or carousel
 todo - maybe some intro into our guides instead of just spitting out bios?
-todo - decide on guide bio cards or carousel
-    bio cards I could just re-use the card i develop for the employee cards, probably
-    OR use react-bootstrap card
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
+// todo - decide on guide bio cards or carousel
+// todo - possibly separate the objects in Guiding.js into other .js files that have their own imports for pictures, etc... then export them and import them into Guiding.js. More clean.
 // todo - download original guiding page images
 // todo - re-make it rough
 // todo - implement react-bootstrap cards, layout
