@@ -1,6 +1,6 @@
 # Desert Rock Sports
 ---
-This is one idea for a new website to replace the very aged current one. I don't know if we will actually go with this or not. Maybe something much simpler. I should probably either go all in with SASS or all in for styled-components, not mix and match. Oh well. Very much in progress. Have been working on and off on this for a while without having it on github... but no reason to not have it here, so here it is.
+This is one idea for a new website to replace the very aged current one. I don't know if we will actually go with this or not. Maybe something much simpler. I should probably either go all in with SASS, styled-components, or react-bootstrap default styles and not mix and match too much. Oh well. Very much in progress. Have been working on and off on this for a while without having it on github... but no reason to not have it here, so here it is.
 
 ## Technologies
 * React ( create-react-app )
@@ -8,6 +8,7 @@ This is one idea for a new website to replace the very aged current one. I don't
 
 ### Packages
 * react-router
+* react-bootstrap
 * styled-components
 * react-responsive-carousel
 
