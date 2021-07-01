@@ -1,21 +1,32 @@
 import React from 'react';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
+
 // styles here:
 // src\stylesheets\pages\_beta.sass
 
-// This is the climbing info page for area climbing information. It will have a ton of stuff, so organization and not allowing it to get too hectic will be important.
-// I'd kinda like to have some style of climbing specific sections, like cracks, OW, sport multipitch, etc...
-    // maybe accordion?
+// ? - Accordian? Cards? Modals? Tabs?
 
-// A section for hiking info too?
-// Canyoneering?
-// Trail running?
-// MTB?
-// 
+
+// Hiking, Canyoneering, Showers, Free Camping, Paid Camping, Trail Running, MTB Trails, Food Beta, Laundry, Coffee Shops, Seasonal Area recommendations (summer shade/altitude, winter sun), rainy day options, Route recommendations per style?, 
+
 export default function Beta(){
     return (
-        <div>
-            Beta
-        </div>
+        <Container fluid>
+            <Row xl={3} lg={3} md={2} sm={2} xs={1}>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+            </Row>
+        </Container>
     );
 }
