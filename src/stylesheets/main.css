@@ -350,39 +350,6 @@ html {
   font-size: 2em;
 }
 
-#navbar-list {
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
-.nav-item {
-  display: inline-block;
-  padding: 10px;
-  font-size: 1.5em;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  color: inherit;
-}
-
-a:hover,
-a:active {
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-}
-
-a:focus {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 3px lightskyblue;
-          box-shadow: 0 0 0 3px lightskyblue;
-}
-
 .contact-flex {
   display: -webkit-box;
   display: -ms-flexbox;
