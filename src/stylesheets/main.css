@@ -345,25 +345,6 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-.contact-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contact-flex-item {
-  border: 5px dashed black;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
-}
-
 .twoflex-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,10 +450,6 @@ html {
   height: 100%;
   width: 100%;
   position: absolute;
-}
-
-.rrresoles-text, .rrresoles-gallery, .rrresoles-cost, .rrresoles-contact {
-  border: 2px solid black;
 }
 
 .secret-flex-container {
