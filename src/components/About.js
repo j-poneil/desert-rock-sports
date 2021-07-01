@@ -6,96 +6,15 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 
+//% update staff bios, imgs, etc here
+import { staff } from './data/staffList';
+
 // styles here:
 // src\stylesheets\pages\_about.sass
 
 export default function About(){
-    const staff = [
-        {
-            name: "Travis Graves",
-            bio1: "continues to be the store buyer and manager. He is the person you will most likely see or talk to on the phone. He is a wealth of information about outdoor gear and the local climbing routes. The store is small, but Travis makes sure the store is well stocked in gear, shoes and clothing for camping, backpacking and canyoneering, as well as for climbing.",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: true
-        },
-        {
-            name: "Mike Lorenzo",
-            bio1: "who came to Las Vegas from New York about ten years ago, enjoys hiking, skiing, snowboarding and climbing. Mike is also a student of Yoga. Mike says that Yoga has given him the flexibility and strength he needs for climbing.",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: true
-        },
-        {
-            name: "Steve Mallory",
-            bio1: "has a background in finance and helps with the bookkeeping. He has been climbing since 1979 and has lived in Las Vegas for 22 years. Steve recently developed a passion for canyoneering and has added Imlay Canyon Gear, static rope and the La Sportiva Exum River Shoe, to the store's inventory.",
-            bio2: "Canyoneering in Zion is a great way to beat the heat in Las Vegas during the summer months!",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: true
-        },
-        {
-            name: "Dan Young",
-            bio1: "",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: true
-        },
-        {
-            name: "Josh Janes",
-            bio1: "",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: true
-        },
-        {
-            name: "Lisa Buchina",
-            bio1: "",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: false
-        },
-        {
-            name: "Lisa Aquino",
-            bio1: "",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: false
-        },
-        {
-            name: "Travis O'Neil (aka T2)",
-            bio1: "",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: true
-        },
-        {
-            name: "Adam Happensack",
-            bio1: "",
-            bio2: "",
-            bio3: "",
-            pic: "",
-            ig: "",
-            active: true
-        }
-    ];
-
     // these use short circuit evaluation inline
-    // like {i.bio2 !== "" && <p>i.bio2</p>}
+    // like {i.bio2 !== "" && <p>{i.bio2}</p>}
     // they work because if both evaluate to true, the second thing is returned
     // if false, it is ignored
     const staffList = staff.map((i) => {
@@ -104,7 +23,7 @@ export default function About(){
                 <Col key={i.name}>
                     <Card>
                         <Card.Body>
-                            <Card.Img src='https://via.placeholder.com/500x400' alt={i.name} />
+                            <Card.Img src={i.imgSrc} alt={i.name} />
                             <Card.Title>{ i.name }</Card.Title>
                             <Card.Subtitle>{ i.ig !== "" && <a href={i.ig}>IG</a> }</Card.Subtitle>
                             <Card.Text>
