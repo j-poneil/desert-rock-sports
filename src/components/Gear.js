@@ -1,4 +1,12 @@
 import React from 'react';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
+
+
 import GearCarousel from '../components/sub/GearCarousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -37,22 +45,25 @@ export default function Gear(){
     `;
 
     return (
-        <div>
+        <Container fluid>
             {/* The carousel of gear photos */}
             <CarouselContainer>
                 <GearCarousel />
             </CarouselContainer>
 
-
-            {/* Probably a .twoflex-container */}
             {/* Climbing / Canyoneering */}
-
-
-            {/* Probably a .twoflex-container */}
             {/* Hiking, Backpacking, and Camping --- ? */}
-
-
-            {/*  */}
-        </div>
+            {/* Clothing? Whatever else? */}
+            <Container>
+                <Row xl={3} lg={3} md={2} sm={2} xs={1}>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                </Row>
+            </Container>
+        </Container>
     );
 }
