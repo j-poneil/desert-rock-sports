@@ -83,10 +83,12 @@ todo - is this a stupid idea: a central object with a lot of the info that could
     IE Hours of operation, resole turn around time, guide service pricing, News, etc...
     Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
+todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 
 @ Home page ---------------------------------------
 todo - Better business name display, colors, font, size, position
     Maybe just use the main large backdrop of Desert Rock Sports, then after a short delay, start the carusel?
+// todo - MUCH better section / div styling
 todo - Instagram feed embed
     Apparently this is WAY harder than it used to be, due to recently increased security.
     Check your bookmarks, you made a folder with all the info you need to do it.
@@ -104,6 +106,8 @@ todo - Mention resoling drop off boxes in another lower section, before contact 
     - turn around time: ?
 todo - play with parrallax
 todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
+todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
+    - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
 
 @ About page --------------------------------------
 todo - the flex looks shitty, switch out for grid ???
@@ -140,13 +144,31 @@ todo - fill this out
 @ Guiding page ------------------------------------
 // todo - download original guiding page images
 // todo - re-make it rough
+// todo - implement react-bootstrap cards, layout
+// todo - set a good card width
+// todo - make sure the cards fill all horizontal space when suitable, ie on smaller screens
 todo - possibly separate the objects in Guiding.js into other .js files that have their own imports for pictures, etc... then export them and import them into Guiding.js. More clean.
-todo - work on the styling of Guiding.js AND TierCard.js
-todo - work on responsive aspects of both
+    - fully separate files so that in Guiding.js I just have <Tiers/> and <Guides/> or something could be good
+        - THEN in those individual files can have them import the data from components/data/file.json using require
+        - OR in file.js and export as a named export, and import as such
+todo - fix 'Red Rock Climbing Guides' -- maybe with a Jumbotron or Card, a logo would be good here
+    - AND the text to the side can use better formatting and possibly a similar treatment, I think Card probably best
+todo - fix photo credit
+    - either position at the bottom with white outline to be always readable
+    - or put below in small text align-right before the Tier title
+todo - bump up Tier font
+todo - add suitable tier descriptions
+todo - the levitation photo actually appears to be slightly shorter than the other ones
+todo - probably add some bar below everything that says that we can accomodate other complicated outings, such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do.
+todo - give some bit of info that makes it clear that a bit of advanced noticed is HIGHLY beneficial
+todo - give some info on how booking usually goes, payment, when the guide reaches out, where you typically meet, what will happen there (waivers, gear), carpool, etc...
 todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
-todo - make sure tab through accessibility is there
+todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
+todo - SOME DIVIDER between tiers and guides... could be a good place for a gallery or carousel
+todo - maybe some intro into our guides instead of just spitting out bios?
 todo - decide on guide bio cards or carousel
     bio cards I could just re-use the card i develop for the employee cards, probably
+    OR use react-bootstrap card
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
 
@@ -182,11 +204,17 @@ todo - make a great one
 @ Header component ----------
 
 @ Navbar component ----------
-todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
+todo - fix small screen hamburger dropdown mixing with Splash / Hero image/text poorly
+    - it is due to the .splash-text css styling, position: absolute... mostly at least.
+    - maybe try fixing by replacing with react-bootstrap Jumbotron or a carousel... or maybe just a generic react-bootstrap Container
+todo - add a DRS logo image to the 'branding' nav item / link
+* - using fixed="top" on the NavbarRBS would necessitate adding padding-top to the Switch to prevent cutting off the top content of all pages... for now going to go w/o doing this, but something to keep in mind incase I decide to switch it up later on.
+// todo - swap out with react-bootstrap NavBar and see how I like it...
+// todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
     // remove default underline
     // remove default visited color (only for the nav at this time)
-    style hover and active together with a background and/or color change
-    style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
+    // style hover and active together with a background and/or color change
+    // style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
 
 @ RRResoles component / sub page ----------
 // todo - make a basic skeleton frame one
