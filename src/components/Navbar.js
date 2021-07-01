@@ -1,30 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// ! currently disabled these styles, just using the react-bootstrap default ones
 // styles here:
 // src\stylesheets\layout\_navbar.sass
 
-// Just calling react-bootstraps 'Navbar' as 'NavbarRBS'
+// Just calling react-bootstraps 'Navbar' as 'NavbarRBS' to avoid having to rename stuff elsewhere
 import NavbarRBS from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-
+// ? fixed="top" in the NavbarRBS could be nice. BUT it would mean needing to add padding-top to the Switch or something to prevent it from cutting off the top content of all pages... so will go w/o for now.
 export default function Navbar(){
     return (
-        <NavbarRBS expand="lg" bg="dark" varient="dark">
-            <NavbarRBS.Brand href="/">Desert Rock Sports</NavbarRBS.Brand> {/* //! will this work? */}
+        <NavbarRBS collapseOnSelect expand="lg" bg="light" varient="light" role="navigation">
+            <NavbarRBS.Brand href="/">
+                {/* <img
+                    src="/logo.svg"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="Desert Rock Sports Logo"
+                />{' '} */}
+                Desert Rock Sports
+            </NavbarRBS.Brand>
             <NavbarRBS.Toggle aria-controls="responsive-navbar-nav" />
             <NavbarRBS.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Item><Link to="/about">About</Link></Nav.Item>
-                    <Nav.Item><Link to="/gear">Gear</Link></Nav.Item>
-                    <Nav.Item><Link to="/beta">Beta</Link></Nav.Item>
-                    <Nav.Item><Link to="/guiding">Guiding</Link></Nav.Item>
-                    <Nav.Item><Link to="/other">Other</Link></Nav.Item>
-                    <Nav.Item><Link to="/shop">Shop</Link></Nav.Item>
-                    <Nav.Item><Link to="/secret">Secret</Link></Nav.Item>
+                <Nav className="ml-auto"> 
+                    <Nav.Link href="/about">About</Nav.Link>
+                    <Nav.Link href="/gear">Gear</Nav.Link>
+                    <Nav.Link href="/beta">Beta</Nav.Link>
+                    <Nav.Link href="/guiding">Guiding</Nav.Link>
+                    <Nav.Link href="/other">Other</Nav.Link>
+                    <Nav.Link href="/shop">Shop</Nav.Link>
+                    <Nav.Link href="/secret">Secret</Nav.Link>
                     {/* Insert new navbar items above */}
-                    {/* <Nav.Item><Link to="/pagetolinkto">Page</Link></Nav.Item> */}
+                    {/* <Nav.Link href="/pagetolinkto">Page</Nav.Link> */}
                 </Nav>
             </NavbarRBS.Collapse>
         </NavbarRBS>
