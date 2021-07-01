@@ -1,5 +1,11 @@
 import React from 'react';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
+
 // styles here:
 // src\stylesheets\pages\_about.sass
 
@@ -95,17 +101,20 @@ export default function About(){
     const staffList = staff.map((i) => {
         if(i.active){
             return (
-                <div key={i.name} className="twoflex-container">
-                    <div>
-                        <img className="splash-img" src='https://via.placeholder.com/500x400' alt={i.name} />
-                    </div>
-                    <div>
-                        <h3>{i.name} {i.ig !== "" && <a href={i.ig}>IG</a>}</h3>
-                        <p>{i.bio1}</p>
-                        {i.bio2 !== "" && <p>i.bio2</p>}
-                        {i.bio3 !== "" && <p>i.bio3</p>}
-                    </div>
-                </div>
+                <Col key={i.name}>
+                    <Card>
+                        <Card.Body>
+                            <Card.Img src='https://via.placeholder.com/500x400' alt={i.name} />
+                            <Card.Title>{ i.name }</Card.Title>
+                            <Card.Subtitle>{ i.ig !== "" && <a href={i.ig}>IG</a> }</Card.Subtitle>
+                            <Card.Text>
+                                <p>{i.bio1}</p>
+                                {i.bio2 !== "" && <p>{i.bio2}</p>}
+                                {i.bio3 !== "" && <p>{i.bio3}</p>}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             );
         }
     });
@@ -113,52 +122,65 @@ export default function About(){
     const inactiveStaffList = staff.map((i) => {
         if(!i.active){
             return (
-                <div key={i.name} className="twoflex-container">
-                    <div>
-                        <img className="splash-img" src='https://via.placeholder.com/500x400' alt={i.name} />
-                    </div>
-                    <div>
-                        <h3>{i.name}</h3>
-                        <p>{i.bio1}</p>
-                        {i.bio2 !== "" && <p>i.bio2</p>}
-                        {i.bio3 !== "" && <p>i.bio3</p>}
-                    </div>
-                </div>
+                <Col key={i.name}>
+                    <Card>
+                        <Card.Body>
+                            <Card.Img src='https://via.placeholder.com/500x400' alt={i.name} />
+                            <Card.Title>{ i.name }</Card.Title>
+                            <Card.Subtitle>{ i.ig !== "" && <a href={i.ig}>IG</a> }</Card.Subtitle>
+                            <Card.Text>
+                                <p>{i.bio1}</p>
+                                {i.bio2 !== "" && <p>{i.bio2}</p>}
+                                {i.bio3 !== "" && <p>{i.bio3}</p>}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             );
         }
     });
 
     return (
-        <div>
-            {/*
-            Idea for the page... History, how long we have been serving the area, etc...
-            
-            Then go down into staff bios.
-            */}
-            
-            {/*  */}
-            <div className="twoflex-container">
-                <div>
-                    <h2>How they met...</h2>
-                    <p>Mike Lorenzo, Steve Mallory and Travis Graves met through their love of climbing at Red Rock Climbing Center (formerly, Powerhouse Gym). Travis, who was the store manager for Desert Rock Sports, approached Mike and Steve with the idea of forming a partnership to buy the store from Mike and Tim Ward who wanted to retire. In February 2005 the partnership was born.</p>
-                    <p>All three are active climbers and are members of Las Vegas Climbers' Liaison Council, an organization that is dedicated to ensuring climbing access, encouraging stewardship of the environment, and cultivating a sense of community in a world-class climbing destination.</p>
-                </div>
-                <div>
-                <img className="splash-img" src='https://via.placeholder.com/500x400' alt="The OG DRS crew" />
-                </div>
-            </div>
+        <Container fluid>
+            <Row xl={2} lg={2} md={2} sm={2} xs={1}>
+                <Col>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>How they met...</Card.Title>
+                            <Card.Text>
+                                <p>Mike Lorenzo, Steve Mallory and Travis Graves met through their love of climbing at Red Rock Climbing Center (formerly, Powerhouse Gym). Travis, who was the store manager for Desert Rock Sports, approached Mike and Steve with the idea of forming a partnership to buy the store from Mike and Tim Ward who wanted to retire. In February 2005 the partnership was born.</p>
+                                <p>All three are active climbers and are members of Las Vegas Climbers' Liaison Council, an organization that is dedicated to ensuring climbing access, encouraging stewardship of the environment, and cultivating a sense of community in a world-class climbing destination.</p>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Body>
+                            <Card.Img src='https://via.placeholder.com/500x400' alt="The OG DRS crew" />
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>(... History? ...)</Col>
+                <Col>( something )</Col>
+                <Col>( something )</Col>
+            </Row>
 
+            <Container>
+                <Row xl={4} lg={3} md={2} sm={2} xs={1}>
+                    { staffList }
+                </Row>
+            </Container>
 
-            {/* Active staff */}
-            <div>
-                {staffList}
-            </div>
+            <hr />
 
             {/* Past / Inactive staff */}
             {/* Probably don't need to show, but maybe still could, like with greyed out background? */}
-            <div>
-                {inactiveStaffList}
-            </div>
-        </div>
+            <Container>
+                <Row xl={4} lg={3} md={2} sm={2} xs={1}>
+                    { inactiveStaffList }
+                </Row>
+            </Container>
+        </Container>
     );
 }
