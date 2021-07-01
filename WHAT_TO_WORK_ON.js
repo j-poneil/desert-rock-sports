@@ -88,17 +88,12 @@ todo - navigate through each page as if I had no mouse... with tabbing and arrow
 @ Home page ---------------------------------------
 todo - Better business name display, colors, font, size, position
     Maybe just use the main large backdrop of Desert Rock Sports, then after a short delay, start the carusel?
-// todo - MUCH better section / div styling
 todo - Instagram feed embed
     Apparently this is WAY harder than it used to be, due to recently increased security.
     Check your bookmarks, you made a folder with all the info you need to do it.
     Need a certain FB account, IG acct, verify stuff, Heroku acct, etc...
     Requires setting up a free heroku site and running an access token refresh agent...
     then getting that token to here and using it. Very doable, but a hassle for another time I think.
-todo - better style the google map on the bottom of the home page
-    It currently takes up 100% width and full height
-    When doing less than full height, it leaves a gap at the bottom
-    ... in _mapresponsive.sass mess with aspect ratio stuff, maybe breakpoints for them?
 todo - Mention resoling drop off boxes in another lower section, before contact info?
     - contact info
     - prices
@@ -108,6 +103,9 @@ todo - play with parrallax
 todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
+// todo - MUCH better section / div styling
+// todo - better organization / presentation with react-bootstrap grid stuff
+// todo - better style the google map on the bottom of the home page
 
 @ About page --------------------------------------
 todo - the flex looks shitty, switch out for grid ???
@@ -120,6 +118,7 @@ todo - Decide how to display personel
         COULD grab this info from a server... but thats server requests, and like guide roster this doesn't change that fast
 todo - figure out a nice background, maybe use some parallax
 todo - probably move nav link position of the about page to just left of 'Shop'
+
 
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
 //todo - add carousel to gear page
@@ -150,6 +149,9 @@ todo - fill this out
 todo - possibly separate the objects in Guiding.js into other .js files that have their own imports for pictures, etc... then export them and import them into Guiding.js. More clean.
     - fully separate files so that in Guiding.js I just have <Tiers/> and <Guides/> or something could be good
         - THEN in those individual files can have them import the data from components/data/file.json using require
+            - NO. Don't do this, double quotes are necessary around the keys to be properly formatted JSON
+            - AND can't do any comments
+            - May be kinda lame to not actually use JSON, but regular JS is a bit more versatile here
         - OR in file.js and export as a named export, and import as such
 todo - fix 'Red Rock Climbing Guides' -- maybe with a Jumbotron or Card, a logo would be good here
     - AND the text to the side can use better formatting and possibly a similar treatment, I think Card probably best
@@ -221,7 +223,7 @@ todo - add a DRS logo image to the 'branding' nav item / link
 todo - add before/after photos as a gallery or carousel
 
 @ Footer component ----------
-todo - fill it out in a meaningful way, or comment it out if it seems like it is currently useless
+? - Do I even want to have one? I just commented it out in App.js for now...
 
 
 
