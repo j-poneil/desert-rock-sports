@@ -345,11 +345,6 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-#header {
-  background-image: url("https://via.placeholder.com/1920x250");
-  font-size: 2em;
-}
-
 .contact-flex {
   display: -webkit-box;
   display: -ms-flexbox;
