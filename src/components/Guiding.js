@@ -1,5 +1,11 @@
 import React from 'react';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import CardDeck from 'react-bootstrap/CardDeck';
+
 import TierCard from './sub/TierCard';
 
 // % Photo imports here:
@@ -12,6 +18,7 @@ import Birdland_500w from '../img/RRCG/Birdland_500px_by_Matt_Kuehl.jpeg';
 import Levitation29 from '../img/RRCG/Levitation29_original_by_Matt_Kuehl.jpeg';
 import Levitation29_500w from '../img/RRCG/Levitation29_500px_by_Matt_Kuehl.jpeg';
 
+// styles currently empty
 // styles here:
 // src\stylesheets\pages\_guiding.sass
 
@@ -59,7 +66,7 @@ export default function Guiding(){
             imgAltText: "A climber on an exciting and classic multipitch rock climb called Birdland.",
             imgCredit: "Birdland. Photo by Matt Kuehl.",
             tierName: "Tier 2 - Multipitch",
-            tierDuration: "7-8 Hours (plus or minus)",
+            tierDuration: "7-8 Hours (+/-)",
             tierDescription: "(add later)",
             costTable: [
                 {1: "$350"},
@@ -87,18 +94,20 @@ export default function Guiding(){
     //
     const tierList = tiers.map((i) => {
         return (
-            <TierCard
-                key={i.key}
-                img={i.img}
-                imgSm={i.imgSm}
-                imgAltText={i.imgAltText}
-                imgCredit={i.imgCredit}
-                tierName={i.tierName}
-                tierDuration={i.tierDuration}
-                tierDescription={i.tierDescription}
-                costTable={i.costTable}
-                tierNotes={i.tierNotes}
-            />
+            <Col>
+                <TierCard
+                    key={i.key}
+                    img={i.img}
+                    imgSm={i.imgSm}
+                    imgAltText={i.imgAltText}
+                    imgCredit={i.imgCredit}
+                    tierName={i.tierName}
+                    tierDuration={i.tierDuration}
+                    tierDescription={i.tierDescription}
+                    costTable={i.costTable}
+                    tierNotes={i.tierNotes}
+                />
+            </Col>
         );
     });
 
@@ -175,20 +184,28 @@ export default function Guiding(){
 
     return (
         <div>
-            <section className="twogrid-container">
-                <div>
-                    Red Rock Climbing Guides
-                </div>
-                <div>
-                    <p>The entire staff of the Red Rock Climbing Guides (RRCG) believes our responsibility to the climbing community does not begin and end at our front door. We recognize it extends across the globe, anywhere our climbers are climbing.</p>
-                    <p>We are committed to providing a safe outdoor rock climbing experience regardless of your ability. Our goal is to help you develop your rock-craft skills while becoming a knowledgeable, efficient, environmentally-aware climber focused on safety and leave-no-trace ethics.</p>
-                    <p>All of our activities are designed to help you develop self-reliance, teamwork and self-confidence on the rock. After completing any of our activities, you will be a better, more competent climber.</p>
-                    <p>Red Rock Climbing Guides operate in the Red Rock Canyon National Conservation Area by permission of the Las Vegas District of the Bureau of Land Management. We are Las Vegas' only locally-owned guide service and are prepared to make your outdoor experience Fun, Affordable, and Safe!</p>
-                    <p>We provide all your technical equipment! You only need to bring food, water, a decent pair of shoes for hiking in, and clothing appropriate for the season and activity. Call us if you need assistance.</p>
-                </div>
-            </section>
+            <Container fluid>
+                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
+                    <Col>
+                        Red Rock Climbing Guides
+                    </Col>
+                    <Col>
+                        <p>The entire staff of the Red Rock Climbing Guides (RRCG) believes our responsibility to the climbing community does not begin and end at our front door. We recognize it extends across the globe, anywhere our climbers are climbing.</p>
+                        <p>We are committed to providing a safe outdoor rock climbing experience regardless of your ability. Our goal is to help you develop your rock-craft skills while becoming a knowledgeable, efficient, environmentally-aware climber focused on safety and leave-no-trace ethics.</p>
+                        <p>All of our activities are designed to help you develop self-reliance, teamwork and self-confidence on the rock. After completing any of our activities, you will be a better, more competent climber.</p>
+                        <p>Red Rock Climbing Guides operate in the Red Rock Canyon National Conservation Area by permission of the Las Vegas District of the Bureau of Land Management. We are Las Vegas' only locally-owned guide service and are prepared to make your outdoor experience Fun, Affordable, and Safe!</p>
+                        <p>We provide all your technical equipment! You only need to bring food, water, a decent pair of shoes for hiking in, and clothing appropriate for the season and activity. Call us if you need assistance.</p>
+                    </Col>
+                </Row>
+            </Container>
             
-            { tierList }
+            <Container fluid>
+                <Row xl={4} lg={2} md={2} sm={2} xs={1}>
+                    { tierList }
+                </Row>
+
+            </Container>
+            
             { guideList }
         </div>
     );
