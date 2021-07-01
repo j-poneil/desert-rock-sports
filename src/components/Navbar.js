@@ -29,12 +29,15 @@ export default function Navbar(){
                     <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/gear">Gear</Nav.Link>
                     <Nav.Link href="/beta">Beta</Nav.Link>
+                    <Nav.Link href="https://www.redrockclimbingcenter.com/" target="_blank">Gym</Nav.Link>
                     <Nav.Link href="/guiding">Guiding</Nav.Link>
                     <Nav.Link href="/other">Other</Nav.Link>
                     <Nav.Link href="/shop">Shop</Nav.Link>
                     <Nav.Link href="/secret">Secret</Nav.Link>
-                    {/* Insert new navbar items above */}
+                    {/* Insert new navbar items above, like so: */}
                     {/* <Nav.Link href="/pagetolinkto">Page</Nav.Link> */}
+                    {/* If it is a link to another site and you want to open it in a new tab do like so: */}
+                    {/* <Nav.Link href="https://www.redrockclimbingcenter.com/" target="_blank">Gym</Nav.Link> */}
                 </Nav>
             </NavbarRBS.Collapse>
         </NavbarRBS>
