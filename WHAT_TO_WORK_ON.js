@@ -86,8 +86,8 @@ todo - replace generic <div> when it makes sense to do so, with semantic html, l
 todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 
 @ Home page ---------------------------------------
-todo - Better business name display, colors, font, size, position
-    Maybe just use the main large backdrop of Desert Rock Sports, then after a short delay, start the carusel?
+todo - Add some vertical spacing between the react-bootstrap Containers ???
+todo - Some sort of background pattern ?
 todo - Instagram feed embed
     Apparently this is WAY harder than it used to be, due to recently increased security.
     Check your bookmarks, you made a folder with all the info you need to do it.
@@ -95,14 +95,11 @@ todo - Instagram feed embed
     Requires setting up a free heroku site and running an access token refresh agent...
     then getting that token to here and using it. Very doable, but a hassle for another time I think.
 todo - Mention resoling drop off boxes in another lower section, before contact info?
-    - contact info
-    - prices
-    - other info: does approach shoes, rubber used, etc...
-    - turn around time: ?
 todo - play with parrallax
 todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
+// todo - Better business name display, colors, font, size, position
 // todo - MUCH better section / div styling
 // todo - better organization / presentation with react-bootstrap grid stuff
 // todo - better style the google map on the bottom of the home page
@@ -219,8 +216,10 @@ todo - add a DRS logo image to the 'branding' nav item / link
     // style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
 
 @ RRResoles component / sub page ----------
-// todo - make a basic skeleton frame one
 todo - add before/after photos as a gallery or carousel
+todo - use react-bootstrap Card components, Jumbotron, or w/e else
+// todo - add react-bootstrap grid system
+// todo - make a basic skeleton frame one
 
 @ Footer component ----------
 ? - Do I even want to have one? I just commented it out in App.js for now...
