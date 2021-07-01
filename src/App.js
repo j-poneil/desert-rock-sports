@@ -46,8 +46,8 @@ function App() {
         <Route component={Error} />
       </Switch>
 
-      {/* Footer here */}
-      <Footer />
+      {/* Footer here //! DISABLED FOR NOW */}
+      {/* <Footer /> */}
     </main>
   );
 }
