@@ -3,6 +3,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 import CardDeck from 'react-bootstrap/CardDeck';
 
@@ -205,8 +206,27 @@ export default function Guiding(){
                 </Row>
 
             </Container>
+
+            {/* //! WORK HERE */}
+            <Container fluid>
+                { guideList }
+            </Container>
             
-            { guideList }
+            {/* //! WORK HERE */}
+            <Container fluid>
+                <Card>
+                    <Card.Body>
+                        <Card.Title></Card.Title>
+                        <Card.Text>
+                            ( Contact info, if you have more questions, for corporate or other special cases, etc... )
+                        </Card.Text>
+                        <Card.Text>
+                            ( Guide waivers ??? )
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Container>
+            
         </div>
     );
 }
