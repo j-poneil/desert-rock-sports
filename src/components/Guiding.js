@@ -166,19 +166,22 @@ export default function Guiding(){
     const guideList = guides.map((i) => {
         if(i.active){
             return (
-                <div key={i.name} className="twoflex-container">
-                    <div>
-                        <img className="splash-img" src='https://via.placeholder.com/500x400' alt={i.name} />
-                    </div>
-                    <div>
-                        <h3>{i.name} {i.ig !== "" && <a href={i.ig}>IG</a>}</h3>
-                        {i.certs !== "" && <p>{i.certs}</p>}
-                        {i.exp !== "" && <p>{i.exp}</p>}
-                        <p>{i.bio1}</p>
-                        {i.bio2 !== "" && <p>i.bio2</p>}
-                        {i.bio3 !== "" && <p>i.bio3</p>}
-                    </div>
-                </div>
+                <Col key={i.name}>
+                    <Card>
+                        <Card.Body>
+                            <Card.Img src='https://via.placeholder.com/500x400' alt={i.name} />
+                            <Card.Title>{ i.name }</Card.Title>
+                            <Card.Subtitle>{ i.certs !== "" && i.certs }</Card.Subtitle>
+                            <Card.Text>
+                                {i.exp !== "" && <p>{i.exp}</p>}
+                                <p>{i.bio1}</p>
+                                {i.bio2 !== "" && <p>{i.bio2}</p>}
+                                {i.bio3 !== "" && <p>{i.bio3}</p>}
+                                {i.ig !== "" && <a href={i.ig}>IG</a>}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             );
         }
     });
@@ -209,7 +212,9 @@ export default function Guiding(){
 
             {/* //! WORK HERE */}
             <Container fluid>
-                { guideList }
+                <Row xl={4} lg={3} md={2} sm={2} xs={1}>
+                    { guideList }
+                </Row>
             </Container>
             
             {/* //! WORK HERE */}
