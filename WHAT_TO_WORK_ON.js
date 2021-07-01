@@ -84,6 +84,8 @@ todo - is this a stupid idea: a central object with a lot of the info that could
     Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
 todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
+! - should I have a navbar link to the gym ??? Seems like yes, duh.
+
 
 @ Home page ---------------------------------------
 todo - Add some vertical spacing between the react-bootstrap Containers ???
@@ -104,6 +106,7 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
 // todo - better organization / presentation with react-bootstrap grid stuff
 // todo - better style the google map on the bottom of the home page
 
+
 @ About page --------------------------------------
 todo - the flex looks shitty, switch out for grid ???
 todo - Touch up and make responsive the main story
@@ -118,13 +121,15 @@ todo - probably move nav link position of the about page to just left of 'Shop'
 
 
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
-//todo - add carousel to gear page
-//todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
 todo - other sections in gear below the carousel
 todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we have, multiple shots, try to have most of the be the same aspect ratio to reduce the editing
 todo - FOR FINAL PRODUCTION - edit good photos to all have the same aspect ratio. 1x and 2x pixel density
 todo - FOR FINAL PRODUCTION - make smaller file sizes with different pixel densities too
 todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing temporary ones
+// todo - implement react-bootstrap grid system and prepare for additional sections below carousel
+// todo - add carousel to gear page
+// todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
+
 
 @ Beta page ---------------------------------------
 todo - fill this out
@@ -136,6 +141,7 @@ todo - fill this out
     todo - locations for wifi ?
     todo - wet weather options beta
         hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
+
 
 @ Guiding page ------------------------------------
 // todo - download original guiding page images
@@ -171,6 +177,7 @@ todo - decide on guide bio cards or carousel
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
 
+
 @ Other page --------------------------------------
     What will it be?
     Options?
@@ -180,14 +187,17 @@ todo - gallery or carousel of photos from guiding
             Would need API access to probably multiple services, could maybe be a pain
             Would need historic past rainfall too, which may currently be off if that sensor is still broken at RRNCA
 
+
 @ Shop page ---------------------------------------
     Ambitious to have it all here and built in the same
     More likely just link to a better than existing site re-made with a different provider, not the old school way the current one has it
+
 
 @ Secret page -------------------------------------
 todo - replace secret section link '.' with something else, like a FA icon
     it could be cool if it was a transparent icon, which you hover over for like a full second, then a opaque dropshadow or something shows up and it doesn't appear clickable until after this time ?
 todo - what content can go here ?
+
 
 @ Error page --------------------------------------
 todo - make a great one
@@ -215,11 +225,13 @@ todo - add a DRS logo image to the 'branding' nav item / link
     // style hover and active together with a background and/or color change
     // style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
 
+
 @ RRResoles component / sub page ----------
 todo - add before/after photos as a gallery or carousel
 todo - use react-bootstrap Card components, Jumbotron, or w/e else
 // todo - add react-bootstrap grid system
 // todo - make a basic skeleton frame one
+
 
 @ Footer component ----------
 ? - Do I even want to have one? I just commented it out in App.js for now...
