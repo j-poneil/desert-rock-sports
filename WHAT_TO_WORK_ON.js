@@ -84,7 +84,7 @@ todo - is this a stupid idea: a central object with a lot of the info that could
     Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
 todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
-! - should I have a navbar link to the gym ??? Seems like yes, duh.
+// todo - should I have a navbar link to the gym ??? Seems like yes, duh.
 
 
 @ Home page ---------------------------------------
@@ -108,16 +108,16 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
 
 
 @ About page --------------------------------------
-todo - the flex looks shitty, switch out for grid ???
-todo - Touch up and make responsive the main story
-todo - Decide how to display personel
-    * Carousel, slower, and succinct bio for each could look great, worry the bio would be too long on mobile
-        Also probably eliminated the need for much of a background
-    * Obj with all info mapped over and cards are used to display everything
-        Should be easy to add new people and remove old ones, just get a picture, their name and a little bit of info and fill it in
-        COULD grab this info from a server... but thats server requests, and like guide roster this doesn't change that fast
+todo - I think I should probably have a section on its own for the 3 owners
+todo - THEN below it current (and past?) employees
+todo - get blurbs from people
+todo - get images from people
+todo - get IGs or other site links from people
 todo - figure out a nice background, maybe use some parallax
 todo - probably move nav link position of the about page to just left of 'Shop'
+// todo - Decide how to display personel
+// todo - Touch up and make responsive the main story
+// todo - the flex looks shitty, switch out for grid ???
 
 
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
@@ -144,11 +144,7 @@ todo - fill this out
 
 
 @ Guiding page ------------------------------------
-// todo - download original guiding page images
-// todo - re-make it rough
-// todo - implement react-bootstrap cards, layout
-// todo - set a good card width
-// todo - make sure the cards fill all horizontal space when suitable, ie on smaller screens
+todo - add some sort of divider between tiers and guiding roster
 todo - possibly separate the objects in Guiding.js into other .js files that have their own imports for pictures, etc... then export them and import them into Guiding.js. More clean.
     - fully separate files so that in Guiding.js I just have <Tiers/> and <Guides/> or something could be good
         - THEN in those individual files can have them import the data from components/data/file.json using require
@@ -176,6 +172,11 @@ todo - decide on guide bio cards or carousel
     OR use react-bootstrap card
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
+// todo - download original guiding page images
+// todo - re-make it rough
+// todo - implement react-bootstrap cards, layout
+// todo - set a good card width
+// todo - make sure the cards fill all horizontal space when suitable, ie on smaller screens
 
 
 @ Other page --------------------------------------
