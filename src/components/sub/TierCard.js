@@ -30,10 +30,12 @@ const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, t
         // react-bootstrap way
         <Card>
             <Card.Img varient="top" src={ imgSm } alt={ imgAltText } />
-            <Card.ImgOverlay>
-                <Card.Text>{ imgCredit }</Card.Text>
-            </Card.ImgOverlay>
+            {/* //! couldn't get this overlay text to sit in the bottom right of image. Was thinking that something like: className="position-absolute bottom-0 end-0" would do it, but it hasn't, so just commenting out for now. Will come back to this later.*/}
+            {/* <Card.ImgOverlay className="">
+                <Card.Text className="">{ imgCredit }</Card.Text>
+            </Card.ImgOverlay> */}
             <Card.Body>
+                <Card.Text className="text-muted text-right">{ imgCredit }</Card.Text>
                 <Card.Title className="text-center">{ tierName }</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted text-center">Duration: { tierDuration }</Card.Subtitle>
                 <Card.Text>
