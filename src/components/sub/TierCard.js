@@ -28,15 +28,15 @@ const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, t
 
     return (
         // react-bootstrap way
-        <Card className="text-center">
+        <Card>
             <Card.Img varient="top" src={ imgSm } alt={ imgAltText } />
             <Card.ImgOverlay>
                 <Card.Text>{ imgCredit }</Card.Text>
             </Card.ImgOverlay>
             <Card.Body>
-                <Card.Title>{ tierName }</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Duration: { tierDuration }</Card.Subtitle>
-                <Card.Text className="text-danger"> {/* // ! remember to add descriptions! */}
+                <Card.Title className="text-center">{ tierName }</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted text-center">Duration: { tierDuration }</Card.Subtitle>
+                <Card.Text>
                     { tierDescription }
                 </Card.Text>
                 { outputCostTable }
