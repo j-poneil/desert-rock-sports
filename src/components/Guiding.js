@@ -13,6 +13,7 @@ import { guides } from './data/guides';
 
 import TierCard from './sub/TierCard';
 
+// 'https://via.placeholder.com/500x400'
 
 
 // styles currently empty
@@ -51,15 +52,16 @@ export default function Guiding(){
                 <Col key={i.name}>
                     <Card>
                         <Card.Body>
-                            <Card.Img src='https://via.placeholder.com/500x400' alt={i.name} />
-                            <Card.Title>{ i.name }</Card.Title>
-                            <Card.Subtitle>{ i.certs !== "" && i.certs }</Card.Subtitle>
+                            <Card.Img src={i.pic} alt={i.name} />
+                            <Card.Title className="text-center">{ i.name }</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
                             <Card.Text>
                                 {i.exp !== "" && <p>{i.exp}</p>}
                                 <p>{i.bio1}</p>
                                 {i.bio2 !== "" && <p>{i.bio2}</p>}
                                 {i.bio3 !== "" && <p>{i.bio3}</p>}
                                 {i.ig !== "" && <a href={i.ig}>IG</a>}
+                                {i.site !== "" && <><br/><a href={i.site}>personal site</a></>}
                             </Card.Text>
                         </Card.Body>
                     </Card>
