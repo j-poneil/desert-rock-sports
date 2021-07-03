@@ -148,20 +148,20 @@ todo - add some sort of divider between tiers and guiding roster
 todo - SOME DIVIDER between tiers and guides... could be a good place for a gallery or carousel
 todo - fix 'Red Rock Climbing Guides' -- maybe with a Jumbotron or Card, a logo would be good here
     - AND the text to the side can use better formatting and possibly a similar treatment, I think Card probably best
-todo - fix photo credit
-    - either position at the bottom with white outline to be always readable
-    - or put below in small text align-right before the Tier title
 todo - bump up Tier font
-todo - add suitable tier descriptions
-todo - the levitation photo actually appears to be slightly shorter than the other ones
 todo - probably add some bar below everything that says that we can accomodate other complicated outings, such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do.
 todo - give some bit of info that makes it clear that a bit of advanced noticed is HIGHLY beneficial
 todo - give some info on how booking usually goes, payment, when the guide reaches out, where you typically meet, what will happen there (waivers, gear), carpool, etc...
 todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
 todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
-todo - maybe some intro into our guides instead of just spitting out bios?
+todo - maybe some intro into our guides instead of just spitting out bios? At the least a title for the section, "here are some of our guides"
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
+todo - possibily for the guides, dynamic climbing experience... add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
+todo - change placement of Fa instagram icon/link and personal site link
+// todo - use Fa instagram icon
+// todo - add suitable tier descriptions
+// todo - fix photo credit -- put below photo for now
 // todo - decide on guide bio cards or carousel
 // todo - possibly separate the objects in Guiding.js into other .js files that have their own imports for pictures, etc... then export them and import them into Guiding.js. More clean.
 // todo - download original guiding page images
