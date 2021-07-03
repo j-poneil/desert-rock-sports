@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaInstagram } from 'react-icons/fa';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -60,7 +61,7 @@ export default function Guiding(){
                                 <p>{i.bio1}</p>
                                 {i.bio2 !== "" && <p>{i.bio2}</p>}
                                 {i.bio3 !== "" && <p>{i.bio3}</p>}
-                                {i.ig !== "" && <a href={i.ig}>IG</a>}
+                                {i.ig !== "" && <a href={i.ig}><FaInstagram /></a>}
                                 {i.site !== "" && <><br/><a href={i.site}>personal site</a></>}
                             </Card.Text>
                         </Card.Body>
