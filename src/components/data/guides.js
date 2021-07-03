@@ -19,8 +19,8 @@ import Nathan from '../../img/RRCG/GuideBioImgs/Nathan_450w_450h.jpg';
 export const guides = [
     {
         name: "Dan Young",
-        certs: "",
-        exp: "",
+        certs: "AMGA SPI, WFR",
+        exp: "Climbing since 1976, Guiding since 2009",
         bio1: "",
         bio2: "",
         bio3: "",
@@ -55,10 +55,10 @@ export const guides = [
     },
     {
         name: "Rachel Melville",
-        certs: "",
-        exp: "",
-        bio1: "",
-        bio2: "",
+        certs: "AMGA Rock Guide Apprentice, AMGA SPI, Environmental Engineer",
+        exp: "Climbing 17+ years",
+        bio1: "Climbing coach, whipper taker, gear abuser, pour-over snob, dog lover, project slayer, photo taker, empress of STOKE, located in Las Vegas, NV.",
+        bio2: "She has been guiding and working with climbers for longer than Instagram was cool, and will partner with you wherever you're at to help you achieve your personal goals!",
         bio3: "",
         pic: Rachel,
         ig: "https://www.instagram.com/twincannons/",
@@ -91,11 +91,11 @@ export const guides = [
     },
     {
         name: "Samantha Weichert",
-        certs: "AMGA SPI, has taken the Rock Guide Course, WFR",
-        exp: "",
-        bio1: "",
-        bio2: "",
-        bio3: "",
+        certs: "AMGA Apprentice Rock Guide, AMGA Apprentice Alpine Guide, AMGA SPI, WFR",
+        exp: "10+ years of climbing all over the country",
+        bio1: "I have climbed in so many cool places, but Red Rock is still my favorite!",
+        bio2: "I'm a Kiwi!",
+        bio3: "I have the coolest dog ever, Barnacle!",
         pic: Samantha,
         ig: "https://www.instagram.com/sam.weich/",
         site: '',
@@ -159,7 +159,7 @@ export const guides = [
         pic: Adam,
         ig: "https://www.instagram.com/a.happensack/",
         site: '',
-        active: true
+        active: false
     },
     {
         name: "Danny Urioste",
