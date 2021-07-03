@@ -1,6 +1,10 @@
 //% photos for staff
-// prob standardize like 250 x 250px or something
+// standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';
+import T2 from '../../img/RRCG/GuideBioImgs/T2_450w_450h.jpg';
+import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg';
+import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
+
 
 // Used in About.js
 export const staff = [
@@ -36,7 +40,7 @@ export const staff = [
         bio1: "",
         bio2: "",
         bio3: "",
-        imgSrc: "https://via.placeholder.com/500x400",
+        imgSrc: Dan,
         ig: "",
         active: true
     },
@@ -45,8 +49,8 @@ export const staff = [
         bio1: "",
         bio2: "",
         bio3: "",
-        imgSrc: "https://via.placeholder.com/500x400",
-        ig: "",
+        imgSrc: Josh,
+        ig: "https://www.instagram.com/tullynation/",
         active: true
     },
     {
@@ -69,10 +73,10 @@ export const staff = [
     },
     {
         name: "Travis O'Neil (aka T2)",
-        bio1: "",
+        bio1: "Total gear nerd.",
         bio2: "",
         bio3: "",
-        imgSrc: "https://via.placeholder.com/500x400",
+        imgSrc: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
         active: true
     },
