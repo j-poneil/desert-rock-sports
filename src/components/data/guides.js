@@ -102,12 +102,12 @@ export const guides = [
         active: true
     },
     {
-        name: "Joanne Urioste",
-        certs: "Badass",
-        exp: "All of it",
-        bio1: "",
-        bio2: "",
-        bio3: "",
+        name: "Joanne & George Urioste",
+        certs: "Badasses",
+        exp: "More experience than almost any other climbers you will ever meet",
+        bio1: "Jorge and I are honored to be DRS guides, especially considering that our combined ages will total 155 years in the coming months.  During most of these years, we’ve immersed ourselves in the beauty and risk of mountain terrain to the fullest extent that our bodies have allowed--- AND we are delighted to have survived and still be here on this glorious planet, toasting each sunrise.",
+        bio2: "Our experience includes a shit-ton of alpine ascents all over the US, Canada, and the Andes, during the era in which information was either absent or scant.  Rescues were unavailable.   For those who survived this type of climbing, judgement became an art-form--- or perhaps, even a 6th sense.  Jorge and I settled in Las Vegas in 1974 and were hungry to climb, so we turned to Red Rock’s sandstone which was uncharted territory back then.  These explorations blew our minds --- over and over again --- resulting in many first ascents that are now world-cherished classics:  Frogland, Crimson Chrysalis, Epinephrine, Levitation 29, and others.",
+        bio3: "Even though I am pushing 70 and Jorge is pushing 85, we are still climbing moderates at Red Rock, and we feel fortunate to continue to share the rope with friends, family, and clients.",
         pic: Joanne,
         ig: "",
         site: '',
