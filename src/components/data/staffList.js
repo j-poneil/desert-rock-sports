@@ -6,6 +6,7 @@ import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg';
 import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
 import Mike from '../../img/DRS_staff/Mike_450w_450h.jpg';
 import TG from '../../img/DRS_staff/TG_450w_450h.jpg';
+import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
 
 
 // Used in About.js
@@ -66,7 +67,7 @@ export const staff = [
         bio1: "",
         bio2: "",
         bio3: "",
-        imgSrc: "https://via.placeholder.com/500x400",
+        imgSrc: ,
         ig: "https://www.instagram.com/lmbuch/",
         active: true
     },
