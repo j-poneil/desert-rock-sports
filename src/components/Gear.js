@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
 import GearCarousel from '../components/sub/GearCarousel';
@@ -50,6 +51,10 @@ export default function Gear(){
             <CarouselContainer>
                 <GearCarousel />
             </CarouselContainer>
+
+            <Jumbotron className="text-center">
+                <h1>What are you looking for?</h1>
+            </Jumbotron>
 
             {/* Climbing / Canyoneering */}
             {/* Hiking, Backpacking, and Camping --- ? */}
