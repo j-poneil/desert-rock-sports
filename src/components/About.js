@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaInstagram } from 'react-icons/fa';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -8,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 
 //% update staff bios, imgs, etc here
 import { staff } from './data/staffList';
+import { Jumbotron } from 'react-bootstrap';
 
 // styles here:
 // src\stylesheets\pages\_about.sass
@@ -24,8 +26,8 @@ export default function About(){
                     <Card>
                         <Card.Body>
                             <Card.Img src={i.imgSrc} alt={i.name} />
-                            <Card.Title>{ i.name }</Card.Title>
-                            <Card.Subtitle>{ i.ig !== "" && <a href={i.ig}>IG</a> }</Card.Subtitle>
+                            <Card.Title className="text-center">{ i.name } { i.ig !== "" && <a href={i.ig}><FaInstagram /></a> }</Card.Title>
+                            <Card.Subtitle className="text-center"></Card.Subtitle>
                             <Card.Text>
                                 <p>{i.bio1}</p>
                                 {i.bio2 !== "" && <p>{i.bio2}</p>}
@@ -38,29 +40,9 @@ export default function About(){
         }
     });
 
-    const inactiveStaffList = staff.map((i) => {
-        if(!i.active){
-            return (
-                <Col key={i.name}>
-                    <Card>
-                        <Card.Body>
-                            <Card.Img src='https://via.placeholder.com/500x400' alt={i.name} />
-                            <Card.Title>{ i.name }</Card.Title>
-                            <Card.Subtitle>{ i.ig !== "" && <a href={i.ig}>IG</a> }</Card.Subtitle>
-                            <Card.Text>
-                                <p>{i.bio1}</p>
-                                {i.bio2 !== "" && <p>{i.bio2}</p>}
-                                {i.bio3 !== "" && <p>{i.bio3}</p>}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            );
-        }
-    });
 
     return (
-        <Container fluid>
+        <Container fluid className="mt-3 mb-3">
             <Row xl={2} lg={2} md={2} sm={2} xs={1}>
                 <Col>
                     <Card>
@@ -80,24 +62,36 @@ export default function About(){
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>(... History? ...)</Col>
-                <Col>( something )</Col>
-                <Col>( something )</Col>
+                <Col>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>History ???</Card.Title>
+                            <Card.Text>
+                                lorem ipsum et dolor something yada ydad dydyafdsa
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>Something else???</Card.Title>
+                            <Card.Text>
+                                lorem ipsum et dolor something yada ydad dydyafdsa
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
 
-            <Container>
-                <Row xl={4} lg={3} md={2} sm={2} xs={1}>
+            <Jumbotron className="text-center mt-3 mb-3">
+                <h1>The wonderful staff behind Desert Rock Sports</h1>
+                <p>We can help you find whatever you are looking for.</p>
+            </Jumbotron>
+
+            <Container fluid className="mt-3">
+                <Row xl={3} lg={3} md={2} sm={2} xs={1}>
                     { staffList }
-                </Row>
-            </Container>
-
-            <hr />
-
-            {/* Past / Inactive staff */}
-            {/* Probably don't need to show, but maybe still could, like with greyed out background? */}
-            <Container>
-                <Row xl={4} lg={3} md={2} sm={2} xs={1}>
-                    { inactiveStaffList }
                 </Row>
             </Container>
         </Container>
