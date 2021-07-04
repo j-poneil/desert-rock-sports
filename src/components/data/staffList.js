@@ -67,7 +67,7 @@ export const staff = [
         bio1: "",
         bio2: "",
         bio3: "",
-        imgSrc: ,
+        imgSrc: LisaB,
         ig: "https://www.instagram.com/lmbuch/",
         active: true
     },
