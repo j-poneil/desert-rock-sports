@@ -5,6 +5,8 @@
 // date format: MM/DD/YYYY
 // ...
 // https://via.placeholder.com/500x400
+// title, data, post
+// img, link, ???
 export const newsItems = [
     {
         title: "It's today!",
