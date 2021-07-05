@@ -32,8 +32,11 @@ import Image from 'react-bootstrap/Image';
 // Crack options
 // Offwidth options
 
-// <Card.Subtitle></Card.Subtitle>
-// <Card.Text></Card.Text>
+//<Card.Subtitle></Card.Subtitle>
+//<Card.Text>
+//    <a href="" target="_blank"></a><br />
+//    <p></p>
+//</Card.Text>
 
 export default function Beta(){
     return (
@@ -43,7 +46,21 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Red Rock General Info</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -51,7 +68,21 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>other?</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -122,13 +153,14 @@ export default function Beta(){
                                 <p>Skid Row, is/was a place near the RR sign that everyone takes photos with. It is/was on the the south side of the road. If it had been only ocassionally used, as a last resort, it is very possible that it would still be open today... However, due to the predictable overuse by climbers when the next free dispersed camping options are 40min-1h away, it has been shut down. It was getting very bad. 40+ vehicles car camping every night during the peak season, people getting out of their vehicles and peeing in full view of the tourists driving by, people setting up grills, a few tents... Signs have been put up limiting hours that its legal to park there, such that you can't park there overnight anymore without getting ticketed. There is a smaller cluster that is now abused very close to where skid row was, which will probably also get shut down soon, which is unfourtunate, because its the parking for a trail system and there is no other parking nearby for people trying to access that.</p>
                             </Card.Text>
                         </Card.Body>
-                    </Card></Col>
+                    </Card>
+                </Col>
                 <Col>
                     <Card>
                         <Card.Body>
                             <Card.Title>Showers</Card.Title>
                             <Card.Subtitle>Red Rock Climbing Center</Card.Subtitle>
-                            <a href="" target="_blank">Google Map to Red Rock Climbing Center</a><br />
+                            <a href="https://goo.gl/maps/fu1zaPsdpwXy8c3M6" target="_blank">Google Map to Red Rock Climbing Center</a><br />
                             <Card.Text>$4 showers. One stall each in Men's and Women's Restrooms. Bring your own towel and soap. Convieniently located in the same shopping center as Desert Rock Sports so if you have a big group, just hangout in the shop, mooch the WIFI, and talk/research the routes you want to do while your group all takes their turns.</Card.Text>
                             <Card.Subtitle>Desert Breeze Aquatic Center</Card.Subtitle>
                             <Card.Text>
@@ -154,7 +186,14 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Laundry</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle>Rainbow Laundromat</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://goo.gl/maps/vfxyEZeCor9Wgck6A" target="_blank">Google Map to Rainbow Laundromat</a><br />
+                            </Card.Text>
+                            <Card.Subtitle>Spin City Laundromat</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://goo.gl/maps/AKDDsGxCjZuycBWV6" target="_blank">Google Map to Spin City Laundromat</a><br />
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -162,7 +201,46 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Coffee Shops</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle>Madhouse Coffee</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://g.page/TheMadHouseCoffee?share" target="_blank">Google Map to Madhouse Coffee</a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle>Sambalatte</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://g.page/sambalatte-boca-park?share" target="_blank">Google Map to Sambalatte</a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle>Makers &amp; Finders</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://g.page/MakersLV2?share" target="_blank">Google Map to Makers &amp; Finders</a><br />
+                                <p>Coffee and Latin Food</p>
+                            </Card.Text>
+                            <Card.Subtitle>Grouchy John's Coffee</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://goo.gl/maps/SGJW6Pv6suJa1VUJ6" target="_blank">Google Map to Grouchy John's Coffee</a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle>Desert Wind Coffee Roasters</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://g.page/desertwindcoffee?share" target="_blank">Google Map to Desert Wind Coffee Roasters</a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle>Starbucks</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://www.starbucks.com/store-locator?map=36.151802,-115.279791,15z" target="_blank">Starbucks Store Finder</a><br />
+                                <p>Of course, Starbucks is everywhere</p>
+                            </Card.Text>
+                            <Card.Subtitle>Dutch Bros</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://www.dutchbros.com/locations/" target="_blank">Dutch Bros Finder</a><br />
+                                <p>Some locations have opened recently. Apparently its a thing?</p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -170,7 +248,36 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Restraunts</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -178,7 +285,36 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Hiking</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -186,7 +322,31 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Trail Running</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -194,7 +354,31 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Mountain Biking</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -202,7 +386,31 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Canyoneering</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -210,7 +418,21 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Shady Options</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -218,7 +440,26 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Sunny Options</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -226,7 +467,31 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Rainy day / dryout day options</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -234,7 +499,26 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Crack Options</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -242,7 +526,26 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Offwidth Options</Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -250,7 +553,21 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title></Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -258,7 +575,21 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title></Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -266,14 +597,32 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title></Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
                     {/* <Card>
                         <Card.Body>
                             <Card.Title></Card.Title>
-                            <Card.Text></Card.Text>
+                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Text>
+                                <a href="" target="_blank"></a><br />
+                                <p></p>
+                            </Card.Text>
                         </Card.Body>
                     </Card> */}
             </Row>
