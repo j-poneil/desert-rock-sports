@@ -55,7 +55,7 @@ export default function Guiding(){
                     <Card>
                         <Card.Body>
                             <Card.Img src={i.pic} alt={i.name} />
-                            <Card.Title className="text-center">{ i.name } {i.ig !== "" && <a href={i.ig}><FaInstagram /></a>}</Card.Title>
+                            <Card.Title className="text-center">{ i.name } {i.ig !== "" && <a href={i.ig} target="_blank" rel="noopener noreferrer"><FaInstagram /></a>}</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
                             <Card.Text>
                                 {i.exp !== "" && <p>{i.exp}</p>}
