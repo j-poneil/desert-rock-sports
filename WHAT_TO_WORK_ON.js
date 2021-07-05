@@ -143,6 +143,7 @@ todo - locations for wifi ?
 todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 ? - do I want to use a normally closed accordian for the sections or cards?
+todo - implement a map icon to include on lines with a Google Maps link ???? Seems like a good idea
 
 
 @ Guiding page ------------------------------------
