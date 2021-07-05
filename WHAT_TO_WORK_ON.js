@@ -101,6 +101,7 @@ todo - play with parrallax
 todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
+todo - SNCC link / info?
 // todo - Better business name display, colors, font, size, position
 // todo - MUCH better section / div styling
 // todo - better organization / presentation with react-bootstrap grid stuff
@@ -132,15 +133,16 @@ todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing tem
 
 
 @ Beta page ---------------------------------------
-todo - fill this out
-    todo - free and paid camping options for all seasons, maps to them
-        NOTE TO NOT CAMP IN CERTAIN SPOTS ?
-    todo - showers info, locations, prices
-    todo - climbing gyms in the area
-    todo - coffee shops around
-    todo - locations for wifi ?
-    todo - wet weather options beta
-        hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
+todo - free and paid camping options for all seasons, maps to them, or rather google map link to them
+    NOTE TO NOT CAMP IN CERTAIN SPOTS ?
+todo - STRONG WORDS ABOUT FIRES
+todo - showers info, locations, prices
+todo - climbing gyms in the area
+todo - coffee shops around
+todo - locations for wifi ?
+todo - wet weather options beta
+    hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
+? - do I want to use a normally closed accordian for the sections or cards?
 
 
 @ Guiding page ------------------------------------
