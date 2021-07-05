@@ -15,7 +15,7 @@ import Image from 'react-bootstrap/Image';
 // Route recommendations per style?,
 // ----------------------
 // Red Rock General Info
-// other
+// SNCC
 // Paid Camping
 // Free Camping
 // Showers
@@ -67,21 +67,57 @@ export default function Beta(){
                 <Col>
                     <Card>
                         <Card.Body>
-                            <Card.Title>other?</Card.Title>
-                            <Card.Subtitle></Card.Subtitle>
+                            {/* // ! add FB and IG icons/links */}
+                            {/* https://www.facebook.com/snclimberscoalition/ */}
+                            {/* https://www.instagram.com/southernnevadaclimbers/?hl=en */}
+                            <Card.Title>Southern Nevada Climbers Coalition (SNCC)</Card.Title>
+                            <a href="http://www.southernnevadaclimberscoalition.org/" target="_blank">SNCC Website</a><br />
+                            <p>The SNCC is the local organization that does the most the secure and maintain climbing access, replace old dangerous bolts and hardware, and does a large amount to maintain the stocks of wag bags / poop bags in dispensers in various areas such as Desert Rock Sports, Kraft Boulders, Black Velvet Canyon, The First Pullout (near the Panty Wall), and The Second Pullout (at the entrance of the Black Corridor).</p>
+                            <Card.Subtitle>Join or make direct donations</Card.Subtitle>
                             <Card.Text>
+                                <a href="https://www.southernnevadaclimberscoalition.org/join-now/" target="_blank">Link</a><br />
+                                <p>On this page you can find instructions on how to join or make a direct credit card / paypal donation. Another option is to make a cash donation in person at Desert Rock Sports. We encourage $2 / wag bag or whatever you feel is good for bolt replacement.</p>
+                            </Card.Text>
+                            <Card.Subtitle>Report Bad or Loose Bolts and Hardware</Card.Subtitle>
+                            <Card.Text>
+                                <a href="https://www.mountainproject.com/forum/topic/108676719/bad-bolts-in-las-vegas" target="_blank">Mountain Project RR Bad Bolts Thread</a><br />
+                                <p>Please report bad hardware or other issues that we can help with here. If you don't have a MP account, just fill out the contact form <a href="https://www.southernnevadaclimberscoalition.org/about-us/contact-us/" target="_blank">here</a> and we will get it added to the thread.</p>
+                                <a href="email:snclimberscoalition@gmail.com" target="_blank">Want to help replace bolts and hardware? Email us.</a><br />
+                                <p>The SNCC Rebolting Mentor Project is a great way to give back directly to the climbing community by putting in work to replace bolts and hardware. Bolt replacement is usually a pretty thankless dirty, sweaty, tiring ordeal and we are always looking for help, even if it is just helping us hike some heavy bags of hardware around.</p>
                                 <a href="" target="_blank"></a><br />
                                 <p></p>
                             </Card.Text>
-                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Subtitle>Local Ethics</Card.Subtitle>
                             <Card.Text>
-                                <a href="" target="_blank"></a><br />
-                                <p></p>
+                                <p>Southern Nevada attracts thousands of climbers each year. With the amount of people entering the area, we must all be mindful of our impact on the environment and strive to be responsible stewards of Southern Nevada. There are really important factors to take into consideration while climbing in the area</p>
                             </Card.Text>
-                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Subtitle>Stay on Established Trails</Card.Subtitle>
+                                <p>Do not create new trails or take short-cuts to existing trails. These “social trails” disturb the surrounding habitat and causes erosion. Look for existing access trails to boulders and be aware of crash pad placement.  Do not crush or trample vegetation found along the edges of trails, boulders, or at the base of walls.</p>
+                            <Card.Subtitle>Do Not Litter</Card.Subtitle>
                             <Card.Text>
-                                <a href="" target="_blank"></a><br />
-                                <p></p>
+                                <p>Remember to pack out your trash and dispose of it properly. Garbage should never be left at the base of climbs, along trails, or at parking areas. Do your part and pick up trash that others may have left behind.</p>
+                            </Card.Text>
+                            <Card.Subtitle>Wag Bag Program</Card.Subtitle>
+                            <Card.Text>
+                                <p>Use facilities when they are available. If they’re not, make sure you are at a location at least 200 feet from water sources and away from the base of climbing walls. Bury your waste in a cathole a minimum of 6 inches deep. Pack out your paper! The SNCC restocks human waste disposal bags in and around Red Rock Conservation area. This is a large undertaking, and many dedicated volunteers have spent their time keeping these dispensers full and clear of trash. Also, if you bring dogs to a climbing area, make sure to pick up after them and do not leave it on the trails!</p>
+                            </Card.Text>
+                            <Card.Subtitle>Be Respectful of the Area</Card.Subtitle>
+                            <Card.Text>
+                                <p>Be respectful of all wildlife and give them space. Keep your pets on leashes or in a controlled area. Be respectful of others in the climbing areas as well.</p>
+                            </Card.Text>
+                            <Card.Subtitle>Take Action!</Card.Subtitle>
+                            <Card.Text>
+                                <p>If you see others not following these principles, kindly inform them that their actions are harmful to the environment and may impact everyone’s access to the area. Find out more information at the <a href="http://www.accessfund.org/site/c.tmL5KhNWLrH/b.5000925/k.E6B4/Education.htm" target="_blank">Access Fund’s Education page.</a></p>
+                            </Card.Text>
+                            <Card.Subtitle>Late Exit Information</Card.Subtitle>
+                            <Card.Text>
+                                <p>Need to stay late in Red Rock? Be sure to get a late exit permit or face a potential hefty citation when you return to your car. If you need access to the 13-Mile Scenic Drive to stay late, get a late exit pass at <a href="https://www.recreation.gov/activitypass/f4d17453-0cba-11eb-b57c-4a047fce61ec" target="_blank">Recreation.gov.</a> A two hour late pass can be issued, depending on the climbing route.  Overnight passes can be given for grade V routes. This pass allows you overnight parking along the scenic drive for the given number of days. If you leave your vehicle parked along the scenic drive without a permit, your vehicle will be cited and possibly towed at owners expense.</p>
+                            </Card.Text>
+                            <Card.Subtitle>Backcountry Camping Permit? May no longer exist...</Card.Subtitle>
+                            <Card.Subtitle>Bolting Ban</Card.Subtitle>
+                            <Card.Text>
+                                <p>There is currently no bolting allowed in designated wilderness areas.</p>
+                                <p>In wilderness areas there is only 1 for 1 replacement of existing bolts allowed, and by hand drill only.</p>
                             </Card.Text>
                         </Card.Body>
                     </Card>
