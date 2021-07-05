@@ -26,7 +26,7 @@ export default function About(){
                     <Card>
                         <Card.Body>
                             <Card.Img src={i.imgSrc} alt={i.name} />
-                            <Card.Title className="text-center">{ i.name } { i.ig !== "" && <a href={i.ig}><FaInstagram /></a> }</Card.Title>
+                            <Card.Title className="text-center">{ i.name } { i.ig !== "" && <a href={i.ig} target="_blank" rel="noopener noreferrer"><FaInstagram /></a> }</Card.Title>
                             <Card.Subtitle className="text-center"></Card.Subtitle>
                             <Card.Text>
                                 <p>{i.bio1}</p>
