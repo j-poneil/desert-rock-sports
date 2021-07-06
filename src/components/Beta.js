@@ -49,10 +49,14 @@ export default function Beta(){
                     <Card>
                         <Card.Body>
                             <Card.Title>Red Rock General Info</Card.Title>
-                            <Card.Subtitle></Card.Subtitle>
+                            <Card.Subtitle>Scenic Loop Hours</Card.Subtitle>
                             <Card.Text>
-                                <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                                <p></p>
+                                <p>The Visitor Center is open daily from 9:00 AM – 4:30 pm.</p>
+                                <p>The Scenic Drive is open every day of the year with hours changing slightly according to the season:</p>
+                                <p>Nov – Feb – 6:00 AM to 5:00 PM</p>
+                                <p>March – 6:00 AM to 7:00 PM</p>
+                                <p>Apr – Sep – 6:00 AM to 8:00 PM</p>
+                                <p>Oct – 6:00 AM to 7:00 PM</p>
                             </Card.Text>
                             <Card.Subtitle></Card.Subtitle>
                             <Card.Text>
@@ -82,7 +86,7 @@ export default function Beta(){
                             <Card.Subtitle>Emergency and Rescue</Card.Subtitle>
                             <Card.Text>
                                 <p>Call 911 if you have a life-threatening emergency, for Police, Fire, or Medical assistance.</p>
-                                <p>Give them clear information on where you are. Specific climbing wall or route is good. Helicopter ride to the ER is provided by the local Police Department and paid for by taxes, you wont get a bill for that. Don't worry. If its a real emergency, just call. The ER visit will still cost you.</p>
+                                <p>Give them clear information on where you are. Specific climbing wall or route is good. Helicopter ride to the ER is provided by the local Police Department and paid for by taxes, you wont get a bill for that. Don't worry. If its an emergency, just call. The ER visit itself will still cost you at normal ER rates.</p>
                                 <p>If your loved one is lost or missing call the LV SAR hotline 24/7: <a href="tel:1702-758-4727" target="_blank" rel="noopener noreferrer">1702-758-4727</a></p>
                                 <p><a href="https://www.redrocksar.org/" target="_blank" rel="noopener noreferrer">Red Rock SAR</a></p>
                             </Card.Text>
