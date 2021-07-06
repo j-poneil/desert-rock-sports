@@ -172,7 +172,6 @@ FaFireAlt
 FaFire
 FaAddressBook
 FaAddressCard
-FaYoutubeSquare
 FaYoutube
 FaAngleDoubleDown etc
 FaAngleDown etc
