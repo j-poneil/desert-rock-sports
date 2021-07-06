@@ -138,26 +138,10 @@ export default function Guiding(){
                 </Row>
             </Container>
 
-            {/* <Jumbotron fluid className="text-center mt-5">
-                <h2>
-                    Have any questions?
-                </h2>
-            </Jumbotron> */}
-            
-            {/* //! WORK HERE */}
-            {/* <Container fluid>
-                <Card>
-                    <Card.Body>
-                        <Card.Title></Card.Title>
-                        <Card.Text>
-                            ( Contact info, if you have more questions, for corporate or other special cases, etc... )
-                        </Card.Text>
-                        <Card.Text>
-                            ( Guide waivers ??? )
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Container> */}
+            {/* //! insert gallery here */}
+            <Jumbotron fluid className="text-center mt-5">
+                <h1>( insert gallery here )</h1>
+            </Jumbotron>
             
         </Container>
     );
