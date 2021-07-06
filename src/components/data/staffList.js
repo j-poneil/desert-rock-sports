@@ -19,6 +19,8 @@ export const staff = [
         bio3: "",
         imgSrc: TG,
         ig: "https://www.instagram.com/travis_graves/",
+        site: '',
+        youtube: '',
         active: true
     },
     {
@@ -29,6 +31,8 @@ export const staff = [
         bio3: "",
         imgSrc: Mike,
         ig: "https://www.instagram.com/positivevibe75/",
+        site: '',
+        youtube: '',
         active: true
     },
     {
@@ -39,6 +43,8 @@ export const staff = [
         bio3: "",
         imgSrc: "https://via.placeholder.com/500x400",
         ig: "",
+        site: '',
+        youtube: '',
         active: true
     },
     {
@@ -49,6 +55,8 @@ export const staff = [
         bio3: "",
         imgSrc: Dan,
         ig: "",
+        site: '',
+        youtube: '',
         active: true
     },
     {
@@ -59,6 +67,8 @@ export const staff = [
         bio3: "",
         imgSrc: Josh,
         ig: "https://www.instagram.com/tullynation/",
+        site: '',
+        youtube: '',
         active: true
     },
     {
@@ -69,6 +79,8 @@ export const staff = [
         bio3: "",
         imgSrc: LisaB,
         ig: "https://www.instagram.com/lmbuch/",
+        site: '',
+        youtube: '',
         active: true
     },
     {
@@ -79,6 +91,8 @@ export const staff = [
         bio3: "",
         imgSrc: "https://via.placeholder.com/500x400",
         ig: "https://www.instagram.com/monilisa.aquino/",
+        site: '',
+        youtube: '',
         active: false
     },
     {
@@ -89,6 +103,8 @@ export const staff = [
         bio3: "",
         imgSrc: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
+        site: '',
+        youtube: '',
         active: true
     },
     {
@@ -99,6 +115,8 @@ export const staff = [
         bio3: "",
         imgSrc: "https://via.placeholder.com/500x400",
         ig: "https://www.instagram.com/a.happensack/",
+        site: '',
+        youtube: '',
         active: false
     }
 ];
