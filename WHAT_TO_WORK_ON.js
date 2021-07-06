@@ -133,17 +133,18 @@ todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing tem
 
 
 @ Beta page ---------------------------------------
-todo - free and paid camping options for all seasons, maps to them, or rather google map link to them
-    NOTE TO NOT CAMP IN CERTAIN SPOTS ?
-todo - STRONG WORDS ABOUT FIRES
-todo - showers info, locations, prices
 todo - climbing gyms in the area
 todo - coffee shops around
 todo - locations for wifi ?
 todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 ? - do I want to use a normally closed accordian for the sections or cards?
-todo - implement a map icon to include on lines with a Google Maps link ???? Seems like a good idea
+// todo - implement a map icon to include on lines with a Google Maps link
+// todo - implement a external link icon
+// todo - implement a phone number link icon
+// todo - implement a email link icon
+// todo - STRONG WORDS ABOUT FIRES
+// todo - free and paid camping options for all seasons, maps to them, or rather google map link to them
 
 
 @ Guiding page ------------------------------------
