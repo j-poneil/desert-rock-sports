@@ -161,7 +161,8 @@ todo - maybe some intro into our guides instead of just spitting out bios? At th
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
 todo - possibily for the guides, dynamic climbing experience... add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
-todo - change placement of Fa instagram icon/link and personal site link
+todo - better color for ig/site/youtube icons ???
+// todo - change placement of Fa instagram icon/link, better personal site icon, add youtube icon
 // todo - use Fa instagram icon
 // todo - add suitable tier descriptions
 // todo - fix photo credit -- put below photo for now
