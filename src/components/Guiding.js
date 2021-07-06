@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaInstagram } from 'react-icons/fa';
+import { MdHttp } from 'react-icons/md';
+import { CgWebsite } from 'react-icons/cg';
+import { FaYoutube, FaHome } from 'react-icons/fa';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -54,15 +57,23 @@ export default function Guiding(){
                 <Col key={i.name}>
                     <Card>
                         <Card.Body>
-                            <Card.Img src={i.pic} alt={i.name} />
-                            <Card.Title className="text-center">{ i.name } {i.ig !== "" && <a href={i.ig} target="_blank" rel="noopener noreferrer"><FaInstagram /></a>}</Card.Title>
+                            <Card.Img
+                                src={i.pic}
+                                alt={i.name}
+                            />
+                            <Card.Title
+                                className="text-center">
+                                    { i.name } 
+                                    {i.ig !== "" && <> <a href={i.ig} target="_blank" rel="noopener noreferrer"><FaInstagram /></a></>}
+                                    {i.youtube !== "" && <> <a href={i.youtube} target="_blank" rel="noopener noreferrer"><FaYoutube /></a></>}
+                                    {i.site !== "" && <> <a href={i.site} target="_blank" rel="noopener noreferrer"><FaHome /></a></>}
+                            </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
                             <Card.Text>
                                 {i.exp !== "" && <p>{i.exp}</p>}
                                 <p>{i.bio1}</p>
                                 {i.bio2 !== "" && <p>{i.bio2}</p>}
                                 {i.bio3 !== "" && <p>{i.bio3}</p>}
-                                {i.site !== "" && <><br/><a href={i.site}>personal site</a></>}
                             </Card.Text>
                         </Card.Body>
                     </Card>
