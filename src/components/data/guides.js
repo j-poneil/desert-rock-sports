@@ -14,6 +14,7 @@ import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
 import Adam from '../../img/RRCG/GuideBioImgs/Adam_450w_450h.jpg';
 import Joanne from '../../img/RRCG/GuideBioImgs/Joanne_450w_450h.jpg';
 import Nathan from '../../img/RRCG/GuideBioImgs/Nathan_450w_450h.jpg';
+import Roxanna from '../../img/RRCG/GuideBioImgs/Roxanna_450w_450h.jpg';
 
 // Used in Guiding.js
 export const guides = [
@@ -21,7 +22,7 @@ export const guides = [
         name: "Dan Young",
         certs: "AMGA SPI, WFR",
         exp: "Climbing since 1976, Guiding since 2009",
-        bio1: "",
+        bio1: "Has bolted many of the popular easy/moderate sport routes in Red Rock Canyon keeping it accessible for beginners. Bolted Big Bad Wolf, one of the most popular multipitch climbs in the country.",
         bio2: "",
         bio3: "",
         pic: Dan,
@@ -68,7 +69,7 @@ export const guides = [
         pic: Rachel,
         ig: "https://www.instagram.com/twincannons/",
         site: '',
-        youtube: '',
+        youtube: 'https://www.youtube.com/user/rachelmelville',
         active: true
     },
     {
@@ -186,6 +187,19 @@ export const guides = [
         ig: "https://www.instagram.com/dynooftheshire/",
         site: '',
         youtube: '',
+        active: true
+    },
+    {
+        name: "Roxanna Brock",
+        certs: "",
+        exp: "",
+        bio1: "",
+        bio2: "SEO Specialist, Web Designer, Writer, Woman of the Outdoors, and LOVER of fun!",
+        bio3: "",
+        pic: Roxanna,
+        ig: 'https://www.instagram.com/roxannabrockmcd/',
+        site: '',
+        youtube: 'https://www.youtube.com/channel/UC5YygDt3B0_PA_gYT02jkAw',
         active: true
     }
 ];
