@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// % Secret Door icon for hidden gallery / whatever
+import { GiSecretDoor } from 'react-icons/gi';
+
 // ! currently disabled these styles, just using the react-bootstrap default ones
 // styles here:
 // src\stylesheets\layout\_navbar.sass
@@ -33,7 +36,7 @@ export default function Navbar(){
                     <Nav.Link href="/guiding">Guiding</Nav.Link>
                     <Nav.Link href="/other">Other</Nav.Link>
                     <Nav.Link href="/shop">Shop</Nav.Link>
-                    <Nav.Link href="/secret">Secret</Nav.Link>
+                    <Nav.Link href="/secret"><GiSecretDoor /></Nav.Link>
                     {/* Insert new navbar items above, like so: */}
                     {/* <Nav.Link href="/pagetolinkto">Page</Nav.Link> */}
                     {/* If it is a link to another site and you want to open it in a new tab do like so: */}
