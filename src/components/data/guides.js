@@ -27,6 +27,7 @@ export const guides = [
         pic: Dan,
         ig: "",
         site: '',
+        youtube: '',
         active: true
     },
     {
@@ -39,6 +40,7 @@ export const guides = [
         pic: Josh,
         ig: "https://www.instagram.com/tullynation/",
         site: '',
+        youtube: '',
         active: true
     },
     {
@@ -50,7 +52,10 @@ export const guides = [
         bio3: "Coded this site. Also sews.",
         pic: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
+        // ! add portfolio / resume site later one
         site: '',
+        // https://www.youtube.com/user/NotEnoughKit --- add if I ever get around to actually using it
+        youtube: '', 
         active: true
     },
     {
@@ -63,6 +68,7 @@ export const guides = [
         pic: Rachel,
         ig: "https://www.instagram.com/twincannons/",
         site: '',
+        youtube: '',
         active: true
     },
     {
@@ -75,11 +81,12 @@ export const guides = [
         pic: Tracy,
         ig: "https://www.instagram.com/tracypmartin/",
         site: 'https://tracypmartin.com/',
+        youtube: '',
         active: true
     },
     {
         name: "Elaina Arenz",
-        certs: "AMGA Certified Rock Guide, AMGA Certified Rock Instructor, AMGA SPI Provider Trainer, WFR, IRATA/SPRAT Level 2 Rope Access Technician, Dirt Biker Gumby",
+        certs: "AMGA Certified Rock Guide, AMGA Certified Rock Instructor, AMGA SPI Provider Trainer, WFR, IRATA/SPRAT Level 2 Rope Access Technician, Warriors Way Trainer, Dirt Biker Gumby",
         exp: "Over 24 years",
         bio1: "Elaina is one of the co-owners of Chicks Climbing & Skiing and owner/operator of New River Mountain Guides. She has pursued climbing as a career for over 24 years. She's traveled all over North America and Europe and was instrumental in establishing El Potrero Chico, Mexico.",
         bio2: "Las Vegas, NV is her home base and she guides almost year-round in Red Rock. During the hottest/coldest months she travels to work rock and ice programs for Chicks Climbing & Skiing, teach SPI Courses and manages things back at the New River Gorge, WV. She is a newly minted AMGA SPI Provider Trainer as of 2018 and has worked as a Warrior's Way Trainer since 2006. The Warrior's Way is a method of approaching climbing which helps one to stay focused to overcome fear of falling and improve commitment in climbing. Elaina served on the Board of Directors of the Access Fund 2014-2017 and has supported their efforts for the last 20 years as an Athlete Ambassador. In 2001 she was awarded the Sharp End Award by The Access Fund for her outstanding contribution to climbers’ advocacy.",
@@ -87,6 +94,7 @@ export const guides = [
         pic: Elaina,
         ig: "https://www.instagram.com/lainersclimbs/",
         site: '',
+        youtube: 'https://www.youtube.com/user/ElainaNRMG',
         active: true
     },
     {
@@ -99,6 +107,7 @@ export const guides = [
         pic: Samantha,
         ig: "https://www.instagram.com/sam.weich/",
         site: '',
+        youtube: '',
         active: true
     },
     {
@@ -111,6 +120,7 @@ export const guides = [
         pic: Joanne,
         ig: "",
         site: '',
+        youtube: '',
         active: true
     },
     {
@@ -123,6 +133,7 @@ export const guides = [
         pic: Matt,
         ig: "https://www.instagram.com/mattkuehlphoto/",
         site: 'https://www.mattkuehlphoto.com/',
+        youtube: 'https://www.youtube.com/user/sometimesmatt',
         active: true
     },
     {
@@ -135,18 +146,20 @@ export const guides = [
         pic: Cody,
         ig: "https://www.instagram.com/thecodybradford/",
         site: 'https://www.codybradford.com/',
+        youtube: 'https://www.youtube.com/channel/UCDN5bJMKsAjQ3YE9VK5ezwQ',
         active: true
     },
     {
         name: "Nathan Petrosian",
         certs: "",
         exp: "",
-        bio1: "",
+        bio1: "In addition to being an excellent guide, Nathan is also a Realtor, check out his site if you are interested in purchasing a house in the Las Vegas area!",
         bio2: "",
         bio3: "",
         pic: Nathan,
         ig: "",
-        site: '',
+        site: 'http://www.nathanpetrosian.com/',
+        youtube: '',
         active: true
     },
     {
@@ -159,6 +172,7 @@ export const guides = [
         pic: Adam,
         ig: "https://www.instagram.com/a.happensack/",
         site: '',
+        youtube: '',
         active: false
     },
     {
@@ -171,6 +185,7 @@ export const guides = [
         pic: Danny,
         ig: "https://www.instagram.com/dynooftheshire/",
         site: '',
+        youtube: '',
         active: true
     }
 ];
