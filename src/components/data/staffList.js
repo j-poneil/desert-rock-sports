@@ -8,15 +8,14 @@ import Mike from '../../img/DRS_staff/Mike_450w_450h.jpg';
 import TG from '../../img/DRS_staff/TG_450w_450h.jpg';
 import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
 
+// % For bio, use a string of text/html. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
 
 // Used in About.js
 export const staff = [
     {
         name: "Travis Graves",
         position: "",
-        bio1: "continues to be the store buyer and manager. He is the person you will most likely see or talk to on the phone. He is a wealth of information about outdoor gear and the local climbing routes. The store is small, but Travis makes sure the store is well stocked in gear, shoes and clothing for camping, backpacking and canyoneering, as well as for climbing.",
-        bio2: "",
-        bio3: "",
+        bio: "<p>continues to be the store buyer and manager. He is the person you will most likely see or talk to on the phone. He is a wealth of information about outdoor gear and the local climbing routes. The store is small, but Travis makes sure the store is well stocked in gear, shoes and clothing for camping, backpacking and canyoneering, as well as for climbing.</p>",
         imgSrc: TG,
         ig: "https://www.instagram.com/travis_graves/",
         site: '',
@@ -26,9 +25,7 @@ export const staff = [
     {
         name: "Mike Lorenzo",
         position: "",
-        bio1: "who came to Las Vegas from New York about ten years ago, enjoys hiking, skiing, snowboarding and climbing. Mike is also a student of Yoga. Mike says that Yoga has given him the flexibility and strength he needs for climbing.",
-        bio2: "",
-        bio3: "",
+        bio: "<p>who came to Las Vegas from New York about ten years ago, enjoys hiking, skiing, snowboarding and climbing. Mike is also a student of Yoga. Mike says that Yoga has given him the flexibility and strength he needs for climbing.</p>",
         imgSrc: Mike,
         ig: "https://www.instagram.com/positivevibe75/",
         site: '',
@@ -38,9 +35,7 @@ export const staff = [
     {
         name: "Steve Mallory",
         position: "",
-        bio1: "has a background in finance and helps with the bookkeeping. He has been climbing since 1979 and has lived in Las Vegas for 22 years. Steve recently developed a passion for canyoneering and has added Imlay Canyon Gear, static rope and the La Sportiva Exum River Shoe, to the store's inventory.",
-        bio2: "Canyoneering in Zion is a great way to beat the heat in Las Vegas during the summer months!",
-        bio3: "",
+        bio: "<p>has a background in finance and helps with the bookkeeping. He has been climbing since 1979 and has lived in Las Vegas for 22 years. Steve recently developed a passion for canyoneering and has added Imlay Canyon Gear, static rope and the La Sportiva Exum River Shoe, to the store's inventory.</p><p>Canyoneering in Zion is a great way to beat the heat in Las Vegas during the summer months!</p>",
         imgSrc: "https://via.placeholder.com/500x400",
         ig: "",
         site: '',
@@ -50,9 +45,7 @@ export const staff = [
     {
         name: "Dan Young",
         position: "",
-        bio1: "",
-        bio2: "",
-        bio3: "",
+        bio: "",
         imgSrc: Dan,
         ig: "",
         site: '',
@@ -62,9 +55,7 @@ export const staff = [
     {
         name: "Josh Janes",
         position: "",
-        bio1: "",
-        bio2: "",
-        bio3: "",
+        bio: "",
         imgSrc: Josh,
         ig: "https://www.instagram.com/tullynation/",
         site: '',
@@ -74,9 +65,7 @@ export const staff = [
     {
         name: "Lisa Buchina",
         position: "",
-        bio1: "",
-        bio2: "",
-        bio3: "",
+        bio: "",
         imgSrc: LisaB,
         ig: "https://www.instagram.com/lmbuch/",
         site: '',
@@ -86,9 +75,7 @@ export const staff = [
     {
         name: "Lisa Aquino",
         position: "",
-        bio1: "",
-        bio2: "",
-        bio3: "",
+        bio: "",
         imgSrc: "https://via.placeholder.com/500x400",
         ig: "https://www.instagram.com/monilisa.aquino/",
         site: '',
@@ -98,9 +85,7 @@ export const staff = [
     {
         name: "Travis O'Neil (aka T2)",
         position: "",
-        bio1: "Total gear nerd.",
-        bio2: "",
-        bio3: "",
+        bio: "<p>Total gear nerd.</p>",
         imgSrc: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
         site: '',
@@ -110,9 +95,7 @@ export const staff = [
     {
         name: "Adam Happensack",
         position: "",
-        bio1: "",
-        bio2: "",
-        bio3: "",
+        bio: "",
         imgSrc: "https://via.placeholder.com/500x400",
         ig: "https://www.instagram.com/a.happensack/",
         site: '',
