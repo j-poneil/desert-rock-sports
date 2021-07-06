@@ -1,5 +1,8 @@
 import React from 'react';
-import { FaInstagram } from 'react-icons/fa';
+// % fine to use here, because it is not on user input. REMEMBER, html-react-parser doesn't do any sanitizing of input!
+import parse from 'html-react-parser';
+
+import { FaInstagram, FaYoutube, FaHome } from 'react-icons/fa';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,10 +18,6 @@ import { Jumbotron } from 'react-bootstrap';
 // src\stylesheets\pages\_about.sass
 
 export default function About(){
-    // these use short circuit evaluation inline
-    // like {i.bio2 !== "" && <p>{i.bio2}</p>}
-    // they work because if both evaluate to true, the second thing is returned
-    // if false, it is ignored
     const staffList = staff.map((i) => {
         if(i.active){
             return (
@@ -26,12 +25,16 @@ export default function About(){
                     <Card>
                         <Card.Body>
                             <Card.Img src={i.imgSrc} alt={i.name} />
-                            <Card.Title className="text-center">{ i.name } { i.ig !== "" && <a href={i.ig} target="_blank" rel="noopener noreferrer"><FaInstagram /></a> }</Card.Title>
+                            <Card.Title className="text-center">
+                                { i.name }
+                                {/* Below, it looks like the empty tags are unnecessary, because it appears to be 1 root element... BUT they are necessary because there is actually two elements, a " " and the link */}
+                                { i.ig !== "" && <> <a href={i.ig} target="_blank" rel="noopener noreferrer"><FaInstagram /></a></> }
+                                { i.youtube !== "" && <> <a href={i.youtube} target="_blank" rel="noopener noreferrer"><FaYoutube /></a></> }
+                                { i.site !== "" && <> <a href={i.site} target="_blank" rel="noopener noreferrer"><FaHome /></a></> }
+                            </Card.Title>
                             <Card.Subtitle className="text-center"></Card.Subtitle>
                             <Card.Text>
-                                <p>{i.bio1}</p>
-                                {i.bio2 !== "" && <p>{i.bio2}</p>}
-                                {i.bio3 !== "" && <p>{i.bio3}</p>}
+                                <>{ parse(i.bio) }</>
                             </Card.Text>
                         </Card.Body>
                     </Card>
