@@ -16,7 +16,7 @@ import { tiers } from './data/guideTiers';
 import { guides } from './data/guides';
 
 import TierCard from './sub/TierCard';
-import { Jumbotron } from 'react-bootstrap';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 // 'https://via.placeholder.com/500x400'
 
