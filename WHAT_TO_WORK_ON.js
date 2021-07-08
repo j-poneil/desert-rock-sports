@@ -62,6 +62,7 @@ https://nomadventures.com/
 =======================================================================================================
 
 @ index.html & other general stuff
+! maybe combine guides and staffList into one...? Control what shows up where with new keys and values, like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
 todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
 todo - make/implement a proper favicon
 todo - add react-icons icons to various parts of the app/pages/components
