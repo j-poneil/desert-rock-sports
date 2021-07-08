@@ -72,9 +72,7 @@ export default function Guiding(){
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
                             <Card.Text>
                                 { i.exp !== "" && <p>{ i.exp }</p> }
-                                <p>{ i.bio1 }</p>
-                                { i.bio2 !== "" && <p>{ i.bio2 }</p> }
-                                { i.bio3 !== "" && <p>{ i.bio3 }</p> }
+                                <>{ parse(i.bio) }</>
                             </Card.Text>
                         </Card.Body>
                     </Card>
