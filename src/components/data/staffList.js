@@ -53,9 +53,9 @@ export const staff = [
         active: true
     },
     {
-        name: "Josh Janes",
+        name: "Joshua Janes",
         position: "",
-        bio: "",
+        bio: "<p>Josh's passion for climbing spans several decades and is rooted in love for adventure, connection to the natural world, and the sheer joy and challenge of movement and problem solving. This passion has led him to climb and guide throughout the US as well as in Canada, Mexico, Europe, and Australia. He has established numerous single- and multi-pitch first ascents up to 5.13, has replaced countless aging bolts as an ASCA volunteer, and is an active contributor to the Mountain Project.</p><p>Josh has called Red Rocks home for over ten years and knows the area intimately. He is one of few who have guided the big trifecta of the Rainbow Wall, Levitation 29, and Cloud Tower - each multiple times - but perhaps his favorite climb is Epinephrine (which he belives to be the best 5.9 in the world). Most of all he enjoys sharing an adventure with his clients with the hope of building a lasting climbing partnership.</p><p>Josh is a Wilderness First Responder, enjoys science fiction, margaritas, and shares his life with his partner and their golden retriever.</p>",
         imgSrc: Josh,
         ig: "https://www.instagram.com/tullynation/",
         site: '',
