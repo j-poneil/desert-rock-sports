@@ -272,3 +272,18 @@ Serif Fonts:
   Roboto Slab wt 400, 700, 900
 
 ==============================================================
+
+Background images:
+<div style={{ 
+      backgroundImage: `url("https://via.placeholder.com/500")` 
+}}>
+
+
+import background from "./img/placeholder.png";
+function App() {
+  return (
+    <div style={{ backgroundImage: `url(${background})` }}>
+      Hello World
+    </div>
+  );
+}
