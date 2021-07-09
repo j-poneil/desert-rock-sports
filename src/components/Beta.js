@@ -35,7 +35,33 @@ import Accordion from 'react-bootstrap/Accordion';
 // 1 Col
     // Non-climbing rainy day options
 
+//@ - K's ideas:
+/*
+Containers / divs (Cards) with images as background and white text titles of each section
+Makes it visually appealing
+- bg inline or with css
+3 cols on Md-bigger
+1 col below that
+ONLY WANTS TO SEE THE CARD INITIALLY
+THEN the open accordion -- or maybe -- a MODAL
+- general info: some canyon background
+- rescue: some helicopter
+When you click on the div/img, have it flip away or slide up or something and show/open the accordion with all the things related to that title
+SLIM DOWN -- less recommendations
+--- OR maybe a different page with recs
+Separate out the individual things into separate files, like components/beta/GeneralInfo.js
+The individual files will have the accordions
+Beta JS will have the return with all the components in it
+Other
+- if you want to change the default bootstrap theme colors (prob good idea)
+-- make a custom.scss or App.scss file, see documentation
 
+
+
+
+
+
+*/
 
 
 //<Card.Subtitle></Card.Subtitle>
@@ -97,9 +123,6 @@ export default function Beta(){
                                     <li>Calico Basin and other areas where you didn't need to pay a fee or show a national parks pass, etc... are not subject to reservations. It has been hinted that in the future Calico Basin will also be a fee area and almost certainly subject to reservations too.</li>
                                     <li>Money collected by the reservation fee does not go to BLM, NPS, etc... It goes to Booz-Allen, the military contractor who built and maintains Recreation.gov, so if you don't want to support them financially, wake up early and enter the loop before the reservation window starts or hike in from an area that is not subject to an entrance fee.</li>
                                 </ul>
-                            <Card.Subtitle></Card.Subtitle>
-                                <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                                <p></p>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -116,6 +139,23 @@ export default function Beta(){
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                    {/* //! TESTING BELOW */}
+                    <Card>
+                        <Card.Body style={{
+                            backgroundImage: `url('https://via.placeholder.com/50')`,
+                            // switch to 'cover' with a real image, probably
+                            // and/or have multiple images for multiple screen sizes
+                            // backgroundRepeat: 'no-repeat',
+                            // but a pattern background repeated, could look nice on any screen size... BUT maybe not as nice...
+                            backgroundSize: 'contain'
+                        }}>
+                            <Card.Title>TEST CARD</Card.Title>
+                            <Card.Text>
+                                Some text... shouldn't be needed
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    {/* //! TESTING ABOVE */}
                 </Col>
                 <Col>
                     {/* //@ First accordion: SNCC, Ethics, Paid Camping, Free Camping, Showers, Laundry */}
