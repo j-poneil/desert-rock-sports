@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // icons
 // Standard?
@@ -15,6 +15,9 @@ import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 
 import Accordion from 'react-bootstrap/Accordion';
+
+
+import Template from './beta/Template';
 
 // styles here:
 // src\stylesheets\pages\_beta.sass
@@ -55,6 +58,14 @@ Beta JS will have the return with all the components in it
 Other
 - if you want to change the default bootstrap theme colors (prob good idea)
 -- make a custom.scss or App.scss file, see documentation
+? - problem...
+I can't click on a card and have it turn into an accordion... because then I have nothing I can click on to turn it back into a card...
+Maybe better to keep the Card/Section title, and just open/close the accordion group below it on click of the card/section title
+... also... whats the accessibility impact of this kinda stuff? I have no idea
+? - How do I make it obvious that your supposed to click on these cards w/o saying "click me"?
+? - What about accessibility?
+... v turning into ^ or... > turning into <, etc...
+... what about for screen readers? maybe an invisible except to screen readers 'sub-menu visible' 'sub-menu hidden' message in the sub-title of the card???
 
 
 
@@ -74,7 +85,7 @@ Other
 //<p></p>
 
 
-{/* <Accordion>
+/* <Accordion>
     <Card>
         <Accordion.Toggle as={Card.Header} eventKey="0">Title of accordion section</Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
@@ -89,9 +100,35 @@ Other
             <Card.Body>Content</Card.Body>
         </Accordion.Collapse>
     </Card>
-</Accordion> */}
+</Accordion> */
+
+// const TestAccordion = (
+//     <Animated animationIn="fadeInDown" animationOut="fadeOutUp" animationInDuration={400} animationOutDuration={400} isVisible={true}>
+//         <Accordion>
+//             <Card>
+//                 <Accordion.Toggle as={Card.Header} eventKey="test0">Title of accordion section</Accordion.Toggle>
+//                 <Accordion.Collapse eventKey="test0">
+//                     <Card.Body>Content</Card.Body>
+//                 </Accordion.Collapse>
+//                 <Accordion.Toggle as={Card.Header} eventKey="test1">Title of accordion section</Accordion.Toggle>
+//                 <Accordion.Collapse eventKey="test1">
+//                     <Card.Body>Content</Card.Body>
+//                 </Accordion.Collapse>
+//                 <Accordion.Toggle as={Card.Header} eventKey="test2">Title of accordion section</Accordion.Toggle>
+//                 <Accordion.Collapse eventKey="test2">
+//                     <Card.Body>Content</Card.Body>
+//                 </Accordion.Collapse>
+//             </Card>
+//         </Accordion>
+//     </Animated>
+// );
+
+
 
 export default function Beta(){
+    
+
+
     return (
         <Container fluid>
             <Row xl={3} lg={3} md={2} sm={2} xs={1}>
@@ -140,21 +177,7 @@ export default function Beta(){
                         </Card.Body>
                     </Card>
                     {/* //! TESTING BELOW */}
-                    <Card>
-                        <Card.Body style={{
-                            backgroundImage: `url('https://via.placeholder.com/50')`,
-                            // switch to 'cover' with a real image, probably
-                            // and/or have multiple images for multiple screen sizes
-                            // backgroundRepeat: 'no-repeat',
-                            // but a pattern background repeated, could look nice on any screen size... BUT maybe not as nice...
-                            backgroundSize: 'contain'
-                        }}>
-                            <Card.Title>TEST CARD</Card.Title>
-                            <Card.Text>
-                                Some text... shouldn't be needed
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <Template />
                     {/* //! TESTING ABOVE */}
                 </Col>
                 <Col>
