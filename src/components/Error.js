@@ -6,6 +6,8 @@ import React from 'react';
 export default function Error(){
     return (
         <div id="error-container">
+            <span className="sr-only">Screen Reader note: 404 Error. File Not Found.</span>
+            
             {/*
             If a url that doesn't exist is attempted to navigate to, you will get this displayed.
             It will show the header, navbar, this error page inside the main body, then the footer.
