@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // ! --- REACT-BOOTSTRAP
 //import logo from './logo.svg';
 //import './App.css';
 
-import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -24,15 +23,17 @@ import Error from './components/Error';
 
 function App() {
   return (
-    <main>
-      {/* Header here (DRS Text, Logo, etc...) THAT WILL BE VISIBLE ON EVERY PAGE. */}
-      {/* <Header /> */}
+    <>
+      {/* //@ test to make sure this works */}
+      <a id='skip-nav' class="sr-only-focusable" href='#main-content'>Skip Navigation</a>
+
 
       {/* Navbar here */}
       <Navbar />
 
-      {/* Switch is the container for all the other main page content */}
-      <Switch>
+      {/* Switch is the container for all the other main page content, id="main-content" is for SR skip link*/}
+      {/* since I have role="main" here I changed the overall enclosing tag from a main to a <>*/}
+      <Switch id='main-content' role="main">
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/gear" component={Gear} />
@@ -48,7 +49,7 @@ function App() {
 
       {/* Footer here //! DISABLED FOR NOW */}
       {/* <Footer /> */}
-    </main>
+    </>
   );
 }
 
