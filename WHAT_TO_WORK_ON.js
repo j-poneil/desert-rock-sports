@@ -87,6 +87,11 @@ todo - navigate through each page as if I had no mouse... with tabbing and arrow
 //todo - make a easy to read and copy/paste list of the fonts in index.html
 // todo - should I have a navbar link to the gym ??? Seems like yes, duh.
 
+@ Accessability -----------------------------------
+todo - verify that the skip navigation skip link is working
+todo - verify that the skip to links in Beta.js are working (once they are all set up and Beta.js is looking good)
+todo - get a screen reader so i can actually test appropriately
+
 
 @ Home page ---------------------------------------
 todo - Add some vertical spacing between the react-bootstrap Containers ???
