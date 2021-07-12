@@ -93,6 +93,7 @@ todo - verify that the skip to links in Beta.js are working (once they are all s
 todo - add role="article", role="heading" (for titles/section headings)
 todo - other role="" to add for the future 'form'(subscribe to email, guiding inquiry, etc), 'contentinfo'(copyright info, etc), 'search'(searchbar), 'button', 'list', 'listitem', 'note', 'row', 'rowgroup', 'rowheader', 'alert', 'checkbox', 'gridcell', 'link', 'menuitem', 'option', 'textbox'
 todo - get a screen reader so i can actually test appropriately
+// todo - in template, get aria-expanded to toggle true/false when the accordion below is visible/hidden
 // todo - add role="main" to the Switch component which holds the main page content and role="navigation" to the NavBar
 
 
