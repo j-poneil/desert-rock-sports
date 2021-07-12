@@ -93,6 +93,7 @@ todo - verify that the skip to links in Beta.js are working (once they are all s
 todo - add role="article", role="heading" (for titles/section headings)
 todo - other role="" to add for the future 'form'(subscribe to email, guiding inquiry, etc), 'contentinfo'(copyright info, etc), 'search'(searchbar), 'button', 'list', 'listitem', 'note', 'row', 'rowgroup', 'rowheader', 'alert', 'checkbox', 'gridcell', 'link', 'menuitem', 'option', 'textbox'
 todo - get a screen reader so i can actually test appropriately
+? - The accordion and subtext showing/hiding complicates things for screen readers a lot... What if I just did all the same info separately in a big sr-only article with skip links to the sections? I'm mostly thinking of those who are blind, but I must also think of those who don't navigate with mouse or touchscreen... Hmmm
 // todo - in template, get aria-expanded to toggle true/false when the accordion below is visible/hidden
 // todo - add role="main" to the Switch component which holds the main page content and role="navigation" to the NavBar
 
