@@ -38,25 +38,24 @@ export default function Template() {
             : setAccordionVisible(true);
     };
 
-    // @ instead of "as={Button}" I may be able to do role="button"... try it out
     return (
         <>
             <Card >
                 <Card.Body
-                    as={Button}
-                    onClick={clickHandler}
-                    //@ will this line work to add/remove the aria-expanded property? Whats the effect of null here?
-                    { ...accordionVisible ? 'aria-expanded' : null }
-                    style={titleCardStyles}>
+                    as={ Button }
+                    onClick={ clickHandler }
+                    aria-expanded={ accordionVisible ? true : false }
+                    style={ titleCardStyles }>
                     <Card.Title role="heading">
-                        {accordionVisible ? <FaRegCaretSquareUp /> : <FaRegCaretSquareDown />}
-                         Card/Section Title
+                        { accordionVisible ? <FaRegCaretSquareUp /> : <FaRegCaretSquareDown /> }
+                        &nbsp;
+                        Card/Section Title
                     </Card.Title>
                     <span className="sr-only sr-only-focusable">Show/Hide Accordion Sub-Menu</span>
                 </Card.Body>
             </Card>
             
-            
+            {/* //@ what accessability role="" etc... stuff to add below? */}
             <Animated animationIn="fadeInDown" animationOut="fadeOutUp" animationInDuration={400} animationOutDuration={400} isVisible={accordionVisible}>
                 <Accordion>
                     <Card>
