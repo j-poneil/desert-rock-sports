@@ -131,9 +131,24 @@ export default function Beta(){
 
     return (
         <Container fluid>
+            {/* //@ SR skip / get to quick links */}
+            {/* //! Makes sense to hold off on filling this out until the content is in sub-components */}
+            <a id='skip-to-RR-general-info' class="sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
+            {/* //? Should I do it so that you skip to the card, which can be opened (and say that in the sr-only text)... or should I make a compact list that allows you to skip to any individual accordion item on the entire page all from here?... that would be "slick" but may be a bit harder... would they get the info w/o having to open the cards?... hmm ohh... yeah, especially once I componentize this all. Hmm should still be able to do like href="./beta/Component#idOfSection" ... yeah... a SR-only link list here going to each individual accordion item would be ideal... the pretty cards and accordions are for quick sighted navigation, something quick for blind navigation as well would be best. */}
+            <a id='skip-to-SNCC-ethics-camping-showers-laundry' class="sr-only-focusable" href='#SNCC-ethics-camping-showers-laundry'>Skip to Southern Nevada Climbers Coalition, Local Ethics, Camping, Showers, and Laundry</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' class="sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+
             <Row xl={3} lg={3} md={2} sm={2} xs={1}>
                 <Col>
-                    <Card>
+                    <Card id="RR-general-info">
                         <Card.Body>
                             <Card.Title>Red Rock General Info</Card.Title>
                             <Card.Subtitle>Scenic Loop Hours</Card.Subtitle>
@@ -182,7 +197,7 @@ export default function Beta(){
                 </Col>
                 <Col>
                     {/* //@ First accordion: SNCC, Ethics, Paid Camping, Free Camping, Showers, Laundry */}
-                    <Accordion>
+                    <Accordion id="SNCC-ethics-camping-showers-laundry">
                         <Card>
                             <Accordion.Toggle as={Card.Header} eventKey="0">Southern Nevada Climbers Coalition</Accordion.Toggle>
                             <Accordion.Collapse eventKey="0">
