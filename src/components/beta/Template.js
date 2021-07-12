@@ -30,12 +30,9 @@ export default function Template() {
         return accordionVisible ? setAccordionVisible(false) : setAccordionVisible(true);
     };
 
+    // @ instead of "as={Button}" I may be able to do role="button"... try it out
     return (
         <>
-            {/* <Button onClick={clickHandler} className="outline-dark" block>Test button</Button> */}
-            {/* <Button onClick={clickHandler} className="outline-dark" block>
-            </Button> */}
-            {/*  */}
             <Card >
                 <Card.Body
                     as={Button}
@@ -43,10 +40,6 @@ export default function Template() {
                     style={titleCardStyles}>
                     <Card.Title>{accordionVisible ? <FaRegCaretSquareUp /> : <FaRegCaretSquareDown />} Card/Section Title </Card.Title>
                     <div className="sr-only sr-only-focusable">Show/Hide Accordion Sub-Menu</div>
-                    {/* <Card.Subtitle>Sub title (and maybe hidden screen reader instructions?)</Card.Subtitle>
-                    <Card.Text>
-                        Some text... shouldn't be needed
-                    </Card.Text> */}
                 </Card.Body>
             </Card>
             
@@ -54,9 +47,6 @@ export default function Template() {
             <Animated animationIn="fadeInDown" animationOut="fadeOutUp" animationInDuration={400} animationOutDuration={400} isVisible={accordionVisible}>
                 <Accordion>
                     <Card>
-                        {/* using as={Card.Header} ---- allows click anywhere on the title / header to open/close the accordion.. BUT not accessible by tabbing through. I think I probably am forced to do as={Button} to allow screen readers to use it... maybe can get creative with custom css so that it looks better than just a button or link text */}
-                        {/* //! I can tab through these and open them without it being visible!*/}
-                        {/* //? Maybe I can have a conditional like as={accordionVisible ? Button : Card.Header} ... that should prevent it */}
                         <Accordion.Toggle as={accordionVisible ? Button : Card.Header} eventKey="test0">Title of accordion section</Accordion.Toggle>
                         <Accordion.Collapse eventKey="test0">
                             <Card.Body>Content</Card.Body>
