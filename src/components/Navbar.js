@@ -15,7 +15,7 @@ import Nav from 'react-bootstrap/Nav';
 // ? fixed="top" in the NavbarRBS could be nice. BUT it would mean needing to add padding-top to the Switch or something to prevent it from cutting off the top content of all pages... so will go w/o for now.
 export default function Navbar(){
     return (
-        <NavbarRBS collapseOnSelect expand="lg" bg="light" varient="light" role="navigation">
+        <NavbarRBS collapseOnSelect expand="lg" bg="light" varient="light" role="navigation" aria-label='Navigation Menu'>
             <NavbarRBS.Brand href="/">
                 {/* <img
                     src="/logo.svg"
@@ -44,21 +44,5 @@ export default function Navbar(){
                 </Nav>
             </NavbarRBS.Collapse>
         </NavbarRBS>
-
-        // Previous way, w/o react-bootstrap, just with react-router
-        // <nav>
-        //     <ul id="navbar-list">
-        //         <li className="nav-item"><Link to="/">Home</Link></li>
-        //         <li className="nav-item"><Link to="/about">About</Link></li>
-        //         <li className="nav-item"><Link to="/gear">Gear</Link></li>
-        //         <li className="nav-item"><Link to="/beta">Beta</Link></li>
-        //         <li className="nav-item"><Link to="/guiding">Guiding</Link></li>
-        //         <li className="nav-item"><Link to="/other">Other</Link></li>
-        //         <li className="nav-item"><Link to="/shop">Shop</Link></li>
-        //         <li className="nav-item"><Link to="/secret">.</Link></li>
-        //         {/* Insert new navbar items above */}
-        //         {/* <li className="nav-item"><Link to="/pagetolinkto">Page</Link></li> */}
-        //     </ul>
-        // </nav>
     );
 }
