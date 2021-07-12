@@ -24,8 +24,8 @@ import Error from './components/Error';
 function App() {
   return (
     <>
-      {/* //@ test to make sure this works */}
-      <a id='skip-nav' class="sr-only-focusable" href='#main-content'>Skip Navigation</a>
+      {/* //@ test to make sure this works... if I remove sr-only, it is visible */}
+      <a id='skip-nav' class="sr-only sr-only-focusable" href='#main-content'>Skip Navigation</a>
 
 
       {/* Navbar here */}
