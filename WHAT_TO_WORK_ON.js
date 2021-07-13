@@ -150,6 +150,8 @@ todo - locations for wifi ?
 todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 ? - do I want to use a normally closed accordian for the sections or cards?
+! - can I make the animation of the Accordion in/out be lower/behind the Card? Z-index?
+// todo - make a template, accessible, to use to make all the sub components
 // todo - implement a map icon to include on lines with a Google Maps link
 // todo - implement a external link icon
 // todo - implement a phone number link icon
