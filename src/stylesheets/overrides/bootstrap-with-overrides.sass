@@ -4,10 +4,10 @@
 //     "danger": teal
 // )
 
-.btn.focus
-    outline: 0
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
+// .btn.focus
+//     outline: 0
+//     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
+//     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
 
 // Decendant Combinator - all children of the first element, that are the second element get the style
     // thus here, the button children no matter how nested of #templateAccordionId get selected
@@ -15,14 +15,20 @@
     text-align: left
     background-color: white
     color: black
+    margin: 2px //! necessary to give enough room on sides to actually see the default outline
+
+// The magic combo to use for hover/active/focus
 #templateAccordionId button:hover,
 #templateAccordionId button:active
     // change background/text color
-    background-color: black
+    background-color: #505050
     color: white
 #templateAccordionId button:focus
     // show outline
-    outline: 
+        // default bootstrap is fine for now
+    // outline: 2px solid blue !important
+    // -webkit-box-shadow: 0 0 0 0.8rem rgba(0, 123, 255, 0.25)
+    // box-shadow: 0 0 0 0.8rem rgba(0, 123, 255, 0.25)
 
 /* import bootstrap to set changes */
 @import "../../../node_modules/bootstrap/scss/bootstrap"
