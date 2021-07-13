@@ -10,7 +10,8 @@
 
 // 2. Vendors
 @import
-    'vendors/normalize';
+    'vendors/normalize',
+    '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 // 3. Base stuff
 @import
@@ -46,3 +47,6 @@
     'pages/shop',
     'pages/secret',
     'pages/error';
+
+// 7. Overrides
+@import 'overrides/overrides.sass';

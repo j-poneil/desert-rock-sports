@@ -6,6 +6,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // Master stylesheet compiled from SASS partials
+//! including React-Bootstrap default styles, since they are imported into main.scss (the file everything is imported into before compiling)
+//! Edit custom ones which override bootstrap defaults:
+// * stylesheets/overrides/overrides.sass
 import './stylesheets/main.css';
 
 ReactDOM.render(

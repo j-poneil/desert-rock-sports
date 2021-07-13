@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'; // ! --- REACT-BOOTSTRAP
 //import logo from './logo.svg';
-//import './App.css';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
