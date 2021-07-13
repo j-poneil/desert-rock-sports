@@ -19,6 +19,7 @@ import Button from 'react-bootstrap/Button';
 //! - Did you set the aria-label on every single accordion toggle?
 //! - Do the event keys in accordion toggle and accordion collapse match?
 //! - Are you sure the event keys are unique and not used in a different accordion component?
+//! - Does the main card have a unique id to use as a skip to link? Also for custom styles, etc...
 
 //@ styles
 // backgroundImage: `url('https://via.placeholder.com/50')`
@@ -75,7 +76,7 @@ export default function Template() {
                 animationOutDuration={200}
                 isVisible={ accordionVisible }
             >
-                <Accordion>
+                <Accordion id='templateAccordionId'>
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
                     <Card>
                         {/* I was using: as={accordionVisible ? Button : Card.Header} in the Accordion.Toggle s and role="heading" before.*/}
