@@ -1,7 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import 'bootstrap/dist/css/bootstrap.min.css'; // ! --- REACT-BOOTSTRAP
+// imported it into stylesheets/main.scss instead, which is imported into index.js
+// import 'bootstrap/dist/css/bootstrap.min.css'; // ! --- REACT-BOOTSTRAP
 //import logo from './logo.svg';
 
 import Navbar from './components/Navbar';

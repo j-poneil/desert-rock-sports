@@ -1,4 +1,26 @@
 /* Make any customizations */
+.btn.focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#templateAccordionId button {
+  text-align: left;
+  background-color: white;
+  color: black;
+}
+
+#templateAccordionId button:hover,
+#templateAccordionId button:active {
+  background-color: black;
+  color: white;
+}
+
+#templateAccordionId button:focus {
+  outline: 5px solid blue;
+}
+
 /* import bootstrap to set changes */
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -10838,4 +10860,4 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=overrides.css.map */
+/*# sourceMappingURL=bootstrap-with-overrides.css.map */
