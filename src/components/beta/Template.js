@@ -9,7 +9,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 
 // photo imports
-// import Photo from '../../img/beta/photo.jpg';
+// import Photo from '..something../img/beta/photo.jpg';
 
 // styles
 // backgroundImage: `url('https://via.placeholder.com/50')`
@@ -28,14 +28,6 @@ const titleCardStyles = {
     color: 'white',
     textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black'
 };
-const accordionToggleStyles = {
-    background: 'white',
-    color: 'black',
-    textAlign: 'left'
-};
-// const activeStyle = {
-//     outline: '5px solid green'
-// };
 
 export default function Template() {
     const [ accordionVisible, setAccordionVisible ] = useState(false);
@@ -83,7 +75,6 @@ export default function Template() {
                             varient='outline-dark'
                             // as={accordionVisible ? Button : Card.Header}
                             eventKey="test0"
-                            style={ accordionToggleStyles }
                             role="button"
                             aria-label="Section title(Put the title) and button"
                             // aria-expanded={ someVariable ? true : false }
