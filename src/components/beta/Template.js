@@ -72,8 +72,8 @@ export default function Template() {
             <Animated
                 animationIn="fadeInDown"
                 animationOut="fadeOutUp"
-                animationInDuration={400}
-                animationOutDuration={200}
+                animationInDuration={ 400 }
+                animationOutDuration={ 200 }
                 isVisible={ accordionVisible }
             >
                 <Accordion id='templateAccordionId'>
