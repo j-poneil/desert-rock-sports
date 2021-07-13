@@ -11,7 +11,16 @@ import Button from 'react-bootstrap/Button';
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 
-// styles
+//! - Did you Set the main card title?
+//! - Did you set the titles/accordion toggles?
+//! - Did you add a background image?
+//! - Did you set it to cover?
+//! - Did you set the aria-label on the card?
+//! - Did you set the aria-label on every single accordion toggle?
+//! - Do the event keys in accordion toggle and accordion collapse match?
+//! - Are you sure the event keys are unique and not used in a different accordion component?
+
+//@ styles
 // backgroundImage: `url('https://via.placeholder.com/50')`
 // a eye-catching, interesting image for the Card / Section Header
     // size?
@@ -28,6 +37,7 @@ const titleCardStyles = {
     color: 'white',
     textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black'
 };
+
 
 export default function Template() {
     const [ accordionVisible, setAccordionVisible ] = useState(false);
@@ -69,15 +79,12 @@ export default function Template() {
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
                     <Card>
                         {/* I was using: as={accordionVisible ? Button : Card.Header} in the Accordion.Toggle s and role="heading" before.*/}
-                        {/* as={Card.Header} is what is supposed to make it able to be clicked on anywhere to open/close, but it appears to work just fine without it! */}
+                        {/* as={Card.Header} is what is supposed to make it able to be clicked on anywhere to open/close, but it appears to work just fine without it! varient='outline-dark' doesn't work... */}
                         <Accordion.Toggle
                             as={ Button }
-                            varient='outline-dark'
-                            // as={accordionVisible ? Button : Card.Header}
                             eventKey="test0"
                             role="button"
                             aria-label="Section title(Put the title) and button"
-                            // aria-expanded={ someVariable ? true : false }
                         >
                             Title of accordion section
                         </Accordion.Toggle>
