@@ -64,11 +64,13 @@ export default function Template() {
 
     //@ thinking about keeping track of when any children accordion sections of the Card are open/closed, no matter how many such sections there are. This way I can have contextual open/close icons, which would really help a lot, I think. I'd obviously change these variable names around a bit.
     // called when any is clicked, being passed in which one was clicked
-    // ... either i code which, or set a key for each and maybe use like this.key ???
-    // onClick={ () => handler2(acc1) }
+    // ... either i code which, or use the eventKey 's which are already in place, yeah...
+    // this.eventKey ???
+    // onClick={ () => handler2(acc1) } ----- or ------ handler2(this.eventKey)
     // corresponds to a key in an object {acc1: false, ..., ...}
     // if open/closed, shown by the below in the title of the accordion sections
     // { accordionOpen2[key] ? <MdExpandLess /> : <MdExpandMore /> }
+    // below instead of acc1, it would be whatever eventKey1 is, etc..
     const [ accordionOpen2, setAccordionOpen2 ] = useState({acc1: false, acc2: false, acc3: false});
     const handler2 = (key) => {
         key.preventDefault();
