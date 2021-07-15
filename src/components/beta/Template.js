@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Animated } from 'react-animated-css';
 import { FaRegCaretSquareDown, FaRegCaretSquareUp } from 'react-icons/fa';
+import { MdExpandMore, MdExpandLess } from 'react-icons/md';
 
 
 import Card from 'react-bootstrap/Card';
@@ -11,6 +12,7 @@ import Button from 'react-bootstrap/Button';
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 
+//@ Checklist
 //! - Did you Set the main card title?
 //! - Did you set the titles/accordion toggles?
 //! - Did you add a background image?
@@ -42,12 +44,39 @@ const titleCardStyles = {
 
 export default function Template() {
     const [ accordionVisible, setAccordionVisible ] = useState(false);
-    const clickHandler = (e) => {
+    const cardClickHandler = (e) => {
         e.preventDefault();
-        return accordionVisible ?
+        accordionVisible ?
             setAccordionVisible(false)
             : setAccordionVisible(true);
     };
+
+    //@ just playing around with an idea...
+    const [ accordionOpen, setAccordionOpen ] = useState([false, false, false]);
+    
+    // { accordionOpen[index] ? <MdExpandLess /> : <MdExpandMore /> }
+    const handler = (index) => {
+        index.preventDefault();
+        let copy = accordionOpen;
+        copy[index] = !copy[index];
+        setAccordionOpen(copy);
+    }
+
+    //@ thinking about keeping track of when any children accordion sections of the Card are open/closed, no matter how many such sections there are. This way I can have contextual open/close icons, which would really help a lot, I think. I'd obviously change these variable names around a bit.
+    // called when any is clicked, being passed in which one was clicked
+    // ... either i code which, or set a key for each and maybe use like this.key ???
+    // onClick={ () => handler2(acc1) }
+    // corresponds to a key in an object {acc1: false, ..., ...}
+    // if open/closed, shown by the below in the title of the accordion sections
+    // { accordionOpen2[key] ? <MdExpandLess /> : <MdExpandMore /> }
+    const [ accordionOpen2, setAccordionOpen2 ] = useState({acc1: false, acc2: false, acc3: false});
+    const handler2 = (key) => {
+        key.preventDefault();
+        let copy = { ...accordionOpen2 };
+        copy[key] = !copy[key];
+        setAccordionOpen2(copy);
+    }
+
 
     return (
         <>
@@ -55,13 +84,14 @@ export default function Template() {
                 <span className="sr-only">Screen Reader note: This button acts as a major section title. Clicking it shows or hides a subset of buttons which act as minor section titles. Clicking these shows or hides additional information.</span>
                 <Card.Body
                     as={ Button }
-                    onClick={ clickHandler }
+                    onClick={ cardClickHandler }
                     style={ titleCardStyles }
                     aria-label="(Card/Section Title). Hide / Show"
                     aria-expanded={ accordionVisible ? true : false }
                 >
                     <Card.Title role="heading">
                         { accordionVisible ? <FaRegCaretSquareUp /> : <FaRegCaretSquareDown /> }
+                        { accordionVisible ? <MdExpandLess /> : <MdExpandMore /> }
                         &nbsp;
                         Card/Section Title
                     </Card.Title>
