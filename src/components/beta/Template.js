@@ -38,8 +38,14 @@ const titleCardStyles = {
     backgroundImage: `url('https://via.placeholder.com/50')`,
     backgroundSize: 'contain',
     color: 'white',
-    textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black'
+    textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black',
+    position: 'relative',
+    zIndex: '500'
 };
+const accordionStyles = {
+    position: 'relative',
+    zIndex: '400'
+}
 
 
 export default function Template() {
@@ -108,7 +114,7 @@ export default function Template() {
                 animationOutDuration={ 200 }
                 isVisible={ accordionVisible }
             >
-                <Accordion id='templateAccordionId'>
+                <Accordion id='templateAccordionId' style={ accordionStyles }>
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
                     <Card>
                         {/* I was using: as={accordionVisible ? Button : Card.Header} in the Accordion.Toggle s and role="heading" before.*/}
