@@ -22,8 +22,9 @@ import Template from './beta/Template';
 // styles here:
 // src\stylesheets\pages\_beta.sass
 
-// ? - Accordian? Cards? Modals? Tabs?
-// ! - Maybe a Jumbotron saying something like: "Theres a lot of info you could be interested in, I have tried my best to group it so that you don't have to look through everything. Click on the topic you are interested in and it will expand to show more information."
+//@ - Card Section Titles with a captivating img background
+    // Click on them to show/hide an accordion of related sections that slides down into view
+
 // @ for Accordian
 // 1 Col
     // SNCC, Local Ethics (add wet rock here?), ???
@@ -67,62 +68,7 @@ Maybe better to keep the Card/Section title, and just open/close the accordion g
 ... v turning into ^ or... > turning into <, etc...
 ... what about for screen readers? maybe an invisible except to screen readers 'sub-menu visible' 'sub-menu hidden' message in the sub-title of the card???
 
-
-
-
-
-
 */
-
-
-//<Card.Subtitle></Card.Subtitle>
-//<Card.Text>
-//    <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-//    <p></p>
-//</Card.Text>
-
-//<a href="" target="_blank" rel="noopener noreferrer"></a><br />
-//<p></p>
-
-
-/* <Accordion>
-    <Card>
-        <Accordion.Toggle as={Card.Header} eventKey="0">Title of accordion section</Accordion.Toggle>
-        <Accordion.Collapse eventKey="0">
-            <Card.Body>Content</Card.Body>
-        </Accordion.Collapse>
-        <Accordion.Toggle as={Card.Header} eventKey="1">Title of accordion section</Accordion.Toggle>
-        <Accordion.Collapse eventKey="1">
-            <Card.Body>Content</Card.Body>
-        </Accordion.Collapse>
-        <Accordion.Toggle as={Card.Header} eventKey="2">Title of accordion section</Accordion.Toggle>
-        <Accordion.Collapse eventKey="2">
-            <Card.Body>Content</Card.Body>
-        </Accordion.Collapse>
-    </Card>
-</Accordion> */
-
-// const TestAccordion = (
-//     <Animated animationIn="fadeInDown" animationOut="fadeOutUp" animationInDuration={400} animationOutDuration={400} isVisible={true}>
-//         <Accordion>
-//             <Card>
-//                 <Accordion.Toggle as={Card.Header} eventKey="test0">Title of accordion section</Accordion.Toggle>
-//                 <Accordion.Collapse eventKey="test0">
-//                     <Card.Body>Content</Card.Body>
-//                 </Accordion.Collapse>
-//                 <Accordion.Toggle as={Card.Header} eventKey="test1">Title of accordion section</Accordion.Toggle>
-//                 <Accordion.Collapse eventKey="test1">
-//                     <Card.Body>Content</Card.Body>
-//                 </Accordion.Collapse>
-//                 <Accordion.Toggle as={Card.Header} eventKey="test2">Title of accordion section</Accordion.Toggle>
-//                 <Accordion.Collapse eventKey="test2">
-//                     <Card.Body>Content</Card.Body>
-//                 </Accordion.Collapse>
-//             </Card>
-//         </Accordion>
-//     </Animated>
-// );
-
 
 
 export default function Beta(){
