@@ -1,13 +1,16 @@
 /*
-! - critical
-@ - purple, look at me
-? - questions to answer or think about
-todo - need to do, not critical
-% - yellow
-$ - cash money green
+Using the "Better Comments" VS Code plugin to color code comments based on the symbol/text after the double slash
+Or first symbol/text on the line inside block comments. Helps me visually mark and separate things.
+
+! - red - critical / critical note
+@ - purple - look at me / section titles
+? - blue - questions to answer or think about
+todo - orange - need to do, not critical
+% - yellow - ?
+$ - cash money green  - ?
 * - yellow/green - point worth seeing?
-- normal comment
-// strikethru
+- green - normal comment
+// strikethru/grey - COMPLETED TASK
 
 # - unused
 ^ - unused
@@ -62,15 +65,16 @@ https://nomadventures.com/
 =======================================================================================================
 
 @ index.html & other general stuff
-! maybe combine guides and staffList into one...? Control what shows up where with new keys and values, like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
-todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
-todo - make/implement a proper favicon
-todo - add react-icons icons to various parts of the app/pages/components
 todo - email list?
 todo - some sort of server integration?
     Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
     The site reads/updates a DB, like firebase
     Then the deployed site gets updated values from firebase with fallbacks if no connection?
+? - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
+    like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
+? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site?
+    IE Hours of operation, resole turn around time, guide service pricing, News, etc...
+    Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
 todo - add more photos of the inside / outside of DRS
     clothing
     artwork?
@@ -79,11 +83,12 @@ todo - add more photos of the inside / outside of DRS
     stick clips
     chalk selection
     canyoneering ropes, bags, critter, quicklinks, etc?
-todo - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site?
-    IE Hours of operation, resole turn around time, guide service pricing, News, etc...
-    Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
-todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
+todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
+todo - make/implement a BETTER favicon
+// todo - make/implement a proper favicon
+// todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
+// todo - add react-icons icons to various parts of the app/pages/components
 //todo - make a easy to read and copy/paste list of the fonts in index.html
 // todo - should I have a navbar link to the gym ??? Seems like yes, duh.
 
