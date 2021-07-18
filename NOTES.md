@@ -318,3 +318,10 @@ Inherited defaults from react-bootstrap
 --breakpoint-xl: 1200px;
 --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+==================================================================
+Tooltips...
+Add them by adding this line to whatever element
+data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related sections"
+
+==================================================================
