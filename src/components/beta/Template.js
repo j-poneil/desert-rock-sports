@@ -23,6 +23,11 @@ import Button from 'react-bootstrap/Button';
 //! - Are you sure the event keys are unique and not used in a different accordion component?
 //! - Does the main card have a unique id to use as a skip to link? Also for custom styles, etc...
 
+//@ Notes
+// you can add tooltips with:
+// data-bs-toggle="tooltip" data-bs-placement="top" title="whatever text"
+
+
 //@ styles
 // backgroundImage: `url('https://via.placeholder.com/50')`
 // a eye-catching, interesting image for the Card / Section Header
@@ -96,8 +101,9 @@ export default function Template() {
 
     return (
         <>
-            <Card>
+            <Card data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related sections">
                 <span className="sr-only">Screen Reader note: This button acts as a major section title. Clicking it shows or hides a subset of buttons which act as minor section titles. Clicking these shows or hides additional information.</span>
+                
                 <Card.Body
                     as={ Button }
                     onClick={ cardClickHandler }
@@ -134,6 +140,7 @@ export default function Template() {
                             eventKey="test0"
                             role="button"
                             aria-label="Section title(Put the title) and button"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related information"
                         >
                             Title of accordion section
                         </Accordion.Toggle>
@@ -153,6 +160,7 @@ export default function Template() {
                             eventKey="test1"
                             role="button"
                             aria-label="Section title(Put the title) and button"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related information"
                         >
                             Title of accordion section
                         </Accordion.Toggle>
