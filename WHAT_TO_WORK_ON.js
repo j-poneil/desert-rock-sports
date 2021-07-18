@@ -152,8 +152,7 @@ todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 todo - fix the blue then image problem with the cards...
     pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
-todo - add a tooltip that says something like: "click to show/hide additional info" ???
-todo - add another tooltip to each accordion section... that is only active when visible? Says something like "click to show/hide content" ???
+// todo - add a tooltip that says something like: "click to show/hide additional info" to the card and accordion sections
 // todo - make the title font of the card / section titles larger ( h2 tag )
 // todo - use z-index to make the animation of the accordion show/hide below/behind the card/section titles
 // todo - make a template, accessible, to use to make all the sub components
