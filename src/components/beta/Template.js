@@ -15,8 +15,8 @@ import Button from 'react-bootstrap/Button';
 //@ Checklist
 //! - Did you Set the main card title?
 //! - Did you set the titles/accordion toggles?
-//! - Did you add a background image?
-//! - Did you set it to cover?
+//! - Did you import/add a background image?
+//! - Did you set it to cover? Or otherwise style it so it will look good responsively?
 //! - Did you set the aria-label on the card?
 //! - Did you set the aria-label on every single accordion toggle?
 //! - Do the event keys in accordion toggle and accordion collapse match?
@@ -49,6 +49,7 @@ const accordionStyles = {
 
 
 export default function Template() {
+    // Keeps track of if the accordion is visible or not. Visibility is toggled and the accordion scrolls down into view or up out of view from behind the Card / Section Title when the Card is clicked.
     const [ accordionVisible, setAccordionVisible ] = useState(false);
     const cardClickHandler = (e) => {
         e.preventDefault();
@@ -58,8 +59,15 @@ export default function Template() {
     };
 
     //@ just playing around with an idea...
+    // Keeping track of the open/closed state of the individual accordion sections using an array
+    // Will most likely go with the idea below which uses an object to keep track of this state instead, using eventKey's
+    // which are already in place and should be unique and hand coded for each... but still thinking.
+    // If I was to use array like this, I'd need to make sure that the number of "false" entries matches the number of
+    // accordion sections
+    //! ... but I'm not totally sure that this array approach would work when everything is composed together and there are so many
+    // ... instances of this same setup with same variable names, many times in the Beta.js page...
+    // ... I think I'd trust react to manage it fine somehow... but I'm not entirely sure it would work like that.
     const [ accordionOpen, setAccordionOpen ] = useState([false, false, false]);
-    
     // { accordionOpen[index] ? <MdExpandLess /> : <MdExpandMore /> }
     const handler = (index) => {
         index.preventDefault();
@@ -98,10 +106,12 @@ export default function Template() {
                     aria-expanded={ accordionVisible ? true : false }
                 >
                     <Card.Title role="heading">
-                        { accordionVisible ? <FaRegCaretSquareUp /> : <FaRegCaretSquareDown /> }
-                        { accordionVisible ? <MdExpandLess /> : <MdExpandMore /> }
-                        &nbsp;
-                        Card/Section Title
+                        <h2>
+                            { accordionVisible ? <FaRegCaretSquareUp /> : <FaRegCaretSquareDown /> }
+                            { accordionVisible ? <MdExpandLess /> : <MdExpandMore /> }
+                            &nbsp;
+                            Card/Section Title
+                        </h2>
                     </Card.Title>
                 </Card.Body>
             </Card>
@@ -128,6 +138,25 @@ export default function Template() {
                             Title of accordion section
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="test0">
+                            <Card.Body>Content</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                </Accordion>
+
+                <Accordion id='templateAccordionId' style={ accordionStyles }>
+                    <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
+                    <Card>
+                        {/* I was using: as={accordionVisible ? Button : Card.Header} in the Accordion.Toggle s and role="heading" before.*/}
+                        {/* as={Card.Header} is what is supposed to make it able to be clicked on anywhere to open/close, but it appears to work just fine without it! varient='outline-dark' doesn't work... */}
+                        <Accordion.Toggle
+                            as={ Button }
+                            eventKey="test1"
+                            role="button"
+                            aria-label="Section title(Put the title) and button"
+                        >
+                            Title of accordion section
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="test1">
                             <Card.Body>Content</Card.Body>
                         </Accordion.Collapse>
                     </Card>
