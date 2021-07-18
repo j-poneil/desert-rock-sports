@@ -86,6 +86,7 @@ todo - add more photos of the inside / outside of DRS
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
 todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
 todo - make/implement a BETTER favicon
+    Simple emoji, DRS, DR, or outline of mtns... ?
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
