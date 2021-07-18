@@ -144,13 +144,15 @@ todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing tem
 
 
 @ Beta page ---------------------------------------
+todo - FOR FINAL PRODUCTION - Nice photos for the cards / section titles
 todo - climbing gyms in the area
 todo - coffee shops around
 todo - locations for wifi ?
 todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
-? - do I want to use a normally closed accordian for the sections or cards?
-! - can I make the animation of the Accordion in/out be lower/behind the Card? Z-index?
+todo - fix the blue then image problem with the cards...
+    pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
+// todo - use z-index to make the animation of the accordion show/hide below/behind the card/section titles
 // todo - make a template, accessible, to use to make all the sub components
 // todo - implement a map icon to include on lines with a Google Maps link
 // todo - implement a external link icon
@@ -204,6 +206,7 @@ todo - something about other situations, like adventure hikes (bridge mtn, etc),
 @ Shop page ---------------------------------------
     Ambitious to have it all here and built in the same
     More likely just link to a better than existing site re-made with a different provider, not the old school way the current one has it
+    That way get the established security and modern online checkout experience all in one...
 
 
 @ Secret page -------------------------------------
