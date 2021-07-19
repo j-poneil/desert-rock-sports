@@ -94,31 +94,30 @@ todo - make/implement a BETTER favicon
 // todo - should I have a navbar link to the gym ??? Seems like yes, duh.
 
 @ Accessability -----------------------------------
-todo - verify that the skip navigation skip link is working
+todo - verify that the skip links are working, such as skip navigation
 todo - verify that the skip to links in Beta.js are working (once they are all set up and Beta.js is looking good)
 todo - add role="article", role="heading" (for titles/section headings)
 todo - other role="" to add for the future 'form'(subscribe to email, guiding inquiry, etc), 'contentinfo'(copyright info, etc), 'search'(searchbar), 'button', 'list', 'listitem', 'note', 'row', 'rowgroup', 'rowheader', 'alert', 'checkbox', 'gridcell', 'link', 'menuitem', 'option', 'textbox'
-todo - get a screen reader so i can actually test appropriately
-? - The accordion and subtext showing/hiding complicates things for screen readers a lot... What if I just did all the same info separately in a big sr-only article with skip links to the sections? I'm mostly thinking of those who are blind, but I must also think of those who don't navigate with mouse or touchscreen... Hmmm
 // todo - in template, get aria-expanded to toggle true/false when the accordion below is visible/hidden
 // todo - add role="main" to the Switch component which holds the main page content and role="navigation" to the NavBar
 
 
 @ Home page ---------------------------------------
-todo - Add some vertical spacing between the react-bootstrap Containers ???
-todo - Some sort of background pattern ?
 todo - Instagram feed embed
     Apparently this is WAY harder than it used to be, due to recently increased security.
     Check your bookmarks, you made a folder with all the info you need to do it.
     Need a certain FB account, IG acct, verify stuff, Heroku acct, etc...
     Requires setting up a free heroku site and running an access token refresh agent...
     then getting that token to here and using it. Very doable, but a hassle for another time I think.
-todo - Mention resoling drop off boxes in another lower section, before contact info?
-todo - play with parrallax
-todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
+todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern
 todo - SNCC link / info?
+// todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
+// todo - contact info as links... address not a link, because there is a map below?
+// todo - resole number, email, IG as links
+// todo - Mention resoling drop off boxes in another lower section, before contact info?
+// todo - Add some vertical spacing between the react-bootstrap Containers ??? className="mt-3 mb-3"
 // todo - Better business name display, colors, font, size, position
 // todo - MUCH better section / div styling
 // todo - better organization / presentation with react-bootstrap grid stuff
@@ -158,6 +157,8 @@ todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 todo - fix the blue then image problem with the cards...
     pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
+todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
+// todo - tweak styling of emergency/rescue number/link
 // todo - add a tooltip that says something like: "click to show/hide additional info" to the card and accordion sections
 // todo - make the title font of the card / section titles larger ( h2 tag )
 // todo - use z-index to make the animation of the accordion show/hide below/behind the card/section titles
@@ -171,7 +172,6 @@ todo - fix the blue then image problem with the cards...
 
 
 @ Guiding page ------------------------------------
-todo - bump up Tier font
 todo - probably add some bar below everything that says that we can accomodate other complicated outings, such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do.
 todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
 todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
@@ -181,6 +181,10 @@ todo - possibily for the guides, dynamic climbing experience... add an estimated
 todo - better color for ig/site/youtube icons ???
 todo - gallery or carousel of guiding photos? Gallery probably more convienient, since carousel mis-matched image sizes issues
 todo - something about other situations, like adventure hikes (bridge mtn, etc), bouldering guide, etc...
+todo - don't say "safe" say manage risk or something to CYA
+// todo - bump up Tier font (in TierCard.js, used .display-4 on the title... smaller didn't work, other size classes like .h2 didn't work either)
+// todo - make sure when a guides row wraps, there is vertical spacing between the individual guides
+// todo - fix styling, etc of the contact info number/email
 // todo - SOME DIVIDER between tiers and guides... could be a good place for a gallery or carousel
 // todo - paragraph separation, lists, etc for the tier cards (html-react-parser)
 // todo - maybe some intro into our guides instead of just spitting out bios? At the least a title for the section, "here are some of our guides"
