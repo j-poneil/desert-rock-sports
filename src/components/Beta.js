@@ -13,6 +13,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
+import Table from 'react-bootstrap/Table';
 
 import Accordion from 'react-bootstrap/Accordion';
 
@@ -100,12 +101,32 @@ export default function Beta(){
                             <Card.Subtitle>Scenic Loop Hours</Card.Subtitle>
                             <Card.Text>
                                 <p>The Visitor Center is open daily from 9:00 AM – 4:30 pm. The Scenic Drive is open every day of the year with hours changing slightly according to the season:</p>
-                                <p>
-                                    Nov – Feb – 6:00 AM to 5:00 PM<br />
-                                    Mar – 6:00 AM to 7:00 PM<br />
-                                    Apr – Sep – 6:00 AM to 8:00 PM<br />
-                                    Oct – 6:00 AM to 7:00 PM
-                                </p>
+                                <Table striped bordered hover size="sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Tiem of year</th>
+                                            <th>Open hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>November – February</td>
+                                            <td>6:00 AM to 5:00 PM</td>  
+                                        </tr>
+                                        <tr>
+                                            <td>March</td>
+                                            <td>6:00 AM to 7:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>April – September</td>
+                                            <td>6:00 AM to 8:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>October</td>
+                                            <td>6:00 AM to 7:00 PM</td>
+                                        </tr>
+                                    </tbody>
+                                </Table>
                             <Card.Subtitle>Logistics</Card.Subtitle>
                                 <p>The Scenic Drive is 13mi and ONE WAY ONLY. Cell service is poor to non-existant in many parts of Red Rock Canyon (a new cell tower has been proposed). Thus try to coordinate meetups, carpooling, and pickup times from outside of Red Rock. Don't count on being able to call an Uber/Lyft to pick you up from within the Scenic Drive or in Calico Basin.</p>
                                 <p>Every major parking area along the loop road has a primitive pit toilet, however, once you have hiked in, there are no more options. Water is only available at the RR Visitor Center and once you have passed the entrance for that, you will not be able to return to fill up. Bring more water than you think you will need.</p>
