@@ -132,8 +132,12 @@ export default function Beta(){
                             <Card.Text>
                                 <p>Call 911 if you have a life-threatening emergency, for Police, Fire, or Medical assistance.</p>
                                 <p>Give them clear information on where you are. Specific climbing wall or route is good. Helicopter ride to the ER is provided by the local Police Department and paid for by taxes, you wont get a bill for that. Don't worry. If its an emergency, just call. The ER visit itself will still cost you at normal ER rates.</p>
-                                <p>If your loved one is lost or missing call the LV SAR hotline 24/7: <a href="tel:1-702-758-4727" target="_blank" rel="noopener noreferrer"><FaPhone /> 1-702-758-4727</a></p>
-                                <p><a href="https://www.redrocksar.org/" target="_blank" rel="noopener noreferrer">Red Rock SAR <FaExternalLinkAlt /></a></p>
+                                <p>
+                                    If your loved one is lost or missing call the LV SAR hotline 24/7:<br />
+                                    <a href="tel:1-702-758-4727" target="_blank" rel="noopener noreferrer"><FaPhone /> 1-702-758-4727</a><br />
+                                    <a href="https://www.redrocksar.org/" target="_blank" rel="noopener noreferrer">Red Rock SAR <FaExternalLinkAlt /></a>
+                                </p>
+                                <p></p>
                             </Card.Text>
                         </Card.Body>
                     </Card>
