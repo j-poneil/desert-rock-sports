@@ -325,3 +325,6 @@ Add them by adding this line to whatever element
 data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related sections"
 
 ==================================================================
+The link I use to link outside of the site, all the time
+<a href="" target="_blank" rel="noopener noreferrer"></a>
+tel: , mailto:
