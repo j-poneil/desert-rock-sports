@@ -23,14 +23,17 @@ import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
 // Styles here:
 // src\stylesheets\pages\_home.sass
 
+//@Notes
+// className="mt-3 mb-3" is used on every Container for some much needed spacing between components/elements/sections
+
 
 export default function Home(){
     return (
         // ! section? main?
         <Container fluid>
-            <Splash />
+            <Splash/>
 
-            <Container fluid>
+            <Container fluid className="mt-3 mb-3">
                 <Row xl={2} lg={2} md={2} sm={2} xs={1}>
                     <Col>
                         <Jumbotron>
@@ -51,7 +54,7 @@ export default function Home(){
 
             {/* Local news / happenings / sales / events */}
             {/* A cool image? */}
-            <Container fluid>
+            <Container fluid className="mt-3 mb-3">
                 <Row xl={2} lg={2} md={2} sm={2} xs={1}>
                     <Col>
                         <Image src={ Simba } alt="simba-placeholder" fluid />
@@ -64,7 +67,7 @@ export default function Home(){
 
             {/* Yes, we rent bouldering pads */}
             {/* A cool image? */}
-            <Container>
+            <Container className="mt-3 mb-3">
                 <Row xl={2} lg={2} md={2} sm={2} xs={1}>
                     <Col>
                         <Jumbotron>
@@ -84,19 +87,19 @@ export default function Home(){
 
             {/* Check us out on IG? Subscribe to our mailing list? */}
 
-            <Container fluid>
+            <Container fluid className="mt-3 mb-3">
                 {/* Resoles */}
                 <RRResoles />
             </Container>
             
 
-            <Container fluid>
+            <Container fluid className="mt-3 mb-3">
                 {/* Contact Us / where you at info */}
                 <Contact />
             </Container>
             
 
-            <Container fluid>
+            <Container fluid className="mt-3 mb-3">
                 {/* Embedded Google Map, somewhat responsive */}
                 <Map />
             </Container>
