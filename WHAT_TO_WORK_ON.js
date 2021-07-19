@@ -88,6 +88,9 @@ todo - use the fonts in index.html (refer to them in a more readable form in NOT
 todo - make/implement a BETTER favicon
     Simple emoji, DRS, DR, or outline of mtns... ?
     Implement, in multiple sizes
+todo - React.lazy / lazy loading
+todo - loading animations that I can use in various places
+    Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
