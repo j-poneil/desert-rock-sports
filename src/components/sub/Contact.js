@@ -39,9 +39,11 @@ function Hours(){
 
     return (
         <div>
-            <p>{hours.season}</p>
-            <p>M-Sa: {hours.mondayThruSaturday}</p>
-            <p>Su: {hours.sunday}</p>
+            <p>
+                { hours.season }<br />
+                M-Sa: { hours.mondayThruSaturday }<br />
+                Su: { hours.sunday }
+            </p>
         </div>
     );
 }
@@ -59,13 +61,18 @@ export default function Contact(){
                         <Card.Body>
                             <Card.Title></Card.Title>
                             <Card.Text>
-                                {/* email as email link is a nice touch i should do */}
-                                <p>Shop: 702-254-1143</p>
-                                <p>Guide Service: 702-506-6640</p>
-                                <p>Shop / Guide Service email: info@climbvegas.com</p>
+                                <address>
+                                    <p>
+                                        Shop: <a href="tel:702-254-1143" target="_blank" rel="noopener noreferrer">702-254-1143</a><br />
+                                        Guide Service: <a href="tel:702-506-6640" target="_blank" rel="noopener noreferrer">702-506-6640</a><br />
+                                        Shop / Guide Service email: <a href="mailto:info@climbvegas.com" target="_blank" rel="noopener noreferrer">info@climbvegas.com</a>
+                                    </p>
 
-                                <p>Gym: 702-254-5604</p>
-                                <p>Gym email: sales@redrockclimbingcenter.com</p>
+                                    <p>
+                                        Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a><br />
+                                        Gym email: <a href="mailto:sales@redrockclimbingcenter.com" target="_blank" rel="noopener noreferrer">sales@redrockclimbingcenter.com</a>
+                                    </p>
+                                </address>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -75,7 +82,12 @@ export default function Contact(){
                         <Card.Body>
                             <Card.Title></Card.Title>
                             <Card.Text>
-                                <p>Desert Rock Sports<br /> 8221 W Charleston Blvd<br /> Suite #102<br /> Las Vegas, NV 89117</p>
+                                <address>
+                                    Desert Rock Sports<br />
+                                    8221 W Charleston Blvd<br />
+                                    Suite #102<br />
+                                    Las Vegas, NV 89117
+                                </address>
                             </Card.Text>
                         </Card.Body>
                     </Card>
