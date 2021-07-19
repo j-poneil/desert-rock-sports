@@ -60,7 +60,7 @@ export default function Guiding(){
                                 alt={ i.name }
                             />
                             <Card.Title
-                                className="text-center">
+                                className="text-center mt-3">
                                     { i.name }
                                     {/* Below, it looks like the empty tags are unnecessary, because it appears to be 1 root element... BUT they are necessary because there is actually two elements, a " " and the link */}
                                     { i.ig !== "" && <> <a href={ i.ig } target="_blank" rel="noopener noreferrer"><FaInstagram /></a></> }
