@@ -9,8 +9,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
-import CardDeck from 'react-bootstrap/CardDeck';
-
 // % change photos, descriptions, blurbs, prices, etc here
 import { tiers } from './data/guideTiers';
 import { guides } from './data/guides';
@@ -54,7 +52,7 @@ export default function Guiding(){
     const guideList = guides.map((i) => {
         if(i.active){
             return (
-                <Col key={ i.name }>
+                <Col key={ i.name } className="mt-3 mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Img
@@ -93,7 +91,7 @@ export default function Guiding(){
                         <h4>
                             <ol className="text-left">
                                 <li>Check out our options below</li>
-                                <li>call us at 702-506-6640 or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information</li>
+                                <li>call us at <a href="tel:1-702-506-6640" target="_blank" rel="noopener noreferrer">1-702-506-6640</a> or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information</li>
                                 <li>We take credit card payment in full over the phone to reserve your spot on our calendar</li>
                                 <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location</li>
                                 <li>You have a blast!</li>
@@ -106,7 +104,6 @@ export default function Guiding(){
                         <Card>
                             <Card.Body>
                                 {/* <Card.Title></Card.Title> */}
-                                {/* // ! I don't think we can say "safe" here legally, to CYA, we have to say we do our best to manage the risks inherent in climbing, or something like that */}
                                 <Card.Text>The entire staff of the Red Rock Climbing Guides (RRCG) believes our responsibility to the climbing community does not begin and end at our front door. We recognize it extends across the globe, anywhere our climbers are climbing.</Card.Text>
                                 <Card.Text>We are committed to providing a safe outdoor rock climbing experience regardless of your ability. Our goal is to help you develop your rock-craft skills while becoming a knowledgeable, efficient, environmentally-aware climber focused on safety and leave-no-trace ethics.</Card.Text>
                                 <Card.Text>All of our activities are designed to help you develop self-reliance, teamwork and self-confidence on the rock. After completing any of our activities, you will be a better, more competent climber.</Card.Text>
@@ -124,19 +121,19 @@ export default function Guiding(){
                 </Row>
             </Container>
 
-            <Jumbotron className="text-center mt-5">
+            <Jumbotron className="text-center mt-3 mb-3">
                 <h1>
                     Check out some of our amazing guides below!
                 </h1>
             </Jumbotron>
 
-            <Container fluid className="mt-5">
+            <Container fluid>
                 <Row xl={4} lg={3} md={2} sm={2} xs={1}>
                     { guideList }
                 </Row>
             </Container>
 
-            {/* //! insert gallery here */}
+            {/* //! insert gallery here, mt-5 here or maybe mt-3 mb-3 */}
             <Jumbotron fluid className="text-center mt-5">
                 <h1>( insert gallery here )</h1>
             </Jumbotron>
