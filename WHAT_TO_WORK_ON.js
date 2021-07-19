@@ -132,6 +132,7 @@ todo - get images from people
 todo - get IGs or other site links from people
 todo - figure out a nice background, maybe use some parallax
 todo - probably move nav link position of the about page to just left of 'Shop'
+// todo - increase space between employee photo and their name
 // todo - Decide how to display personel
 // todo - Touch up and make responsive the main story
 // todo - the flex looks shitty, switch out for grid ???
@@ -172,16 +173,23 @@ todo - fix alignment of loop road hours... tabs basically... maybe use a quick t
 
 
 @ Guiding page ------------------------------------
-todo - probably add some bar below everything that says that we can accomodate other complicated outings, such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do.
-todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
-todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
+todo - possibily for the guides, dynamic climbing experience...
+    add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
-todo - possibily for the guides, dynamic climbing experience... add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
-todo - better color for ig/site/youtube icons ???
+todo - probably add some bar below everything that says that we can accomodate other complicated outings
+    such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
+todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
+todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
+    Implement skip to links
+        tiers
+        guides
+        gallery
+        if there is a email form?
 todo - gallery or carousel of guiding photos? Gallery probably more convienient, since carousel mis-matched image sizes issues
-todo - something about other situations, like adventure hikes (bridge mtn, etc), bouldering guide, etc...
 todo - don't say "safe" say manage risk or something to CYA
+todo - trim down text
+// todo - increase space between guide photo and their name
 // todo - bump up Tier font (in TierCard.js, used .display-4 on the title... smaller didn't work, other size classes like .h2 didn't work either)
 // todo - make sure when a guides row wraps, there is vertical spacing between the individual guides
 // todo - fix styling, etc of the contact info number/email
