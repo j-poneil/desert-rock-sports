@@ -36,7 +36,7 @@ const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, t
             </Card.ImgOverlay> */}
             <Card.Body>
                 <Card.Text className="text-muted text-right">{ imgCredit }</Card.Text>
-                <Card.Title className="text-center">{ tierName }</Card.Title>
+                <Card.Title className="text-center display-4">{ tierName }</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted text-center">Duration: { tierDuration }</Card.Subtitle>
                 <Card.Text>
                     { tierDescription }
