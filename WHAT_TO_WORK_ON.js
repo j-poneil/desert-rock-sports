@@ -87,6 +87,7 @@ todo - replace generic <div> when it makes sense to do so, with semantic html, l
 todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
 todo - make/implement a BETTER favicon
     Simple emoji, DRS, DR, or outline of mtns... ?
+    Implement, in multiple sizes
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
@@ -111,8 +112,11 @@ todo - Instagram feed embed
     then getting that token to here and using it. Very doable, but a hassle for another time I think.
 todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
-todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern
+todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
 todo - SNCC link / info?
+todo - A LOT TO DO HERE.
+    WORK HERE
+    ! LOOK AT ME
 // todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 // todo - contact info as links... address not a link, because there is a map below?
 // todo - resole number, email, IG as links
@@ -125,12 +129,11 @@ todo - SNCC link / info?
 
 
 @ About page --------------------------------------
-todo - I think I should probably have a section on its own for the 3 owners
+todo - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
+todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, but a simple CSS color transition would be fine too
+? - a section on its own for the 3 owners???
 todo - THEN below it current (and past?) employees
-todo - get blurbs from people
-todo - get images from people
-todo - get IGs or other site links from people
-todo - figure out a nice background, maybe use some parallax
+? - what about short reviews from patrons like James W?
 todo - probably move nav link position of the about page to just left of 'Shop'
 // todo - increase space between employee photo and their name
 // todo - Decide how to display personel
@@ -141,9 +144,9 @@ todo - probably move nav link position of the about page to just left of 'Shop'
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
 todo - other sections in gear below the carousel
 todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we have, multiple shots, try to have most of the be the same aspect ratio to reduce the editing
-todo - FOR FINAL PRODUCTION - edit good photos to all have the same aspect ratio. 1x and 2x pixel density
-todo - FOR FINAL PRODUCTION - make smaller file sizes with different pixel densities too
-todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing temporary ones
+    todo - FOR FINAL PRODUCTION - edit good photos to all have the same aspect ratio. 1x and 2x pixel density
+    todo - FOR FINAL PRODUCTION - make smaller file sizes with different pixel densities too
+    todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing temporary ones
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
 // todo - add carousel to gear page
 // todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
@@ -158,7 +161,7 @@ todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 todo - fix the blue then image problem with the cards...
     pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
-todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
+// todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
 // todo - tweak styling of emergency/rescue number/link
 // todo - add a tooltip that says something like: "click to show/hide additional info" to the card and accordion sections
 // todo - make the title font of the card / section titles larger ( h2 tag )
