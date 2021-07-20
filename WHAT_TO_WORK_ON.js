@@ -88,7 +88,7 @@ todo - use the fonts in index.html (refer to them in a more readable form in NOT
 todo - make/implement a BETTER favicon
     Simple emoji, DRS, DR, or outline of mtns... ?
     Implement, in multiple sizes
-todo - React.lazy / lazy loading
+todo - React.lazy / lazy loading / Suspense
 todo - loading animations that I can use in various places
     Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
 // todo - make/implement a proper favicon
@@ -157,6 +157,8 @@ todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we ha
 
 @ Beta page ---------------------------------------
 todo - FOR FINAL PRODUCTION - Nice photos for the cards / section titles
+todo - FOR FINAL PRODUCTION - fill out the skip / skip to links for every single section, check that they work
+todo - FOR FINAL PRODUCTION - background for entire page?
 todo - climbing gyms in the area
 todo - coffee shops around
 todo - locations for wifi ?
@@ -164,6 +166,9 @@ todo - wet weather options beta
     hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 todo - fix the blue then image problem with the cards...
     pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
+
+todo - add something when you hover over the cards, like outline color change, lighten of background image, grayscale to color, etc...
+    the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
 // todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
 // todo - tweak styling of emergency/rescue number/link
 // todo - add a tooltip that says something like: "click to show/hide additional info" to the card and accordion sections
