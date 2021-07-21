@@ -120,6 +120,13 @@ todo - SNCC link / info?
 todo - A LOT TO DO HERE.
     WORK HERE
     ! LOOK AT ME
+todo - install and implement date-fns... but sitewide?
+    * hours, gym hours
+    * news
+? - should I add the parser to the news titles too?
+todo - switch news to a card component? Or maybe even an accordion? w/scroll down to past dates?
+todo - adjust news date, title, post font, styling, size, etc...
+// todo - add the html parser thing that I used in the guiding, guide bios, and employee bios to the news section
 // todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 // todo - contact info as links... address not a link, because there is a map below?
 // todo - resole number, email, IG as links
