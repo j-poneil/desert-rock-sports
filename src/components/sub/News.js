@@ -1,4 +1,12 @@
 import React from 'react';
+import parse from 'html-react-parser';
+import { formatDistance, parse as parseDate } from 'date-fns';
+// test
+// import { parse as parseDate } from 'date-fns';
+// formatDistance(parseDate('02/11/2014', 'MM/dd/yyyy', new Date()), new Date(), { addSuffix: true })
+//! html-react-parser and date-fns both have a 'parse' function
+//! If you use the one from date-fns, be sure to give it a different alias
+
 
 // Where the individual stories / headlines are saved
 import { newsItems } from '../data/newsItems';
@@ -8,7 +16,21 @@ import { newsItems } from '../data/newsItems';
 export default function News(){
     const newsReal = newsItems.map((i) => {
         return (
-            <li key={i.date} className="news-item" ><span className="news-item-date" >{i.date}</span> <span className="news-item-title" >{i.title}</span><br /><span className="news-item-post" >{i.post}</span></li>
+            <li
+                key={i.date}
+                className="news-item"
+            >
+                <span className="news-item-date">
+                    {/* { i.date } */}
+                    { formatDistance(parseDate(i.date, 'MM/dd/yyyy', new Date()), new Date(), { addSuffix: true }) }
+                </span><br />
+                <span className="news-item-title">
+                    { i.title }
+                </span><br />
+                <span className="news-item-post" >
+                    { <>{ parse( i.post ) }</> }
+                </span>
+            </li>
         );
     });
 
