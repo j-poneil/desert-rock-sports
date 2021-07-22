@@ -70,12 +70,13 @@ todo - some sort of server integration?
     Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
     The site reads/updates a DB, like firebase
     Then the deployed site gets updated values from firebase with fallbacks if no connection?
+    ... actually maybe not firebase, since it would possibly cost... maybe a DB hosted at the same web host if it seems cheaper... MySQL maybe
 ? - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
     like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
 ? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site?
     IE Hours of operation, resole turn around time, guide service pricing, News, etc...
     Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
-? - what about using a google spreadsheet to grab info from? Would worry of the cost due to number of requests
+? - what about using a google spreadsheet to grab info from? Would worry of the cost due to number of requests? Is that a thing?
     Different tabs/pages for updating different things
         news stories
         hours
@@ -121,11 +122,11 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
 todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
 todo - SNCC link / info?
-todo - switch news to a card component? Or maybe even an accordion? w/scroll down to past dates?
-todo - adjust news date, title, post font, styling, size, etc...
 ? - should I add the parser to the news titles too?
 ? - should I implement date-fns on hours, gym hours
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
+// todo - switch news to a card component
+// todo - adjust news date, title, post font, styling, size, etc...
 // todo - implement date-fns on news -- relative time since thing posted
 // todo - install date-fns
 // todo - add the html parser thing that I used in the guiding, guide bios, and employee bios to the news section
@@ -197,6 +198,7 @@ todo - possibily for the guides, dynamic climbing experience...
     add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
+    AMBITIOUS - My secret package for this
 todo - probably add some bar below everything that says that we can accomodate other complicated outings
     such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
 todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
