@@ -1,11 +1,15 @@
 import React from 'react';
+
+import Card from 'react-bootstrap/Card';
+
 import parse from 'html-react-parser';
 import { formatDistance, parse as parseDate } from 'date-fns';
-// test
-// import { parse as parseDate } from 'date-fns';
 // formatDistance(parseDate('02/11/2014', 'MM/dd/yyyy', new Date()), new Date(), { addSuffix: true })
-//! html-react-parser and date-fns both have a 'parse' function
-//! If you use the one from date-fns, be sure to give it a different alias
+//* html-react-parser and date-fns both have a 'parse' function, so gave one an alias of parseDate
+
+// styles
+// BUT NOT USING ANY RIGHT NOW
+// ..\src\stylesheets\components\_news.sass
 
 
 // Where the individual stories / headlines are saved
@@ -16,29 +20,28 @@ import { newsItems } from '../data/newsItems';
 export default function News(){
     const newsReal = newsItems.map((i) => {
         return (
-            <li
-                key={i.date}
-                className="news-item"
-            >
-                <span className="news-item-date">
+            <Card.Text key={ i.date }>
+                <Card.Subtitle className="text-muted mb-2" as="h7">
                     {/* { i.date } */}
                     { formatDistance(parseDate(i.date, 'MM/dd/yyyy', new Date()), new Date(), { addSuffix: true }) }
-                </span><br />
-                <span className="news-item-title">
+                </Card.Subtitle>
+                <Card.Subtitle className="mb-1" as="h5">
                     { i.title }
-                </span><br />
-                <span className="news-item-post" >
+                </Card.Subtitle>
+                <Card.Text className="mb-4">
                     { <>{ parse( i.post ) }</> }
-                </span>
-            </li>
+                </Card.Text>
+            </Card.Text>
         );
     });
 
     return (
-        <div className="news-container" >
-            <h1>News!</h1>
-            <ul>{newsReal}</ul>
-        </div>
+        <Card>
+            <Card.Body>
+                <Card.Title className="text-center">News</Card.Title>
+                { newsReal }
+            </Card.Body>
+        </Card>
     );
 }
 
