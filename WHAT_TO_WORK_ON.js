@@ -75,6 +75,10 @@ todo - some sort of server integration?
 ? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site?
     IE Hours of operation, resole turn around time, guide service pricing, News, etc...
     Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
+? - what about using a google spreadsheet to grab info from? Would worry of the cost due to number of requests
+    Different tabs/pages for updating different things
+        news stories
+        hours
 todo - add more photos of the inside / outside of DRS
     clothing
     artwork?
@@ -117,15 +121,13 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
 todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
 todo - SNCC link / info?
-todo - A LOT TO DO HERE.
-    WORK HERE
-    ! LOOK AT ME
-todo - install and implement date-fns... but sitewide?
-    * hours, gym hours
-    * news
-? - should I add the parser to the news titles too?
 todo - switch news to a card component? Or maybe even an accordion? w/scroll down to past dates?
 todo - adjust news date, title, post font, styling, size, etc...
+? - should I add the parser to the news titles too?
+? - should I implement date-fns on hours, gym hours
+    We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
+// todo - implement date-fns on news -- relative time since thing posted
+// todo - install date-fns
 // todo - add the html parser thing that I used in the guiding, guide bios, and employee bios to the news section
 // todo - better contact info / address styling + HTML5 style address for the addresses of shop, gym, maybe resoles? for screen readers
 // todo - contact info as links... address not a link, because there is a map below?
