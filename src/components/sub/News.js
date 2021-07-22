@@ -12,7 +12,7 @@ import { formatDistance, parse as parseDate } from 'date-fns';
 import { newsItems } from '../data/newsItems';
 
 // News happenings.
-// Sales, events, competitions, closures, etc...
+// Sales, events, competitions, closures, new red rock policies, etc... maybe even rain, but that could get a bit crazy
 export default function News(){
     const newsReal = newsItems.map((i) => {
         return (
