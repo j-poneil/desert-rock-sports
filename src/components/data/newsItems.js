@@ -11,7 +11,7 @@ export const newsItems = [
     {
         title: "Did you know we are a dealer for Red Paddle Co?",
         date: "07/21/2021",
-        post: "They have some of the highest quality paddleboards in the game. Unfortunely we don't keep them in stock, but, if you are looking to buy, we can take down your order and bundle it with a few other orders to ship at the same time."
+        post: "They have some of the highest quality paddleboards in the game. Unfortunely we don't keep them in stock, but, if you are looking to buy, we can take down your order and bundle it with a few other orders to ship to our store at the same time."
     },
     {
         title: "It's yesterday!",
