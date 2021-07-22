@@ -18,10 +18,11 @@ function Hours(){
     // 0-11, 0 = January
     let currentMonth = date.getMonth();
     // 4 = May, 5 = June, 8 = September, 9 = October
+    // checks what month it is, and displays hours only for that season
     let hours = (currentMonth >= 5 && currentMonth <= 8) ?
         {
             season: "June - September",
-            mondayThruSaturday: "10am - 8pm",
+            mondayThruSaturday: "10am - 7pm",
             sunday: "10am - 6pm"
         }
         : {
