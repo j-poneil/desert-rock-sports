@@ -73,9 +73,14 @@ todo - some sort of server integration?
     ... actually maybe not firebase, since it would possibly cost... maybe a DB hosted at the same web host if it seems cheaper... MySQL maybe
 ? - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
     like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
-? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site?
-    IE Hours of operation, resole turn around time, guide service pricing, News, etc...
-    Would be only 1 spot to go to edit the common things, instead of multiple places... hmm
+? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site? Thus one messy object and then every file that needs data from it just imports what they need. That would really cut down on how much code there is in some of the files... but it just moves it to the object (or objects) hmm will have to think about it more
+    * automatic hours true/false
+        * manual hours set
+        * automatic hours season1 set
+        * automatic hours season2 set
+    * Resole turn around time
+    * Guide service pricing
+    * phone numbers, emails, addresses?
 ? - what about using a google spreadsheet to grab info from? Would worry of the cost due to number of requests? Is that a thing?
     Different tabs/pages for updating different things
         news stories
@@ -96,6 +101,8 @@ todo - make/implement a BETTER favicon
 todo - React.lazy / lazy loading / Suspense
 todo - loading animations that I can use in various places
     Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
+? - should I move the resoles to its own page? I think I should
+    ... but if I'm going to, I should make sure that the main content of the Home page is filled out a bit more and good on its own
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
@@ -123,8 +130,13 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
 todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
 todo - SNCC link / info?
 ? - should I add the parser to the news titles too?
-? - should I implement date-fns on hours, gym hours
+? - should I implement date-fns on DRS hours?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
+todo - change organization of Contact.js component so that it looks balanced as 3 columns...
+    or... maybe change it to 2 columns. One for DRS, one for R2C2...
+// todo - change up the automatic hours changing thing
+// todo - switch DRS and Gym hours display to Table components
+// todo - add gym hours somewhere
 // todo - switch news to a card component
 // todo - adjust news date, title, post font, styling, size, etc...
 // todo - implement date-fns on news -- relative time since thing posted
