@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
+import Table from 'react-bootstrap/Table';
 
 
 // determines the season and adjusts the displayed hours automatically
@@ -14,38 +15,122 @@ import Image from 'react-bootstrap/Image';
 // ALSO, need to specify that the shop and guide number hours are the same
 // AND that they gym is a separate entity with different hours
 function Hours(){
+    //! juneSeptHours and octMayHours are to be used when you have predefined times and want to automatically switch hours when the seasons change
+    //! ONLY MODIFY THESE IF YOU WANT TO CHANGE HOURS SEASON WIDE
+    //! If you want to change hours to something else, temporarily, scroll down to the return statement and read the comments there
+
+    // M-Sat 10-7, Sun 10-6
+    const juneSeptHours = (
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>10am - 7pm</td>  
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>10am - 7pm</td>  
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>10am - 7pm</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>10am - 7pm</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>10am - 7pm</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10am - 7pm</td>  
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>10am - 6pm</td>  
+            </tr>
+        </tbody>
+    );
+    
+    // M-Sat 9-8, Sun 10-6
+    const octMayHours = (
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>9am - 8pm</td>  
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>9am - 8pm</td>  
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>9am - 8pm</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>9am - 8pm</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>9am - 8pm</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>9am - 8pm</td>  
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>10am - 6pm</td>  
+            </tr>
+        </tbody>
+    );
+
     const date = new Date();
     // 0-11, 0 = January
     let currentMonth = date.getMonth();
     // 4 = May, 5 = June, 8 = September, 9 = October
     // checks what month it is, and displays hours only for that season
     let hours = (currentMonth >= 5 && currentMonth <= 8) ?
-        {
-            season: "June - September",
-            mondayThruSaturday: "10am - 7pm",
-            sunday: "10am - 6pm"
-        }
-        : {
-            season: "October - May",
-            mondayThruSaturday: "9am - 8pm",
-            sunday: "10am - 6pm"
-        };
-    // to manually set hours, comment out the "let hours = (logic) ?  {object} : {object} above
-    // and uncomment and edit below
-    // const hours = {
-    //     season: "",
-    //     mondayThruSaturday: "",
-    //     sunday: ""
-    // }
+        juneSeptHours
+        : octMayHours;
 
     return (
-        <div>
-            <p>
-                { hours.season }<br />
-                M-Sa: { hours.mondayThruSaturday }<br />
-                Su: { hours.sunday }
-            </p>
-        </div>
+        <>
+            {/* { hours } */}
+            {/*//! To manually set hours, comment out { hours } above, then un-comment the below chunk of code and edit the hours, do the opposite to switch back to automatic */}
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>10am - 7pm</td>  
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>10am - 7pm</td>  
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>10am - 7pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>10am - 7pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>10am - 7pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10am - 6pm</td>  
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>10am - 6pm</td>  
+                </tr>
+            </tbody>
+        </>
     );
 }
 
@@ -96,9 +181,55 @@ export default function Contact(){
                 <Col>
                     <Card>
                         <Card.Body>
-                            <Card.Title></Card.Title>
                             <Card.Text>
-                                <Hours />
+                                <Table striped bordered hover size="sm">
+                                    <thead>
+                                        <tr>
+                                            <th colSpan='2'>Desert Rock Sports &amp; Guide Service Phone Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <Hours />
+                                </Table>
+                            </Card.Text>
+
+                            <Card.Text>
+                                <Table striped bordered hover size="sm">
+                                    <thead>
+                                        <tr>
+                                            <th colSpan='2'>Red Rock Climbing Center Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Monday</td>
+                                            <td>9am - 11pm</td>  
+                                        </tr>
+                                        <tr>
+                                            <td>Tuesday</td>
+                                            <td>6am - 11pm</td>  
+                                        </tr>
+                                        <tr>
+                                            <td>Wednesday</td>
+                                            <td>6am - 11pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thursday</td>
+                                            <td>6am - 11pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Friday</td>
+                                            <td>9am - 11pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saturday</td>
+                                            <td>9am - 9pm</td>  
+                                        </tr>
+                                        <tr>
+                                            <td>Sunday</td>
+                                            <td>9am - 9pm</td>  
+                                        </tr>
+                                    </tbody>
+                                </Table>
                             </Card.Text>
                         </Card.Body>
                     </Card>
