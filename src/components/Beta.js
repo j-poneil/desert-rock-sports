@@ -104,7 +104,7 @@ export default function Beta(){
                                 <Table striped bordered hover size="sm">
                                     <thead>
                                         <tr>
-                                            <th>Tiem of year</th>
+                                            <th>Time of year</th>
                                             <th>Open hours</th>
                                         </tr>
                                     </thead>
