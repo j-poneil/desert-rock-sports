@@ -39,6 +39,7 @@ export default function News(){
         <Card>
             <Card.Body>
                 <Card.Title className="text-center">News</Card.Title>
+                <hr style={{width: '25%'}}/>
                 { newsReal }
             </Card.Body>
         </Card>
