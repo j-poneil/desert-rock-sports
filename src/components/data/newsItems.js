@@ -14,9 +14,9 @@ export const newsItems = [
         post: "They have some of the highest quality paddleboards in the game. Unfortunely we don't keep them in stock, but, if you are looking to buy, we can take down your order and bundle it with a few other orders to ship to our store at the same time."
     },
     {
-        title: "It's yesterday!",
-        date: "04/04/2020",
-        post: "I was not working on this yesterday."
+        title: "New website is coming along nicely",
+        date: "07/20/2021",
+        post: "Working on styling, UI/UX, etc..."
     },
     {
         title: "Some inspirational title!",
