@@ -85,6 +85,13 @@ todo - some sort of server integration?
     Different tabs/pages for updating different things
         news stories
         hours
+todo - FOR FINAL PRODUCTION - look over every file, make sure nothing obviously overlooked
+todo - FOR FINAL PRODUCTION - Full check of spelling and grammer, and multiple people looking over EVERYTHING
+todo - FOR FINAL PRODUCTION - SEO optimization... create-react-app does some basics, but I can certainly improve it more
+todo - FOR FINAL PRODUCTION - Have someone navigate it all with a screen reader to test accessability
+todo - FOR FINAL PRODUCTION - Check for color-blindness / contrast compatability
+todo - FOR FINAL PRODUCTION - what if someone changes the font size themselves, does it still look ok?
+todo - FOR FINAL PRODUCTION - loading speed, efficiency, no extraneous re-renders, etc...
 todo - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
 todo - add more photos of the inside / outside of DRS
     clothing
