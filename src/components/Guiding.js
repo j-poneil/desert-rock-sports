@@ -2,7 +2,7 @@ import React from 'react';
 // % it should be fine to use it like this. Where user is not doing any input. Remember, this doesn't do any sanitizing of HTML, its just a clean alternative to dangerouslySetInnerHTML.
 import parse from 'html-react-parser';
 
-import { FaInstagram, FaYoutube, FaHome } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaHome, FaGithub } from 'react-icons/fa';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -62,10 +62,28 @@ export default function Guiding(){
                             <Card.Title
                                 className="text-center mt-3">
                                     { i.name }
+                                    {/* 'thing' in i ... is checking to see if the key is present in the object, couples nicely with a ternary */}
                                     {/* Below, it looks like the empty tags are unnecessary, because it appears to be 1 root element... BUT they are necessary because there is actually two elements, a " " and the link */}
-                                    { i.ig !== "" && <> <a href={ i.ig } target="_blank" rel="noopener noreferrer"><FaInstagram /></a></> }
-                                    { i.youtube !== "" && <> <a href={ i.youtube } target="_blank" rel="noopener noreferrer"><FaYoutube /></a></> }
-                                    { i.site !== "" && <> <a href={ i.site } target="_blank" rel="noopener noreferrer"><FaHome /></a></> }
+                                    {
+                                        'ig' in i ?
+                                            i.ig !== "" && <> <a href={ i.ig } target="_blank" rel="noopener noreferrer"><FaInstagram /></a></>
+                                            : null
+                                    }
+                                    { 
+                                        'github' in i ?
+                                            i.github !== "" && <> <a href={ i.github } target="_blank" rel="noopener noreferrer"><FaGithub /></a></>
+                                            : null
+                                    }
+                                    {
+                                        'youtube' in i ?
+                                            i.youtube !== "" && <> <a href={ i.youtube } target="_blank" rel="noopener noreferrer"><FaYoutube /></a></>
+                                            : null
+                                    }
+                                    {
+                                        'site' in i ?
+                                            i.site !== "" && <> <a href={ i.site } target="_blank" rel="noopener noreferrer"><FaHome /></a></>
+                                            : null
+                                    }
                             </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
                             <Card.Text>
