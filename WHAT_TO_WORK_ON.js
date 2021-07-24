@@ -237,7 +237,8 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form?
 todo - gallery or carousel of guiding photos? Gallery probably more convienient, since carousel mis-matched image sizes issues
 todo - don't say "safe" say manage risk or something to CYA
-todo - trim down text
+todo - trim down text, especially on R2C2 / how it works steps side
+// todo - switch the R2C2 / how it works steps thing into a card component
 // todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
 // todo - increase space between guide photo and their name
 // todo - bump up Tier font (in TierCard.js, used .display-4 on the title... smaller didn't work, other size classes like .h2 didn't work either)
