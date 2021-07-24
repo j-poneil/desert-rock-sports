@@ -101,22 +101,27 @@ export default function Guiding(){
         <Container fluid className="mt-3 mb-3">
             <Container fluid>
                 <Row xl={2} lg={2} md={2} sm={1} xs={1}>
-                    <Col className="text-center">
-                        <h1>
-                            Red Rock Climbing Guides
-                        </h1>
-                        <h2>How it works:</h2>
-                        <h4>
-                            <ol className="text-left">
-                                <li>Check out our options below</li>
-                                <li>call us at <a href="tel:1-702-506-6640" target="_blank" rel="noopener noreferrer">1-702-506-6640</a> or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information</li>
-                                <li>We take credit card payment in full over the phone to reserve your spot on our calendar</li>
-                                <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location</li>
-                                <li>You have a blast!</li>
-                            </ol>
-                        </h4>
-                        <h5>Our guides have their own lives, schedules, other careers, and personal climbing trips. They are not just sitting around waiting to get a call. Please give us as much advanced notice as possible, 2-3wks during the peak season is great (Oct - Apr) or 1-2wks during the summer. We will always try to get a guide for any booking, even if it is last minute next day, it just gets much more likely that they are all already busy or wont get back to us in time. For large groups, like 12+ please give us extra time, on our end it is no longer finding 1 guide, it is finding 3+ guides who are all going to be available.</h5>
-                        <h5>We do full refund if you (or we) need to cancel for any reason, we just ask for ~24h advanced notice so we can notify the guide so they can make other plans. We can also keep credit on file for a future date indefinately. The sandstone is more dangerous to climb after a rain, it loses a lot of its strength, so if that happens we can go climb limestone or refund / keep credit on file if you prefer.</h5>
+                    <Col>
+                        <Card>
+                            <Card.Body>
+                                <Card.Title as='h1' className="text-center">Red Rock Climbing Guides</Card.Title>
+                                <Card.Text>
+                                    <hr style={{width: '30%'}} />
+                                    <Card.Subtitle className="text-center">How it works:</Card.Subtitle>
+                                    <ol className="text-left">
+                                        <li>Check out our options below</li>
+                                        <li>call us at <a href="tel:1-702-506-6640" target="_blank" rel="noopener noreferrer">1-702-506-6640</a> or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information</li>
+                                        <li>We take credit card payment in full over the phone to reserve your spot on our calendar</li>
+                                        <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location</li>
+                                        <li>You have a blast!</li>
+                                    </ol>
+                                    <Card.Subtitle>However...</Card.Subtitle>
+                                    <p>Our guides have their own lives, schedules, other careers, and personal climbing trips. They are not just sitting around waiting to get a call. Please give us as much advanced notice as possible, 2-3wks during the peak season is great (Oct - Apr) or 1-2wks during the summer. We will always try to get a guide for any booking, even if it is last minute next day, it just gets much more likely that they are all already busy or wont get back to us in time. For large groups, like 12+ please give us extra time, on our end it is no longer finding 1 guide, it is finding 3+ guides who are all going to be available.</p>
+                                    <p>Most of the time the clients and guide carpool together out from Desert Rock Sports to Red Rock Canyon. Picking up clients and dropping them off if they are on the way is often possible. We greatly prefer to not need to pickup and dropoff at the strip as it is completely in the opposite direction from where we are trying to go to and from.</p>
+                                    <p>We do full refund if you (or we) need to cancel for any reason, we just ask for ~24h advanced notice so we can notify the guide so they can make other plans. We can also keep credit on file for a future date indefinately. The sandstone is more dangerous to climb after a rain, it loses a lot of its strength, so if that happens we can go climb limestone or refund / keep credit on file if you prefer.</p>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                     </Col>
                     <Col>
                         <Card>
