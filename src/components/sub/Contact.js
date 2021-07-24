@@ -141,33 +141,25 @@ function Hours(){
 export default function Contact(){
     return (
         <Container fluid>
-            <Row xl={3} lg={3} md={3} sm={3} xs={1}>
+            <Row xl={2} lg={2} md={2} sm={1} xs={1}>
                 <Col>
                     <Card>
                         <Card.Body>
-                            <Card.Title></Card.Title>
+                            <Card.Title>Desert Rock Sports</Card.Title>
                             <Card.Text>
+                                <Table striped bordered hover size="sm">
+                                    <thead>
+                                        <tr>
+                                            <th colSpan='2'>Desert Rock Sports &amp; Guide Service Phone Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <Hours />
+                                </Table>
                                 <address>
-                                    <p>
-                                        Shop: <a href="tel:702-254-1143" target="_blank" rel="noopener noreferrer">702-254-1143</a><br />
-                                        Guide Service: <a href="tel:702-506-6640" target="_blank" rel="noopener noreferrer">702-506-6640</a><br />
-                                        Shop / Guide Service email: <a href="mailto:info@climbvegas.com" target="_blank" rel="noopener noreferrer">info@climbvegas.com</a>
-                                    </p>
-
-                                    <p>
-                                        Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a><br />
-                                        Gym email: <a href="mailto:sales@redrockclimbingcenter.com" target="_blank" rel="noopener noreferrer">sales@redrockclimbingcenter.com</a>
-                                    </p>
+                                    Shop: <a href="tel:702-254-1143" target="_blank" rel="noopener noreferrer">702-254-1143</a><br />
+                                    Guide Service: <a href="tel:702-506-6640" target="_blank" rel="noopener noreferrer">702-506-6640</a><br />
+                                    Shop / Guide Service email: <a href="mailto:info@climbvegas.com" target="_blank" rel="noopener noreferrer">info@climbvegas.com</a>
                                 </address>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card>
-                        <Card.Body>
-                            <Card.Title></Card.Title>
-                            <Card.Text>
                                 <address>
                                     Desert Rock Sports<br />
                                     8221 W Charleston Blvd<br />
@@ -178,58 +170,74 @@ export default function Contact(){
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+
+                {/* I think it would be cool if I had some big image here that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down */}
+                {/* <Col>
                     <Card>
                         <Card.Body>
                             <Card.Text>
-                                <Table striped bordered hover size="sm">
-                                    <thead>
-                                        <tr>
-                                            <th colSpan='2'>Desert Rock Sports &amp; Guide Service Phone Hours</th>
-                                        </tr>
-                                    </thead>
-                                    <Hours />
-                                </Table>
+                                
                             </Card.Text>
 
                             <Card.Text>
-                                <Table striped bordered hover size="sm">
-                                    <thead>
-                                        <tr>
-                                            <th colSpan='2'>Red Rock Climbing Center Hours</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>9am - 11pm</td>  
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>6am - 11pm</td>  
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>6am - 11pm</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>6am - 11pm</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>9am - 11pm</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>9am - 9pm</td>  
-                                        </tr>
-                                        <tr>
-                                            <td>Sunday</td>
-                                            <td>9am - 9pm</td>  
-                                        </tr>
-                                    </tbody>
-                                </Table>
+                                
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col> */}
+
+                <Col>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>Red Rock Climbing Center</Card.Title>
+                            <Table striped bordered hover size="sm">
+                                <thead>
+                                    <tr>
+                                        <th colSpan='2'>Red Rock Climbing Center Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday</td>
+                                        <td>9am - 11pm</td>  
+                                    </tr>
+                                    <tr>
+                                        <td>Tuesday</td>
+                                        <td>6am - 11pm</td>  
+                                    </tr>
+                                    <tr>
+                                        <td>Wednesday</td>
+                                        <td>6am - 11pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td>6am - 11pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td>9am - 11pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>9am - 9pm</td>  
+                                    </tr>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>9am - 9pm</td>  
+                                    </tr>
+                                </tbody>
+                            </Table>
+                            <Card.Text>
+                                <address>
+                                    Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a><br />
+                                    Gym email: <a href="mailto:sales@redrockclimbingcenter.com" target="_blank" rel="noopener noreferrer">sales@redrockclimbingcenter.com</a>
+                                </address>
+                                <address>
+                                    Red Rock Climbing Center<br />
+                                    8201 W Charleston Blvd<br />
+                                    #150<br />
+                                    Las Vegas, NV 89117
+                                </address>
                             </Card.Text>
                         </Card.Body>
                     </Card>
