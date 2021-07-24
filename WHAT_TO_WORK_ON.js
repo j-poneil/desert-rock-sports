@@ -85,6 +85,7 @@ todo - some sort of server integration?
     Different tabs/pages for updating different things
         news stories
         hours
+todo - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
 todo - add more photos of the inside / outside of DRS
     clothing
     artwork?
@@ -98,7 +99,6 @@ todo - use the fonts in index.html (refer to them in a more readable form in NOT
 todo - make/implement a BETTER favicon
     Simple emoji, DRS, DR, or outline of mtns... ?
     Implement, in multiple sizes
-todo - React.lazy / lazy loading / Suspense
 todo - loading animations that I can use in various places
     Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
 ? - should I move the resoles to its own page? I think I should
@@ -106,6 +106,7 @@ todo - loading animations that I can use in various places
 todo - add some line somewhere saying that I coded this site, see my github here etc...
     * As a block comment on the main page -- if it persists and is easy to find/read when viewing final "built" source
     * Maybe a simple line at the very bottom of the home or about pages...
+    // * OH, github link icon on about/guiding page for me
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
@@ -135,7 +136,10 @@ todo - SNCC link / info?
 ? - should I add the parser to the news titles too?
 ? - should I implement date-fns on DRS hours?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
-? - I think it would be cool if I had some big image between the DRS and R2C2 contact info that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
+    ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+todo - set max height on news component per-screen size, and overflow-y: scroll.
+    Basically I want its max height to be similar to whatever the max height for the text to the left (or above it) is.
 // todo - change organization of Contact.js component so that it is better split between DRS and R2C2
 // todo - change up the automatic hours changing thing
 // todo - switch DRS and Gym hours display to Table components
@@ -163,6 +167,7 @@ todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, b
 todo - THEN below it current (and past?) employees
 ? - what about short reviews from patrons like James W?
 todo - probably move nav link position of the about page to just left of 'Shop'
+// todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
 // todo - increase space between employee photo and their name
 // todo - Decide how to display personel
 // todo - Touch up and make responsive the main story
@@ -226,6 +231,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
 todo - gallery or carousel of guiding photos? Gallery probably more convienient, since carousel mis-matched image sizes issues
 todo - don't say "safe" say manage risk or something to CYA
 todo - trim down text
+// todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
 // todo - increase space between guide photo and their name
 // todo - bump up Tier font (in TierCard.js, used .display-4 on the title... smaller didn't work, other size classes like .h2 didn't work either)
 // todo - make sure when a guides row wraps, there is vertical spacing between the individual guides
@@ -302,28 +308,13 @@ todo - add a DRS logo image to the 'branding' nav item / link
 @ RRResoles component / sub page ----------
 todo - add before/after photos as a gallery or carousel
 todo - use react-bootstrap Card components, Jumbotron, or w/e else
+todo - separate out into its own page... right of guiding. Probably.
 // todo - add react-bootstrap grid system
 // todo - make a basic skeleton frame one
 
 
 @ Footer component ----------
 ? - Do I even want to have one? I just commented it out in App.js for now...
-
-
-
-
-
-
-
-
-
-
-
-
-
-Compleated tasks (subject to revision of course)
-==============================================================================================
-
 
 
 
