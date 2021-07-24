@@ -85,9 +85,10 @@ export const staff = [
     {
         name: "Travis O'Neil (aka T2)",
         position: "",
-        bio: "<p>Total gear nerd.</p>",
+        bio: "<p>Total gear nerd.</p><p>10+ years climbing, 5 guiding</p><p>From ATX, couldn't resist the draw of Red Rock Sandstone.</p><p>Loves easy multipitch, cracks, offwidths.</p><p>Coded this site. Also sews.</p>",
         imgSrc: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
+        github: 'https://github.com/j-poneil',
         site: '',
         youtube: '',
         active: true

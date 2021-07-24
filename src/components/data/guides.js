@@ -47,6 +47,7 @@ export const guides = [
         bio: "<p>From ATX, couldn't resist the draw of Red Rock Sandstone.</p><p>Loves easy multipitch, cracks, offwidths.</p><p>Coded this site. Also sews.</p>",
         pic: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
+        github: 'https://github.com/j-poneil',
         // ! add portfolio / resume site later one
         site: '',
         // https://www.youtube.com/user/NotEnoughKit --- add if I ever get around to actually using it
