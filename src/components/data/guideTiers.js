@@ -37,7 +37,7 @@ export const tiers = [
         imgCredit: "Calico Basin. Photo by Matt Kuehl.",
         tierName: "Tier 1 - Full Day",
         tierDuration: "7-8 Hours",
-        tierDescription: "<p>Tier 1 full day gives significantly more time to climb but is still aimed for areas where the approach hikes are short. Great for getting a lot of top roped sport climbing in. A popular option is climbing these 2 short multipitch climbs back-to-back:</p><ul><li>Big Bad Wolf 5.9 3p sport</li><li>Physical Graffiti 5.7 2p trad</li></ul>",
+        tierDescription: "<p>Tier 1 full day gives significantly more time to climb but is still aimed for areas where the approach hikes are short. Great for getting a lot of top roped sport climbing in. A popular option is climbing these 2 short multipitch climbs back-to-back:</p><ul><li>Big Bad Wolf 5.9 3p sport</li><li>Physical Graffiti 5.7 2p trad</li></ul><p>A full day also has enough time to make it worth while to check out 2 different walls, where usually, with a half day, there is only really time for 1 wall and packing up and moving to a different wall doesn't make sense with the limited time available.</p>",
         costTable: [
             {1: "$300"},
             {2: "$425"},
