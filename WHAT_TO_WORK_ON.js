@@ -103,6 +103,9 @@ todo - loading animations that I can use in various places
     Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
 ? - should I move the resoles to its own page? I think I should
     ... but if I'm going to, I should make sure that the main content of the Home page is filled out a bit more and good on its own
+todo - add some line somewhere saying that I coded this site, see my github here etc...
+    * As a block comment on the main page -- if it persists and is easy to find/read when viewing final "built" source
+    * Maybe a simple line at the very bottom of the home or about pages...
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
@@ -132,8 +135,8 @@ todo - SNCC link / info?
 ? - should I add the parser to the news titles too?
 ? - should I implement date-fns on DRS hours?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
-todo - change organization of Contact.js component so that it looks balanced as 3 columns...
-    or... maybe change it to 2 columns. One for DRS, one for R2C2...
+? - I think it would be cool if I had some big image between the DRS and R2C2 contact info that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+// todo - change organization of Contact.js component so that it is better split between DRS and R2C2
 // todo - change up the automatic hours changing thing
 // todo - switch DRS and Gym hours display to Table components
 // todo - add gym hours somewhere
