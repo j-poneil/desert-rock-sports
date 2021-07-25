@@ -85,7 +85,7 @@ export const staff = [
     {
         name: "Travis O'Neil (aka T2)",
         position: "",
-        bio: "<p>Total gear nerd.</p><p>10+ years climbing, 5 guiding</p><p>From ATX, couldn't resist the draw of Red Rock Sandstone.</p><p>Loves easy multipitch, cracks, offwidths.</p><p>Coded this site. Also sews.</p>",
+        bio: "<p>Originally from the humidity and short polished limestone of ATX and the JTree-like granite of Enchanted Rock... once he got a taste of what the great sandstone of Red Rock could offer, he knew he had to make it his home.</p><p>Loves easy multipitch, cracks, offwidths. Does a lot of hiking and trail running.</p><p>Total gear nerd.</p><p>10+ years climbing, 5 guiding</p><p>Coded this site. Also sews.</p>",
         imgSrc: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
         github: 'https://github.com/j-poneil',
