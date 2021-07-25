@@ -236,8 +236,15 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         gallery
         if there is a email form?
 todo - gallery or carousel of guiding photos? Gallery probably more convienient, since carousel mis-matched image sizes issues
-todo - don't say "safe" say manage risk or something to CYA
 todo - trim down text, especially on R2C2 / how it works steps side
+todo - consider re-structuring...
+    * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
+    * THEN RRCG / How it Works Steps + About our guiding columns...
+    * THEN Check out some of our guides, etc...
+// todo - don't say "safe" say manage risk or something to CYA
+//     two of the original paragraphs below
+//     We are committed to providing a safe outdoor rock climbing experience regardless of your ability. Our goal is to help you develop your rock-craft skills while becoming a knowledgeable, efficient, environmentally-aware climber focused on safety and leave-no-trace ethics.
+//     Red Rock Climbing Guides operate in the Red Rock Canyon National Conservation Area by permission of the Las Vegas District of the Bureau of Land Management. We are Las Vegas' only locally-owned guide service and are prepared to make your outdoor experience Fun, Affordable, and Safe!
 // todo - switch the R2C2 / how it works steps thing into a card component
 // todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
 // todo - increase space between guide photo and their name
