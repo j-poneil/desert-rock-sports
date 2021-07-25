@@ -126,12 +126,16 @@ export default function Guiding(){
                     <Col>
                         <Card>
                             <Card.Body>
-                                {/* <Card.Title></Card.Title> */}
-                                <Card.Text>The entire staff of the Red Rock Climbing Guides (RRCG) believes our responsibility to the climbing community does not begin and end at our front door. We recognize it extends across the globe, anywhere our climbers are climbing.</Card.Text>
-                                <Card.Text>We are committed to providing a safe outdoor rock climbing experience regardless of your ability. Our goal is to help you develop your rock-craft skills while becoming a knowledgeable, efficient, environmentally-aware climber focused on safety and leave-no-trace ethics.</Card.Text>
-                                <Card.Text>All of our activities are designed to help you develop self-reliance, teamwork and self-confidence on the rock. After completing any of our activities, you will be a better, more competent climber.</Card.Text>
-                                <Card.Text>Red Rock Climbing Guides operate in the Red Rock Canyon National Conservation Area by permission of the Las Vegas District of the Bureau of Land Management. We are Las Vegas' only locally-owned guide service and are prepared to make your outdoor experience Fun, Affordable, and Safe!</Card.Text>
-                                <Card.Text>We provide all your technical equipment! You only need to bring food, water, a decent pair of shoes for hiking in, and clothing appropriate for the season and activity. Call us if you need assistance.</Card.Text>
+                                <Card.Title className='text-center'>About our guiding services!</Card.Title>
+                                {/* <Card.Title className='text-center'>Our philosophy</Card.Title> */}
+                                <hr style={{width: '30%'}} />
+                                <Card.Text>
+                                    <p>The entire staff of the Red Rock Climbing Guides (RRCG) believes our responsibility to the climbing community does not begin and end at our front door. We recognize it extends across the globe, anywhere our climbers are climbing.</p>
+                                    <p>We are committed to providing a fun outdoor rock climbing experience regardless of your ability. Our goal is to help you develop your rock-craft skills while becoming a knowledgeable, efficient, environmentally-aware climber focused on managing risks inherent in climbing and leave-no-trace ethics.</p>
+                                    <p>All of our activities are designed to help you develop self-reliance, teamwork and self-confidence on the rock. After completing any of our activities, you will be a better, more competent climber.</p>
+                                    <p>Red Rock Climbing Guides operate in the Red Rock Canyon National Conservation Area by permission of the Las Vegas District of the Bureau of Land Management. We are Las Vegas' only locally-owned guide service. Our guides are great at managing the risks inherent in climbing and giving you a fun and affordable experience you won't soon forget!</p>
+                                    <p>We provide all your technical equipment! You only need to bring food, water, a decent pair of shoes for hiking in, and clothing appropriate for the season and activity. Call us if you need assistance.</p>
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
