@@ -44,13 +44,11 @@ export const guides = [
         name: "Travis O'Neil (aka T2)",
         certs: "AMGA SPI, WFR",
         exp: "10+ years, 5 guiding",
-        bio: "<p>From ATX, couldn't resist the draw of Red Rock Sandstone.</p><p>Loves easy multipitch, cracks, offwidths.</p><p>Coded this site. Also sews.</p>",
+        bio: "<p>Originally from the humidity and short polished limestone of ATX and the JTree-like granite of Enchanted Rock... once he got a taste of what the great sandstone of Red Rock could offer, he knew he had to make it his home.</p><p>Loves easy multipitch, cracks, offwidths. Does a lot of hiking and trail running.</p><p>Coded this site. Also sews.</p>",
         pic: T2,
         ig: "https://www.instagram.com/climbguidecraft/",
         github: 'https://github.com/j-poneil',
-        // ! add portfolio / resume site later one
         site: '',
-        // https://www.youtube.com/user/NotEnoughKit --- add if I ever get around to actually using it
         youtube: '', 
         active: true
     },
@@ -113,7 +111,7 @@ export const guides = [
         name: "Matt Kuehl",
         certs: "",
         exp: "",
-        bio: "",
+        bio: "<p>Matt Kuehl is a photographer, videographer, and adventure enthusiast who has developed his work by engaging with nature and the great unknown. This has brought him to mountain summits, barren deserts, vertical expanses, and the many worlds in between. Facing these challenging environments has allowed Kuehl to become experienced in working at heights, as well as in the varied conditions encountered in the ever changing natural world. Working in this fashion allows Kuehl to showcase the aesthetic awe of risk taking and wonder while also focusing his attention on the enthusiasm of people willing and unafraid to push the boundaries within themselves and their surroundings.</p><p>Matt Kuehl received a Bachelors of Fine Art Photography from the Milwaukee Institute of Art &amp; Design in 2011.</p>",
         pic: Matt,
         ig: "https://www.instagram.com/mattkuehlphoto/",
         site: 'https://www.mattkuehlphoto.com/',
