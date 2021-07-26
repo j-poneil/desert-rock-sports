@@ -63,39 +63,18 @@ export default function Template() {
             : setAccordionVisible(true);
     };
 
-    //@ just playing around with an idea...
-    // Keeping track of the open/closed state of the individual accordion sections using an array
-    // Will most likely go with the idea below which uses an object to keep track of this state instead, using eventKey's
-    // which are already in place and should be unique and hand coded for each... but still thinking.
-    // If I was to use array like this, I'd need to make sure that the number of "false" entries matches the number of
-    // accordion sections
-    //! ... but I'm not totally sure that this array approach would work when everything is composed together and there are so many
-    // ... instances of this same setup with same variable names, many times in the Beta.js page...
-    // ... I think I'd trust react to manage it fine somehow... but I'm not entirely sure it would work like that.
-    const [ accordionOpen, setAccordionOpen ] = useState([false, false, false]);
-    // { accordionOpen[index] ? <MdExpandLess /> : <MdExpandMore /> }
-    const handler = (index) => {
-        index.preventDefault();
-        let copy = accordionOpen;
-        copy[index] = !copy[index];
-        setAccordionOpen(copy);
-    }
-
-    //@ thinking about keeping track of when any children accordion sections of the Card are open/closed, no matter how many such sections there are. This way I can have contextual open/close icons, which would really help a lot, I think. I'd obviously change these variable names around a bit.
+    //@ Keeps track of the open/closed state of the individual accordion sections to be able to show expand/collapse icons contextually
     // called when any is clicked, being passed in which one was clicked
-    // ... either i code which, or use the eventKey 's which are already in place, yeah...
-    // this.eventKey ???
-    // onClick={ () => handler2(acc1) } ----- or ------ handler2(this.eventKey)
-    // corresponds to a key in an object {acc1: false, ..., ...}
-    // if open/closed, shown by the below in the title of the accordion sections
-    // { accordionOpen2[key] ? <MdExpandLess /> : <MdExpandMore /> }
-    // below instead of acc1, it would be whatever eventKey1 is, etc..
-    const [ accordionOpen2, setAccordionOpen2 ] = useState({acc1: false, acc2: false, acc3: false});
-    const handler2 = (key) => {
-        key.preventDefault();
-        let copy = { ...accordionOpen2 };
+    // onClick={ () => accordionItemClickHandler('eventKeyAsString') }
+    // Show in titles with:
+    // { accordionOpen['eventKeyAsString'] ? <MdExpandLess /> : <MdExpandMore /> }
+    // below instead of acc1, it would be whatever eventKey1 is, etc...
+    const [ accordionOpen, setAccordionOpen ] = useState({acc1: false, acc2: false, acc3: false});
+    const accordionItemClickHandler = (key) => {
+        // key.preventDefault();
+        let copy = { ...accordionOpen };
         copy[key] = !copy[key];
-        setAccordionOpen2(copy);
+        setAccordionOpen(copy);
     }
 
 
@@ -141,7 +120,10 @@ export default function Template() {
                             role="button"
                             aria-label="Section title(Put the title) and button"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related information"
+                            onClick={() => accordionItemClickHandler('test0') }
                         >
+                            { accordionOpen['test0'] ? <MdExpandLess /> : <MdExpandMore /> }
+                            &nbsp;
                             Title of accordion section
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="test0">
@@ -161,7 +143,10 @@ export default function Template() {
                             role="button"
                             aria-label="Section title(Put the title) and button"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related information"
+                            onClick={() => accordionItemClickHandler('test1') }
                         >
+                            { accordionOpen['test1'] ? <MdExpandLess /> : <MdExpandMore /> }
+                            &nbsp;
                             Title of accordion section
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="test1">
