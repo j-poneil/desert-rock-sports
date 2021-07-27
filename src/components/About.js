@@ -64,7 +64,7 @@ export default function About(){
 
     return (
         <Container fluid className="mt-3 mb-3">
-            <Row xl={2} lg={2} md={2} sm={2} xs={1}>
+            <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
                 <Col>
                     <Card>
                         <Card.Body>
@@ -111,7 +111,7 @@ export default function About(){
             </Jumbotron>
 
             <Container fluid className="mt-3">
-                <Row xl={3} lg={3} md={2} sm={2} xs={1}>
+                <Row xxl={3} xl={3} lg={2} md={2} sm={1} xs={1}>
                     { staffList }
                 </Row>
             </Container>
