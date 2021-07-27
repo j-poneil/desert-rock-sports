@@ -76,5 +76,35 @@ export const tiers = [
             {2: "$700 to $900"}
         ],
         tierNotes: "<p>Prior experience necessary. Pre-dawn starts are not unusual. Prices are determined based on the difficulties and complexities of the route chosen as well as estimated time needed. For example, Solar Slab would be $400 for 1 climber, while Epinephrine, Levitation 29, or a route on Rainbow Wall would be at least $600. Linkups of multiple long routes, extraordinarily long routes, or other complexities could lead to even higher prices.</p><p>Often it is a good idea to try to book a half day with the same guide in advance so they can get a good idea of your movement skills to make sure that they feel the route selected is a good fit for you. Or so they can select an appropriate route if you don't have something in mind.</p>"
-    }
+    },
+    // {
+    //     key: 4,
+    //     img: Levitation29,
+    //     imgSm: Levitation29_500w,
+    //     imgAltText: "A climbers on a difficult and very classic multipitch rock climb, Levitation 29.",
+    //     imgCredit: "Levitation 29. Photo by Matt Kuehl.",
+    //     tierName: "Tier 4 - Adventure Hike",
+    //     tierDuration: "8-14+ Hours",
+    //     tierDescription: "<p>For long remote adventure hikes, like Bridge Mountain</p>",
+    //     costTable: [
+    //         {1: "$400 to $600"},
+    //         {2: "$700 to $900"}
+    //     ],
+    //     tierNotes: "<p>Fitness is necessary.</p>"
+    // },
+    // {
+    //     key: 5,
+    //     img: Levitation29,
+    //     imgSm: Levitation29_500w,
+    //     imgAltText: "A climbers on a difficult and very classic multipitch rock climb, Levitation 29.",
+    //     imgCredit: "Levitation 29. Photo by Matt Kuehl.",
+    //     tierName: "Tier 5 - Big Wall",
+    //     tierDuration: "24h+",
+    //     tierDescription: "<p>For multi-day climbs where you are sleeping on the wall, either on portaledge or a big enough natural rock ledge.</p>",
+    //     costTable: [
+    //         {1: "$400 to $600"},
+    //         {2: "$700 to $900"}
+    //     ],
+    //     tierNotes: "<p>This is a huge ordeal.</p>"
+    // }
 ];
