@@ -7,13 +7,24 @@ import { formatDistance, parse as parseDate } from 'date-fns';
 // formatDistance(parseDate('02/11/2014', 'MM/dd/yyyy', new Date()), new Date(), { addSuffix: true })
 //* html-react-parser and date-fns both have a 'parse' function, so gave one an alias of parseDate
 
+// Where the individual stories / headlines are saved
+import { newsItems } from '../data/newsItems';
+
 // styles
 // BUT NOT USING ANY RIGHT NOW
 // ..\src\stylesheets\components\_news.sass
 
+const newsCardStyles = {
+    height: '100%',
+    overflowY: 'scroll'
+};
 
-// Where the individual stories / headlines are saved
-import { newsItems } from '../data/newsItems';
+const newsItemStyles = {
+    // Want to have 'News' stay up top and have items scroll, with scroll bar fitting down to bottom of Card component
+};
+
+
+
 
 // News happenings.
 // Sales, events, competitions, closures, new red rock policies, etc... maybe even rain, but that could get a bit crazy
@@ -36,11 +47,11 @@ export default function News(){
     });
 
     return (
-        <Card>
+        <Card style={ newsCardStyles }>
             <Card.Body>
                 <Card.Title className="text-center">News</Card.Title>
                 <hr style={{width: '25%'}}/>
-                { newsReal }
+                <section style={ newsItemStyles }>{ newsReal }</section>
             </Card.Body>
         </Card>
     );
