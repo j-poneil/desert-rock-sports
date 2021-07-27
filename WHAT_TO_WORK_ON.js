@@ -113,6 +113,7 @@ todo - loading animations that I can use in various places
 todo - add some line somewhere saying that I coded this site, see my github here etc...
     * As a block comment on the main page -- if it persists and is easy to find/read when viewing final "built" source
     * Maybe a simple line at the very bottom of the home or about pages...
+    // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
