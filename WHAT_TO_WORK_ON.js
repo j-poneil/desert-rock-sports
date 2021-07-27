@@ -145,8 +145,8 @@ todo - SNCC link / info?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
-todo - set max height on news component per-screen size, and overflow-y: scroll.
-    Basically I want its max height to be similar to whatever the max height for the text to the left (or above it) is.
+// todo - set max height on news component per-screen size, and overflow-y: scroll.
+//     Basically I want its max height to be similar to whatever the max height for the text to the left (or above it) is.
 // todo - change organization of Contact.js component so that it is better split between DRS and R2C2
 // todo - change up the automatic hours changing thing
 // todo - switch DRS and Gym hours display to Table components
@@ -174,6 +174,7 @@ todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, b
 todo - THEN below it current (and past?) employees
 ? - what about short reviews from patrons like James W?
 todo - probably move nav link position of the about page to just left of 'Shop'
+// todo - adjust breakpoints
 // todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
 // todo - increase space between employee photo and their name
 // todo - Decide how to display personel
@@ -198,6 +199,7 @@ todo - FOR FINAL PRODUCTION - fill out the skip / skip to links for every single
 todo - FOR FINAL PRODUCTION - background for entire page?
 todo - fix the blue then image problem with the cards...
     pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
+todo - adjust breakpoints once I have a bunch filled out
 todo - add something when you hover over the cards, like outline color change, lighten of background image, grayscale to color, etc...
     the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
 // todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
@@ -235,6 +237,9 @@ todo - consider re-structuring...
     * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
     * THEN RRCG / How it Works Steps + About our guiding columns...
     * THEN Check out some of our guides, etc...
+// todo - create 2 more tiers for future use
+// todo - adjust breakpoints
+    // * See note about guiding tiers xl={2 / 3 / 4}
 // todo - don't say "safe" say manage risk or something to CYA
 //     two of the original paragraphs below
 //     We are committed to providing a safe outdoor rock climbing experience regardless of your ability. Our goal is to help you develop your rock-craft skills while becoming a knowledgeable, efficient, environmentally-aware climber focused on safety and leave-no-trace ethics.
