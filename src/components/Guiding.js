@@ -100,7 +100,7 @@ export default function Guiding(){
     return (
         <Container fluid className="mt-3 mb-3">
             <Container fluid>
-                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
+                <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
                         <Card>
                             <Card.Body>
@@ -142,8 +142,9 @@ export default function Guiding(){
                 </Row>
             </Container>
             
+            {/* //! Can't decide between xl={4} and xl={2}.... 2 is more readable. 3 would be great, but we have 4, not 6 tiers, so the other would hang free and look weird... I think we should just make 2 more tiers... like 'Tier 4 - Adventure Hike' and 'Tier 5 - bigwall'... For now I have made them and commented them out in 'guideTiers.js'. If we implement them, switch to xl={3} */}
             <Container fluid className="mt-3">
-                <Row xl={4} lg={2} md={2} sm={2} xs={1}>
+                <Row xxl={4} xl={4} lg={2} md={1} sm={1} xs={1}>
                     { tierList }
                 </Row>
             </Container>
@@ -155,7 +156,7 @@ export default function Guiding(){
             </Jumbotron>
 
             <Container fluid>
-                <Row xl={4} lg={3} md={2} sm={2} xs={1}>
+                <Row xxl={4} xl={3} lg={2} md={2} sm={1} xs={1}>
                     { guideList }
                 </Row>
             </Container>
