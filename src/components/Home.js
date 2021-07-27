@@ -23,6 +23,15 @@ import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
 // Styles here:
 // src\stylesheets\pages\_home.sass
 
+const picklesStyle = {
+    height: '100%'
+};
+
+const boulderingJumbotronStyle = {
+    height: '100%',
+    width: '100%' // width doesn't work right
+};
+
 //@Notes
 // className="mt-3 mb-3" is used on every Container for some much needed spacing between components/elements/sections
 
@@ -34,7 +43,7 @@ export default function Home(){
             <Splash/>
 
             <Container fluid className="mt-3 mb-3">
-                <Row xl={2} lg={2} md={2} sm={2} xs={1}>
+                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
                     <Col>
                         <Jumbotron>
                             <p><strong>Welcome to Desert Rock Sports</strong></p>
@@ -55,7 +64,7 @@ export default function Home(){
             {/* Local news / happenings / sales / events */}
             {/* A cool image? */}
             <Container fluid className="mt-3 mb-3">
-                <Row xl={2} lg={2} md={2} sm={2} xs={1}>
+                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
                     <Col>
                         <Image src={ Simba } alt="simba-placeholder" fluid />
                     </Col>
@@ -68,9 +77,9 @@ export default function Home(){
             {/* Yes, we rent bouldering pads */}
             {/* A cool image? */}
             <Container className="mt-3 mb-3">
-                <Row xl={2} lg={2} md={2} sm={2} xs={1}>
+                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
                     <Col>
-                        <Jumbotron>
+                        <Jumbotron style={ boulderingJumbotronStyle }>
                             <p><strong>Yes! We rent Bouldering Pads!</strong></p>
                             <p>Regular size $15/day, XL $25/day</p>
                             <p>We don't do reservations anymore, but our fleet is now so large that we almost never run out.</p>
