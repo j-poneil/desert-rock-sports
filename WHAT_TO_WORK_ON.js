@@ -196,14 +196,8 @@ todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we ha
 todo - FOR FINAL PRODUCTION - Nice photos for the cards / section titles
 todo - FOR FINAL PRODUCTION - fill out the skip / skip to links for every single section, check that they work
 todo - FOR FINAL PRODUCTION - background for entire page?
-todo - climbing gyms in the area
-todo - coffee shops around
-todo - locations for wifi ?
-todo - wet weather options beta
-    hiking, hot springs, touristy stuff, non-sandstone climbing, etc...
 todo - fix the blue then image problem with the cards...
     pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
-
 todo - add something when you hover over the cards, like outline color change, lighten of background image, grayscale to color, etc...
     the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
 // todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
