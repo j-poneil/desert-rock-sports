@@ -17,8 +17,12 @@ import Table from 'react-bootstrap/Table';
 
 import Accordion from 'react-bootstrap/Accordion';
 
-
+// for when testing the template used for the other section components
 import Template from './beta/Template';
+
+// section components based of Template
+
+
 
 // styles here:
 // src\stylesheets\pages\_beta.sass
@@ -26,19 +30,40 @@ import Template from './beta/Template';
 //@ - Card Section Titles with a captivating img background
     // Click on them to show/hide an accordion of related sections that slides down into view
 
-// @ for Accordian
-// 1 Col
-    // SNCC, Local Ethics (add wet rock here?), ???
-    // Paid Camping, Free Camping, Showers, Laundry
-// 1 Col
-    // Coffee Shops, Restraunts, Grocery Stores, Breweries/Bars
-// 1 Col
-    // Hiking, Trail Running, Mtn Biking, Canyoneering
-// 1 Col
-    // Climbing - Shady Options, Sunny Options, Rainy day / dryout day options
-    // Crack climbing option, offwidth options, no-crowds options
-// 1 Col
-    // Non-climbing rainy day options
+//@ Major sections and accordion items
+//@ ... sub-titles could be good to have too
+    // General Info
+        // RR General Info (hours, logistics, timed entry, site link(s))
+        // Local Ethics
+        // Wet Rock
+        // SNCC
+    // Lodging / Camping / Logistics?
+        // Hotels
+        // Paid Camping
+        // Free Camping
+        // Showers
+        // Laundry
+    // Food
+        // Grocery Stores
+        // Coffee Shops
+        // Restraunts
+        // Breweries / Bars
+    // Other outdoor fun
+        // Hiking
+        // Trail Running
+        // Mtn Biking
+        // Canyoneering
+        // Rainy day options (hiking, hot springs, touristy stuff, etc...)
+    // Climbing route recommendations
+        // Shady options
+        // Sunny options
+        // Rainy Day / Dryout day options
+        // crack climbing
+        // offwidth
+        // no crowds (maybe... maybe not)
+    // Climbing Gyms
+    
+
 
 //@ - K's ideas:
 /*
