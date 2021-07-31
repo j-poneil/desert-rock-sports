@@ -93,6 +93,7 @@ todo - FOR FINAL PRODUCTION - Check for color-blindness / contrast compatability
 todo - FOR FINAL PRODUCTION - what if someone changes the font size themselves, does it still look ok?
 todo - FOR FINAL PRODUCTION - loading speed, efficiency, no extraneous re-renders, etc...
 todo - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
+todo - FOR FINAL PRODUCTION - Make sure my important comments that i made about author of site are visible after build process
 todo - add more photos of the inside / outside of DRS
     clothing
     artwork?
@@ -111,7 +112,6 @@ todo - loading animations that I can use in various places
 ? - should I move the resoles to its own page? I think I should
     ... but if I'm going to, I should make sure that the main content of the Home page is filled out a bit more and good on its own
 todo - add some line somewhere saying that I coded this site, see my github here etc...
-    * As a block comment on the main page -- if it persists and is easy to find/read when viewing final "built" source
     * Maybe a simple line at the very bottom of the home or about pages...
     // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
@@ -218,26 +218,29 @@ todo - add something when you hover over the cards, like outline color change, l
 
 
 @ Guiding page ------------------------------------
-todo - possibily for the guides, dynamic climbing experience...
+todo - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
+todo - Un-necessary hassle - dynamic climbing experience for the guides
     add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
 todo - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
-    AMBITIOUS - My secret package for this
-todo - probably add some bar below everything that says that we can accomodate other complicated outings
-    such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
-todo - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
+    AMBITIOUS option - My secret package for this
 todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
     Implement skip to links
         tiers
         guides
         gallery
-        if there is a email form?
+        if there is a email form? ... probably should be
+            thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - gallery or carousel of guiding photos? Gallery probably more convienient, since carousel mis-matched image sizes issues
 todo - trim down text, especially on R2C2 / how it works steps side
 todo - consider re-structuring...
     * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
     * THEN RRCG / How it Works Steps + About our guiding columns...
     * THEN Check out some of our guides, etc...
+todo - probably add some bar below everything that says that we can accomodate other complicated outings
+    such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
+todo - contact form
+    * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
 // todo - create 2 more tiers for future use
 // todo - adjust breakpoints
     // * See note about guiding tiers xl={2 / 3 / 4}
