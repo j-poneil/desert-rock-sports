@@ -16,6 +16,10 @@ import { guides } from './data/guides';
 import TierCard from './sub/TierCard';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
+import GuideInquiryForm from './sub/GuideInquiryForm';
+
+
+
 // 'https://via.placeholder.com/500x400'
 
 
@@ -161,10 +165,34 @@ export default function Guiding(){
                 </Row>
             </Container>
 
-            {/* //! insert gallery here, mt-5 here or maybe mt-3 mb-3 */}
+            {/* //! insert gallery here, mt-5 here or maybe mt-3 mb-3... probably not in a Jumbotron. 1 col regardless of screen size */}
             <Jumbotron fluid className="text-center mt-5">
                 <h1>( insert gallery here )</h1>
             </Jumbotron>
+
+            {/* We can accomodate other things, just ask! */}
+            <Jumbotron fluid className="text-center mt-5">
+                <h3>We can accomodate all sorts of outings. Feel free to contact us even if what you are looking for doesn't fit neatly into one of our standard tiers above. Filming a commercial or movie? Large corporate event? Small event with a professional climber and climbing photographer? Proposing to your S/O? We can accomodate many situations, just let us know!</h3>
+            </Jumbotron>
+
+            {/* //! Needs validation, captcha, etc... So maybe put this off til later... or use a dedicated form service */}
+            {/* Contact us form... to prompt on some of the info we need to help */}
+            <Container fluid className="mt-5">
+                <Row xxl={2} xl={2} lg={2} md={2} sm={1} xs={1}>
+                    <Col>
+                        <GuideInquiryForm />
+                    </Col>
+
+                    <Col>
+                        <Card>
+                            <Card.Body>
+                                <Card.Title></Card.Title>
+                                <Card.Text></Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
             
         </Container>
     );
