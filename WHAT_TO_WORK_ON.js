@@ -146,6 +146,8 @@ todo - SNCC link / info?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+// todo - set a standard for the size of the pics used for the welcome, news, and bouldering side images, something like 500x500 or 900x600
+// todo - resize the welcome, news, and bouldering side images
 // todo - set max height on news component per-screen size, and overflow-y: scroll.
 //     Basically I want its max height to be similar to whatever the max height for the text to the left (or above it) is.
 // todo - change organization of Contact.js component so that it is better split between DRS and R2C2
@@ -239,8 +241,10 @@ todo - consider re-structuring...
     * THEN Check out some of our guides, etc...
 todo - probably add some bar below everything that says that we can accomodate other complicated outings
     such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
-todo - contact form
+todo - guide inquiry form
     * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
+    Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
+    * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 // todo - create 2 more tiers for future use
 // todo - adjust breakpoints
     // * See note about guiding tiers xl={2 / 3 / 4}
