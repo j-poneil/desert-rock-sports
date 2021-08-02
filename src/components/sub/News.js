@@ -49,7 +49,7 @@ export default function News(){
     return (
         <Card style={ newsCardStyles }>
             <Card.Body>
-                <Card.Title className="text-center">News</Card.Title>
+                <Card.Title className="text-center" as='h3'>News</Card.Title>
                 <hr style={{width: '25%'}}/>
                 <section style={ newsItemStyles }>{ newsReal }</section>
             </Card.Body>
