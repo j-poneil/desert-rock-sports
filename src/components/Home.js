@@ -15,22 +15,25 @@ import RRResoles from './sub/RRResoles';
 import Contact from './sub/Contact';
 
 // TEMP IMAGES for mocking up only
-import Pickles from '../img/temp/Pickles.jpg';
-import Simba from '../img/temp/IMG_20190320_215434_122.jpg';
-import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
+import Pickles from '../img/temp/Pickles_900x600.jpg';
+import SufferPup from '../img/temp/SufferPup_900x600.jpg';
+// import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
+import FyfeBouldering from '../img/temp/fyfe_900x600.jpg';
 
 // ! no styles here currently
 // Styles here:
 // src\stylesheets\pages\_home.sass
 
-const picklesStyle = {
-    height: '100%'
-};
+const welcomeStyles = { height: '100%' };
+// news styles in News component
+const boulderingJumbotronStyle = { height: '100%' };
 
-const boulderingJumbotronStyle = {
-    height: '100%',
-    width: '100%' // width doesn't work right
-};
+const picklesStyles = { width: '100%' };
+const sufferPupStyles = { width: '100%' };
+const fyfeBoulderingStyles = { width: '100%' };
+
+
+
 
 //@Notes
 // className="mt-3 mb-3" is used on every Container for some much needed spacing between components/elements/sections
@@ -40,13 +43,13 @@ export default function Home(){
     return (
         // ! section? main?
         <Container fluid>
-            <Splash/>
+            <Splash />
 
             <Container fluid className="mt-3 mb-3">
-                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
+                <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
-                        <Jumbotron>
-                            <p><strong>Welcome to Desert Rock Sports</strong></p>
+                        <Jumbotron style={ welcomeStyles }>
+                            <h3>Welcome to Desert Rock Sports</h3>
                             <p>
                                 the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for backpackers, climbers, canyoneers, cavers and other outdoor sports enthusiasts.
                             </p>
@@ -56,7 +59,7 @@ export default function Home(){
                     </Col>
                     <Col>
                         {/* <img className="temp" src='https://via.placeholder.com/500x400' alt="placeholder"/> */}
-                        <Image src={ Pickles } roundedCircle fluid alt="pickles-placeholder" />
+                        <Image src={ Pickles } fluid alt="pickles-placeholder" style={ picklesStyles } />
                     </Col>
                 </Row>
             </Container>
@@ -64,9 +67,9 @@ export default function Home(){
             {/* Local news / happenings / sales / events */}
             {/* A cool image? */}
             <Container fluid className="mt-3 mb-3">
-                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
+                <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
-                        <Image src={ Simba } alt="simba-placeholder" fluid />
+                        <Image src={ SufferPup } fluid alt="simba-placeholder" style={ sufferPupStyles } />
                     </Col>
                     <Col>
                         <News />
@@ -76,17 +79,20 @@ export default function Home(){
 
             {/* Yes, we rent bouldering pads */}
             {/* A cool image? */}
-            <Container className="mt-3 mb-3">
-                <Row xl={2} lg={2} md={2} sm={1} xs={1}>
+            <Container fluid className="mt-3 mb-3">
+                <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
                         <Jumbotron style={ boulderingJumbotronStyle }>
-                            <p><strong>Yes! We rent Bouldering Pads!</strong></p>
+                            <h3>Yes! We rent Bouldering Pads!</h3>
                             <p>Regular size $15/day, XL $25/day</p>
                             <p>We don't do reservations anymore, but our fleet is now so large that we almost never run out.</p>
+                            <p>(Stop calling us to check if we have them. Yes, we have them.)</p>
+                            <p>We rent by the day, not per 24h, but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
+                            <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, just make sure to write down your name and staple it to the pad so we can shread up your paperwork when we get the pad back.</p>
                         </Jumbotron>
                     </Col>
                     <Col>
-                        <Image src={ Bouldering } alt="bouldering-placeholder" fluid />
+                        <Image src={ FyfeBouldering } fluid alt="bouldering-placeholder" style={ fyfeBoulderingStyles } />
                     </Col>
                 </Row>
             </Container>
