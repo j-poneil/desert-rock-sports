@@ -60,7 +60,7 @@ function GuideInquiryForm() {
                             <Form noValidate onSubmit={handleSubmit}>
                                 <Row xxl={2} xl={2} lg={2} md={2} sm={1} xs={1}>
                                     <Col>
-                                        {/* //@ First Name */}
+                                        {/* //@ Full Name */}
                                         <Form.Group md="4" controlId="validationFormik01">
                                             <Form.Label>Full Name (or guardian, or group coordinator)</Form.Label>
                                             <Form.Control
