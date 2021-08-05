@@ -11265,32 +11265,6 @@ html {
   font-size: 2vw;
 }
 
-.news-container {
-  max-height: 80vh;
-  max-width: 50vw;
-  overflow-y: auto;
-}
-
-.news-item {
-  list-style: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.news-item-date {
-  font-size: 1.8em;
-  color: grey;
-}
-
-.news-item-title {
-  font-size: 1.8em;
-}
-
-.news-item-post {
-  font-size: 1.2em;
-  word-wrap: break-word;
-}
-
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
