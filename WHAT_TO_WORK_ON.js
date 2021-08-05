@@ -188,9 +188,11 @@ todo - probably move nav link position of the about page to just left of 'Shop'
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
 todo - other sections in gear below the carousel
 todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we have, multiple shots, try to have most of the be the same aspect ratio to reduce the editing
-    todo - FOR FINAL PRODUCTION - edit good photos to all have the same aspect ratio. 1x and 2x pixel density
+    todo - FOR FINAL PRODUCTION - edit good photos to all have the same aspect ratio. 1x and 2x pixel density. prob ~4:3 ???
     todo - FOR FINAL PRODUCTION - make smaller file sizes with different pixel densities too
     todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing temporary ones
+? - what about a 3D google street style navigable thing? I think that would be so slick...
+    * Either link to the one on google maps... or just have one instead of the carousel ???
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
 // todo - add carousel to gear page
 // todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
