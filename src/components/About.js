@@ -66,7 +66,7 @@ export default function About(){
         <Container fluid className="mt-3 mb-3">
             <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
                 <Col>
-                    <Card>
+                    <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Title>How they met...</Card.Title>
                             <Card.Text>
