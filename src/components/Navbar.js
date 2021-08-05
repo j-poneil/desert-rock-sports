@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// ! - The external link icon definitely looks out of place. May have to remove.
+// ! - The tooltip shows up too slowly to be useful... and doesn't show with tab-through navigation or on touchscreen, probably
+import { FaExternalLinkAlt } from 'react-icons/fa';
+
 // % Secret Door icon for hidden gallery / whatever
 import { GiSecretDoor } from 'react-icons/gi';
 
@@ -32,7 +36,7 @@ export default function Navbar(){
                     <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/gear">Gear</Nav.Link>
                     <Nav.Link href="/beta">Beta</Nav.Link>
-                    <Nav.Link href="https://www.redrockclimbingcenter.com/" target="_blank">Gym</Nav.Link>
+                    <Nav.Link href="https://www.redrockclimbingcenter.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Opens in a new tab">Gym <FaExternalLinkAlt /></Nav.Link>
                     <Nav.Link href="/guiding">Guiding</Nav.Link>
                     <Nav.Link href="/other">Other</Nav.Link>
                     <Nav.Link href="/shop">Shop</Nav.Link>

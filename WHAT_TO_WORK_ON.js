@@ -321,6 +321,8 @@ todo - fix small screen hamburger dropdown mixing with Splash / Hero image/text 
     - maybe try fixing by replacing with react-bootstrap Jumbotron or a carousel... or maybe just a generic react-bootstrap Container
 todo - add a DRS logo image to the 'branding' nav item / link
 * - using fixed="top" on the NavbarRBS would necessitate adding padding-top to the Switch to prevent cutting off the top content of all pages... for now going to go w/o doing this, but something to keep in mind incase I decide to switch it up later on.
+todo - do I really want an external link icon for the gym???
+// todo - add an "opens in a new tab" tooltip to gym link
 // todo - swap out with react-bootstrap NavBar and see how I like it...
 // todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
     // remove default underline
