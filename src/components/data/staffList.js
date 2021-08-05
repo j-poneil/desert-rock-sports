@@ -2,7 +2,8 @@
 // standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';
 // % TG
-import TG from '../../img/DRS_staff/TG_450w_450h.jpg';
+// import TG from '../../img/DRS_staff/TG_450w_450h.jpg';
+import TG from '../../img/DRS_staff/TG2_450w_450h.jpg';
 // % ML
 // import Mike from '../../img/DRS_staff/Mike_450w_450h.jpg';
 import Mike from '../../img/DRS_staff/Mike2_450w_450h.jpg';
