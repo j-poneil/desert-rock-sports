@@ -37,6 +37,7 @@ const fyfeBoulderingStyles = { width: '100%' };
 
 //@Notes
 // className="mt-3 mb-3" is used on every Container for some much needed spacing between components/elements/sections
+// ? should i change the horizontal spacing between cols?
 
 
 export default function Home(){
