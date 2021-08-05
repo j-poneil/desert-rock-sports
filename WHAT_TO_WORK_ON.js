@@ -115,7 +115,7 @@ todo - add some line somewhere saying that I coded this site, see my github here
     * Maybe a simple line at the very bottom of the home or about pages...
     // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
-? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card components in general since I have been using them sooo much
+? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card   components and/or rows in general since I have been using them sooo much... and the vertical spacing between rows has not been the greatest in some spots
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
