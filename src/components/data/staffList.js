@@ -9,6 +9,7 @@ import TG from '../../img/DRS_staff/TG2_450w_450h.jpg';
 import Mike from '../../img/DRS_staff/Mike2_450w_450h.jpg';
 // import Mike from '../../img/DRS_staff/Mike3_450w_450h.jpg';
 // % Steve
+import Steve from '../../img/DRS_staff/Steve_450w_450h.jpg';
 
 // % T2
 import T2 from '../../img/RRCG/GuideBioImgs/T2_450w_450h.jpg';
@@ -47,7 +48,7 @@ export const staff = [
         name: "Steve Mallory",
         position: "",
         bio: "<p>has a background in finance and helps with the bookkeeping. He has been climbing since 1979 and has lived in Las Vegas for 22 years. Steve recently developed a passion for canyoneering and has added Imlay Canyon Gear, static rope and the La Sportiva Exum River Shoe, to the store's inventory.</p><p>Canyoneering in Zion is a great way to beat the heat in Las Vegas during the summer months!</p>",
-        imgSrc: "https://via.placeholder.com/500x400",
+        imgSrc: Steve,
         ig: "",
         site: '',
         youtube: '',
