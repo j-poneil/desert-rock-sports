@@ -115,6 +115,7 @@ todo - add some line somewhere saying that I coded this site, see my github here
     * Maybe a simple line at the very bottom of the home or about pages...
     // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
+? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card components in general since I have been using them sooo much
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
@@ -207,6 +208,8 @@ todo - fix the blue then image problem with the cards...
 todo - adjust breakpoints once I have a bunch filled out
 todo - add something when you hover over the cards, like outline color change, lighten of background image, grayscale to color, etc...
     the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
+? - should I wrap every external link icon in <sup>...</sup> ? Or use something else to make the icon smaller and up
+    ... hopefully w/o disrupting line heights
 // todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
 // todo - tweak styling of emergency/rescue number/link
 // todo - add a tooltip that says something like: "click to show/hide additional info" to the card and accordion sections
@@ -247,6 +250,7 @@ todo - guide inquiry form
     * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
+? - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?
 // todo - create 2 more tiers for future use
 // todo - adjust breakpoints
     // * See note about guiding tiers xl={2 / 3 / 4}
@@ -321,7 +325,7 @@ todo - fix small screen hamburger dropdown mixing with Splash / Hero image/text 
     - maybe try fixing by replacing with react-bootstrap Jumbotron or a carousel... or maybe just a generic react-bootstrap Container
 todo - add a DRS logo image to the 'branding' nav item / link
 * - using fixed="top" on the NavbarRBS would necessitate adding padding-top to the Switch to prevent cutting off the top content of all pages... for now going to go w/o doing this, but something to keep in mind incase I decide to switch it up later on.
-todo - do I really want an external link icon for the gym???
+? - do I really want an external link icon for the gym???
 // todo - add an "opens in a new tab" tooltip to gym link
 // todo - swap out with react-bootstrap NavBar and see how I like it...
 // todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
