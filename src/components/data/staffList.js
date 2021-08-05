@@ -1,11 +1,21 @@
 //% photos for staff
 // standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';
-import T2 from '../../img/RRCG/GuideBioImgs/T2_450w_450h.jpg';
-import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg';
-import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
-import Mike from '../../img/DRS_staff/Mike_450w_450h.jpg';
+// % TG
 import TG from '../../img/DRS_staff/TG_450w_450h.jpg';
+// % ML
+// import Mike from '../../img/DRS_staff/Mike_450w_450h.jpg';
+import Mike from '../../img/DRS_staff/Mike2_450w_450h.jpg';
+// import Mike from '../../img/DRS_staff/Mike3_450w_450h.jpg';
+// % Steve
+
+// % T2
+import T2 from '../../img/RRCG/GuideBioImgs/T2_450w_450h.jpg';
+// % Dan
+import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
+// % Josh
+import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg';
+// % LB
 import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
 
 // % For bio, use a string of text/html. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
