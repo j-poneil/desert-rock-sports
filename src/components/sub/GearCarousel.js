@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 // ! - for the carousel to work well and not shift the layout around / mess with responsive design... all the images need to be exactly the same height and width... or rather the same aspect ratio. The editing to make that happen is annoying, yes, but its by far the best way to make it look good and just work on any screen size. A bunch of custom CSS and media queries / breakpoints will not work, identical aspect ratio is the only way. Seems like a limitation, but once its done it will look great, so just do it.
 // ! - make xlarge, large, medium, 2x medium, small, 2x small, ... or is that too much?
+// ! - need to standardize image aspect ratio, probably 4:3 or something... hopefully something that works for every screen size
 
 // ! - temp images, real ones will be nicer and all the same aspect ratio
 // import Backpacks from '../../img/DRS_store/Backpacks.jpg';
