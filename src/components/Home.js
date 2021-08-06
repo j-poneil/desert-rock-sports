@@ -88,8 +88,8 @@ export default function Home(){
                             <p>Regular size $15/day, XL $25/day</p>
                             <p>We don't do reservations anymore, but our fleet is now so large that we almost never run out.</p>
                             <p>(Stop calling us to check if we have them. Yes, we have them.)</p>
-                            <p>We rent by the day, not per 24h, but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
-                            <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, just make sure to write down your name and staple it to the pad so we can shread up your paperwork when we get the pad back.</p>
+                            <p>We rent by the day, not per 24h... but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
+                            <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open and make sure to write down your name and staple it to the pad so we can shread up your paperwork when we get the pad back.</p>
                         </Jumbotron>
                     </Col>
                     <Col>
@@ -102,6 +102,7 @@ export default function Home(){
             {/* Maybe as a carousel */}
 
             {/* Check us out on IG? Subscribe to our mailing list? */}
+
 
             <Container fluid className="mt-3 mb-3">
                 {/* Resoles */}
