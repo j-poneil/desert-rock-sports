@@ -147,6 +147,12 @@ todo - SNCC link / info?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+todo - fix the width problem
+    % I think what I need to do in the Home component, is get everything under one empty tag...
+    ... instead of in container that acts as the parent container for everything...
+    ... because if that container is the parent... all the containers inside, even if they are fluid tagged will fill less
+    ... horizontal space
+    ! -- DO THIS ONE ^
 // todo - set a standard for the size of the pics used for the welcome, news, and bouldering side images, something like 500x500 or 900x600
 // todo - resize the welcome, news, and bouldering side images
 // todo - set max height on news component per-screen size, and overflow-y: scroll.
@@ -177,7 +183,8 @@ todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, b
 ? - a section on its own for the 3 owners???
 todo - THEN below it current (and past?) employees
 ? - what about short reviews from patrons like James W?
-todo - probably move nav link position of the about page to just left of 'Shop'
+todo - probably move nav link position of the 'About' page to just left of 'Shop'
+// todo - mess with mt-3 and mb-3 so everything is spaced better
 // todo - adjust breakpoints
 // todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
 // todo - increase space between employee photo and their name
@@ -339,6 +346,7 @@ todo - add a DRS logo image to the 'branding' nav item / link
 todo - add before/after photos as a gallery or carousel
 todo - use react-bootstrap Card components, Jumbotron, or w/e else
 todo - separate out into its own page... right of guiding. Probably.
+todo - fix width issue so it fills the same horizontal width / footprint as the sections before
 // todo - add react-bootstrap grid system
 // todo - make a basic skeleton frame one
 
