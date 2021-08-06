@@ -21,7 +21,7 @@ export default function About(){
     const staffList = staff.map((i) => {
         if(i.active){
             return (
-                <Col key={i.name}>
+                <Col key={i.name} className="mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Img src={i.imgSrc} alt={i.name} />
@@ -63,9 +63,9 @@ export default function About(){
 
 
     return (
-        <Container fluid className="mt-3 mb-3">
+        <Container fluid className="mt-3">
             <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
-                <Col>
+                <Col className="mb-3">
                     <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Title>How they met...</Card.Title>
@@ -76,14 +76,14 @@ export default function About(){
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Img src='https://via.placeholder.com/500x400' alt="The OG DRS crew" />
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Title>History ???</Card.Title>
@@ -93,7 +93,7 @@ export default function About(){
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Title>Something else???</Card.Title>
@@ -105,7 +105,7 @@ export default function About(){
                 </Col>
             </Row>
 
-            <Jumbotron className="text-center mt-3 mb-3">
+            <Jumbotron className="text-center mb-3">
                 <h1>The wonderful staff behind Desert Rock Sports</h1>
                 <p>We can help you find whatever you are looking for.</p>
             </Jumbotron>
