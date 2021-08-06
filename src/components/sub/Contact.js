@@ -140,7 +140,7 @@ function Hours(){
 // src/stylesheets/layout/_contact.sass
 export default function Contact(){
     return (
-        <Container fluid>
+        <>
             <Row xl={2} lg={2} md={2} sm={1} xs={1}>
                 <Col>
                     <Card>
@@ -243,6 +243,6 @@ export default function Contact(){
                     </Card>
                 </Col>
             </Row>
-        </Container>
+        </>
     );
 }

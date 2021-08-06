@@ -147,12 +147,8 @@ todo - SNCC link / info?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
-todo - fix the width problem
-    % I think what I need to do in the Home component, is get everything under one empty tag...
-    ... instead of in container that acts as the parent container for everything...
-    ... because if that container is the parent... all the containers inside, even if they are fluid tagged will fill less
-    ... horizontal space
-    ! -- DO THIS ONE ^
+// todo - fix the width problem
+//     issue was that the root tag was a fluid container with the splash, the a lot of other fluid containers inside such that the width they would fill was less and less
 // todo - set a standard for the size of the pics used for the welcome, news, and bouldering side images, something like 500x500 or 900x600
 // todo - resize the welcome, news, and bouldering side images
 // todo - set max height on news component per-screen size, and overflow-y: scroll.

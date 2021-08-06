@@ -21,9 +21,9 @@ import Image from 'react-bootstrap/Image';
 
 function RRResoles() {
     return (
-        <Container fluid>
+        <>
             <Row xl={2} lg={2} md={1} sm={1} xs={1}>
-                <Col>
+                <Col className="mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Title>Red Rock Resoles</Card.Title>
@@ -38,7 +38,7 @@ function RRResoles() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="mb-3">
                     <Card>
                         <Card.Img src="" alt="" />
                         <Card.Body>
@@ -48,7 +48,7 @@ function RRResoles() {
                     </Card>
                     
                 </Col>
-                <Col>
+                <Col className="mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Title>Prices:</Card.Title>
@@ -65,7 +65,7 @@ function RRResoles() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="mb-3">
                     <Card>
                         <Card.Body>
                             <Card.Title>Contact Info:</Card.Title>
@@ -81,7 +81,7 @@ function RRResoles() {
                     </Card>
                 </Col>
             </Row>
-        </Container>
+        </>
     )
 }
 

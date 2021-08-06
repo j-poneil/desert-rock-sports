@@ -42,9 +42,10 @@ const fyfeBoulderingStyles = { width: '100%' };
 
 export default function Home(){
     return (
-        // ! section? main?
         <Container fluid>
-            <Splash />
+            <Container fluid>
+                <Splash />
+            </Container>
 
             <Container fluid className="mt-3 mb-3">
                 <Row xl={2} lg={2} md={1} sm={1} xs={1}>
@@ -104,13 +105,13 @@ export default function Home(){
             {/* Check us out on IG? Subscribe to our mailing list? */}
 
 
-            <Container fluid className="mt-3 mb-3">
+            <Container fluid className="mt-3">
                 {/* Resoles */}
                 <RRResoles />
             </Container>
             
 
-            <Container fluid className="mt-3 mb-3">
+            <Container fluid>
                 {/* Contact Us / where you at info */}
                 <Contact />
             </Container>
