@@ -213,6 +213,8 @@ todo - add something when you hover over the cards, like outline color change, l
     the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
 ? - should I wrap every external link icon in <sup>...</sup> ? Or use something else to make the icon smaller and up
     ... hopefully w/o disrupting line heights
+! - IMPORTANT TO FIX THIS
+todo - Fix the space below accordion. Should be no space below it to start, activating should push below content down when it opens, then closing it should pull content back up to previous position... I should have caught this sooner. At least I didn't fill out all of templates yet.
 // todo - fix alignment of loop road hours... tabs basically... maybe use a quick table
 // todo - tweak styling of emergency/rescue number/link
 // todo - add a tooltip that says something like: "click to show/hide additional info" to the card and accordion sections
