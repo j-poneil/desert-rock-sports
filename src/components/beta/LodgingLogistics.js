@@ -69,7 +69,7 @@ const accordionStyles = {
 }
 
 
-export default function Template() {
+export default function LodgingLogistics() {
     // Keeps track of if the accordion is visible or not. Visibility is toggled and the accordion scrolls down into view or up out of view from behind the Card / Section Title when the Card is clicked.
     const [ accordionVisible, setAccordionVisible ] = useState(false);
     const cardClickHandler = (e) => {
@@ -103,7 +103,7 @@ export default function Template() {
                     as={ Button }
                     onClick={ cardClickHandler }
                     style={ titleCardStyles }
-                    aria-label="(Card/Section Title). Hide / Show"
+                    aria-label="Lodging / Camping / Logistics. Hide / Show"
                     aria-expanded={ accordionVisible ? true : false }
                 >
                     <Card.Title role="heading">
@@ -111,7 +111,7 @@ export default function Template() {
                             { accordionVisible ? <FaRegCaretSquareUp style={iconStyles} /> : <FaRegCaretSquareDown style={iconStyles} /> }
                             {/* { accordionVisible ? <MdExpandLess style={iconStyles} /> : <MdExpandMore style={iconStyles} /> } */}
                             &nbsp;
-                            Card/Section Title
+                            Lodging / Camping / Logistics
                         </h2>
                     </Card.Title>
                 </Card.Body>
@@ -125,47 +125,47 @@ export default function Template() {
                 animationOutDuration={ 200 }
                 isVisible={ accordionVisible }
             >
-                <Accordion id='templateAccordionId' style={ accordionStyles }>
+                <Accordion id='lodgingLogisticsAccordionId0' style={ accordionStyles }>
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
                     <Card>
                         {/* I was using: as={accordionVisible ? Button : Card.Header} in the Accordion.Toggle s and role="heading" before.*/}
                         {/* as={Card.Header} is what is supposed to make it able to be clicked on anywhere to open/close, but it appears to work just fine without it! varient='outline-dark' doesn't work... */}
                         <Accordion.Toggle
                             as={ Button }
-                            eventKey="test0"
+                            eventKey="lodgingLogistics0"
                             role="button"
                             aria-label="Section title(Put the title) and button"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related information"
-                            onClick={() => accordionItemClickHandler('test0') }
+                            onClick={() => accordionItemClickHandler('lodgingLogistics0') }
                         >
-                            { accordionOpen['test0'] ? <MdExpandLess /> : <MdExpandMore /> }
+                            { accordionOpen['lodgingLogistics0'] ? <MdExpandLess /> : <MdExpandMore /> }
                             &nbsp;
                             Title of accordion section
                         </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="test0">
+                        <Accordion.Collapse eventKey="lodgingLogistics0">
                             <Card.Body>Content</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
 
-                <Accordion id='templateAccordionId' style={ accordionStyles }>
+                <Accordion id='lodgingLogisticsAccordionId1' style={ accordionStyles }>
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
                     <Card>
                         {/* I was using: as={accordionVisible ? Button : Card.Header} in the Accordion.Toggle s and role="heading" before.*/}
                         {/* as={Card.Header} is what is supposed to make it able to be clicked on anywhere to open/close, but it appears to work just fine without it! varient='outline-dark' doesn't work... */}
                         <Accordion.Toggle
                             as={ Button }
-                            eventKey="test1"
+                            eventKey="lodgingLogistics1"
                             role="button"
                             aria-label="Section title(Put the title) and button"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related information"
-                            onClick={() => accordionItemClickHandler('test1') }
+                            onClick={() => accordionItemClickHandler('lodgingLogistics1') }
                         >
-                            { accordionOpen['test1'] ? <MdExpandLess /> : <MdExpandMore /> }
+                            { accordionOpen['lodgingLogistics1'] ? <MdExpandLess /> : <MdExpandMore /> }
                             &nbsp;
                             Title of accordion section
                         </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="test1">
+                        <Accordion.Collapse eventKey="lodgingLogistics1">
                             <Card.Body>Content</Card.Body>
                         </Accordion.Collapse>
                     </Card>

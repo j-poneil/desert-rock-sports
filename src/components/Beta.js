@@ -20,7 +20,13 @@ import Accordion from 'react-bootstrap/Accordion';
 // for when testing the template used for the other section components
 import Template from './beta/Template';
 
-// section components based of Template
+// section components based off Template ... They will functionally be Card components
+import GeneralInfo from './beta/GeneralInfo';
+import LodgingLogistics from './beta/LodgingLogistics';
+import Food from './beta/Food';
+import OtherOutdoor from './beta/OtherOutdoor';
+import RouteRecommendations from './beta/RouteRecommendations';
+import Gyms from './beta/Gyms';
 
 
 
@@ -120,6 +126,16 @@ export default function Beta(){
 
             <Row xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}>
                 <Col>
+                    {/* //! Testing */}
+                    <GeneralInfo />
+                    <LodgingLogistics />
+
+
+
+
+
+                    {/* //! Testing */}
+
                     <Card id="RR-general-info">
                         <Card.Body>
                             <Card.Title>Red Rock General Info</Card.Title>
@@ -188,6 +204,7 @@ export default function Beta(){
                         </Card.Body>
                     </Card>
                     {/* //! TESTING BELOW */}
+                    <Template />
                     <Template />
                     {/* //! TESTING ABOVE */}
                 </Col>
