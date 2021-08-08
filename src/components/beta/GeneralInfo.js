@@ -24,7 +24,11 @@ import Button from 'react-bootstrap/Button';
 //! - Does the main card have a unique id to use as a skip to link? Also for custom styles, etc...
 
 // % What this is supposed to have based on notes in Beta.js
-
+// General Info
+        // RR General Info (hours, logistics, timed entry, site link(s))
+        // Local Ethics
+        // Wet Rock
+        // SNCC
 
 //@ Notes
 // you can add tooltips with:

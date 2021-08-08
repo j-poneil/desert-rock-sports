@@ -24,7 +24,8 @@ import Button from 'react-bootstrap/Button';
 //! - Does the main card have a unique id to use as a skip to link? Also for custom styles, etc...
 
 // % What this is supposed to have based on notes in Beta.js
-
+// Climbing Gyms
+        // didn't fill out stuff...
 
 //@ Notes
 // you can add tooltips with:

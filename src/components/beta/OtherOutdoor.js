@@ -24,7 +24,12 @@ import Button from 'react-bootstrap/Button';
 //! - Does the main card have a unique id to use as a skip to link? Also for custom styles, etc...
 
 // % What this is supposed to have based on notes in Beta.js
-
+// Other outdoor fun
+        // Hiking
+        // Trail Running
+        // Mtn Biking
+        // Canyoneering
+        // Rainy day options (hiking, hot springs, touristy stuff, etc...)
 
 //@ Notes
 // you can add tooltips with:

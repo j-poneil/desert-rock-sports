@@ -24,7 +24,11 @@ import Button from 'react-bootstrap/Button';
 //! - Does the main card have a unique id to use as a skip to link? Also for custom styles, etc...
 
 // % What this is supposed to have based on notes in Beta.js
-
+// Food
+        // Grocery Stores
+        // Coffee Shops
+        // Restraunts
+        // Breweries / Bars
 
 //@ Notes
 // you can add tooltips with:

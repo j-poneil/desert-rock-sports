@@ -25,7 +25,6 @@ import Button from 'react-bootstrap/Button';
 
 // % What this is supposed to have based on notes in Beta.js
 
-
 //@ Notes
 // you can add tooltips with:
 // data-bs-toggle="tooltip" data-bs-placement="top" title="whatever text"
