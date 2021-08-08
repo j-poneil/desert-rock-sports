@@ -25,6 +25,7 @@ import Button from 'react-bootstrap/Button';
 
 // % What this is supposed to have based on notes in Beta.js
 
+
 //@ Notes
 // you can add tooltips with:
 // data-bs-toggle="tooltip" data-bs-placement="top" title="whatever text"
@@ -60,6 +61,9 @@ const iconStyles = {
 const accordionStyles = {
     position: 'relative',
     zIndex: '400'
+}
+const hideAccordion = {
+    display: 'none'
 }
 
 
@@ -118,6 +122,7 @@ export default function Template() {
                 animationInDuration={ 400 }
                 animationOutDuration={ 200 }
                 isVisible={ accordionVisible }
+                style={ accordionVisible ? accordionStyles : {...accordionStyles, ...hideAccordion} }
             >
                 <Accordion id='templateAccordionId' style={ accordionStyles }>
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>

@@ -67,6 +67,9 @@ const accordionStyles = {
     position: 'relative',
     zIndex: '400'
 }
+const hideAccordion = {
+    display: 'none'
+}
 
 
 export default function Template() {
@@ -124,6 +127,7 @@ export default function Template() {
                 animationInDuration={ 400 }
                 animationOutDuration={ 200 }
                 isVisible={ accordionVisible }
+                style={ accordionVisible ? accordionStyles : {...accordionStyles, ...hideAccordion} }
             >
                 <Accordion id='templateAccordionId' style={ accordionStyles }>
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
