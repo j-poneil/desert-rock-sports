@@ -147,6 +147,7 @@ todo - SNCC link / info?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+// todo - make the contact section cards the same height with style={{'height': '100%'}}
 // todo - fix the width problem
 //     issue was that the root tag was a fluid container with the splash, the a lot of other fluid containers inside such that the width they would fill was less and less
 // todo - set a standard for the size of the pics used for the welcome, news, and bouldering side images, something like 500x500 or 900x600
@@ -180,6 +181,7 @@ todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, b
 todo - THEN below it current (and past?) employees
 ? - what about short reviews from patrons like James W?
 todo - probably move nav link position of the 'About' page to just left of 'Shop'
+// todo - use style={{'height': '100%'}} to make all the staff Card components the same size for any given row config for whatever display
 // todo - mess with mt-3 and mb-3 so everything is spaced better
 // todo - adjust breakpoints
 // todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.

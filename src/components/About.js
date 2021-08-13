@@ -22,7 +22,7 @@ export default function About(){
         if(i.active){
             return (
                 <Col key={i.name} className="mb-3">
-                    <Card>
+                    <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Img src={i.imgSrc} alt={i.name} />
                             <Card.Title className="text-center mt-3">
@@ -77,14 +77,14 @@ export default function About(){
                     </Card>
                 </Col>
                 <Col className="mb-3">
-                    <Card>
+                    <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Img src='https://via.placeholder.com/500x400' alt="The OG DRS crew" />
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col className="mb-3">
-                    <Card>
+                    <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Title>History ???</Card.Title>
                             <Card.Text>
@@ -94,7 +94,7 @@ export default function About(){
                     </Card>
                 </Col>
                 <Col className="mb-3">
-                    <Card>
+                    <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Title>Something else???</Card.Title>
                             <Card.Text>

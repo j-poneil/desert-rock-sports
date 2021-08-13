@@ -138,12 +138,17 @@ function Hours(){
 // phone, email, address, hours
 // ! styles not used anymore
 // src/stylesheets/layout/_contact.sass
+
+const drsContactStyles = { height: '100%' };
+const r2c2ContactStyles = { height: '100%' };
+
+
 export default function Contact(){
     return (
         <>
             <Row xl={2} lg={2} md={2} sm={1} xs={1}>
                 <Col>
-                    <Card>
+                    <Card style={ drsContactStyles }>
                         <Card.Body>
                             <Card.Title>Desert Rock Sports</Card.Title>
                             <Card.Text>
@@ -187,7 +192,7 @@ export default function Contact(){
                 </Col> */}
 
                 <Col>
-                    <Card>
+                    <Card style={ r2c2ContactStyles }>
                         <Card.Body>
                             <Card.Title>Red Rock Climbing Center</Card.Title>
                             <Table striped bordered hover size="sm">
