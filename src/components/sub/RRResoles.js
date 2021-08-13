@@ -10,6 +10,11 @@ import Image from 'react-bootstrap/Image';
 // src\stylesheets\layout\_layout_containers.sass
 // src\stylesheets\components\_rrresoles.sass
 
+const rrResolesStyles = { height: '100%' };
+const previousWorkStyles = { height: '100%' };
+const steveContactStyles = { height: '100%' };
+const pricesStyles = { height: '100%' };
+
 // I think it would be good to have 2-4 boxes
 // options
 // * Text description of what it is, how it works
@@ -24,7 +29,7 @@ function RRResoles() {
         <>
             <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                 <Col className="mb-3">
-                    <Card>
+                    <Card style={ rrResolesStyles }>
                         <Card.Body>
                             <Card.Title>Red Rock Resoles</Card.Title>
                             <Card.Subtitle>Steve Krall</Card.Subtitle>
@@ -39,7 +44,7 @@ function RRResoles() {
                     </Card>
                 </Col>
                 <Col className="mb-3">
-                    <Card>
+                    <Card style={ previousWorkStyles }>
                         <Card.Img src="" alt="" />
                         <Card.Body>
                             <Card.Title>Previous Work:</Card.Title>
@@ -49,7 +54,7 @@ function RRResoles() {
                     
                 </Col>
                 <Col className="mb-3">
-                    <Card>
+                    <Card style= { pricesStyles }>
                         <Card.Body>
                             <Card.Title>Prices:</Card.Title>
                             <Card.Text>
@@ -66,7 +71,7 @@ function RRResoles() {
                     </Card>
                 </Col>
                 <Col className="mb-3">
-                    <Card>
+                    <Card style={ steveContactStyles }>
                         <Card.Body>
                             <Card.Title>Contact Info:</Card.Title>
                             <Card.Text>
