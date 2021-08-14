@@ -18,6 +18,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import GuideInquiryForm from './sub/GuideInquiryForm';
 
+// Liability waiver(s)
+// combined waiver... better than 4 separate links!
 import RRCGCombinedWaiver8_20 from '../files/liability/RRCG Combined Waiver 8_20.pdf';
 
 
