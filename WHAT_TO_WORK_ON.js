@@ -217,6 +217,7 @@ todo - add something when you hover over the cards, like outline color change, l
     ... hopefully w/o disrupting line heights
 ! - IMPORTANT
 todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????
+// todo - Showers at R2C2 are $5, fix this
 // todo - Fix the space below accordion. Should be no space below it to start, activating should push below content down when it opens, then closing it should pull content back up to previous position... I should have caught this sooner. At least I didn't fill out all of templates yet.
 //     * should be able to add/remove display: none to get this to happen... may not be smooth though
 //     * Adding this line in Animated component seems to work as I want
