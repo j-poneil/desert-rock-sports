@@ -18,6 +18,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import GuideInquiryForm from './sub/GuideInquiryForm';
 
+import RRCGCombinedWaiver8_20 from '../files/liability/RRCG Combined Waiver 8_20.pdf';
+
 
 
 // 'https://via.placeholder.com/500x400'
@@ -187,8 +189,13 @@ export default function Guiding(){
                         {/* may want to put this in the Card component later on... style={{'height': '100%'}} */}
                         <Card>
                             <Card.Body>
-                                <Card.Title></Card.Title>
-                                <Card.Text></Card.Text>
+                                <Card.Title>Liability Waivers</Card.Title>
+                                <Card.Text>
+                                    <p>We typically just fill out liability waivers in person when we meet up. You can print and fill this one out ahead of time if you prefer. Sorry, its long. Emailing us is not sufficient since the guide needs to be able to look over your waiver, especially medical, to be made aware of any important info like severe allergic reactions, if one is diabetic, chronic injuries (may need to avoid a particular type of climbing move to not aggravate it), etc... Many of our guides don't have access to our email and sometimes the meetup location is not in cell service. The guide needs to have all pertinant medical and emergency info.</p>
+                                    <p>
+                                        <a href={ RRCGCombinedWaiver8_20 } target="_blank" rel="noopener noreferrer">RRCG Combined Waiver 8/20</a>
+                                    </p>
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
