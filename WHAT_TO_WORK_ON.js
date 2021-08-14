@@ -262,6 +262,7 @@ todo - guide inquiry form
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 ? - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?
+// todo - make all Card componets (Guiding, tiers, guides) height 100% -- style={{'height': '100%'}}
 // todo - create 2 more tiers for future use
 // todo - adjust breakpoints
     // * See note about guiding tiers xl={2 / 3 / 4}

@@ -57,7 +57,7 @@ export default function Guiding(){
         if(i.active){
             return (
                 <Col key={ i.name } className="mt-3 mb-3">
-                    <Card>
+                    <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Img
                                 src={ i.pic }
@@ -106,7 +106,7 @@ export default function Guiding(){
             <Container fluid>
                 <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
-                        <Card>
+                        <Card style={{'height': '100%'}}>
                             <Card.Body>
                                 <Card.Title as='h1' className="text-center">Red Rock Climbing Guides</Card.Title>
                                 <Card.Text>
@@ -128,7 +128,7 @@ export default function Guiding(){
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card style={{'height': '100%'}}>
                             <Card.Body>
                                 <Card.Title className='text-center'>About our guiding services!</Card.Title>
                                 {/* <Card.Title className='text-center'>Our philosophy</Card.Title> */}
@@ -184,6 +184,7 @@ export default function Guiding(){
                     </Col>
 
                     <Col>
+                        {/* may want to put this in the Card component later on... style={{'height': '100%'}} */}
                         <Card>
                             <Card.Body>
                                 <Card.Title></Card.Title>
