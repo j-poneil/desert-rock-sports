@@ -244,6 +244,9 @@ todo - when you close open major section accordion it snaps closed instead of ha
     % LodgingLogistics.js
         todo - add content for 'Hotels'
         todo - add more content for other shower locations like truck stops
+    % Food.js
+        todo - add content / trim content
+        todo - fill out breweries & bars
 
 
 
