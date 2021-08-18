@@ -188,8 +188,7 @@ export default function Guiding(){
                     </Col>
 
                     <Col>
-                        {/* may want to put this in the Card component later on... style={{'height': '100%'}} */}
-                        <Card>
+                        <Card style={{'height': '100%'}}>
                             <Card.Body>
                                 <Card.Title>Liability Waivers</Card.Title>
                                 <Card.Text>

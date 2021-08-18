@@ -29,7 +29,7 @@ const schema = yup.object().shape({
 
 function GuideInquiryForm() {
     return (
-        <Card>
+        <Card style={{'height': '100%'}}>
             <Card.Body>
                 <Card.Title>What are you looking to do?</Card.Title>
                 <Card.Text>

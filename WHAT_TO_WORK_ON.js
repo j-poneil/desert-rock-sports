@@ -263,6 +263,7 @@ todo - guide inquiry form
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 ? - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?
+// todo - make the guide inquiry form and guiding waiver cards both the same height w/ style={{'height': '100%'}}
 // todo - build for production and see if the PDF link works, because it gives 404 in local server... did, then added .htaccess file to make routing work properly in general when hosted on dreamhost
 // todo - link to liability waiver. ONE FILE. NOT 4. FFS!
 // todo - make all Card componets (Guiding, tiers, guides) height 100% -- style={{'height': '100%'}}
