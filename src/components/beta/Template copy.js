@@ -9,6 +9,14 @@ import Image from 'react-bootstrap/Image';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 
+// icons
+// Standard?
+// FaExternalLinkAlt AFTER links away
+// FaDirections BEFORE Gmaps links away
+import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+
+
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 

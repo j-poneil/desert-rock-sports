@@ -9,6 +9,14 @@ import Image from 'react-bootstrap/Image';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 
+// icons
+// Standard?
+// FaExternalLinkAlt AFTER links away
+// FaDirections BEFORE Gmaps links away
+import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+
+
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 
@@ -60,12 +68,10 @@ const iconStyles = {
 }
 const accordionStyles = {
     position: 'relative',
-    zIndex: '400',
-    
+    zIndex: '400'
 }
 const hideAccordion = {
-    display: 'none',
-    transition: `display 200ms`
+    display: 'none'
 }
 
 
@@ -126,7 +132,7 @@ export default function Template() {
                 isVisible={ accordionVisible }
                 style={ accordionVisible ? accordionStyles : {...accordionStyles, ...hideAccordion} }
             >
-                <Accordion id='templateAccordionId' >
+                <Accordion id='templateAccordionId' style={ accordionStyles }>
                     <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
                     <Card>
                         {/* I was using: as={accordionVisible ? Button : Card.Header} in the Accordion.Toggle s and role="heading" before.*/}
