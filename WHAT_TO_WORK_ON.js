@@ -215,8 +215,11 @@ todo - add something when you hover over the cards, like outline color change, l
     the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
 ? - should I wrap every external link icon in <sup>...</sup> ? Or use something else to make the icon smaller and up
     ... hopefully w/o disrupting line heights
+todo - set the CSS background color ( iirc ) for each of the sub sections... instead of the default solid blue. I think it could look cool if these were set to the major or minor color present in the images I'll select for the major section background pictures... Do this in bootstrap-with-overrides.sass
 ! - IMPORTANT
-todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????
+todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????...
+    * ... Really, the behavior currently isn't TERRIBLE. I just think it is. I. Me.
+    * Realistically I can get back to this later. If that means copy/pasting in many files and places, well, oh well... more important to actually get the meat of the site out into a functional state.
 // todo - Showers at R2C2 are $5, fix this
 // todo - Fix the space below accordion. Should be no space below it to start, activating should push below content down when it opens, then closing it should pull content back up to previous position... I should have caught this sooner. At least I didn't fill out all of templates yet.
 //     * should be able to add/remove display: none to get this to happen... may not be smooth though
@@ -234,6 +237,14 @@ todo - when you close open major section accordion it snaps closed instead of ha
 // todo - implement a email link icon
 // todo - STRONG WORDS ABOUT FIRES
 // todo - free and paid camping options for all seasons, maps to them, or rather google map link to them
+    @ Beta sub sections ---------------------------------------------------------
+    @ ---------------------------------------------------------------------------
+    % GeneralInfo.js
+        todo - add content for 'Wet Rock'
+    % LodgingLogistics.js
+        todo - add content for 'Hotels'
+        todo - add more content for other shower locations like truck stops
+
 
 
 @ Guiding page ------------------------------------
