@@ -19,6 +19,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 // for when testing the template used for the other section components
 import Template from './beta/Template';
+import TemplatePropsTest from './beta/TemplatePropsTest';
 
 // section components based off Template ... They will functionally be Card components
 import GeneralInfo from './beta/GeneralInfo';
@@ -105,7 +106,49 @@ Maybe better to keep the Card/Section title, and just open/close the accordion g
 
 
 export default function Beta(){
-    
+    //! testing
+    const templatePropsTestSections = [
+        {
+            subSectionTitle: '1st subSection Title',
+            subSectionContent: 'subSection content'
+        },
+        {
+            subSectionTitle: '2nd subSection Title',
+            subSectionContent: 'subSection content'
+        },
+        {
+            subSectionTitle: '3rd subSection Title',
+            subSectionContent: 'subSection content'
+        }
+    ];
+    // That works...
+    // In practice I'd need to parse HTML... but I'd need to switch away from Card components in the content then? Hmm
+    // I wish I could do...
+    // import generalInfoContent from './whatev/thing';
+    // then use it in the functional stateless component... passed in as props to 'subSectionArrayOfObjects'
+    //? any other options?
+    // I was kinda thinking the content as a string that is parsed as HTML...
+    // could I just do it as straight JSX imported from another file?
+    const subSection1Content = (<Card></Card>);
+    // I should be able to.
+    // That way I can avoid needing to parse HTML as well as maintaining the ability to use react-bootstrap components... without getting too messy.
+    //? How should I structure it?
+    // js file with multiple subSections declared as contstants, then export them all at the bottom?
+        // no... file would get massive
+    // js file for each subSection?
+        // thinking yes. Small individual files so less scrolling around to find stuff.
+    // in beta.js
+        // import all the subSections
+        // hand write out the major section titles, accordionBaseIds, eventKeyBase, etc... in return statement
+        // in Beta function statement make a const, array of objects with 2 keys, subSectionTitle and subSectionContent
+        // fill out the subSectionTitles manually
+        // paste in { whateverConstJSXstoredIn } for subSectionContent
+        // ... would that work???
+    //? Does trying to implement similar JSX usage in other places like news and guideTiers make any sense... think about it.
+    //! Actually I think this wont work... as I'm passing an array of objects into this as props... I don't think I can put straight JSX in an object and pass it w/o having to parse HTML to get it back...
+    //% maybe I could pass the JSX separate from the array of objects?
+    // testing is in order...
+
 
 
     return (
@@ -149,6 +192,12 @@ export default function Beta(){
                     {/* //! TESTING BELOW */}
                     <Template />
                     <Template />
+                    <TemplatePropsTest
+                        title='Test Title'
+                        accordionIdBase='testAccordion'
+                        eventKeyBase='testEventKey'
+                        subSectionArrayOfObjects={ templatePropsTestSections }
+                    />
                     {/* //! TESTING ABOVE */}
 
                 </Col>
