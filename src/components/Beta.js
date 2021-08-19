@@ -138,16 +138,9 @@ export default function Beta(){
     // js file for each subSection?
         // thinking yes. Small individual files so less scrolling around to find stuff.
     // in beta.js
-        // import all the subSections
-        // hand write out the major section titles, accordionBaseIds, eventKeyBase, etc... in return statement
-        // in Beta function statement make a const, array of objects with 2 keys, subSectionTitle and subSectionContent
-        // fill out the subSectionTitles manually
-        // paste in { whateverConstJSXstoredIn } for subSectionContent
-        // ... would that work???
-    //? Does trying to implement similar JSX usage in other places like news and guideTiers make any sense... think about it.
-    //! Actually I think this wont work... as I'm passing an array of objects into this as props... I don't think I can put straight JSX in an object and pass it w/o having to parse HTML to get it back...
-    //% maybe I could pass the JSX separate from the array of objects?
-    // testing is in order...
+        //! Easy to not parse HTML... just have a key in obj assigned a func that returns JSX directly
+        //! like... content: () => <><p>Whatever stuff</p></>
+        //! then whatever.content()
 
 
 
