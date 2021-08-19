@@ -1,6 +1,7 @@
 import React from 'react';
-// % fine to use here, because it is not on user input. REMEMBER, html-react-parser doesn't do any sanitizing of input!
-import parse from 'html-react-parser';
+// no longer using parse, just returning JSX directly from funcs in the objs...
+// fine to use here, because it is not on user input. REMEMBER, html-react-parser doesn't do any sanitizing of input!
+// import parse from 'html-react-parser';
 
 import { FaInstagram, FaYoutube, FaHome, FaGithub } from 'react-icons/fa';
 
@@ -52,7 +53,9 @@ export default function About(){
                             </Card.Title>
                             <Card.Subtitle className="text-center"></Card.Subtitle>
                             <Card.Text>
-                                <>{ parse(i.bio) }</>
+                                <>
+                                    { i.bio() }
+                                </>
                             </Card.Text>
                         </Card.Body>
                     </Card>

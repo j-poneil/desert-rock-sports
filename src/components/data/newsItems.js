@@ -1,3 +1,4 @@
+import React from 'react';
 // Used in News.js, which is a component in Home.js
 
 
@@ -11,16 +12,16 @@ export const newsItems = [
     {
         title: "Did you know we are a dealer for Red Paddle Co?",
         date: "07/21/2021",
-        post: "They have some of the highest quality paddleboards in the game. Unfortunely we don't keep them in stock, but, if you are looking to buy, we can take down your order and bundle it with a few other orders to ship to our store at the same time."
+        post: () => <>They have some of the highest quality paddleboards in the game. Unfortunely we don't keep them in stock, but, if you are looking to buy, we can take down your order and bundle it with a few other orders to ship to our store at the same time.</>
     },
     {
         title: "New website is coming along nicely",
         date: "07/20/2021",
-        post: "Working on styling, UI/UX, etc..."
+        post: () => <>Working on styling, UI/UX, etc...</>
     },
     {
         title: "Some inspirational title!",
         date: "01/01/2020",
-        post: "Its been a long January. So many interesting changes int he shop. Can't wait to tell everyone about them! So much new equipment! So little time! So many routes to climb! RR 4 Life!"
+        post: () => <>Its been a long January. So many interesting changes int he shop. Can't wait to tell everyone about them! So much new equipment! So little time! So many routes to climb! RR 4 Life!</>
     }
 ];

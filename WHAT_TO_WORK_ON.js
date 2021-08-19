@@ -147,6 +147,7 @@ todo - SNCC link / info?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+// todo - in news, have the news stories content, be a func returning JSX so I can have that formatting w/o parsing HTML
 // todo - make the contact section cards the same height with style={{'height': '100%'}}
 // todo - fix the width problem
 //     issue was that the root tag was a fluid container with the splash, the a lot of other fluid containers inside such that the width they would fill was less and less
@@ -181,6 +182,8 @@ todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, b
 todo - THEN below it current (and past?) employees
 ? - what about short reviews from patrons like James W?
 todo - probably move nav link position of the 'About' page to just left of 'Shop'
+// todo - go from parsing HTML for the bios to having a func return JSX
+// todo - See if instead of parsing HTML I can do the bio value in the object as a function returning JSX / A component w/HTML.. I can
 // todo - use style={{'height': '100%'}} to make all the staff Card components the same size for any given row config for whatever display
 // todo - mess with mt-3 and mb-3 so everything is spaced better
 // todo - adjust breakpoints
@@ -277,6 +280,7 @@ todo - guide inquiry form
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 ? - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?
+// todo - Switch guide bios and guiding tiers... basically anywhere I parse HTML to just return a func which returns JSX instead.
 // todo - make the guide inquiry form and guiding waiver cards both the same height w/ style={{'height': '100%'}}
 // todo - build for production and see if the PDF link works, because it gives 404 in local server... did, then added .htaccess file to make routing work properly in general when hosted on dreamhost
 // todo - link to liability waiver. ONE FILE. NOT 4. FFS!

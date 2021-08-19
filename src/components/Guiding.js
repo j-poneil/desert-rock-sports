@@ -1,6 +1,7 @@
 import React from 'react';
-// % it should be fine to use it like this. Where user is not doing any input. Remember, this doesn't do any sanitizing of HTML, its just a clean alternative to dangerouslySetInnerHTML.
-import parse from 'html-react-parser';
+// no longer using parse, just having a func in the obj return JSX directly...
+// it should be fine to use it like this. Where user is not doing any input. Remember, this doesn't do any sanitizing of HTML, its just a clean alternative to dangerouslySetInnerHTML.
+// import parse from 'html-react-parser';
 
 import { FaInstagram, FaYoutube, FaHome, FaGithub } from 'react-icons/fa';
 
@@ -32,20 +33,20 @@ import RRCGCombinedWaiver8_20 from '../files/liability/RRCG Combined Waiver 8_20
 // src\stylesheets\pages\_guiding.sass
 
 export default function Guiding(){
-    const tierList = tiers.map((i) => {
+    const tierList = tiers.map((i, index) => {
         return (
             <Col>
                 <TierCard
-                    key={ i.key }
+                    key={ index }
                     img={ i.img }
                     imgSm={ i.imgSm }
                     imgAltText={ i.imgAltText }
                     imgCredit={ i.imgCredit }
                     tierName={ i.tierName }
                     tierDuration={ i.tierDuration }
-                    tierDescription={ <>{ parse(i.tierDescription) }</> }
+                    tierDescription={ i.tierDescription() }
                     costTable={ i.costTable }
-                    tierNotes={ <>{ parse(i.tierNotes) }</> }
+                    tierNotes={ i.tierNotes() }
                 />
             </Col>
         );
@@ -57,10 +58,10 @@ export default function Guiding(){
     // like {i.bio2 !== "" && <p>{i.bio2}</p>}
     // they work because if both evaluate to true, the second thing is returned
     // if false, it is ignored
-    const guideList = guides.map((i) => {
+    const guideList = guides.map((i, index) => {
         if(i.active){
             return (
-                <Col key={ i.name } className="mt-3 mb-3">
+                <Col key={ index } className="mt-3 mb-3">
                     <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Img
@@ -96,7 +97,7 @@ export default function Guiding(){
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
                             <Card.Text>
                                 { i.exp !== "" && <p>{ i.exp }</p> }
-                                <>{ parse(i.bio) }</>
+                                <>{ i.bio() }</>
                             </Card.Text>
                         </Card.Body>
                     </Card>
