@@ -326,12 +326,17 @@ todo - guide inquiry form
         Weather?
             Would need API access to probably multiple services, could maybe be a pain
             Would need historic past rainfall too, which may currently be off if that sensor is still broken at RRNCA
+            ... would be pretty cool... but a TON of work to make it all look good
+        Something else?
+            What?
+        Nothing. Get rid of it.
 
 
 @ Shop page ---------------------------------------
     Ambitious to have it all here and built in the same
     More likely just link to a better than existing site re-made with a different provider, not the old school way the current one has it
     That way get the established security and modern online checkout experience all in one...
+    * Link to it in the same way you link to the gym
 
 
 @ Secret page -------------------------------------
