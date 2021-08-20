@@ -223,6 +223,8 @@ todo - set the CSS background color ( iirc ) for each of the sub sections... ins
 todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????...
     * ... Really, the behavior currently isn't TERRIBLE. I just think it is. I. Me.
     * Realistically I can get back to this later. If that means copy/pasting in many files and places, well, oh well... more important to actually get the meat of the site out into a functional state.
+todo - fully switch over all the beta sections to the functional stateless component, AccordionOfAccordions
+// todo - switch to a re-useable functional stateless component that you pass an array of objects to as props, which then builds out the Accordion of Accordions... much better.
 // todo - Showers at R2C2 are $5, fix this
 // todo - Fix the space below accordion. Should be no space below it to start, activating should push below content down when it opens, then closing it should pull content back up to previous position... I should have caught this sooner. At least I didn't fill out all of templates yet.
 //     * should be able to add/remove display: none to get this to happen... may not be smooth though
@@ -242,12 +244,12 @@ todo - when you close open major section accordion it snaps closed instead of ha
 // todo - free and paid camping options for all seasons, maps to them, or rather google map link to them
     @ Beta sub sections ---------------------------------------------------------
     @ ---------------------------------------------------------------------------
-    % GeneralInfo.js
+    % GeneralInfo
         todo - add content for 'Wet Rock'
-    % LodgingLogistics.js
+    % LodgingLogistics
         todo - add content for 'Hotels'
         todo - add more content for other shower locations like truck stops
-    % Food.js
+    % Food
         todo - add content / trim content
         todo - fill out breweries & bars
 
