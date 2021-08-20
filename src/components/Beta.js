@@ -110,15 +110,15 @@ export default function Beta(){
     const templatePropsTestSections = [
         {
             subSectionTitle: '1st subSection Title',
-            subSectionContent: 'subSection content'
+            subSectionContent: () => (<><p>subSection content</p></>)
         },
         {
             subSectionTitle: '2nd subSection Title',
-            subSectionContent: 'subSection content'
+            subSectionContent: () => (<><p>subSection content</p></>)
         },
         {
             subSectionTitle: '3rd subSection Title',
-            subSectionContent: 'subSection content'
+            subSectionContent: () => (<><p>subSection content</p></>)
         }
     ];
     // That works...
