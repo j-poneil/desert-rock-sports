@@ -24,12 +24,12 @@ import AccordionOfAccordions from './sub/AccordionOfAccordions';
 // import TemplatePropsTest from './beta/TemplatePropsTest';
 
 // section components based off Template ... They will functionally be Card components
-// import { generalInfo } from './beta/generalInfo';
-// import { lodgingLogistics } from './beta/lodgingLogistics';
+import { generalInfo } from './beta/generalInfo';
+import { lodgingLogistics } from './beta/lodgingLogistics';
 import { food } from './beta/food';
-// import { otherOutdoor } from './beta/otherOutdoor';
-// import { routeRecommendations } from './beta/routeRecommendations';
-// import { gyms } from './beta/gyms';
+import { otherOutdoor } from './beta/otherOutdoor';
+import { routeRecommendations } from './beta/routeRecommendations';
+import { gyms } from './beta/gyms';
 
 
 
@@ -114,7 +114,7 @@ export default function Beta(){
             {/* //! Makes sense to hold off on filling this out until the content is in sub-components */}
             <a id='skip-to-RR-general-info' class="sr-only sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
             {/* //? Should I do it so that you skip to the card, which can be opened (and say that in the sr-only text)... or should I make a compact list that allows you to skip to any individual accordion item on the entire page all from here?... that would be "slick" but may be a bit harder... would they get the info w/o having to open the cards?... hmm ohh... yeah, especially once I componentize this all. Hmm should still be able to do like href="#idOfSection", since they will be in the page once the component is imported ... yeah... a SR-only link list here going to each individual accordion item would be ideal... the pretty cards and accordions are for quick sighted navigation, something quick for blind navigation as well would be best. */}
-            <a id='skip-to-SNCC-ethics-camping-showers-laundry' class="sr-only sr-only-focusable" href='#SNCC-ethics-camping-showers-laundry'>Skip to Southern Nevada Climbers Coalition, Local Ethics, Camping, Showers, and Laundry</a>import AccordionOfAccordions from './sub/AccordionOfAccordions';
+            <a id='skip-to-SNCC-ethics-camping-showers-laundry' class="sr-only sr-only-focusable" href='#SNCC-ethics-camping-showers-laundry'>Skip to Southern Nevada Climbers Coalition, Local Ethics, Camping, Showers, and Laundry</a>
 
             <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
             <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
@@ -136,42 +136,42 @@ export default function Beta(){
             */}
             <Row xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}>
                 <Col>
-                    {/* <AccordionOfAccordions
+                    <AccordionOfAccordions
                         title={ generalInfo.title }
                         accordionIdBase={ generalInfo.accordionIdBase }
                         eventKeyBase={ generalInfo.eventKeyBase }
                         subSectionArrayOfObjects={ generalInfo.data }
-                    /> */}
-                    {/* <AccordionOfAccordions
+                    />
+                    <AccordionOfAccordions
                         title={ lodgingLogistics.title }
                         accordionIdBase={ lodgingLogistics.accordionIdBase }
                         eventKeyBase={ lodgingLogistics.eventKeyBase }
                         subSectionArrayOfObjects={ lodgingLogistics.data }
-                    /> */}
+                    />
                     <AccordionOfAccordions
                         title={ food.title }
                         accordionIdBase={ food.accordionIdBase }
                         eventKeyBase={ food.eventKeyBase }
                         subSectionArrayOfObjects={ food.data }
                     />
-                    {/* <AccordionOfAccordions
+                    <AccordionOfAccordions
                         title={ otherOutdoor.title }
                         accordionIdBase={ otherOutdoor.accordionIdBase }
                         eventKeyBase={ otherOutdoor.eventKeyBase }
                         subSectionArrayOfObjects={ otherOutdoor.data }
-                    /> */}
-                    {/* <AccordionOfAccordions
+                    />
+                    <AccordionOfAccordions
                         title={ routeRecommendations.title }
                         accordionIdBase={ routeRecommendations.accordionIdBase }
                         eventKeyBase={ routeRecommendations.eventKeyBase }
                         subSectionArrayOfObjects={ routeRecommendations.data }
-                    /> */}
-                    {/* <AccordionOfAccordions
+                    />
+                    <AccordionOfAccordions
                         title={ gyms.title }
                         accordionIdBase={ gyms.accordionIdBase }
                         eventKeyBase={ gyms.eventKeyBase }
                         subSectionArrayOfObjects={ gyms.data }
-                    /> */}
+                    />
 
 
 
