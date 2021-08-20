@@ -14,20 +14,22 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 import Table from 'react-bootstrap/Table';
-
 import Accordion from 'react-bootstrap/Accordion';
 
+// AccordionOfAccordions which I made
+import AccordionOfAccordions from './sub/AccordionOfAccordions';
+
 // for when testing the template used for the other section components
-import Template from './beta/Template';
-import TemplatePropsTest from './beta/TemplatePropsTest';
+// import Template from './beta/Template';
+// import TemplatePropsTest from './beta/TemplatePropsTest';
 
 // section components based off Template ... They will functionally be Card components
-import GeneralInfo from './beta/GeneralInfo';
-import LodgingLogistics from './beta/LodgingLogistics';
-import Food from './beta/Food';
-import OtherOutdoor from './beta/OtherOutdoor';
-import RouteRecommendations from './beta/RouteRecommendations';
-import Gyms from './beta/Gyms';
+// import { generalInfo } from './beta/generalInfo';
+// import { lodgingLogistics } from './beta/lodgingLogistics';
+import { food } from './beta/food';
+// import { otherOutdoor } from './beta/otherOutdoor';
+// import { routeRecommendations } from './beta/routeRecommendations';
+// import { gyms } from './beta/gyms';
 
 
 
@@ -106,51 +108,14 @@ Maybe better to keep the Card/Section title, and just open/close the accordion g
 
 
 export default function Beta(){
-    //! testing
-    const templatePropsTestSections = [
-        {
-            subSectionTitle: '1st subSection Title',
-            subSectionContent: () => (<><p>subSection content</p></>)
-        },
-        {
-            subSectionTitle: '2nd subSection Title',
-            subSectionContent: () => (<><p>subSection content</p></>)
-        },
-        {
-            subSectionTitle: '3rd subSection Title',
-            subSectionContent: () => (<><p>subSection content</p></>)
-        }
-    ];
-    // That works...
-    // In practice I'd need to parse HTML... but I'd need to switch away from Card components in the content then? Hmm
-    // I wish I could do...
-    // import generalInfoContent from './whatev/thing';
-    // then use it in the functional stateless component... passed in as props to 'subSectionArrayOfObjects'
-    //? any other options?
-    // I was kinda thinking the content as a string that is parsed as HTML...
-    // could I just do it as straight JSX imported from another file?
-    const subSection1Content = (<Card></Card>);
-    // I should be able to.
-    // That way I can avoid needing to parse HTML as well as maintaining the ability to use react-bootstrap components... without getting too messy.
-    //? How should I structure it?
-    // js file with multiple subSections declared as contstants, then export them all at the bottom?
-        // no... file would get massive
-    // js file for each subSection?
-        // thinking yes. Small individual files so less scrolling around to find stuff.
-    // in beta.js
-        //! Easy to not parse HTML... just have a key in obj assigned a func that returns JSX directly
-        //! like... content: () => <><p>Whatever stuff</p></>
-        //! then whatever.content()
-
-
-
     return (
         <Container fluid>
             {/* //@ SR skip / get to quick links */}
             {/* //! Makes sense to hold off on filling this out until the content is in sub-components */}
             <a id='skip-to-RR-general-info' class="sr-only sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
             {/* //? Should I do it so that you skip to the card, which can be opened (and say that in the sr-only text)... or should I make a compact list that allows you to skip to any individual accordion item on the entire page all from here?... that would be "slick" but may be a bit harder... would they get the info w/o having to open the cards?... hmm ohh... yeah, especially once I componentize this all. Hmm should still be able to do like href="#idOfSection", since they will be in the page once the component is imported ... yeah... a SR-only link list here going to each individual accordion item would be ideal... the pretty cards and accordions are for quick sighted navigation, something quick for blind navigation as well would be best. */}
-            <a id='skip-to-SNCC-ethics-camping-showers-laundry' class="sr-only sr-only-focusable" href='#SNCC-ethics-camping-showers-laundry'>Skip to Southern Nevada Climbers Coalition, Local Ethics, Camping, Showers, and Laundry</a>
+            <a id='skip-to-SNCC-ethics-camping-showers-laundry' class="sr-only sr-only-focusable" href='#SNCC-ethics-camping-showers-laundry'>Skip to Southern Nevada Climbers Coalition, Local Ethics, Camping, Showers, and Laundry</a>import AccordionOfAccordions from './sub/AccordionOfAccordions';
+
             <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
             <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
             <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
@@ -171,27 +136,44 @@ export default function Beta(){
             */}
             <Row xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}>
                 <Col>
-                    <GeneralInfo />
-                    <LodgingLogistics />
-                    <Food />
-                    {/* <OtherOutdoor /> */}
-                    {/* <RouteRecommendations /> */}
-                    {/* <Gyms /> */}
-
-
-
-
-                    {/* //! ^ Working on filling out / hooking up */}
-                    {/* //! TESTING BELOW */}
-                    <Template />
-                    <Template />
-                    <TemplatePropsTest
-                        title='Test Title'
-                        accordionIdBase='testAccordion'
-                        eventKeyBase='testEventKey'
-                        subSectionArrayOfObjects={ templatePropsTestSections }
+                    {/* <AccordionOfAccordions
+                        title={ generalInfo.title }
+                        accordionIdBase={ generalInfo.accordionIdBase }
+                        eventKeyBase={ generalInfo.eventKeyBase }
+                        subSectionArrayOfObjects={ generalInfo.data }
+                    /> */}
+                    {/* <AccordionOfAccordions
+                        title={ lodgingLogistics.title }
+                        accordionIdBase={ lodgingLogistics.accordionIdBase }
+                        eventKeyBase={ lodgingLogistics.eventKeyBase }
+                        subSectionArrayOfObjects={ lodgingLogistics.data }
+                    /> */}
+                    <AccordionOfAccordions
+                        title={ food.title }
+                        accordionIdBase={ food.accordionIdBase }
+                        eventKeyBase={ food.eventKeyBase }
+                        subSectionArrayOfObjects={ food.data }
                     />
-                    {/* //! TESTING ABOVE */}
+                    {/* <AccordionOfAccordions
+                        title={ otherOutdoor.title }
+                        accordionIdBase={ otherOutdoor.accordionIdBase }
+                        eventKeyBase={ otherOutdoor.eventKeyBase }
+                        subSectionArrayOfObjects={ otherOutdoor.data }
+                    /> */}
+                    {/* <AccordionOfAccordions
+                        title={ routeRecommendations.title }
+                        accordionIdBase={ routeRecommendations.accordionIdBase }
+                        eventKeyBase={ routeRecommendations.eventKeyBase }
+                        subSectionArrayOfObjects={ routeRecommendations.data }
+                    /> */}
+                    {/* <AccordionOfAccordions
+                        title={ gyms.title }
+                        accordionIdBase={ gyms.accordionIdBase }
+                        eventKeyBase={ gyms.eventKeyBase }
+                        subSectionArrayOfObjects={ gyms.data }
+                    /> */}
+
+
 
                 </Col>
                 <Col>
