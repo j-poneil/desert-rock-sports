@@ -47,44 +47,165 @@ export const routeRecommendations = {
     eventKeyBase: 'routeRecommendationsEKey',
     data: [
         {
-            subSectionTitle: '1st subSection Title',
+            subSectionTitle: 'Shady Climbing Options',
             subSectionContent: () => (
                 <>
+                    <Card.Title>Shady Options</Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
                 </>
             )
         },
         {
-            subSectionTitle: '1st subSection Title',
+            subSectionTitle: 'Sunny Climbing Options',
             subSectionContent: () => (
                 <>
+                    <Card.Title>Sunny Options</Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
                 </>
             )
         },
         {
-            subSectionTitle: '1st subSection Title',
+            subSectionTitle: 'Rainy / Dry out day options',
             subSectionContent: () => (
                 <>
+                    <Card.Title>Rainy day / dryout day options</Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
                 </>
             )
         },
         {
-            subSectionTitle: '1st subSection Title',
+            subSectionTitle: 'Crack Options',
             subSectionContent: () => (
                 <>
+                    <Card.Title>Crack Options</Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
                 </>
             )
         },
         {
-            subSectionTitle: '1st subSection Title',
+            subSectionTitle: 'Offwidth Options',
             subSectionContent: () => (
                 <>
+                    <Card.Title>Offwidth Options</Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
                 </>
             )
         },
         {
-            subSectionTitle: '1st subSection Title',
+            subSectionTitle: 'No Crowd Options',
             subSectionContent: () => (
                 <>
+                    <Card.Title>No-Crowd Options</Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        <p></p>
+                    </Card.Text>
                 </>
             )
         },
