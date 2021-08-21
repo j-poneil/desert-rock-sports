@@ -31,6 +31,11 @@ import { otherOutdoor } from './beta/otherOutdoor';
 import { routeRecommendations } from './beta/routeRecommendations';
 import { gyms } from './beta/gyms';
 
+//! test or temp
+import Verm from '../img/secret/the_verm.jpg';
+//% Photo imports for the background imgs of the main (outer) accordions
+// import ___ from '../img/accordionBgs/____';
+
 
 
 // styles here:
@@ -136,42 +141,49 @@ export default function Beta(){
             */}
             {/* <Row xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}> */}
             <Row xxl={2} xl={2} lg={2} md={2} sm={2} xs={1}>
+                {/* style={{ backgroundImage: `url('https://via.placeholder.com/50')` }} */}
                 <Col>
                     <AccordionOfAccordions
                         title={ generalInfo.title }
                         accordionIdBase={ generalInfo.accordionIdBase }
                         eventKeyBase={ generalInfo.eventKeyBase }
                         subSectionArrayOfObjects={ generalInfo.data }
+                        backgroundImage={ Verm }
                     />
                     <AccordionOfAccordions
                         title={ lodgingLogistics.title }
                         accordionIdBase={ lodgingLogistics.accordionIdBase }
                         eventKeyBase={ lodgingLogistics.eventKeyBase }
                         subSectionArrayOfObjects={ lodgingLogistics.data }
+                        backgroundImage={ Verm }
                     />
                     <AccordionOfAccordions
                         title={ food.title }
                         accordionIdBase={ food.accordionIdBase }
                         eventKeyBase={ food.eventKeyBase }
                         subSectionArrayOfObjects={ food.data }
+                        backgroundImage={ Verm }
                     />
                     <AccordionOfAccordions
                         title={ otherOutdoor.title }
                         accordionIdBase={ otherOutdoor.accordionIdBase }
                         eventKeyBase={ otherOutdoor.eventKeyBase }
                         subSectionArrayOfObjects={ otherOutdoor.data }
+                        backgroundImage={ Verm }
                     />
                     <AccordionOfAccordions
                         title={ routeRecommendations.title }
                         accordionIdBase={ routeRecommendations.accordionIdBase }
                         eventKeyBase={ routeRecommendations.eventKeyBase }
                         subSectionArrayOfObjects={ routeRecommendations.data }
+                        backgroundImage={ Verm }
                     />
                     <AccordionOfAccordions
                         title={ gyms.title }
                         accordionIdBase={ gyms.accordionIdBase }
                         eventKeyBase={ gyms.eventKeyBase }
                         subSectionArrayOfObjects={ gyms.data }
+                        backgroundImage={ Verm }
                     />
                 </Col>
                 <Col>

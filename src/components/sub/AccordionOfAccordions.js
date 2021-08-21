@@ -16,6 +16,9 @@ import Button from 'react-bootstrap/Button';
 import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
+//! test
+import Verm from '../../img/secret/the_verm.jpg';
+
 //@ ==================================
 //! Clean stuff up!
 //@ ==================================
@@ -81,43 +84,44 @@ import { HiOutlineMail } from 'react-icons/hi';
 // data-bs-toggle="tooltip" data-bs-placement="top" title="whatever text"
 
 
-//@ styles
-// backgroundImage: `url('https://via.placeholder.com/50')`
-// a eye-catching, interesting image for the Card / Section Header
+
+export default function AccordionOfAccordions(props) {
+    //@ styles
+    // backgroundImage: `url('https://via.placeholder.com/50')`
+    // a eye-catching, interesting image for the Card / Section Header
     // size?
     // ~650px wide for large screens would shrink it, usually
     // ~400px wide for medium
     // ~300px wide for small, xs
     // seems like thats a decent collection of options?
     // BONUS, use SVG graphics so no distortion on different screen sizes???
-// backgroundRepeat: 'no-repeat',
-// switch from backgroundSize: 'contain' to 'cover' with a real image, probably and/or have multiple images for multiple screen sizes
-const titleCardStyles = {
-    backgroundImage: `url('https://via.placeholder.com/50')`,
-    backgroundSize: 'contain',
-    color: 'white',
-    textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black',
-    position: 'relative',
-    zIndex: '500'
-};
-const iconStyles = {
-    // color: 'white',
-    // filter: `drop-shadow(0 0 30px #333)`,
-    // filter: `drop-shadow(16px 16px 20px red) invert(75%)`,
-    filter: `invert(100%)`,
-    position: 'relative',
-    zIndex: '500'
-}
-const accordionStyles = {
-    position: 'relative',
-    zIndex: '400'
-}
-const hideAccordion = {
-    display: 'none'
-}
+    // backgroundRepeat: 'no-repeat',
+    // switch from backgroundSize: 'contain' to 'cover' with a real image, probably and/or have multiple images for multiple screen sizes
+    const titleCardStyles = {
+        backgroundImage: `url(${ props.backgroundImage })`,
+        backgroundSize: 'contain',
+        color: 'white',
+        textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black',
+        position: 'relative',
+        zIndex: '500'
+    };
+    const iconStyles = {
+        // color: 'white',
+        // filter: `drop-shadow(0 0 30px #333)`,
+        // filter: `drop-shadow(16px 16px 20px red) invert(75%)`,
+        filter: `invert(100%)`,
+        position: 'relative',
+        zIndex: '500'
+    }
+    const accordionStyles = {
+        position: 'relative',
+        zIndex: '400'
+    }
+    const hideAccordion = {
+        display: 'none'
+    }
 
 
-export default function AccordionOfAccordions(props) {
     // Keeps track of if the accordion is visible or not. Visibility is toggled and the accordion scrolls down into view or up out of view from behind the Card / Section Title when the Card is clicked.
     const [ accordionVisible, setAccordionVisible ] = useState(false);
     const cardClickHandler = (e) => {
