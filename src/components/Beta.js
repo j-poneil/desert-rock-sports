@@ -154,6 +154,7 @@ export default function Beta(){
             >
                 {/* //! Intentionally empty column */}
                 <Col
+                    aria-hidden="true"
                     xxl={4}
                     xl={3}
                     lg={1}
@@ -188,6 +189,10 @@ export default function Beta(){
                         eventKeyBase={ lodgingLogistics.eventKeyBase }
                         subSectionArrayOfObjects={ lodgingLogistics.data }
                         backgroundImage={ Verm }
+                        img290={ lodgingLogistics.img290 }
+                        img690={ lodgingLogistics.img690 }
+                        img930={ lodgingLogistics.img930 }
+                        img1250={ lodgingLogistics.img1250 }
                     />
                     <AccordionOfAccordions
                         title={ food.title }
@@ -195,6 +200,10 @@ export default function Beta(){
                         eventKeyBase={ food.eventKeyBase }
                         subSectionArrayOfObjects={ food.data }
                         backgroundImage={ Verm }
+                        img290={ food.img290 }
+                        img690={ food.img690 }
+                        img930={ food.img930 }
+                        img1250={ food.img1250 }
                     />
                     <AccordionOfAccordions
                         title={ otherOutdoor.title }
@@ -202,6 +211,10 @@ export default function Beta(){
                         eventKeyBase={ otherOutdoor.eventKeyBase }
                         subSectionArrayOfObjects={ otherOutdoor.data }
                         backgroundImage={ Verm }
+                        img290={ otherOutdoor.img290 }
+                        img690={ otherOutdoor.img690 }
+                        img930={ otherOutdoor.img930 }
+                        img1250={ otherOutdoor.img1250 }
                     />
                     <AccordionOfAccordions
                         title={ routeRecommendations.title }
@@ -209,6 +222,10 @@ export default function Beta(){
                         eventKeyBase={ routeRecommendations.eventKeyBase }
                         subSectionArrayOfObjects={ routeRecommendations.data }
                         backgroundImage={ Verm }
+                        img290={ routeRecommendations.img290 }
+                        img690={ routeRecommendations.img690 }
+                        img930={ routeRecommendations.img930 }
+                        img1250={ routeRecommendations.img1250 }
                     />
                     <AccordionOfAccordions
                         title={ gyms.title }
@@ -216,11 +233,16 @@ export default function Beta(){
                         eventKeyBase={ gyms.eventKeyBase }
                         subSectionArrayOfObjects={ gyms.data }
                         backgroundImage={ Verm }
+                        img290={ gyms.img290 }
+                        img690={ gyms.img690 }
+                        img930={ gyms.img930 }
+                        img1250={ gyms.img1250 }
                     />
                 </Col>
 
                 {/* //! Intentionally empty column */}
                 <Col
+                    aria-hidden="true"
                     xxl={4}
                     xl={3}
                     lg={1}
