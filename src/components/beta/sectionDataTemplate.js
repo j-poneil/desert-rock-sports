@@ -19,6 +19,9 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
+//@ Section name
+//import __ from '../../img/accordionBgs/working/____';
+
 
 // % What this is supposed to have based on notes in beta.js
 //! - FOR EXAMPLE ONLY
@@ -44,6 +47,10 @@ export const food = {
     title: 'Grocery, Food, and Drink Options',
     accordionIdBase: 'foodAccordion',
     eventKeyBase: 'foodEKey',
+    img290: '',
+    img690: '',
+    img930: '',
+    img1250: '',
     data: [
         {
             subSectionTitle: '1st subSection Title',
