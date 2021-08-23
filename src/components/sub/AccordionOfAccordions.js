@@ -89,17 +89,20 @@ export default function AccordionOfAccordions(props) {
     //@ styles
     // backgroundImage: `url('https://via.placeholder.com/50')`
     // a eye-catching, interesting image for the Card / Section Header
-    // size?
-    // ~650px wide for large screens would shrink it, usually
-    // ~400px wide for medium
-    // ~300px wide for small, xs
-    // seems like thats a decent collection of options?
     // BONUS, use SVG graphics so no distortion on different screen sizes???
-    // backgroundRepeat: 'no-repeat',
-    // switch from backgroundSize: 'contain' to 'cover' with a real image, probably and/or have multiple images for multiple screen sizes
+    // ref: https://www.webfx.com/blog/web-design/responsive-background-image/
     const titleCardStyles = {
         backgroundImage: `url(${ props.backgroundImage })`,
-        backgroundSize: 'contain',
+        // color displayed while image loads
+        backgroundColor: '#FFFFFF',
+        // scale background image proportionally so that its width and height are equal to, or greater than, the width/height of the element
+        backgroundSize: 'cover',
+        // center vertically and horizontally
+        backgroundPosition: 'center center',
+        backgroundRepeat: 'no-repeat',
+        // image doesn't move around with container resizing or moving, ie container is a window in front that moves
+        backgroundAttachment: 'fixed',
+        // text color, etc
         color: 'white',
         textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black',
         position: 'relative',
@@ -192,6 +195,7 @@ export default function AccordionOfAccordions(props) {
                         <Card>
                             <Accordion.Toggle
                                 as={ Button }
+                                className='text-left'
                                 eventKey={ props.eventKeyBase + `${index}` }
                                 role="button"
                                 aria-label={ element.subSectionTitle + " Section title and button"}
