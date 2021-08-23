@@ -36,7 +36,13 @@ import Verm from '../img/secret/the_verm.jpg';
 //% Photo imports for the background imgs of the main (outer) accordions
 // import ___ from '../img/accordionBgs/____';
 // import Temp1 from '../img/temp/artsfon.com-42873.jpg';
-import Main_1250x95_1 from '../img/accordionBgs/working/Main_1250x95_1.svg';
+
+//@ Lodging / Camping / Logistics
+//@ Food
+//@ Other Outdoor
+//@ Route recommendations
+//@ Gyms
+
 
 
 
@@ -170,7 +176,11 @@ export default function Beta(){
                         accordionIdBase={ generalInfo.accordionIdBase }
                         eventKeyBase={ generalInfo.eventKeyBase }
                         subSectionArrayOfObjects={ generalInfo.data }
-                        backgroundImage={ Verm}
+                        backgroundImage={ Verm }
+                        img290={ generalInfo.img290 }
+                        img690={ generalInfo.img690 }
+                        img930={ generalInfo.img930 }
+                        img1250={ generalInfo.img1250 }
                     />
                     <AccordionOfAccordions
                         title={ lodgingLogistics.title }
