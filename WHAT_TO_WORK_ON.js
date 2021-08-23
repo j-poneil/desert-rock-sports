@@ -228,7 +228,11 @@ todo - find / implement section backgrounds
     * up to 1248px wide on 2560x1440
     * down to 288px wide on iPhone 5
     * COOL NOTE. With the new CSS props I have set on AccordionOfAccordions, if I set every section to the same image, the image spans them all, it looks pretty cool. Doesn't shift around or anything w/ open/close... think this is a good option to keep in mind
-    * 
+    * Try 95px tall by 290, 690, 930, 1250px width
+    ? What code to decide what is used?
+    ? How can I have multiple options for background, based on screen width, w/o @media?
+        *<picture></picture>, with source + srcset, and media...
+        ? how to then make this behave as a section background? position and z-index?
 todo - add a main background of some kind? Something to fit multiple sizes, maybe multiple images
 todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?
 // todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
