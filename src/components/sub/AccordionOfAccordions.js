@@ -83,6 +83,14 @@ import Verm from '../../img/secret/the_verm.jpg';
 // you can add tooltips with:
 // data-bs-toggle="tooltip" data-bs-placement="top" title="whatever text"
 
+// resolution switching 1x, 2x is screen density
+// background-image: image-set( "foo.png" 1x, "foo-2x.png" 2x);
+// media
+{/* <picture>
+  <source srcset="mdn-logo-wide.png" media="(min-width: 600px)">
+  <img src="mdn-logo-narrow.png" alt="MDN">
+</picture> */}
+
 
 
 export default function AccordionOfAccordions(props) {
@@ -174,7 +182,22 @@ export default function AccordionOfAccordions(props) {
                             { props.title }
                         </h2>
                     </Card.Title>
+                    <picture>
+                        <source srcSet={ props.img1250 } media='(min-width: 992px)' />
+                        <source srcSet={ props.img930 } media='(min-width: 768px)' />
+                        <source srcSet={ props.img690 } media='(min-width: 576px)' />
+                        <source srcSet={ props.img290 } media='(min-width: 0px)' />
+                    </picture>
                 </Card.Body>
+                {/* 
+                    Inherited breakpoints from react-bootstrap
+                    --breakpoint-xs: 0;
+                    --breakpoint-sm: 576px;
+                    --breakpoint-md: 768px;
+                    --breakpoint-lg: 992px;
+                    --breakpoint-xl: 1200px;
+                 */}
+                
             </Card>
             
 
