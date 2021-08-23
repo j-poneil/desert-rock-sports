@@ -44,6 +44,10 @@ export const otherOutdoor = {
     title: 'Other Outdoor Options',
     accordionIdBase: 'otherOutdoorAccordion',
     eventKeyBase: 'otherOutdoorEKey',
+    img290: '',
+    img690: '',
+    img930: '',
+    img1250: '',
     data: [
         {
             subSectionTitle: 'Hiking',

@@ -40,6 +40,10 @@ export const gyms = {
     title: 'Gyms',
     accordionIdBase: 'gymAccordion',
     eventKeyBase: 'gymEKey',
+    img290: '',
+    img690: '',
+    img930: '',
+    img1250: '',
     data: [
         {
             subSectionTitle: '1st subSection Title',

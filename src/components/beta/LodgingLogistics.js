@@ -44,6 +44,10 @@ export const lodgingLogistics = {
     title: 'Lodging / Camping / Logistics',
     accordionIdBase: 'lodgingLogisticsAccordion',
     eventKeyBase: 'lodgingLogisticsEKey',
+    img290: '',
+    img690: '',
+    img930: '',
+    img1250: '',
     data: [
         {
             subSectionTitle: 'Hotels',

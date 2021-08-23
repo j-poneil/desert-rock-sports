@@ -44,6 +44,10 @@ export const food = {
     title: 'Grocery, Food, and Drink Options',
     accordionIdBase: 'foodAccordion',
     eventKeyBase: 'foodEKey',
+    img290: '',
+    img690: '',
+    img930: '',
+    img1250: '',
     data: [
         {
             subSectionTitle: 'Grocery Stores',

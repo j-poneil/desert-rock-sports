@@ -45,6 +45,10 @@ export const routeRecommendations = {
     title: 'Route Recommendations',
     accordionIdBase: 'routeRecommendationsAccordion',
     eventKeyBase: 'routeRecommendationsEKey',
+    img290: '',
+    img690: '',
+    img930: '',
+    img1250: '',
     data: [
         {
             subSectionTitle: 'Shady Climbing Options',
