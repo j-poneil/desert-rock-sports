@@ -219,12 +219,14 @@ todo - add something when you hover over the cards, like outline color change, l
 ? - should I wrap every external link icon in <sup>...</sup> ? Or use something else to make the icon smaller and up
     ... hopefully w/o disrupting line heights
 todo - set the CSS background color ( iirc ) for each of the sub sections... instead of the default solid blue. I think it could look cool if these were set to the major or minor color present in the images I'll select for the major section background pictures... Do this in bootstrap-with-overrides.sass
-! - IMPORTANT
 todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????...
     * ... Really, the behavior currently isn't TERRIBLE. I just think it is. I. Me.
     * Realistically I can get back to this later. If that means copy/pasting in many files and places, well, oh well... more important to actually get the meat of the site out into a functional state.
 ! - get into a groove
 todo - find / implement section backgrounds
+todo - add a main background of some kind? Something to fit multiple sizes, maybe multiple images
+todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?
+// todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
 // todo - fully switch over all the beta sections to the functional stateless component, AccordionOfAccordions
 // todo - in Beta.js move Hiking, Trailrunning, etc... to appropriate stores of data and add them... Will most likely need to organize by adding another major section and determine its minor sections... make the appropriate notes in Beta.js comments
 // todo - How can I do background img now that I'm using AccordionOfAccordions??? EASY. Pass it in as props, in the styles in AccordionOfAccordions backgroundImage: `url(${ props.backgroundImage })`,

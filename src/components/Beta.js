@@ -140,9 +140,29 @@ export default function Beta(){
                     //... thinking no... but not thinking too hard about it either right now
             */}
             {/* <Row xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}> */}
-            <Row xxl={2} xl={2} lg={2} md={2} sm={2} xs={1}>
+            {/* <Row xxl={2} xl={2} lg={2} md={2} sm={2} xs={1}> */}
+            <Row
+                className='mt-3'
+            >
+                {/* //! Intentionally empty column */}
+                <Col
+                    xxl={4}
+                    xl={3}
+                    lg={1}
+                    md={0}
+                    sm={0}
+                    xs={0}
+                ></Col>
+
                 {/* style={{ backgroundImage: `url('https://via.placeholder.com/50')` }} */}
-                <Col>
+                <Col
+                    xxl={4}
+                    xl={6}
+                    lg={10}
+                    md={12}
+                    sm={12}
+                    xs={12}
+                >
                     <AccordionOfAccordions
                         title={ generalInfo.title }
                         accordionIdBase={ generalInfo.accordionIdBase }
@@ -186,12 +206,16 @@ export default function Beta(){
                         backgroundImage={ Verm }
                     />
                 </Col>
-                <Col>
-                    {/* //! will need to do something different... like completely independent columns instead? */}
-                    <Card style={{'height': '100%'}}>
 
-                    </Card>
-                </Col>
+                {/* //! Intentionally empty column */}
+                <Col
+                    xxl={4}
+                    xl={3}
+                    lg={1}
+                    md={0}
+                    sm={0}
+                    xs={0}
+                ></Col>
             </Row>
         </Container>
     );
