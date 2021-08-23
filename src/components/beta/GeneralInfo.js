@@ -20,6 +20,11 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
+//@ General Info
+import Main_290x95_1 from '../../img/accordionBgs/working/Main_290x95_1.svg';
+import Main_690x95_1 from '../../img/accordionBgs/working/Main_690x95_1.svg';
+import Main_930x95_1 from '../../img/accordionBgs/working/Main_930x95_1.svg';
+import Main_1250x95_1 from '../../img/accordionBgs/working/Main_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in Beta.js
 // General Info
@@ -45,6 +50,10 @@ export const generalInfo = {
     title: 'General Info',
     accordionIdBase: 'generalInfoAccordion',
     eventKeyBase: 'generalInfoEKey',
+    img290: Main_290x95_1,
+    img690: Main_690x95_1,
+    img930: Main_930x95_1,
+    img1250: Main_1250x95_1,
     data: [
         {
             subSectionTitle: 'Red Rock Canyon General Info',
