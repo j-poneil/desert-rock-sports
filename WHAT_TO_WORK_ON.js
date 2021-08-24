@@ -223,6 +223,7 @@ todo - when you close open major section accordion it snaps closed instead of ha
     * ... Really, the behavior currently isn't TERRIBLE. I just think it is. I. Me.
     * Realistically I can get back to this later. If that means copy/pasting in many files and places, well, oh well... more important to actually get the meat of the site out into a functional state.
 ! - get into a groove
+todo - add a main background of some kind? Something to fit multiple sizes, maybe multiple images
 todo - find / implement section backgrounds
     * 94px high
     * up to 1248px wide on 2560x1440
@@ -233,7 +234,9 @@ todo - find / implement section backgrounds
     ? How can I have multiple options for background, based on screen width, w/o @media?
         *<picture></picture>, with source + srcset, and media...
         ? how to then make this behave as a section background? position and z-index?
-todo - add a main background of some kind? Something to fit multiple sizes, maybe multiple images
+todo - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
+* - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
+
 // todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?... aria-hidden="true" ... hides the empty columns by not presenting them at all to screen readers, etc
 // todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
 // todo - fully switch over all the beta sections to the functional stateless component, AccordionOfAccordions
