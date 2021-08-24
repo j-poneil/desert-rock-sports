@@ -172,12 +172,12 @@ export default function Beta(){
                     sm={12}
                     xs={12}
                 >
+                    {/* backgroundImage={ Verm } */}
                     <AccordionOfAccordions
                         title={ generalInfo.title }
                         accordionIdBase={ generalInfo.accordionIdBase }
                         eventKeyBase={ generalInfo.eventKeyBase }
                         subSectionArrayOfObjects={ generalInfo.data }
-                        backgroundImage={ Verm }
                         img290={ generalInfo.img290 }
                         img690={ generalInfo.img690 }
                         img930={ generalInfo.img930 }
