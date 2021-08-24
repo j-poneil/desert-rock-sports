@@ -100,29 +100,30 @@ export default function AccordionOfAccordions(props) {
     // BONUS, use SVG graphics so no distortion on different screen sizes???
     // ref: https://www.webfx.com/blog/web-design/responsive-background-image/
     const titleCardStyles = {
-        backgroundImage: `url(${ props.backgroundImage })`,
+        //! backgroundImage: `url(${ props.backgroundImage })`,
         // color displayed while image loads
-        backgroundColor: '#FFFFFF',
+        // backgroundColor: '#FFFFFF',
+        backgroundColor: 'transparent',
         // scale background image proportionally so that its width and height are equal to, or greater than, the width/height of the element
-        backgroundSize: 'cover',
+        // backgroundSize: 'cover',
         // center vertically and horizontally
-        backgroundPosition: 'center center',
-        backgroundRepeat: 'no-repeat',
+        // backgroundPosition: 'center center',
+        // backgroundRepeat: 'no-repeat',
         // image doesn't move around with container resizing or moving, ie container is a window in front that moves
-        backgroundAttachment: 'fixed',
+        // backgroundAttachment: 'fixed',
         // text color, etc
         color: 'white',
         textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black',
         position: 'relative',
         zIndex: '500'
     };
+    // position: 'relative',
+    //     zIndex: '500'
     const iconStyles = {
         // color: 'white',
         // filter: `drop-shadow(0 0 30px #333)`,
         // filter: `drop-shadow(16px 16px 20px red) invert(75%)`,
-        filter: `invert(100%)`,
-        position: 'relative',
-        zIndex: '500'
+        filter: `invert(100%)`
     }
     const accordionStyles = {
         position: 'relative',
@@ -167,14 +168,24 @@ export default function AccordionOfAccordions(props) {
             <Card data-bs-toggle="tooltip" data-bs-placement="top" title="Show/Hide related sections">
                 <span className="sr-only">Screen Reader note: This button acts as a major section title. Clicking it shows or hides a subset of buttons which act as minor section titles. Clicking these shows or hides additional information.</span>
                 
+                {/*
+                Note... I can do Card as='picture' but don't know how I should specify the sources...
+                <picture>
+                    <source srcSet={ props.img1250 } media='(min-width: 992px)' />
+                    <source srcSet={ props.img930 } media='(min-width: 768px)' />
+                    <source srcSet={ props.img690 } media='(min-width: 576px)' />
+                    <source srcSet={ props.img290 } media='(min-width: 0px)' />
+                </picture>
+                */}
+                
+                {/* style={ titleCardStyles } */}
                 <Card.Body
                     as={ Button }
                     onClick={ cardClickHandler }
-                    style={ titleCardStyles }
                     aria-label={ props.title + '. Hide / Show' }
                     aria-expanded={ accordionVisible ? true : false }
                 >
-                    <Card.Title role="heading">
+                    <Card.Title role="heading" style={ titleCardStyles }>
                         <h2>
                             { accordionVisible ? <FaRegCaretSquareUp style={iconStyles} /> : <FaRegCaretSquareDown style={iconStyles} /> }
                             {/* { accordionVisible ? <MdExpandLess style={iconStyles} /> : <MdExpandMore style={iconStyles} /> } */}
@@ -182,12 +193,42 @@ export default function AccordionOfAccordions(props) {
                             { props.title }
                         </h2>
                     </Card.Title>
-                    <picture>
-                        <source srcSet={ props.img1250 } media='(min-width: 992px)' />
-                        <source srcSet={ props.img930 } media='(min-width: 768px)' />
-                        <source srcSet={ props.img690 } media='(min-width: 576px)' />
-                        <source srcSet={ props.img290 } media='(min-width: 0px)' />
-                    </picture>
+
+                    {/* //! a hackey way to remove overflow is 'overflow': 'hidden'... but that doesn't fix the wrong image size issue */}
+                    {/* <picture
+                        style={{
+                            'position': 'absolute',
+                            'top': 0,
+                            'left': 0,
+                            'zIndex': 450,
+                            'width': '100%',
+                            'height': 'auto',
+                            'overflow': 'hidden'
+                        }}
+                    >
+                        <source srcSet={ props.img1250 } type='image/svg+xml' media='(min-width: 992px)' />
+                        <source srcSet={ props.img930 } type='image/svg+xml' media='(min-width: 768px)' />
+                        <source srcSet={ props.img690 } type='image/svg+xml' media='(min-width: 576px)' />
+                        <source srcSet={ props.img290 } type='image/svg+xml' media='(min-width: 0px)' />
+                        <img src={ props.img1250 } type='image/svg+xml' alt='test' />
+                    </picture> */}
+                    <img
+                        src={ props.img1250 }
+                        type='image/svg+xml'
+                        alt='test'
+                        srcSet={ `${props.img1250} 1250w, ${props.img930} 930w, ${props.img690} 690w, ${props.img290} 290w` }
+                        sizes="(min-width: 992px) 1250px, (min-width: 768px) 930px, (min-width: 576px) 690px, (min-width: 0px) 290px"
+                        style={{
+                            'position': 'absolute',
+                            'top': 0,
+                            'left': 0,
+                            'zIndex': 450,
+                            'overflow': 'hidden',
+                            'margin': '0 auto'
+                        }}
+                    />
+                    
+                    
                 </Card.Body>
                 {/* 
                     Inherited breakpoints from react-bootstrap
