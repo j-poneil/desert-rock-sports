@@ -19,6 +19,11 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
+import LodgingLogistics_290x95_1 from '../../img/accordionBgs/working/LodgingLogistics_290x95_1.svg';
+import LodgingLogistics_690x95_1 from '../../img/accordionBgs/working/LodgingLogistics_690x95_1.svg';
+import LodgingLogistics_930x95_1 from '../../img/accordionBgs/working/LodgingLogistics_930x95_1.svg';
+import LodgingLogistics_1250x95_1 from '../../img/accordionBgs/working/LodgingLogistics_1250x95_1.svg';
+
 
 // % What this is supposed to have based on notes in Beta.js
 // Lodging / Camping / Logistics?
@@ -44,10 +49,10 @@ export const lodgingLogistics = {
     title: 'Lodging / Camping / Logistics',
     accordionIdBase: 'lodgingLogisticsAccordion',
     eventKeyBase: 'lodgingLogisticsEKey',
-    img290: '',
-    img690: '',
-    img930: '',
-    img1250: '',
+    img290: LodgingLogistics_290x95_1,
+    img690: LodgingLogistics_690x95_1,
+    img930: LodgingLogistics_930x95_1,
+    img1250: LodgingLogistics_1250x95_1,
     data: [
         {
             subSectionTitle: 'Hotels',
