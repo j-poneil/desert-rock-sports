@@ -226,18 +226,18 @@ export default function AccordionOfAccordions(props) {
                             'position': 'absolute',
                             'top': 0,
                             'left': 0,
-                            'bottom': 0,
-                            'right': 0,
+                            // 'bottom': 0,
+                            // 'right': 0,
                             'width': '100%',
                             // 'width': 'auto',
-                            // 'height': 'auto',
                             'height': '100%',
+                            // 'height': 'auto',
                             'zIndex': 450,
                             // 'overflow': 'hidden',
                             // 'margin': '0 auto',
                             // 'objectFit': 'contain',
                             'objectFit': 'cover',
-                            // 'objectPosition': '50% 50%',
+                            'objectPosition': '0% 50%',
                         }}
                     />
                     
