@@ -169,6 +169,9 @@ export default function AccordionOfAccordions(props) {
                 <span className="sr-only">Screen Reader note: This button acts as a major section title. Clicking it shows or hides a subset of buttons which act as minor section titles. Clicking these shows or hides additional information.</span>
                 
                 {/*
+                VERY BAD SUPPORT FOR image-set
+                background: -webkit-image-set( url('path/to/image') 1x, url('path/to/high-res-image') 2x );
+
                 Note... I can do Card as='picture' but don't know how I should specify the sources...
                 <picture>
                     <source srcSet={ props.img1250 } media='(min-width: 992px)' />
@@ -184,6 +187,7 @@ export default function AccordionOfAccordions(props) {
                     onClick={ cardClickHandler }
                     aria-label={ props.title + '. Hide / Show' }
                     aria-expanded={ accordionVisible ? true : false }
+                    style={{'position': 'relative'}}
                 >
                     <Card.Title role="heading" style={ titleCardStyles }>
                         <h2>
@@ -222,7 +226,9 @@ export default function AccordionOfAccordions(props) {
                             'position': 'absolute',
                             'top': 0,
                             'left': 0,
-                            // 'width': '100%',
+                            'bottom': 0,
+                            'right': 0,
+                            'width': '100%',
                             // 'width': 'auto',
                             // 'height': 'auto',
                             'height': '100%',
@@ -230,6 +236,7 @@ export default function AccordionOfAccordions(props) {
                             // 'overflow': 'hidden',
                             // 'margin': '0 auto',
                             // 'objectFit': 'contain',
+                            'objectFit': 'cover',
                             // 'objectPosition': '50% 50%',
                         }}
                     />
