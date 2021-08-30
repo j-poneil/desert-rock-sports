@@ -172,7 +172,6 @@ export default function Beta(){
                     sm={12}
                     xs={12}
                 >
-                    {/* backgroundImage={ Verm } */}
                     <AccordionOfAccordions
                         title={ generalInfo.title }
                         accordionIdBase={ generalInfo.accordionIdBase }
@@ -188,7 +187,6 @@ export default function Beta(){
                         accordionIdBase={ lodgingLogistics.accordionIdBase }
                         eventKeyBase={ lodgingLogistics.eventKeyBase }
                         subSectionArrayOfObjects={ lodgingLogistics.data }
-                        backgroundImage={ Verm }
                         img290={ lodgingLogistics.img290 }
                         img690={ lodgingLogistics.img690 }
                         img930={ lodgingLogistics.img930 }
@@ -199,7 +197,6 @@ export default function Beta(){
                         accordionIdBase={ food.accordionIdBase }
                         eventKeyBase={ food.eventKeyBase }
                         subSectionArrayOfObjects={ food.data }
-                        backgroundImage={ Verm }
                         img290={ food.img290 }
                         img690={ food.img690 }
                         img930={ food.img930 }
@@ -210,7 +207,6 @@ export default function Beta(){
                         accordionIdBase={ otherOutdoor.accordionIdBase }
                         eventKeyBase={ otherOutdoor.eventKeyBase }
                         subSectionArrayOfObjects={ otherOutdoor.data }
-                        backgroundImage={ Verm }
                         img290={ otherOutdoor.img290 }
                         img690={ otherOutdoor.img690 }
                         img930={ otherOutdoor.img930 }
@@ -221,7 +217,6 @@ export default function Beta(){
                         accordionIdBase={ routeRecommendations.accordionIdBase }
                         eventKeyBase={ routeRecommendations.eventKeyBase }
                         subSectionArrayOfObjects={ routeRecommendations.data }
-                        backgroundImage={ Verm }
                         img290={ routeRecommendations.img290 }
                         img690={ routeRecommendations.img690 }
                         img930={ routeRecommendations.img930 }
@@ -232,7 +227,6 @@ export default function Beta(){
                         accordionIdBase={ gyms.accordionIdBase }
                         eventKeyBase={ gyms.eventKeyBase }
                         subSectionArrayOfObjects={ gyms.data }
-                        backgroundImage={ Verm }
                         img290={ gyms.img290 }
                         img690={ gyms.img690 }
                         img930={ gyms.img930 }
