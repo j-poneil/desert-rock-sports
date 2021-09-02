@@ -19,6 +19,10 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
+import Food_290_1 from '../../img/accordionBgs/working/Food_290x95_1.svg';
+import Food_690_1 from '../../img/accordionBgs/working/Food_690x95_1.svg';
+import Food_930_1 from '../../img/accordionBgs/working/Food_930x95_1.svg';
+import Food_1250_1 from '../../img/accordionBgs/working/Food_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in beta.js
 // Food
@@ -44,10 +48,10 @@ export const food = {
     title: 'Grocery, Food, and Drink Options',
     accordionIdBase: 'foodAccordion',
     eventKeyBase: 'foodEKey',
-    img290: '',
-    img690: '',
-    img930: '',
-    img1250: '',
+    img290: Food_290_1,
+    img690: Food_690_1,
+    img930: Food_930_1,
+    img1250: Food_1250_1,
     data: [
         {
             subSectionTitle: 'Grocery Stores',
