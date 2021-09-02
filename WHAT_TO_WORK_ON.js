@@ -209,6 +209,8 @@ todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we ha
 
 @ Beta page ---------------------------------------
 todo - FOR FINAL PRODUCTION - Nice photos for the cards / section titles
+    * Commision Ray to make some! His style is excellent
+    * edit art credit on footer of Beta.js / have credit hidden in his art?
 todo - FOR FINAL PRODUCTION - fill out the skip / skip to links for every single section, check that they work
 todo - FOR FINAL PRODUCTION - background for entire page?
 todo - fix the blue then image problem with the cards...
