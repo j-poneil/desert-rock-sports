@@ -19,6 +19,10 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
+import RouteRecommendations_290_1 from '../../img/accordionBgs/working/RouteRecommendations_290x95_1.svg';
+import RouteRecommendations_690_1 from '../../img/accordionBgs/working/RouteRecommendations_690x95_1.svg';
+import RouteRecommendations_930_1 from '../../img/accordionBgs/working/RouteRecommendations_930x95_1.svg';
+import RouteRecommendations_1250_1 from '../../img/accordionBgs/working/RouteRecommendations_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in Beta.js
 // Climbing route recommendations
@@ -45,10 +49,10 @@ export const routeRecommendations = {
     title: 'Route Recommendations',
     accordionIdBase: 'routeRecommendationsAccordion',
     eventKeyBase: 'routeRecommendationsEKey',
-    img290: '',
-    img690: '',
-    img930: '',
-    img1250: '',
+    img290: RouteRecommendations_290_1,
+    img690: RouteRecommendations_690_1,
+    img930: RouteRecommendations_930_1,
+    img1250: RouteRecommendations_1250_1,
     data: [
         {
             subSectionTitle: 'Shady Climbing Options',
