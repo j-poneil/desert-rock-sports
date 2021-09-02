@@ -19,7 +19,10 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
-
+import OtherOutdoor_290_1 from '../../img/accordionBgs/working/OtherOutdoor_290x95_1.svg';
+import OtherOutdoor_690_1 from '../../img/accordionBgs/working/OtherOutdoor_690x95_1.svg';
+import OtherOutdoor_930_1 from '../../img/accordionBgs/working/OtherOutdoor_930x95_1.svg';
+import OtherOutdoor_1250_1 from '../../img/accordionBgs/working/OtherOutdoor_1250x95_1.svg';
 // % What this is supposed to have based on notes in Beta.js
 // Other outdoor fun
         // Hiking
@@ -44,10 +47,10 @@ export const otherOutdoor = {
     title: 'Other Outdoor Options',
     accordionIdBase: 'otherOutdoorAccordion',
     eventKeyBase: 'otherOutdoorEKey',
-    img290: '',
-    img690: '',
-    img930: '',
-    img1250: '',
+    img290: OtherOutdoor_290_1,
+    img690: OtherOutdoor_690_1,
+    img930: OtherOutdoor_930_1,
+    img1250: OtherOutdoor_1250_1,
     data: [
         {
             subSectionTitle: 'Hiking',
