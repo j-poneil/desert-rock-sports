@@ -245,6 +245,17 @@ export default function Beta(){
                     xs={0}
                 ></Col>
             </Row>
+            <Row>
+                <footer
+                    style={{
+                        'position': 'fixed',
+                        'bottom': '0',
+                        'right': '0',
+                    }}
+                >
+                    Art by <a href='http://www.google.com' target="_blank" rel="noopener noreferrer">JPO</a> &copy; 2021
+                </footer>
+            </Row>
         </Container>
     );
 }
