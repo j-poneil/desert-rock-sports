@@ -49,7 +49,7 @@ import Verm from '../../img/secret/the_verm.jpg';
     ];
 
     It will automatically make a main accordion with the proper number of sub-accordions.
-    Main accordion will have
+    Main accordion will have (what was I going to say?)
 
     Best to export/import this array from another file.
 
