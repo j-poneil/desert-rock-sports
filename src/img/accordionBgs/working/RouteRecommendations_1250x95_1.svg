@@ -14,15 +14,9 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="LodgingLogistics_1250x95_1.svg">
+   sodipodi:docname="OtherOutdoor_1250x95_1.svg">
   <defs
      id="defs2">
-    <rect
-       x="164.4373"
-       y="7.4182242"
-       width="78.88045"
-       height="14.836448"
-       id="rect137" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient843"
@@ -32,7 +26,7 @@
        x2="136.26469"
        y2="28.91213"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0.1296201,0.16252299)" />
+       gradientTransform="translate(0.17442557,0.27977178)" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient843">
@@ -53,9 +47,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.07"
-     inkscape:cx="641.40428"
-     inkscape:cy="52.485191"
+     inkscape:zoom="0.87681241"
+     inkscape:cx="627.80687"
+     inkscape:cy="-1.4860463"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -75,42 +69,20 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline">
-    <path
-       style="fill:#ff6600;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -3.1435644,17.813531 61.5614674,-4.715346 63.657177,2.619637 63.65718,-2.881601 61.82343,-3.4055278 h 32.48349 l 16.50373,1.3098178 42.70007,6.025165 3.14357,13.622113 -345.5301144,0.785892 z"
-       id="path120" />
-    <path
-       style="fill:#55d400;stroke:#55d400;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 46.629536,3.1435643 55.798267,21.219059 38.707562,19.476273 Z"
-       id="path133" />
-    <path
-       style="fill:#66ff00;stroke:#66ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 13.622112,17.813531 4.97731,-12.0503298 6.287129,1.8337458 h 5.239275 l 7.85891,-1.0478547 8.6448,-3.405528 -8.906764,18.5994227 -9.16873,-2.619637 -7.85891,-1.047855 z"
-       id="path127" />
-    <text
-       xml:space="preserve"
-       id="text135"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333314px;white-space:pre;shape-inside:url(#rect137);-inkscape-font-specification:sans-serif;font-stretch:normal;font-variant:normal;" />
+     id="layer1">
     <rect
        style="fill:url(#linearGradient845);fill-opacity:1;stroke:#00ffff;stroke-width:0.264583"
        id="rect14"
        width="333.28964"
        height="27.098454"
-       x="-0.7238726"
-       y="-0.69097102" />
+       x="-0.67906767"
+       y="-0.57372195" />
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Layer 2"
-     style="display:inline" />
 </svg>

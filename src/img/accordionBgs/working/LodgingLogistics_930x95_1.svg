@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="930"
@@ -22,6 +23,28 @@
        width="78.880447"
        height="14.836448"
        id="rect137" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient843"
+       id="linearGradient845"
+       x1="136.00011"
+       y1="-25.284777"
+       x2="136.26469"
+       y2="28.91213"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.12962163,0.16252265)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient843">
+      <stop
+         style="stop-color:#008bff;stop-opacity:1"
+         offset="0"
+         id="stop839" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:0;"
+         offset="1"
+         id="stop841" />
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -52,7 +75,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,10 +84,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline">
-    <path
-       style="fill:#2a7fff;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -2.3576733,-2.0957095 -1.3098185,39.556518 336.09941,37.984736 334.26566,-8.6448018 Z"
-       id="path122" />
     <path
        style="fill:#ff6600;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -3.1435644,17.813531 61.5614674,-4.715346 63.657177,2.619637 63.65718,-2.881601 61.82343,-3.4055278 h 32.48349 l 16.50373,1.3098178 42.70007,6.025165 3.14357,13.622113 -345.5301144,0.785892 z"
@@ -81,6 +100,13 @@
        xml:space="preserve"
        id="text135"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;shape-inside:url(#rect137);fill:#000000;fill-opacity:1;stroke:none;" />
+    <rect
+       style="fill:url(#linearGradient845);fill-opacity:1;stroke:#00ffff;stroke-width:0.264583"
+       id="rect14"
+       width="333.28964"
+       height="27.098455"
+       x="-0.72387338"
+       y="-0.69097209" />
   </g>
   <g
      inkscape:groupmode="layer"

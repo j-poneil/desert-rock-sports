@@ -8,13 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1250"
+   width="290"
    height="95"
-   viewBox="0 0 330.72915 25.135417"
+   viewBox="0 0 76.729162 25.135417"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="Food_1250x95_1.svg">
+   sodipodi:docname="Food_290x95_1.svg">
   <defs
      id="defs2">
     <pattern
@@ -55,7 +55,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.76367532"
-     inkscape:cx="623.80917"
+     inkscape:cx="555.71741"
      inkscape:cy="43.647481"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -77,7 +77,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -96,7 +96,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Beer"
-     style="mix-blend-mode:normal;opacity:1">
+     style="opacity:1;mix-blend-mode:normal">
     <g
        id="g164"
        transform="translate(6.3394396,-5.0295017)">
