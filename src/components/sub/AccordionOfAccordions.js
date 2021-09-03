@@ -64,19 +64,7 @@ import Verm from '../../img/secret/the_verm.jpg';
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 
-//! - This stuff is a bit different now since I'm using a functional stateless component to pass props to instead of sooooo many individual BIG components just copy/paste/edit like I was doing before
-//@ Checklist
-//! - Did you Set the main card title?
-//! - Did you set the titles/accordion toggles?
-//! - Did you import/add a background image?
-//! - Did you set it to cover? Or otherwise style it so it will look good responsively?
-//! - Did you set the aria-label on the card?
-//! - Did you set the aria-label on every single accordion toggle?
-//! - Do the event keys in accordion toggle and accordion collapse match?
-//! - Are you sure the event keys are unique and not used in a different accordion component?
-//! - Does the main card have a unique id to use as a skip to link? Also for custom styles, etc...
 
-// % What this is supposed to have based on notes in Beta.js
 
 
 //@ Notes
@@ -100,25 +88,12 @@ export default function AccordionOfAccordions(props) {
     // BONUS, use SVG graphics so no distortion on different screen sizes???
     // ref: https://www.webfx.com/blog/web-design/responsive-background-image/
     const titleCardStyles = {
-        //! backgroundImage: `url(${ props.backgroundImage })`,
-        // color displayed while image loads
-        // backgroundColor: '#FFFFFF',
         backgroundColor: 'transparent',
-        // scale background image proportionally so that its width and height are equal to, or greater than, the width/height of the element
-        // backgroundSize: 'cover',
-        // center vertically and horizontally
-        // backgroundPosition: 'center center',
-        // backgroundRepeat: 'no-repeat',
-        // image doesn't move around with container resizing or moving, ie container is a window in front that moves
-        // backgroundAttachment: 'fixed',
-        // text color, etc
         color: 'white',
         textShadow: '-1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black',
         position: 'relative',
         zIndex: '500'
     };
-    // position: 'relative',
-    //     zIndex: '500'
     const iconStyles = {
         // color: 'white',
         // filter: `drop-shadow(0 0 30px #333)`,
