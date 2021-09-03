@@ -19,6 +19,10 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
+import Gyms_290_1 from '../../img/accordionBgs/working/Gyms_290x95_1.svg';
+import Gyms_690_1 from '../../img/accordionBgs/working/Gyms_690x95_1.svg';
+import Gyms_930_1 from '../../img/accordionBgs/working/Gyms_930x95_1.svg';
+import Gyms_1250_1 from '../../img/accordionBgs/working/Gyms_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in Beta.js
 // Climbing Gyms
@@ -40,10 +44,10 @@ export const gyms = {
     title: 'Gyms',
     accordionIdBase: 'gymAccordion',
     eventKeyBase: 'gymEKey',
-    img290: '',
-    img690: '',
-    img930: '',
-    img1250: '',
+    img290: Gyms_290_1,
+    img690: Gyms_690_1,
+    img930: Gyms_930_1,
+    img1250: Gyms_1250_1,
     data: [
         {
             subSectionTitle: '1st subSection Title',
