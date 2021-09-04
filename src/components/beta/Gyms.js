@@ -50,7 +50,7 @@ export const gyms = {
     img1250: Gyms_1250_1,
     data: [
         {
-            subSectionTitle: '1st subSection Title',
+            subSectionTitle: 'Climbing Gyms',
             subSectionContent: () => (
                 <>
                     content
@@ -58,7 +58,7 @@ export const gyms = {
             )
         },
         {
-            subSectionTitle: '2st subSection Title',
+            subSectionTitle: 'regular boring gyms',
             subSectionContent: () => (
                 <>
                     more content

@@ -86,7 +86,7 @@ export const food = {
                     <Card.Subtitle>Sambalatte</Card.Subtitle>
                     <Card.Text>
                         <a href="https://g.page/sambalatte-boca-park?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Sambalatte</a><br />
-                        <p></p>
+                        <p>Close to REI and Total Wine</p>
                     </Card.Text>
                     <Card.Subtitle>Makers &amp; Finders</Card.Subtitle>
                     <Card.Text>
@@ -126,6 +126,7 @@ export const food = {
             subSectionContent: () => (
                 <>
                     <Card.Subtitle>Pizza</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         <a href="https://goo.gl/maps/w5YjFknbdCtt8Kn28" target="_blank" rel="noopener noreferrer"><FaDirections /> Mark Rich's NY Pizza &amp; Pasta</a><br />
                         <p>Convieniently located super close to Red Rock. Huge menu.</p>
@@ -138,7 +139,10 @@ export const food = {
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p> */}
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>AYCE - All You Can Eat</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         <p>Options for AYCE Sushi, KBBQ, and Buffets</p>
                         <a href="https://goo.gl/maps/skRFqRthPRqRjJym7" target="_blank" rel="noopener noreferrer"><FaDirections /> Yama Sushi - Spring Mtn</a><br />
@@ -149,7 +153,7 @@ export const food = {
                         <p>Climber owned???</p>
                         <a href="https://g.page/Biwon?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Biwon KBQ &amp; Sushi</a><br />
                         <p>A great mix of AYCE options! Tons of reviews!</p>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p>
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p>
@@ -162,9 +166,12 @@ export const food = {
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p>
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                        <p></p>
+                        <p></p> */}
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>Thai</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p>
@@ -177,7 +184,10 @@ export const food = {
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p> */}
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>Indian</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         <a href="https://goo.gl/maps/VNrXpMjd1uD8wPXeA" target="_blank" rel="noopener noreferrer"><FaDirections /> Mint Indian Bistro</a><br />
                         <p>Awesome selection of Indian dishes. Usually not busy. Even has an Inferno Menu for those chili-heads. Two locations (IIRC).</p>
@@ -190,7 +200,10 @@ export const food = {
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>Burgers</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p>
@@ -206,7 +219,10 @@ export const food = {
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p> */}
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>Vegetarian, Vegan, and Healthy Options</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         <a href="https://g.page/flower-child-las-vegas?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Flower Child</a><br />
                         <p>A favorite with climbers.</p>
@@ -225,7 +241,10 @@ export const food = {
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p> */}
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>Ramen</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p>
@@ -238,14 +257,20 @@ export const food = {
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p> */}
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>24H Options</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         <a href="https://robertostacoshop.com/locations/" target="_blank" rel="noopener noreferrer">Roberto's Taco Shop Locator <FaExternalLinkAlt /></a><br />
-                        <p>Tons of Vegas locations, all 24H (I think). Try the ham breakfast burrito, always great, never too greasy, re-heats well, awesome vehicle for hot sauce. (T2 is addicted to them). Great to grab on your way out to Red Rock to fuel a long day.</p>
+                        <p>Tons of Vegas locations, all 24H (I think). Try the ham breakfast burrito, always great, never too greasy, re-heats well, awesome vehicle for hot sauce delivery. (T2 is addicted to them). Great to grab on your way out to Red Rock to fuel a long day.</p>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p> */}
                     </Card.Text>
+                    <br />
+
                     <Card.Subtitle>Sweet Tooth ?</Card.Subtitle>
+                    <hr />
                     <Card.Text>
                         <a href="https://goo.gl/maps/nuA5JanCRUmAemK66" target="_blank" rel="noopener noreferrer"><FaDirections /> Mazzoa Donuts</a><br />
                         <p>New, but already making a buzz. Two Vegas locations.</p>

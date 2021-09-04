@@ -56,7 +56,6 @@ export const otherOutdoor = {
             subSectionTitle: 'Hiking',
             subSectionContent: () => (
                 <>
-                    <Card.Title>Hiking</Card.Title>
                     <Card.Subtitle>General Resources</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.alltrails.com" target="_blank" rel="noopener noreferrer">AllTrails <FaExternalLinkAlt /></a><br />
