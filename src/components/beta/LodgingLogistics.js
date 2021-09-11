@@ -174,6 +174,11 @@ export const lodgingLogistics = {
                     <Card.Subtitle>Red Rock Climbing Center</Card.Subtitle>
                     <a href="https://goo.gl/maps/fu1zaPsdpwXy8c3M6" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Red Rock Climbing Center</a><br />
                     <Card.Text>$5 showers. One stall each in Men's and Women's Restrooms. Bring your own towel and soap. Convieniently located in the same shopping center as Desert Rock Sports so if you have a big group, just hangout in the shop, mooch the WIFI, and talk/research the routes you want to do while your group all takes their turns.</Card.Text>
+                    <Card.Subtitle>The Refuge Climbing &amp; Fitness</Card.Subtitle>
+                    <Card.Text>
+                        <a href="http://climbrefuge.com/" target="_blank" rel="noopener noreferrer">The Refuge <FaExternalLinkAlt /></a>
+                        <p>They have showers!</p>
+                    </Card.Text>
                     <Card.Subtitle>Desert Breeze Aquatic Center</Card.Subtitle>
                     <Card.Text>
                         <a href="https://goo.gl/maps/zYqfaJt6xtLDEF2t6" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Desert Breeze Aquatic Center</a><br />
@@ -184,12 +189,8 @@ export const lodgingLogistics = {
                         <a href="https://goo.gl/maps/gGS2DVcG23KsoW3f8" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Aloha Aquatic Center</a><br />
                         <p>$3 Showers, tell them you are there only for a shower</p>
                     </Card.Text>
-                    {/* <Card.Subtitle>Other???</Card.Subtitle>
-                    <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                        <p></p>
-                    </Card.Text>
-                    <Card.Subtitle>Truck stop?</Card.Subtitle>
+                    
+                    {/* <Card.Subtitle>Truck stop?</Card.Subtitle>
                     <Card.Text></Card.Text> */}
                 </>
             )

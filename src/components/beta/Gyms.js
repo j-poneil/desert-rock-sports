@@ -99,7 +99,7 @@ export const gyms = {
             subSectionTitle: 'regular boring gyms',
             subSectionContent: () => (
                 <>
-                    (thoughts ... probably no reason to have this section)
+                    (thoughts ... probably not enough reason to have this section)
                 </>
             )
         },

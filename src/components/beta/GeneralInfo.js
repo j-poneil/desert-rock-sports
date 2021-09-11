@@ -90,7 +90,7 @@ export const generalInfo = {
                         </Table>
                     <Card.Subtitle>Logistics</Card.Subtitle>
                         <p>The Scenic Drive is 13mi and ONE WAY ONLY. Cell service is poor to non-existant in many parts of Red Rock Canyon (a new cell tower has been proposed). Thus try to coordinate meetups, carpooling, and pickup times from outside of Red Rock. Don't count on being able to call an Uber/Lyft to pick you up from within the Scenic Drive or in Calico Basin.</p>
-                        <p>Every major parking area along the loop road has a primitive pit toilet, however, once you have hiked in, there are no more options. Water is only available at the RR Visitor Center and once you have passed the entrance for that, you will not be able to return to fill up. Bring more water than you think you will need.</p>
+                        <p>Every major parking area along the loop road has a primitive pit toilet, however, once you have hiked in, there are no more options. Bring a wag bag / poop bag or two and hike them out. Water is only available at the RR Visitor Center and once you have passed the entrance for that, you will not be able to return to fill up. Bring more water than you think you will need.</p>
                     </Card.Text>
                     <Card.Subtitle>Timed Entry Reservations</Card.Subtitle>
                     <Card.Text>
@@ -106,6 +106,7 @@ export const generalInfo = {
                                 You need to make a free account on Recreation.gov to make a Timed Entry Reservation. There is also a phone app you can use. Just remember, cell service near Red Rock is limited, so don't count on being able to make one when you are out there and get turned away at the gate without having to drive back to the edge of Vegas to get cell service again.
                                 <a href="https://www.recreation.gov/timed-entry/10075177" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Recreation.gov - Red Rock Canyon National Conservation Area Scenic Drive Timed Entry</a>
                             </li>
+                            <li>Having a reservation to enter is no gaurantee that you will find a parking spot! 2nd Pullout and Sandstone Quarry are the worst in this regard since they are very small lots and popular areas. BLM has been strict about having a lot attendant present and actually closing lots, so you can't just keep circling through until someone leaves. If you are trying to park at 2nd pullout, but didn't get in early and it seems like a busy day, to be on the safe side you may want to park at the 1st pullout and just walk the extra distance. If 2nd and Sandstone are full you are out of luck!</li>
                         </ul>
                     </Card.Text>
                 </>

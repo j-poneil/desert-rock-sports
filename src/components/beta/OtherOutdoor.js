@@ -88,7 +88,7 @@ export const otherOutdoor = {
                         <p>This could be a great option for climbers who are looking to do any of the big multipitch routes on Mt Wilson and plan to walk down. You can scope out your descent ahead of time!</p>
                     </Card.Text>
                     <hr />
-                    
+
                     <Card.Subtitle>Bristlecone Loop @ Charleston 5.7mi 930'</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.alltrails.com/explore/trail/us/nevada/upper-and-lower-bristlecone-loop" target="_blank" rel="noopener noreferrer">See it at AllTrails <FaExternalLinkAlt /></a><br />
@@ -109,12 +109,12 @@ export const otherOutdoor = {
                         <a href="https://www.alltrails.com/explore/trail/us/nevada/charleston-peak-south-trail" target="_blank" rel="noopener noreferrer">South Loop Trail - 16.6mi 4900' gain <FaExternalLinkAlt /></a><br />
                         <a href="https://www.alltrails.com/explore/trail/us/nevada/mount-charleston-north-to-south-via-trail-canyon" target="_blank" rel="noopener noreferrer">N to S via Trail Canyon - 18.2mi 4900' gain <FaExternalLinkAlt /></a><br />
                         <a href="https://www.alltrails.com/explore/trail/us/nevada/charleston-peak-north-trail--2" target="_blank" rel="noopener noreferrer">North Loop Trail - 21.5mi 5650' gain <FaExternalLinkAlt /></a><br />
-                        <a href="https://www.alltrails.com/explore/trail/us/nevada/mt-charleston-via-deer-creek-trail" target="_blank" rel="noopener noreferrer">Via Deer Creek Trail - 14.7mi 5500'gain <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.alltrails.com/explore/trail/us/nevada/mt-charleston-via-deer-creek-trail" target="_blank" rel="noopener noreferrer">Via Deer Creek Trail - 14.7mi 5500'gain <FaExternalLinkAlt /></a>
                         <p>Many options. All with a ton of elevation gain. This is a long day, but a great summit. You need to know full well what you are getting into.</p>
                     </Card.Text>
                     <Card.Subtitle>Raintree Trail  @ Charleston - 5.3mi 1800' gain</Card.Subtitle>
                     <Card.Text>
-                        <a href="https://www.alltrails.com/explore/trail/us/nevada/raintree-trail" target="_blank" rel="noopener noreferrer">See it at AllTrails <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.alltrails.com/explore/trail/us/nevada/raintree-trail" target="_blank" rel="noopener noreferrer">See it at AllTrails <FaExternalLinkAlt /></a>
                         <p>Great hike to a huge old growth Bristlecone Pine. If you want a longer day, you can branch out and go do <a href="https://www.alltrails.com/explore/trail/us/nevada/mummy-mountain-via-mummy-spring-trail" target="_blank" rel="noopener noreferrer">Mummy Peak (11.1mi 3750' gain) <FaExternalLinkAlt /></a> too, though it is not much of an established trail and will easily double the time needed for the hiking, atleast.</p>
                     </Card.Text>
                 </>
@@ -125,31 +125,35 @@ export const otherOutdoor = {
             subSectionContent: () => (
                 <>
                     <Card.Title>Trail Running</Card.Title>
-                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Subtitle>General Resources</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.trailrunproject.com/" target="_blank" rel="noopener noreferrer">Trail Run Project <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.alltrails.com" target="_blank" rel="noopener noreferrer">AllTrails <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.trailforks.com/" target="_blank" rel="noopener noreferrer">Trailforks Route Database <FaExternalLinkAlt /></a>
+                        <p>These links should get you started! Or heres a select few below!</p>
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>Grand Circle Loop</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.trailrunproject.com/trail/7049089/grand-circle-loop" target="_blank" rel="noopener noreferrer">Grand Circle Loop on Trail Run Project <FaExternalLinkAlt /></a>
+                        <p>11.8mi of excellent views of Red Rock Canyon. Great when its cool out.</p>
+                    </Card.Text>
+                    <Card.Subtitle>Upper + Lower Bristlecone</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.alltrails.com/trail/us/nevada/upper-and-lower-bristlecone-loop" target="_blank" rel="noopener noreferrer">Upper + Lower at AllTrails<FaExternalLinkAlt /></a>
+                        <p>Up at Charleston, this loop trail is great for when its hot out. Bunch of elevation gain/loss though.</p>
+                    </Card.Text>
+                    <Card.Subtitle>Historic Railroad Tunnels, Hoover Dam Bridge</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.trailrunproject.com/trail/7010999/historic-rr-tunnels-hoover-dam-bridge" target="_blank" rel="noopener noreferrer">Historic RR Tunnels @ Hoover Dam on Trail Run Project <FaExternalLinkAlt /></a>
+                        <p>8.9mi of historic trail passing through railroad tunnels and getting views of the Hoover Dam. Good for cooler weather and if you don't mind not getting as much greenery. Not much elevation gain/loss.</p>
+                    </Card.Text>
+                    {/* <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         <a href="" target="_blank" rel="noopener noreferrer"></a><br />
                         <p></p>
-                    </Card.Text>
-                    <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                        <p></p>
-                    </Card.Text>
-                    <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                        <p></p>
-                    </Card.Text>
-                    <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                        <p></p>
-                    </Card.Text>
-                    <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                        <p></p>
-                    </Card.Text>
+                    </Card.Text> */}
                 </>
             )
         },
