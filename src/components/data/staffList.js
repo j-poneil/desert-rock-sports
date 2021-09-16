@@ -20,6 +20,8 @@ import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
 import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg';
 // % LB
 import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
+// % Samantha
+import Samantha from '../../img/RRCG/GuideBioImgs/Samantha_450w_450h.jpg';
 
 // % For bio, its an arrow function that returns JSX, so just write 'basically' HTML between the <></>. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
 
@@ -139,6 +141,23 @@ export const staff = [
         bio: () => (<></>),
         imgSrc: "https://via.placeholder.com/500x400",
         ig: "https://www.instagram.com/a.happensack/",
+        site: '',
+        youtube: '',
+        active: false
+    },
+    {
+        name: "Samantha Weichert",
+        position: "",
+        bio: () => (
+            <>
+                <p>AMGA Apprentice Rock Guide, AMGA Apprentice Alpine Guide, AMGA SPI, WFR. 10+ Years of experience climbing all over the country!</p>
+                <p>I have climbed in so many cool places, but Red Rock is still my favorite!</p>
+                <p>I'm a Kiwi!</p>
+                <p>I have the coolest dog ever, Barnacle!</p>
+            </>
+        ),
+        imgSrc: Samantha,
+        ig: "https://www.instagram.com/sam.weich/",
         site: '',
         youtube: '',
         active: false
