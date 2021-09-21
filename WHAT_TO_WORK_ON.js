@@ -71,8 +71,6 @@ todo - some sort of server integration?
     The site reads/updates a DB, like firebase
     Then the deployed site gets updated values from firebase with fallbacks if no connection?
     ... actually maybe not firebase, since it would possibly cost... maybe a DB hosted at the same web host if it seems cheaper... MySQL maybe
-? - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
-    like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
 ? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site? Thus one messy object and then every file that needs data from it just imports what they need. That would really cut down on how much code there is in some of the files... but it just moves it to the object (or objects) hmm will have to think about it more
     * automatic hours true/false
         * manual hours set
@@ -116,6 +114,8 @@ todo - add some line somewhere saying that I coded this site, see my github here
     // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
 ? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card   components and/or rows in general since I have been using them sooo much... and the vertical spacing between rows has not been the greatest in some spots
+// todo - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
+//     like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
 // todo - make/implement a proper favicon
 // todo - navigate through each page as if I had no mouse... with tabbing and arrow keys / pgup / pgdn
 // todo - add react-icons icons to various parts of the app/pages/components
