@@ -12,7 +12,8 @@ import Card from 'react-bootstrap/Card';
 
 // % change photos, descriptions, blurbs, prices, etc here
 import { tiers } from './data/guideTiers';
-import { guides } from './data/guides';
+// import { guides } from './data/guides';
+import { staff } from './data/staffList';
 
 import TierCard from './sub/TierCard';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -58,14 +59,14 @@ export default function Guiding(){
     // like {i.bio2 !== "" && <p>{i.bio2}</p>}
     // they work because if both evaluate to true, the second thing is returned
     // if false, it is ignored
-    const guideList = guides.map((i, index) => {
-        if(i.active){
+    const guideList = staff.map((i, index) => {
+        if(i.active && i.isGuide){
             return (
                 <Col key={ index } className="mt-3 mb-3">
                     <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Img
-                                src={ i.pic }
+                                src={ i.imgSrc }
                                 alt={ i.name }
                             />
                             <Card.Title
@@ -95,8 +96,8 @@ export default function Guiding(){
                                     }
                             </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted text-center">{ i.exp !== "" && i.exp }</Card.Subtitle>
                             <Card.Text>
-                                { i.exp !== "" && <p>{ i.exp }</p> }
                                 <>{ i.bio() }</>
                             </Card.Text>
                         </Card.Body>

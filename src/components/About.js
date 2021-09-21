@@ -20,12 +20,15 @@ import { Jumbotron } from 'react-bootstrap';
 
 export default function About(){
     const staffList = staff.map((i) => {
-        if(i.active){
+        if(i.active && i.isRetail){
             return (
                 <Col key={i.name} className="mb-3">
                     <Card style={{'height': '100%'}}>
                         <Card.Body>
-                            <Card.Img src={i.imgSrc} alt={i.name} />
+                            <Card.Img
+                                src={i.imgSrc}
+                                alt={i.name}
+                            />
                             <Card.Title className="text-center mt-3">
                                 { i.name }
                                 {/* 'thing' in i ... is checking to see if the key is present in the object, couples nicely with a ternary */}
@@ -51,11 +54,11 @@ export default function About(){
                                         : null
                                 }
                             </Card.Title>
-                            <Card.Subtitle className="text-center"></Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted text-center">{ i.position !== "" && i.position }</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted text-center">{ i.exp !== "" && i.exp }</Card.Subtitle>
                             <Card.Text>
-                                <>
-                                    { i.bio() }
-                                </>
+                                <>{ i.bio() }</>
                             </Card.Text>
                         </Card.Body>
                     </Card>
