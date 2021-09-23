@@ -105,9 +105,9 @@ export const tiers = [
         ],
         tierNotes: () => (
             <>
-                <p>We add $50 for any route that is accessed from the Late Night trailhead system, such as Black Velvet Canyon.</p>
+                {/* <p>We add $50 for any route that is accessed from the Late Night trailhead system, such as Black Velvet Canyon.</p> */}
                 <p>In multipitch we limit it to 2 clients per guide, anything higher is excessively complicated, slow, and fairly rude to any other climbing parties who may be stuck waiting for excessively long times below.</p>
-                <p>If the approach and/or descent hikes are long enough, we may bump it up to a Tier 3 day, even if the number of pitches is low. We are going mostly by an estimate of the number of hours needed. Ex. The route, Northeast Arete on Bridge Mtn is 5.5 5p... but thats after many miles of complicated hiking and the descent hike is something like 8-10mi. The hike to the route easily takes much longer than it takes to actually climb the route.</p>
+                <p>If the approach and/or descent hikes are long enough, we may bump it up to a Tier 3 day, even if the number of pitches is low. We are going mostly by an estimate of the number of hours needed. Ex. The route, Northeast Arete on Bridge Mtn is 5.5 5p... but thats after many miles of complicated hiking and the descent hike is something like 8-10mi. The hike to the route easily takes much longer than it takes to actually climb the route, so it is most certainly not Tier 2.</p>
             </>
         )
     },
