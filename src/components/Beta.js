@@ -149,9 +149,7 @@ export default function Beta(){
             */}
             {/* <Row xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}> */}
             {/* <Row xxl={2} xl={2} lg={2} md={2} sm={2} xs={1}> */}
-            <Row
-                className='mt-3'
-            >
+            <Row className='mt-3' >
                 {/* //! Intentionally empty column */}
                 <Col
                     aria-hidden="true"
