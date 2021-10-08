@@ -415,8 +415,21 @@ todo - separate out into its own page... right of guiding. Probably.
 
 
 
+@ STAGING TEMP SHIT
+https://www.polemicdigital.com/protect-your-staging-environments/
+! - When ready to go live, in robots.txt change:
+    Disallow: /
+    Noindex: /
+        to
+    Disallow:
 
+! - When ready to go live, remove htaccess pass settings:
+    AuthType Basic
+    AuthName "Protected Area"
+    AuthUserFile /path/to/.htpasswd
+    Require valid-user
 
+    and .htpasswd file
 
 
 
