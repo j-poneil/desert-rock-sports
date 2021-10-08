@@ -53,10 +53,10 @@ export default function Home(){
                         <Jumbotron style={ welcomeStyles }>
                             <h3>Welcome to Desert Rock Sports</h3>
                             <p>
-                                the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for backpackers, climbers, canyoneers, cavers and other outdoor sports enthusiasts.
+                                the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for climbers, canyoneers, cavers, backpackers, and other outdoor sports enthusiasts.
                             </p>
                             <p>We carry top of the line technical gear and outdoor clothing not likely to be found anywhere else in the area.</p>
-                            <p>Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our wireless connection! We're here to help make your visit to Red Rock country a memorable one.</p>
+                            <p>Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our WIFI! We're here to help make your visit to the area a memorable one.</p>
                         </Jumbotron>
                     </Col>
                     <Col>
@@ -112,7 +112,7 @@ export default function Home(){
             
 
             <Container fluid>
-                {/* Contact Us / where you at info */}
+                {/* Contact Us info */}
                 <Contact />
             </Container>
             
