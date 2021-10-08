@@ -384,7 +384,7 @@ export const staff = [
     //         </>
     //     ),
     //     imgSrc: Roxanna,
-    //     ig: '',
+    //     ig: 'https://www.instagram.com/szutingyi/',
     //     site: '',
     //     youtube: '',
     //     active: true,
@@ -402,7 +402,7 @@ export const staff = [
     //         </>
     //     ),
     //     imgSrc: Roxanna,
-    //     ig: '',
+    //     ig: 'https://www.instagram.com/red_dome_digsby/',
     //     site: '',
     //     youtube: '',
     //     active: true,
