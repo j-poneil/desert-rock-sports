@@ -10,6 +10,9 @@ import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
 import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg'; // Josh Janes
 import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
 import Samantha from '../../img/RRCG/GuideBioImgs/Samantha_450w_450h.jpg';
+// import JoshD from ''; // Josh Diggs
+// import TingTing from '';
+// import ??? from '';
 
 // ! copy/pasted in from guides.js
 import Matt from '../../img/RRCG/GuideBioImgs/Matt_450w_450h.jpg';
@@ -369,5 +372,78 @@ export const staff = [
         active: true,
         isGuide: true,
         isRetail: false
-    }
+    },
+    // {
+    //     name: "Ting Ting",
+    //     position: "",
+    //     certs: "",
+    //     exp: "",
+    //     bio: () => (
+    //         <>
+    //             <p></p>
+    //         </>
+    //     ),
+    //     imgSrc: Roxanna,
+    //     ig: '',
+    //     site: '',
+    //     youtube: '',
+    //     active: true,
+    //     isGuide: true,
+    //     isRetail: false
+    // },
+    // {
+    //     name: "Josh Diggs",
+    //     position: "",
+    //     certs: "",
+    //     exp: "",
+    //     bio: () => (
+    //         <>
+    //             <p></p>
+    //         </>
+    //     ),
+    //     imgSrc: Roxanna,
+    //     ig: '',
+    //     site: '',
+    //     youtube: '',
+    //     active: true,
+    //     isGuide: true,
+    //     isRetail: false
+    // },
+    // {
+    //     name: "",
+    //     position: "",
+    //     certs: "",
+    //     exp: "",
+    //     bio: () => (
+    //         <>
+    //             <p></p>
+    //         </>
+    //     ),
+    //     imgSrc: Roxanna,
+    //     ig: '',
+    //     site: '',
+    //     youtube: '',
+    //     active: true,
+    //     isGuide: true,
+    //     isRetail: false
+    // }
+    // @ ============= Template Below (copy/paste) =================
+    // {
+    //     name: "",
+    //     position: "",
+    //     certs: "",
+    //     exp: "",
+    //     bio: () => (
+    //         <>
+    //             <p></p>
+    //         </>
+    //     ),
+    //     imgSrc: Roxanna,
+    //     ig: '',
+    //     site: '',
+    //     youtube: '',
+    //     active: true,
+    //     isGuide: true,
+    //     isRetail: false
+    // }
 ];
