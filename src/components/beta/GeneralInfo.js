@@ -211,7 +211,7 @@ export const generalInfo = {
             subSectionContent: () => (
                 <>
                     <Card.Subtitle>Wet Rock Issues</Card.Subtitle>
-                    <Card.Text>Wet Rock here is a big part of the local ethics, however, its such a large part that it deserves its own section. (more to be added, a lot more)</Card.Text>
+                    <Card.Text><a href="https://www.southernnevadaclimberscoalition.org/local-ethics/climbing-after-rain/" target="_blank" rel="noopener noreferrer">Climbing After Rain <FaExternalLinkAlt /></a> - The SNCC handles this topic very well. Its a huge issue in Red Rock. Read up!</Card.Text>
                 </>
             )
         }
