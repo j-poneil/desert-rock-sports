@@ -40,6 +40,9 @@ export default function Shop(){
                             <p>
                                 We pretty much always have stock of Red Rock: A Climbers Guide 2 by Jerry Handren, Southern Nevada Bouldering 2 by Tom Moulin, and Mojave Limestone by Jerry Handren... and if we run out we can get more fast since the authors are local. Please call us ahead of time to check on our stock of the other books listed below.
                             </p>
+                            <p>
+                                In the future we will set up a more featured shopping site where you can order many more products.
+                            </p>
                         </Jumbotron>
                     </Col>
 
