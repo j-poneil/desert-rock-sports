@@ -3,3 +3,8 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.html [QSA,L]
     AddType image/svg+xml .svg .svgz
+
+    AuthType Basic
+    AuthName "Protected Area"
+    AuthUserFile .htpasswd
+    Require valid-user
