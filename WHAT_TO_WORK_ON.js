@@ -224,7 +224,6 @@ todo - set the CSS background color ( iirc ) for each of the sub sections... ins
 todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????...
     * ... Really, the behavior currently isn't TERRIBLE. I just think it is. I. Me.
     * Realistically I can get back to this later. If that means copy/pasting in many files and places, well, oh well... more important to actually get the meat of the site out into a functional state.
-! - get into a groove
 todo - add a main background of some kind? Something to fit multiple sizes, maybe multiple images
 todo - find / implement section backgrounds
     * 94px high
