@@ -396,9 +396,11 @@ todo - add a DRS logo image to the 'branding' nav item / link
 
 
 @ RRResoles component / sub page ----------
-todo - add before/after photos as a gallery or carousel
-todo - use react-bootstrap Card components, Jumbotron, or w/e else
 todo - separate out into its own page... right of guiding. Probably.
+? - Maybe merge the images and main card into one and do something so images stay looking good no matter the size?
+? - Maybe merge prices and contact info?
+// todo - add some photos!
+// todo - use react-bootstrap Card components, Jumbotron, or w/e else
 // todo - set height: '100%' on all Card componets here
 // todo - fix width issue so it fills the same horizontal width / footprint as the sections before
 // todo - add react-bootstrap grid system
