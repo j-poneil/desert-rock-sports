@@ -386,10 +386,12 @@ todo - what content can go here ?
 
 
 @ Error page --------------------------------------
+! - add an OK to the background, maybe also a border, maybe box shadow
 todo - make a great one
     slightly random error page graphic/text?
     ladylockoff rope/gear art spelling 404 ? ha not a bad idea
     Some classic photo with abysmal gear placement?
+// todo - make a temp OK enough 404 page
 
 
 

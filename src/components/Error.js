@@ -1,5 +1,13 @@
 import React from 'react';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+
+// Images
+import Rope_404 from '../img/404_Rope_Cropped_1366x670.jpg';
+
 // styles here:
 // src\stylesheets\pages\_error.sass
 
@@ -18,10 +26,23 @@ export default function Error(){
 
             Should be zero scrolling regardless of screen size.
             */}
-            <div id="error">
-                404<br/>
-                File Not Found
-            </div>
+
+            {/* style={{'margin': '0 auto'}} */}
+            {/* Voodoo from stackoverflow in Image: className="d-block mx-auto img-fluid w-70" */}
+            <Container>
+                <Col className="m-auto">
+                <Image
+                    src={ Rope_404 }
+                    alt="404 - File Not Found"
+                    // style={{'margin': '0 auto'}}
+                    className="d-block mx-auto img-fluid w-70"
+                />
+                {/* <div id="error">
+                    404<br/>
+                    File Not Found
+                </div> */}  
+                </Col>
+            </Container>
         </div>
     );
 }
