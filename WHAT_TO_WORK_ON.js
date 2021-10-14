@@ -303,7 +303,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 todo - Fix TierCard.js photo credit overlay text
-todo - fix tier card img height on tier 3
+// todo - fix tier card img height on tier 3 -- by cropping them all to the same 741px height
 // todo - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?... this is nitpicky. Its fine the way it is.
 // todo - probably add some bar below everything that says that we can accomodate other complicated outings
 //     such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
