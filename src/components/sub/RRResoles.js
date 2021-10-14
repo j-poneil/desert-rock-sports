@@ -6,6 +6,10 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 
+// Images
+import Lynx from '../../img/RRR/Lynx_450x450.jpg';
+import Ganda from '../../img/RRR/Gandas_450x450.jpg';
+
 // ! no longer used
 // src\stylesheets\layout\_layout_containers.sass
 // src\stylesheets\components\_rrresoles.sass
@@ -15,12 +19,7 @@ const previousWorkStyles = { height: '100%' };
 const steveContactStyles = { height: '100%' };
 const pricesStyles = { height: '100%' };
 
-// I think it would be good to have 2-4 boxes
-// options
-// * Text description of what it is, how it works
-// * Cost tables, turn around time
-// * Img or gallery/carousel
-// * Contact info ???
+
 
 // IG feed embed for him would be great too, but IG embeds are now, after FB changes, a big hassle as I have noted elsewhere
 
@@ -48,7 +47,18 @@ function RRResoles() {
                         <Card.Img src="" alt="" />
                         <Card.Body>
                             <Card.Title>Previous Work:</Card.Title>
-                            <Card.Text>( a gallery or carousel of before/after images )</Card.Text>
+                            <Row
+                                style={{'width': '100%', 'margin': '0 auto'}}
+                                fluid
+                                xl={2} lg={2} md={1} sm={1} xs={1}
+                            >
+                                <Col>
+                                    <Image src={ Lynx } thumbnail />
+                                </Col>
+                                <Col>
+                                    <Image src={ Ganda } thumbnail />
+                                </Col>
+                            </Row>
                         </Card.Body>
                     </Card>
                     
