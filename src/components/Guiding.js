@@ -166,6 +166,7 @@ export default function Guiding(){
             </Jumbotron>
 
             <Container fluid>
+                {/* //! xxl={4} never applies, its broken */}
                 <Row xxl={4} xl={3} lg={2} md={2} sm={1} xs={1}>
                     { guideList }
                 </Row>
