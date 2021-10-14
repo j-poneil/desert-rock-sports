@@ -31,6 +31,9 @@ function App() {
       {/* Navbar here */}
       <Navbar />
 
+      {/* Hidden element, ONLY purpose is to make the mobile nav dropdown vs full screen nav be spaced properly */}
+      <div style={{'height': '56px', 'width': '100%'}} aria-hidden />
+
       {/* Switch is the container for all the other main page content, id="main-content" is for SR skip link*/}
       {/* since I have role="main" here I changed the overall enclosing tag from a main to a <>*/}
       <Switch id='main-content' role="main">

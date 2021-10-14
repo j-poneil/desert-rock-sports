@@ -19,7 +19,7 @@ import Nav from 'react-bootstrap/Nav';
 // ? fixed="top" in the NavbarRBS could be nice. BUT it would mean needing to add padding-top to the Switch or something to prevent it from cutting off the top content of all pages... so will go w/o for now.
 export default function Navbar(){
     return (
-        <NavbarRBS collapseOnSelect expand="lg" bg="light" varient="light" role="navigation" aria-label='Navigation Menu'>
+        <NavbarRBS collapseOnSelect expand="lg" bg="light" varient="light" role="navigation" aria-label='Navigation Menu' fixed='top'>
             <NavbarRBS.Brand href="/">
                 {/* <img
                     src="/logo.svg"

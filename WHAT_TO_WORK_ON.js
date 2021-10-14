@@ -380,12 +380,13 @@ todo - make a great one
 @ Header component ----------
 
 @ Navbar component ----------
-todo - fix small screen hamburger dropdown mixing with Splash / Hero image/text poorly
-    - it is due to the .splash-text css styling, position: absolute... mostly at least.
-    - maybe try fixing by replacing with react-bootstrap Jumbotron or a carousel... or maybe just a generic react-bootstrap Container
 todo - add a DRS logo image to the 'branding' nav item / link
-* - using fixed="top" on the NavbarRBS would necessitate adding padding-top to the Switch to prevent cutting off the top content of all pages... for now going to go w/o doing this, but something to keep in mind incase I decide to switch it up later on.
 ? - do I really want an external link icon for the gym???
+// todo - fix small screen hamburger dropdown mixing with Splash / Hero image/text poorly
+//     - it is due to the .splash-text css styling, position: absolute... mostly at least.
+//     - maybe try fixing by replacing with react-bootstrap Jumbotron or a carousel... or maybe just a generic react-bootstrap Container
+//     * - using fixed="top" on the NavbarRBS would necessitate adding padding-top to the Switch to prevent cutting off the top content of all pages... for now going to go w/o doing this, but something to keep in mind incase I decide to switch it up later on.
+//     - FIXED: did fixed="top" on NavbarRBS, and then made a hidden div in App.js with height of 56px
 // todo - add an "opens in a new tab" tooltip to gym link
 // todo - swap out with react-bootstrap NavBar and see how I like it...
 // todo - change the style of the nav links (stylesheets/layout/_navbar.sass)
@@ -393,7 +394,6 @@ todo - add a DRS logo image to the 'branding' nav item / link
     // remove default visited color (only for the nav at this time)
     // style hover and active together with a background and/or color change
     // style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
-
 
 @ RRResoles component / sub page ----------
 todo - separate out into its own page... right of guiding. Probably.
@@ -405,7 +405,6 @@ todo - separate out into its own page... right of guiding. Probably.
 // todo - fix width issue so it fills the same horizontal width / footprint as the sections before
 // todo - add react-bootstrap grid system
 // todo - make a basic skeleton frame one
-
 
 @ Footer component ----------
 ? - Do I even want to have one? I just commented it out in App.js for now...
