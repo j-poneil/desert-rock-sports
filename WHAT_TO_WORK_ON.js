@@ -114,6 +114,8 @@ todo - add some line somewhere saying that I coded this site, see my github here
     // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
 ? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card   components and/or rows in general since I have been using them sooo much... and the vertical spacing between rows has not been the greatest in some spots
+! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
+    https://react-bootstrap.github.io/layout/grid/#row-props
 // todo - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
 //     like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
 // todo - make/implement a proper favicon
@@ -195,13 +197,14 @@ todo - probably move nav link position of the 'About' page to just left of 'Shop
 
 
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
-todo - other sections in gear below the carousel
-todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we have, multiple shots, try to have most of the be the same aspect ratio to reduce the editing
+! - For early live - Photos smaller sizes and all same dimensions
+todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we have, multiple shots, try to have most of them be the same aspect ratio to reduce the editing
     todo - FOR FINAL PRODUCTION - edit good photos to all have the same aspect ratio. 1x and 2x pixel density. prob ~4:3 ???
     todo - FOR FINAL PRODUCTION - make smaller file sizes with different pixel densities too
     todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing temporary ones
 ? - what about a 3D google street style navigable thing? I think that would be so slick...
     * Either link to the one on google maps... or just have one instead of the carousel ???
+? - other sections in gear below the carousel?
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
 // todo - add carousel to gear page
 // todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
@@ -275,12 +278,13 @@ todo - fix section backgrounds. Need to be able to have multiple sizes for multi
 
 
 @ Guiding page ------------------------------------
-todo - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
-todo - Un-necessary hassle - dynamic climbing experience for the guides
-    add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
-todo - gallery or carousel of photos from guiding
+! - Wording EVERYWHERE, and trim down amount of text a bit
+! - gallery or carousel of photos from guiding
     everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
     AMBITIOUS option - My secret package for this
+todo - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
+todo - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
+    add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
 todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
     Implement skip to links
         tiers
@@ -288,19 +292,21 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         gallery
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
-todo - gallery or carousel of guiding photos? Gallery probably more convienient, since carousel mis-matched image sizes issues
-todo - trim down text, especially on R2C2 / how it works steps side
-todo - consider re-structuring...
+! - consider re-structuring...
     * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
     * THEN RRCG / How it Works Steps + About our guiding columns...
+    * THEN Pics from guided climbing outings
     * THEN Check out some of our guides, etc...
-todo - probably add some bar below everything that says that we can accomodate other complicated outings
-    such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
-todo - guide inquiry form
+! - Canyoneering, etc Tier 3 cards?
+! - guide inquiry form
     * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
-? - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?
+todo - Fix TierCard.js photo credit overlay text
+todo - fix tier card img height on tier 3
+// todo - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?... this is nitpicky. Its fine the way it is.
+// todo - probably add some bar below everything that says that we can accomodate other complicated outings
+//     such as huge groups, corporate outings, packages with photographer and/or pro climbers, etc... contact us and let us know what you are wanting to do. Also adventure hikes (bridge mtn), scouting descent routes, canyoneering rarely (the maze), bouldering guide (very uncommon), etc...
 // todo - Switch guide bios and guiding tiers... basically anywhere I parse HTML to just return a func which returns JSX instead.
 // todo - make the guide inquiry form and guiding waiver cards both the same height w/ style={{'height': '100%'}}
 // todo - build for production and see if the PDF link works, because it gives 404 in local server... did, then added .htaccess file to make routing work properly in general when hosted on dreamhost
@@ -343,21 +349,34 @@ todo - guide inquiry form
     What will it be?
     Options?
         Courtesy page for Steve's Red Rock Resoles?
-            All the info, prices, contact info, turn around time
+
         Weather?
-            Would need API access to probably multiple services, could maybe be a pain
+            Would need API access to probably multiple services, could maybe be a pain to keep working due to updates
+                Maybe argument for GraphQL?
             Would need historic past rainfall too, which may currently be off if that sensor is still broken at RRNCA
             ... would be pretty cool... but a TON of work to make it all look good
+            ... Thinking a row of Cards
+                first 3-4 are past weather (high/lo, rainfall, pic)
+                then a highlighted and labeled one TODAY (same info)
+                then 3-14? future forecasted days weather
+
         Something else?
             What?
-        Nothing. Get rid of it.
+                Nothing. Get rid of it.
 
 
 @ Shop page ---------------------------------------
-    Ambitious to have it all here and built in the same
-    More likely just link to a better than existing site re-made with a different provider, not the old school way the current one has it
-    That way get the established security and modern online checkout experience all in one...
-    * Link to it in the same way you link to the gym
+! - ADD link data thing for Mojave Limestone and Keyhole Canyon
+! - Add short descriptions for the books
+? - Is there any worth in a Row below everything? Maybe a ul of other books we often have in stock in store?
+// todo - added mt-3 mb-3 to main container to give some much needed separation
+// todo - Figure out a Fix for Big4 Img size... basically need a square img for best use...
+//     * other option is to add the buy buttons, etc to inside the main "We have the best local guidebooks..." Col...
+//         * Really... that is not a bad idea at all. Hmm
+//     * OR... add the Big 4 photo to that Col, and the buy buttons in their own Col next to it... so only a 2 Col layout.
+// SIDE PIC SMALL AND SUITABLE
+//     The group of 4 main books. The ones we will bother to sell online.
+// todo - put a very basic paypal enabled order system for the most popular guide books (copy/paste/trim code from old site)
 
 
 @ Secret page -------------------------------------
