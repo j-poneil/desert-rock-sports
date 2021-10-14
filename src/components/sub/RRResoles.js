@@ -9,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 // Images
 import Lynx from '../../img/RRR/Lynx_450x450.jpg';
 import Ganda from '../../img/RRR/Gandas_450x450.jpg';
+import LynxGandas from '../../img/RRR/LynxGandas_900x450.jpg';
 
 // ! no longer used
 // src\stylesheets\layout\_layout_containers.sass
@@ -26,7 +27,7 @@ const pricesStyles = { height: '100%' };
 function RRResoles() {
     return (
         <>
-            <Row xl={2} lg={2} md={1} sm={1} xs={1}>
+            <Row xl={2} lg={1} md={1} sm={1} xs={1}>
                 <Col className="mb-3">
                     <Card style={ rrResolesStyles }>
                         <Card.Body>
@@ -44,24 +45,8 @@ function RRResoles() {
                 </Col>
                 <Col className="mb-3">
                     <Card style={ previousWorkStyles }>
-                        <Card.Img src="" alt="" />
-                        <Card.Body>
-                            <Card.Title>Previous Work:</Card.Title>
-                            <Row
-                                style={{'width': '100%', 'margin': '0 auto'}}
-                                fluid
-                                xl={2} lg={2} md={1} sm={1} xs={1}
-                            >
-                                <Col>
-                                    <Image src={ Lynx } thumbnail />
-                                </Col>
-                                <Col>
-                                    <Image src={ Ganda } thumbnail />
-                                </Col>
-                            </Row>
-                        </Card.Body>
+                        <Card.Img src={ LynxGandas } alt="Freshly resoled pairs of climbing and approach shoes, looking sharp" fluid />
                     </Card>
-                    
                 </Col>
                 <Col className="mb-3">
                     <Card style= { pricesStyles }>
