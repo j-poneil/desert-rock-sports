@@ -65,13 +65,31 @@ https://nomadventures.com/
 =======================================================================================================
 
 @ index.html & other general stuff
-todo - email list?
+! - email list?
+    ( https://www.sendinblue.com/ )... better than mailchip maybe?
+    * Its easy to set up with a service, like the guiding form... they prob also have templates for emails to send
+    * We can give meaningful updates and news to locals who care, IE
+        * Crash pads in stock
+        * Totems in stock, cams, nuts
+        * Sweet new ropes in stock
+        * We are carrying the new ___ climbing shoe!
+        * Special event: bouldering comp, raffle, SNCC events, giveaway promotion, sales
+        * We now have more extensive online ordering
+        * Sweet item(s) in consignment (could be nice for like the $$$ tents, etc...)
+! - make/implement a BETTER favicon
+    Simple emoji, DRS, DR, or outline of mtns... ?
+    Implement, in multiple sizes
+        https://realfavicongenerator.net/ -- good
+! - For rough release - look over all files
+! - For rough release - full spelling/grammer check, have a few people proof it
+! - For rough release - test keyboard nav
 todo - some sort of server integration?
     Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
     The site reads/updates a DB, like firebase
     Then the deployed site gets updated values from firebase with fallbacks if no connection?
     ... actually maybe not firebase, since it would possibly cost... maybe a DB hosted at the same web host if it seems cheaper... MySQL maybe
 ? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site? Thus one messy object and then every file that needs data from it just imports what they need. That would really cut down on how much code there is in some of the files... but it just moves it to the object (or objects) hmm will have to think about it more
+    ? - short circuit / default setup, so that if something isn't specified in the obj, the default specified in the individual file is used
     * automatic hours true/false
         * manual hours set
         * automatic hours season1 set
@@ -79,10 +97,6 @@ todo - some sort of server integration?
     * Resole turn around time
     * Guide service pricing
     * phone numbers, emails, addresses?
-? - what about using a google spreadsheet to grab info from? Would worry of the cost due to number of requests? Is that a thing?
-    Different tabs/pages for updating different things
-        news stories
-        hours
 todo - FOR FINAL PRODUCTION - look over every file, make sure nothing obviously overlooked
 todo - FOR FINAL PRODUCTION - Full check of spelling and grammer, and multiple people looking over EVERYTHING
 todo - FOR FINAL PRODUCTION - SEO optimization... create-react-app does some basics, but I can certainly improve it more
@@ -102,12 +116,9 @@ todo - add more photos of the inside / outside of DRS
     canyoneering ropes, bags, critter, quicklinks, etc?
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
 todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
-todo - make/implement a BETTER favicon
-    Simple emoji, DRS, DR, or outline of mtns... ?
-    Implement, in multiple sizes
 todo - loading animations that I can use in various places
     Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
-? - should I move the resoles to its own page? I think I should
+? - should I move the resoles to its own page? Hmmm... I go back and forth on it
     ... but if I'm going to, I should make sure that the main content of the Home page is filled out a bit more and good on its own
 todo - add some line somewhere saying that I coded this site, see my github here etc...
     * Maybe a simple line at the very bottom of the home or about pages...
@@ -115,6 +126,7 @@ todo - add some line somewhere saying that I coded this site, see my github here
     // * OH, github link icon on about/guiding page for me
 ? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card   components and/or rows in general since I have been using them sooo much... and the vertical spacing between rows has not been the greatest in some spots
 ! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
+    * looks like when you inspect a page it doesn't show up as a global breakpoint option
     https://react-bootstrap.github.io/layout/grid/#row-props
 // todo - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
 //     like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
@@ -134,7 +146,11 @@ todo - other role="" to add for the future 'form'(subscribe to email, guiding in
 
 
 @ Home page ---------------------------------------
-todo - Instagram feed embed
+! - Meaningful news items
+    * We just got ______ items in stock!
+! - I think it would be cool if I had some big image between the DRS and R2C2 contact info
+    ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
+todo - AMBITIOUS - Instagram feed embed
     Apparently this is WAY harder than it used to be, due to recently increased security.
     Check your bookmarks, you made a folder with all the info you need to do it.
     Need a certain FB account, IG acct, verify stuff, Heroku acct, etc...
@@ -143,12 +159,9 @@ todo - Instagram feed embed
 todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
     - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
 todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
-todo - SNCC link / info?
 ? - should I add the parser to the news titles too?
 ? - should I implement date-fns on DRS hours?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
-? - I think it would be cool if I had some big image between the DRS and R2C2 contact info
-    ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
 // todo - in news, have the news stories content, be a func returning JSX so I can have that formatting w/o parsing HTML
 // todo - make the contact section cards the same height with style={{'height': '100%'}}
 // todo - fix the width problem
@@ -211,6 +224,8 @@ todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we ha
 
 
 @ Beta page ---------------------------------------
+% - This is an example of a great page linking to other sites for local info
+    * https://www.thedesertrat.net/localinfo
 todo - FOR FINAL PRODUCTION - Nice photos for the cards / section titles
     * Commision Ray to make some! His style is excellent
     * edit art credit on footer of Beta.js / have credit hidden in his art?
@@ -218,7 +233,6 @@ todo - FOR FINAL PRODUCTION - fill out the skip / skip to links for every single
 todo - FOR FINAL PRODUCTION - background for entire page?
 todo - fix the blue then image problem with the cards...
     pretty sure it has to do with me using img from an API, with a static img that we host, it shouldn't happen. I think.
-todo - adjust breakpoints once I have a bunch filled out
 todo - add something when you hover over the cards, like outline color change, lighten of background image, grayscale to color, etc...
     the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
 ? - should I wrap every external link icon in <sup>...</sup> ? Or use something else to make the icon smaller and up
@@ -240,7 +254,6 @@ todo - find / implement section backgrounds
         ? how to then make this behave as a section background? position and z-index?
 todo - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
 * - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
-
 // todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?... aria-hidden="true" ... hides the empty columns by not presenting them at all to screen readers, etc
 // todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
 // todo - fully switch over all the beta sections to the functional stateless component, AccordionOfAccordions
