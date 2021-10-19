@@ -76,10 +76,7 @@ https://nomadventures.com/
         * Special event: bouldering comp, raffle, SNCC events, giveaway promotion, sales
         * We now have more extensive online ordering
         * Sweet item(s) in consignment (could be nice for like the $$$ tents, etc...)
-! - make/implement a BETTER favicon
-    Simple emoji, DRS, DR, or outline of mtns... ?
-    Implement, in multiple sizes
-        https://realfavicongenerator.net/ -- good
+
 ! - For rough release - look over all files
 ! - For rough release - full spelling/grammer check, have a few people proof it
 ! - For rough release - test keyboard nav
@@ -128,6 +125,10 @@ todo - add some line somewhere saying that I coded this site, see my github here
 ! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
     * looks like when you inspect a page it doesn't show up as a global breakpoint option
     https://react-bootstrap.github.io/layout/grid/#row-props
+// todo - make/implement a BETTER favicon
+//     Simple emoji, DRS, DR, or outline of mtns... ?
+//     Implement, in multiple sizes
+//         https://realfavicongenerator.net/ -- good
 // todo - maybe combine guides and staffList into one...? Control what shows up where with new keys and values
 //     like isAGuide: true/false, worksInTheShop: true/false - any downside? I'm using the same pics, a lot of the same text, links... makes sense to combine to me...
 // todo - make/implement a proper favicon
@@ -380,8 +381,13 @@ todo - Fix TierCard.js photo credit overlay text
 
 @ Shop page ---------------------------------------
 ! - ADD link data thing for Mojave Limestone and Keyhole Canyon
-! - Add short descriptions for the books
 ? - Is there any worth in a Row below everything? Maybe a ul of other books we often have in stock in store?
+? - Alignment...
+    Title center, Author center as subtitle
+    hr, Subtitle tagline, paragraph or two of what it covers --- all left aligned
+    Price, button... currently center
+    * would the price/button be better on the right?
+// todo - Add short descriptions for the books
 // todo - added mt-3 mb-3 to main container to give some much needed separation
 // todo - Figure out a Fix for Big4 Img size... basically need a square img for best use...
 //     * other option is to add the buy buttons, etc to inside the main "We have the best local guidebooks..." Col...
