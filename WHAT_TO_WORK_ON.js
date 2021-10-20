@@ -166,8 +166,26 @@ todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with 
 ? - should splash background image corners be rounded consistent with other images on home page?
     *If so, in Splash.js, put everything in a Card component and change img to Card.Img
 ! - splash background image should no stretch/shrink on horizontal axis with different screen sizes
-! - Title and text need to resize better for smaller screens
+! - Title and text need to resize better for smaller screens... but also for MUCH bigger screens.
 todo - an indicator that you should scroll down should be added
+? - Should image be edge to edge ... edgy... hero image?
+todo - Hero Image / Title / Etc..
+    * Hero image/section notes
+        - NAME
+        - WHAT ITS ABOUT
+        - WHY YOU SHOULD CARE / WHAT IT CAN DO FOR YOU
+        - (USUALLY: Button/link to do something)
+    * Figured it out... do old style with
+            div position relative
+                img width 100% height auto
+                text position absolute -- absolute within the bounds of the parent element -- that is the key
+        Can stack multiple adjacent children of the parent element by specifying their position absolute and left / top the same
+        Then use transparency and z-stack height
+    ! on very small screens, iPhone, all phones, really... text invert box overflows edges
+    ! on very small screens, card margin to edge of screens in larger on right side for some reason
+    ! nexus 10... edge cuts off cards for some reason
+    // todo - large sizes... hero Image no longer fits 100%
+    //     fixed by using width: 100%, height: auto... instead of just fluid prop
 // todo - Images should probably be in Card.Img components so that their corners are rounded consistent with the other card components on the site
 //     putting them as a Card.Img inside a Card did the trick nicely
 // todo - in news, have the news stories content, be a func returning JSX so I can have that formatting w/o parsing HTML
