@@ -163,6 +163,13 @@ todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with 
 ? - should I add the parser to the news titles too?
 ? - should I implement date-fns on DRS hours?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
+? - should splash background image corners be rounded consistent with other images on home page?
+    *If so, in Splash.js, put everything in a Card component and change img to Card.Img
+! - splash background image should no stretch/shrink on horizontal axis with different screen sizes
+! - Title and text need to resize better for smaller screens
+todo - an indicator that you should scroll down should be added
+// todo - Images should probably be in Card.Img components so that their corners are rounded consistent with the other card components on the site
+//     putting them as a Card.Img inside a Card did the trick nicely
 // todo - in news, have the news stories content, be a func returning JSX so I can have that formatting w/o parsing HTML
 // todo - make the contact section cards the same height with style={{'height': '100%'}}
 // todo - fix the width problem

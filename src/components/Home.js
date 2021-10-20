@@ -60,8 +60,9 @@ export default function Home(){
                         </Jumbotron>
                     </Col>
                     <Col>
-                        {/* <img className="temp" src='https://via.placeholder.com/500x400' alt="placeholder"/> */}
-                        <Image src={ Pickles } fluid alt="pickles-placeholder" style={ picklesStyles } />
+                        <Card>
+                            <Card.Img src={ Pickles } fluid alt="pickles-placeholder" style={ picklesStyles } />
+                        </Card>
                     </Col>
                 </Row>
             </Container>
@@ -71,7 +72,9 @@ export default function Home(){
             <Container fluid className="mt-3 mb-3">
                 <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
-                        <Image src={ SufferPup } fluid alt="simba-placeholder" style={ sufferPupStyles } />
+                        <Card>
+                            <Card.Img src={ SufferPup } fluid alt="simba-placeholder" style={ sufferPupStyles } />
+                        </Card>
                     </Col>
                     <Col>
                         <News />
@@ -94,7 +97,9 @@ export default function Home(){
                         </Jumbotron>
                     </Col>
                     <Col>
-                        <Image src={ FyfeBouldering } fluid alt="bouldering-placeholder" style={ fyfeBoulderingStyles } />
+                        <Card>
+                            <Card.Img src={ FyfeBouldering } fluid alt="bouldering-placeholder" style={ fyfeBoulderingStyles } />
+                        </Card>
                     </Col>
                 </Row>
             </Container>
