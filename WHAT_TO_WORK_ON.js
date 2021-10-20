@@ -199,12 +199,13 @@ todo - an indicator that you should scroll down should be added
 
 
 @ About page --------------------------------------
-todo - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
+! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
 todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, but a simple CSS color transition would be fine too
 ? - a section on its own for the 3 owners???
 todo - THEN below it current (and past?) employees
 ? - what about short reviews from patrons like James W?
 todo - probably move nav link position of the 'About' page to just left of 'Shop'
+// todo - suitable enough for now side image
 // todo - go from parsing HTML for the bios to having a func return JSX
 // todo - See if instead of parsing HTML I can do the bio value in the object as a function returning JSX / A component w/HTML.. I can
 // todo - use style={{'height': '100%'}} to make all the staff Card components the same size for any given row config for whatever display

@@ -15,6 +15,9 @@ import Image from 'react-bootstrap/Image';
 import { staff } from './data/staffList';
 import { Jumbotron } from 'react-bootstrap';
 
+// side img, etc
+import Cat_medium from '../img/About/Cat_medium.jpg';
+
 // styles here:
 // src\stylesheets\pages\_about.sass
 
@@ -84,9 +87,7 @@ export default function About(){
                 </Col>
                 <Col className="mb-3">
                     <Card style={{'height': '100%'}}>
-                        <Card.Body>
-                            <Card.Img src='https://via.placeholder.com/500x400' alt="The OG DRS crew" />
-                        </Card.Body>
+                        <Card.Img src={ Cat_medium } alt="Stuffed animal hanging out in a sandstone nook" />
                     </Card>
                 </Col>
                 <Col className="mb-3">
