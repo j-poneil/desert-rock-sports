@@ -6,6 +6,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Image(s)
+import Vellinga5 from '../../img/Splash/Vellinga5_1619x1080.jpg';
+import Vellinga6 from '../../img/Splash/vellinga6_crop_1713x1080.jpg';
+import Vellinga6_2 from '../../img/Splash/vellinga6_crop2_1709x1080.jpg';
 
 // TEMPORARY IMAGE for mocking up
 import splashImgCanyon from '../../img/temp/canyon_hd.jpg';
@@ -50,26 +53,29 @@ const splashTextStyles = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     backdropFilter: 'blur(5px) invert(1)',
-    paddingLeft: '30px',
-    paddingRight: '30px',
-    borderRadius: '20px',
-    color: 'black',
-    // stroke/outline attempts
-    webkitTextFillColor: 'white',
-    webkitTextStrokeWidth: '1px',
-    webkitTextStrokeColor: 'black'
+    // paddingLeft: '10px',
+    // paddingRight: '10px',
+    borderRadius: '10px',
+    color: 'white'
+    // color: 'black',
+    // stroke/outline attempts... stroke is not official so shouldn't use it on live sites...
+    // webkitTextFillColor: 'white',
+    // webkitTextStrokeWidth: '2px',
+    // webkitTextStrokeColor: 'black'
 };
+// original for ref
+// fontSize: 'calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))'
 const splashTitleStyles = {
     // 2em works well for smallest screen
     // fontSize: 'calc(1rem + 3vw)' --- works well
     // fontSize: 'calc(1rem + 3vw)'
-    fontSize: 'calc(14px + (48 - 18) * ((100vw - 300px) / (1600 - 300)))'
+    fontSize: 'calc(24px + (64 - 24) * ((100vw - 300px) / (1600 - 300)))',
 };
 const splashSubTitleStyles = {
     // 1em works well-enough, kinda for smallest screen
     // fontSize: 'calc(1rem + 1vw)' --- works pretty well
     // fontSize: 'calc(1rem + 1vw)'
-    fontSize: 'calc(14px + (34 - 14) * ((100vw - 300px) / (1600 - 300)))'
+    fontSize: 'calc(12px + (50 - 12) * ((100vw - 300px) / (1600 - 300)))',
 };
 
 // Variation on old way, but in-file styles
@@ -79,15 +85,26 @@ export default function Splash(){
             <Image
                 // fluid
                 style={ splashImageStyles }
-                src={ splashImgCanyon }
-                alt="splash-img_canyon"
+                src={ Vellinga6_2 }
+                alt="Amazing photo of Red Rock Canyon by Trevor Vellinga"
             />
             <div style={ splashTextStyles } >
                 {/* //% can use &nbsp; to control text-wrap on small screens */}
                 <h1 style={ splashTitleStyles } >Desert&nbsp;Rock&nbsp;Sports</h1>
                 {/* <p style={ splashSubTitleStyles } >- Climbing - Canyoneering - Hiking - Camping -</p> */}
-                <p style={ splashSubTitleStyles } >Climbing&nbsp;-&nbsp;Canyoneering&nbsp;-&nbsp;Hiking&nbsp;-&nbsp;Camping</p>
+                <p style={ splashSubTitleStyles } >Climbing&nbsp;-&nbsp;Canyoneering&nbsp;- Hiking&nbsp;-&nbsp;Camping</p>
+                
             </div>
+            <p
+                style={{
+                    'position': 'absolute',
+                    'right': '5px',
+                    'bottom': '0',
+                    'color': 'white'
+                }}
+            >
+                Photo credit: Trevor Vellinga
+            </p>
         </div>
     );
 }
