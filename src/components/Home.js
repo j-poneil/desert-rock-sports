@@ -45,7 +45,8 @@ const sufferPupStyles = { width: '100%' };
 export default function Home(){
     return (
         <Container fluid>
-            <Container fluid>
+            {/* Container fluid */}
+            <Container fluid >
                 <Splash />
             </Container>
 
