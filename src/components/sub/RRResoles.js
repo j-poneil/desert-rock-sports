@@ -31,13 +31,13 @@ function RRResoles() {
                 <Col className="mb-3">
                     <Card style={ rrResolesStyles }>
                         <Card.Body>
-                            <Card.Title>Red Rock Resoles</Card.Title>
-                            <Card.Subtitle>Steve Krall</Card.Subtitle>
+                            <Card.Title className='text-center' as='h1'>Red Rock Resoles</Card.Title>
+                            {/* <Card.Subtitle className='text-center' as='h4'>Steve Krall</Card.Subtitle> */}
                             <Card.Text>
-                                <h1>Get some fresh rubber on those shoes!</h1>
-                                <p>Steve Krall is now your source for a Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time. You don't even need to ship them out!</p>
-                                <h3>How it works:</h3>
-                                <p>Drop them off at the convient box in Desert Rock Sports (other locations exist too!). Text Steve the make/model and size of each pair that you drop off, take a picture too if you would like. Thats it!</p>
+                                <h2 className='text-center'>Get some fresh rubber on those shoes!</h2>
+                                <p><strong>Steve Krall</strong> is now your Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time (4-5wks). You don't even need to ship them out!</p>
+                                <h3 className='text-center'>How it works:</h3>
+                                <p>Drop them off at the convient box in Desert Rock Sports. Text Steve the make/model and size of each pair that you drop off, take a picture too if you would like. Thats it!</p>
                                 <p>Just wait to hear back from him about what he thinks the shoes need and the cost, then you pay him with cash, check, or venmo (@resoleSteve), and he drops them back off at Desert Rock Sports when they are finished. (He can ship too if needed).</p>
                             </Card.Text>
                         </Card.Body>
