@@ -36,7 +36,7 @@ export default function Shop(){
     return (
         <div>
             {/*
-                In the future, not a page/component, just a link to a separate secure shopping portal.
+                //! In the future, not a page/component, just a link to a separate secure shopping portal.
             */}
             <Container fluid className="mt-3 mb-3">
                 <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1} >
@@ -65,7 +65,7 @@ export default function Shop(){
                                                     <p>In glorious color. There has been a reprinting with a new cover image and minor changes, but its still the 2nd Edition.</p>
                                                     <p>
                                                         {/* RR A Climbers Guide 2 order button*/}
-                                                        <form className='text-center' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                                             <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
                                                             <input type="hidden" name="cmd" value="_s-xclick" />
                                                             <input type="hidden" name="hosted_button_id" value="WU4XDHLKDL5P4" />
@@ -91,7 +91,7 @@ export default function Shop(){
                                                     <p>Covers many nearby areas, mostly sandstone, some limestone. Much easier to navigate to your obscure boulders when you have a map. This is the 2nd Edition.</p>
                                                     <p>
                                                         {/* SN Bouldering 2 order button*/}
-                                                        <form className='text-center' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                                             <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
                                                             <input type="hidden" name="cmd" value="_s-xclick" />
                                                             <input type="hidden" name="hosted_button_id" value="LN2BBTL6XCPXN" />
@@ -118,7 +118,7 @@ export default function Shop(){
                                                     <p>This new book makes the out of print Islands in the Sky guide very obsolete.</p>
                                                     <p>
                                                         {/* Mojave Limestone */}
-                                                        <form className='text-center' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                                             <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
                                                             <input type="hidden" name="cmd" value="_s-xclick" />
                                                             <input type="hidden" name="hosted_button_id" value="" /> {/* //! add value */}
@@ -144,7 +144,7 @@ export default function Shop(){
                                                     <p>Great option for those who will only have a limited time in the area or those trying to find spots to set up top ropes for partners who can't be trusted to belay them, or when they are finding areas to top rope solo at.</p>
                                                     <p>
                                                         {/* Fun Climbs RR top ropes and moderates */}
-                                                        <form className='text-center' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                                             <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
                                                             <input type="hidden" name="cmd" value="_s-xclick" />
                                                             <input type="hidden" name="hosted_button_id" value="KRQW8B9PPX7F6" />
@@ -170,7 +170,7 @@ export default function Shop(){
                                                     <p>This area is an excellent option to check out if Red Rock Canyon is wet! Their annual Keyhole Classic is a party you don't want to miss!</p>
                                                     <p>
                                                         {/* Keyhole Canyon */}
-                                                        <form className='text-center' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                                             <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
                                                             <input type="hidden" name="cmd" value="_s-xclick" />
                                                             <input type="hidden" name="hosted_button_id" value="" /> {/* //! add value */}
@@ -203,7 +203,9 @@ export default function Shop(){
                     </Col>
 
                     <Col>
-                        <Image src={ Big4 } alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin" fluid style={ guideBooksAsideStyles } />
+                        <Card>
+                            <Card.Img src={ Big4 } alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin" fluid style={ guideBooksAsideStyles } />
+                        </Card>
                     </Col>
                 </Row>
                 
@@ -211,7 +213,7 @@ export default function Shop(){
             
             {/* Other book buy now button template */}
             {/* //! add value="" part */}
-            {/* <form className='text-center' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            {/* <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
                 <input type="hidden" name="cmd" value="_s-xclick" />
                 <input type="hidden" name="hosted_button_id" value="" />

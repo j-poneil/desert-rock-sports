@@ -388,12 +388,14 @@ todo - Fix TierCard.js photo credit overlay text
 
 @ Shop page ---------------------------------------
 ! - ADD link data thing for Mojave Limestone and Keyhole Canyon
-? - Is there any worth in a Row below everything? Maybe a ul of other books we often have in stock in store?
-? - Alignment...
-    Title center, Author center as subtitle
-    hr, Subtitle tagline, paragraph or two of what it covers --- all left aligned
-    Price, button... currently center
-    * would the price/button be better on the right?
+! - ADD current prices
+! - ADD a note on shipping pricing????
+// todo - make the image be a Card.Img inside a Card component for consistent corner rounding
+// todo - Alignment...
+//     Title center, Author center as subtitle
+//     hr, Subtitle tagline, paragraph or two of what it covers --- all left aligned
+//     Price, button... currently center
+//     * would the price/button be better on the right?
 // todo - Add short descriptions for the books
 // todo - added mt-3 mb-3 to main container to give some much needed separation
 // todo - Figure out a Fix for Big4 Img size... basically need a square img for best use...
