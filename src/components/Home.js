@@ -14,6 +14,9 @@ import News from './sub/News';
 import RRResoles from './sub/RRResoles';
 import Contact from './sub/Contact';
 
+// Images
+import Julie from '../img/HomePage/Julie_medium.jpg';
+
 // TEMP IMAGES for mocking up only
 import Pickles from '../img/temp/Pickles_900x600.jpg';
 import SufferPup from '../img/temp/SufferPup_900x600.jpg';
@@ -30,7 +33,6 @@ const boulderingJumbotronStyle = { height: '100%' };
 
 const picklesStyles = { width: '100%' };
 const sufferPupStyles = { width: '100%' };
-const fyfeBoulderingStyles = { width: '100%' };
 
 
 
@@ -88,17 +90,17 @@ export default function Home(){
                 <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
                         <Jumbotron style={ boulderingJumbotronStyle }>
-                            <h3>Yes! We rent Bouldering Pads!</h3>
+                            <h3 className='text-center'>Yes! We rent Bouldering Pads!</h3>
                             <p>Regular size $15/day, XL $25/day</p>
                             <p>We don't do reservations anymore, but our fleet is now so large that we almost never run out.</p>
                             <p>(Stop calling us to check if we have them. Yes, we have them.)</p>
                             <p>We rent by the day, not per 24h... but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
-                            <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open and make sure to write down your name and staple it to the pad so we can shread up your paperwork when we get the pad back.</p>
+                            <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open and make sure to write down your name and staple it to the pad so we can shred up your paperwork when we get the pad back.</p>
                         </Jumbotron>
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img src={ FyfeBouldering } fluid alt="bouldering-placeholder" style={ fyfeBoulderingStyles } />
+                            <Card.Img src={ Julie } fluid alt="Julie crushing the boulder roof crack known as Born to Bleed" />
                         </Card>
                     </Col>
                 </Row>
