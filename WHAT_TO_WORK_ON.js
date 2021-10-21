@@ -127,6 +127,17 @@ todo - add some line somewhere saying that I coded this site, see my github here
     * I should be able to add it
     * I have a feeling like I may need to add an xxs one too... hmm
     https://react-bootstrap.github.io/layout/grid/#row-props
+! - Since I have messed with some overall padding and margin settings, I need to go back through the site and get everything spaced evenly again
+! - Play with overall colors
+    Darker Nav
+        Lighter Title text
+        Not as light menu text?
+    Darker than that overall default page BG
+    * Cards that tend too have too much dead white space don't look good... but they are fine when they are filled with text
+        EX. About > How they met... looks bad
+            - add subtitles, more text
+        EX. About > JJ Card... looks good
+
 // todo - make/implement a BETTER favicon
 //     Simple emoji, DRS, DR, or outline of mtns... ?
 //     Implement, in multiple sizes
@@ -186,6 +197,13 @@ todo - OK ENOUGH FOR NOW - but later...
     ! nexus 10... edge cuts off cards for some reason
     % lazy fix would be... With a suitable hero image, just edit the text into the actual image...
         % probably not as good for SEO though
+    * If I want parallax... or fixed position backgrounds with stuff moving in front
+            Its easier if I use CSS set backgroundImage...
+            A harder way that can work with conventional images is using JS...
+            BUT it is possible w/ conventional images and CSS only... and isn't THAT hard.
+                https://keithclark.co.uk/articles/pure-css-parallax-websites/
+                https://keithclark.co.uk/articles/practical-css-parallax/
+
 // todo - Hero image should be edge to edge ... edgy... hero image
 //     in the overall container AND Splash container added className='pl-0 pr-0' to fix
     // todo - on very small screens, iPhone, all phones, really... text invert box overflows edges
@@ -228,6 +246,7 @@ todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, b
 todo - THEN below it current (and past?) employees
 ? - what about short reviews from patrons like James W?
 todo - probably move nav link position of the 'About' page to just left of 'Shop'
+! - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...    
 // todo - suitable enough for now side image
 // todo - go from parsing HTML for the bios to having a func return JSX
 // todo - See if instead of parsing HTML I can do the bio value in the object as a function returning JSX / A component w/HTML.. I can
@@ -349,6 +368,8 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 todo - Fix TierCard.js photo credit overlay text
+! - Add Ting-Ting, Josh Diggs
+! - Work on everyones bio lengths
 // todo - fix tier card img height on tier 3 -- by cropping them all to the same 741px height
 // todo - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?... this is nitpicky. Its fine the way it is.
 // todo - probably add some bar below everything that says that we can accomodate other complicated outings
