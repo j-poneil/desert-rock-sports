@@ -29,6 +29,7 @@ export default function Error(){
 
             {/* style={{'margin': '0 auto'}} */}
             {/* Voodoo from stackoverflow in Image: className="d-block mx-auto img-fluid w-70" */}
+            {/* Container fluid is an option */}
             <Container>
                 <Col className="m-auto">
                 <Image
@@ -36,6 +37,8 @@ export default function Error(){
                     alt="404 - File Not Found"
                     // style={{'margin': '0 auto'}}
                     className="d-block mx-auto img-fluid w-70"
+                    rounded
+                    style={{'border': '5px solid black'}}
                 />
                 {/* <div id="error">
                     404<br/>
