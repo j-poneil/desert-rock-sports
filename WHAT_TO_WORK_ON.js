@@ -124,6 +124,8 @@ todo - add some line somewhere saying that I coded this site, see my github here
 ? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card   components and/or rows in general since I have been using them sooo much... and the vertical spacing between rows has not been the greatest in some spots
 ! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
     * looks like when you inspect a page it doesn't show up as a global breakpoint option
+    * I should be able to add it
+    * I have a feeling like I may need to add an xxs one too... hmm
     https://react-bootstrap.github.io/layout/grid/#row-props
 // todo - make/implement a BETTER favicon
 //     Simple emoji, DRS, DR, or outline of mtns... ?
@@ -168,7 +170,6 @@ todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with 
 ! - splash background image should no stretch/shrink on horizontal axis with different screen sizes
 ! - Title and text need to resize better for smaller screens... but also for MUCH bigger screens.
 todo - an indicator that you should scroll down should be added
-? - Should image be edge to edge ... edgy... hero image?
 todo - OK ENOUGH FOR NOW - but later...
     * Hero image/section notes
         - NAME
@@ -185,6 +186,8 @@ todo - OK ENOUGH FOR NOW - but later...
     ! nexus 10... edge cuts off cards for some reason
     % lazy fix would be... With a suitable hero image, just edit the text into the actual image...
         % probably not as good for SEO though
+// todo - Hero image should be edge to edge ... edgy... hero image
+//     in the overall container AND Splash container added className='pl-0 pr-0' to fix
     // todo - on very small screens, iPhone, all phones, really... text invert box overflows edges
     // todo - large sizes... hero Image no longer fits 100%
     //     fixed by using width: 100%, height: auto... instead of just fluid prop

@@ -41,12 +41,12 @@ const sufferPupStyles = { width: '100%' };
 // className="mt-3 mb-3" is used on every Container for some much needed spacing between components/elements/sections
 // ? should i change the horizontal spacing between cols?
 
-
+// style={{'paddingLeft': '0', 'paddingRight': '0'}} ====> className='pl-0 pr-0'
 export default function Home(){
     return (
-        <Container fluid>
+        <Container fluid className='pl-0 pr-0'>
             {/* Container fluid */}
-            <Container fluid >
+            <Container fluid className='pl-0 pr-0'>
                 <Splash />
             </Container>
 
