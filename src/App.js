@@ -21,9 +21,24 @@ import Secret from './components/Secret';
 import Error from './components/Error';
 
 
+// overall background photo
+import dead_tree_med from './img/BackgroundImages/dead_tree_med.jpg';
+import rope_med from './img/BackgroundImages/rope_med.jpg';
+import plumbers_med from './img/BackgroundImages/plumbers_med.jpg';
+import skyline_med from './img/BackgroundImages/skyline_med.jpg';
+import sandstone_texture_med from './img/BackgroundImages/sandstone_texture_med.jpg';
+
+// background styling
+const backgroundStyles = {
+  backgroundImage: `url(${ sandstone_texture_med })`,
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover'
+};
+
 function App() {
   return (
-    <>
+    <div style={ backgroundStyles }>
       {/* //@ test to make sure this works... if I remove sr-only, it is visible */}
       <a id='skip-nav' class="sr-only sr-only-focusable" href='#main-content'>Skip Navigation</a>
 
@@ -52,7 +67,7 @@ function App() {
 
       {/* Footer here //! DISABLED FOR NOW */}
       {/* <Footer /> */}
-    </>
+    </div>
   );
 }
 

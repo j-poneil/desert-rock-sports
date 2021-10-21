@@ -138,7 +138,7 @@ export default function Beta(){
     return (
         // style={ backgroundStyles }
         // Container fluid
-        <Container fluid style={ backgroundStyles }>
+        <Container fluid>
             {/* //@ SR skip / get to quick links */}
             {/* //! Makes sense to hold off on filling this out until the content is in sub-components */}
             <a id='skip-to-RR-general-info' class="sr-only sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
