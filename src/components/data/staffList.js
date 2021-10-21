@@ -37,7 +37,7 @@ export const staff = [
         exp: "",
         bio: () => (
             <>
-                <p>continues to be the store buyer and manager. He is the person you will most likely see or talk to on the phone. He is a wealth of information about outdoor gear and the local climbing routes. The store is small, but Travis makes sure the store is well stocked in gear, shoes and clothing for camping, backpacking and canyoneering, as well as for climbing.</p>
+                <p>Continues to be the store buyer and manager. He is the person you will most likely see or talk to on the phone. He is a wealth of information about outdoor gear and the local climbing routes. The store is small, but Travis makes sure the store is well stocked in gear, shoes and clothing for camping, backpacking and canyoneering, as well as for climbing.</p>
             </>
         ),
         imgSrc: TG,
@@ -55,7 +55,7 @@ export const staff = [
         exp: "",
         bio: () => (
             <>
-                <p>who came to Las Vegas from New York about ten years ago, enjoys hiking, skiing, snowboarding and climbing. Mike is also a student of Yoga. Mike says that Yoga has given him the flexibility and strength he needs for climbing.</p>
+                <p>Came to Las Vegas from New York about ten years ago, enjoys hiking, skiing, snowboarding and climbing. Mike is also a student of Yoga. Mike says that Yoga has given him the flexibility and strength he needs for climbing.</p>
             </>
         ),
         imgSrc: Mike,
@@ -73,7 +73,7 @@ export const staff = [
         exp: "",
         bio: () => (
             <>
-                <p>has a background in finance and helps with the bookkeeping. He has been climbing since 1979 and has lived in Las Vegas for 22 years. Steve recently developed a passion for canyoneering and has added Imlay Canyon Gear, static rope and the La Sportiva Exum River Shoe, to the store's inventory.</p>
+                <p>Has a background in finance and helps with the bookkeeping. He has been climbing since 1979 and has lived in Las Vegas for 22 years. Steve recently developed a passion for canyoneering and has added Imlay Canyon Gear, static rope and the La Sportiva Exum River Shoe, to the store's inventory.</p>
                 <p>Canyoneering in Zion is a great way to beat the heat in Las Vegas during the summer months!</p>
             </>
         ),
@@ -158,10 +158,11 @@ export const staff = [
         exp: "10+ years, 5 guiding",
         bio: () => (
             <>
-                <p>Originally from the humidity and short polished limestone of ATX and the JTree-like granite of Enchanted Rock... once he got a taste of what the great sandstone of Red Rock could offer, he knew he had to make it his home.</p>
-                <p>Loves easy multipitch, cracks, offwidths. Does a lot of hiking and trail running.</p>
-                <p>Total gear nerd.</p>
+                <p>Originally from the humidity and short polished limestone of ATX and the JTree-like granite of Enchanted Rock... Once he got a taste of what the great sandstone of Red Rock could offer, he knew he had to make it his home.</p>
+                <p>Loves easy multipitch trad, cracks, offwidths. Does a lot of hiking and trail running.</p>
+                <p>Total gear nerd. Familiar with soooo many different pieces of esoteric climbing gear. Good with knots.</p>
                 <p>Coded this site. Also sews.</p>
+                <p>You can rarely convince him to do custom sewn things like bolting and re-bolting bags, bike frame packs, and minor gear repairs and modifications so long as they are not complicated to get under the foot of his mini-industrial sewing machine.</p>
             </>
         ),
         imgSrc: T2,
@@ -299,7 +300,7 @@ export const staff = [
         ig: "https://www.instagram.com/mattkuehlphoto/",
         site: 'https://www.mattkuehlphoto.com/',
         youtube: 'https://www.youtube.com/user/sometimesmatt',
-        active: true,
+        active: false,
         isGuide: true,
         isRetail: false
     },
