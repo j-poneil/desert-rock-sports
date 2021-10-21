@@ -306,6 +306,7 @@ todo - find / implement section backgrounds
 todo - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
 * - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
 ! - set my art credit link to me... not google lol
+! - add margin to the bottom... should help it look better, I think
 // todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?... aria-hidden="true" ... hides the empty columns by not presenting them at all to screen readers, etc
 // todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
 // todo - fully switch over all the beta sections to the functional stateless component, AccordionOfAccordions
