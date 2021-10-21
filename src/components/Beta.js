@@ -37,6 +37,13 @@ import Verm from '../img/secret/the_verm.jpg';
 // import ___ from '../img/accordionBgs/____';
 // import Temp1 from '../img/temp/artsfon.com-42873.jpg';
 
+// overall background photo
+import dead_tree_med from '../img/BackgroundImages/dead_tree_med.jpg';
+import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import plumbers_med from '../img/BackgroundImages/plumbers_med.jpg';
+import skyline_med from '../img/BackgroundImages/skyline_med.jpg';
+import sandstone_texture_med from '../img/BackgroundImages/sandstone_texture_med.jpg';
+
 //@ Lodging / Camping / Logistics
 //@ Food
 //@ Other Outdoor
@@ -119,10 +126,19 @@ Maybe better to keep the Card/Section title, and just open/close the accordion g
 
 */
 
+// background styling
+const backgroundStyles = {
+    backgroundImage: `url(${ sandstone_texture_med })`,
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
+};
 
 export default function Beta(){
     return (
-        <Container fluid>
+        // style={ backgroundStyles }
+        // Container fluid
+        <Container fluid style={ backgroundStyles }>
             {/* //@ SR skip / get to quick links */}
             {/* //! Makes sense to hold off on filling this out until the content is in sub-components */}
             <a id='skip-to-RR-general-info' class="sr-only sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
