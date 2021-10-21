@@ -38,7 +38,8 @@ const backgroundStyles = {
 
 function App() {
   return (
-    <div style={ backgroundStyles }>
+    // style={ backgroundStyles }
+    <div>
       {/* //@ test to make sure this works... if I remove sr-only, it is visible */}
       <a id='skip-nav' class="sr-only sr-only-focusable" href='#main-content'>Skip Navigation</a>
 
