@@ -71,6 +71,18 @@
      -->
   </head>
   <body>
+    <style>
+      body {
+        /* CSS background generated at https://www.magicpattern.design/tools/css-backgrounds */
+        background-color: #e5e5f7;
+        opacity: 1;
+        background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 40px ), repeating-linear-gradient( #ff3d0055, #ff3d00 );
+        /* background-attachment: fixed === ensures that the background reaches all edges of the screen w/o repeats as was problematic with Beta page/component. Also it stays fixed, doesn't move with content... which is fine either way actually. */
+        background-attachment: fixed;
+        /* background-blend-mode: multiply === just a cool option for the color, less white */
+        background-blend-mode: multiply;
+      }
+    </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
