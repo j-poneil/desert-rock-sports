@@ -4,6 +4,8 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+
 
 // Image(s)
 import Vellinga5 from '../../img/Splash/Vellinga5_1619x1080.jpg';
@@ -77,7 +79,12 @@ const splashSubTitleStyles = {
     // fontSize: 'calc(1rem + 1vw)'
     fontSize: 'calc(12px + (50 - 12) * ((100vw - 300px) / (1600 - 300)))',
 };
-
+const splashPhotoCreditStyle = {
+    position: 'absolute',
+    right: '10px',
+    bottom: '0',
+    color: 'grey'
+};
 // Variation on old way, but in-file styles
 export default function Splash(){
     return (
@@ -95,15 +102,9 @@ export default function Splash(){
                 <p style={ splashSubTitleStyles } >Climbing&nbsp;-&nbsp;Canyoneering&nbsp;- Hiking&nbsp;-&nbsp;Camping</p>
                 
             </div>
-            <p
-                style={{
-                    'position': 'absolute',
-                    'right': '5px',
-                    'bottom': '0',
-                    'color': 'white'
-                }}
-            >
-                Photo credit: Trevor Vellinga
+            <p style={ splashPhotoCreditStyle } >
+                {/* https://trevor301848.wixsite.com/trevorportfolio */}
+                Photo credit: <a href="https://trevor301848.wixsite.com/trevorportfolio" target="_blank" rel="noopener noreferrer">Trevor Vellinga</a> <FaExternalLinkAlt />
             </p>
         </div>
     );
