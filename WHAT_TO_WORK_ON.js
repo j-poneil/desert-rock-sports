@@ -169,7 +169,7 @@ todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with 
 ! - Title and text need to resize better for smaller screens... but also for MUCH bigger screens.
 todo - an indicator that you should scroll down should be added
 ? - Should image be edge to edge ... edgy... hero image?
-todo - Hero Image / Title / Etc..
+todo - OK ENOUGH FOR NOW - but later...
     * Hero image/section notes
         - NAME
         - WHAT ITS ABOUT
@@ -181,9 +181,11 @@ todo - Hero Image / Title / Etc..
                 text position absolute -- absolute within the bounds of the parent element -- that is the key
         Can stack multiple adjacent children of the parent element by specifying their position absolute and left / top the same
         Then use transparency and z-stack height
-    ! on very small screens, iPhone, all phones, really... text invert box overflows edges
     ! on very small screens, card margin to edge of screens in larger on right side for some reason
     ! nexus 10... edge cuts off cards for some reason
+    % lazy fix would be... With a suitable hero image, just edit the text into the actual image...
+        % probably not as good for SEO though
+    // todo - on very small screens, iPhone, all phones, really... text invert box overflows edges
     // todo - large sizes... hero Image no longer fits 100%
     //     fixed by using width: 100%, height: auto... instead of just fluid prop
 // todo - Images should probably be in Card.Img components so that their corners are rounded consistent with the other card components on the site
@@ -281,6 +283,7 @@ todo - find / implement section backgrounds
         ? how to then make this behave as a section background? position and z-index?
 todo - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
 * - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
+! - set my art credit link to me... not google lol
 // todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?... aria-hidden="true" ... hides the empty columns by not presenting them at all to screen readers, etc
 // todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
 // todo - fully switch over all the beta sections to the functional stateless component, AccordionOfAccordions
