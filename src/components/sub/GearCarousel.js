@@ -4,10 +4,14 @@ import { Carousel } from 'react-responsive-carousel';
 // ! - for the carousel to work well and not shift the layout around / mess with responsive design... all the images need to be exactly the same height and width... or rather the same aspect ratio. The editing to make that happen is annoying, yes, but its by far the best way to make it look good and just work on any screen size. A bunch of custom CSS and media queries / breakpoints will not work, identical aspect ratio is the only way. Seems like a limitation, but once its done it will look great, so just do it.
 // ! - make xlarge, large, medium, 2x medium, small, 2x small, ... or is that too much?
 // ! - need to standardize image aspect ratio, probably 4:3 or something... hopefully something that works for every screen size
+    // * to prevent need to scroll down on laptop, may need to be like 16:7 or something
+    // ? Is there an easy way to just resize things so that the whole carousel + thumbnails below fits fully within the view width / height - nav bar? There should be
 
 // ! - temp images, real ones will be nicer and all the same aspect ratio
 // import Backpacks from '../../img/DRS_store/Backpacks.jpg';
-import Backpacks from '../../img/DRS_store/Backpacks.jpg';
+// import Backpacks from '../../img/DRS_store/Backpacks.jpg';
+import Backpacks from '../../img/DRS_store/Backpacks_2p4_1_crop.jpg';
+// testing different image heights to eliminate need to scroll down on laptop
 import BlackDiamondCams from '../../img/DRS_store/BlackDiamondCams.jpg';
 import BlackTotem from '../../img/DRS_store/BlackTotem.jpg';
 import Bookshelf from '../../img/DRS_store/Bookshelf.jpg';
@@ -36,7 +40,7 @@ export default () => (
         dynamicHeight={true} // default true ?
         infiniteLoop={true}
         interval={2500} // default 3000 = 3 seconds
-        stopOnHover={false} // default is true, but it is currently such a large carousel...
+        stopOnHover={false} // default is true, but it is currently such a large carousel... mouse is almost always hovered
         width={'100%'} // default is '100%' accepts number or string
     >
         {/* The initial simple way I did it for the demo / temp images... no provision for loading larger or smaller image files for different view port sizes or screen densities */}

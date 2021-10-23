@@ -6,8 +6,8 @@ Or first symbol/text on the line inside block comments. Helps me visually mark a
 @ - purple - look at me / section titles
 ? - blue - questions to answer or think about
 todo - orange - need to do, not critical
-% - yellow - ?
-$ - cash money green  - ?
+% - yellow - eye catching note
+$ - cash money green - eye catching note
 * - yellow/green - point worth seeing?
 - green - normal comment
 // strikethru/grey - COMPLETED TASK
@@ -66,7 +66,7 @@ https://nomadventures.com/
 
 @ index.html & other general stuff
 ! - email list?
-    ( https://www.sendinblue.com/ )... better than mailchip maybe?
+    ( https://www.sendinblue.com/ )... better than mailchimp maybe?
     * Its easy to set up with a service, like the guiding form... they prob also have templates for emails to send
     * We can give meaningful updates and news to locals who care, IE
         * Crash pads in stock
@@ -121,7 +121,6 @@ todo - add some line somewhere saying that I coded this site, see my github here
     * Maybe a simple line at the very bottom of the home or about pages...
     // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
-? - on many pages I use mt-3 mb-3 for spacing between containers... but maybe I should also spend some time focusing on the spacing between Card   components and/or rows in general since I have been using them sooo much... and the vertical spacing between rows has not been the greatest in some spots
 ! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
     * looks like when you inspect a page it doesn't show up as a global breakpoint option
     * I should be able to add it
@@ -137,7 +136,7 @@ todo - add some line somewhere saying that I coded this site, see my github here
         EX. About > How they met... looks bad
             - add subtitles, more text
         EX. About > JJ Card... looks good
-
+// todo - Added a CSS background pattern in index on the overall body. Much less hassle than messing with background images and getting everything to always look good. I think it looks pretty respectable too, all things considered.
 // todo - make/implement a BETTER favicon
 //     Simple emoji, DRS, DR, or outline of mtns... ?
 //     Implement, in multiple sizes
@@ -178,7 +177,6 @@ todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with 
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - should splash background image corners be rounded consistent with other images on home page?
     *If so, in Splash.js, put everything in a Card component and change img to Card.Img
-! - splash background image should no stretch/shrink on horizontal axis with different screen sizes
 ! - Title and text need to resize better for smaller screens... but also for MUCH bigger screens.
 todo - an indicator that you should scroll down should be added
 todo - OK ENOUGH FOR NOW - but later...
@@ -197,14 +195,19 @@ todo - OK ENOUGH FOR NOW - but later...
     ! nexus 10... edge cuts off cards for some reason
     % lazy fix would be... With a suitable hero image, just edit the text into the actual image...
         % probably not as good for SEO though
-    * If I want parallax... or fixed position backgrounds with stuff moving in front
-            Its easier if I use CSS set backgroundImage...
-            A harder way that can work with conventional images is using JS...
-            BUT it is possible w/ conventional images and CSS only... and isn't THAT hard.
-                https://keithclark.co.uk/articles/pure-css-parallax-websites/
-                https://keithclark.co.uk/articles/practical-css-parallax/
-
+* If I want parallax... or fixed position backgrounds with stuff moving in front
+    Its easier if I use CSS set backgroundImage...
+    A harder way that can work with conventional images is using JS...
+    BUT it is possible w/ conventional images and CSS only... and isn't THAT hard.
+        https://keithclark.co.uk/articles/pure-css-parallax-websites/
+        https://keithclark.co.uk/articles/practical-css-parallax/
+! - Text box seems too low on hero image...
+    Either
+        raise it
+        resize vertical height of image to show better on a standard laptop
+            but double check that it will still look good on smaller screens down to iPhone5
 // todo - Hero image should be edge to edge ... edgy... hero image
+// todo - splash background image should no stretch/shrink on horizontal axis with different screen sizes
 //     in the overall container AND Splash container added className='pl-0 pr-0' to fix
     // todo - on very small screens, iPhone, all phones, really... text invert box overflows edges
     // todo - large sizes... hero Image no longer fits 100%
@@ -269,6 +272,9 @@ todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we ha
 ? - what about a 3D google street style navigable thing? I think that would be so slick...
     * Either link to the one on google maps... or just have one instead of the carousel ???
 ? - other sections in gear below the carousel?
+todo - 
+todo - restore edge distance to the Jumbotron w/ mr-0 ml-0 as well as the Container below everything that I'm not sure if I'll end up using
+todo - Make gear image be edge to edge of screen w/ className='pl-0 pr-0' in Container
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
 // todo - add carousel to gear page
 // todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
