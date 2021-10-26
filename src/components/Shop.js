@@ -57,7 +57,7 @@ export default function Shop(){
                                     <Col className='mt-3' >
                                         <Card style={ bookCardStyles }>
                                             <Card.Body>
-                                                <Card.Title style={ bookTitleStyles }>Red Rocks: A Climber's Guide 2nd Ed</Card.Title>
+                                                <Card.Title style={ bookTitleStyles }>Red Rocks: A Climber's Guide 2</Card.Title>
                                                 <Card.Subtitle style={ bookTitleStyles }>Jerry Handren</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>THE Book for Sport, Trad, and Multipitch on Red Rock sandstone.</Card.Subtitle>
