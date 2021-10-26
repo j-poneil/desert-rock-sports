@@ -377,6 +377,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
 todo - Fix TierCard.js photo credit overlay text
 ! - Add Ting-Ting, Josh Diggs
 ! - Work on everyones bio lengths
+todo - increase font size or something to make the durations slightly more prominent
 // todo - fix tier card img height on tier 3 -- by cropping them all to the same 741px height
 // todo - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?... this is nitpicky. Its fine the way it is.
 // todo - probably add some bar below everything that says that we can accomodate other complicated outings
