@@ -159,7 +159,7 @@ todo - other role="" to add for the future 'form'(subscribe to email, guiding in
 
 
 @ Home page ---------------------------------------
-! - Meaningful news items
+! - Meaningful news items - fill in a bunch so it seems more 'lived in'
     * We just got ______ items in stock!
 ! - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
@@ -311,7 +311,7 @@ todo - find / implement section backgrounds
         ? how to then make this behave as a section background? position and z-index?
 todo - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
 * - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
-! - add margin to the bottom... should help it look better, I think
+? - should the group of accordions try to initially center itself in the viewport?
 // todo - set my art credit link to me... not google lol
 // todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?... aria-hidden="true" ... hides the empty columns by not presenting them at all to screen readers, etc
 // todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
@@ -534,6 +534,8 @@ https://www.polemicdigital.com/protect-your-staging-environments/
 
     and .htpasswd file
 
+! - OTHER
+    Make sure http & https work
 
 
 */
