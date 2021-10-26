@@ -28,13 +28,26 @@ const TierCard = ({ img, imgSm, imgAltText, imgCredit, tierName, tierDuration, t
 
     return (
         <Card style={{'height': '100%'}}>
-            <Card.Img varient="top" src={ imgSm } alt={ imgAltText } />
+            <Card.Img varient="top" src={ imgSm } alt={ imgAltText }/>
             {/* //! couldn't get this overlay text to sit in the bottom right of image. Was thinking that something like: className="position-absolute bottom-0 end-0" would do it, but it hasn't, so just commenting out for now. Will come back to this later.*/}
-            {/* <Card.ImgOverlay className="">
-                <Card.Text className="">{ imgCredit }</Card.Text>
-            </Card.ImgOverlay> */}
+            <Card.ImgOverlay style={{'position': 'relative', 'padding': '0px'}}>
+                <Card.Text
+                    style={{
+                        'position': 'absolute',
+                        'right': '0',
+                        'bottom': '0px',
+                        'color': 'rgba(237,237,237)',
+                        'paddingLeft': '5px',
+                        'paddingRight': '5px',
+                        'backgroundColor': 'rgba(0,0,0,0.4)',
+                        'borderRadius': '5px'
+                    }}
+                >
+                    { imgCredit }
+                </Card.Text>
+            </Card.ImgOverlay>
             <Card.Body>
-                <Card.Text className="text-muted text-right">{ imgCredit }</Card.Text>
+                {/* <Card.Text className="text-muted text-right">{ imgCredit }</Card.Text> */}
                 <Card.Title className="text-center display-4">{ tierName }</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted text-center">Duration: { tierDuration }</Card.Subtitle>
                 <Card.Text>

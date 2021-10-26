@@ -374,10 +374,10 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
     * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
-todo - Fix TierCard.js photo credit overlay text
 ! - Add Ting-Ting, Josh Diggs
 ! - Work on everyones bio lengths
 todo - increase font size or something to make the durations slightly more prominent
+// todo - Fix TierCard.js photo credit overlay text - DONE, and its pretty great now!
 // todo - fix tier card img height on tier 3 -- by cropping them all to the same 741px height
 // todo - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?... this is nitpicky. Its fine the way it is.
 // todo - probably add some bar below everything that says that we can accomodate other complicated outings
@@ -462,17 +462,17 @@ todo - increase font size or something to make the durations slightly more promi
 
 
 @ Secret page -------------------------------------
-todo - replace secret section link '.' with something else, like a FA icon
+todo - replace secret section link '.' with something else, like a FA icon (just commented out it for now...)
     it could be cool if it was a transparent icon, which you hover over for like a full second, then a opaque dropshadow or something shows up and it doesn't appear clickable until after this time ?
 todo - what content can go here ?
 
 
 @ Error page --------------------------------------
-! - add an OK to the background, maybe also a border, maybe box shadow
 todo - make a great one
     slightly random error page graphic/text?
     ladylockoff rope/gear art spelling 404 ? ha not a bad idea
     Some classic photo with abysmal gear placement?
+// todo - add an OK to the background, maybe also a border, maybe box shadow
 // todo - make a temp OK enough 404 page
 
 
