@@ -267,7 +267,7 @@ export default function Beta(){
                         'right': '0',
                     }}
                 >
-                    Art by <a href='http://www.google.com' target="_blank" rel="noopener noreferrer">JPO</a> &copy; 2021
+                    Art by <a href='https://github.com/j-poneil' target="_blank" rel="noopener noreferrer">JPO</a> &copy; 2021
                 </footer>
             </Row>
         </Container>
