@@ -90,7 +90,7 @@ export default function About(){
                         <Card.Img src={ Cat_medium } alt="Stuffed animal hanging out in a sandstone nook" />
                     </Card>
                 </Col>
-                <Col className="mb-3">
+                {/* <Col className="mb-3">
                     <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Title>History ???</Card.Title>
@@ -99,8 +99,8 @@ export default function About(){
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                </Col>
-                <Col className="mb-3">
+                </Col> */}
+                {/* <Col className="mb-3">
                     <Card style={{'height': '100%'}}>
                         <Card.Body>
                             <Card.Title>Something else???</Card.Title>
@@ -109,7 +109,7 @@ export default function About(){
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                </Col>
+                </Col> */}
             </Row>
 
             <Jumbotron className="text-center mb-3">
