@@ -27,3 +27,5 @@ yarn-error.log*
 .htpasswd
 public/.htaccess
 public/robots.txt
+
+src/files/data_privacy_statement.txt
