@@ -532,10 +532,11 @@ https://www.polemicdigital.com/protect-your-staging-environments/
     AuthUserFile /path/to/.htpasswd
     Require valid-user
 
-    and .htpasswd file
+    and .htpasswd file in src
 
 ! - OTHER
     Make sure http & https work
+    Make sure routing works, like going straight to Shop w/o having first visited index
 
 
 */
