@@ -2,6 +2,7 @@ import React from 'react';
 //% photos for staff
 // standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';
+import Placeholder from '../../img/RRCG/GuideBioImgs/Placeholder_450w_450h.jpg';
 import TG from '../../img/DRS_staff/TG2_450w_450h.jpg';
 import Mike from '../../img/DRS_staff/Mike2_450w_450h.jpg';
 import Steve from '../../img/DRS_staff/Steve_450w_450h.jpg';
@@ -10,8 +11,8 @@ import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
 import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg'; // Josh Janes
 import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
 import Samantha from '../../img/RRCG/GuideBioImgs/Samantha_450w_450h.jpg';
+import TingTing from '../../img/RRCG/GuideBioImgs/SzuTingYi_450w_450h.jpg';
 // import JoshD from ''; // Josh Diggs
-// import TingTing from '';
 // import ??? from '';
 
 // ! copy/pasted in from guides.js
@@ -374,42 +375,51 @@ export const staff = [
         isGuide: true,
         isRetail: false
     },
-    // {
-    //     name: "Ting Ting",
-    //     position: "",
-    //     certs: "",
-    //     exp: "",
-    //     bio: () => (
-    //         <>
-    //             <p></p>
-    //         </>
-    //     ),
-    //     imgSrc: Roxanna,
-    //     ig: 'https://www.instagram.com/szutingyi/',
-    //     site: '',
-    //     youtube: '',
-    //     active: true,
-    //     isGuide: true,
-    //     isRetail: false
-    // },
-    // {
-    //     name: "Josh Diggs",
-    //     position: "",
-    //     certs: "",
-    //     exp: "",
-    //     bio: () => (
-    //         <>
-    //             <p></p>
-    //         </>
-    //     ),
-    //     imgSrc: Roxanna,
-    //     ig: 'https://www.instagram.com/red_dome_digsby/',
-    //     site: '',
-    //     youtube: '',
-    //     active: true,
-    //     isGuide: true,
-    //     isRetail: false
-    // },
+    {
+        name: "Szu-ting Yi (aka Ting Ting)",
+        position: "",
+        certs: "AMGA Rock Guide",
+        exp: "",
+        bio: () => (
+            <>
+                <p>
+                    Szu-ting Yi is an AMGA-certified Rock Guide who also has her PhD in computer science. Born in Taiwan, she came to the US to study, but fell in love with the sport of climbing. She has climbed 40 desert towers in one season, and in 2017, Szu-ting successfully completed a north to south traverse of the Wind River Range and summited 33 peaks along the Continental Divide.
+                </p>
+                <p>
+                    Besides working as a climbing guide, Szu-ting is the author of five books and has completed multiple first ascents in Asia and Patagonia. Guiding climbing in Red Rocks for many years, she and her husband settled down in Las Vegas in 2019.
+                    <br />
+                    <a href="http://www.alpinist.com/doc/web16a/wfeature-qionglai-mountains-china-first-ascent" target="_blank" rel="noopener noreferrer">Mooncakes and Rice: Qionglai Mountains (Alpinist, Feb 2016)</a><br />
+                    <a href="http://www.alpinist.com/doc/web18f/wfeature-a63-on-belay-ride-the-wind" target="_blank" rel="noopener noreferrer">Ride the Wind; Wind River Range, Wyoming (Alpinist, Oct 2018)</a>
+                </p>
+
+            </>
+        ),
+        imgSrc: TingTing,
+        ig: 'https://www.instagram.com/szutingyi/',
+        site: '',
+        youtube: '',
+        active: true,
+        isGuide: true,
+        isRetail: false
+    },
+    {
+        name: "Josh Diggs",
+        position: "",
+        certs: "",
+        exp: "",
+        bio: () => (
+            <>
+                <p></p>
+            </>
+        ),
+        imgSrc: Placeholder,
+        ig: 'https://www.instagram.com/red_dome_digsby/',
+        site: '',
+        youtube: '',
+        active: true,
+        isGuide: true,
+        isRetail: false
+    },
     // {
     //     name: "",
     //     position: "",
@@ -420,7 +430,7 @@ export const staff = [
     //             <p></p>
     //         </>
     //     ),
-    //     imgSrc: Roxanna,
+    //     imgSrc: Placeholder,
     //     ig: '',
     //     site: '',
     //     youtube: '',
@@ -439,7 +449,7 @@ export const staff = [
     //             <p></p>
     //         </>
     //     ),
-    //     imgSrc: Roxanna,
+    //     imgSrc: Placeholder,
     //     ig: '',
     //     site: '',
     //     youtube: '',
