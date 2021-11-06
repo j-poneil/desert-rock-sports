@@ -18,6 +18,8 @@ import Button from 'react-bootstrap/Button';
 //! Get their name and the date / date range they are interested in
 //! Add that into the _subject value so that the emails have some uniqueness to them
 
+// Handle multiple inputs with a single handle change and useState
+// https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react
 function GuideInquiryForm() {
     const [state, setState] = useState({
         name: '',
@@ -85,6 +87,16 @@ function GuideInquiryForm() {
                         <input type="checkbox" name="T1" />
                         <input type="checkbox" name="T2" />
                         <input type="checkbox" name="T3" />
+                        <Form.Group>
+                            <Form.Label>What tier(s) are you interested in</Form.Label>
+                            <Form.Check type='checkbox' name='' label='' />
+                            <Form.Check type='checkbox' name='' label='' />
+                            <Form.Check type='checkbox' name='' label='' />
+                            <Form.Check type='checkbox' name='' label='' />
+                            <Form.Check type='checkbox' name='' label='' />
+                        </Form.Group>
+
+
                         
                         {/* Hidden inputs */}
                         <input type="hidden" name="_subject" value="New guiding inquiry via web form" />
