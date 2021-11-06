@@ -136,6 +136,7 @@ todo - add some line somewhere saying that I coded this site, see my github here
         EX. About > How they met... looks bad
             - add subtitles, more text
         EX. About > JJ Card... looks good
+// todo - adjust hours
 // todo - Added a CSS background pattern in index on the overall body. Much less hassle than messing with background images and getting everything to always look good. I think it looks pretty respectable too, all things considered.
 // todo - make/implement a BETTER favicon
 //     Simple emoji, DRS, DR, or outline of mtns... ?
@@ -369,14 +370,15 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
     * THEN RRCG / How it Works Steps + About our guiding columns...
     * THEN Pics from guided climbing outings
     * THEN Check out some of our guides, etc...
-todo - Canyoneering, etc Tier 3 cards?
+todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 ! - guide inquiry form
     * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
-! - Add Ting-Ting, Josh Diggs
+! - Josh Diggs
 ! - Work on everyones bio lengths
-todo - increase font size or something to make the durations slightly more prominent
+todo - increase font size or something to make the guiding day durations slightly more prominent
+// todo - Add Ting Ting
 // todo - Fix TierCard.js photo credit overlay text - DONE, and its pretty great now!
 // todo - fix tier card img height on tier 3 -- by cropping them all to the same 741px height
 // todo - should the Tier # and tag line (half day, full day, multipitch) be split to 2 lines always?... this is nitpicky. Its fine the way it is.

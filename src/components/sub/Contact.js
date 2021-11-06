@@ -82,7 +82,7 @@ function Hours(){
             </tr>
             <tr>
                 <td>Sunday</td>
-                <td>10am - 6pm</td>  
+                <td>9am - 6pm</td>  
             </tr>
         </tbody>
     );
@@ -98,9 +98,9 @@ function Hours(){
 
     return (
         <>
-            {/* { hours } */}
+            { hours }
             {/*//! To manually set hours, comment out { hours } above, then un-comment the below chunk of code and edit the hours, do the opposite to switch back to automatic */}
-            <tbody>
+            {/* <tbody>
                 <tr>
                     <td>Monday</td>
                     <td>10am - 7pm</td>  
@@ -129,7 +129,7 @@ function Hours(){
                     <td>Sunday</td>
                     <td>10am - 6pm</td>  
                 </tr>
-            </tbody>
+            </tbody> */}
         </>
     );
 }
@@ -160,6 +160,7 @@ export default function Contact(){
                                     </thead>
                                     <Hours />
                                 </Table>
+                                <p>Holiday Hours: </p>
                                 <address>
                                     Shop: <a href="tel:702-254-1143" target="_blank" rel="noopener noreferrer">702-254-1143</a><br />
                                     Guide Service: <a href="tel:702-506-6640" target="_blank" rel="noopener noreferrer">702-506-6640</a><br />
