@@ -176,6 +176,9 @@ export const generalInfo = {
                     <Card.Text>
                         <p>For climbing gear, the <a href="https://www.mountainproject.com/forum/103989415/lost-and-found" target="_blank" rel="noopener noreferrer">Mountain Project Lost and Found Forum <FaExternalLinkAlt /></a> is the standard place to post. The campground does not have a suitable billboard. For arranging dropping off gear and having someone pick it up, you can do so at our shop. That tends to be a lot easier than trying to coordinate meetups at the campground, remember, bad cell service. The scenic loop itself also has a lost and found, but that is more for general items, not really climbing gear. Its possible your stuff may find its way there if it was found by a non-climber though. It could be worth also checking Mountain Project's Nevada Forum as well as the Vegas Climbers Facebook page.</p>
                     </Card.Text>
+                    <Card.Subtitle className='text-center'>
+                        ...take only photos, leave only footprints, and no corpses!
+                    </Card.Subtitle>
                 </>
             )
         },
