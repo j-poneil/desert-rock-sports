@@ -233,6 +233,7 @@ export default function Contact(){
                                     </tr>
                                 </tbody>
                             </Table>
+                            <p>Holiday Hours: 12/24 Close at 5pm, 12/25 Closed, 12/31 Close at 9pm, 1/1 Close at 9pm</p>
                             <Card.Text>
                                 <address>
                                     Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a><br />
