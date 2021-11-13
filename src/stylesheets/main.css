@@ -355,6 +355,129 @@ template {
   color: white;
 }
 
+#generalInfoAccordionId0 div button,
+#generalInfoAccordionId1 div button,
+#generalInfoAccordionId2 div button,
+#generalInfoAccordionId3 div button,
+#generalInfoAccordionId4 div button {
+  background-color: #d46000;
+  border-color: #803900;
+}
+
+#generalInfoAccordionId0 div button:hover,
+#generalInfoAccordionId0 div button:active,
+#generalInfoAccordionId1 div button:hover,
+#generalInfoAccordionId1 div button:active,
+#generalInfoAccordionId2 div button:hover,
+#generalInfoAccordionId2 div button:active,
+#generalInfoAccordionId3 div button:hover,
+#generalInfoAccordionId3 div button:active,
+#generalInfoAccordionId4 div button:hover,
+#generalInfoAccordionId4 div button:active {
+  background-color: #883d00;
+}
+
+#lodgingLogisticsAccordionId0 div button,
+#lodgingLogisticsAccordionId1 div button,
+#lodgingLogisticsAccordionId2 div button,
+#lodgingLogisticsAccordionId3 div button,
+#lodgingLogisticsAccordionId4 div button {
+  background-color: #3b9400;
+  border-color: #1d4601;
+}
+
+#lodgingLogisticsAccordionId0 div button:hover,
+#lodgingLogisticsAccordionId0 div button:active,
+#lodgingLogisticsAccordionId1 div button:hover,
+#lodgingLogisticsAccordionId1 div button:active,
+#lodgingLogisticsAccordionId2 div button:hover,
+#lodgingLogisticsAccordionId2 div button:active,
+#lodgingLogisticsAccordionId3 div button:hover,
+#lodgingLogisticsAccordionId3 div button:active,
+#lodgingLogisticsAccordionId4 div button:hover,
+#lodgingLogisticsAccordionId4 div button:active {
+  background-color: #1d4800;
+}
+
+#foodAccordionId0 div button,
+#foodAccordionId1 div button,
+#foodAccordionId2 div button,
+#foodAccordionId3 div button {
+  background-color: #a46bb1;
+  border-color: #303;
+}
+
+#foodAccordionId0 div button:hover,
+#foodAccordionId0 div button:active,
+#foodAccordionId1 div button:hover,
+#foodAccordionId1 div button:active,
+#foodAccordionId2 div button:hover,
+#foodAccordionId2 div button:active,
+#foodAccordionId3 div button:hover,
+#foodAccordionId3 div button:active {
+  background-color: #7c4888;
+}
+
+#otherOutdoorAccordionId0 div button,
+#otherOutdoorAccordionId1 div button,
+#otherOutdoorAccordionId2 div button,
+#otherOutdoorAccordionId3 div button,
+#otherOutdoorAccordionId4 div button {
+  background-color: #28889e;
+  border-color: #0c323a;
+}
+
+#otherOutdoorAccordionId0 div button:hover,
+#otherOutdoorAccordionId0 div button:active,
+#otherOutdoorAccordionId1 div button:hover,
+#otherOutdoorAccordionId1 div button:active,
+#otherOutdoorAccordionId2 div button:hover,
+#otherOutdoorAccordionId2 div button:active,
+#otherOutdoorAccordionId3 div button:hover,
+#otherOutdoorAccordionId3 div button:active,
+#otherOutdoorAccordionId4 div button:hover,
+#otherOutdoorAccordionId4 div button:active {
+  background-color: #195361;
+}
+
+#routeRecommendationsAccordionId0 div button,
+#routeRecommendationsAccordionId1 div button,
+#routeRecommendationsAccordionId2 div button,
+#routeRecommendationsAccordionId3 div button,
+#routeRecommendationsAccordionId4 div button,
+#routeRecommendationsAccordionId5 div button {
+  background-color: #e70000;
+  border-color: #750000;
+}
+
+#routeRecommendationsAccordionId0 div button:hover,
+#routeRecommendationsAccordionId0 div button:active,
+#routeRecommendationsAccordionId1 div button:hover,
+#routeRecommendationsAccordionId1 div button:active,
+#routeRecommendationsAccordionId2 div button:hover,
+#routeRecommendationsAccordionId2 div button:active,
+#routeRecommendationsAccordionId3 div button:hover,
+#routeRecommendationsAccordionId3 div button:active,
+#routeRecommendationsAccordionId4 div button:hover,
+#routeRecommendationsAccordionId4 div button:active,
+#routeRecommendationsAccordionId5 div button:hover,
+#routeRecommendationsAccordionId5 div button:active {
+  background-color: #9b0000;
+}
+
+#gymAccordionId0 div button,
+#gymAccordionId1 div button {
+  background-color: #576;
+  border-color: #27332d;
+}
+
+#gymAccordionId0 div button:hover,
+#gymAccordionId0 div button:active,
+#gymAccordionId1 div button:hover,
+#gymAccordionId1 div button:active {
+  background-color: #354a40;
+}
+
 /* import bootstrap to set changes */
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)

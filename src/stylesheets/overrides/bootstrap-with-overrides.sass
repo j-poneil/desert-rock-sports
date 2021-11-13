@@ -9,6 +9,7 @@
 //     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
 //     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
 
+//! These template styles are mostly just notes now
 // Decendant Combinator - all children of the first element, that are the second element get the style
     // thus here, the button children no matter how nested of #templateAccordionId get selected
 #templateAccordionId button
@@ -36,6 +37,101 @@
 // #showAccordion
 //     display: inherit
 
+//? Linear gradient background for sub-section buttons?
+// background: linear-gradient(45dg, black, $general-info-button-background)
+// ... I don't think it can work unless the buttons are changed to divs w/ anchor tags or something else
+// ... Idea was to have darker color on the left of the buttons to help with color contrast of the text
+
+//! Accordion Button color overrides
+$general-info-button-background: #d46000
+$general-info-button-border: #803900
+$lodging-button-background: #3b9400
+$lodging-button-border: #1d4601
+$food-button-background: #a46bb1
+$food-button-border: #303
+$other-outdoor-button-background: #28889e
+$other-outdoor-button-border: #0c323a
+$route-recs-button-background: #e70000
+$route-recs-button-border: #750000
+$gyms-button-background: #576
+$gyms-button-border: #27332d
+.accordion-sub-section-button
+    //anything I want to set for all of them
+//$ General Info
+#generalInfoAccordionId0,
+#generalInfoAccordionId1,
+#generalInfoAccordionId2,
+#generalInfoAccordionId3,
+#generalInfoAccordionId4
+    div
+        button
+            background-color: $general-info-button-background
+            border-color: $general-info-button-border
+        button:hover,
+        button:active
+            background-color: darken($general-info-button-background, 15%)
+//$ Lodging Logistics
+#lodgingLogisticsAccordionId0,
+#lodgingLogisticsAccordionId1,
+#lodgingLogisticsAccordionId2,
+#lodgingLogisticsAccordionId3,
+#lodgingLogisticsAccordionId4
+    div
+        button
+            background-color: $lodging-button-background
+            border-color: $lodging-button-border
+        button:hover,
+        button:active
+            background-color: darken($lodging-button-background, 15%)
+//$ Grocery Food and Drink
+#foodAccordionId0,
+#foodAccordionId1,
+#foodAccordionId2,
+#foodAccordionId3
+    div
+        button
+            background-color: $food-button-background
+            border-color: $food-button-border
+        button:hover,
+        button:active
+            background-color: darken($food-button-background, 15%)
+//$ Other Outdoor Options
+#otherOutdoorAccordionId0,
+#otherOutdoorAccordionId1,
+#otherOutdoorAccordionId2,
+#otherOutdoorAccordionId3,
+#otherOutdoorAccordionId4
+    div
+        button
+            background-color: $other-outdoor-button-background
+            border-color: $other-outdoor-button-border
+        button:hover,
+        button:active
+            background-color: darken($other-outdoor-button-background, 15%)
+//$ Route Recommendations
+#routeRecommendationsAccordionId0,
+#routeRecommendationsAccordionId1,
+#routeRecommendationsAccordionId2,
+#routeRecommendationsAccordionId3,
+#routeRecommendationsAccordionId4,
+#routeRecommendationsAccordionId5
+    div
+        button
+            background-color: $route-recs-button-background
+            border-color: $route-recs-button-border
+        button:hover,
+        button:active
+            background-color: darken($route-recs-button-background, 15%)
+//$ Gyms
+#gymAccordionId0,
+#gymAccordionId1
+    div
+        button
+            background-color: $gyms-button-background
+            border-color: $gyms-button-border
+        button:hover,
+        button:active
+            background-color: darken($gyms-button-background, 15%)
 
 
 

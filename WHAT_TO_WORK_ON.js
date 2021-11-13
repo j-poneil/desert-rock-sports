@@ -295,7 +295,6 @@ todo - add something when you hover over the cards, like outline color change, l
     the blue outline is kinda plain, not the nicest, but it does hint at interactivity...
 ? - should I wrap every external link icon in <sup>...</sup> ? Or use something else to make the icon smaller and up
     ... hopefully w/o disrupting line heights
-todo - set the CSS background color ( iirc ) for each of the sub sections... instead of the default solid blue. I think it could look cool if these were set to the major or minor color present in the images I'll select for the major section background pictures... Do this in bootstrap-with-overrides.sass
 todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????...
     * ... Really, the behavior currently isn't TERRIBLE. I just think it is. I. Me.
     * Realistically I can get back to this later. If that means copy/pasting in many files and places, well, oh well... more important to actually get the meat of the site out into a functional state.
@@ -313,6 +312,8 @@ todo - find / implement section backgrounds
 todo - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
 * - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
 ? - should the group of accordions try to initially center itself in the viewport?
+todo - try a background color gradient instead of just color for the accordion sub-section button/titles... darker on left side to help with text contrast... can't just do it on a button it seems. I think it must be a div w/ anchor tag or something similar
+// todo - set the CSS background color ( iirc ) for each of the sub sections... instead of the default solid blue. I think it could look cool if these were set to the major or minor color present in the images I'll select for the major section background pictures... Do this in bootstrap-with-overrides.sass ...DONE. Colors ok good enough for now. Darken on hover.
 // todo - set my art credit link to me... not google lol
 // todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?... aria-hidden="true" ... hides the empty columns by not presenting them at all to screen readers, etc
 // todo - figure out how I want it to be row/column wise... went with 3 columns, but the first and last are only to allow the middle to center... and manually setting how many columns out of 12 for each to span based on screen size. It works pretty well. Can adjust later if needed.
