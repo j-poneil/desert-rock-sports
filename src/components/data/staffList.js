@@ -418,7 +418,7 @@ export const staff = [
         youtube: '',
         active: true,
         isGuide: true,
-        isRetail: false
+        isRetail: true
     },
     // {
     //     name: "",
