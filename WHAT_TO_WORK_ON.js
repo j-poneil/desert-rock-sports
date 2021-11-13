@@ -63,6 +63,20 @@ https://nomadventures.com/
     -- 
 
 =======================================================================================================
+@ HOSTING, etc
+* Get a host setup, maybe dreamhost
+* Get domain name(s) transferred over
+* Choose main domain name
+* Point all other domain names to forward to main
+* Get old site code
+    *archive / double check if there is anything I need
+* Get paypal acct transferred?
+* Get paypal button codes
+* Live but protected testing
+* SSL cert / http and https testing
+    * how to auto-keep ssl cert valid
+? Make an "Under Construction" mode?
+    * Still provide useful info, but state some info could change, hours, prices, may be different, etc...?
 
 @ index.html & other general stuff
 ! - email list?
