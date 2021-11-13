@@ -19,6 +19,15 @@ export const newsItems = [
     //     )
     // },
     {
+        title: "Lots of ropes in stock!",
+        date: "11/12/2021",
+        post: () => (
+            <>
+                <p>We just received a ton of ropes from Mammut, Edelrid, Trango, and even a couple from Beal and Edelweiss. Come check 'em out if you its time to retire your current or if you want the new lightness.</p>
+            </>
+        )
+    },
+    {
         title: "Black Slings",
         date: "11/11/2021",
         post: () => (
