@@ -20,7 +20,7 @@ export const newsItems = [
     // },
     {
         title: "Black Slings",
-        date: "07/21/2021",
+        date: "11/11/2021",
         post: () => (
             <>
                 <p>For the theatrical rigging folks we just got some black 1" slings in 24" and 48" lengths. Get 'em while you can.</p>
