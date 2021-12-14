@@ -221,6 +221,7 @@ todo - OK ENOUGH FOR NOW - but later...
         raise it
         resize vertical height of image to show better on a standard laptop
             but double check that it will still look good on smaller screens down to iPhone5
+todo - add more tooltips to various images/things (see instructions near the end of NOTES.md)
 // todo - Hero image should be edge to edge ... edgy... hero image
 // todo - splash background image should no stretch/shrink on horizontal axis with different screen sizes
 //     in the overall container AND Splash container added className='pl-0 pr-0' to fix
