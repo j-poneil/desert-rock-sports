@@ -20,6 +20,8 @@ import MansBestFriend from '../../img/RRCG/GuidingGalleryImgs/MansBestFriend.jpg
 import Josh from '../../img/RRCG/GuidingGalleryImgs/Josh.jpg';
 import Kiss from '../../img/RRCG/GuidingGalleryImgs/Kiss.jpg';
 import Josh2 from '../../img/RRCG/GuidingGalleryImgs/Josh2.jpg';
+import JulieChrysler from '../../img/RRCG/GuidingGalleryImgs/JulieChrysler.jpeg';
+import BigBadWolf2 from '../../img/RRCG/GuidingGalleryImgs/BigBadWolf2.jpg';
 
 // import thumbnails
 // import Test from '../../img/RRCG/GuidingGalleryImgs/Thumbnails/';
@@ -28,8 +30,8 @@ import MansBestFriend_Thumb from '../../img/RRCG/GuidingGalleryImgs/Thumbnails/M
 import Josh_Thumb from '../../img/RRCG/GuidingGalleryImgs/Thumbnails/Josh (Phone).jpg';
 import Kiss_Thumb from '../../img/RRCG/GuidingGalleryImgs/Thumbnails/Kiss (Phone).jpg';
 import Josh2_Thumb from '../../img/RRCG/GuidingGalleryImgs/Thumbnails/Josh2 (Phone).jpg';
-
-
+import JulieChrysler_Thumb from '../../img/RRCG/GuidingGalleryImgs/Thumbnails/JulieChrysler (Phone).jpeg';
+import BigBadWolf2_Thumb from '../../img/RRCG/GuidingGalleryImgs/Thumbnails/BigBadWolf2 (Phone).jpg';
 
 
 // @ How to...
@@ -72,6 +74,33 @@ function Gallery() {
                 <a href={Josh2}>
                     <img alt="David enjoying the awesome movement and exposure" src={Josh2_Thumb} />
                 </a>
+                <a href={JulieChrysler}>
+                    <img alt="Julie styling the classic Chrysler Crack. We can help you learn techniques for all sorts of climbing, including the seriously misunderstood offwidth." src={JulieChrysler_Thumb} />
+                </a>
+                <a href={BigBadWolf2}>
+                    <img alt="Checking out how small the boulderers look way over at Kraft Boulders, from the top of Big Bad Wolf 5.9 3p" src={BigBadWolf2_Thumb} />
+                </a>
+                {/* <a href={}>
+                    <img alt="" src={} />
+                </a> */}
+                {/* <a href={}>
+                    <img alt="" src={} />
+                </a> */}
+                {/* <a href={}>
+                    <img alt="" src={} />
+                </a> */}
+                {/* <a href={}>
+                    <img alt="" src={} />
+                </a> */}
+                {/* <a href={}>
+                    <img alt="" src={} />
+                </a> */}
+                {/* <a href={}>
+                    <img alt="" src={} />
+                </a> */}
+                {/* <a href={}>
+                    <img alt="" src={} />
+                </a> */}
                 {/* <a href={}>
                     <img alt="" src={} />
                 </a> */}
