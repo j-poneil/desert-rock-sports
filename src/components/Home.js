@@ -64,7 +64,15 @@ export default function Home(){
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img src={ Pickles } fluid alt="pickles-placeholder" style={ picklesStyles } />
+                            <Card.Img
+                                src={ Pickles }
+                                fluid
+                                alt="A glorious dog named Pickles, looking adorable"
+                                style={ picklesStyles }
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Pickles using his 'please' stare, begging you to buy more gear"
+                            />
                         </Card>
                     </Col>
                 </Row>
@@ -76,7 +84,15 @@ export default function Home(){
                 <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
                         <Card>
-                            <Card.Img src={ SufferPup } fluid alt="simba-placeholder" style={ sufferPupStyles } />
+                            <Card.Img
+                                src={ SufferPup }
+                                fluid
+                                alt="Suffer Pup, a rescued dog, held high, getting the 'Simba' experience"
+                                style={ sufferPupStyles }
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Suffer Pup, rescue doggo, getting the full 'Simba' experience. Everything the sun touches will be yours some day."
+                            />
                         </Card>
                     </Col>
                     <Col>
@@ -92,16 +108,28 @@ export default function Home(){
                     <Col>
                         <Jumbotron style={ boulderingJumbotronStyle }>
                             <h3 className='text-center'>Yes! We rent Bouldering Pads!</h3>
-                            <p>Regular size $15/day, XL $25/day</p>
+                            <ul>
+                                <li>$10 / day - Pad Blankets</li>
+                                <li>$15 / day - Regular Size Asana Pads</li>
+                                <li>$25 / day - XL Asana Pads</li>
+                            </ul>
+                            {/* <p>Regular size $15/day, XL $25/day, pad blankets $10/day</p> */}
                             <p>We don't do reservations anymore, but our fleet is now so large that we almost never run out.</p>
                             <p>(Stop calling us to check if we have them. Yes, we have them.)</p>
                             <p>We rent by the day, not per 24h... but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
-                            <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open and make sure to write down your name and staple it to the pad so we can shred up your paperwork when we get the pad back.</p>
+                            <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open (their hours are below) and make sure to write down your name and staple it to the pad when it is returned so we can shred up your paperwork when we get the pad back.</p>
                         </Jumbotron>
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img src={ Julie } fluid alt="Julie crushing the boulder roof crack known as Born to Bleed" />
+                            <Card.Img
+                                src={ Julie }
+                                fluid
+                                alt="Julie crushing the boulder roof crack known as Born to Bleed"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Julie on the fun Born to Bleed V2 invert offwidth boulder problem"
+                            />
                         </Card>
                     </Col>
                 </Row>
