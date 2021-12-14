@@ -19,11 +19,20 @@ export const newsItems = [
     //     )
     // },
     {
+        title: "Pad Blankets now available for rental at $10/day",
+        date: "12/01/2021",
+        post: () => (
+            <>
+                <p>Now you can kinda fill in those gaps between pads or use them as a nice starting surface so your shoes are not so dirty.</p>
+            </>
+        )
+    },
+    {
         title: "Lots of ropes in stock!",
         date: "11/12/2021",
         post: () => (
             <>
-                <p>We just received a ton of ropes from Mammut, Edelrid, Trango, and even a couple from Beal and Edelweiss. Come check 'em out if you its time to retire your current or if you want the new lightness.</p>
+                <p>We just received a ton of ropes from Mammut, Edelrid, Trango, and even a couple from Beal and Edelweiss. Come check 'em out if its time to retire your current or if you want the new lightness.</p>
             </>
         )
     },
