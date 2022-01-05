@@ -1,5 +1,13 @@
 /*
     An array of objects, each containing src, width, height (width and height as variables/names, not strings)... width / height for knowing aspect ratio so it is maintained...
+    property    type        default     desc
+    src         string      undefined   duh
+    srcSet      arr or str  undefined   optional
+    sizes       arr or str  undefined   optional
+    width       num         undefined   required, width of the gallery img, only used for calculating aspect ratio
+    height      num         undefined   required, height of the gallery img, only used for calculating aspect ratio
+    alt         str         undefined   alt text
+    key         str         src         optional, key to be used on component
 
     srcSet and sizes are options:
     {
@@ -15,9 +23,15 @@
         height: 3
     },
 
-    Trying to dynamically calculate find img dimensions or aspect ratio to pass in using a function instead of hard coding is harder than you may expect. Not worth doing.
-
+    title: "Title"
+        from react-images
+        presents as a mouse over caption
+        as well as a lower left corner description, kinda small text though
     
+
+    Trying to dynamically calculate find img dimensions or aspect ratio to pass in using a function instead of hard coding is harder than you may expect... and its not needed anyways, react-photo-gallery calculates that already from the numbers given
+
+
 
 */
 
@@ -44,61 +58,92 @@ import JulieChrysler from '../../img/RRCG/GuidingGalleryImgs/JulieChrysler.jpeg'
 export const photos = [
     {
         src: BigBadWolf,
+        alt: "",
         width: 4608,
-        height: 3456
+        height: 3456,
+        title: "test title / caption"
     },
     {
         src: MansBestFriend,
+        alt: "",
         width: 4608,
         height: 3456
     },
     {
         src: Josh,
+        alt: "",
         width: 4032,
         height: 3024
     },
     {
         src: Kiss,
+        alt: "",
         width: 3024,
         height: 4032
     },
     {
         src: Josh2,
+        alt: "",
         width: 3024,
         height: 4032
     },
     {
         src: JulieChrysler,
+        alt: "",
         width: 6000,
         height: 4000
     },
     {
         src: BigBadWolf2,
+        alt: "",
         width: 4608,
         height: 3456
     },
     // {
     //     src: ,
+    //     alt: "",
     //     width: ,
     //     height: 
     // },
     // {
     //     src: ,
+    //     alt: "",
     //     width: ,
     //     height: 
     // },
     // {
     //     src: ,
+    //     alt: "",
     //     width: ,
     //     height: 
     // },
     // {
     //     src: ,
+    //     alt: "",
     //     width: ,
     //     height: 
     // },
     // {
     //     src: ,
+    //     alt: "",
+    //     width: ,
+    //     height: 
+    // },
+    // {
+    //     src: ,
+    //     alt: "",
+    //     width: ,
+    //     height: 
+    // },
+    // {
+    //     src: ,
+    //     alt: "",
+    //     width: ,
+    //     height: 
+    // },
+    // {
+    //     src: ,
+    //     alt: "",
     //     width: ,
     //     height: 
     // },
