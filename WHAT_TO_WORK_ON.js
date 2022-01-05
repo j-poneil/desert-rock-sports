@@ -150,6 +150,7 @@ todo - add some line somewhere saying that I coded this site, see my github here
         EX. About > How they met... looks bad
             - add subtitles, more text
         EX. About > JJ Card... looks good
+! - npm audit / npm audit fix
 // todo - adjust hours
 // todo - Added a CSS background pattern in index on the overall body. Much less hassle than messing with background images and getting everything to always look good. I think it looks pretty respectable too, all things considered.
 // todo - make/implement a BETTER favicon
@@ -369,7 +370,8 @@ todo - try a background color gradient instead of just color for the accordion s
 @ Guiding page ------------------------------------
 ! - Wording EVERYWHERE, and trim down amount of text a bit
 ! - gallery or carousel of photos from guiding
-    everything from beginner top roping to epic multipitch, trad instruction, not too many photos that make it seem super hot here
+    Initially tried lightgallery... its great, but not perfect and paid
+    Now different approach of separate responsive grid + lightbox libraries
     AMBITIOUS option - My secret package for this
 todo - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
 todo - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
