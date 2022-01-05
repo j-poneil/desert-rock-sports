@@ -2,6 +2,8 @@ import React, { useState, useCallback } from 'react';
 
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+
 import { photos } from "../data/guidingGalleryPhotos";
 
 
@@ -14,14 +16,35 @@ import { photos } from "../data/guidingGalleryPhotos";
     https://jossmac.github.io/react-images/#/
 
     npm install react-photo-gallery react-images
-    ( npm install react-sizeme )
+    NOT SURE IF I'LL DO THIS: ( npm install react-sizeme )
 
     Here, react-photo-gallery is handling the responsive auto row or column justified layout by resizing images and maintaining aspect ratios appropriately to get an attractive tiling. Row seems the most appropriate here. The click on lightbox functionality is borrowed from react-images.
 
+    NOT SURE IF I'll IMPLEMENT THIS:
     react-sizeme finds the dimensions of the gallery container so that at different screen sizes the image sizes stay suitable... without this they were initially too small at normal desktop size.
 
     There are benefits and drawbacks of going this route compared to what I had tried previously, but overall I think I'll like this way more.
 
+    react-intense
+        Looks sweet, kinda curious about using it instead of the lightbox... but also no zoom... but does pan with mouse movement
+        Also, MUCH better pic title and subtitle / caption
+
+    react-zoom-pan-pinch
+        Also looks like a good option... but no captions
+        (npm install --save react-zoom-pan-pinch)
+        ... can wrap
+            <TransformWrapper>
+                <TransformComponent>
+                    <Carousel>
+                <TransformWrapper>
+            <TransformComponent>
+        ... and that gives scroll zooming, but when you click to pan it closes the modal
+        ... so need to override that functionality to only closing when click outside the img border... ?
+        ... ALSO kinda messes up the caption position/color
+        
+
+    % Implement captions
+    % Implement zoom / drag look around in lightbox
 */
 
 const GuidingGallery = () => {
@@ -43,20 +66,24 @@ const GuidingGallery = () => {
             <Gallery
                 photos={photos}
                 onClick={openLightbox}
-                // px number or containerWidth
-                targetRowHeight={400}
+                // px number or containerWidth, optional. Default of not including/passing this is good, but on large screens the images are a bit small
+                targetRowHeight={500}
             />
             <ModalGateway>
                 {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
-                    <Carousel
-                    currentIndex={currentImage}
-                    views={photos.map(x => ({
-                        ...x,
-                        srcset: x.srcSet,
-                        caption: x.title
-                    }))}
-                    />
+                    <TransformWrapper>
+                        <TransformComponent>
+                            <Carousel
+                                currentIndex={currentImage}
+                                views={photos.map(x => ({
+                                    ...x,
+                                    srcset: x.srcSet,
+                                    caption: x.title
+                                }))}
+                            />
+                        </TransformComponent>
+                    </TransformWrapper>
                 </Modal>
                 ) : null}
             </ModalGateway>
