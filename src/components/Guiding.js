@@ -19,6 +19,7 @@ import TierCard from './sub/TierCard';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import GuideInquiryForm from './sub/GuideInquiryForm';
+// import GuidingGalleryOld from './sub/GuidingGalleryOld';
 import GuidingGallery from './sub/GuidingGallery';
 
 // Liability waiver(s)
@@ -175,6 +176,7 @@ export default function Guiding(){
 
             {/* //! insert gallery here, mt-5 here or maybe mt-3 mb-3... probably not in a Jumbotron. 1 col regardless of screen size */}
             <Jumbotron className="text-center mt-5">
+                {/* <GuidingGallery /> */}
                 <GuidingGallery />
             </Jumbotron>
 
