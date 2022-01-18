@@ -420,6 +420,24 @@ export const staff = [
         isGuide: true,
         isRetail: true
     },
+    {
+        name: "Jakob Chew",
+        position: "",
+        certs: "AMGA Apprentice Rock Guide, L1 SPRAT/IRATA",
+        exp: "Guiding since 2016",
+        bio: () => (
+            <>
+                <p>San Diego born and raised. Love of adventures, the outdoors, photography, art, music, and anything that creates a sense of wonder and inspiration in the mind.</p>
+            </>
+        ),
+        imgSrc: Placeholder,
+        ig: 'https://www.instagram.com/thecosmicclimber/',
+        site: 'https://www.chillinorockclimbing.com/',
+        youtube: '',
+        active: true,
+        isGuide: true,
+        isRetail: false
+    },
     // {
     //     name: "",
     //     position: "",
