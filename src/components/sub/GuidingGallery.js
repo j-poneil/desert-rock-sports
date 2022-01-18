@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+// import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 import { photos } from "../data/guidingGalleryPhotos";
 
@@ -44,7 +44,7 @@ import { photos } from "../data/guidingGalleryPhotos";
         
 
     % Implement captions
-    % Implement zoom / drag look around in lightbox
+    % Implement zoom / drag look around in lightbox --- its kinda hard to get the ideal functionality actually!
 */
 
 const GuidingGallery = () => {
@@ -71,22 +71,26 @@ const GuidingGallery = () => {
             />
             <ModalGateway>
                 {viewerIsOpen ? (
-                <Modal onClose={closeLightbox}>
-                    <TransformWrapper>
-                        <TransformComponent>
-                            <Carousel
-                                currentIndex={currentImage}
-                                views={photos.map(x => ({
-                                    ...x,
-                                    srcset: x.srcSet,
-                                    caption: x.title
-                                }))}
-                            />
-                        </TransformComponent>
-                    </TransformWrapper>
-                </Modal>
+                    <Modal
+                        onClose={closeLightbox}
+                        closeOnBackdropClick={true} // default is true
+                    >
+                        {/* <TransformWrapper>
+                            <TransformComponent> */}
+                                <Carousel
+                                    currentIndex={currentImage}
+                                    views={photos.map(x => ({
+                                        ...x,
+                                        srcset: x.srcSet,
+                                        caption: x.title
+                                    }))}
+                                />
+                            {/* </TransformComponent>
+                        </TransformWrapper> */}
+                    </Modal>
                 ) : null}
             </ModalGateway>
+                
         </div>
     )
 }
