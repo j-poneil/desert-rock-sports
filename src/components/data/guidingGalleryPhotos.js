@@ -61,90 +61,55 @@ export const photos = [
         alt: "",
         width: 4608,
         height: 3456,
-        title: "test title / caption"
+        title: "Checking out the exposure on Big Bad Wolf"
     },
     {
         src: MansBestFriend,
         alt: "",
         width: 4608,
-        height: 3456
+        height: 3456,
+        title: "Adventure with friends"
     },
     {
         src: Josh,
         alt: "",
         width: 4032,
-        height: 3024
+        height: 3024,
+        title: "Climbing up the awesome varnished rock on Dark Shadows"
     },
     {
         src: Kiss,
         alt: "",
         width: 3024,
-        height: 4032
+        height: 4032,
+        title: "Romance on the rock"
     },
     {
         src: Josh2,
         alt: "",
         width: 3024,
-        height: 4032
+        height: 4032,
+        title: "Pure fun"
     },
     {
         src: JulieChrysler,
         alt: "",
         width: 6000,
-        height: 4000
+        height: 4000,
+        title: "Julie climbing the amazing Chrysler Crack. We can help you learn to climb the wide."
     },
     {
         src: BigBadWolf2,
         alt: "",
         width: 4608,
-        height: 3456
+        height: 3456,
+        title: "Looking at all the small boulderers over at Kraft."
     },
     // {
     //     src: ,
     //     alt: "",
     //     width: ,
-    //     height: 
-    // },
-    // {
-    //     src: ,
-    //     alt: "",
-    //     width: ,
-    //     height: 
-    // },
-    // {
-    //     src: ,
-    //     alt: "",
-    //     width: ,
-    //     height: 
-    // },
-    // {
-    //     src: ,
-    //     alt: "",
-    //     width: ,
-    //     height: 
-    // },
-    // {
-    //     src: ,
-    //     alt: "",
-    //     width: ,
-    //     height: 
-    // },
-    // {
-    //     src: ,
-    //     alt: "",
-    //     width: ,
-    //     height: 
-    // },
-    // {
-    //     src: ,
-    //     alt: "",
-    //     width: ,
-    //     height: 
-    // },
-    // {
-    //     src: ,
-    //     alt: "",
-    //     width: ,
-    //     height: 
+    //     height: ,
+    //     title: ""
     // },
 ];
