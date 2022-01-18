@@ -41,10 +41,6 @@ import { photos } from "../data/guidingGalleryPhotos";
         ... and that gives scroll zooming, but when you click to pan it closes the modal
         ... so need to override that functionality to only closing when click outside the img border... ?
         ... ALSO kinda messes up the caption position/color
-        
-
-    % Implement captions
-    % Implement zoom / drag look around in lightbox --- its kinda hard to get the ideal functionality actually!
 */
 
 const GuidingGallery = () => {
