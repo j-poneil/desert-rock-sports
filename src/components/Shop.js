@@ -62,7 +62,7 @@ export default function Shop(){
                                                 <hr />
                                                 <Card.Subtitle>THE Book for Sport, Trad, and Multipitch on Red Rock sandstone.</Card.Subtitle>
                                                 <Card.Text>
-                                                    <p>In glorious color. There has been a reprinting with a new cover image and minor changes, but its still the 2nd Edition.</p>
+                                                    <p>In glorious color. There has been a reprinting with a new cover image and minor changes, but its still the 2nd Edition. Jerry updated and added what he could without increasing the page count.</p>
                                                     <p>
                                                         {/* RR A Climbers Guide 2 order button*/}
                                                         <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -116,6 +116,7 @@ export default function Shop(){
                                                 <Card.Text>
                                                     <p>Covers many areas such as Mt Charleston, Mt Potosi, many smaller areas, as well as surrounding areas including southern Utah, Northern Arizona, and even a bonus section on Rainbow Canyon (basalt cracks!) a few hours North of Vegas.</p>
                                                     <p>This new book makes the out of print Islands in the Sky guide very obsolete.</p>
+                                                    <p>Excellent book to have if you are looking for harder sport climbing or need alternatives when the Red Rock Sandstone is wet.</p>
                                                     <p>
                                                         {/* Mojave Limestone */}
                                                         <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
