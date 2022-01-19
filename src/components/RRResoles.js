@@ -7,9 +7,9 @@ import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 
 // Images
-import Lynx from '../../img/RRR/Lynx_450x450.jpg';
-import Ganda from '../../img/RRR/Gandas_450x450.jpg';
-import LynxGandas from '../../img/RRR/LynxGandas_900x450.jpg';
+import Lynx from '../img/RRR/Lynx_450x450.jpg';
+import Ganda from '../img/RRR/Gandas_450x450.jpg';
+import LynxGandas from '../img/RRR/LynxGandas_900x450.jpg';
 
 // ! no longer used
 // src\stylesheets\layout\_layout_containers.sass
@@ -26,7 +26,7 @@ const pricesStyles = { height: '100%' };
 
 function RRResoles() {
     return (
-        <>
+        <Container fluid className="mt-3">
             <Row xl={2} lg={1} md={1} sm={1} xs={1}>
                 <Col className="mb-3">
                     <Card style={ rrResolesStyles }>
@@ -60,7 +60,7 @@ function RRResoles() {
                                     <li>Rush Charge: $20 / Pair</li>
                                 </ul>
                                 <p>He uses Unparallel Rubber (Stealth C4 equivalent)</p>
-                                <p>Current turn around time ~4 weeks</p>
+                                <p>Current turn around time ~5 weeks</p>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -76,12 +76,14 @@ function RRResoles() {
                                     <li>IG: <a href="https://www.instagram.com/redrockresoles/" target="_blank" rel="noopener noreferrer">@redrockresoles</a></li>
                                     <li>Email: <a href="mailto:steve@redrockresoles.com" target="_blank" rel="noopener noreferrer">steve@redrockresoles.com</a></li>
                                 </ul>
+                                <hr />
+                                <p className='text-muted small'>Red Rock Resoles is not a part of Desert Rock Sports or Red Rock Climbing Center (though he does route set for them). We just appreciate the work he does, so we do a little to promote his work, such as providing a convient location for him to have dropoff/pickup bins as well as some free advertising, like on this website.</p>
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
             </Row>
-        </>
+        </Container>
     )
 }
 

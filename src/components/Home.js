@@ -11,7 +11,6 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Map from './sub/Map';
 import Splash from './sub/Splash';
 import News from './sub/News';
-import RRResoles from './sub/RRResoles';
 import Contact from './sub/Contact';
 
 // Images
@@ -143,7 +142,7 @@ export default function Home(){
 
             <Container fluid className="mt-3">
                 {/* Resoles */}
-                <RRResoles />
+                {/* <RRResoles /> */}
             </Container>
             
 

@@ -63,7 +63,7 @@ https://nomadventures.com/
     -- 
 
 =======================================================================================================
-@ HOSTING, etc
+@ HOSTING, etc --------------------------------------------------------
 * Get a host setup, maybe dreamhost
 * Get domain name(s) transferred over
 * Choose main domain name
@@ -78,8 +78,23 @@ https://nomadventures.com/
 ? Make an "Under Construction" mode?
     * Still provide useful info, but state some info could change, hours, prices, may be different, etc...?
 
-@ index.html & other general stuff
-! - email list?
+
+@ index.html & other general stuff ----------------------------------------
+todo - FOR FINAL PRODUCTION - look over every file, make sure nothing obviously overlooked
+todo - FOR FINAL PRODUCTION - Full check of spelling and grammer, and multiple people looking over EVERYTHING
+todo - FOR FINAL PRODUCTION - SEO optimization... create-react-app does some basics, but I can certainly improve it more
+todo - FOR FINAL PRODUCTION - Have someone navigate it all with a screen reader to test accessability
+todo - FOR FINAL PRODUCTION - Check for color-blindness / contrast compatability
+todo - FOR FINAL PRODUCTION - what if someone changes the font size themselves, does it still look ok?
+todo - FOR FINAL PRODUCTION - loading speed, efficiency, no extraneous re-renders, etc...
+todo - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
+todo - FOR FINAL PRODUCTION - Make sure my important comments that i made about author of site are visible after build process
+! - For rough release - look over all files
+! - For rough release - full spelling/grammer check, have a few people proof it
+! - For rough release - test keyboard nav
+! - npm audit / npm audit fix
+-------------------
+? - email list?
     ( https://www.sendinblue.com/ )... better than mailchimp maybe?
     * Its easy to set up with a service, like the guiding form... they prob also have templates for emails to send
     * We can give meaningful updates and news to locals who care, IE
@@ -90,51 +105,19 @@ https://nomadventures.com/
         * Special event: bouldering comp, raffle, SNCC events, giveaway promotion, sales
         * We now have more extensive online ordering
         * Sweet item(s) in consignment (could be nice for like the $$$ tents, etc...)
-
-! - For rough release - look over all files
-! - For rough release - full spelling/grammer check, have a few people proof it
-! - For rough release - test keyboard nav
-todo - some sort of server integration?
+? - some sort of server integration?
     Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
     The site reads/updates a DB, like firebase
     Then the deployed site gets updated values from firebase with fallbacks if no connection?
     ... actually maybe not firebase, since it would possibly cost... maybe a DB hosted at the same web host if it seems cheaper... MySQL maybe
-? - is this a stupid idea: a central object with a lot of the info that could change frequently in it, that is used as the source for it through the site? Thus one messy object and then every file that needs data from it just imports what they need. That would really cut down on how much code there is in some of the files... but it just moves it to the object (or objects) hmm will have to think about it more
-    ? - short circuit / default setup, so that if something isn't specified in the obj, the default specified in the individual file is used
-    * automatic hours true/false
-        * manual hours set
-        * automatic hours season1 set
-        * automatic hours season2 set
-    * Resole turn around time
-    * Guide service pricing
-    * phone numbers, emails, addresses?
-todo - FOR FINAL PRODUCTION - look over every file, make sure nothing obviously overlooked
-todo - FOR FINAL PRODUCTION - Full check of spelling and grammer, and multiple people looking over EVERYTHING
-todo - FOR FINAL PRODUCTION - SEO optimization... create-react-app does some basics, but I can certainly improve it more
-todo - FOR FINAL PRODUCTION - Have someone navigate it all with a screen reader to test accessability
-todo - FOR FINAL PRODUCTION - Check for color-blindness / contrast compatability
-todo - FOR FINAL PRODUCTION - what if someone changes the font size themselves, does it still look ok?
-todo - FOR FINAL PRODUCTION - loading speed, efficiency, no extraneous re-renders, etc...
-todo - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
-todo - FOR FINAL PRODUCTION - Make sure my important comments that i made about author of site are visible after build process
-todo - add more photos of the inside / outside of DRS
-    clothing
-    artwork?
-    new local guidebooks
-    route topos
-    stick clips
-    chalk selection
-    canyoneering ropes, bags, critter, quicklinks, etc?
-todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
-todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
-todo - loading animations that I can use in various places
-    Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
-? - should I move the resoles to its own page? Hmmm... I go back and forth on it
-    ... but if I'm going to, I should make sure that the main content of the Home page is filled out a bit more and good on its own
-todo - add some line somewhere saying that I coded this site, see my github here etc...
-    * Maybe a simple line at the very bottom of the home or about pages...
-    // * As a block comment in the head of the index
-    // * OH, github link icon on about/guiding page for me
+    short circuit / default setup
+        * automatic hours true/false
+            * manual hours set
+            * automatic hours season1 set
+            * automatic hours season2 set
+        * Resole turn around time
+        * Guide service pricing
+        * phone numbers, emails, addresses?
 ! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
     * looks like when you inspect a page it doesn't show up as a global breakpoint option
     * I should be able to add it
@@ -150,7 +133,22 @@ todo - add some line somewhere saying that I coded this site, see my github here
         EX. About > How they met... looks bad
             - add subtitles, more text
         EX. About > JJ Card... looks good
-! - npm audit / npm audit fix
+todo - add more photos of the inside / outside of DRS
+    clothing
+    artwork?
+    new local guidebooks
+    route topos
+    stick clips
+    chalk selection
+    canyoneering ropes, bags, critter, quicklinks, etc?
+todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
+todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
+todo - loading animations that I can use in various places
+    Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
+todo - add some line somewhere saying that I coded this site, see my github here etc...
+    * Maybe a simple line at the very bottom of the home or about pages...
+    // * As a block comment in the head of the index
+    // * OH, github link icon on about/guiding page for me
 // todo - adjust hours
 // todo - Added a CSS background pattern in index on the overall body. Much less hassle than messing with background images and getting everything to always look good. I think it looks pretty respectable too, all things considered.
 // todo - make/implement a BETTER favicon
@@ -259,25 +257,7 @@ todo - add more tooltips to various images/things (see instructions near the end
 // todo - better style the google map on the bottom of the home page
 
 
-@ About page --------------------------------------
-! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
-todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, but a simple CSS color transition would be fine too
-? - a section on its own for the 3 owners???
-todo - THEN below it current (and past?) employees
-? - what about short reviews from patrons like James W?
-todo - probably move nav link position of the 'About' page to just left of 'Shop'
-! - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...    
-// todo - suitable enough for now side image
-// todo - go from parsing HTML for the bios to having a func return JSX
-// todo - See if instead of parsing HTML I can do the bio value in the object as a function returning JSX / A component w/HTML.. I can
-// todo - use style={{'height': '100%'}} to make all the staff Card components the same size for any given row config for whatever display
-// todo - mess with mt-3 and mb-3 so everything is spaced better
-// todo - adjust breakpoints
-// todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
-// todo - increase space between employee photo and their name
-// todo - Decide how to display personel
-// todo - Touch up and make responsive the main story
-// todo - the flex looks shitty, switch out for grid ???
+
 
 
 @ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
@@ -289,7 +269,6 @@ todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we ha
 ? - what about a 3D google street style navigable thing? I think that would be so slick...
     * Either link to the one on google maps... or just have one instead of the carousel ???
 ? - other sections in gear below the carousel?
-todo - 
 todo - restore edge distance to the Jumbotron w/ mr-0 ml-0 as well as the Container below everything that I'm not sure if I'll end up using
 todo - Make gear image be edge to edge of screen w/ className='pl-0 pr-0' in Container
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
@@ -372,7 +351,25 @@ todo - try a background color gradient instead of just color for the accordion s
 ! - gallery or carousel of photos from guiding
     Initially tried lightgallery... its great, but not perfect and paid
     Now different approach of separate responsive grid + lightbox libraries
+        react-photo-gallery -- for the gallery
+            react-images -- for the carousel and modal
+                react-zoom-pan-pinch -- for the zoom in... but can't get it to work perfectly with the modal, so disabled for now
     AMBITIOUS option - My secret package for this
+! - Work on everyones bio lengths / pic / content
+    ! - Josh Diggs
+    ! - Jacob Chu
+    ! - Lisa
+    ! - Dan
+    ! -
+! - consider re-structuring...
+    * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
+    * THEN RRCG / How it Works Steps + About our guiding columns...
+    * THEN Pics from guided climbing outings
+    * THEN Check out some of our guides, etc...
+! - guide inquiry form
+    * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
+    Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
+    * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 todo - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
 todo - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
     add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
@@ -383,19 +380,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         gallery
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
-! - consider re-structuring...
-    * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
-    * THEN RRCG / How it Works Steps + About our guiding columns...
-    * THEN Pics from guided climbing outings
-    * THEN Check out some of our guides, etc...
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
-! - guide inquiry form
-    * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
-    Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
-    * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
-! - Josh Diggs
-! - Work on everyones bio lengths
-todo - increase font size or something to make the guiding day durations slightly more prominent
 // todo - Add Ting Ting
 // todo - Fix TierCard.js photo credit overlay text - DONE, and its pretty great now!
 // todo - fix tier card img height on tier 3 -- by cropping them all to the same 741px height
@@ -441,7 +426,7 @@ todo - increase font size or something to make the guiding day durations slightl
 
 
 @ Other page --------------------------------------
-    What will it be?
+? - What will it be?
     Options?
         Courtesy page for Steve's Red Rock Resoles?
 
@@ -460,10 +445,30 @@ todo - increase font size or something to make the guiding day durations slightl
                 Nothing. Get rid of it.
 
 
+@ About page --------------------------------------
+! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
+! - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...
+? - a section on its own for the 3 owners??? then other employees below?
+// todo - probably move nav link position of the 'About' page to just left of 'Shop'
+// todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, but a simple CSS color transition would be fine too 
+// todo - suitable enough for now side image
+// todo - go from parsing HTML for the bios to having a func return JSX
+// todo - See if instead of parsing HTML I can do the bio value in the object as a function returning JSX / A component w/HTML.. I can
+// todo - use style={{'height': '100%'}} to make all the staff Card components the same size for any given row config for whatever display
+// todo - mess with mt-3 and mb-3 so everything is spaced better
+// todo - adjust breakpoints
+// todo - added a key in obj check and ternary to lead into the links which are added if present, makes it a bit less prone to problems if I add someone and forget to add every expected key to them. Not doing it for every key, since some I consider necessary and without, might as well not add a person at all.
+// todo - increase space between employee photo and their name
+// todo - Decide how to display personel
+// todo - Touch up and make responsive the main story
+// todo - the flex looks shitty, switch out for grid ???
+
+
 @ Shop page ---------------------------------------
 ! - ADD link data thing for Mojave Limestone and Keyhole Canyon
 ! - ADD current prices
 ! - ADD a note on shipping pricing????
+    $10 for 1-2 books flat rate shipping envelope is pretty easy IIRC
 // todo - make the image be a Card.Img inside a Card component for consistent corner rounding
 // todo - Alignment...
 //     Title center, Author center as subtitle
@@ -482,9 +487,9 @@ todo - increase font size or something to make the guiding day durations slightl
 
 
 @ Secret page -------------------------------------
-todo - replace secret section link '.' with something else, like a FA icon (just commented out it for now...)
+? - replace secret section link '.' with something else, like a FA icon (just commented out it for now...)
     it could be cool if it was a transparent icon, which you hover over for like a full second, then a opaque dropshadow or something shows up and it doesn't appear clickable until after this time ?
-todo - what content can go here ?
+? - what content can go here ?
 
 
 @ Error page --------------------------------------
@@ -519,9 +524,11 @@ todo - add a DRS logo image to the 'branding' nav item / link
     // style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
 
 @ RRResoles component / sub page ----------
-todo - separate out into its own page... right of guiding. Probably.
 ? - Maybe merge the images and main card into one and do something so images stay looking good no matter the size?
 ? - Maybe merge prices and contact info?
+// todo - add note that RR Resoles is NOT part of Desert Rock Sports
+// todo - fix page margin top ( wrap export in Container fluid className="mt-3" )
+// todo - separate out into its own page... right of guiding. Probably.
 // todo - add some photos!
 // todo - use react-bootstrap Card components, Jumbotron, or w/e else
 // todo - set height: '100%' on all Card componets here

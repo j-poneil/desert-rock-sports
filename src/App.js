@@ -9,11 +9,12 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 import Home from './components/Home';
-import About from './components/About';
 import Gear from './components/Gear';
 import Beta from './components/Beta';
 import Guiding from './components/Guiding';
+import Resoles from './components/RRResoles';
 import Other from './components/Other';
+import About from './components/About';
 import Shop from './components/Shop';
 // import new pages above using the same format
 // import Page from './components/Page';
@@ -54,11 +55,13 @@ function App() {
       {/* since I have role="main" here I changed the overall enclosing tag from a main to a <>*/}
       <Switch id='main-content' role="main">
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
+        
         <Route path="/gear" component={Gear} />
         <Route path="/beta" component={Beta} />
         <Route path="/guiding" component={Guiding} />
+        <Route path="/resoles" component={Resoles} />
         <Route path="/other" component={Other} />
+        <Route path="/about" component={About} />
         <Route path="/shop" component={Shop} />
         {/* Insert new pages above */}
         {/* <Route path="/page" component={Page} /> */}
