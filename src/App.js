@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Gear from './components/Gear';
 import Beta from './components/Beta';
+import Weather from './components/Weather';
 import Guiding from './components/Guiding';
 import Resoles from './components/RRResoles';
 import Other from './components/Other';
@@ -58,6 +59,7 @@ function App() {
         
         <Route path="/gear" component={Gear} />
         <Route path="/beta" component={Beta} />
+        <Route path="/weather" component={Weather} />
         <Route path="/guiding" component={Guiding} />
         <Route path="/resoles" component={Resoles} />
         <Route path="/other" component={Other} />

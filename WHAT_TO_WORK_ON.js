@@ -345,6 +345,15 @@ todo - try a background color gradient instead of just color for the accordion s
         todo - fill out breweries & bars
 
 
+@ Weather -----------------------------------------
+todo - links
+    wet rock police
+    pages with multiple weather stations in the area
+todo - images / video
+    what wet rock looks like, including inside
+todo - how to help?
+    add internet linked weather stations that record rain fall in Blue Diamond
+
 
 @ Guiding page ------------------------------------
 ! - Wording EVERYWHERE, and trim down amount of text a bit
@@ -445,6 +454,19 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
                 Nothing. Get rid of it.
 
 
+@ RRResoles ----------
+? - Maybe merge the images and main card into one and do something so images stay looking good no matter the size?
+? - Maybe merge prices and contact info?
+// todo - add note that RR Resoles is NOT part of Desert Rock Sports
+// todo - fix page margin top ( wrap export in Container fluid className="mt-3" )
+// todo - separate out into its own page... right of guiding. Probably.
+// todo - add some photos!
+// todo - use react-bootstrap Card components, Jumbotron, or w/e else
+// todo - set height: '100%' on all Card componets here
+// todo - fix width issue so it fills the same horizontal width / footprint as the sections before
+// todo - add react-bootstrap grid system
+// todo - make a basic skeleton frame one
+
 @ About page --------------------------------------
 ! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
 ! - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...
@@ -507,9 +529,11 @@ todo - make a great one
 
 @ Header component ----------
 
+@ Footer component ----------
+
 @ Navbar component ----------
 todo - add a DRS logo image to the 'branding' nav item / link
-? - do I really want an external link icon for the gym???
+// todo - do I really want an external link icon for the gym??? Yeah. I think I do. Its not part of THIS site. Makes sense to me.
 // todo - fix small screen hamburger dropdown mixing with Splash / Hero image/text poorly
 //     - it is due to the .splash-text css styling, position: absolute... mostly at least.
 //     - maybe try fixing by replacing with react-bootstrap Jumbotron or a carousel... or maybe just a generic react-bootstrap Container
@@ -523,21 +547,9 @@ todo - add a DRS logo image to the 'branding' nav item / link
     // style hover and active together with a background and/or color change
     // style focus separate with an outline or noticable animation like an underline animating in, or border animating, etc
 
-@ RRResoles component / sub page ----------
-? - Maybe merge the images and main card into one and do something so images stay looking good no matter the size?
-? - Maybe merge prices and contact info?
-// todo - add note that RR Resoles is NOT part of Desert Rock Sports
-// todo - fix page margin top ( wrap export in Container fluid className="mt-3" )
-// todo - separate out into its own page... right of guiding. Probably.
-// todo - add some photos!
-// todo - use react-bootstrap Card components, Jumbotron, or w/e else
-// todo - set height: '100%' on all Card componets here
-// todo - fix width issue so it fills the same horizontal width / footprint as the sections before
-// todo - add react-bootstrap grid system
-// todo - make a basic skeleton frame one
 
-@ Footer component ----------
-? - Do I even want to have one? I just commented it out in App.js for now...
+
+
 
 
 
