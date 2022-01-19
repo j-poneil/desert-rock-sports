@@ -138,12 +138,6 @@ export default function Home(){
             {/* Maybe as a carousel */}
 
             {/* Check us out on IG? Subscribe to our mailing list? */}
-
-
-            <Container fluid className="mt-3">
-                {/* Resoles */}
-                {/* <RRResoles /> */}
-            </Container>
             
 
             <Container fluid>
