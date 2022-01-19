@@ -112,8 +112,12 @@ const Weather = () => {
                             <Card.Text>
                                 <blockquote className='blockquote-footer'>
                                     A thin rock was found on the ground in a usually shaded area at The Hamlet that looked dry on the outside but was obvious from the approach that it was very likely to still be wet inside. It was placed on the ground over another rock and stood on to break in half to show the darker area of the rock inside which is still wet. Like a medium-rare cooked burger patty. Since the rock wall itself gets a lot more sun and wind exposure than this area of the ground, AND the routes are popular and well traveled to clean them of MOST of the suspect rock, it was determined that it was barely OK to climb here on this day, with the caveat that any flake features should be avoided like the plague.
-                                    <br/>
+                                    <br />
+                                    <br />
                                     This was a few days after a rain. Had this been a less traveled, less sunny, and/or colder temps situation we would have given it another day minimum. Possibly several more days.
+                                    <br />
+                                    <br />
+                                    You can right click and save this video (7 seconds, 1.9 MB) to share it with your friends.
                                 </blockquote>
                             </Card.Text>
                         </Card.Body>
@@ -158,9 +162,9 @@ const Weather = () => {
                                 <p>Nevada specific forum section on Mountain Project. Another good option to look for threads about recent weather or ask.</p>
                                 
 
-                                <a href="https://www.instagram.com/p/Bufa9MonFfw/" target="_blank" rel="noopener noreferrer">One example of what wet rock can look like inside (Instagram) <sup><FaExternalLinkAlt /></sup></a>
-                                <br />
-                                <a href="../vid/rock_wet_inside.mp4" target="_blank" rel="noopener noreferrer">download .mp4 to send to your friends (1.9 MB) <sup><FaDownload /></sup></a>
+                                {/* <a href="https://www.instagram.com/p/Bufa9MonFfw/" target="_blank" rel="noopener noreferrer">One example of what wet rock can look like inside (Instagram) <sup><FaExternalLinkAlt /></sup></a>
+                                <br /> */}
+                                {/* <a href="../vid/rock_wet_inside.mp4" target="_blank" rel="noopener noreferrer">download .mp4 to send to your friends (1.9 MB) <sup><FaDownload /></sup></a> */}
 
 
                                 <a href="" target="_blank" rel="noopener noreferrer"></a>
