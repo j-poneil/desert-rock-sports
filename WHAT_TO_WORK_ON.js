@@ -149,6 +149,10 @@ todo - add some line somewhere saying that I coded this site, see my github here
     * Maybe a simple line at the very bottom of the home or about pages...
     // * As a block comment in the head of the index
     // * OH, github link icon on about/guiding page for me
+todo - blockquote styling?
+    * indented, vertical gray line on left side, italic?
+    * className='blockquote' approach makes the text larger, no indentation, no italics, etc...
+    * className='blockquote-footer' approah is MUCH better. leading '---', smaller text, grey... but no indentation and line
 // todo - adjust hours
 // todo - Added a CSS background pattern in index on the overall body. Much less hassle than messing with background images and getting everything to always look good. I think it looks pretty respectable too, all things considered.
 // todo - make/implement a BETTER favicon
@@ -346,12 +350,33 @@ todo - try a background color gradient instead of just color for the accordion s
 
 
 @ Weather -----------------------------------------
+? - Ambitious - historical data from multiple stations
+    ? - mouse over map with popup on click/hover on stations brings up a graph?
+        ? - how would that work on a smartphone/tablet?
+? - Examples of climbs that have been damaged where is it very likely that the cause was climbing on wet rock (with weather data or time of the last rain and amount (inches/light/heavy), temps, etc if possible)
+    * The Black Widow 5.12 4p, key hold broke (as well as many other holds) when a guy climbed it on Feb 3, 2019 after 0.67" of rain the day before, now probably 5.12d-ish
+        https://www.mountainproject.com/route/107506973/the-black-widow
+        0.67" of rain recorded AT VEGAS as seen here: https://lasvegaswx.com/wxwuhistory.php For Feb 2, 2019
+        Meaning very likely higher rain in the canyons of Red Rock as is typical
+
 todo - links
-    pages with multiple weather stations in the area
+    * pages with multiple weather stations in the area
+        * https://lasvegaswx.com/
+            * https://lasvegaswx.com/wxwuhistory.php -- historical (but Las Vegas, which station? exact location?)
+    * more general weather info links, like other activities? areas?
+        * https://57hours.com/blog/red-rock-climbing-etiquette/
+        * https://www.redrockcanyonlv.org/wp-content/uploads/rrckeystone2017_vfin-web.pdf
+        * ??
 todo - images / video
     what wet rock looks like, including inside, pics and vids from others
-todo - how to help?
-    add internet linked weather stations that record rain fall in Blue Diamond
+// todo - how to help the weather situation / wet rock situation
+    // * add internet linked weather stations that record rain fall in Blue Diamond, other areas
+    // * provide eyes on the ground observations for various areas by hiking in
+        // and taking photos/videos of the dirt and rock in the area, then share it on Facebook or Mountain Project
+    // * Social media about it being wet and what you will do instead
+    // * DON'T CLIMB WET ROCK.
+    // * Inform others (gently) of the science, danger, and local ethics of wet rock.
+    // * Ask others when you are unsure
 // todo - add my wet rock video w/ img preview (video-react)
 // todo - link to wet rock police
 // todo - link to ClimbVegas Facebook Group
