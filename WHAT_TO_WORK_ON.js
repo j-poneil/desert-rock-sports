@@ -347,12 +347,16 @@ todo - try a background color gradient instead of just color for the accordion s
 
 @ Weather -----------------------------------------
 todo - links
-    wet rock police
     pages with multiple weather stations in the area
 todo - images / video
-    what wet rock looks like, including inside
+    what wet rock looks like, including inside, pics and vids from others
 todo - how to help?
     add internet linked weather stations that record rain fall in Blue Diamond
+// todo - add my wet rock video w/ img preview (video-react)
+// todo - link to wet rock police
+// todo - link to ClimbVegas Facebook Group
+// todo - link to Mountain Project Nevada Forum
+
 
 
 @ Guiding page ------------------------------------
