@@ -354,19 +354,29 @@ todo - try a background color gradient instead of just color for the accordion s
 ? - Ambitious... but do-able - historical data from multiple stations
     ? - mouse over map with popup on click/hover on stations brings up a graph?
         ? - how would that work on a smartphone/tablet?
-    * https://developer.accuweather.com/apis
+    - https://developer.accuweather.com/apis
         forecast, current conditions, weather alarms, severe alerts, radar/satellite images, 120min precip forecast
-    * https://weatherstack.com/
+    - https://weatherstack.com/
         real time, historical, forecast
-    * https://docs.oikolab.com/#1-introduction
+        Free is 250 calls/mo --- Probably too little since ~730h in a month, no historical data, just realtime
+        Standard is $10/mo or $8/mo if billed yearly -- 50k calls/mo, full historical data
+    - https://docs.oikolab.com/#1-introduction
         70 years of historical data
             soil_temperature_level_1, wind_speed, surface_direct_solar_radiation, relative_humidity, total_cloud_cover, total_precipitation, snowfall, snow_depth, volumetric_soil_water_layer_1, volumetric_soil_water_layer_2, ... seems interesting. Enterprise plan has more interesting things like convective_available_potential_energy, evaporation, ...
-    * https://www.weather.gov/documentation/services-web-api#/default/station_observation_time
+        Pricing is kinda prohibitive
+    - https://www.weather.gov/documentation/services-web-api#/default/station_observation_time
         Doesn't look like it can do historical...
-    * https://www.visualcrossing.com/weather-api
+    $ https://www.visualcrossing.com/weather-api
         Realtime, Past, Forcasted
-    * https://synopticdata.com/pricing
+        Free is 1000 results/day, 50yr history, 15d forecast, current conditions
+        Seems like a good option
+            RED ROCK NV US ID: RRKN2 GPS: 36.135, -115.43
+            https://www.visualcrossing.com/weather-history/RRKN2/us/last15days
+    $ https://synopticdata.com/pricing
         This is what WetRockPolice uses, seems like a decent option too
+        Free is 20k API requests / mo, 20mil service units / mo, public domain data available only, not proprietary data
+        Seems like a good choice
+
 ? - CRON job
     * Query 1+ weather APIs every hour, then update a DB to save the data in a logical format
     * DB is read when a vistor looks at the weather page (or home page if I put weather on it too?)
@@ -375,14 +385,14 @@ todo - try a background color gradient instead of just color for the accordion s
     * DB is queried to get the data back in a format that makes sense
     * data is wrangled if needed to be in a useable format for whichever graphing package
 ? - Chart / graph options
-    D3.js
+    $ D3.js
         * https://observablehq.com/@d3/multi-line-chart
     Highcharts.js
         * https://www.highcharts.com/docs/index
         * https://www.highcharts.com/docs/chart-and-series-types/line-chart
         * built in accessibility module, easy to include
         * Paid???
-    Toast UI Chart
+    $ Toast UI Chart
         * https://github.com/nhn/tui.chart
         * https://ui.toast.com/tui-chart
         * https://nhn.github.io/tui.chart/latest/tutorial-example08-01-line-chart-basic
@@ -393,7 +403,7 @@ todo - try a background color gradient instead of just color for the accordion s
         * https://nhn.github.io/tui.chart/latest/tutorial-example08-12-line-chart-syncTooltip
         * 
         * FOSS
-    Google Charts
+    $ Google Charts
         * https://developers.google.com/chart
     
 ? - Examples of climbs that have been damaged where is it very likely that the cause was climbing on wet rock (with weather data or time of the last rain and amount (inches/light/heavy), temps, etc if possible)
