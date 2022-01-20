@@ -350,9 +350,52 @@ todo - try a background color gradient instead of just color for the accordion s
 
 
 @ Weather -----------------------------------------
-? - Ambitious - historical data from multiple stations
+? - Webcams
+? - Ambitious... but do-able - historical data from multiple stations
     ? - mouse over map with popup on click/hover on stations brings up a graph?
         ? - how would that work on a smartphone/tablet?
+    * https://developer.accuweather.com/apis
+        forecast, current conditions, weather alarms, severe alerts, radar/satellite images, 120min precip forecast
+    * https://weatherstack.com/
+        real time, historical, forecast
+    * https://docs.oikolab.com/#1-introduction
+        70 years of historical data
+            soil_temperature_level_1, wind_speed, surface_direct_solar_radiation, relative_humidity, total_cloud_cover, total_precipitation, snowfall, snow_depth, volumetric_soil_water_layer_1, volumetric_soil_water_layer_2, ... seems interesting. Enterprise plan has more interesting things like convective_available_potential_energy, evaporation, ...
+    * https://www.weather.gov/documentation/services-web-api#/default/station_observation_time
+        Doesn't look like it can do historical...
+    * https://www.visualcrossing.com/weather-api
+        Realtime, Past, Forcasted
+    * https://synopticdata.com/pricing
+        This is what WetRockPolice uses, seems like a decent option too
+? - CRON job
+    * Query 1+ weather APIs every hour, then update a DB to save the data in a logical format
+    * DB is read when a vistor looks at the weather page (or home page if I put weather on it too?)
+    * This way my DB gets all the hits, not the weather APIs which I have to NOT query too much (ie from users/bots)
+    * Auto refresh data (viewer subscribed to DB when on page, when leave/close window unsubscribe?)
+    * DB is queried to get the data back in a format that makes sense
+    * data is wrangled if needed to be in a useable format for whichever graphing package
+? - Chart / graph options
+    D3.js
+        * https://observablehq.com/@d3/multi-line-chart
+    Highcharts.js
+        * https://www.highcharts.com/docs/index
+        * https://www.highcharts.com/docs/chart-and-series-types/line-chart
+        * built in accessibility module, easy to include
+        * Paid???
+    Toast UI Chart
+        * https://github.com/nhn/tui.chart
+        * https://ui.toast.com/tui-chart
+        * https://nhn.github.io/tui.chart/latest/tutorial-example08-01-line-chart-basic
+        * https://nhn.github.io/tui.chart/latest/tutorial-example08-02-line-chart-datetime
+        * https://nhn.github.io/tui.chart/latest/tutorial-example08-09-line-chart-secondaryYAxis
+        * https://nhn.github.io/tui.chart/latest/tutorial-example08-10-line-chart-responsive
+        * https://nhn.github.io/tui.chart/latest/tutorial-example08-11-line-chart-liveUpdate
+        * https://nhn.github.io/tui.chart/latest/tutorial-example08-12-line-chart-syncTooltip
+        * 
+        * FOSS
+    Google Charts
+        * https://developers.google.com/chart
+    
 ? - Examples of climbs that have been damaged where is it very likely that the cause was climbing on wet rock (with weather data or time of the last rain and amount (inches/light/heavy), temps, etc if possible)
     * The Black Widow 5.12 4p, key hold broke (as well as many other holds) when a guy climbed it on Feb 3, 2019 after 0.67" of rain the day before, now probably 5.12d-ish
         https://www.mountainproject.com/route/107506973/the-black-widow
@@ -369,6 +412,8 @@ todo - links
         * ??
 todo - images / video
     what wet rock looks like, including inside, pics and vids from others
+
+
 // todo - how to help the weather situation / wet rock situation
     // * add internet linked weather stations that record rain fall in Blue Diamond, other areas
     // * provide eyes on the ground observations for various areas by hiking in
