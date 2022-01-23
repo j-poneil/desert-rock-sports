@@ -31,3 +31,6 @@ public/robots.txt
 WHAT_TO_WORK_ON.js
 src/files/data_privacy_statement.txt
 cronRest/test.http
+cronRest/test.js
+php/guidingInquiryForm.php
+php/checkWeatherUpdateDB.php
