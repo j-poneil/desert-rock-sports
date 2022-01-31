@@ -31,6 +31,7 @@ const newsItemStyles = {
 // News happenings.
 // Sales, events, competitions, closures, new red rock policies, etc... maybe even rain, but that could get a bit crazy
 export default function News(){
+    // newsReal not newsReel, b/c reference to Sean King, TFM.
     const newsReal = newsItems.map((i, index) => {
         return (
             <Card.Text key={ index }>
