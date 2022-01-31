@@ -225,6 +225,7 @@ todo - OK ENOUGH FOR NOW - but later...
         resize vertical height of image to show better on a standard laptop
             but double check that it will still look good on smaller screens down to iPhone5
 todo - add more tooltips to various images/things (see instructions near the end of NOTES.md)
+todo - fix scroll on news items... currently items are added and section gets longer and longer instead of the scroll bar becoming active
 // todo - Hero image should be edge to edge ... edgy... hero image
 // todo - splash background image should no stretch/shrink on horizontal axis with different screen sizes
 //     in the overall container AND Splash container added className='pl-0 pr-0' to fix
@@ -633,7 +634,11 @@ todo - add a DRS logo image to the 'branding' nav item / link
 
 
 
-
+@ TESTS
+    @ Selenium
+        todo - search for appropriate FA icon before or after in site / out of site links
+        todo - search for broken links
+        todo - ?
 
 
 
