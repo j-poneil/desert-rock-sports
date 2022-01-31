@@ -144,5 +144,36 @@ $gyms-button-border: #27332d
 
 
 
+
+// basic className='blockquote' and blockquote-footer are kinda lame
+.customBlockquote
+    margin-top: 1.5em
+    margin-bottom: 1.5em
+    font-size: 1em
+    line-height: 1.5em
+    padding: 20px 20px 20px 40px
+    border-left: 3px solid #f0715f
+    position: relative
+    text-indent: 0px
+    font-style: italic
+
+.customBlockquoteQuote
+.customBlockquoteQuote:before
+    content: open-quote
+.customBlockquoteQuote:after
+    content: close-quote
+
+.customBlockquoteCite
+    text-align: right
+    margin-top: 1em
+.customBlockquoteCite:before // 'Three-Em Dash' unicode char. U+2E3B
+    content: '\2E3B'
+
+
+
+
+
+
+
 /* import bootstrap to set changes */
 @import "../../../node_modules/bootstrap/scss/bootstrap"
