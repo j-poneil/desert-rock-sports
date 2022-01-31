@@ -34,8 +34,12 @@ const Weather = () => {
     return (
         <Container fluid className="mt-3">
             <Jumbotron className="text-center mb-3">
+                ( placeholder for realtime weather data )
+            </Jumbotron>
+
+            <Jumbotron className="text-center mb-3">
                 <h1>Weather</h1>
-                <p>Vegas is known for an average of over 300 sunny days per year. Even still, it can, and does rain. Further complication is that Red Rock Canyon, at a higher elevation, tends to get hit harder than Las Vegas itself. As well, there are no weather stations out in/on the rocks (yet?) so our best look at rainfall measurements are from just a few weather stations in the general area which often have recorded nothing when its plainly obvious for anyone to see that the canyons are getting dumped on.</p>
+                <p>Vegas is known for an average of over 300 sunny days per year. Even still, it can, and does rain. Further complication is that Red Rock Canyon, at a higher elevation, tends to get hit harder than Las Vegas itself. As well, there are no weather stations out in/on the rocks (yet?) so our best look at rainfall measurements are from just a few weather stations in the general area which often have recorded nothing when its plainly obvious for many on the west side of Vegas to see that the canyons are getting dumped on.</p>
                 <p>The Spring Mountains act as a barrier to storms coming from the Pacific and very often these storms will dump on these mountains and Las Vegas itself will see very little if any rain. Unfourtunately Red Rock Canyon is between the two and often gets some of the precipitation. Higher elevation areas tend to get hit harder than lower ones. Sometimes the Calico Hills don't get hit, or get light precip while the canyons are soaked. Sometimes everything gets soaked. If Las Vegas itself is visibly wet, it is almost assured that Red Rock Canyon was hit as well.</p>
 
                 <a href="https://www.blm.gov/sites/blm.gov/files/documents/files/Nevada_Red_Rock_Canyon_Weather_Brochure.pdf" target="_blank" rel="noopener noreferrer">BLM Red Rock Canyon Weather Brochure (pdf)</a>
@@ -52,6 +56,26 @@ const Weather = () => {
                                 <p>The sandstone here at Red Rock Canyon is not as weak as the sandstone at the Fisher Towers in Moab (mud). It is also not as strong as the sandstone found in places such as the Red River Gorge or Horseshoe Canyon Ranch. Also much weaker than the sandstone at Eldorado Canyon in CO, which has been changed by heat and pressure, fusing it to a larger degree to something closer to granite, while technically still a stone made of sand.</p>
                                 <p>Our Red Rock Canyon NCA sandstone is fairly porus and loses a significant amount of strength when wet. Unfortunately, because it is porus, the surface can look and feel dry to the touch, but it can still have a lot of water inside. This makes it tricky to know when it is safe enough to climb.</p>
                                 <p>In stark contrast, the sandstone someplace like the Red River Gorge can be climbed even if wet and soaking, though it may be a miserable experience. Eldorado Canyon, as soon as the surface of the rock is dry, its good to go.</p>
+                                {/* <figure>
+                                    <blockquote className='blockquote'>It has to do with the quartz content of the cementing material. Sandstone is a sedimentary rock composed of mostly quartz sand particles (sometimes other components like other minerals and pebbles etc.) that are held together by a cementing material that is typically either quartz or calcite.<br/>
+                                    The sandstone in Tennessee has a significantly higher quartz content of the cementing material, making it much much harder and is not effected by rain or moisture. Same as the sandstone at the New - bomb proof!<br/>
+                                    That’s why it’s compared to granite, because granite is also quartz - but formed in a different way.
+                                    </blockquote>
+                                    <figcaption class='blockquote-footer'>
+                                        Ryan Fletcher <cite title='of ARCADIS Canada Inc.'> of ARCADIS Canada Inc.</cite>
+                                    </figcaption>
+                                </figure> */}
+                                <blockquote className='customBlockquote'>
+                                    <div className='customBlockquoteQuote'>
+                                        It has to do with the quartz content of the cementing material. Sandstone is a sedimentary rock composed of mostly quartz sand particles (sometimes other components like other minerals and pebbles etc.) that are held together by a cementing material that is typically either quartz or calcite.<br/><br/>
+                                        The sandstone in Tennessee has a significantly higher quartz content of the cementing material, making it much much harder and is not effected by rain or moisture. Same as the sandstone at the New - bomb proof!<br/><br/>
+                                        That's why it's compared to granite, because granite is also quartz - but formed in a different way.
+                                    </div>
+                                    <div className='customBlockquoteCite'>
+                                        Ryan Fletcher <cite title='of ARCADIS Canada Inc.'> of ARCADIS Canada Inc.</cite>
+                                    </div>
+                                </blockquote>
+                                
 
                                 <h6>The Process</h6>
                                 <ol>
