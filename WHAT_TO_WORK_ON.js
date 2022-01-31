@@ -366,7 +366,7 @@ todo - try a background color gradient instead of just color for the accordion s
         Pricing is kinda prohibitive
     - https://www.weather.gov/documentation/services-web-api#/default/station_observation_time
         Doesn't look like it can do historical...
-    $ https://www.visualcrossing.com/weather-api
+    $ https://www.visualcrossing.com/weather-api --- TRYING THIS OUT
         Realtime, Past, Forcasted
         Free is 1000 results/day, 50yr history, 15d forecast, current conditions
         Seems like a good option
