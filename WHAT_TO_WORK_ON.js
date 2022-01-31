@@ -422,8 +422,7 @@ todo - links
         * ??
 todo - images / video
     what wet rock looks like, including inside, pics and vids from others
-
-
+todo - search through the site and add links/text that people should check out the weather link/section of the site for more info on wet rock
 // todo - how to help the weather situation / wet rock situation
     // * add internet linked weather stations that record rain fall in Blue Diamond, other areas
     // * provide eyes on the ground observations for various areas by hiking in
