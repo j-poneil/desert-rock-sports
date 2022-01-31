@@ -163,7 +163,7 @@ export const staff = [
                 <p>Loves easy multipitch trad, cracks, offwidths. Does a lot of hiking and trail running.</p>
                 <p>Total gear nerd. Familiar with soooo many different pieces of esoteric climbing gear. Good with knots.</p>
                 <p>Coded this site. Also sews.</p>
-                <p>You can rarely convince him to do custom sewn things like bolting and re-bolting bags, bike frame packs, and minor gear repairs and modifications so long as they are not complicated to get under the foot of his mini-industrial sewing machine.</p>
+                <p>You can rarely convince him to do custom sewn things like bolting and re-bolting bags, bike frame packs, and minor gear repairs and modifications so long as they are not complicated to get under the foot of his mini-industrial sewing machine... Absolutely will NOT replace or fix zippers.</p>
             </>
         ),
         imgSrc: T2,
