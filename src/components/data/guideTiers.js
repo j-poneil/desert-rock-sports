@@ -42,7 +42,7 @@ export const tiers = [
         ],
         tierNotes: () => (
             <>
-                <p>Prices are total, not per-person. We can accomodate large groups. In general for every climber after 5 climbers, we add $100. Example: 8 climbers would be $900 total.</p>
+                <p>In general for every climber after 5 climbers, we add $100. Example: 8 climbers would be $900 total.</p>
             </>
         )
     },
@@ -72,7 +72,7 @@ export const tiers = [
         ],
         tierNotes: () => (
             <>
-                <p>5 or more climbers we will typically add a second guide to make sure everyone gets enough time on the rock. 6 or more climbers add $150 each additional climber.</p>
+                <p>6 or more climbers add $150 each additional climber.</p>
             </>
         )
     },
@@ -143,8 +143,8 @@ export const tiers = [
         ],
         tierNotes: () => (
             <>
-                <p>Prior experience necessary. Pre-dawn starts are not unusual. Prices are determined based on the difficulties and complexities of the route chosen as well as estimated time needed. For example, Solar Slab would be $400 for 1 climber, while Epinephrine, Levitation 29, or a route on Rainbow Wall would be at least $600. Linkups of multiple long routes, extraordinarily long routes, or other complexities could lead to even higher prices.</p>
-                <p>Often it is a good idea to try to book a half day with the same guide in advance so they can get a good idea of your movement skills to make sure that they feel the route selected is a good fit for you. Or so they can select an appropriate route if you don't have something in mind.</p>
+                <p>Prior experience is absolutely necessary. Pre-dawn starts are not unusual. Prices are determined based on the difficulties and complexities of the route chosen as well as estimated time needed. For example, Solar Slab would be $400 for 1 climber, while Epinephrine, Levitation 29, or a route on Rainbow Wall would be at least $600. Linkups of multiple long routes, extraordinarily long routes, or other complexities could lead to even higher prices.</p>
+                <p>Very often it is a good idea to try to book a half day with the same guide in advance so they can get a good idea of your movement skills to make sure that they feel the route selected is a good fit for you. Or so they can select an appropriate route if you don't have something in mind.</p>
             </>
         )
     },
