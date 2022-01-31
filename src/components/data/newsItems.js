@@ -19,6 +19,16 @@ export const newsItems = [
     //     )
     // },
     {
+        title: "Historical, current, and forecasted weather to be added!",
+        date: "01/31/2022",
+        post: () => (
+            <>
+                <p>Weather content similar to that available on <a href="https://wetrockpolice.com/redrock" target="_blank" rel="noopener noreferrer">Wet Rock Police</a> is in the works to be added. Hopefully for a few weather stations and not just the one at the Red Rock Canyon visitor center, which often doesn't record rain.</p>
+                <p>As stations closer to Red Rock get connected to the internet, their content can be added to make this and other sources of weather info more accurate and useful. Particularly if stations get added at Blue Diamond and maybe, hopefully, eventually some remote small stations IN Red Rock.</p>
+            </>
+        )
+    },
+    {
         title: "Pad Blankets now available for rental at $10/day",
         date: "12/01/2021",
         post: () => (
