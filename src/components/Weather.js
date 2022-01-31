@@ -135,10 +135,10 @@ const Weather = () => {
                             />
                             <Card.Text>
                                 <blockquote className='blockquote-footer'>
-                                    A thin rock was found on the ground in a usually shaded area at The Hamlet that looked dry on the outside but was obvious from the approach that it was very likely to still be wet inside. It was placed on the ground over another rock and stood on to break in half to show the darker area of the rock inside which is still wet. Like a medium-rare cooked burger patty. Since the rock wall itself gets a lot more sun and wind exposure than this area of the ground, AND the routes are popular and well traveled to clean them of MOST of the suspect rock, it was determined that it was barely OK to climb here on this day, with the caveat that any flake features should be avoided like the plague.
+                                    A thin rock was found on the ground in a usually shaded area at The Hamlet that looked dry on the outside but was obvious from the approach that it was very likely to still be wet inside. It was placed on the ground over another rock and stood on to break in half to show the darker area of the rock inside which is still wet. Like a medium-rare cooked burger patty. Since the rock wall itself gets a lot more sun and wind exposure than this area of the ground, AND the routes are popular and well traveled to clean them of MOST of the suspect rock, it was determined that it was barely OK to climb here on this day, with the caveat that any flake features should be avoided like the plague... Which is hard to do at Red Rock! They are everywhere!
                                     <br />
                                     <br />
-                                    This was a few days after a rain. Had this been a less traveled, less sunny, and/or colder temps situation we would have given it another day minimum. Possibly several more days.
+                                    This was a few days after significant rain. Had this been a less traveled, less sunny, and/or colder temps situation we would have given it another day minimum. Possibly several more days.
                                     <br />
                                     <br />
                                     You can right click and save this video (7 seconds, 1.9 MB) to share it with your friends.
