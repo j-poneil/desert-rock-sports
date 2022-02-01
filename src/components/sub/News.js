@@ -18,11 +18,16 @@ import { newsItems } from '../data/newsItems';
 
 const newsCardStyles = {
     height: '100%',
+    // width: '100%',
     overflowY: 'scroll'
 };
 
 const newsItemStyles = {
-    // Want to have 'News' stay up top and have items scroll, with scroll bar fitting down to bottom of Card component
+
+};
+
+const postTextStyles = {
+    paddingLeft: '15px'
 };
 
 
@@ -42,7 +47,7 @@ export default function News(){
                 <Card.Subtitle className="mb-1" as="h5">
                     { i.title }
                 </Card.Subtitle>
-                <Card.Text className="mb-4">
+                <Card.Text className="mb-4" style={ postTextStyles }>
                     { i.post() }
                 </Card.Text>
             </Card.Text>
