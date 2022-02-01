@@ -226,6 +226,53 @@ todo - OK ENOUGH FOR NOW - but later...
             but double check that it will still look good on smaller screens down to iPhone5
 todo - add more tooltips to various images/things (see instructions near the end of NOTES.md)
 todo - fix scroll on news items... currently items are added and section gets longer and longer instead of the scroll bar becoming active
+    This problem is similar with the other rows.
+    Hmm. Seems tricky to get the responsive image behavior I want and have the col with the news items to match the image columns height
+    ... w/o JS finding the image height and using that for the news col max-height... ish
+    ... which is after page loading, and would lead to an extra re-render
+    ... not really optimal, but maybe worth it if the result looks good enough?
+    ... also, maybe for the initial render, have everything draw invisible, so there isn't a FOUC or rather flash of not appropriately styled content
+    ... if I use refs... MAYBE it makes more sense to have the proper place ot "own" that state, higher up.
+    ... BUT can't use the ref attribute on function components because they don't have instances
+    ... you can, however use the ref attribute inside a function component as long as you refer to a DOM element or a class component
+        https://reactjs.org/docs/refs-and-the-dom.html
+        function CustomTextInput(props) {
+            ### textInput must be declared here so the ref can refer to it
+            const textInput = useRef(null);
+            
+            function handleClick() {
+                textInput.current.focus();
+            }
+
+            return (
+                <div>
+                <input
+                    type="text"
+                    ref={textInput} />
+                <input
+                    type="button"
+                    value="Focus the text input"
+                    onClick={handleClick}
+                />
+                </div>
+            );
+        }
+        https://medium.com/@ttennant/react-inline-styles-and-media-queries-using-a-custom-react-hook-e76fa9ec89f6
+            ... hmm
+        https://www.tutorialrepublic.com/faq/how-to-get-current-image-size-in-javascript.php
+        function imgSize(){
+            let myImg = document.querySelector(#imgDesired);
+            let currWidth = myImg.clientWidth;
+            let currHeight = myImg.clientHeight;
+        }
+        https://www.geeksforgeeks.org/how-to-get-the-height-and-width-of-an-image-using-reactjs/
+        <img ref={this.imgRef} />
+        ...
+        constructor
+        this.imgRef = React.createRef()
+        ...
+        { this.imgRef.current.clientHeight }
+        { this.imgRef.current.clientWidth }
 // todo - Hero image should be edge to edge ... edgy... hero image
 // todo - splash background image should no stretch/shrink on horizontal axis with different screen sizes
 //     in the overall container AND Splash container added className='pl-0 pr-0' to fix
