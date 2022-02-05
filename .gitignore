@@ -25,12 +25,18 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .htpasswd
+src/.htpasswd
 public/.htaccess
 public/robots.txt
 
 WHAT_TO_WORK_ON.js
 src/files/data_privacy_statement.txt
 cronRest/test.http
+src/cronRest/test.http
 cronRest/test.js
+src/cronRest/test.js
 php/guidingInquiryForm.php
+src/php/guidingInquiryForm.php
 php/checkWeatherUpdateDB.php
+src/php/checkWeatherUpdateDB.php
+src/components/sub/NewsletterIFrame.js
