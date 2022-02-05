@@ -225,7 +225,8 @@ todo - OK ENOUGH FOR NOW - but later...
         resize vertical height of image to show better on a standard laptop
             but double check that it will still look good on smaller screens down to iPhone5
 todo - add more tooltips to various images/things (see instructions near the end of NOTES.md)
-todo - fix scroll on news items... currently items are added and section gets longer and longer instead of the scroll bar becoming active
+todo - MORE PERMANENT fix for news item scroll / column heights
+    ... currently items are added and section gets longer and longer instead of the scroll bar becoming active
     This problem is similar with the other rows.
     Hmm. Seems tricky to get the responsive image behavior I want and have the col with the news items to match the image columns height
     ... w/o JS finding the image height and using that for the news col max-height... ish
@@ -273,6 +274,7 @@ todo - fix scroll on news items... currently items are added and section gets lo
         ...
         { this.imgRef.current.clientHeight }
         { this.imgRef.current.clientWidth }
+// todo - hacky temp fix on news item scroll: maxHeight 65vh
 // todo - Hero image should be edge to edge ... edgy... hero image
 // todo - splash background image should no stretch/shrink on horizontal axis with different screen sizes
 //     in the overall container AND Splash container added className='pl-0 pr-0' to fix

@@ -17,8 +17,11 @@ import { newsItems } from '../data/newsItems';
 // ..\src\stylesheets\components\_news.sass
 
 const newsCardStyles = {
-    height: '100%',
+    // height 100% is how things were before
+    // height: '100%',
     // width: '100%',
+    // maxHeight: 65vh is TEMP hacky fix-ish
+    maxHeight: '65vh',
     overflowY: 'scroll'
 };
 
