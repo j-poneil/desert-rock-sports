@@ -47,6 +47,8 @@ https://stackoverflow.com/questions/9802788/call-a-rest-api-in-php
 http://guzzle.readthedocs.org/ -- maybe a good option
 https://phphttpclient.com/ -- also a good option
 
+https://www.visualcrossing.com/resources/documentation/weather-api/how-to-load-weather-data-in-php/
+
 */
 
 
