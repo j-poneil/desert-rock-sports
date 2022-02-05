@@ -14,7 +14,10 @@ import Map from './sub/Map';
 import Splash from './sub/Splash';
 import News from './sub/News';
 import Contact from './sub/Contact';
+// playing with options for newsletter signup form
 import NewsletterModal from './sub/NewsletterModal';
+import NewsletterIFrame from './sub/NewsletterIFrame';
+import NewsletterForm from './sub/NewsletterForm';
 
 // Images
 import Julie from '../img/HomePage/Julie_medium.jpg';
@@ -24,7 +27,7 @@ import Pickles from '../img/temp/Pickles_900x600.jpg';
 import SufferPup from '../img/temp/SufferPup_900x600.jpg';
 // import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
 import FyfeBouldering from '../img/temp/fyfe_900x600.jpg';
-import NewsletterIFrame from './sub/NewsletterIFrame';
+
 
 // ! no styles here currently
 // Styles here:
@@ -165,7 +168,8 @@ export default function Home(){
                     <Col>
                     </Col>
                     <Col>
-                        <NewsletterIFrame />
+                        {/* <NewsletterIFrame /> */}
+                        <NewsletterForm />
                     </Col>
                 </Row>
             </Container>

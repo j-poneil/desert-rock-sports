@@ -729,5 +729,7 @@ https://www.polemicdigital.com/protect-your-staging-environments/
     Make sure http & https work
     Make sure routing works, like going straight to Shop w/o having first visited index
 
-
+! - When ready to go live, make sure using the right keys for NewsletterForm.js. NOT the testing keys.
+        ! - Be sure that the keys are hidden, NOT on github
+        ! - Have a site privacy statement and make sure link on form points to it, not just a placeholder link
 */
