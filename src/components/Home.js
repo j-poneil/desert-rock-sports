@@ -6,12 +6,15 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 // sub components
 import Map from './sub/Map';
 import Splash from './sub/Splash';
 import News from './sub/News';
 import Contact from './sub/Contact';
+import NewsletterModal from './sub/NewsletterModal';
 
 // Images
 import Julie from '../img/HomePage/Julie_medium.jpg';
@@ -21,6 +24,7 @@ import Pickles from '../img/temp/Pickles_900x600.jpg';
 import SufferPup from '../img/temp/SufferPup_900x600.jpg';
 // import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
 import FyfeBouldering from '../img/temp/fyfe_900x600.jpg';
+import NewsletterIFrame from './sub/NewsletterIFrame';
 
 // ! no styles here currently
 // Styles here:
@@ -42,6 +46,8 @@ const sufferPupStyles = { width: '100%' };
 
 // style={{'paddingLeft': '0', 'paddingRight': '0'}} ====> className='pl-0 pr-0'
 export default function Home(){
+    // const [modalShow, setModalShow] = React.useState(false);
+
     return (
         <Container fluid className='pl-0 pr-0'>
             {/* Container fluid */}
@@ -59,6 +65,8 @@ export default function Home(){
                             </p>
                             <p>We carry top of the line technical gear and outdoor clothing not likely to be found anywhere else in the area.</p>
                             <p>Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our WIFI! We're here to help make your visit to the area a memorable one.</p>
+                            {/* //! Not using the button modal approach for now since I couldn't get it to work the way I wanted */}
+                            {/* <NewsletterModal /> */}
                         </Jumbotron>
                     </Col>
                     <Col>
@@ -149,6 +157,17 @@ export default function Home(){
             <Container fluid className="mt-3 mb-3">
                 {/* Embedded Google Map, somewhat responsive */}
                 <Map />
+            </Container>
+
+
+            <Container fluid>
+                <Row xl={2} lg={2} md={1} sm={1} xs={1}>
+                    <Col>
+                    </Col>
+                    <Col>
+                        <NewsletterIFrame />
+                    </Col>
+                </Row>
             </Container>
             
         </Container>
