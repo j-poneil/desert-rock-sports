@@ -57,7 +57,7 @@ function RRResoles() {
                                     <li>Half Sole: $40 / Pair</li>
                                     <li>Rand Repair: $10 / Each Shoe</li>
                                     <li>Approach Shoes / Other: Discuss with him</li>
-                                    <li>Rush Charge: $20 / Pair</li>
+                                    <li>Rush Charge: $20 / Pair (approval required)</li>
                                 </ul>
                                 <p>He uses Unparallel Rubber (Stealth C4 equivalent)</p>
                                 <p>Current turn around time ~5 weeks</p>
