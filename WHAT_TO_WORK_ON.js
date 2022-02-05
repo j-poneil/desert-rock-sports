@@ -66,6 +66,7 @@ https://nomadventures.com/
 @ HOSTING, etc --------------------------------------------------------
 * Get a host setup, maybe dreamhost
 * Get domain name(s) transferred over
+    OR set domain names hosted at other locations to just point to a proper hosted domain name
 * Choose main domain name
 * Point all other domain names to forward to main
 * Get old site code
@@ -399,6 +400,12 @@ todo - try a background color gradient instead of just color for the accordion s
         todo - fill out breweries & bars
 
 
+
+
+
+
+
+
 @ Weather -----------------------------------------
 ? - Webcams
 ? - Ambitious... but do-able - historical data from multiple stations
@@ -488,6 +495,10 @@ todo - search through the site and add links/text that people should check out t
 
 
 
+
+
+
+
 @ Guiding page ------------------------------------
 ! - Wording EVERYWHERE, and trim down amount of text a bit
 ! - gallery or carousel of photos from guiding
@@ -567,24 +578,17 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 // todo - make sure the cards fill all horizontal space when suitable, ie on smaller screens
 
 
+
+
+
 @ Other page --------------------------------------
 ? - What will it be?
-    Options?
-        Courtesy page for Steve's Red Rock Resoles?
-
-        Weather?
-            Would need API access to probably multiple services, could maybe be a pain to keep working due to updates
-                Maybe argument for GraphQL?
-            Would need historic past rainfall too, which may currently be off if that sensor is still broken at RRNCA
-            ... would be pretty cool... but a TON of work to make it all look good
-            ... Thinking a row of Cards
-                first 3-4 are past weather (high/lo, rainfall, pic)
-                then a highlighted and labeled one TODAY (same info)
-                then 3-14? future forecasted days weather
-
         Something else?
             What?
                 Nothing. Get rid of it.
+
+
+
 
 
 @ RRResoles ----------
@@ -599,6 +603,9 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 // todo - fix width issue so it fills the same horizontal width / footprint as the sections before
 // todo - add react-bootstrap grid system
 // todo - make a basic skeleton frame one
+
+
+
 
 @ About page --------------------------------------
 ! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
@@ -619,11 +626,13 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 // todo - the flex looks shitty, switch out for grid ???
 
 
+
+
+
 @ Shop page ---------------------------------------
 ! - ADD link data thing for Mojave Limestone and Keyhole Canyon
 ! - ADD current prices
-! - ADD a note on shipping pricing????
-    $10 for 1-2 books flat rate shipping envelope is pretty easy IIRC
+// todo - ADD a note on shipping pricing???? -- 10 for 1-2 books flat rate shipping envelope is pretty easy IIRC
 // todo - make the image be a Card.Img inside a Card component for consistent corner rounding
 // todo - Alignment...
 //     Title center, Author center as subtitle
@@ -641,10 +650,15 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 // todo - put a very basic paypal enabled order system for the most popular guide books (copy/paste/trim code from old site)
 
 
+
+
+
 @ Secret page -------------------------------------
 ? - replace secret section link '.' with something else, like a FA icon (just commented out it for now...)
     it could be cool if it was a transparent icon, which you hover over for like a full second, then a opaque dropshadow or something shows up and it doesn't appear clickable until after this time ?
 ? - what content can go here ?
+
+
 
 
 @ Error page --------------------------------------
@@ -652,6 +666,7 @@ todo - make a great one
     slightly random error page graphic/text?
     ladylockoff rope/gear art spelling 404 ? ha not a bad idea
     Some classic photo with abysmal gear placement?
+? - should I have a link back to the home page?
 // todo - add an OK to the background, maybe also a border, maybe box shadow
 // todo - make a temp OK enough 404 page
 
