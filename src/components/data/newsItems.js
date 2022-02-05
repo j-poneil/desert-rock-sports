@@ -11,13 +11,22 @@ import React from 'react';
 export const newsItems = [
     // {
     //     title: "Title",
-    //     date: "07/21/2021",
+    //     date: "07/01/2022",
     //     post: () => (
     //         <>
     //             <p>Content.</p>
     //         </>
     //     )
     // },
+    {
+        title: "Totem Cams back in stock!",
+        date: "02/02/2022",
+        post: () => (
+            <>
+                <p>Get 'em while you can!</p>
+            </>
+        )
+    },
     {
         title: "Historical, current, and forecasted weather to be added!",
         date: "01/31/2022",
