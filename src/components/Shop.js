@@ -49,6 +49,9 @@ export default function Shop(){
                             <p>
                                 In the future we will set up a more featured shopping site where you can order many more products. Currently you can only order 1 book at a time through this site with the buttons. If you want to order more than 1 book, please email us: <a href="mailto:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a>. Be sure to include your name, address, and phone number. We will call you back when we have figured out an order total with shipping and take credit card payment over the phone.
                             </p>
+                            <p>
+                                Typically we can fit 2 books in a flat rate mailer envelope, $10 shipping.
+                            </p>
 
                             {/* TEST ==================================================================================*/ }
                             <Container fluid>
