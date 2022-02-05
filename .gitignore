@@ -39,4 +39,6 @@ php/guidingInquiryForm.php
 src/php/guidingInquiryForm.php
 php/checkWeatherUpdateDB.php
 src/php/checkWeatherUpdateDB.php
+src/components/sub/NewsletterModal.js
 src/components/sub/NewsletterIFrame.js
+src/components/sub/NewsletterForm.js
