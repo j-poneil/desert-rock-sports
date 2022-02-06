@@ -163,15 +163,19 @@ export default function Home(){
             </Container>
 
 
-            <Container fluid>
+            {/* <Container fluid>
                 <Row xl={2} lg={2} md={1} sm={1} xs={1}>
                     <Col>
                     </Col>
                     <Col>
-                        {/* <NewsletterIFrame /> */}
+                        <NewsletterIFrame />
                         <NewsletterForm />
                     </Col>
                 </Row>
+            </Container> */}
+
+            <Container fluid className="mb-3">
+                <NewsletterIFrame />
             </Container>
             
         </Container>
