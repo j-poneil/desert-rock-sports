@@ -95,17 +95,6 @@ todo - FOR FINAL PRODUCTION - Make sure my important comments that i made about 
 ! - For rough release - test keyboard nav
 ! - npm audit / npm audit fix
 -------------------
-? - email list?
-    ( https://www.sendinblue.com/ )... better than mailchimp maybe?
-    * Its easy to set up with a service, like the guiding form... they prob also have templates for emails to send
-    * We can give meaningful updates and news to locals who care, IE
-        * Crash pads in stock
-        * Totems in stock, cams, nuts
-        * Sweet new ropes in stock
-        * We are carrying the new ___ climbing shoe!
-        * Special event: bouldering comp, raffle, SNCC events, giveaway promotion, sales
-        * We now have more extensive online ordering
-        * Sweet item(s) in consignment (could be nice for like the $$$ tents, etc...)
 ? - some sort of server integration?
     Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
     The site reads/updates a DB, like firebase
@@ -154,6 +143,11 @@ todo - blockquote styling?
     * indented, vertical gray line on left side, italic?
     * className='blockquote' approach makes the text larger, no indentation, no italics, etc...
     * className='blockquote-footer' approah is MUCH better. leading '---', smaller text, grey... but no indentation and line
+todo - Newsletter Signup should look good at all sizes
+    * https://github.com/davidjbradshaw/iframe-resizer
+    * https://github.com/davidjbradshaw/iframe-resizer-react
+    * https://www.youtube.com/watch?v=sNlycRiaeac
+// todo - rough initial newsletter signup form. Looks fine on 1920x1080 and up, bad below that... used SendInBlue, Google reCAPTCHA v2
 // todo - adjust hours
 // todo - Added a CSS background pattern in index on the overall body. Much less hassle than messing with background images and getting everything to always look good. I think it looks pretty respectable too, all things considered.
 // todo - make/implement a BETTER favicon
