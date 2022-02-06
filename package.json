@@ -10,6 +10,8 @@
     "date-fns": "^2.22.1",
     "formik": "^2.2.9",
     "html-react-parser": "^1.2.7",
+    "iframe-resizer": "^4.3.2",
+    "iframe-resizer-react": "^1.1.0",
     "react": "^16.13.1",
     "react-animated-css": "^1.2.1",
     "react-bootstrap": "^1.6.1",
