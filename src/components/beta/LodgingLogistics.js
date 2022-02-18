@@ -19,10 +19,15 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
-import LodgingLogistics_290x95_2 from '../../img/accordionBgs/working/LodgingLogistics_290x95_2.svg';
-import LodgingLogistics_690x95_2 from '../../img/accordionBgs/working/LodgingLogistics_690x95_2.svg';
-import LodgingLogistics_930x95_2 from '../../img/accordionBgs/working/LodgingLogistics_930x95_2.svg';
-import LodgingLogistics_1250x95_2 from '../../img/accordionBgs/working/LodgingLogistics_1250x95_2.svg';
+// these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too
+import LodgingLogistics_290x95_2 from '../../img/accordionBgs/asJSX/LodgingLogistics_290x95';
+import LodgingLogistics_690x95_2 from '../../img/accordionBgs/asJSX/LodgingLogistics_690x95';
+import LodgingLogistics_930x95_2 from '../../img/accordionBgs/asJSX/LodgingLogistics_930x95';
+import LodgingLogistics_1250x95_2 from '../../img/accordionBgs/asJSX/LodgingLogistics_1250x95';
+// import LodgingLogistics_290x95_2 from '../../img/accordionBgs/working/LodgingLogistics_290x95_2.svg';
+// import LodgingLogistics_690x95_2 from '../../img/accordionBgs/working/LodgingLogistics_690x95_2.svg';
+// import LodgingLogistics_930x95_2 from '../../img/accordionBgs/working/LodgingLogistics_930x95_2.svg';
+// import LodgingLogistics_1250x95_2 from '../../img/accordionBgs/working/LodgingLogistics_1250x95_2.svg';
 
 
 // % What this is supposed to have based on notes in Beta.js

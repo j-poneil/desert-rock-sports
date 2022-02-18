@@ -19,10 +19,15 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
-import Food_290_1 from '../../img/accordionBgs/working/Food_290x95_1.svg';
-import Food_690_1 from '../../img/accordionBgs/working/Food_690x95_1.svg';
-import Food_930_1 from '../../img/accordionBgs/working/Food_930x95_1.svg';
-import Food_1250_1 from '../../img/accordionBgs/working/Food_1250x95_1.svg';
+// these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too
+import Food_290_1 from '../../img/accordionBgs/asJSX/Food_290x95';
+import Food_690_1 from '../../img/accordionBgs/asJSX/Food_690x95';
+import Food_930_1 from '../../img/accordionBgs/asJSX/Food_930x95';
+import Food_1250_1 from '../../img/accordionBgs/asJSX/Food_1250x95';
+// import Food_290_1 from '../../img/accordionBgs/working/Food_290x95_1.svg';
+// import Food_690_1 from '../../img/accordionBgs/working/Food_690x95_1.svg';
+// import Food_930_1 from '../../img/accordionBgs/working/Food_930x95_1.svg';
+// import Food_1250_1 from '../../img/accordionBgs/working/Food_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in beta.js
 // Food

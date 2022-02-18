@@ -147,6 +147,9 @@ todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
     * https://www.youtube.com/watch?v=sNlycRiaeac
+todo - update create-react-app to version 5.0.0... delete node_modules... npm install... test... fix stuff
+    // todo - switch all SVGs to JSX... dang... https://svg2jsx.com/ helps... but this is a slow manual process
+    // todo - note... that converter names stuff as Icon... not problematic as I name them when I import them... but they are BGs not Icons
 // todo - rough initial newsletter signup form. Looks fine on 1920x1080 and up, bad below that... used SendInBlue, Google reCAPTCHA v2
 // todo - adjust hours
 // todo - Added a CSS background pattern in index on the overall body. Much less hassle than messing with background images and getting everything to always look good. I think it looks pretty respectable too, all things considered.

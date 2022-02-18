@@ -20,7 +20,9 @@ import { HiOutlineMail } from 'react-icons/hi';
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 //@ Section name
-//import __ from '../../img/accordionBgs/working/____';
+// these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too (using https://svg2jsx.com/)
+//import __ from '../../img/accordionBgs/asJSX/____';
+
 
 
 // % What this is supposed to have based on notes in beta.js
