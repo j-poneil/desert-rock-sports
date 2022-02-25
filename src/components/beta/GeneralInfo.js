@@ -66,7 +66,7 @@ export const generalInfo = {
                 <>
                     <Card.Subtitle>Scenic Loop Hours</Card.Subtitle>
                     <Card.Text>
-                        <p>The Visitor Center is open daily from 9:00 AM – 4:30 pm. The Scenic Drive is open every day of the year with hours changing slightly according to the season:</p>
+                        <p>The Visitor Center is open daily from 9:00 AM - 4:30 pm. The Scenic Drive is open every day of the year with hours changing slightly according to the season:</p>
                         <Table striped bordered hover size="sm">
                             <thead>
                                 <tr>
@@ -76,7 +76,7 @@ export const generalInfo = {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>November – February</td>
+                                    <td>November - February</td>
                                     <td>6:00 AM to 5:00 PM</td>  
                                 </tr>
                                 <tr>
@@ -84,7 +84,7 @@ export const generalInfo = {
                                     <td>6:00 AM to 7:00 PM</td>
                                 </tr>
                                 <tr>
-                                    <td>April – September</td>
+                                    <td>April - September</td>
                                     <td>6:00 AM to 8:00 PM</td>
                                 </tr>
                                 <tr>
@@ -149,7 +149,7 @@ export const generalInfo = {
                     </Card.Text>
                     <Card.Subtitle>Wag Bag Program</Card.Subtitle>
                     <Card.Text>
-                        <p>Use facilities when they are available. If they’re not, make sure you are at a location at least 200 feet from water sources and away from the base of climbing walls. Bury your waste in a cathole a minimum of 6 inches deep. Pack out your paper! The SNCC restocks human waste disposal bags in and around Red Rock Conservation area. This is a large undertaking, and many dedicated volunteers have spent their time keeping these dispensers full and clear of trash. Also, if you bring dogs to a climbing area, make sure to pick up after them and do not leave it on the trails!</p>
+                        <p>Use facilities when they are available. If they're not, make sure you are at a location at least 200 feet from water sources and away from the base of climbing walls. Bury your waste in a cathole a minimum of 6 inches deep. Pack out your paper! The SNCC restocks human waste disposal bags in and around Red Rock Conservation area. This is a large undertaking, and many dedicated volunteers have spent their time keeping these dispensers full and clear of trash. Also, if you bring dogs to a climbing area, make sure to pick up after them and do not leave it on the trails!</p>
                     </Card.Text>
                     <Card.Subtitle>Be Respectful of the Area</Card.Subtitle>
                     <Card.Text>
@@ -157,7 +157,7 @@ export const generalInfo = {
                     </Card.Text>
                     <Card.Subtitle>Take Action!</Card.Subtitle>
                     <Card.Text>
-                        <p>If you see others not following these principles, kindly inform them that their actions are harmful to the environment and may impact everyone’s access to the area. Find out more information at the <a href="http://www.accessfund.org/site/c.tmL5KhNWLrH/b.5000925/k.E6B4/Education.htm" target="_blank" rel="noopener noreferrer">Access Fund’s Education page. <FaExternalLinkAlt /></a></p>
+                        <p>If you see others not following these principles, kindly inform them that their actions are harmful to the environment and may impact everyone's access to the area. Find out more information at the <a href="http://www.accessfund.org/site/c.tmL5KhNWLrH/b.5000925/k.E6B4/Education.htm" target="_blank" rel="noopener noreferrer">Access Fund's Education page. <FaExternalLinkAlt /></a></p>
                     </Card.Text>
                     <Card.Subtitle>Late Exit Information</Card.Subtitle>
                     <Card.Text>
