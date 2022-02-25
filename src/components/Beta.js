@@ -24,12 +24,12 @@ import AccordionOfAccordions from './sub/AccordionOfAccordions';
 // import TemplatePropsTest from './beta/TemplatePropsTest';
 
 // section components based off Template ... They will functionally be Card components
-import { generalInfo } from './beta/generalInfo';
-import { lodgingLogistics } from './beta/lodgingLogistics';
-import { food } from './beta/food';
-import { otherOutdoor } from './beta/otherOutdoor';
-import { routeRecommendations } from './beta/routeRecommendations';
-import { gyms } from './beta/gyms';
+import { generalInfo } from './beta/GeneralInfo';
+import { lodgingLogistics } from './beta/LodgingLogistics';
+import { food } from './beta/Food';
+import { otherOutdoor } from './beta/OtherOutdoor';
+import { routeRecommendations } from './beta/RouteRecommendations';
+import { gyms } from './beta/Gyms';
 
 //! test or temp
 import Verm from '../img/secret/the_verm.jpg';
