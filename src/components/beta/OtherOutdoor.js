@@ -20,14 +20,14 @@ import { HiOutlineMail } from 'react-icons/hi';
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 // these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too
-import OtherOutdoor_290_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_290x95';
-import OtherOutdoor_690_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_690x95';
-import OtherOutdoor_930_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_930x95';
-import OtherOutdoor_1250_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_1250x95';
-// import OtherOutdoor_290_1 from '../../img/accordionBgs/working/OtherOutdoor_290x95_1.svg';
-// import OtherOutdoor_690_1 from '../../img/accordionBgs/working/OtherOutdoor_690x95_1.svg';
-// import OtherOutdoor_930_1 from '../../img/accordionBgs/working/OtherOutdoor_930x95_1.svg';
-// import OtherOutdoor_1250_1 from '../../img/accordionBgs/working/OtherOutdoor_1250x95_1.svg';
+// import OtherOutdoor_290_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_290x95';
+// import OtherOutdoor_690_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_690x95';
+// import OtherOutdoor_930_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_930x95';
+// import OtherOutdoor_1250_1 from '../../img/accordionBgs/asJSX/OtherOutdoor_1250x95';
+import OtherOutdoor_290_1 from '../../img/accordionBgs/working/OtherOutdoor_290x95_1.svg';
+import OtherOutdoor_690_1 from '../../img/accordionBgs/working/OtherOutdoor_690x95_1.svg';
+import OtherOutdoor_930_1 from '../../img/accordionBgs/working/OtherOutdoor_930x95_1.svg';
+import OtherOutdoor_1250_1 from '../../img/accordionBgs/working/OtherOutdoor_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in Beta.js
 // Other outdoor fun

@@ -20,14 +20,14 @@ import { HiOutlineMail } from 'react-icons/hi';
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 // these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too
-import RouteRecommendations_290_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_290x95';
-import RouteRecommendations_690_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_690x95';
-import RouteRecommendations_930_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_930x95';
-import RouteRecommendations_1250_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_1250x95';
-// import RouteRecommendations_290_1 from '../../img/accordionBgs/working/RouteRecommendations_290x95_1.svg';
-// import RouteRecommendations_690_1 from '../../img/accordionBgs/working/RouteRecommendations_690x95_1.svg';
-// import RouteRecommendations_930_1 from '../../img/accordionBgs/working/RouteRecommendations_930x95_1.svg';
-// import RouteRecommendations_1250_1 from '../../img/accordionBgs/working/RouteRecommendations_1250x95_1.svg';
+// import RouteRecommendations_290_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_290x95';
+// import RouteRecommendations_690_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_690x95';
+// import RouteRecommendations_930_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_930x95';
+// import RouteRecommendations_1250_1 from '../../img/accordionBgs/asJSX/RouteRecommendations_1250x95';
+import RouteRecommendations_290_1 from '../../img/accordionBgs/working/RouteRecommendations_290x95_1.svg';
+import RouteRecommendations_690_1 from '../../img/accordionBgs/working/RouteRecommendations_690x95_1.svg';
+import RouteRecommendations_930_1 from '../../img/accordionBgs/working/RouteRecommendations_930x95_1.svg';
+import RouteRecommendations_1250_1 from '../../img/accordionBgs/working/RouteRecommendations_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in Beta.js
 // Climbing route recommendations
