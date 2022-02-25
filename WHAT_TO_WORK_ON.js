@@ -147,7 +147,18 @@ todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
     * https://www.youtube.com/watch?v=sNlycRiaeac
-todo - fix weird top of some files error, which isn't an error in code, but of some library?
+// todo - fix weird top of some files error, which isn't an error in code, but of some library?
+//     * somehow this fixed it in package.json
+//     "eslintConfig": {
+//         "extends": [
+//             "react-app",
+//             "react-app/jest"
+//         ]
+//     },
+//     * Previously it was this:
+//     "eslintConfig": {
+//         "extends": "react-app"
+//     },
 // todo - fix a TON of linting warnings... comment out a TON of unused imports, fix some small things that work, but are warned about
 // todo - fix SVG in React issues... which I didn't have before... code inplace (sorta) should I in the future switch to JSX wrapped SVG code instead of .svg image files
 // todo - rough initial newsletter signup form. Looks fine on 1920x1080 and up, bad below that... used SendInBlue, Google reCAPTCHA v2
