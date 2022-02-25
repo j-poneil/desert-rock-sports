@@ -20,14 +20,14 @@ import { HiOutlineMail } from 'react-icons/hi';
 // photo imports
 // import Photo from '..something../img/beta/photo.jpg';
 // these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too
-// import Gyms_290_1 from '../../img/accordionBgs/asJSX/Gyms_290x95';
-// import Gyms_690_1 from '../../img/accordionBgs/asJSX/Gyms_690x95';
-// import Gyms_930_1 from '../../img/accordionBgs/asJSX/Gyms_930x95';
-// import Gyms_1250_1 from '../../img/accordionBgs/asJSX/Gyms_1250x95';
-import Gyms_290_1 from '../../img/accordionBgs/working/Gyms_290x95_1.svg';
-import Gyms_690_1 from '../../img/accordionBgs/working/Gyms_690x95_1.svg';
-import Gyms_930_1 from '../../img/accordionBgs/working/Gyms_930x95_1.svg';
-import Gyms_1250_1 from '../../img/accordionBgs/working/Gyms_1250x95_1.svg';
+import Gyms_290_1 from '../../img/accordionBgs/asJSX/Gyms_290x95';
+import Gyms_690_1 from '../../img/accordionBgs/asJSX/Gyms_690x95';
+import Gyms_930_1 from '../../img/accordionBgs/asJSX/Gyms_930x95';
+import Gyms_1250_1 from '../../img/accordionBgs/asJSX/Gyms_1250x95';
+// import Gyms_290_1 from '../../img/accordionBgs/working/Gyms_290x95_1.svg';
+// import Gyms_690_1 from '../../img/accordionBgs/working/Gyms_690x95_1.svg';
+// import Gyms_930_1 from '../../img/accordionBgs/working/Gyms_930x95_1.svg';
+// import Gyms_1250_1 from '../../img/accordionBgs/working/Gyms_1250x95_1.svg';
 
 // % What this is supposed to have based on notes in Beta.js
 // Climbing Gyms

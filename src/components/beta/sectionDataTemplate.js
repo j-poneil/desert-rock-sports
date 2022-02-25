@@ -23,6 +23,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 // these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too (using https://svg2jsx.com/)
 //import __ from '../../img/accordionBgs/asJSX/____';
 // NOTE: this JSX functional export components of SVG is not what I am using at the moment. Probably far future upgrade though?
+// ... or maybe I am.
 
 
 

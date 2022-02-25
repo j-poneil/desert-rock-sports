@@ -22,14 +22,14 @@ import { HiOutlineMail } from 'react-icons/hi';
 // import Photo from '..something../img/beta/photo.jpg';
 //@ General Info
 // these SVG are now all camelCased and wrapped as JSX functional default export components, memoized too
-// import Main_290x95_2 from '../../img/accordionBgs/asJSX/Main_290x95';
-// import Main_690x95_2 from '../../img/accordionBgs/asJSX/Main_690x95';
-// import Main_930x95_2 from '../../img/accordionBgs/asJSX/Main_930x95';
-// import Main_1250x95_2 from '../../img/accordionBgs/asJSX/Main_1250x95';
-import Main_290x95_2 from '../../img/accordionBgs/working/Main_290x95_2.svg';
-import Main_690x95_2 from '../../img/accordionBgs/working/Main_690x95_2.svg';
-import Main_930x95_2 from '../../img/accordionBgs/working/Main_930x95_2.svg';
-import Main_1250x95_2 from '../../img/accordionBgs/working/Main_1250x95_2.svg';
+import Main_290x95_2 from '../../img/accordionBgs/asJSX/Main_290x95';
+import Main_690x95_2 from '../../img/accordionBgs/asJSX/Main_690x95';
+import Main_930x95_2 from '../../img/accordionBgs/asJSX/Main_930x95';
+import Main_1250x95_2 from '../../img/accordionBgs/asJSX/Main_1250x95';
+// import Main_290x95_2 from '../../img/accordionBgs/working/Main_290x95_2.svg';
+// import Main_690x95_2 from '../../img/accordionBgs/working/Main_690x95_2.svg';
+// import Main_930x95_2 from '../../img/accordionBgs/working/Main_930x95_2.svg';
+// import Main_1250x95_2 from '../../img/accordionBgs/working/Main_1250x95_2.svg';
 
 // % What this is supposed to have based on notes in Beta.js
 // General Info
