@@ -1,20 +1,20 @@
 import React from 'react';
-import { Animated } from 'react-animated-css';
-import { FaRegCaretSquareDown, FaRegCaretSquareUp } from 'react-icons/fa';
-import { MdExpandMore, MdExpandLess } from 'react-icons/md';
+// import { Animated } from 'react-animated-css';
+// import { FaRegCaretSquareDown, FaRegCaretSquareUp } from 'react-icons/fa';
+// import { MdExpandMore, MdExpandLess } from 'react-icons/md';
 
 
-import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
-import Accordion from 'react-bootstrap/Accordion';
-import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+// import Image from 'react-bootstrap/Image';
+// import Accordion from 'react-bootstrap/Accordion';
+// import Button from 'react-bootstrap/Button';
 
 // icons
 // Standard?
 // FaExternalLinkAlt AFTER links away
 // FaDirections BEFORE Gmaps links away
-import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+// import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
+// import { HiOutlineMail } from 'react-icons/hi';
 
 
 // photo imports

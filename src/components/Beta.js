@@ -4,17 +4,17 @@ import React, { useState } from 'react';
 // Standard?
 // FaExternalLinkAlt AFTER links away
 // FaDirections BEFORE Gmaps links away
-import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+// import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
+// import { HiOutlineMail } from 'react-icons/hi';
 
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
-import Table from 'react-bootstrap/Table';
-import Accordion from 'react-bootstrap/Accordion';
+// import Card from 'react-bootstrap/Card';
+// import Image from 'react-bootstrap/Image';
+// import Table from 'react-bootstrap/Table';
+// import Accordion from 'react-bootstrap/Accordion';
 
 // AccordionOfAccordions which I made
 import AccordionOfAccordions from './sub/AccordionOfAccordions';
@@ -32,16 +32,16 @@ import { routeRecommendations } from './beta/RouteRecommendations';
 import { gyms } from './beta/Gyms';
 
 //! test or temp
-import Verm from '../img/secret/the_verm.jpg';
+// import Verm from '../img/secret/the_verm.jpg';
 //% Photo imports for the background imgs of the main (outer) accordions
 // import ___ from '../img/accordionBgs/____';
 // import Temp1 from '../img/temp/artsfon.com-42873.jpg';
 
 // overall background photo
-import dead_tree_med from '../img/BackgroundImages/dead_tree_med.jpg';
-import rope_med from '../img/BackgroundImages/rope_med.jpg';
-import plumbers_med from '../img/BackgroundImages/plumbers_med.jpg';
-import skyline_med from '../img/BackgroundImages/skyline_med.jpg';
+// import dead_tree_med from '../img/BackgroundImages/dead_tree_med.jpg';
+// import rope_med from '../img/BackgroundImages/rope_med.jpg';
+// import plumbers_med from '../img/BackgroundImages/plumbers_med.jpg';
+// import skyline_med from '../img/BackgroundImages/skyline_med.jpg';
 import sandstone_texture_med from '../img/BackgroundImages/sandstone_texture_med.jpg';
 
 //@ Lodging / Camping / Logistics
