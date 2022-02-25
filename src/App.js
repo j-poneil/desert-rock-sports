@@ -6,7 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 //import logo from './logo.svg';
 
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 import Home from './components/Home';
 import Gear from './components/Gear';
@@ -24,19 +24,19 @@ import Error from './components/Error';
 
 
 // overall background photo
-import dead_tree_med from './img/BackgroundImages/dead_tree_med.jpg';
-import rope_med from './img/BackgroundImages/rope_med.jpg';
-import plumbers_med from './img/BackgroundImages/plumbers_med.jpg';
-import skyline_med from './img/BackgroundImages/skyline_med.jpg';
-import sandstone_texture_med from './img/BackgroundImages/sandstone_texture_med.jpg';
+// import dead_tree_med from './img/BackgroundImages/dead_tree_med.jpg';
+// import rope_med from './img/BackgroundImages/rope_med.jpg';
+// import plumbers_med from './img/BackgroundImages/plumbers_med.jpg';
+// import skyline_med from './img/BackgroundImages/skyline_med.jpg';
+// import sandstone_texture_med from './img/BackgroundImages/sandstone_texture_med.jpg';
 
 // background styling
-const backgroundStyles = {
-  backgroundImage: `url(${ sandstone_texture_med })`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover'
-};
+// const backgroundStyles = {
+//   backgroundImage: `url(${ sandstone_texture_med })`,
+//   backgroundPosition: 'center',
+//   backgroundRepeat: 'no-repeat',
+//   backgroundSize: 'cover'
+// };
 
 function App() {
   return (

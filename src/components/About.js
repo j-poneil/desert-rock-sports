@@ -1,4 +1,5 @@
 import React from 'react';
+
 // no longer using parse, just returning JSX directly from funcs in the objs...
 // fine to use here, because it is not on user input. REMEMBER, html-react-parser doesn't do any sanitizing of input!
 // import parse from 'html-react-parser';
@@ -9,7 +10,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 
 //% update staff bios, imgs, etc here
 import { staff } from './data/staffList';
@@ -67,6 +68,9 @@ export default function About(){
                     </Card>
                 </Col>
             );
+        }
+        else {
+            return null;
         }
     });
 

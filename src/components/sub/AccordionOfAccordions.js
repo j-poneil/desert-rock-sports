@@ -5,7 +5,7 @@ import { MdExpandMore, MdExpandLess } from 'react-icons/md';
 
 
 import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 
@@ -13,11 +13,11 @@ import Button from 'react-bootstrap/Button';
 // Standard?
 // FaExternalLinkAlt AFTER links away
 // FaDirections BEFORE Gmaps links away
-import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+// import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
+// import { HiOutlineMail } from 'react-icons/hi';
 
 //! test
-import Verm from '../../img/secret/the_verm.jpg';
+// import Verm from '../../img/secret/the_verm.jpg';
 
 //@ ==================================
 //! Clean stuff up!
@@ -74,10 +74,10 @@ import Verm from '../../img/secret/the_verm.jpg';
 // resolution switching 1x, 2x is screen density
 // background-image: image-set( "foo.png" 1x, "foo-2x.png" 2x);
 // media
-{/* <picture>
+/* <picture>
   <source srcset="mdn-logo-wide.png" media="(min-width: 600px)">
   <img src="mdn-logo-narrow.png" alt="MDN">
-</picture> */}
+</picture> */
 
 
 

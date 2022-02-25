@@ -38,12 +38,12 @@ import OtherOutdoor_1250_1 from '../../img/accordionBgs/working/OtherOutdoor_125
         // Canyoneering
         // Rainy day options (hiking, hot springs, touristy stuff, etc...)
 
-{/* <AccordionOfAccordions
+/* <AccordionOfAccordions
     title='Test Title'
     accordionIdBase='testAccordion'
     eventKeyBase='testEventKey'
     subSectionArrayOfObjects={ templatePropsTestSections }
-/> */}
+/> */
 // access like food.title, food.accordionIdBase, food.eventKeyBase, food.data
 // 'foodAccordion' ==> 'foodAccordionId0' ... 'foodEKey' ==> 'foodEKey0'
 
@@ -184,7 +184,8 @@ export const otherOutdoor = {
                     <Card.Title>Canyoneering</Card.Title>
                     <Card.Subtitle>Las Vegas Slots by Rick Ianniello</Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
+                        [ LINK TO BOOK NEEDS TO BE ADDED ]
                         <p>Great book for canyoneers to get familiar with what the Vegas area has to offer. Available at Desert Rock Sports.</p>
                     </Card.Text>
                     <Card.Subtitle>BluuGnome</Card.Subtitle>

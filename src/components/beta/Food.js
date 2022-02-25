@@ -37,12 +37,12 @@ import Food_1250_1 from '../../img/accordionBgs/working/Food_1250x95_1.svg';
         // Restraunts
         // Breweries / Bars
 
-{/* <AccordionOfAccordions
+/* <AccordionOfAccordions
     title='Test Title'
     accordionIdBase='testAccordion'
     eventKeyBase='testEventKey'
     subSectionArrayOfObjects={ templatePropsTestSections }
-/> */}
+/> */
 // access like food.title, food.accordionIdBase, food.eventKeyBase, food.data
 // 'foodAccordion' ==> 'foodAccordionId0' ... 'foodEKey' ==> 'foodEKey0'
 

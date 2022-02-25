@@ -107,6 +107,9 @@ export default function Guiding(){
                 </Col>
             );
         }
+        else {
+            return null;
+        }
     });
 
     return (

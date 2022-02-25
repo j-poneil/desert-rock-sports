@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // ! - The external link icon definitely looks out of place. May have to remove.
 // ! - The tooltip shows up too slowly to be useful... and doesn't show with tab-through navigation or on touchscreen, probably
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 // % Secret Door icon for hidden gallery / whatever
-import { GiSecretDoor } from 'react-icons/gi';
+// import { GiSecretDoor } from 'react-icons/gi';
 
 // ! currently disabled these styles, just using the react-bootstrap default ones
 // styles here:

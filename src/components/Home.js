@@ -4,10 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+// import Button from 'react-bootstrap/Button';
+// import Modal from 'react-bootstrap/Modal';
 
 // sub components
 import Map from './sub/Map';
@@ -15,9 +15,9 @@ import Splash from './sub/Splash';
 import News from './sub/News';
 import Contact from './sub/Contact';
 // playing with options for newsletter signup form
-import NewsletterModal from './sub/NewsletterModal';
+// import NewsletterModal from './sub/NewsletterModal';
 import NewsletterIFrame from './sub/NewsletterIFrame';
-import NewsletterForm from './sub/NewsletterForm';
+// import NewsletterForm from './sub/NewsletterForm';
 
 // Images
 import Julie from '../img/HomePage/Julie_medium.jpg';
@@ -26,7 +26,7 @@ import Julie from '../img/HomePage/Julie_medium.jpg';
 import Pickles from '../img/temp/Pickles_900x600.jpg';
 import SufferPup from '../img/temp/SufferPup_900x600.jpg';
 // import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
-import FyfeBouldering from '../img/temp/fyfe_900x600.jpg';
+// import FyfeBouldering from '../img/temp/fyfe_900x600.jpg';
 
 
 // ! no styles here currently

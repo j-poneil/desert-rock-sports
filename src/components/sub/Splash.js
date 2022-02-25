@@ -1,19 +1,19 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 
 // Image(s)
-import Vellinga5 from '../../img/Splash/Vellinga5_1619x1080.jpg';
-import Vellinga6 from '../../img/Splash/vellinga6_crop_1713x1080.jpg';
+// import Vellinga5 from '../../img/Splash/Vellinga5_1619x1080.jpg';
+// import Vellinga6 from '../../img/Splash/vellinga6_crop_1713x1080.jpg';
 import Vellinga6_2 from '../../img/Splash/vellinga6_crop2_1709x1080.jpg';
 
 // TEMPORARY IMAGE for mocking up
-import splashImgCanyon from '../../img/temp/canyon_hd.jpg';
+// import splashImgCanyon from '../../img/temp/canyon_hd.jpg';
 
 // Splash image / title / catchy line
 // src/stylesheets/components/_splash.sass

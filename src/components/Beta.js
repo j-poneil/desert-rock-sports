@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // icons
 // Standard?
@@ -42,7 +42,7 @@ import { gyms } from './beta/Gyms';
 // import rope_med from '../img/BackgroundImages/rope_med.jpg';
 // import plumbers_med from '../img/BackgroundImages/plumbers_med.jpg';
 // import skyline_med from '../img/BackgroundImages/skyline_med.jpg';
-import sandstone_texture_med from '../img/BackgroundImages/sandstone_texture_med.jpg';
+// import sandstone_texture_med from '../img/BackgroundImages/sandstone_texture_med.jpg';
 
 //@ Lodging / Camping / Logistics
 //@ Food
@@ -127,12 +127,12 @@ Maybe better to keep the Card/Section title, and just open/close the accordion g
 */
 
 // background styling
-const backgroundStyles = {
-    backgroundImage: `url(${ sandstone_texture_med })`,
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
-};
+// const backgroundStyles = {
+//     backgroundImage: `url(${ sandstone_texture_med })`,
+//     backgroundPosition: 'center',
+//     backgroundRepeat: 'no-repeat',
+//     backgroundSize: 'cover'
+// };
 
 export default function Beta(){
     return (

@@ -10,14 +10,14 @@ import Rock_Wet_Inside from '../vid/rock_wet_inside.mp4';
 
 
 import {
-    FaInstagram,
-    FaYoutube,
-    FaHome,
-    FaGithub,
-    FaDownload,
-    FaFileDownload,
-    FaFileVideo,
-    FaRegFileVideo,
+    // FaInstagram,
+    // FaYoutube,
+    // FaHome,
+    // FaGithub,
+    // FaDownload,
+    // FaFileDownload,
+    // FaFileVideo,
+    // FaRegFileVideo,
     FaExternalLinkAlt
 } from 'react-icons/fa';
 
@@ -25,8 +25,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
-import Table from 'react-bootstrap/Table';
+// import Image from 'react-bootstrap/Image';
+// import Table from 'react-bootstrap/Table';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
@@ -191,7 +191,7 @@ const Weather = () => {
                                 {/* <a href="../vid/rock_wet_inside.mp4" target="_blank" rel="noopener noreferrer">download .mp4 to send to your friends (1.9 MB) <sup><FaDownload /></sup></a> */}
 
 
-                                <a href="" target="_blank" rel="noopener noreferrer"></a>
+                                {/* <a href="" target="_blank" rel="noopener noreferrer"></a> */}
                                 {/* <a href="" target="_blank" rel="noopener noreferrer"></a> */}
                                 {/* <a href="" target="_blank" rel="noopener noreferrer"></a> */}
                                 {/* <a href="" target="_blank" rel="noopener noreferrer"></a> */}

@@ -34,12 +34,12 @@ import Gyms_1250_1 from '../../img/accordionBgs/working/Gyms_1250x95_1.svg';
 // Climbing Gyms
         // didn't fill out stuff...
 
-{/* <AccordionOfAccordions
+/* <AccordionOfAccordions
     title='Test Title'
     accordionIdBase='testAccordion'
     eventKeyBase='testEventKey'
     subSectionArrayOfObjects={ templatePropsTestSections }
-/> */}
+/> */
 // access like food.title, food.accordionIdBase, food.eventKeyBase, food.data
 // 'foodAccordion' ==> 'foodAccordionId0' ... 'foodEKey' ==> 'foodEKey0'
 

@@ -38,12 +38,12 @@ import RouteRecommendations_1250_1 from '../../img/accordionBgs/working/RouteRec
         // offwidth
         // no crowds (maybe... maybe not)
 
-{/* <AccordionOfAccordions
+/* <AccordionOfAccordions
     title='Test Title'
     accordionIdBase='testAccordion'
     eventKeyBase='testEventKey'
     subSectionArrayOfObjects={ templatePropsTestSections }
-/> */}
+/> */
 // access like food.title, food.accordionIdBase, food.eventKeyBase, food.data
 // 'foodAccordion' ==> 'foodAccordionId0' ... 'foodEKey' ==> 'foodEKey0'
 
@@ -66,17 +66,17 @@ export const routeRecommendations = {
                     <Card.Title>Shady Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                 </>
@@ -89,22 +89,22 @@ export const routeRecommendations = {
                     <Card.Title>Sunny Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                 </>
@@ -117,27 +117,27 @@ export const routeRecommendations = {
                     <Card.Title>Rainy day / dryout day options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                 </>
@@ -150,22 +150,22 @@ export const routeRecommendations = {
                     <Card.Title>Crack Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                 </>
@@ -178,22 +178,22 @@ export const routeRecommendations = {
                     <Card.Title>Offwidth Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                 </>
@@ -206,17 +206,17 @@ export const routeRecommendations = {
                     <Card.Title>No-Crowd Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                         <p></p>
                     </Card.Text>
                 </>

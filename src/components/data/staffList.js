@@ -22,7 +22,7 @@ import Rachel from '../../img/RRCG/GuideBioImgs/Rachel_450w_450h.jpg';
 import Tracy from '../../img/RRCG/GuideBioImgs/Tracy_450w_450h.jpg';
 import Cody from '../../img/RRCG/GuideBioImgs/Cody_450w_450h.jpg';
 import Danny from '../../img/RRCG/GuideBioImgs/Danny_450w_450h.jpg';
-import Adam from '../../img/RRCG/GuideBioImgs/Adam_450w_450h.jpg';
+// import Adam from '../../img/RRCG/GuideBioImgs/Adam_450w_450h.jpg';
 import Joanne from '../../img/RRCG/GuideBioImgs/Joanne_450w_450h.jpg';
 import Nathan from '../../img/RRCG/GuideBioImgs/Nathan_450w_450h.jpg';
 import Roxanna from '../../img/RRCG/GuideBioImgs/Roxanna_450w_450h.jpg';
