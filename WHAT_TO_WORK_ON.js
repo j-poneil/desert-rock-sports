@@ -521,7 +521,7 @@ todo - search through the site and add links/text that people should check out t
     ! - Jacob Chu
     ! - Lisa
     ! - Dan
-    ! -
+    ! - Kat
 ! - consider re-structuring...
     * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
     * THEN RRCG / How it Works Steps + About our guiding columns...
