@@ -542,6 +542,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
+// todo - Add more guiding gallery photos, descriptions/titles, and appropriate alt text
 // todo - Add Ting Ting
 // todo - Fix TierCard.js photo credit overlay text - DONE, and its pretty great now!
 // todo - fix tier card img height on tier 3 -- by cropping them all to the same 741px height
