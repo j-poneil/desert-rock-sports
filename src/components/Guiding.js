@@ -166,6 +166,18 @@ export default function Guiding(){
                 </Row>
             </Container>
 
+            <Jumbotron className="text-center mt-3">
+                <h1>
+                    Check out some of the things you could experience going out with us!
+                </h1>
+            </Jumbotron>
+
+            {/* //! insert gallery here, mt-5 here or maybe mt-3 mb-3... probably not in a Jumbotron. 1 col regardless of screen size */}
+            <Jumbotron className="text-center mt-3">
+                {/* <GuidingGallery /> */}
+                <GuidingGallery />
+            </Jumbotron>
+
             <Jumbotron className="text-center mt-3 mb-3">
                 <h1>
                     Check out some of our amazing guides below!
@@ -179,11 +191,7 @@ export default function Guiding(){
                 </Row>
             </Container>
 
-            {/* //! insert gallery here, mt-5 here or maybe mt-3 mb-3... probably not in a Jumbotron. 1 col regardless of screen size */}
-            <Jumbotron className="text-center mt-5">
-                {/* <GuidingGallery /> */}
-                <GuidingGallery />
-            </Jumbotron>
+            
 
             {/* We can accomodate other things, just ask! */}
             <Jumbotron className="text-center mt-5">
