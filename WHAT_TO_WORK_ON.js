@@ -334,6 +334,8 @@ todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we ha
 ? - other sections in gear below the carousel?
 todo - restore edge distance to the Jumbotron w/ mr-0 ml-0 as well as the Container below everything that I'm not sure if I'll end up using
 todo - Make gear image be edge to edge of screen w/ className='pl-0 pr-0' in Container
+? - What about using a similar setup to the Guiding Photo Gallery?
+todo - Should mention somewhere that we take items for consignment and give examples of what we do and don't want, terms, pricing, store credit vs check, etc...
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
 // todo - add carousel to gear page
 // todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
