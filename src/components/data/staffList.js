@@ -373,9 +373,9 @@ export const staff = [
         isRetail: false
     },
     {
-        name: "Kat",
+        name: "Kat Vollinger",
         position: "",
-        certs: "",
+        certs: "AMGA Assistant Rock Guide, Apprentice Alpine Guide, Apprentice Ski Guide",
         exp: "",
         bio: () => (
             <>
