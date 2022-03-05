@@ -28,6 +28,7 @@ import Nathan from '../../img/RRCG/GuideBioImgs/Nathan_450w_450h.jpg';
 import Roxanna from '../../img/RRCG/GuideBioImgs/Roxanna_450w_450h.jpg';
 import JoshD from '../../img/RRCG/GuideBioImgs/JoshD_450w_450h.jpg';
 import Jakob from '../../img/RRCG/GuideBioImgs/Jakob_450w_450h.jpg';
+import Kat from '../../img/RRCG/GuideBioImgs/Kat_450w_450h.jpg';
 
 // % For bio, its an arrow function that returns JSX, so just write 'basically' HTML between the <></>. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
 
@@ -375,14 +376,15 @@ export const staff = [
     {
         name: "Kat Vollinger",
         position: "",
-        certs: "AMGA Assistant Rock Guide, Apprentice Alpine Guide, Apprentice Ski Guide",
-        exp: "",
+        certs: "AMGA Assistant Rock Guide, AMGA Apprentice Alpine Guide, AMGA Apprentice Ski Guide",
+        exp: "Climbing 14+ years",
         bio: () => (
             <>
-                <p></p>
+                <p>I travel and experience the world mostly through climbing and adventures. If I’m not adventuring I’m probably drinking espressos or playing with my two puppies. Finally settled in Washington but regularly drawn back to the desert for climbing and guiding in Red Rock.</p>
+                <p>I enjoy combining my passion with expanding people’s skillsets for exploring the vertical world.</p>
             </>
         ),
-        imgSrc: Placeholder,
+        imgSrc: Kat,
         ig: '',
         site: '',
         youtube: '',
