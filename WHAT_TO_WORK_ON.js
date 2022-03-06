@@ -81,15 +81,15 @@ https://nomadventures.com/
 
 
 @ index.html & other general stuff ----------------------------------------
-todo - FOR FINAL PRODUCTION - look over every file, make sure nothing obviously overlooked
-todo - FOR FINAL PRODUCTION - Full check of spelling and grammer, and multiple people looking over EVERYTHING
-todo - FOR FINAL PRODUCTION - SEO optimization... create-react-app does some basics, but I can certainly improve it more
-todo - FOR FINAL PRODUCTION - Have someone navigate it all with a screen reader to test accessability
-todo - FOR FINAL PRODUCTION - Check for color-blindness / contrast compatability
-todo - FOR FINAL PRODUCTION - what if someone changes the font size themselves, does it still look ok?
-todo - FOR FINAL PRODUCTION - loading speed, efficiency, no extraneous re-renders, etc...
-todo - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
-todo - FOR FINAL PRODUCTION - Make sure my important comments that i made about author of site are visible after build process
+! - FOR FINAL PRODUCTION - look over every file, make sure nothing obviously overlooked
+! - FOR FINAL PRODUCTION - Full check of spelling and grammer, and multiple people looking over EVERYTHING
+! - FOR FINAL PRODUCTION - SEO optimization... create-react-app does some basics, but I can certainly improve it more
+! - FOR FINAL PRODUCTION - Have someone navigate it all with a screen reader to test accessability
+! - FOR FINAL PRODUCTION - Check for color-blindness / contrast compatability
+! - FOR FINAL PRODUCTION - (minor?) what if someone changes the font size themselves, does it still look ok?
+! - FOR FINAL PRODUCTION - loading speed, efficiency, no extraneous re-renders, etc...
+! - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
+! - FOR FINAL PRODUCTION - Make sure my important comments that i made about author of site are visible after build process
 ! - For rough release - look over all files
 ! - For rough release - full spelling/grammer check, have a few people proof it
 ! - For rough release - test keyboard nav
@@ -113,7 +113,6 @@ todo - FOR FINAL PRODUCTION - Make sure my important comments that i made about 
     * I should be able to add it
     * I have a feeling like I may need to add an xxs one too... hmm
     https://react-bootstrap.github.io/layout/grid/#row-props
-! - Since I have messed with some overall padding and margin settings, I need to go back through the site and get everything spaced evenly again
 ! - Play with overall colors
     Darker Nav
         Lighter Title text
@@ -135,10 +134,6 @@ todo - replace generic <div> when it makes sense to do so, with semantic html, l
 todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
 todo - loading animations that I can use in various places
     Patagonia had a cool one that was a drawn ridgeline that animated in, then re-traced over in different line colors.
-todo - add some line somewhere saying that I coded this site, see my github here etc...
-    * Maybe a simple line at the very bottom of the home or about pages...
-    // * As a block comment in the head of the index
-    // * OH, github link icon on about/guiding page for me
 todo - blockquote styling?
     * indented, vertical gray line on left side, italic?
     * className='blockquote' approach makes the text larger, no indentation, no italics, etc...
@@ -147,6 +142,10 @@ todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
     * https://www.youtube.com/watch?v=sNlycRiaeac
+// todo - add some line somewhere saying that I coded this site, see my github here etc...
+    // * Maybe a simple line at the very bottom of the home or about pages...
+    // * As a block comment in the head of the index
+    // * OH, github link icon on about/guiding page for me
 // todo - fix weird top of some files error, which isn't an error in code, but of some library?
 //     * somehow this fixed it in package.json
 //     "eslintConfig": {
@@ -186,18 +185,8 @@ todo - other role="" to add for the future 'form'(subscribe to email, guiding in
 
 
 @ Home page ---------------------------------------
-! - Meaningful news items - fill in a bunch so it seems more 'lived in'
-    * We just got ______ items in stock!
 ! - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
-todo - AMBITIOUS - Instagram feed embed
-    Apparently this is WAY harder than it used to be, due to recently increased security.
-    Check your bookmarks, you made a folder with all the info you need to do it.
-    Need a certain FB account, IG acct, verify stuff, Heroku acct, etc...
-    Requires setting up a free heroku site and running an access token refresh agent...
-    then getting that token to here and using it. Very doable, but a hassle for another time I think.
-todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours?
-    - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
 todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
 ? - should I add the parser to the news titles too?
 ? - should I implement date-fns on DRS hours?
@@ -283,6 +272,14 @@ todo - MORE PERMANENT fix for news item scroll / column heights
         ...
         { this.imgRef.current.clientHeight }
         { this.imgRef.current.clientWidth }
+// * - TOO AMBITIOUS - Instagram feed embed
+    // Apparently this is WAY harder than it used to be, due to recently increased security.
+    // Check your bookmarks, you made a folder with all the info you need to do it.
+    // Need a certain FB account, IG acct, verify stuff, Heroku acct, etc...
+    // Requires setting up a free heroku site and running an access token refresh agent...
+    // then getting that token to here and using it. Very doable, but a hassle for another time I think.
+// todo - Meaningful news items - fill in a bunch so it seems more 'lived in'
+//     * We just got ______ items in stock!
 // todo - hacky temp fix on news item scroll: maxHeight 65vh
 // todo - Hero image should be edge to edge ... edgy... hero image
 // todo - splash background image should no stretch/shrink on horizontal axis with different screen sizes
@@ -323,19 +320,15 @@ todo - MORE PERMANENT fix for news item scroll / column heights
 
 
 
-@ Gear Page / GearCarousel ---------------------------------- https://www.npmjs.com/package/react-responsive-carousel
-! - For early live - Photos smaller sizes and all same dimensions
-todo - FOR FINAL PRODUCTION - acquire excellent photos of the various gear we have, multiple shots, try to have most of them be the same aspect ratio to reduce the editing
-    todo - FOR FINAL PRODUCTION - edit good photos to all have the same aspect ratio. 1x and 2x pixel density. prob ~4:3 ???
-    todo - FOR FINAL PRODUCTION - make smaller file sizes with different pixel densities too
-    todo - FOR FINAL PRODUCTION - plug in all the images to replace the existing temporary ones
+@ Gear Page / GearCarousel ----------------------------------
 ? - what about a 3D google street style navigable thing? I think that would be so slick...
     * Either link to the one on google maps... or just have one instead of the carousel ???
-? - other sections in gear below the carousel?
-todo - restore edge distance to the Jumbotron w/ mr-0 ml-0 as well as the Container below everything that I'm not sure if I'll end up using
-todo - Make gear image be edge to edge of screen w/ className='pl-0 pr-0' in Container
-? - What about using a similar setup to the Guiding Photo Gallery?
-todo - Should mention somewhere that we take items for consignment and give examples of what we do and don't want, terms, pricing, store credit vs check, etc...
+todo - FOR FINAL PRODUCTION - Alt image srcset sizes etc...
+! - Add an aside image or another section to the right of the consignment Jumbotron
+        ! - Move to Containers, Rows, Columns
+! - Good quality gear pics, overview shows, up close shots, used gear shots.
+// todo - Should mention somewhere that we take items for consignment and give examples of what we do and don't want, terms, pricing, store credit vs check, etc...
+// todo - Comment out old carousel approach and try same setup to the Guiding Photo Gallery
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
 // todo - add carousel to gear page
 // todo - add templating to GearCarousel to load different image sizes for different viewport sizes -- faster loading on mobile! To do this, probably use <picture></picture> w/ <source srcset="large.jpg" media='(min-width: 1000px)'/> kinda stuff... may be weird in React, but should be doable.
@@ -490,6 +483,8 @@ todo - links
 todo - images / video
     what wet rock looks like, including inside, pics and vids from others
 todo - search through the site and add links/text that people should check out the weather link/section of the site for more info on wet rock
+todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet weather is detected OR when it has happened in the last x hours? (on home page, or any page... remember that person has seen it and don't show again / for another x hours option)
+    - probably too many little difficulties in getting it accurate, BUT MAYBE, a general alert that wet weather happened recently, check HERE or HERE for more specifics, check HERE for if there is a message thread about it, or call us for more info: ###-###-####
 // todo - how to help the weather situation / wet rock situation
     // * add internet linked weather stations that record rain fall in Blue Diamond, other areas
     // * provide eyes on the ground observations for various areas by hiking in
@@ -518,12 +513,8 @@ todo - search through the site and add links/text that people should check out t
             react-images -- for the carousel and modal
                 react-zoom-pan-pinch -- for the zoom in... but can't get it to work perfectly with the modal, so disabled for now
     AMBITIOUS option - My secret package for this
-! - Work on everyones bio lengths / pic / content
-    ! - Josh Diggs
-    ! - Jacob Chu
-    ! - Lisa
-    ! - Dan
-    ! - Kat
+! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
+! - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...
 ! - consider re-structuring...
     * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
     * THEN RRCG / How it Works Steps + About our guiding columns...
@@ -544,6 +535,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
+todo - FOR FINAL PRODUCTION - Alt image srcset sizes etc (guiding gallery)...
 // todo - Add more guiding gallery photos, descriptions/titles, and appropriate alt text
 // todo - Add Ting Ting
 // todo - Fix TierCard.js photo credit overlay text - DONE, and its pretty great now!
@@ -619,8 +611,6 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 
 
 @ About page --------------------------------------
-! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
-! - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...
 ? - a section on its own for the 3 owners??? then other employees below?
 // todo - probably move nav link position of the 'About' page to just left of 'Shop'
 // todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, but a simple CSS color transition would be fine too 
