@@ -2,7 +2,7 @@ import React from 'react';
 //% photos for staff
 // standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';
-import Placeholder from '../../img/RRCG/GuideBioImgs/Placeholder_450w_450h.jpg';
+// import Placeholder from '../../img/RRCG/GuideBioImgs/Placeholder_450w_450h.jpg';
 import TG from '../../img/DRS_staff/TG2_450w_450h.jpg';
 import Mike from '../../img/DRS_staff/Mike2_450w_450h.jpg';
 import Steve from '../../img/DRS_staff/Steve_450w_450h.jpg';
