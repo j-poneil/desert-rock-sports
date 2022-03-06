@@ -138,6 +138,7 @@ todo - blockquote styling?
     * indented, vertical gray line on left side, italic?
     * className='blockquote' approach makes the text larger, no indentation, no italics, etc...
     * className='blockquote-footer' approah is MUCH better. leading '---', smaller text, grey... but no indentation and line
+todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
 todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
