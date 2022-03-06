@@ -19,6 +19,8 @@ import Contact from './sub/Contact';
 import NewsletterIFrame from './sub/NewsletterIFrame';
 // import NewsletterForm from './sub/NewsletterForm';
 
+import { FaGithub } from 'react-icons/fa';
+
 // Images
 import Julie from '../img/HomePage/Julie_medium.jpg';
 
@@ -177,6 +179,20 @@ export default function Home(){
             <Container fluid className="mb-3">
                 <NewsletterIFrame />
             </Container>
+
+
+            {/* Author / credit */}
+            <p
+                style={{
+                    'textAlign': 'right',
+                    'padding': 0,
+                    'margin-top': 0,
+                    'margin-bottom': 0,
+                    'margin-right': '5px'
+                }}
+            >
+                Site design by: <a href="https://github.com/j-poneil" target="_blank" rel="noopener noreferrer"><FaGithub />John-Paul O'Neil</a>
+            </p>
             
         </Container>
     );
