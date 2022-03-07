@@ -143,6 +143,8 @@ todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
     * https://www.youtube.com/watch?v=sNlycRiaeac
+! - make sendinblue signup email show proper company, etc in the email header/body
+    and not go straight to spam... maybe... or add a note to check spam folder
 // todo - add some line somewhere saying that I coded this site, see my github here etc...
     // * Maybe a simple line at the very bottom of the home or about pages...
     // * As a block comment in the head of the index
@@ -327,11 +329,23 @@ todo - MORE PERMANENT fix for news item scroll / column heights
 todo - FOR FINAL PRODUCTION - Alt srcset sizes
 ! - Add an aside image or another section to the right of the consignment Jumbotron
         ! - Move to Containers, Rows, Columns
-! - Smaller file sizes (& dimensions) on the gear pics
-    Need to reduce loading time greatly... maybe 70% ?
+
+! - Image titles/captions, alt text... creative    
 ! - Lazy loading / Loading in animation for gallery
     ... Think some form of lazy loading may be there already... check for it
-    Loading animation would somewhat help the loading experience
+    Set a loading animation if able
+todo - Smaller file dimensions for srcset tablet and phone
+    Should be able to batch resize and maintain aspect ratio easy-ish
+    THEN check that quality is acceptable still
+    THEN tedious renaming with new dimensions
+    THEN tedious importing them in
+    THEN tedious plugging them in
+todo - Smaller file size (on large images)
+    Need to reduce loading time greatly... maybe 70% ?
+    NICE! Batchcompress.com took them from 121.9 MB to 28.4 MB... 76.7% decrease!!! YES
+    Visually they look like the quality is VERY close and didn't get impaced much
+    This change alone GREATLY helped the loading speed. Initial scroll down is still not good
+    ... but once everything is loaded / you scroll down once, scrolling back up is fine
 // todo - Good quality gear pics, overview shows, up close shots
 // todo - Should mention somewhere that we take items for consignment and give examples of what we do and don't want, terms, pricing, store credit vs check, etc...
 // todo - Comment out old carousel approach and try same setup to the Guiding Photo Gallery

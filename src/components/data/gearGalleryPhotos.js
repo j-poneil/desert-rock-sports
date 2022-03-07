@@ -42,105 +42,105 @@
 
 
 
-//! Real images, cropped and polished to look good, NOT great file sizes yet, and still BIG
+//! Real images, cropped and polished to look good, large dimensions AFTER batchcompress.com (75% file size reduction!)
 // 4:3
-import Barnacle_4_3_3024x2268 from '../../img/DRS_store/good/Barnacle_4-3_3024x2268.jpg';
-import BDPacks2_4_3_3790x2842 from '../../img/DRS_store/good/BDPacks2_4-3_3790x2842.jpg';
-import BigBros_4_3_4032x3024 from '../../img/DRS_store/good/BigBros_4-3_4032x3024.jpg';
-import Brass_4_3_3024x2268 from '../../img/DRS_store/good/Brass_4-3_3024x2268.jpg';
-import BrassSwage_4_3_3024x2268 from '../../img/DRS_store/good/BrassSwage_4-3_3024x2268.jpg';
-import Bug_4_3_3777x2833 from '../../img/DRS_store/good/Bug_4-3_3777x2833.jpg';
-import C4Red_4_3_2556x1917 from '../../img/DRS_store/good/C4Red_4-3_2556x1917.jpg';
-import Dyon_4_3_3280x2460 from '../../img/DRS_store/good/Dyon_4-3_3280x2460.jpg';
-import Headlamp_4_3_2881x2161 from '../../img/DRS_store/good/Headlamp_4-3_2881x2161.jpg';
-import Isobutane_4_3_4032x2419 from '../../img/DRS_store/good/Isobutane_4-3_4032x2419.jpg';
-import Pads_4_3_3641x2731 from '../../img/DRS_store/good/Pads_4-3_3641x2731.jpg';
-import Pads2_4_3_3279x2459 from '../../img/DRS_store/good/Pads2_4-3_3279x2459.jpg';
-import Platy_4_3_3667x2750 from '../../img/DRS_store/good/Platy_4-3_3667x2750.jpg';
-import Sheep_4_3_3251x2438 from '../../img/DRS_store/good/Sheep_4-3_3251x2438.jpg';
-import TotemBlue_4_3_2441x1831 from '../../img/DRS_store/good/TotemBlue_4-3_2441x1831.jpg';
+import Barnacle_4_3_3024x2268 from '../../img/DRS_store/large/Barnacle_4-3_3024x2268.jpg';
+import BDPacks2_4_3_3790x2842 from '../../img/DRS_store/large/BDPacks2_4-3_3790x2842.jpg';
+import BigBros_4_3_4032x3024 from '../../img/DRS_store/large/BigBros_4-3_4032x3024.jpg';
+import Brass_4_3_3024x2268 from '../../img/DRS_store/large/Brass_4-3_3024x2268.jpg';
+import BrassSwage_4_3_3024x2268 from '../../img/DRS_store/large/BrassSwage_4-3_3024x2268.jpg';
+import Bug_4_3_3777x2833 from '../../img/DRS_store/large/Bug_4-3_3777x2833.jpg';
+import C4Red_4_3_2556x1917 from '../../img/DRS_store/large/C4Red_4-3_2556x1917.jpg';
+import Dyon_4_3_3280x2460 from '../../img/DRS_store/large/Dyon_4-3_3280x2460.jpg';
+import Headlamp_4_3_2881x2161 from '../../img/DRS_store/large/Headlamp_4-3_2881x2161.jpg';
+import Isobutane_4_3_4032x2419 from '../../img/DRS_store/large/Isobutane_4-3_4032x2419.jpg';
+import Pads_4_3_3641x2731 from '../../img/DRS_store/large/Pads_4-3_3641x2731.jpg';
+import Pads2_4_3_3279x2459 from '../../img/DRS_store/large/Pads2_4-3_3279x2459.jpg';
+import Platy_4_3_3667x2750 from '../../img/DRS_store/large/Platy_4-3_3667x2750.jpg';
+import Sheep_4_3_3251x2438 from '../../img/DRS_store/large/Sheep_4-3_3251x2438.jpg';
+import TotemBlue_4_3_2441x1831 from '../../img/DRS_store/large/TotemBlue_4-3_2441x1831.jpg';
 
 // 3:4
-import Approach_3_4_2905x3874 from '../../img/DRS_store/good/Approach_3-4_2905x3874.jpg';
-import G7_3_4_2552x3403 from '../../img/DRS_store/good/G7_3-4_2552x3403.jpg';
-import Postcards_3_4_2695x3594 from '../../img/DRS_store/good/Postcards_3-4_2695x3594.jpg';
-import Ropes_3_4_2744x3659 from '../../img/DRS_store/good/Ropes_3-4_2744x3659.jpg';
+import Approach_3_4_2905x3874 from '../../img/DRS_store/large/Approach_3-4_2905x3874.jpg';
+import G7_3_4_2552x3403 from '../../img/DRS_store/large/G7_3-4_2552x3403.jpg';
+import Postcards_3_4_2695x3594 from '../../img/DRS_store/large/Postcards_3-4_2695x3594.jpg';
+import Ropes_3_4_2744x3659 from '../../img/DRS_store/large/Ropes_3-4_2744x3659.jpg';
 
 // 1:1
-import BDPacks_1_1_2850x2850 from '../../img/DRS_store/good/BDPacks_1-1_2850x2850.jpg';
-import BigBros2_1_1_2765x2765 from '../../img/DRS_store/good/BigBros2_1-1_2765x2765.jpg';
-import BoulderingIsDumb_1_1_2764x2764 from '../../img/DRS_store/good/BoulderingIsDumb_1-1_2764x2764.jpg';
-import Brushes_1_1_2977x2977 from '../../img/DRS_store/good/Brushes_1-1_2977x2977.jpg';
-import Cords_1_1_2605x2605 from '../../img/DRS_store/good/Cords_1-1_2605x2605.jpg';
-import DRSVintage_1_1_2798x2798 from '../../img/DRS_store/good/DRSVintage_1-1_2798x2798.jpg';
-import DRSVintage2_1_1_2571x2571 from '../../img/DRS_store/good/DRSVintage2_1-1_2571x2571.jpg';
-import Endo_1_1_2170x2170 from '../../img/DRS_store/good/Endo_1-1_2170x2170.jpg';
-import HandledAscenders_1_1_2549x2549 from '../../img/DRS_store/good/HandledAscenders_1-1_2549x2549.jpg';
-import Houdini_1_1_3024x3024 from '../../img/DRS_store/good/Houdini_1-1_3024x3024.jpg';
-import MicroTraxion_1_1_2153x2153 from '../../img/DRS_store/good/MicroTraxion_1-1_2153x2153.jpg';
-import MSRFuel_1_1_3024x3024 from '../../img/DRS_store/good/MSRFuel_1-1_3024x3024.jpg';
-import Nimbus_1_1_2748x2748 from '../../img/DRS_store/good/Nimbus_1-1_2748x2748.jpg';
-import Patagonia_1_1_3024x3024 from '../../img/DRS_store/good/Patagonia_1-1_3024x3024.jpg';
-import Pivot_1_1_2502x2502 from '../../img/DRS_store/good/Pivot_1-1_2502x2502.jpg';
-import Reverso_1_1_2463x2463 from '../../img/DRS_store/good/Reverso_1-1_2463x2463.jpg';
-import Shoes_1_1_3024x3024 from '../../img/DRS_store/good/Shoes_1-1_3024x3024.jpg';
-import Spoc_1_1_2833x2833 from '../../img/DRS_store/good/Spoc_1-1_2833x2833.jpg';
-import WLB_1_1_1930x1930 from '../../img/DRS_store/good/WLB_1-1_1930x1930.jpg';
-import Yeti_1_1_3024x3024 from '../../img/DRS_store/good/Yeti_1-1_3024x3024.jpg';
+import BDPacks_1_1_2850x2850 from '../../img/DRS_store/large/BDPacks_1-1_2850x2850.jpg';
+import BigBros2_1_1_2765x2765 from '../../img/DRS_store/large/BigBros2_1-1_2765x2765.jpg';
+import BoulderingIsDumb_1_1_2764x2764 from '../../img/DRS_store/large/BoulderingIsDumb_1-1_2764x2764.jpg';
+import Brushes_1_1_2977x2977 from '../../img/DRS_store/large/Brushes_1-1_2977x2977.jpg';
+import Cords_1_1_2605x2605 from '../../img/DRS_store/large/Cords_1-1_2605x2605.jpg';
+import DRSVintage_1_1_2798x2798 from '../../img/DRS_store/large/DRSVintage_1-1_2798x2798.jpg';
+import DRSVintage2_1_1_2571x2571 from '../../img/DRS_store/large/DRSVintage2_1-1_2571x2571.jpg';
+import Endo_1_1_2170x2170 from '../../img/DRS_store/large/Endo_1-1_2170x2170.jpg';
+import HandledAscenders_1_1_2549x2549 from '../../img/DRS_store/large/HandledAscenders_1-1_2549x2549.jpg';
+import Houdini_1_1_3024x3024 from '../../img/DRS_store/large/Houdini_1-1_3024x3024.jpg';
+import MicroTraxion_1_1_2153x2153 from '../../img/DRS_store/large/MicroTraxion_1-1_2153x2153.jpg';
+import MSRFuel_1_1_3024x3024 from '../../img/DRS_store/large/MSRFuel_1-1_3024x3024.jpg';
+import Nimbus_1_1_2748x2748 from '../../img/DRS_store/large/Nimbus_1-1_2748x2748.jpg';
+import Patagonia_1_1_3024x3024 from '../../img/DRS_store/large/Patagonia_1-1_3024x3024.jpg';
+import Pivot_1_1_2502x2502 from '../../img/DRS_store/large/Pivot_1-1_2502x2502.jpg';
+import Reverso_1_1_2463x2463 from '../../img/DRS_store/large/Reverso_1-1_2463x2463.jpg';
+import Shoes_1_1_3024x3024 from '../../img/DRS_store/large/Shoes_1-1_3024x3024.jpg';
+import Spoc_1_1_2833x2833 from '../../img/DRS_store/large/Spoc_1-1_2833x2833.jpg';
+import WLB_1_1_1930x1930 from '../../img/DRS_store/large/WLB_1-1_1930x1930.jpg';
+import Yeti_1_1_3024x3024 from '../../img/DRS_store/large/Yeti_1-1_3024x3024.jpg';
 
 
 // 9:16
-import Aid_9_16_1934x3438 from '../../img/DRS_store/good/Aid_9-16_1934x3438.jpg';
-import BulletproofHMS_9_16_2029x3607 from '../../img/DRS_store/good/BulletproofHMS_9-16_2029x3607.jpg';
-import BulletproofScrew_9_16_1618x2877 from '../../img/DRS_store/good/BulletproofScrew_9-16_1618x2877.jpg';
-import DualConnectVario_9_16_2045x3636 from '../../img/DRS_store/good/DualConnectVario_9-16_2045x3636.jpg';
-import Gridlock_9_16_2268x4032 from '../../img/DRS_store/good/Gridlock_9-16_2268x4032.jpg';
-import Nuts_9_16_1918x3409 from '../../img/DRS_store/good/Nuts_9-16_1918x3409.jpg';
-import Puffy_9_16_2268x4032 from '../../img/DRS_store/good/Puffy_9-16_2268x4032.jpg';
-import Top100_9_16_1883x3347 from '../../img/DRS_store/good/Top100_9-16_1883x3347.jpg';
+import Aid_9_16_1934x3438 from '../../img/DRS_store/large/Aid_9-16_1934x3438.jpg';
+import BulletproofHMS_9_16_2029x3607 from '../../img/DRS_store/large/BulletproofHMS_9-16_2029x3607.jpg';
+import BulletproofScrew_9_16_1618x2877 from '../../img/DRS_store/large/BulletproofScrew_9-16_1618x2877.jpg';
+import DualConnectVario_9_16_2045x3636 from '../../img/DRS_store/large/DualConnectVario_9-16_2045x3636.jpg';
+import Gridlock_9_16_2268x4032 from '../../img/DRS_store/large/Gridlock_9-16_2268x4032.jpg';
+import Nuts_9_16_1918x3409 from '../../img/DRS_store/large/Nuts_9-16_1918x3409.jpg';
+import Puffy_9_16_2268x4032 from '../../img/DRS_store/large/Puffy_9-16_2268x4032.jpg';
+import Top100_9_16_1883x3347 from '../../img/DRS_store/large/Top100_9-16_1883x3347.jpg';
 
 // 16:9
-import BigCams_16_9_3724x2095 from '../../img/DRS_store/good/BigCams_16-9_3724x2095.jpg';
-import Bowls_16_9_3892x2189 from '../../img/DRS_store/good/Bowls_16-9_3892x2189.jpg';
-import C4cams_16_9_3896x2192 from '../../img/DRS_store/good/C4cams_16-9_3896x2192.jpg';
-import C4GreenPurple_16_9_4032x2268 from '../../img/DRS_store/good/C4GreenPurple_16-9_4032x2268.jpg';
-import Cords2_16_9_3285x1848 from '../../img/DRS_store/good/Cords2_16-9_3285x1848.jpg';
-import CrackGloves_16_9_3677x2069 from '../../img/DRS_store/good/CrackGloves_16-9_3677x2069.jpg';
-import Dragonflys_16_9_4032x2268 from '../../img/DRS_store/good/Dragonflys_16-9_4032x2268.jpg';
-import Dromedary_16_9_3806x2141 from '../../img/DRS_store/good/Dromedary_16-9_3806x2141.jpg';
-import GriGri_16_9_4032x2268 from '../../img/DRS_store/good/GriGri_16-9_4032x2268.jpg';
-import Harnesses_16_9_4032x2268 from '../../img/DRS_store/good/Harnesses_16-9_4032x2268.jpg';
-import Pants_16_9_3518x1980 from '../../img/DRS_store/good/Pants_16-9_3518x1980.jpg';
-import Skyhook_16_9_3356x1888 from '../../img/DRS_store/good/Skyhook_16-9_3356x1888.jpg';
-import Slings2_16_9_3179x1788 from '../../img/DRS_store/good/Slings2_16-9_3179x1788.jpg';
-import SmallLockers_16_9_3161x1778 from '../../img/DRS_store/good/SmallLockers_16-9_3161x1778.jpg';
+import BigCams_16_9_3724x2095 from '../../img/DRS_store/large/BigCams_16-9_3724x2095.jpg';
+import Bowls_16_9_3892x2189 from '../../img/DRS_store/large/Bowls_16-9_3892x2189.jpg';
+import C4cams_16_9_3896x2192 from '../../img/DRS_store/large/C4cams_16-9_3896x2192.jpg';
+import C4GreenPurple_16_9_4032x2268 from '../../img/DRS_store/large/C4GreenPurple_16-9_4032x2268.jpg';
+import Cords2_16_9_3285x1848 from '../../img/DRS_store/large/Cords2_16-9_3285x1848.jpg';
+import CrackGloves_16_9_3677x2069 from '../../img/DRS_store/large/CrackGloves_16-9_3677x2069.jpg';
+import Dragonflys_16_9_4032x2268 from '../../img/DRS_store/large/Dragonflys_16-9_4032x2268.jpg';
+import Dromedary_16_9_3806x2141 from '../../img/DRS_store/large/Dromedary_16-9_3806x2141.jpg';
+import GriGri_16_9_4032x2268 from '../../img/DRS_store/large/GriGri_16-9_4032x2268.jpg';
+import Harnesses_16_9_4032x2268 from '../../img/DRS_store/large/Harnesses_16-9_4032x2268.jpg';
+import Pants_16_9_3518x1980 from '../../img/DRS_store/large/Pants_16-9_3518x1980.jpg';
+import Skyhook_16_9_3356x1888 from '../../img/DRS_store/large/Skyhook_16-9_3356x1888.jpg';
+import Slings2_16_9_3179x1788 from '../../img/DRS_store/large/Slings2_16-9_3179x1788.jpg';
+import SmallLockers_16_9_3161x1778 from '../../img/DRS_store/large/SmallLockers_16-9_3161x1778.jpg';
 
 
 // 3:2
-import CanyoneeringBags_3_2_4032x2688 from '../../img/DRS_store/good/CanyoneeringBags_3-2_4032x2688.jpg';
-import Draws_3_2_3108x2072 from '../../img/DRS_store/good/Draws_3-2_3108x2072.jpg';
-import Filters_3_2_3802x2535 from '../../img/DRS_store/good/Filters_3-2_3802x2535.jpg';
-import FrictionLabs_3_2_3548x2365 from '../../img/DRS_store/good/FrictionLabs_3-2_3548x2365.jpg';
-import Miniwire_3_2_3000x2000 from '../../img/DRS_store/good/Miniwire_3-2_3000x2000.jpg';
-import Slings_3_2_4032x2688 from '../../img/DRS_store/good/Slings_3-2_4032x2688.jpg';
-import SmD_3_2_3225x2150 from '../../img/DRS_store/good/SmD_3-2_3225x2150.jpg';
-import VaporVCS_3_2_3157x2105 from '../../img/DRS_store/good/VaporVCS_3-2_3157x2105.jpg';
+import CanyoneeringBags_3_2_4032x2688 from '../../img/DRS_store/large/CanyoneeringBags_3-2_4032x2688.jpg';
+import Draws_3_2_3108x2072 from '../../img/DRS_store/large/Draws_3-2_3108x2072.jpg';
+import Filters_3_2_3802x2535 from '../../img/DRS_store/large/Filters_3-2_3802x2535.jpg';
+import FrictionLabs_3_2_3548x2365 from '../../img/DRS_store/large/FrictionLabs_3-2_3548x2365.jpg';
+import Miniwire_3_2_3000x2000 from '../../img/DRS_store/large/Miniwire_3-2_3000x2000.jpg';
+import Slings_3_2_4032x2688 from '../../img/DRS_store/large/Slings_3-2_4032x2688.jpg';
+import SmD_3_2_3225x2150 from '../../img/DRS_store/large/SmD_3-2_3225x2150.jpg';
+import VaporVCS_3_2_3157x2105 from '../../img/DRS_store/large/VaporVCS_3-2_3157x2105.jpg';
 
 
 // 2:3
 
 
 // 5:3
-import Approach2_5_3_4032x2419 from '../../img/DRS_store/good/Approach2_5-3_4032x2419.jpg';
-import Draws2_5_3_3600x2159 from '../../img/DRS_store/good/Draws2_5-3_3600x2159.jpg';
-import Harnesses2_5_3_4032x2419 from '../../img/DRS_store/good/Harnesses2_5-3_4032x2419.jpg';
-import HMS_5_3_3671x2202 from '../../img/DRS_store/good/HMS_5-3_3671x2202.jpg';
-import Katanas_5_3_3685x2211 from '../../img/DRS_store/good/Katanas_5-3_3685x2211.jpg';
-import Rhino_5_3_3580x2148 from '../../img/DRS_store/good/Rhino_5-3_3580x2148.jpg';
-import Solution_5_3_3480x2087 from '../../img/DRS_store/good/Solution_5-3_3480x2087.jpg';
-import SolutionComp_5_3_3565x2139 from '../../img/DRS_store/good/SolutionComp_5-3_3565x2139.jpg';
-import TenayaRa_5_3_3497x2098 from '../../img/DRS_store/good/TenayaRa_5-3_3497x2098.jpg';
-import Yeti2_5_3_4032x2419 from '../../img/DRS_store/good/Yeti2_5-3_4032x2419.jpg';
+import Approach2_5_3_4032x2419 from '../../img/DRS_store/large/Approach2_5-3_4032x2419.jpg';
+import Draws2_5_3_3600x2159 from '../../img/DRS_store/large/Draws2_5-3_3600x2159.jpg';
+import Harnesses2_5_3_4032x2419 from '../../img/DRS_store/large/Harnesses2_5-3_4032x2419.jpg';
+import HMS_5_3_3671x2202 from '../../img/DRS_store/large/HMS_5-3_3671x2202.jpg';
+import Katanas_5_3_3685x2211 from '../../img/DRS_store/large/Katanas_5-3_3685x2211.jpg';
+import Rhino_5_3_3580x2148 from '../../img/DRS_store/large/Rhino_5-3_3580x2148.jpg';
+import Solution_5_3_3480x2087 from '../../img/DRS_store/large/Solution_5-3_3480x2087.jpg';
+import SolutionComp_5_3_3565x2139 from '../../img/DRS_store/large/SolutionComp_5-3_3565x2139.jpg';
+import TenayaRa_5_3_3497x2098 from '../../img/DRS_store/large/TenayaRa_5-3_3497x2098.jpg';
+import Yeti2_5_3_4032x2419 from '../../img/DRS_store/large/Yeti2_5-3_4032x2419.jpg';
 
 // 3:5
 
