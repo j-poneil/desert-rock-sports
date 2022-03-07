@@ -138,13 +138,13 @@ todo - blockquote styling?
     * indented, vertical gray line on left side, italic?
     * className='blockquote' approach makes the text larger, no indentation, no italics, etc...
     * className='blockquote-footer' approah is MUCH better. leading '---', smaller text, grey... but no indentation and line
-todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
 todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
     * https://www.youtube.com/watch?v=sNlycRiaeac
 ! - make sendinblue signup email show proper company, etc in the email header/body
     and not go straight to spam... maybe... or add a note to check spam folder
+// todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
 // todo - add some line somewhere saying that I coded this site, see my github here etc...
     // * Maybe a simple line at the very bottom of the home or about pages...
     // * As a block comment in the head of the index
@@ -555,7 +555,8 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
-todo - FOR FINAL PRODUCTION - Alt image srcset sizes etc (guiding gallery)...
+todo - Alt image sizes via srcset
+todo - use batchcompress.com to reduce file sizes (prob ~75% reduction)
 // todo - Add more guiding gallery photos, descriptions/titles, and appropriate alt text
 // todo - Add Ting Ting
 // todo - Fix TierCard.js photo credit overlay text - DONE, and its pretty great now!

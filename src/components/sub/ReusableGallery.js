@@ -1,10 +1,11 @@
+//! Reusable gallery component that takes the photos in as props... an array of objects
 import React, { useState, useCallback } from 'react';
 
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 // import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
-import { photos } from "../data/guidingGalleryPhotos";
+
 
 
 /*
@@ -43,7 +44,7 @@ import { photos } from "../data/guidingGalleryPhotos";
         ... ALSO kinda messes up the caption position/color
 */
 
-const GuidingGallery = () => {
+const ReusableGallery = (props) => {
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -60,7 +61,7 @@ const GuidingGallery = () => {
     return (
         <div>
             <Gallery
-                photos={photos}
+                photos={props.photos}
                 onClick={openLightbox}
                 // px number or containerWidth, optional. Default of not including/passing this is good, but on large screens the images are a bit small
                 targetRowHeight={500}
@@ -75,7 +76,7 @@ const GuidingGallery = () => {
                             <TransformComponent> */}
                                 <Carousel
                                     currentIndex={currentImage}
-                                    views={photos.map(x => ({
+                                    views={props.photos.map(x => ({
                                         ...x,
                                         srcset: x.srcSet,
                                         caption: x.title
@@ -91,4 +92,4 @@ const GuidingGallery = () => {
     )
 }
 
-export default GuidingGallery;
+export default ReusableGallery;

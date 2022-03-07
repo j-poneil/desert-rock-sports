@@ -11,9 +11,11 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 // import GearCarousel from '../components/sub/GearCarousel';
 // import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-import GearGallery from '../components/sub/GearGallery';
+import ReusableGallery from './sub/ReusableGallery';
+import { photos } from './data/gearGalleryPhotos';
 
 import Styled from 'styled-components';
+
 // styles here:
 // src\stylesheets\pages\_gear.sass
 
@@ -85,7 +87,7 @@ export default function Gear(){
             </Jumbotron>
 
             <Jumbotron className="text-center mt-3 ml-3 mr-3">
-                <GearGallery />
+                <ReusableGallery photos={ photos } />
             </Jumbotron>
 
             <Jumbotron className="mt-3 ml-3 mr-3">
