@@ -324,10 +324,15 @@ todo - MORE PERMANENT fix for news item scroll / column heights
 @ Gear Page / GearCarousel ----------------------------------
 ? - what about a 3D google street style navigable thing? I think that would be so slick...
     * Either link to the one on google maps... or just have one instead of the carousel ???
-todo - FOR FINAL PRODUCTION - Alt image srcset sizes etc...
+todo - FOR FINAL PRODUCTION - Alt srcset sizes
 ! - Add an aside image or another section to the right of the consignment Jumbotron
         ! - Move to Containers, Rows, Columns
-! - Good quality gear pics, overview shows, up close shots, used gear shots.
+! - Smaller file sizes (& dimensions) on the gear pics
+    Need to reduce loading time greatly... maybe 70% ?
+! - Lazy loading / Loading in animation for gallery
+    ... Think some form of lazy loading may be there already... check for it
+    Loading animation would somewhat help the loading experience
+// todo - Good quality gear pics, overview shows, up close shots
 // todo - Should mention somewhere that we take items for consignment and give examples of what we do and don't want, terms, pricing, store credit vs check, etc...
 // todo - Comment out old carousel approach and try same setup to the Guiding Photo Gallery
 // todo - implement react-bootstrap grid system and prepare for additional sections below carousel
