@@ -144,6 +144,12 @@ todo - Newsletter Signup should look good at all sizes
     * https://www.youtube.com/watch?v=sNlycRiaeac
 ! - make sendinblue signup email show proper company, etc in the email header/body
     and not go straight to spam... maybe... or add a note to check spam folder
+! - sometimes on npm start only the background looks to load? Refreshing the page fixes it... but why?
+    Is it because I'm on battery saver mode on laptop? Didn't seem to happen before this?
+        That doesn't seem to be the issue
+    Maybe too much stuff to load and it just times out?
+        ... doesn't seem like that should happen. It wasn't before. If anything files sizes are smaller so should be faster
+    ! DOES THIS HAPPEN WITH A PRODUCTION BUILD?!?!?!?!?!?!??!!?!?
 // todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
 // todo - add some line somewhere saying that I coded this site, see my github here etc...
     // * Maybe a simple line at the very bottom of the home or about pages...
@@ -334,6 +340,9 @@ todo - FOR FINAL PRODUCTION - Alt srcset sizes
 ! - Lazy loading / Loading in animation for gallery
     ... Think some form of lazy loading may be there already... check for it
     Set a loading animation if able
+        ... maybe not as easy as I was expecting
+        You can set a custom imageRenderer for react-loading... so MAYBE thats an option
+        ... but basically I want the default renderer, just wrapped ...?
 todo - Smaller file dimensions for srcset tablet and phone
     Should be able to batch resize and maintain aspect ratio easy-ish
     THEN check that quality is acceptable still
@@ -555,7 +564,12 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
-todo - Alt image sizes via srcset
+todo - Smaller file dimensions for srcset tablet and phone ( copy / pasted from gear section where I need to do the same )
+    Should be able to batch resize and maintain aspect ratio easy-ish
+    THEN check that quality is acceptable still
+    THEN tedious renaming with new dimensions
+    THEN tedious importing them in
+    THEN tedious plugging them in
 todo - use batchcompress.com to reduce file sizes (prob ~75% reduction)
 // todo - Add more guiding gallery photos, descriptions/titles, and appropriate alt text
 // todo - Add Ting Ting

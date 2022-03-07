@@ -40,7 +40,7 @@
 // imports not yet sorted by aspect ratio
 // https://calculateaspectratio.com/ or BETTER: https://andrew.hedges.name/experiments/aspect_ratio/
 
-
+//% in the array of objects the width and height don't have to be pixels, can just be the aspect ratio values
 
 //! Real images, cropped and polished to look good, large dimensions AFTER batchcompress.com (75% file size reduction!)
 // 4:3

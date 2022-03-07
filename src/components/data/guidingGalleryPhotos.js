@@ -40,12 +40,7 @@
 // imports not yet sorted by aspect ratio
 // https://calculateaspectratio.com/ or BETTER: https://andrew.hedges.name/experiments/aspect_ratio/
 
-
-
-
-
-
-
+//% in the array of objects the width and height don't have to be pixels, can just be the aspect ratio values
 
 // 4:3
 import BigBadWolf from '../../img/RRCG/GuidingGalleryImgs/BigBadWolf.jpg';
