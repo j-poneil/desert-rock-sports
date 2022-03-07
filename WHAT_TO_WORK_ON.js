@@ -340,12 +340,12 @@ todo - Smaller file dimensions for srcset tablet and phone
     THEN tedious renaming with new dimensions
     THEN tedious importing them in
     THEN tedious plugging them in
-todo - Smaller file size (on large images)
-    Need to reduce loading time greatly... maybe 70% ?
-    NICE! Batchcompress.com took them from 121.9 MB to 28.4 MB... 76.7% decrease!!! YES
-    Visually they look like the quality is VERY close and didn't get impaced much
-    This change alone GREATLY helped the loading speed. Initial scroll down is still not good
-    ... but once everything is loaded / you scroll down once, scrolling back up is fine
+// todo - Smaller file size (on large images)
+//     Need to reduce loading time greatly... maybe 70% ?
+//     NICE! Batchcompress.com took them from 121.9 MB to 28.4 MB... 76.7% decrease!!! YES
+//     Visually they look like the quality is VERY close and didn't get impaced much
+//     This change alone GREATLY helped the loading speed. Initial scroll down is still not good
+//     ... but once everything is loaded / you scroll down once, scrolling back up is fine
 // todo - Good quality gear pics, overview shows, up close shots
 // todo - Should mention somewhere that we take items for consignment and give examples of what we do and don't want, terms, pricing, store credit vs check, etc...
 // todo - Comment out old carousel approach and try same setup to the Guiding Photo Gallery
