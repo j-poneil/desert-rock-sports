@@ -577,8 +577,23 @@ todo - Smaller file dimensions for srcset tablet and phone ( copy / pasted from 
     [x] THEN check that quality is acceptable still
     [x] THEN tedious renaming with new dimensions
     [x] THEN tedious importing them in
-    [] THEN tedious plugging them in
-    [] THEN test that they actually load the appropriate size AND ONLY THAT SIZE
+    [x] THEN plug 1 in
+        [x] THEN test that it loads the appropriate size AND ONLY THAT SIZE
+        ! BUT, onClick, Modal loads full size image
+    [x] THEN tedious plugging them in
+        1920x1080, profiling, 1 plugged in: 1.657 seconds
+        1920x1080, profiling, all in: 1.209 seconds
+        1920x1080, profiling, after compression on Tier and Bio pics 1.130 seconds
+        ... not a huge improvement, but substantial, can improve a bit with 'sizes' settings
+    [] Switch 'sizes' to settings that make sense?
+todo - batchcompress.com on the bio pics and guiding headings... while smaller in dimensions, they are larger in file size and actually load slower than the now compressed medium size guiding gallery photos... HA!
+    [x] Tier pics from 615 kB ---> 151 kB... quality sucked... trying something else
+    [x] Tier pics from 615 kB ---> 385 kB using imagecompressor.com ... acceptable quality
+    [x] Bio pics from 1.53 MB ---> 420 kB... quality iffy, need a little less compression...
+    [x] Bio pics from 1.53 MB ---> 995 kB using imagecompressor.com ... acceptable quality
+todo - beautify bio pics
+    5-15% lower brightness, 5-15% higher contrast, auto color boost thing, maybe auto whitebalance
+    ( do it on originals, then re-compress )
 // todo - use batchcompress.com to reduce file sizes initially (prob ~75% reduction)
 //     63.9 MB --> 17.7 MB
 // todo - Add more guiding gallery photos, descriptions/titles, and appropriate alt text

@@ -1,19 +1,19 @@
 import React from 'react';
 // % Photo imports here:
-import Calico from '../../img/RRCG/calicobasin_original_by_Matt_Kuehl.jpg';
+// import Calico from '../../img/RRCG/calicobasin_original_by_Matt_Kuehl.jpg';
 import Calico_500w from '../../img/RRCG/calicobasin_500px_by_Matt_Kuehl.jpg';
-import Calico2 from '../../img/RRCG/calicobasin2_original_by_Matt_Kuehl.jpg';
+// import Calico2 from '../../img/RRCG/calicobasin2_original_by_Matt_Kuehl.jpg';
 import Calico2_500w from '../../img/RRCG/calicobasin2_500px_by_Matt_Kuehl.jpg';
-import Birdland from '../../img/RRCG/Birdland_original_by_Matt_Kuehl.jpeg';
+// import Birdland from '../../img/RRCG/Birdland_original_by_Matt_Kuehl.jpeg';
 import Birdland_500w from '../../img/RRCG/Birdland_500px_by_Matt_Kuehl.jpeg';
-import Levitation29 from '../../img/RRCG/Levitation29_original_by_Matt_Kuehl.jpeg';
+// import Levitation29 from '../../img/RRCG/Levitation29_original_by_Matt_Kuehl.jpeg';
 import Levitation29_500w from '../../img/RRCG/Levitation29_500px_by_Matt_Kuehl.jpeg';
 
 
 // function TierCard(img, imgSm, imgAltText, imgCredit, tierName, tierDuration, tierDescription, costTable, tierNotes) {...}
 export const tiers = [
     {
-        img: Calico,
+        // img: Calico,
         imgSm: Calico_500w,
         imgAltText: "A climber on an exciting vertical climb up a sandstone wall.",
         imgCredit: "Calico Basin. Photo by Matt Kuehl.",
@@ -47,7 +47,7 @@ export const tiers = [
         )
     },
     {
-        img: Calico2,
+        // img: Calico2,
         imgSm: Calico2_500w,
         imgAltText: "A climber high up on a beautifully smooth section of sandstone on a large cliff.",
         imgCredit: "Calico Basin. Photo by Matt Kuehl.",
@@ -77,7 +77,7 @@ export const tiers = [
         )
     },
     {
-        img: Birdland,
+        // img: Birdland,
         imgSm: Birdland_500w,
         imgAltText: "A climber on an exciting and classic multipitch rock climb called Birdland.",
         imgCredit: "Birdland. Photo by Matt Kuehl.",
@@ -112,7 +112,7 @@ export const tiers = [
         )
     },
     {
-        img: Levitation29,
+        // img: Levitation29,
         imgSm: Levitation29_500w,
         imgAltText: "A climbers on a difficult and very classic multipitch rock climb, Levitation 29.",
         imgCredit: "Levitation 29. Photo by Matt Kuehl.",
@@ -149,7 +149,6 @@ export const tiers = [
         )
     },
     // {
-    //     img: Levitation29,
     //     imgSm: Levitation29_500w,
     //     imgAltText: "A climbers on a difficult and very classic multipitch rock climb, Levitation 29.",
     //     imgCredit: "Levitation 29. Photo by Matt Kuehl.",
