@@ -344,11 +344,13 @@ todo - FOR FINAL PRODUCTION - Alt srcset sizes
         You can set a custom imageRenderer for react-loading... so MAYBE thats an option
         ... but basically I want the default renderer, just wrapped ...?
 todo - Smaller file dimensions for srcset tablet and phone
-    Should be able to batch resize and maintain aspect ratio easy-ish
-    THEN check that quality is acceptable still
-    THEN tedious renaming with new dimensions
-    THEN tedious importing them in
-    THEN tedious plugging them in
+    [] Should be able to batch resize and maintain aspect ratio easy-ish
+    [] THEN check that quality is acceptable still
+    [] THEN tedious renaming with new dimensions
+    [] THEN tedious importing them in
+    [] THEN tedious plugging them in
+// todo - quick check on mobile gallery experience
+//     Its pretty good!
 // todo - Smaller file size (on large images)
 //     Need to reduce loading time greatly... maybe 70% ?
 //     NICE! Batchcompress.com took them from 121.9 MB to 28.4 MB... 76.7% decrease!!! YES
@@ -395,6 +397,7 @@ todo - fix section backgrounds. Need to be able to have multiple sizes for multi
 * - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
 ? - should the group of accordions try to initially center itself in the viewport?
 todo - try a background color gradient instead of just color for the accordion sub-section button/titles... darker on left side to help with text contrast... can't just do it on a button it seems. I think it must be a div w/ anchor tag or something similar
+! - https://www.southernnevadaclimberscoalition.org/local-ethics/climbing-after-rain/
 // todo - set the CSS background color ( iirc ) for each of the sub sections... instead of the default solid blue. I think it could look cool if these were set to the major or minor color present in the images I'll select for the major section background pictures... Do this in bootstrap-with-overrides.sass ...DONE. Colors ok good enough for now. Darken on hover.
 // todo - set my art credit link to me... not google lol
 // todo - add a note for the intentionally empty columns for screen readers? or is there another way to mark it as layout only not content?... aria-hidden="true" ... hides the empty columns by not presenting them at all to screen readers, etc
@@ -565,12 +568,19 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 todo - Smaller file dimensions for srcset tablet and phone ( copy / pasted from gear section where I need to do the same )
-    Should be able to batch resize and maintain aspect ratio easy-ish
-    THEN check that quality is acceptable still
-    THEN tedious renaming with new dimensions
-    THEN tedious importing them in
-    THEN tedious plugging them in
-todo - use batchcompress.com to reduce file sizes (prob ~75% reduction)
+    [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
+        original = original (not linked in)
+        too_large = original / cropped size, but polished... maybe or maybe not linked... some peeps have 4K...
+        large = fits in 1920x1080
+        medium = fits in 1366x768
+        small = fits in 854x480
+    [x] THEN check that quality is acceptable still
+    [x] THEN tedious renaming with new dimensions
+    [x] THEN tedious importing them in
+    [] THEN tedious plugging them in
+    [] THEN test that they actually load the appropriate size AND ONLY THAT SIZE
+// todo - use batchcompress.com to reduce file sizes initially (prob ~75% reduction)
+//     63.9 MB --> 17.7 MB
 // todo - Add more guiding gallery photos, descriptions/titles, and appropriate alt text
 // todo - Add Ting Ting
 // todo - Fix TierCard.js photo credit overlay text - DONE, and its pretty great now!
