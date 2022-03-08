@@ -136,12 +136,36 @@ import TunnelVision_3_4_480x640 from '../../img/RRCG/GuidingGalleryImgs/small/Tu
 // 3:2
 import JulieChrysler_3_2_720x480 from '../../img/RRCG/GuidingGalleryImgs/small/JulieChrysler_3_2_720x480.jpg';
 
+//! phone = fits in 320x568
+// 4:3
+import BigBadWolf_4_3_427x320 from '../../img/RRCG/GuidingGalleryImgs/phone/BigBadWolf_4_3_427x320.jpg';
+import BigBadWolf2_4_3_427x320 from '../../img/RRCG/GuidingGalleryImgs/phone/BigBadWolf2_4_3_427x320.jpg';
+import MansBestFriend_4_3_427x320 from '../../img/RRCG/GuidingGalleryImgs/phone/MansBestFriend_4_3_427x320.jpg';
+import Josh_4_3_427x320 from '../../img/RRCG/GuidingGalleryImgs/phone/Josh_4_3_427x320.jpg';
+import FroglandTunnel_4_3_427x320 from '../../img/RRCG/GuidingGalleryImgs/phone/FroglandTunnel_4_3_427x320.jpg';
+// 3:4
+import Kiss_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/Kiss_3_4_320x427.jpg';
+import Josh2_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/Josh2_3_4_320x427.jpg';
+import EpiFun_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/EpiFun_3_4_320x427.jpg';
+import FirstCreekSlabsAwe_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/FirstCreekSlabsAwe_3_4_320x427.jpg';
+import JuniperCanyonAwe_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/JuniperCanyonAwe_3_4_320x427.jpg';
+import LimestoneStunner_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/LimestoneStunner_3_4_320x427.jpg';
+import MultpitchFun_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/MultpitchFun_3_4_320x427.jpg';
+import Plants_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/Plants_3_4_320x427.jpg';
+import RainbowWallAww_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/RainbowWallAww_3_4_320x427.jpg';
+import SolarSlabAwe_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/SolarSlabAwe_3_4_320x427.jpg';
+import TeamFun_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/TeamFun_3_4_320x427.jpg';
+import TunnelVision_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/TunnelVision_3_4_320x427.jpg';
+// 3:2
+import JulieChrysler_3_2_480x320 from '../../img/RRCG/GuidingGalleryImgs/phone/JulieChrysler_3_2_480x320.jpg';
+
 
 export const photos = [
     {
         src: FirstCreekSlabsAwe_3_4_3024x4032,
         srcSet: [
-            `${FirstCreekSlabsAwe_3_4_480x640} 480w,
+            `${FirstCreekSlabsAwe_3_4_320x427} 320w,
+            ${FirstCreekSlabsAwe_3_4_480x640} 480w,
             ${FirstCreekSlabsAwe_3_4_768x1024} 768w,
             ${FirstCreekSlabsAwe_3_4_1080x1440} 1080w,
             ${FirstCreekSlabsAwe_3_4_3024x4032} 3024w`
@@ -155,7 +179,8 @@ export const photos = [
     {
         src: BigBadWolf_4_3_4608x3456,
         srcSet: [
-            `${BigBadWolf_4_3_640x480} 640w,
+            `${BigBadWolf_4_3_427x320} 427w,
+            ${BigBadWolf_4_3_640x480} 640w,
             ${BigBadWolf_4_3_1024x768} 1024w,
             ${BigBadWolf_4_3_1440x1080} 1440w,
             ${BigBadWolf_4_3_4608x3456} 4608w`
@@ -169,7 +194,8 @@ export const photos = [
     {
         src: BigBadWolf2_4_3_4608x3456,
         srcSet: [
-            `${BigBadWolf2_4_3_640x480} 640w,
+            `${BigBadWolf2_4_3_427x320} 427w,
+            ${BigBadWolf2_4_3_640x480} 640w,
             ${BigBadWolf2_4_3_1024x768} 1024w,
             ${BigBadWolf2_4_3_1440x1080} 1440w,
             ${BigBadWolf2_4_3_4608x3456} 4608w`
@@ -183,7 +209,8 @@ export const photos = [
     {
         src: Josh2_3_4_3024x4032,
         srcSet: [
-            `${Josh2_3_4_480x640} 480w,
+            `${Josh2_3_4_320x427} 320w,
+            ${Josh2_3_4_480x640} 480w,
             ${Josh2_3_4_768x1024} 768w,
             ${Josh2_3_4_1080x1440} 1080w,
             ${Josh2_3_4_3024x4032} 3024w`
@@ -197,7 +224,8 @@ export const photos = [
     {
         src: MansBestFriend_4_3_4608x3456,
         srcSet: [
-            `${MansBestFriend_4_3_640x480} 640w,
+            `${MansBestFriend_4_3_427x320} 427w,
+            ${MansBestFriend_4_3_640x480} 640w,
             ${MansBestFriend_4_3_1024x768} 1024w,
             ${MansBestFriend_4_3_1440x1080} 1440w,
             ${MansBestFriend_4_3_4608x3456} 4608w`
@@ -211,7 +239,8 @@ export const photos = [
     {
         src: Plants_3_4_3024x4032,
         srcSet: [
-            `${Plants_3_4_480x640} 480w,
+            `${Plants_3_4_320x427} 320w,
+            ${Plants_3_4_480x640} 480w,
             ${Plants_3_4_768x1024} 768w,
             ${Plants_3_4_1080x1440} 1080w,
             ${Plants_3_4_3024x4032} 3024w`
@@ -225,7 +254,8 @@ export const photos = [
     {
         src: JulieChrysler_3_2_6000x4000,
         srcSet: [
-            `${JulieChrysler_3_2_720x480} 720w,
+            `${JulieChrysler_3_2_480x320} 480w,
+            ${JulieChrysler_3_2_720x480} 720w,
             ${JulieChrysler_3_2_1152x768} 1152w,
             ${JulieChrysler_3_2_1620x1080} 1620w,
             ${JulieChrysler_3_2_6000x4000} 6000w`
@@ -239,7 +269,8 @@ export const photos = [
     {
         src: Josh_4_3_4032x3024,
         srcSet: [
-            `${Josh_4_3_640x480} 640w,
+            `${Josh_4_3_427x320} 427w,
+            ${Josh_4_3_640x480} 640w,
             ${Josh_4_3_1024x768} 1024w,
             ${Josh_4_3_1440x1080} 1440w,
             ${Josh_4_3_4032x3024} 4032w`
@@ -253,7 +284,8 @@ export const photos = [
     {
         src: Kiss_3_4_3024x4032,
         srcSet: [
-            `${Kiss_3_4_480x640} 480w,
+            `${Kiss_3_4_320x427} 320w,
+            ${Kiss_3_4_480x640} 480w,
             ${Kiss_3_4_768x1024} 768w,
             ${Kiss_3_4_1080x1440} 1080w,
             ${Kiss_3_4_3024x4032} 3024w`
@@ -267,7 +299,8 @@ export const photos = [
     {
         src: LimestoneStunner_3_4_3024x4032,
         srcSet: [
-            `${LimestoneStunner_3_4_480x640} 480w,
+            `${LimestoneStunner_3_4_320x427} 320w,
+            ${LimestoneStunner_3_4_480x640} 480w,
             ${LimestoneStunner_3_4_768x1024} 768w,
             ${LimestoneStunner_3_4_1080x1440} 1080w,
             ${LimestoneStunner_3_4_3024x4032} 3024w`
@@ -281,7 +314,8 @@ export const photos = [
     {
         src: FroglandTunnel_4_3_4032x3024,
         srcSet: [
-            `${FroglandTunnel_4_3_640x480} 640w,
+            `${FroglandTunnel_4_3_427x320} 427w,
+            ${FroglandTunnel_4_3_640x480} 640w,
             ${FroglandTunnel_4_3_1024x768} 1024w,
             ${FroglandTunnel_4_3_1440x1080} 1440w,
             ${FroglandTunnel_4_3_4032x3024} 4032w`
@@ -295,7 +329,8 @@ export const photos = [
     {
         src: TeamFun_3_4_3024x4032,
         srcSet: [
-            `${TeamFun_3_4_480x640} 480w,
+            `${TeamFun_3_4_320x427} 320w,
+            ${TeamFun_3_4_480x640} 480w,
             ${TeamFun_3_4_768x1024} 768w,
             ${TeamFun_3_4_1080x1440} 1080w,
             ${TeamFun_3_4_3024x4032} 3024w`
@@ -309,7 +344,8 @@ export const photos = [
     {
         src: EpiFun_3_4_3024x4032,
         srcSet: [
-            `${EpiFun_3_4_480x640} 480w,
+            `${EpiFun_3_4_320x427} 320w,
+            ${EpiFun_3_4_480x640} 480w,
             ${EpiFun_3_4_768x1024} 768w,
             ${EpiFun_3_4_1080x1440} 1080w,
             ${EpiFun_3_4_3024x4032} 3024w`
@@ -323,7 +359,8 @@ export const photos = [
     {
         src: JuniperCanyonAwe_3_4_3024x4032,
         srcSet: [
-            `${JuniperCanyonAwe_3_4_480x640} 480w,
+            `${JuniperCanyonAwe_3_4_320x427} 320w,
+            ${JuniperCanyonAwe_3_4_480x640} 480w,
             ${JuniperCanyonAwe_3_4_768x1024} 768w,
             ${JuniperCanyonAwe_3_4_1080x1440} 1080w,
             ${JuniperCanyonAwe_3_4_3024x4032} 3024w`
@@ -337,7 +374,8 @@ export const photos = [
     {
         src: MultpitchFun_3_4_3024x4032,
         srcSet: [
-            `${MultpitchFun_3_4_480x640} 480w,
+            `${MultpitchFun_3_4_320x427} 320w,
+            ${MultpitchFun_3_4_480x640} 480w,
             ${MultpitchFun_3_4_768x1024} 768w,
             ${MultpitchFun_3_4_1080x1440} 1080w,
             ${MultpitchFun_3_4_3024x4032} 3024w`
@@ -351,7 +389,8 @@ export const photos = [
     {
         src: RainbowWallAww_3_4_3024x4032,
         srcSet: [
-            `${RainbowWallAww_3_4_480x640} 480w,
+            `${RainbowWallAww_3_4_320x427} 320w,
+            ${RainbowWallAww_3_4_480x640} 480w,
             ${RainbowWallAww_3_4_768x1024} 768w,
             ${RainbowWallAww_3_4_1080x1440} 1080w,
             ${RainbowWallAww_3_4_3024x4032} 3024w`
@@ -365,7 +404,8 @@ export const photos = [
     {
         src: SolarSlabAwe_3_4_3024x4032,
         srcSet: [
-            `${SolarSlabAwe_3_4_480x640} 480w,
+            `${SolarSlabAwe_3_4_320x427} 320w,
+            ${SolarSlabAwe_3_4_480x640} 480w,
             ${SolarSlabAwe_3_4_768x1024} 768w,
             ${SolarSlabAwe_3_4_1080x1440} 1080w,
             ${SolarSlabAwe_3_4_3024x4032} 3024w`
@@ -379,7 +419,8 @@ export const photos = [
     {
         src: TunnelVision_3_4_3024x4032,
         srcSet: [
-            `${TunnelVision_3_4_480x640} 480w,
+            `${TunnelVision_3_4_320x427} 320w,
+            ${TunnelVision_3_4_480x640} 480w,
             ${TunnelVision_3_4_768x1024} 768w,
             ${TunnelVision_3_4_1080x1440} 1080w,
             ${TunnelVision_3_4_3024x4032} 3024w`
