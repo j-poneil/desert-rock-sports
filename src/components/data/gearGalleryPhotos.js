@@ -515,7 +515,18 @@ import Yeti2_5_3_533x320 from '../../img/DRS_store/phone/Yeti2_5_3_533x320.jpg';
 
 
 
+//% So... sizes array... I should just make a const that covers everything and use that... then can change in just 1 place
+// Though find and replace would work fine as well to update
 
+// cell: 320w - 568w
+// small: 480w - 853w
+// med: 768w - 1366w
+// large: 1080w - 1920w
+// original: ... 1618w - 4032w
+
+
+
+const srcSetSizes = ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"];
 
 export const photos = [
     {
@@ -527,7 +538,7 @@ export const photos = [
             ${Draws_3_2_1620x1080} 1620w,
             ${Draws_3_2_3108x2072} 3108w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3108,
         height: 2072,
@@ -542,7 +553,7 @@ export const photos = [
             ${BigCams_16_9_1920x1080} 1920w,
             ${BigCams_16_9_3724x2095} 3724w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3724,
         height: 2095,
@@ -557,7 +568,7 @@ export const photos = [
             ${Nuts_9_16_1080x1920} 1080w,
             ${Nuts_9_16_1918x3409} 1918w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 1918,
         height: 3409,
@@ -572,7 +583,7 @@ export const photos = [
             ${Slings_3_2_1620x1080} 1620w,
             ${Slings_3_2_4032x2688} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2688,
@@ -587,7 +598,7 @@ export const photos = [
             ${Shoes_1_1_1080x1080} 1080w,
             ${Shoes_1_1_3024x3024} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 3024,
@@ -602,7 +613,7 @@ export const photos = [
             ${Pads_4_3_1440x1080} 1440w,
             ${Pads_4_3_3641x2731} 3641w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3641,
         height: 2731,
@@ -617,7 +628,7 @@ export const photos = [
             ${C4cams_16_9_1920x1080} 1920w,
             ${C4cams_16_9_3896x2192} 3896w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3896,
         height: 2192,
@@ -632,7 +643,7 @@ export const photos = [
             ${DRSVintage2_1_1_1080x1080} 1080w,
             ${DRSVintage2_1_1_2571x2571} 2571w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2571,
         height: 2571,
@@ -647,7 +658,7 @@ export const photos = [
             ${Ropes_3_4_1080x1440} 1080w,
             ${Ropes_3_4_2744x3659} 2744w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2744,
         height: 3659,
@@ -662,7 +673,7 @@ export const photos = [
             ${FrictionLabs_3_2_1620x1080} 1620w,
             ${FrictionLabs_3_2_3548x2365} 3548w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3548,
         height: 2365,
@@ -677,7 +688,7 @@ export const photos = [
             ${CrackGloves_16_9_1919x1080} 1919w,
             ${CrackGloves_16_9_3677x2069} 3677w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3677,
         height: 2069,
@@ -692,7 +703,7 @@ export const photos = [
             ${Aid_9_16_1080x1920} 1080w,
             ${Aid_9_16_1934x3438} 1934w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 1934,
         height: 3438,
@@ -707,7 +718,7 @@ export const photos = [
             ${G7_3_4_1080x1440} 1080w,
             ${G7_3_4_2552x3403} 2552w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2552,
         height: 3403,
@@ -722,7 +733,7 @@ export const photos = [
             ${GriGri_16_9_1920x1080} 1920w,
             ${GriGri_16_9_4032x2268} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2268,
@@ -737,7 +748,7 @@ export const photos = [
             ${Harnesses_16_9_1920x1080} 1920w,
             ${Harnesses_16_9_4032x2268} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2268,
@@ -752,7 +763,7 @@ export const photos = [
             ${BrassSwage_4_3_1440x1080} 1440w,
             ${BrassSwage_4_3_3024x2268} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 2268,
@@ -767,7 +778,7 @@ export const photos = [
             ${Dyon_4_3_1440x1080} 1440w,
             ${Dyon_4_3_3280x2460} 3280w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3280,
         height: 2460,
@@ -782,7 +793,7 @@ export const photos = [
             ${Draws2_5_3_1801x1080} 1801w,
             ${Draws2_5_3_3600x2159} 3600w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3600,
         height: 2159,
@@ -797,7 +808,7 @@ export const photos = [
             ${Rhino_5_3_1800x1080} 1800w,
             ${Rhino_5_3_3580x2148} 3580w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3580,
         height: 2148,
@@ -812,7 +823,7 @@ export const photos = [
             ${BDPacks_1_1_1080x1080} 1080w,
             ${BDPacks_1_1_2850x2850} 2850w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2850,
         height: 2850,
@@ -827,7 +838,7 @@ export const photos = [
             ${Headlamp_4_3_1440x1080} 1440w,
             ${Headlamp_4_3_2881x2161} 2881w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2881,
         height: 2161,
@@ -842,7 +853,7 @@ export const photos = [
             ${BoulderingIsDumb_1_1_1080x1080} 1080w,
             ${BoulderingIsDumb_1_1_2764x2764} 2764w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2764,
         height: 2764,
@@ -857,7 +868,7 @@ export const photos = [
             ${Isobutane_4_3_1800x1080} 1800w,
             ${Isobutane_4_3_4032x2419} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2419,
@@ -872,7 +883,7 @@ export const photos = [
             ${Filters_3_2_1620x1080} 1620w,
             ${Filters_3_2_3802x2535} 3802w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3802,
         height: 2535,
@@ -887,7 +898,7 @@ export const photos = [
             ${Platy_4_3_1440x1080} 1440w,
             ${Platy_4_3_3667x2750} 3667w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3667,
         height: 2750,
@@ -902,7 +913,7 @@ export const photos = [
             ${SmD_3_2_1620x1080} 1620w,
             ${SmD_3_2_3225x2150} 3225w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3225,
         height: 2150,
@@ -917,7 +928,7 @@ export const photos = [
             ${Endo_1_1_1080x1080} 1080w,
             ${Endo_1_1_2170x2170} 2170w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2170,
         height: 2170,
@@ -932,7 +943,7 @@ export const photos = [
             ${BDPacks2_4_3_1440x1080} 1440w,
             ${BDPacks2_4_3_3790x2842} 3790w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3790,
         height: 2842,
@@ -947,7 +958,7 @@ export const photos = [
             ${Pads2_4_3_1440x1080} 1440w,
             ${Pads2_4_3_3279x2459} 3279w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3279,
         height: 2459,
@@ -962,7 +973,7 @@ export const photos = [
             ${Sheep_4_3_1440x1080} 1440w,
             ${Sheep_4_3_3251x2438} 3251w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3251,
         height: 2438,
@@ -977,7 +988,7 @@ export const photos = [
             ${Yeti2_5_3_1800x1080} 1800w,
             ${Yeti2_5_3_4032x2419} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2419,
@@ -992,7 +1003,7 @@ export const photos = [
             ${MSRFuel_1_1_1080x1080} 1080w,
             ${MSRFuel_1_1_3024x3024} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 3024,
@@ -1007,7 +1018,7 @@ export const photos = [
             ${DualConnectVario_9_16_1080x1920} 1080w,
             ${DualConnectVario_9_16_2045x3636} 2045w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2045,
         height: 3636,
@@ -1022,7 +1033,7 @@ export const photos = [
             ${Katanas_5_3_1800x1080} 1800w,
             ${Katanas_5_3_3685x2211} 3685w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3685,
         height: 2211,
@@ -1037,7 +1048,7 @@ export const photos = [
             ${CanyoneeringBags_3_2_1620x1080} 1620w,
             ${CanyoneeringBags_3_2_4032x2688} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2688,
@@ -1052,7 +1063,7 @@ export const photos = [
             ${Cords_1_1_1080x1080} 1080w,
             ${Cords_1_1_2605x2605} 2605w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2605,
         height: 2605,
@@ -1067,7 +1078,7 @@ export const photos = [
             ${Cords2_16_9_1920x1080} 1920w,
             ${Cords2_16_9_3285x1848} 3285w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3285,
         height: 1848,
@@ -1082,7 +1093,7 @@ export const photos = [
             ${HandledAscenders_1_1_1080x1080} 1080w,
             ${HandledAscenders_1_1_2549x2549} 2549w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2549,
         height: 2549,
@@ -1097,7 +1108,7 @@ export const photos = [
             ${Approach_3_4_1080x1440} 1080w,
             ${Approach_3_4_2905x3874} 2905w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2905,
         height: 3874,
@@ -1112,7 +1123,7 @@ export const photos = [
             ${HMS_5_3_1800x1080} 1800w,
             ${HMS_5_3_3671x2202} 3671w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3671,
         height: 2202,
@@ -1127,7 +1138,7 @@ export const photos = [
             ${VaporVCS_3_2_1620x1080} 1620w,
             ${VaporVCS_3_2_3157x2105} 3157w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3157,
         height: 2105,
@@ -1142,7 +1153,7 @@ export const photos = [
             ${Harnesses2_5_3_1800x1080} 1800w,
             ${Harnesses2_5_3_4032x2419} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2419,
@@ -1157,7 +1168,7 @@ export const photos = [
             ${C4Red_4_3_1440x1080} 1440w,
             ${C4Red_4_3_2556x1917} 2556w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2556,
         height: 1917,
@@ -1172,7 +1183,7 @@ export const photos = [
             ${Skyhook_16_9_1920x1080} 1920w,
             ${Skyhook_16_9_3356x1888} 3356w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3356,
         height: 1888,
@@ -1187,7 +1198,7 @@ export const photos = [
             ${Pants_16_9_1919x1080} 1919w,
             ${Pants_16_9_3518x1980} 3518w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3518,
         height: 1980,
@@ -1202,7 +1213,7 @@ export const photos = [
             ${Slings2_16_9_1920x1080} 1920w,
             ${Slings2_16_9_3179x1788} 3179w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3179,
         height: 1788,
@@ -1217,7 +1228,7 @@ export const photos = [
             ${Brass_4_3_1440x1080} 1440w,
             ${Brass_4_3_3024x2268} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 2268,
@@ -1232,7 +1243,7 @@ export const photos = [
             ${Bug_4_3_1440x1080} 1440w,
             ${Bug_4_3_3777x2833} 3777w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3777,
         height: 2833,
@@ -1247,7 +1258,7 @@ export const photos = [
             ${MicroTraxion_1_1_1080x1080} 1080w,
             ${MicroTraxion_1_1_2153x2153} 2153w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2153,
         height: 2153,
@@ -1262,7 +1273,7 @@ export const photos = [
             ${Nimbus_1_1_1080x1080} 1080w,
             ${Nimbus_1_1_2748x2748} 2748w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2748,
         height: 2748,
@@ -1277,7 +1288,7 @@ export const photos = [
             ${Reverso_1_1_1080x1080} 1080w,
             ${Reverso_1_1_2463x2463} 2463w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2463,
         height: 2463,
@@ -1292,7 +1303,7 @@ export const photos = [
             ${Miniwire_3_2_1620x1080} 1620w,
             ${Miniwire_3_2_3000x2000} 3000w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3000,
         height: 2000,
@@ -1307,7 +1318,7 @@ export const photos = [
             ${Solution_5_3_1801x1080} 1801w,
             ${Solution_5_3_3480x2087} 3480w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3480,
         height: 2087,
@@ -1322,7 +1333,7 @@ export const photos = [
             ${SolutionComp_5_3_1800x1080} 1800w,
             ${SolutionComp_5_3_3565x2139} 3565w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3565,
         height: 2139,
@@ -1337,7 +1348,7 @@ export const photos = [
             ${Dragonflys_16_9_1920x1080} 1920w,
             ${Dragonflys_16_9_4032x2268} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2268,
@@ -1352,7 +1363,7 @@ export const photos = [
             ${Spoc_1_1_1080x1080} 1080w,
             ${Spoc_1_1_2833x2833} 2833w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2833,
         height: 2833,
@@ -1367,7 +1378,7 @@ export const photos = [
             ${Pivot_1_1_1080x1080} 1080w,
             ${Pivot_1_1_2502x2502} 2502w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2502,
         height: 2502,
@@ -1382,7 +1393,7 @@ export const photos = [
             ${BigBros_4_3_1440x1080} 1440w,
             ${BigBros_4_3_4032x3024} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 3024,
@@ -1397,7 +1408,7 @@ export const photos = [
             ${TenayaRa_5_3_1800x1080} 1800w,
             ${TenayaRa_5_3_3497x2098} 3497w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3497,
         height: 2098,
@@ -1412,7 +1423,7 @@ export const photos = [
             ${C4GreenPurple_16_9_1920x1080} 1920w,
             ${C4GreenPurple_16_9_4032x2268} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2268,
@@ -1427,7 +1438,7 @@ export const photos = [
             ${Brushes_1_1_1080x1080} 1080w,
             ${Brushes_1_1_2977x2977} 2977w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2977,
         height: 2977,
@@ -1442,7 +1453,7 @@ export const photos = [
             ${Gridlock_9_16_1080x1920} 1080w,
             ${Gridlock_9_16_2268x4032} 2268w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2268,
         height: 4032,
@@ -1457,7 +1468,7 @@ export const photos = [
             ${BigBros2_1_1_1080x1080} 1080w,
             ${BigBros2_1_1_2765x2765} 2765w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2765,
         height: 2765,
@@ -1472,7 +1483,7 @@ export const photos = [
             ${TotemBlue_4_3_1440x1080} 1440w,
             ${TotemBlue_4_3_2441x1831} 2441w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2441,
         height: 1831,
@@ -1487,7 +1498,7 @@ export const photos = [
             ${BulletproofHMS_9_16_1080x1920} 1080w,
             ${BulletproofHMS_9_16_2029x3607} 2029w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2029,
         height: 3607,
@@ -1502,7 +1513,7 @@ export const photos = [
             ${BulletproofScrew_9_16_1080x1920} 1080w,
             ${BulletproofScrew_9_16_1618x2877} 1618w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 1618,
         height: 2877,
@@ -1517,7 +1528,7 @@ export const photos = [
             ${Approach2_5_3_1800x1080} 1800w,
             ${Approach2_5_3_4032x2419} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 4032,
         height: 2419,
@@ -1532,7 +1543,7 @@ export const photos = [
             ${SmallLockers_16_9_1920x1080} 1920w,
             ${SmallLockers_16_9_3161x1778} 3161w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3161,
         height: 1778,
@@ -1547,7 +1558,7 @@ export const photos = [
             ${Postcards_3_4_1080x1440} 1080w,
             ${Postcards_3_4_2695x3594} 2695w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2695,
         height: 3594,
@@ -1562,7 +1573,7 @@ export const photos = [
             ${Barnacle_4_3_1440x1080} 1440w,
             ${Barnacle_4_3_3024x2268} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 2268,
@@ -1577,7 +1588,7 @@ export const photos = [
             ${Houdini_1_1_1080x1080} 1080w,
             ${Houdini_1_1_3024x3024} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 3024,
@@ -1592,7 +1603,7 @@ export const photos = [
             ${Puffy_9_16_1080x1920} 1080w,
             ${Puffy_9_16_2268x4032} 2268w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2268,
         height: 4032,
@@ -1607,7 +1618,7 @@ export const photos = [
             ${Yeti_1_1_1080x1080} 1080w,
             ${Yeti_1_1_3024x3024} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 3024,
@@ -1622,7 +1633,7 @@ export const photos = [
             ${Dromedary_16_9_1920x1080} 1920w,
             ${Dromedary_16_9_3806x2141} 3806w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3806,
         height: 2141,
@@ -1637,7 +1648,7 @@ export const photos = [
             ${Patagonia_1_1_1080x1080} 1080w,
             ${Patagonia_1_1_3024x3024} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3024,
         height: 3024,
@@ -1652,7 +1663,7 @@ export const photos = [
             ${Top100_9_16_1080x1920} 1080w,
             ${Top100_9_16_1883x3347} 1883w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 1883,
         height: 3347,
@@ -1667,7 +1678,7 @@ export const photos = [
             ${WLB_1_1_1080x1080} 1080w,
             ${WLB_1_1_1930x1930} 1930w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 1930,
         height: 1930,
@@ -1682,7 +1693,7 @@ export const photos = [
             ${Bowls_16_9_1920x1080} 1920w,
             ${Bowls_16_9_3892x2189} 3892w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 3892,
         height: 2189,
@@ -1697,7 +1708,7 @@ export const photos = [
             ${DRSVintage_1_1_1080x1080} 1080w,
             ${DRSVintage_1_1_2798x2798} 2798w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "",
         width: 2798,
         height: 2798,

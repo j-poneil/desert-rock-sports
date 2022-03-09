@@ -150,6 +150,7 @@ todo - Newsletter Signup should look good at all sizes
     Maybe too much stuff to load and it just times out?
         ... doesn't seem like that should happen. It wasn't before. If anything files sizes are smaller so should be faster
     ! DOES THIS HAPPEN WITH A PRODUCTION BUILD?!?!?!?!?!?!??!!?!?
+! - alt srcset sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
 // todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
 // todo - add some line somewhere saying that I coded this site, see my github here etc...
     // * Maybe a simple line at the very bottom of the home or about pages...

@@ -160,6 +160,29 @@ import TunnelVision_3_4_320x427 from '../../img/RRCG/GuidingGalleryImgs/phone/Tu
 import JulieChrysler_3_2_480x320 from '../../img/RRCG/GuidingGalleryImgs/phone/JulieChrysler_3_2_480x320.jpg';
 
 
+
+//% can just set a const for sizes and only have to edit in one place
+// cell: 320w - 568w
+// small: 480w - 853w
+// med: 768w - 1366w
+// large: 1080w - 1920w
+// original: ... 3024w - 6000w
+
+// sizes="(min-width: 600px) 160px, 320px"
+// That’s saying, “OK, we’ll be rendering this image 160px wide on Desktop. Otherwise, let’s go with 320px wide.”
+
+//? WAIT... do I even want to use the sizes attribute?
+// I should probably just set src to the fallback size, maybe medium size, then use srcSet, while probably removing the too_large one
+// ... why I think maybe thats the better way to go:
+// sizes="(min-width: 960px) 540px, 100vw"
+// = if viewport width equals to 960px or greater than show the image with a width of 540px,
+// = if the viewport width is smaller than 960px than show the image as wide as the viewport (100vw means 100% of the viewport width).
+// ...
+// BUT I am not displaying images by themselves, they are going into a gallery that does the mix and match resizing maintaining aspect ratio... So I'll never really know when it decides on 1 vs 2-5+ images per row, so how could I know what to set for sizes? So I should really probably just leave that to it... Makes me wonder why it even gave sizes info if srcSet alone was enough... I'll have to double check that documentation.
+
+// original value: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"]
+const srcSetSizes = ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"];
+
 export const photos = [
     {
         src: FirstCreekSlabsAwe_3_4_3024x4032,
@@ -170,7 +193,7 @@ export const photos = [
             ${FirstCreekSlabsAwe_3_4_1080x1440} 1080w,
             ${FirstCreekSlabsAwe_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Climbing up an easy route on the First Creek Slabs with the epic Labrynth Wall looming above",
         width: 3024,
         height: 4032,
@@ -185,7 +208,7 @@ export const photos = [
             ${BigBadWolf_4_3_1440x1080} 1440w,
             ${BigBadWolf_4_3_4608x3456} 4608w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Checking out the exposure on Big Bad Wolf",
         width: 4608,
         height: 3456,
@@ -200,7 +223,7 @@ export const photos = [
             ${BigBadWolf2_4_3_1440x1080} 1440w,
             ${BigBadWolf2_4_3_4608x3456} 4608w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Looking at all the small boulderers over at Kraft",
         width: 4608,
         height: 3456,
@@ -215,7 +238,7 @@ export const photos = [
             ${Josh2_3_4_1080x1440} 1080w,
             ${Josh2_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Pure fun. A climber making their way up on a route with fun and easy movement",
         width: 3024,
         height: 4032,
@@ -230,7 +253,7 @@ export const photos = [
             ${MansBestFriend_4_3_1440x1080} 1440w,
             ${MansBestFriend_4_3_4608x3456} 4608w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Adventure with friends. Two buddies coming up a multipitch route together.",
         width: 4608,
         height: 3456,
@@ -245,7 +268,7 @@ export const photos = [
             ${Plants_3_4_1080x1440} 1080w,
             ${Plants_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "The higher elevation areas at Red Rock Canyon NCA tend to get more precip and runoff so you can find some really cool plants that are rare lower down, like these lush lichen with mushroom-like flowers",
         width: 3024,
         height: 4032,
@@ -260,7 +283,7 @@ export const photos = [
             ${JulieChrysler_3_2_1620x1080} 1620w,
             ${JulieChrysler_3_2_6000x4000} 6000w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Julie climbing the amazing Chrysler Crack, an off-width crack. Too big for hand or fist jams, too small to chimney up until near the top, too strenuous to lie-back. We can help you learn to climb the wide.",
         width: 6000,
         height: 4000,
@@ -275,7 +298,7 @@ export const photos = [
             ${Josh_4_3_1440x1080} 1440w,
             ${Josh_4_3_4032x3024} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Climbing up the awesome varnished rock on Dark Shadows. Smooth, dark, and hard rock, almost as if it has been glazed.",
         width: 4032,
         height: 3024,
@@ -290,7 +313,7 @@ export const photos = [
             ${Kiss_3_4_1080x1440} 1080w,
             ${Kiss_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Romance on the rock. Two partners kissing.",
         width: 3024,
         height: 4032,
@@ -305,7 +328,7 @@ export const photos = [
             ${LimestoneStunner_3_4_1080x1440} 1080w,
             ${LimestoneStunner_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Limestone is a great, albeit sharp, alternative you can climb whenever the sandstone is wet and weak. Here a climber is making some fun moves on great holds.",
         width: 3024,
         height: 4032,
@@ -320,7 +343,7 @@ export const photos = [
             ${FroglandTunnel_4_3_1440x1080} 1440w,
             ${FroglandTunnel_4_3_4032x3024} 4032w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "About to climb through the vertical tunnel on Frogland, kind of a right angle triangular opening, almost dead verical with  hand crack to help you get through. A mixture of crack, chimney, and face climbing is needed to make it through.",
         width: 4032,
         height: 3024,
@@ -335,7 +358,7 @@ export const photos = [
             ${TeamFun_3_4_1080x1440} 1080w,
             ${TeamFun_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Two friends enjoy a great day out climbing some sweet multipitch.",
         width: 3024,
         height: 4032,
@@ -350,7 +373,7 @@ export const photos = [
             ${EpiFun_3_4_1080x1440} 1080w,
             ${EpiFun_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Enjoying the amazing chimney pitches and elevator shaft exposure of the mega classic, Epinephrine.",
         width: 3024,
         height: 4032,
@@ -365,7 +388,7 @@ export const photos = [
             ${JuniperCanyonAwe_3_4_1080x1440} 1080w,
             ${JuniperCanyonAwe_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Hiking out after a great day of multipitch climbing admiring the sun set over Juniper Canyon.",
         width: 3024,
         height: 4032,
@@ -380,7 +403,7 @@ export const photos = [
             ${MultpitchFun_3_4_1080x1440} 1080w,
             ${MultpitchFun_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Multipitch brings great fun and epic views. Here a climber savors the last few fun moves before a belay station on a route on the upper Solar Slab wall.",
         width: 3024,
         height: 4032,
@@ -395,7 +418,7 @@ export const photos = [
             ${RainbowWallAww_3_4_1080x1440} 1080w,
             ${RainbowWallAww_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Multipitch adventures with your partner will create timeless memories. Here two partners hug while the epic beauty of the Rainbow Wall and Juniper Canyon creates a memorable backdrop.",
         width: 3024,
         height: 4032,
@@ -410,7 +433,7 @@ export const photos = [
             ${SolarSlabAwe_3_4_1080x1440} 1080w,
             ${SolarSlabAwe_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Looking up towards Solar Slab and all the climbing yet to come.",
         width: 3024,
         height: 4032,
@@ -425,7 +448,7 @@ export const photos = [
             ${TunnelVision_3_4_1080x1440} 1080w,
             ${TunnelVision_3_4_3024x4032} 3024w`
         ],
-        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        sizes: srcSetSizes,
         alt: "Soon to journey up and through the wild namesake pitch of Tunnel Vision, we stand happy and ready for the fun and awe to come.",
         width: 3024,
         height: 4032,
@@ -439,7 +462,7 @@ export const photos = [
     //     ${},
     //     ${}`
     // ],
-    // sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+    // sizes: srcSetSizes,
     //     alt: "",
     //     width: ,
     //     height: ,
