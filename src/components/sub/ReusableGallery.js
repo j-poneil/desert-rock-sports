@@ -44,6 +44,37 @@ import Carousel, { Modal, ModalGateway } from "react-images";
         ... ALSO kinda messes up the caption position/color
 */
 
+// span.react-images__footer__caption > span
+//     font-weight: bold
+//     font-size: medium
+//     color: black //supposed to get overwritten by the rule below
+//     -webkit-text-fill-color: white
+//     -webkit-text-stroke-width: 1px
+//     -webkit-text-stroke-color: black
+
+// .react-images__footer > span
+//     font-weight: bold
+//     font-size: medium
+//     color: black //supposed to get overwritten by the rule below
+//     -webkit-text-fill-color: white
+//     -webkit-text-stroke-width: 1px
+//     -webkit-text-stroke-color: black
+
+// can't get this to work... like this
+const testStyles = {
+    fontWeight: 'bold',
+    fontSize: 'medium',
+    color: 'black',
+    webkitTextFillColor: 'white',
+    webkitTextStrokeWidth: '1px',
+    webkitTextStrokeColor: 'black'
+};
+
+
+
+
+
+
 const ReusableGallery = (props) => {
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
