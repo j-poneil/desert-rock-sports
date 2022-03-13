@@ -181,17 +181,18 @@ import JulieChrysler_3_2_480x320 from '../../img/RRCG/GuidingGalleryImgs/phone/J
 // BUT I am not displaying images by themselves, they are going into a gallery that does the mix and match resizing maintaining aspect ratio... So I'll never really know when it decides on 1 vs 2-5+ images per row, so how could I know what to set for sizes? So I should really probably just leave that to it... Makes me wonder why it even gave sizes info if srcSet alone was enough... I'll have to double check that documentation.
 
 // original value: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"]
-const srcSetSizes = ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"];
+const srcSetSizes = [""];
 
 export const photos = [
     {
-        src: FirstCreekSlabsAwe_3_4_3024x4032,
+        src: FirstCreekSlabsAwe_3_4_1080x1440,
         srcSet: [
             `${FirstCreekSlabsAwe_3_4_320x427} 320w,
             ${FirstCreekSlabsAwe_3_4_480x640} 480w,
             ${FirstCreekSlabsAwe_3_4_768x1024} 768w,
             ${FirstCreekSlabsAwe_3_4_1080x1440} 1080w,
-            ${FirstCreekSlabsAwe_3_4_3024x4032} 3024w`
+            // ${FirstCreekSlabsAwe_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Climbing up an easy route on the First Creek Slabs with the epic Labrynth Wall looming above",
@@ -200,13 +201,14 @@ export const photos = [
         title: "Climbing up an easy route on the First Creek Slabs with the epic Labrynth Wall looming above"
     },
     {
-        src: BigBadWolf_4_3_4608x3456,
+        src: BigBadWolf_4_3_1440x1080,
         srcSet: [
             `${BigBadWolf_4_3_427x320} 427w,
             ${BigBadWolf_4_3_640x480} 640w,
             ${BigBadWolf_4_3_1024x768} 1024w,
             ${BigBadWolf_4_3_1440x1080} 1440w,
-            ${BigBadWolf_4_3_4608x3456} 4608w`
+            // ${BigBadWolf_4_3_4608x3456} 4608w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Checking out the exposure on Big Bad Wolf",
@@ -215,13 +217,14 @@ export const photos = [
         title: "Checking out the exposure on Big Bad Wolf"
     },
     {
-        src: BigBadWolf2_4_3_4608x3456,
+        src: BigBadWolf2_4_3_1440x1080,
         srcSet: [
             `${BigBadWolf2_4_3_427x320} 427w,
             ${BigBadWolf2_4_3_640x480} 640w,
             ${BigBadWolf2_4_3_1024x768} 1024w,
             ${BigBadWolf2_4_3_1440x1080} 1440w,
-            ${BigBadWolf2_4_3_4608x3456} 4608w`
+            // ${BigBadWolf2_4_3_4608x3456} 4608w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Looking at all the small boulderers over at Kraft",
@@ -230,13 +233,14 @@ export const photos = [
         title: "Looking at all the small boulderers over at Kraft"
     },
     {
-        src: Josh2_3_4_3024x4032,
+        src: Josh2_3_4_1080x1440,
         srcSet: [
             `${Josh2_3_4_320x427} 320w,
             ${Josh2_3_4_480x640} 480w,
             ${Josh2_3_4_768x1024} 768w,
             ${Josh2_3_4_1080x1440} 1080w,
-            ${Josh2_3_4_3024x4032} 3024w`
+            // ${Josh2_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Pure fun. A climber making their way up on a route with fun and easy movement",
@@ -245,13 +249,14 @@ export const photos = [
         title: "Pure fun"
     },
     {
-        src: MansBestFriend_4_3_4608x3456,
+        src: MansBestFriend_4_3_1440x1080,
         srcSet: [
             `${MansBestFriend_4_3_427x320} 427w,
             ${MansBestFriend_4_3_640x480} 640w,
             ${MansBestFriend_4_3_1024x768} 1024w,
             ${MansBestFriend_4_3_1440x1080} 1440w,
-            ${MansBestFriend_4_3_4608x3456} 4608w`
+            // ${MansBestFriend_4_3_4608x3456} 4608w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Adventure with friends. Two buddies coming up a multipitch route together.",
@@ -260,13 +265,14 @@ export const photos = [
         title: "Adventure with friends"
     },
     {
-        src: Plants_3_4_3024x4032,
+        src: Plants_3_4_1080x1440,
         srcSet: [
             `${Plants_3_4_320x427} 320w,
             ${Plants_3_4_480x640} 480w,
             ${Plants_3_4_768x1024} 768w,
             ${Plants_3_4_1080x1440} 1080w,
-            ${Plants_3_4_3024x4032} 3024w`
+            // ${Plants_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "The higher elevation areas at Red Rock Canyon NCA tend to get more precip and runoff so you can find some really cool plants that are rare lower down, like these lush lichen with mushroom-like flowers",
@@ -275,13 +281,14 @@ export const photos = [
         title: "The higher elevation areas at Red Rock Canyon NCA tend to get more precip and runoff so you can find some really cool plants that are rare lower down."
     },
     {
-        src: JulieChrysler_3_2_6000x4000,
+        src: JulieChrysler_3_2_1620x1080,
         srcSet: [
             `${JulieChrysler_3_2_480x320} 480w,
             ${JulieChrysler_3_2_720x480} 720w,
             ${JulieChrysler_3_2_1152x768} 1152w,
             ${JulieChrysler_3_2_1620x1080} 1620w,
-            ${JulieChrysler_3_2_6000x4000} 6000w`
+            // ${JulieChrysler_3_2_6000x4000} 6000w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Julie climbing the amazing Chrysler Crack, an off-width crack. Too big for hand or fist jams, too small to chimney up until near the top, too strenuous to lie-back. We can help you learn to climb the wide.",
@@ -290,13 +297,14 @@ export const photos = [
         title: "Julie climbing the amazing Chrysler Crack. We can help you learn to climb the wide."
     },
     {
-        src: Josh_4_3_4032x3024,
+        src: Josh_4_3_1440x1080,
         srcSet: [
             `${Josh_4_3_427x320} 427w,
             ${Josh_4_3_640x480} 640w,
             ${Josh_4_3_1024x768} 1024w,
             ${Josh_4_3_1440x1080} 1440w,
-            ${Josh_4_3_4032x3024} 4032w`
+            // ${Josh_4_3_4032x3024} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Climbing up the awesome varnished rock on Dark Shadows. Smooth, dark, and hard rock, almost as if it has been glazed.",
@@ -305,13 +313,14 @@ export const photos = [
         title: "Climbing up the awesome varnished rock on Dark Shadows"
     },
     {
-        src: Kiss_3_4_3024x4032,
+        src: Kiss_3_4_1080x1440,
         srcSet: [
             `${Kiss_3_4_320x427} 320w,
             ${Kiss_3_4_480x640} 480w,
             ${Kiss_3_4_768x1024} 768w,
             ${Kiss_3_4_1080x1440} 1080w,
-            ${Kiss_3_4_3024x4032} 3024w`
+            // ${Kiss_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Romance on the rock. Two partners kissing.",
@@ -320,13 +329,14 @@ export const photos = [
         title: "Romance on the rock"
     },
     {
-        src: LimestoneStunner_3_4_3024x4032,
+        src: LimestoneStunner_3_4_1080x1440,
         srcSet: [
             `${LimestoneStunner_3_4_320x427} 320w,
             ${LimestoneStunner_3_4_480x640} 480w,
             ${LimestoneStunner_3_4_768x1024} 768w,
             ${LimestoneStunner_3_4_1080x1440} 1080w,
-            ${LimestoneStunner_3_4_3024x4032} 3024w`
+            // ${LimestoneStunner_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Limestone is a great, albeit sharp, alternative you can climb whenever the sandstone is wet and weak. Here a climber is making some fun moves on great holds.",
@@ -335,13 +345,14 @@ export const photos = [
         title: "Limestone is a great, albeit sharp, alternative you can climb whenever the sandstone is wet and weak."
     },
     {
-        src: FroglandTunnel_4_3_4032x3024,
+        src: FroglandTunnel_4_3_1440x1080,
         srcSet: [
             `${FroglandTunnel_4_3_427x320} 427w,
             ${FroglandTunnel_4_3_640x480} 640w,
             ${FroglandTunnel_4_3_1024x768} 1024w,
             ${FroglandTunnel_4_3_1440x1080} 1440w,
-            ${FroglandTunnel_4_3_4032x3024} 4032w`
+            // ${FroglandTunnel_4_3_4032x3024} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "About to climb through the vertical tunnel on Frogland, kind of a right angle triangular opening, almost dead verical with  hand crack to help you get through. A mixture of crack, chimney, and face climbing is needed to make it through.",
@@ -350,13 +361,14 @@ export const photos = [
         title: "About to climb through the vertical tunnel on Frogland."
     },
     {
-        src: TeamFun_3_4_3024x4032,
+        src: TeamFun_3_4_1080x1440,
         srcSet: [
             `${TeamFun_3_4_320x427} 320w,
             ${TeamFun_3_4_480x640} 480w,
             ${TeamFun_3_4_768x1024} 768w,
             ${TeamFun_3_4_1080x1440} 1080w,
-            ${TeamFun_3_4_3024x4032} 3024w`
+            // ${TeamFun_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Two friends enjoy a great day out climbing some sweet multipitch.",
@@ -365,13 +377,14 @@ export const photos = [
         title: "Two friends enjoy a great day out climbing some sweet multipitch."
     },
     {
-        src: EpiFun_3_4_3024x4032,
+        src: EpiFun_3_4_1080x1440,
         srcSet: [
             `${EpiFun_3_4_320x427} 320w,
             ${EpiFun_3_4_480x640} 480w,
             ${EpiFun_3_4_768x1024} 768w,
             ${EpiFun_3_4_1080x1440} 1080w,
-            ${EpiFun_3_4_3024x4032} 3024w`
+            // ${EpiFun_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Enjoying the amazing chimney pitches and elevator shaft exposure of the mega classic, Epinephrine.",
@@ -380,13 +393,14 @@ export const photos = [
         title: "Enjoying the amazing chimney pitches and elevator shaft exposure of the mega classic, Epinephrine."
     },
     {
-        src: JuniperCanyonAwe_3_4_3024x4032,
+        src: JuniperCanyonAwe_3_4_1080x1440,
         srcSet: [
             `${JuniperCanyonAwe_3_4_320x427} 320w,
             ${JuniperCanyonAwe_3_4_480x640} 480w,
             ${JuniperCanyonAwe_3_4_768x1024} 768w,
             ${JuniperCanyonAwe_3_4_1080x1440} 1080w,
-            ${JuniperCanyonAwe_3_4_3024x4032} 3024w`
+            // ${JuniperCanyonAwe_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Hiking out after a great day of multipitch climbing admiring the sun set over Juniper Canyon.",
@@ -395,13 +409,14 @@ export const photos = [
         title: "Hiking out after a great day of multipitch climbing admiring the sun set over Juniper Canyon."
     },
     {
-        src: MultpitchFun_3_4_3024x4032,
+        src: MultpitchFun_3_4_1080x1440,
         srcSet: [
             `${MultpitchFun_3_4_320x427} 320w,
             ${MultpitchFun_3_4_480x640} 480w,
             ${MultpitchFun_3_4_768x1024} 768w,
             ${MultpitchFun_3_4_1080x1440} 1080w,
-            ${MultpitchFun_3_4_3024x4032} 3024w`
+            // ${MultpitchFun_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Multipitch brings great fun and epic views. Here a climber savors the last few fun moves before a belay station on a route on the upper Solar Slab wall.",
@@ -410,13 +425,14 @@ export const photos = [
         title: "Multipitch brings great fun and epic views."
     },
     {
-        src: RainbowWallAww_3_4_3024x4032,
+        src: RainbowWallAww_3_4_1080x1440,
         srcSet: [
             `${RainbowWallAww_3_4_320x427} 320w,
             ${RainbowWallAww_3_4_480x640} 480w,
             ${RainbowWallAww_3_4_768x1024} 768w,
             ${RainbowWallAww_3_4_1080x1440} 1080w,
-            ${RainbowWallAww_3_4_3024x4032} 3024w`
+            // ${RainbowWallAww_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Multipitch adventures with your partner will create timeless memories. Here two partners hug while the epic beauty of the Rainbow Wall and Juniper Canyon creates a memorable backdrop.",
@@ -425,13 +441,14 @@ export const photos = [
         title: "Multipitch adventures with your partner will create timeless memories."
     },
     {
-        src: SolarSlabAwe_3_4_3024x4032,
+        src: SolarSlabAwe_3_4_1080x1440,
         srcSet: [
             `${SolarSlabAwe_3_4_320x427} 320w,
             ${SolarSlabAwe_3_4_480x640} 480w,
             ${SolarSlabAwe_3_4_768x1024} 768w,
             ${SolarSlabAwe_3_4_1080x1440} 1080w,
-            ${SolarSlabAwe_3_4_3024x4032} 3024w`
+            // ${SolarSlabAwe_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Looking up towards Solar Slab and all the climbing yet to come.",
@@ -440,13 +457,14 @@ export const photos = [
         title: "Looking up towards Solar Slab and all the climbing yet to come."
     },
     {
-        src: TunnelVision_3_4_3024x4032,
+        src: TunnelVision_3_4_1080x1440,
         srcSet: [
             `${TunnelVision_3_4_320x427} 320w,
             ${TunnelVision_3_4_480x640} 480w,
             ${TunnelVision_3_4_768x1024} 768w,
             ${TunnelVision_3_4_1080x1440} 1080w,
-            ${TunnelVision_3_4_3024x4032} 3024w`
+            // ${TunnelVision_3_4_3024x4032} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "Soon to journey up and through the wild namesake pitch of Tunnel Vision, we stand happy and ready for the fun and awe to come.",

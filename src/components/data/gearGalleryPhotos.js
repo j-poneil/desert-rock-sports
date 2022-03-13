@@ -524,19 +524,24 @@ import Yeti2_5_3_533x320 from '../../img/DRS_store/phone/Yeti2_5_3_533x320.jpg';
 // large: 1080w - 1920w
 // original: ... 1618w - 4032w
 
+// DONT need to set size rules with 'sizes'... these images will be chosen according to what the gallery wants and that is fine!
 
 
-const srcSetSizes = ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"];
+
+// const srcSetSizes = ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"];
+const srcSetSizes = [""];
+
 
 export const photos = [
     {
-        src: Draws_3_2_3108x2072,
+        src: Draws_3_2_1620x1080,
         srcSet: [
             `${Draws_3_2_480x320} 480w,
             ${Draws_3_2_720x480} 720w,
             ${Draws_3_2_1152x768} 1152w,
             ${Draws_3_2_1620x1080} 1620w,
-            ${Draws_3_2_3108x2072} 3108w`
+            // ${Draws_3_2_3108x2072} 3108w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -545,13 +550,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BigCams_16_9_3724x2095,
+        src: BigCams_16_9_1920x1080,
         srcSet: [
             `${BigCams_16_9_568x320} 568w,
             ${BigCams_16_9_853x480} 853w,
             ${BigCams_16_9_1365x768} 1365w,
             ${BigCams_16_9_1920x1080} 1920w,
-            ${BigCams_16_9_3724x2095} 3724w`
+            // ${BigCams_16_9_3724x2095} 3724w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -560,13 +566,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Nuts_9_16_1918x3409,
+        src: Nuts_9_16_1080x1920,
         srcSet: [
             `${Nuts_9_16_320x568} 320w,
             ${Nuts_9_16_480x853} 480w,
             ${Nuts_9_16_768x1365} 768w,
             ${Nuts_9_16_1080x1920} 1080w,
-            ${Nuts_9_16_1918x3409} 1918w`
+            // ${Nuts_9_16_1918x3409} 1918w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -575,13 +582,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Slings_3_2_4032x2688,
+        src: Slings_3_2_1620x1080,
         srcSet: [
             `${Slings_3_2_480x320} 480w,
             ${Slings_3_2_720x480} 720w,
             ${Slings_3_2_1152x768} 1152w,
             ${Slings_3_2_1620x1080} 1620w,
-            ${Slings_3_2_4032x2688} 4032w`
+            // ${Slings_3_2_4032x2688} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -590,13 +598,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Shoes_1_1_3024x3024,
+        src: Shoes_1_1_1080x1080,
         srcSet: [
             `${Shoes_1_1_320x320} 320w,
             ${Shoes_1_1_480x480} 480w,
             ${Shoes_1_1_768x768} 768w,
             ${Shoes_1_1_1080x1080} 1080w,
-            ${Shoes_1_1_3024x3024} 3024w`
+            // ${Shoes_1_1_3024x3024} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -605,13 +614,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Pads_4_3_3641x2731,
+        src: Pads_4_3_1440x1080,
         srcSet: [
             `${Pads_4_3_427x320} 427w,
             ${Pads_4_3_640x480} 640w,
             ${Pads_4_3_1024x768} 1024w,
             ${Pads_4_3_1440x1080} 1440w,
-            ${Pads_4_3_3641x2731} 3641w`
+            // ${Pads_4_3_3641x2731} 3641w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -620,13 +630,14 @@ export const photos = [
         title: ""
     },
     {
-        src: C4cams_16_9_3896x2192,
+        src: C4cams_16_9_1920x1080,
         srcSet: [
             `${C4cams_16_9_568x320} 568w,
             ${C4cams_16_9_853x480} 853w,
             ${C4cams_16_9_1365x768} 1365w,
             ${C4cams_16_9_1920x1080} 1920w,
-            ${C4cams_16_9_3896x2192} 3896w`
+            // ${C4cams_16_9_3896x2192} 3896w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -635,13 +646,14 @@ export const photos = [
         title: ""
     },
     {
-        src: DRSVintage2_1_1_2571x2571,
+        src: DRSVintage2_1_1_1080x1080,
         srcSet: [
             `${DRSVintage2_1_1_320x320} 320w,
             ${DRSVintage2_1_1_480x480} 480w,
             ${DRSVintage2_1_1_768x768} 768w,
             ${DRSVintage2_1_1_1080x1080} 1080w,
-            ${DRSVintage2_1_1_2571x2571} 2571w`
+            // ${DRSVintage2_1_1_2571x2571} 2571w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -650,13 +662,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Ropes_3_4_2744x3659,
+        src: Ropes_3_4_1080x1440,
         srcSet: [
             `${Ropes_3_4_320x427} 320w,
             ${Ropes_3_4_480x640} 480w,
             ${Ropes_3_4_768x1024} 768w,
             ${Ropes_3_4_1080x1440} 1080w,
-            ${Ropes_3_4_2744x3659} 2744w`
+            // ${Ropes_3_4_2744x3659} 2744w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -665,13 +678,14 @@ export const photos = [
         title: ""
     },
     {
-        src: FrictionLabs_3_2_3548x2365,
+        src: FrictionLabs_3_2_1620x1080,
         srcSet: [
             `${FrictionLabs_3_2_480x320} 480w,
             ${FrictionLabs_3_2_720x480} 720w,
             ${FrictionLabs_3_2_1152x768} 1152w,
             ${FrictionLabs_3_2_1620x1080} 1620w,
-            ${FrictionLabs_3_2_3548x2365} 3548w`
+            // ${FrictionLabs_3_2_3548x2365} 3548w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -680,13 +694,14 @@ export const photos = [
         title: ""
     },
     {
-        src: CrackGloves_16_9_3677x2069,
+        src: CrackGloves_16_9_1919x1080,
         srcSet: [
             `${CrackGloves_16_9_568x320} 568w,
             ${CrackGloves_16_9_853x480} 853w,
             ${CrackGloves_16_9_1365x768} 1365w,
             ${CrackGloves_16_9_1919x1080} 1919w,
-            ${CrackGloves_16_9_3677x2069} 3677w`
+            // ${CrackGloves_16_9_3677x2069} 3677w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -695,13 +710,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Aid_9_16_1934x3438,
+        src: Aid_9_16_1080x1920,
         srcSet: [
             `${Aid_9_16_320x568} 320w,
             ${Aid_9_16_480x853} 480w,
             ${Aid_9_16_768x1365} 768w,
             ${Aid_9_16_1080x1920} 1080w,
-            ${Aid_9_16_1934x3438} 1934w`
+            // ${Aid_9_16_1934x3438} 1934w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -710,13 +726,14 @@ export const photos = [
         title: ""
     },
     {
-        src: G7_3_4_2552x3403,
+        src: G7_3_4_1080x1440,
         srcSet: [
             `${G7_3_4_320x427} 320w,
             ${G7_3_4_480x640} 480w,
             ${G7_3_4_768x1024} 768w,
             ${G7_3_4_1080x1440} 1080w,
-            ${G7_3_4_2552x3403} 2552w`
+            // ${G7_3_4_2552x3403} 2552w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -725,13 +742,14 @@ export const photos = [
         title: ""
     },
     {
-        src: GriGri_16_9_4032x2268,
+        src: GriGri_16_9_1920x1080,
         srcSet: [
             `${GriGri_16_9_568x320} 568w,
             ${GriGri_16_9_853x480} 853w,
             ${GriGri_16_9_1365x768} 1365w,
             ${GriGri_16_9_1920x1080} 1920w,
-            ${GriGri_16_9_4032x2268} 4032w`
+            // ${GriGri_16_9_4032x2268} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -740,13 +758,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Harnesses_16_9_4032x2268,
+        src: Harnesses_16_9_1920x1080,
         srcSet: [
             `${Harnesses_16_9_568x320} 568w,
             ${Harnesses_16_9_853x480} 853w,
             ${Harnesses_16_9_1365x768} 1365w,
             ${Harnesses_16_9_1920x1080} 1920w,
-            ${Harnesses_16_9_4032x2268} 4032w`
+            // ${Harnesses_16_9_4032x2268} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -755,13 +774,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BrassSwage_4_3_3024x2268,
+        src: BrassSwage_4_3_1440x1080,
         srcSet: [
             `${BrassSwage_4_3_427x320} 427w,
             ${BrassSwage_4_3_640x480} 640w,
             ${BrassSwage_4_3_1024x768} 1024w,
             ${BrassSwage_4_3_1440x1080} 1440w,
-            ${BrassSwage_4_3_3024x2268} 3024w`
+            // ${BrassSwage_4_3_3024x2268} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -770,13 +790,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Dyon_4_3_3280x2460,
+        src: Dyon_4_3_1440x1080,
         srcSet: [
             `${Dyon_4_3_427x320} 427w,
             ${Dyon_4_3_640x480} 640w,
             ${Dyon_4_3_1024x768} 1024w,
             ${Dyon_4_3_1440x1080} 1440w,
-            ${Dyon_4_3_3280x2460} 3280w`
+            // ${Dyon_4_3_3280x2460} 3280w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -785,13 +806,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Draws2_5_3_3600x2159,
+        src: Draws2_5_3_1801x1080,
         srcSet: [
             `${Draws2_5_3_534x320} 534w,
             ${Draws2_5_3_800x480} 800w,
             ${Draws2_5_3_1281x768} 1281w,
             ${Draws2_5_3_1801x1080} 1801w,
-            ${Draws2_5_3_3600x2159} 3600w`
+            // ${Draws2_5_3_3600x2159} 3600w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -800,13 +822,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Rhino_5_3_3580x2148,
+        src: Rhino_5_3_1800x1080,
         srcSet: [
             `${Rhino_5_3_533x320} 533w,
             ${Rhino_5_3_800x480} 800w,
             ${Rhino_5_3_1280x768} 1280w,
             ${Rhino_5_3_1800x1080} 1800w,
-            ${Rhino_5_3_3580x2148} 3580w`
+            // ${Rhino_5_3_3580x2148} 3580w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -815,13 +838,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BDPacks_1_1_2850x2850,
+        src: BDPacks_1_1_1080x1080,
         srcSet: [
             `${BDPacks_1_1_320x320} 320w,
             ${BDPacks_1_1_480x480} 480w,
             ${BDPacks_1_1_768x768} 768w,
             ${BDPacks_1_1_1080x1080} 1080w,
-            ${BDPacks_1_1_2850x2850} 2850w`
+            // ${BDPacks_1_1_2850x2850} 2850w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -830,13 +854,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Headlamp_4_3_2881x2161,
+        src: Headlamp_4_3_1440x1080,
         srcSet: [
             `${Headlamp_4_3_427x320} 427w,
             ${Headlamp_4_3_640x480} 640w,
             ${Headlamp_4_3_1024x768} 1024w,
             ${Headlamp_4_3_1440x1080} 1440w,
-            ${Headlamp_4_3_2881x2161} 2881w`
+            // ${Headlamp_4_3_2881x2161} 2881w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -845,13 +870,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BoulderingIsDumb_1_1_2764x2764,
+        src: BoulderingIsDumb_1_1_1080x1080,
         srcSet: [
             `${BoulderingIsDumb_1_1_320x320} 320w,
             ${BoulderingIsDumb_1_1_480x480} 480w,
             ${BoulderingIsDumb_1_1_768x768} 768w,
             ${BoulderingIsDumb_1_1_1080x1080} 1080w,
-            ${BoulderingIsDumb_1_1_2764x2764} 2764w`
+            // ${BoulderingIsDumb_1_1_2764x2764} 2764w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -860,13 +886,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Isobutane_4_3_4032x2419,
+        src: Isobutane_4_3_1800x1080,
         srcSet: [
             `${Isobutane_4_3_533x320} 533w,
             ${Isobutane_4_3_800x480} 800w,
             ${Isobutane_4_3_1280x768} 1280w,
             ${Isobutane_4_3_1800x1080} 1800w,
-            ${Isobutane_4_3_4032x2419} 4032w`
+            // ${Isobutane_4_3_4032x2419} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -875,13 +902,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Filters_3_2_3802x2535,
+        src: Filters_3_2_1620x1080,
         srcSet: [
             `${Filters_3_2_480x320} 480w,
             ${Filters_3_2_720x480} 720w,
             ${Filters_3_2_1152x768} 1152w,
             ${Filters_3_2_1620x1080} 1620w,
-            ${Filters_3_2_3802x2535} 3802w`
+            // ${Filters_3_2_3802x2535} 3802w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -890,13 +918,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Platy_4_3_3667x2750,
+        src: Platy_4_3_1440x1080,
         srcSet: [
             `${Platy_4_3_427x320} 427w,
             ${Platy_4_3_640x480} 640w,
             ${Platy_4_3_1024x768} 1024w,
             ${Platy_4_3_1440x1080} 1440w,
-            ${Platy_4_3_3667x2750} 3667w`
+            // ${Platy_4_3_3667x2750} 3667w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -905,13 +934,14 @@ export const photos = [
         title: ""
     },
     {
-        src: SmD_3_2_3225x2150,
+        src: SmD_3_2_1620x1080,
         srcSet: [
             `${SmD_3_2_480x320} 480w,
             ${SmD_3_2_720x480} 720w,
             ${SmD_3_2_1152x768} 1152w,
             ${SmD_3_2_1620x1080} 1620w,
-            ${SmD_3_2_3225x2150} 3225w`
+            // ${SmD_3_2_3225x2150} 3225w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -920,13 +950,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Endo_1_1_2170x2170,
+        src: Endo_1_1_1080x1080,
         srcSet: [
             `${Endo_1_1_320x320} 320w,
             ${Endo_1_1_480x480} 480w,
             ${Endo_1_1_768x768} 768w,
             ${Endo_1_1_1080x1080} 1080w,
-            ${Endo_1_1_2170x2170} 2170w`
+            // ${Endo_1_1_2170x2170} 2170w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -935,13 +966,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BDPacks2_4_3_3790x2842,
+        src: BDPacks2_4_3_1440x1080,
         srcSet: [
             `${BDPacks2_4_3_427x320} 427w,
             ${BDPacks2_4_3_640x480} 640w,
             ${BDPacks2_4_3_1024x768} 1024w,
             ${BDPacks2_4_3_1440x1080} 1440w,
-            ${BDPacks2_4_3_3790x2842} 3790w`
+            // ${BDPacks2_4_3_3790x2842} 3790w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -950,13 +982,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Pads2_4_3_3279x2459,
+        src: Pads2_4_3_1440x1080,
         srcSet: [
             `${Pads2_4_3_427x320} 427w,
             ${Pads2_4_3_640x480} 640w,
             ${Pads2_4_3_1024x768} 1024w,
             ${Pads2_4_3_1440x1080} 1440w,
-            ${Pads2_4_3_3279x2459} 3279w`
+            // ${Pads2_4_3_3279x2459} 3279w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -965,13 +998,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Sheep_4_3_3251x2438,
+        src: Sheep_4_3_1440x1080,
         srcSet: [
             `${Sheep_4_3_427x320} 427w,
             ${Sheep_4_3_640x480} 640w,
             ${Sheep_4_3_1024x768} 1024w,
             ${Sheep_4_3_1440x1080} 1440w,
-            ${Sheep_4_3_3251x2438} 3251w`
+            // ${Sheep_4_3_3251x2438} 3251w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -980,13 +1014,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Yeti2_5_3_4032x2419,
+        src: Yeti2_5_3_1800x1080,
         srcSet: [
             `${Yeti2_5_3_533x320} 533w,
             ${Yeti2_5_3_800x480} 800w,
             ${Yeti2_5_3_1280x768} 1280w,
             ${Yeti2_5_3_1800x1080} 1800w,
-            ${Yeti2_5_3_4032x2419} 4032w`
+            // ${Yeti2_5_3_4032x2419} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -995,13 +1030,14 @@ export const photos = [
         title: ""
     },
     {
-        src: MSRFuel_1_1_3024x3024,
+        src: MSRFuel_1_1_1080x1080,
         srcSet: [
             `${MSRFuel_1_1_320x320} 320w,
             ${MSRFuel_1_1_480x480} 480w,
             ${MSRFuel_1_1_768x768} 768w,
             ${MSRFuel_1_1_1080x1080} 1080w,
-            ${MSRFuel_1_1_3024x3024} 3024w`
+            // ${MSRFuel_1_1_3024x3024} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1010,13 +1046,14 @@ export const photos = [
         title: ""
     },
     {
-        src: DualConnectVario_9_16_2045x3636,
+        src: DualConnectVario_9_16_1080x1920,
         srcSet: [
             `${DualConnectVario_9_16_319x568} 319w,
             ${DualConnectVario_9_16_480x853} 480w,
             ${DualConnectVario_9_16_768x1366} 768w,
             ${DualConnectVario_9_16_1080x1920} 1080w,
-            ${DualConnectVario_9_16_2045x3636} 2045w`
+            // ${DualConnectVario_9_16_2045x3636} 2045w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1025,13 +1062,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Katanas_5_3_3685x2211,
+        src: Katanas_5_3_1800x1080,
         srcSet: [
             `${Katanas_5_3_533x320} 533w,
             ${Katanas_5_3_800x480} 800w,
             ${Katanas_5_3_1280x768} 1280w,
             ${Katanas_5_3_1800x1080} 1800w,
-            ${Katanas_5_3_3685x2211} 3685w`
+            // ${Katanas_5_3_3685x2211} 3685w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1040,13 +1078,14 @@ export const photos = [
         title: ""
     },
     {
-        src: CanyoneeringBags_3_2_4032x2688,
+        src: CanyoneeringBags_3_2_1620x1080,
         srcSet: [
             `${CanyoneeringBags_3_2_480x320} 480w,
             ${CanyoneeringBags_3_2_720x480} 720w,
             ${CanyoneeringBags_3_2_1152x768} 1152w,
             ${CanyoneeringBags_3_2_1620x1080} 1620w,
-            ${CanyoneeringBags_3_2_4032x2688} 4032w`
+            // ${CanyoneeringBags_3_2_4032x2688} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1055,13 +1094,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Cords_1_1_2605x2605,
+        src: Cords_1_1_1080x1080,
         srcSet: [
             `${Cords_1_1_320x320} 320w,
             ${Cords_1_1_480x480} 480w,
             ${Cords_1_1_768x768} 768w,
             ${Cords_1_1_1080x1080} 1080w,
-            ${Cords_1_1_2605x2605} 2605w`
+            // ${Cords_1_1_2605x2605} 2605w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1070,13 +1110,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Cords2_16_9_3285x1848,
+        src: Cords2_16_9_1920x1080,
         srcSet: [
             `${Cords2_16_9_568x320} 568w,
             ${Cords2_16_9_853x480} 853w,
             ${Cords2_16_9_1365x768} 1365w,
             ${Cords2_16_9_1920x1080} 1920w,
-            ${Cords2_16_9_3285x1848} 3285w`
+            // ${Cords2_16_9_3285x1848} 3285w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1085,13 +1126,14 @@ export const photos = [
         title: ""
     },
     {
-        src: HandledAscenders_1_1_2549x2549,
+        src: HandledAscenders_1_1_1080x1080,
         srcSet: [
             `${HandledAscenders_1_1_320x320} 320w,
             ${HandledAscenders_1_1_480x480} 480w,
             ${HandledAscenders_1_1_768x768} 768w,
             ${HandledAscenders_1_1_1080x1080} 1080w,
-            ${HandledAscenders_1_1_2549x2549} 2549w`
+            // ${HandledAscenders_1_1_2549x2549} 2549w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1100,13 +1142,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Approach_3_4_2905x3874,
+        src: Approach_3_4_1080x1440,
         srcSet: [
             `${Approach_3_4_320x427} 320w,
             ${Approach_3_4_480x640} 480w,
             ${Approach_3_4_768x1024} 768w,
             ${Approach_3_4_1080x1440} 1080w,
-            ${Approach_3_4_2905x3874} 2905w`
+            // ${Approach_3_4_2905x3874} 2905w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1115,13 +1158,14 @@ export const photos = [
         title: ""
     },
     {
-        src: HMS_5_3_3671x2202,
+        src: HMS_5_3_1800x1080,
         srcSet: [
             `${HMS_5_3_533x320} 533w,
             ${HMS_5_3_800x480} 800w,
             ${HMS_5_3_1280x768} 1280w,
             ${HMS_5_3_1800x1080} 1800w,
-            ${HMS_5_3_3671x2202} 3671w`
+            // ${HMS_5_3_3671x2202} 3671w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1130,13 +1174,14 @@ export const photos = [
         title: ""
     },
     {
-        src: VaporVCS_3_2_3157x2105,
+        src: VaporVCS_3_2_1620x1080,
         srcSet: [
             `${VaporVCS_3_2_480x320} 480w,
             ${VaporVCS_3_2_720x480} 720w,
             ${VaporVCS_3_2_1152x768} 1152w,
             ${VaporVCS_3_2_1620x1080} 1620w,
-            ${VaporVCS_3_2_3157x2105} 3157w`
+            // ${VaporVCS_3_2_3157x2105} 3157w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1145,13 +1190,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Harnesses2_5_3_4032x2419,
+        src: Harnesses2_5_3_1800x1080,
         srcSet: [
             `${Harnesses2_5_3_533x320} 533w,
             ${Harnesses2_5_3_800x480} 800w,
             ${Harnesses2_5_3_1280x768} 1280w,
             ${Harnesses2_5_3_1800x1080} 1800w,
-            ${Harnesses2_5_3_4032x2419} 4032w`
+            // ${Harnesses2_5_3_4032x2419} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1160,13 +1206,14 @@ export const photos = [
         title: ""
     },
     {
-        src: C4Red_4_3_2556x1917,
+        src: C4Red_4_3_1440x1080,
         srcSet: [
             `${C4Red_4_3_427x320} 427w,
             ${C4Red_4_3_640x480} 640w,
             ${C4Red_4_3_1024x768} 1024w,
             ${C4Red_4_3_1440x1080} 1440w,
-            ${C4Red_4_3_2556x1917} 2556w`
+            // ${C4Red_4_3_2556x1917} 2556w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1175,13 +1222,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Skyhook_16_9_3356x1888,
+        src: Skyhook_16_9_1920x1080,
         srcSet: [
             `${Skyhook_16_9_568x320} 568w,
             ${Skyhook_16_9_853x480} 853w,
             ${Skyhook_16_9_1365x768} 1365w,
             ${Skyhook_16_9_1920x1080} 1920w,
-            ${Skyhook_16_9_3356x1888} 3356w`
+            // ${Skyhook_16_9_3356x1888} 3356w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1190,13 +1238,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Pants_16_9_3518x1980,
+        src: Pants_16_9_1919x1080,
         srcSet: [
             `${Pants_16_9_568x320} 568w,
             ${Pants_16_9_853x480} 853w,
             ${Pants_16_9_1365x768} 1365w,
             ${Pants_16_9_1919x1080} 1919w,
-            ${Pants_16_9_3518x1980} 3518w`
+            // ${Pants_16_9_3518x1980} 3518w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1205,13 +1254,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Slings2_16_9_3179x1788,
+        src: Slings2_16_9_1920x1080,
         srcSet: [
             `${Slings2_16_9_568x319} 568w,
             ${Slings2_16_9_853x480} 853w,
             ${Slings2_16_9_1365x768} 1365w,
             ${Slings2_16_9_1920x1080} 1920w,
-            ${Slings2_16_9_3179x1788} 3179w`
+            // ${Slings2_16_9_3179x1788} 3179w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1220,13 +1270,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Brass_4_3_3024x2268,
+        src: Brass_4_3_1440x1080,
         srcSet: [
             `${Brass_4_3_427x320} 427w,
             ${Brass_4_3_640x480} 640w,
             ${Brass_4_3_1024x768} 1024w,
             ${Brass_4_3_1440x1080} 1440w,
-            ${Brass_4_3_3024x2268} 3024w`
+            // ${Brass_4_3_3024x2268} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1235,13 +1286,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Bug_4_3_3777x2833,
+        src: Bug_4_3_1440x1080,
         srcSet: [
             `${Bug_4_3_427x320} 427w,
             ${Bug_4_3_640x480} 640w,
             ${Bug_4_3_1024x768} 1024w,
             ${Bug_4_3_1440x1080} 1440w,
-            ${Bug_4_3_3777x2833} 3777w`
+            // ${Bug_4_3_3777x2833} 3777w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1250,13 +1302,14 @@ export const photos = [
         title: ""
     },
     {
-        src: MicroTraxion_1_1_2153x2153,
+        src: MicroTraxion_1_1_1080x1080,
         srcSet: [
             `${MicroTraxion_1_1_320x320} 320w,
             ${MicroTraxion_1_1_480x480} 480w,
             ${MicroTraxion_1_1_768x768} 768w,
             ${MicroTraxion_1_1_1080x1080} 1080w,
-            ${MicroTraxion_1_1_2153x2153} 2153w`
+            // ${MicroTraxion_1_1_2153x2153} 2153w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1265,13 +1318,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Nimbus_1_1_2748x2748,
+        src: Nimbus_1_1_1080x1080,
         srcSet: [
             `${Nimbus_1_1_320x320} 320w,
             ${Nimbus_1_1_480x480} 480w,
             ${Nimbus_1_1_768x768} 768w,
             ${Nimbus_1_1_1080x1080} 1080w,
-            ${Nimbus_1_1_2748x2748} 2748w`
+            // ${Nimbus_1_1_2748x2748} 2748w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1280,13 +1334,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Reverso_1_1_2463x2463,
+        src: Reverso_1_1_1080x1080,
         srcSet: [
             `${Reverso_1_1_320x320} 320w,
             ${Reverso_1_1_480x480} 480w,
             ${Reverso_1_1_768x768} 768w,
             ${Reverso_1_1_1080x1080} 1080w,
-            ${Reverso_1_1_2463x2463} 2463w`
+            // ${Reverso_1_1_2463x2463} 2463w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1295,13 +1350,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Miniwire_3_2_3000x2000,
+        src: Miniwire_3_2_1620x1080,
         srcSet: [
             `${Miniwire_3_2_480x320} 480w,
             ${Miniwire_3_2_720x480} 720w,
             ${Miniwire_3_2_1152x768} 1152w,
             ${Miniwire_3_2_1620x1080} 1620w,
-            ${Miniwire_3_2_3000x2000} 3000w`
+            // ${Miniwire_3_2_3000x2000} 3000w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1310,13 +1366,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Solution_5_3_3480x2087,
+        src: Solution_5_3_1801x1080,
         srcSet: [
             `${Solution_5_3_534x320} 534w,
             ${Solution_5_3_800x480} 800w,
             ${Solution_5_3_1281x768} 1281w,
             ${Solution_5_3_1801x1080} 1801w,
-            ${Solution_5_3_3480x2087} 3480w`
+            // ${Solution_5_3_3480x2087} 3480w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1325,13 +1382,14 @@ export const photos = [
         title: ""
     },
     {
-        src: SolutionComp_5_3_3565x2139,
+        src: SolutionComp_5_3_1800x1080,
         srcSet: [
             `${SolutionComp_5_3_533x320} 533w,
             ${SolutionComp_5_3_800x480} 800w,
             ${SolutionComp_5_3_1280x768} 1280w,
             ${SolutionComp_5_3_1800x1080} 1800w,
-            ${SolutionComp_5_3_3565x2139} 3565w`
+            // ${SolutionComp_5_3_3565x2139} 3565w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1340,13 +1398,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Dragonflys_16_9_4032x2268,
+        src: Dragonflys_16_9_1920x1080,
         srcSet: [
             `${Dragonflys_16_9_568x320} 568w,
             ${Dragonflys_16_9_853x480} 853w,
             ${Dragonflys_16_9_1365x768} 1365w,
             ${Dragonflys_16_9_1920x1080} 1920w,
-            ${Dragonflys_16_9_4032x2268} 4032w`
+            // ${Dragonflys_16_9_4032x2268} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1355,13 +1414,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Spoc_1_1_2833x2833,
+        src: Spoc_1_1_1080x1080,
         srcSet: [
             `${Spoc_1_1_320x320} 320w,
             ${Spoc_1_1_480x480} 480w,
             ${Spoc_1_1_768x768} 768w,
             ${Spoc_1_1_1080x1080} 1080w,
-            ${Spoc_1_1_2833x2833} 2833w`
+            // ${Spoc_1_1_2833x2833} 2833w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1370,13 +1430,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Pivot_1_1_2502x2502,
+        src: Pivot_1_1_1080x1080,
         srcSet: [
             `${Pivot_1_1_320x320} 320w,
             ${Pivot_1_1_480x480} 480w,
             ${Pivot_1_1_768x768} 768w,
             ${Pivot_1_1_1080x1080} 1080w,
-            ${Pivot_1_1_2502x2502} 2502w`
+            // ${Pivot_1_1_2502x2502} 2502w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1385,13 +1446,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BigBros_4_3_4032x3024,
+        src: BigBros_4_3_1440x1080,
         srcSet: [
             `${BigBros_4_3_427x320} 427w,
             ${BigBros_4_3_640x480} 640w,
             ${BigBros_4_3_1024x768} 1024w,
             ${BigBros_4_3_1440x1080} 1440w,
-            ${BigBros_4_3_4032x3024} 4032w`
+            // ${BigBros_4_3_4032x3024} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1400,13 +1462,14 @@ export const photos = [
         title: ""
     },
     {
-        src: TenayaRa_5_3_3497x2098,
+        src: TenayaRa_5_3_1800x1080,
         srcSet: [
             `${TenayaRa_5_3_533x320} 533w,
             ${TenayaRa_5_3_800x480} 800w,
             ${TenayaRa_5_3_1280x768} 1280w,
             ${TenayaRa_5_3_1800x1080} 1800w,
-            ${TenayaRa_5_3_3497x2098} 3497w`
+            // ${TenayaRa_5_3_3497x2098} 3497w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1415,13 +1478,14 @@ export const photos = [
         title: ""
     },
     {
-        src: C4GreenPurple_16_9_4032x2268,
+        src: C4GreenPurple_16_9_1920x1080,
         srcSet: [
             `${C4GreenPurple_16_9_568x320} 568w,
             ${C4GreenPurple_16_9_853x480} 853w,
             ${C4GreenPurple_16_9_1365x768} 1365w,
             ${C4GreenPurple_16_9_1920x1080} 1920w,
-            ${C4GreenPurple_16_9_4032x2268} 4032w`
+            // ${C4GreenPurple_16_9_4032x2268} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1430,13 +1494,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Brushes_1_1_2977x2977,
+        src: Brushes_1_1_1080x1080,
         srcSet: [
             `${Brushes_1_1_320x320} 320w,
             ${Brushes_1_1_480x480} 480w,
             ${Brushes_1_1_768x768} 768w,
             ${Brushes_1_1_1080x1080} 1080w,
-            ${Brushes_1_1_2977x2977} 2977w`
+            // ${Brushes_1_1_2977x2977} 2977w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1445,13 +1510,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Gridlock_9_16_2268x4032,
+        src: Gridlock_9_16_1080x1920,
         srcSet: [
             `${Gridlock_9_16_320x568} 320w,
             ${Gridlock_9_16_480x853} 480w,
             ${Gridlock_9_16_768x1365} 768w,
             ${Gridlock_9_16_1080x1920} 1080w,
-            ${Gridlock_9_16_2268x4032} 2268w`
+            // ${Gridlock_9_16_2268x4032} 2268w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1460,13 +1526,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BigBros2_1_1_2765x2765,
+        src: BigBros2_1_1_1080x1080,
         srcSet: [
             `${BigBros2_1_1_320x320} 320w,
             ${BigBros2_1_1_480x480} 480w,
             ${BigBros2_1_1_768x768} 768w,
             ${BigBros2_1_1_1080x1080} 1080w,
-            ${BigBros2_1_1_2765x2765} 2765w`
+            // ${BigBros2_1_1_2765x2765} 2765w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1475,13 +1542,14 @@ export const photos = [
         title: ""
     },
     {
-        src: TotemBlue_4_3_2441x1831,
+        src: TotemBlue_4_3_1440x1080,
         srcSet: [
             `${TotemBlue_4_3_427x320} 427w,
             ${TotemBlue_4_3_640x480} 640w,
             ${TotemBlue_4_3_1024x768} 1024w,
             ${TotemBlue_4_3_1440x1080} 1440w,
-            ${TotemBlue_4_3_2441x1831} 2441w`
+            // ${TotemBlue_4_3_2441x1831} 2441w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1490,13 +1558,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BulletproofHMS_9_16_2029x3607,
+        src: BulletproofHMS_9_16_1080x1920,
         srcSet: [
             `${BulletproofHMS_9_16_320x568} 320w,
             ${BulletproofHMS_9_16_480x853} 480w,
             ${BulletproofHMS_9_16_768x1365} 768w,
             ${BulletproofHMS_9_16_1080x1920} 1080w,
-            ${BulletproofHMS_9_16_2029x3607} 2029w`
+            // ${BulletproofHMS_9_16_2029x3607} 2029w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1505,13 +1574,14 @@ export const photos = [
         title: ""
     },
     {
-        src: BulletproofScrew_9_16_1618x2877,
+        src: BulletproofScrew_9_16_1080x1920,
         srcSet: [
             `${BulletproofScrew_9_16_319x568} 319w,
             ${BulletproofScrew_9_16_480x853} 480w,
             ${BulletproofScrew_9_16_768x1366} 768w,
             ${BulletproofScrew_9_16_1080x1920} 1080w,
-            ${BulletproofScrew_9_16_1618x2877} 1618w`
+            // ${BulletproofScrew_9_16_1618x2877} 1618w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1520,13 +1590,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Approach2_5_3_4032x2419,
+        src: Approach2_5_3_1800x1080,
         srcSet: [
             `${Approach2_5_3_533x320} 533w,
             ${Approach2_5_3_800x480} 800w,
             ${Approach2_5_3_1280x768} 1280w,
             ${Approach2_5_3_1800x1080} 1800w,
-            ${Approach2_5_3_4032x2419} 4032w`
+            // ${Approach2_5_3_4032x2419} 4032w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1535,13 +1606,14 @@ export const photos = [
         title: ""
     },
     {
-        src: SmallLockers_16_9_3161x1778,
+        src: SmallLockers_16_9_1920x1080,
         srcSet: [
             `${SmallLockers_16_9_568x320} 568w,
             ${SmallLockers_16_9_853x480} 853w,
             ${SmallLockers_16_9_1365x768} 1365w,
             ${SmallLockers_16_9_1920x1080} 1920w,
-            ${SmallLockers_16_9_3161x1778} 3161w`
+            // ${SmallLockers_16_9_3161x1778} 3161w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1550,13 +1622,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Postcards_3_4_2695x3594,
+        src: Postcards_3_4_1080x1440,
         srcSet: [
             `${Postcards_3_4_320x427} 320w,
             ${Postcards_3_4_480x640} 480w,
             ${Postcards_3_4_768x1024} 768w,
             ${Postcards_3_4_1080x1440} 1080w,
-            ${Postcards_3_4_2695x3594} 2695w`
+            // ${Postcards_3_4_2695x3594} 2695w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1565,13 +1638,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Barnacle_4_3_3024x2268,
+        src: Barnacle_4_3_1440x1080,
         srcSet: [
             `${Barnacle_4_3_427x320} 427w,
             ${Barnacle_4_3_640x480} 640w,
             ${Barnacle_4_3_1024x768} 1024w,
             ${Barnacle_4_3_1440x1080} 1440w,
-            ${Barnacle_4_3_3024x2268} 3024w`
+            // ${Barnacle_4_3_3024x2268} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1580,13 +1654,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Houdini_1_1_3024x3024,
+        src: Houdini_1_1_1080x1080,
         srcSet: [
             `${Houdini_1_1_320x320} 320w,
             ${Houdini_1_1_480x480} 480w,
             ${Houdini_1_1_768x768} 768w,
             ${Houdini_1_1_1080x1080} 1080w,
-            ${Houdini_1_1_3024x3024} 3024w`
+            // ${Houdini_1_1_3024x3024} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1595,13 +1670,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Puffy_9_16_2268x4032,
+        src: Puffy_9_16_1080x1920,
         srcSet: [
             `${Puffy_9_16_320x568} 320w,
             ${Puffy_9_16_480x853} 480w,
             ${Puffy_9_16_768x1365} 768w,
             ${Puffy_9_16_1080x1920} 1080w,
-            ${Puffy_9_16_2268x4032} 2268w`
+            // ${Puffy_9_16_2268x4032} 2268w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1610,13 +1686,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Yeti_1_1_3024x3024,
+        src: Yeti_1_1_1080x1080,
         srcSet: [
             `${Yeti_1_1_320x320} 320w,
             ${Yeti_1_1_480x480} 480w,
             ${Yeti_1_1_768x768} 768w,
             ${Yeti_1_1_1080x1080} 1080w,
-            ${Yeti_1_1_3024x3024} 3024w`
+            // ${Yeti_1_1_3024x3024} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1625,13 +1702,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Dromedary_16_9_3806x2141,
+        src: Dromedary_16_9_1920x1080,
         srcSet: [
             `${Dromedary_16_9_568x320} 568w,
             ${Dromedary_16_9_853x480} 853w,
             ${Dromedary_16_9_1365x768} 1365w,
             ${Dromedary_16_9_1920x1080} 1920w,
-            ${Dromedary_16_9_3806x2141} 3806w`
+            // ${Dromedary_16_9_3806x2141} 3806w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1640,13 +1718,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Patagonia_1_1_3024x3024,
+        src: Patagonia_1_1_1080x1080,
         srcSet: [
             `${Patagonia_1_1_320x320} 320w,
             ${Patagonia_1_1_480x480} 480w,
             ${Patagonia_1_1_768x768} 768w,
             ${Patagonia_1_1_1080x1080} 1080w,
-            ${Patagonia_1_1_3024x3024} 3024w`
+            // ${Patagonia_1_1_3024x3024} 3024w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1655,13 +1734,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Top100_9_16_1883x3347,
+        src: Top100_9_16_1080x1920,
         srcSet: [
             `${Top100_9_16_320x568} 320w,
             ${Top100_9_16_480x853} 480w,
             ${Top100_9_16_768x1365} 768w,
             ${Top100_9_16_1080x1920} 1080w,
-            ${Top100_9_16_1883x3347} 1883w`
+            // ${Top100_9_16_1883x3347} 1883w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1670,13 +1750,14 @@ export const photos = [
         title: ""
     },
     {
-        src: WLB_1_1_1930x1930,
+        src: WLB_1_1_1080x1080,
         srcSet: [
             `${WLB_1_1_320x320} 320w,
             ${WLB_1_1_480x480} 480w,
             ${WLB_1_1_768x768} 768w,
             ${WLB_1_1_1080x1080} 1080w,
-            ${WLB_1_1_1930x1930} 1930w`
+            // ${WLB_1_1_1930x1930} 1930w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1685,13 +1766,14 @@ export const photos = [
         title: ""
     },
     {
-        src: Bowls_16_9_3892x2189,
+        src: Bowls_16_9_1920x1080,
         srcSet: [
             `${Bowls_16_9_568x319} 568w,
             ${Bowls_16_9_853x480} 853w,
             ${Bowls_16_9_1365x768} 1365w,
             ${Bowls_16_9_1920x1080} 1920w,
-            ${Bowls_16_9_3892x2189} 3892w`
+            // ${Bowls_16_9_3892x2189} 3892w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",
@@ -1700,13 +1782,14 @@ export const photos = [
         title: ""
     },
     {
-        src: DRSVintage_1_1_2798x2798,
+        src: DRSVintage_1_1_1080x1080,
         srcSet: [
             `${DRSVintage_1_1_320x320} 320w,
             ${DRSVintage_1_1_480x480} 480w,
             ${DRSVintage_1_1_768x768} 768w,
             ${DRSVintage_1_1_1080x1080} 1080w,
-            ${DRSVintage_1_1_2798x2798} 2798w`
+            // ${DRSVintage_1_1_2798x2798} 2798w
+            `
         ],
         sizes: srcSetSizes,
         alt: "",

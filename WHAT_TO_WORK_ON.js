@@ -151,6 +151,11 @@ todo - Newsletter Signup should look good at all sizes
         ... doesn't seem like that should happen. It wasn't before. If anything files sizes are smaller so should be faster
     ! DOES THIS HAPPEN WITH A PRODUCTION BUILD?!?!?!?!?!?!??!!?!?
 ! - alt srcset sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
+    [] Make sure the large is not excessively large
+    [] Don't mess with 'sizes' rules when images are in a gallery, only when its like a background or aside or something
+todo - Maybe ambitious - gallery lazy loading
+    on small device, load page, click an image, it loads the large version (and loads the large of all the others in the background)
+    Find a way to stop that loading of everything in the background. Either just the one clicked, or it and the 3-5 adjacent ones, ideally.
 // todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
 // todo - add some line somewhere saying that I coded this site, see my github here etc...
     // * Maybe a simple line at the very bottom of the home or about pages...
@@ -344,26 +349,32 @@ todo - FOR FINAL PRODUCTION - Alt srcset sizes
         ... maybe not as easy as I was expecting
         You can set a custom imageRenderer for react-loading... so MAYBE thats an option
         ... but basically I want the default renderer, just wrapped ...?
-todo - Smaller file dimensions for srcset tablet and phone
-   [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
-        original = original (not linked in)
-        too_large = original / cropped size, but polished... maybe or maybe not linked... some peeps have 4K...
-        large = fits in 1920x1080
-        medium = fits in 1366x768
-        small = fits in 854x480
-        phone = fits in 320x568
-    [] THEN check that quality is acceptable still
-    [] THEN tedious renaming with new dimensions
-    [] THEN tedious importing them in
-    [] THEN plug 1 in
-        [] THEN test that it loads the appropriate size AND ONLY THAT SIZE
-        ! BUT, onClick, Modal loads full size image
-    [] THEN tedious plugging them in
-        1920x1080, profiling, 1 plugged in: 1.657 seconds
-        1920x1080, profiling, all in: 1.209 seconds
-        1920x1080, profiling, after compression on Tier and Bio pics 1.130 seconds
-        ... not a huge improvement, but substantial, can improve a bit with 'sizes' settings
-    [] Switch 'sizes' to settings that make sense?
+todo - Some of the images in the gallery are still excessively large. It shouldn't cause problems, really, but consider in some cases going through and setting the default 1 smaller, maybe commenting out the current largest. Kinda minor. Seems things are working decently well as is.
+// todo - Smaller file dimensions for srcset tablet and phone
+//    [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
+//         original = original (not linked in)
+//         too_large = original / cropped size, but polished... maybe or maybe not linked... some peeps have 4K...
+//         large = fits in 1920x1080
+//         medium = fits in 1366x768
+//         small = fits in 854x480
+//         phone = fits in 320x568
+//     [x] THEN check that quality is acceptable still
+//     [x] THEN tedious renaming with new dimensions
+//     [x] THEN tedious importing them in
+//     [x] THEN plug 1 in
+//         [x] THEN test that it loads the appropriate size AND ONLY THAT SIZE
+//         [x] BUT, onClick, Modal loads full size image
+//     [x] THEN tedious plugging them in
+//         1920x1080, profiling, 1 plugged in: 1.657 seconds
+//         1920x1080, profiling, all in: 1.209 seconds
+//         1920x1080, profiling, after compression on Tier and Bio pics 1.130 seconds
+//         ... not a huge improvement, but substantial, can improve a bit with 'sizes' settings
+//     [x] Switch 'sizes' to settings that make sense?
+//         NO. Don't mess with sizes at all. The gallery choses what it wants, no need to set rules
+//         [x] Comment out max size / 4k
+//     [x] Set default as a smaller size (1080 or 1440w ish for most of them) = 1.358 S
+//     [x] Test that on a small device, small images are loaded
+//     [x] onClick on small device opens modal for the fullsize image (actually loads ALL fullsize in the background too... acceptable, for now I guess)
 // todo - quick check on mobile gallery experience
 //     Its pretty good!
 // todo - Smaller file size (on large images)
@@ -582,27 +593,33 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
-todo - Smaller file dimensions for srcset tablet and phone ( copy / pasted from gear section where I need to do the same )
-    [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
-        original = original (not linked in)
-        too_large = original / cropped size, but polished... maybe or maybe not linked... some peeps have 4K...
-        large = fits in 1920x1080
-        medium = fits in 1366x768
-        small = fits in 854x480
-        phone = fits in 320x568
-        phone = fits in 320x568
-    [x] THEN check that quality is acceptable still
-    [x] THEN tedious renaming with new dimensions
-    [x] THEN tedious importing them in
-    [x] THEN plug 1 in
-        [x] THEN test that it loads the appropriate size AND ONLY THAT SIZE
-        ! BUT, onClick, Modal loads full size image
-    [x] THEN tedious plugging them in
-        1920x1080, profiling, 1 plugged in: 1.657 seconds
-        1920x1080, profiling, all in: 1.209 seconds
-        1920x1080, profiling, after compression on Tier and Bio pics 1.130 seconds
-        ... not a huge improvement, but substantial, can improve a bit with 'sizes' settings
-    [] Switch 'sizes' to settings that make sense?
+todo - in galleries, on small device, onClick opens modal and downloads/loads fullsize image... but loads ALL full size images
+        at the same time. Could I defer loading of them? Ideally it would only download the 3-5 adjacent images kinda thing
+// todo - Smaller file dimensions for srcset tablet and phone ( copy / pasted from gear section where I need to do the same )
+//     [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
+//         original = original (not linked in)
+//         too_large = original / cropped size, but polished... maybe or maybe not linked... some peeps have 4K...
+//         large = fits in 1920x1080
+//         medium = fits in 1366x768
+//         small = fits in 854x480
+//         phone = fits in 320x568
+//         phone = fits in 320x568
+//     [x] THEN check that quality is acceptable still
+//     [x] THEN tedious renaming with new dimensions
+//     [x] THEN tedious importing them in
+//     [x] THEN plug 1 in
+//         [x] THEN test that it loads the appropriate size AND ONLY THAT SIZE
+//     [x] THEN tedious plugging them in
+//         1920x1080, profiling, 1 plugged in: 1.657 seconds
+//         1920x1080, profiling, all in: 1.209 seconds
+//         1920x1080, profiling, after compression on Tier and Bio pics 1.130 seconds
+//         ... not a huge improvement, but substantial, can improve a bit with 'sizes' settings
+//     [x] Switch 'sizes' to settings that make sense?
+//         ... should not need to mess with sizes. Leave it blank / no rule for now.
+//     [x] Comment out max size / 4k
+//     [x] Set default as a smaller size (1080 or 1440w ish for most of them) = 1.440 S
+//     [x] Test that on a small device, small images are loaded
+//     [x] onClick on small device opens modal for the fullsize image (actually loads ALL fullsize in the background too... acceptable, for now I guess)
 todo - beautify bio pics
     5-15% lower brightness, 5-15% higher contrast, auto color boost thing, maybe auto whitebalance
     ( do it on originals, then re-compress w/ imagecompressor.com )
