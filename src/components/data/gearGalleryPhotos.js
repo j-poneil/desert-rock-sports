@@ -544,10 +544,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "We are usually stocked with quickdraws from 3-5 different brands.",
         width: 3108,
         height: 2072,
-        title: ""
+        title: "We are usually stocked with quickdraws from 3-5 different brands."
     },
     {
         src: BigCams_16_9_1920x1080,
@@ -560,10 +560,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Large spring loaded camming devices from Black Diamond",
         width: 3724,
         height: 2095,
-        title: ""
+        title: "Big cams. You don't typically need them for Red Rock, but we make sure to have some available."
     },
     {
         src: Nuts_9_16_1080x1920,
@@ -576,10 +576,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "An artistic arrangement of an assortment of DMM nuts. We try to stay stocked with the DMM Wallnuts, Offsets, and Brass Offsets. Often DMM Peenuts as well.",
         width: 1918,
         height: 3409,
-        title: ""
+        title: "Everyone loves DMM nuts, and we try to always stay stocked with them. Wallnuts, Offsets, and Brass Offsets here. We often have the Peenuts as well."
     },
     {
         src: Slings_3_2_1620x1080,
@@ -592,10 +592,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A large assortment of slings from Mammut, Black Diamond, Edelrid, and DMM.",
         width: 4032,
         height: 2688,
-        title: ""
+        title: "We carry a ton of slings in all sorts of lengths and materials from several brands like Mammut, Black Diamond, Edelrid, and DMM. Single, double, triple, quad... we have 'em all."
     },
     {
         src: Shoes_1_1_1080x1080,
@@ -608,10 +608,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A wide assortment of climbing and approach shoes from La Sportiva, Scarpa, Black Diamond, Arcteryx, Tenaya, and 5.10 / Adidas. There is also a test wall to compare and really see if a model and size will work for you.",
         width: 3024,
         height: 3024,
-        title: ""
+        title: "Climbing and Approach Shoes. We typically carry La Sportiva, Scarpa, 5.10 / Adidas, Tenaya, and Black Diamond. We even have a test wall so you can feel the difference in the models and sizes."
     },
     {
         src: Pads_4_3_1440x1080,
@@ -624,10 +624,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Tons of Asana brand crash pads for sale for bouldering. Sometimes we have used ones from our rental fleet for sale, or used pads from others on consignment.",
         width: 3641,
         height: 2731,
-        title: ""
+        title: "We sell crash pads! Most typically we have been selling Asana. We carry their Super Hero, Sidekick, and Pro Spotter Pad. Sometimes we have used ones from our rental fleet for sale or other used ones in our consignment shop."
     },
     {
         src: C4cams_16_9_1920x1080,
@@ -640,10 +640,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A selection of Black Diamond Cams.",
         width: 3896,
         height: 2192,
-        title: ""
+        title: "Get your cams here!"
     },
     {
         src: DRSVintage2_1_1_1080x1080,
@@ -656,10 +656,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A very vintage-retro sweater with our old logo on it. We are trying to get them reprinted.",
         width: 2571,
         height: 2571,
-        title: ""
+        title: "Someone found this vintage-retro sweater we sold years ago in a thrift store. We will have merch with this on it available soon (if not already)."
     },
     {
         src: Ropes_3_4_1080x1440,
@@ -672,10 +672,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A large assorment of dynamic climbing ropes from Edelrid, Sterling Rope, Beal, Black Diamond, Mammut, Trango, Edelweiss, etc... Single, halfs/twins, and triple rated ropes available in 60 to 80m lengths, rarely 90m. Static taglines too. We also have canyoneering rope and work static, in a different corner of the shop.",
         width: 2744,
         height: 3659,
-        title: ""
+        title: "We keep a lot of ropes in stock. Single, halfs/twins, and triple rated ropes in 60-80m lengths, rarely 90m. Static taglines too. We also have canyoneering rope and work static rope, they are kept in a different corner of the store."
     },
     {
         src: FrictionLabs_3_2_1620x1080,
@@ -688,10 +688,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A display of FrictionLabs Chalk",
         width: 3548,
         height: 2365,
-        title: ""
+        title: "We stock FrictionLabs. #chalkmatters"
     },
     {
         src: CrackGloves_16_9_1919x1080,
@@ -704,10 +704,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Crack climbing gloves",
         width: 3677,
         height: 2069,
-        title: ""
+        title: "We try to keep stocked with some option for crack climbing gloves. Lately they have been very hard to get so we have been just getting whatever we can, wether that be Ocun, Black Diamond, or G7."
     },
     {
         src: Aid_9_16_1080x1920,
@@ -720,10 +720,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Some aid climbing gear: various hooks, ball nuts, tricams, and a fifi hook.",
         width: 1934,
         height: 3438,
-        title: ""
+        title: "While Red Rock is not exactly a destination for aid climbing, we get enough people passing through to Yosemite or Zion to keep a small stock of aid climbing gear. Typically some hooks, fifis, ballnuts, and tricams. We don't typically stock any beaks, pitons, or cam hooks, but maybe we will if you can convince Travis."
     },
     {
         src: G7_3_4_1080x1440,
@@ -736,10 +736,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "G7 crack gloves, a newer brand",
         width: 2552,
         height: 3403,
-        title: ""
+        title: "G7 Crack Gloves. From the makers of the inflatable portaledge in Canada."
     },
     {
         src: GriGri_16_9_1920x1080,
@@ -752,10 +752,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Petzl GriGri in several colors and models.",
         width: 4032,
         height: 2268,
-        title: ""
+        title: "We got your GriGris. We carry both the regular (ie newer version of the GriGri 2) as well as the GriGri+ which has anti-panic function, improved steel rope bearing surfaces, and a cam tension adjuster to switch between a toprope and lead mode."
     },
     {
         src: Harnesses_16_9_1920x1080,
@@ -768,10 +768,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A variety of climbing harnesses from Petzl, Black Diamond, Edelrid, and Misty Mountain. Sometimes Arcteryx.",
         width: 4032,
         height: 2268,
-        title: ""
+        title: "We keep several models of climbing harnesses on hand from a few great brands. Typically Petzl, Edelrid, Black Diamond, and Misty Mountain. Sometimes Arcteryx, when we can actually get them."
     },
     {
         src: BrassSwage_4_3_1440x1080,
@@ -784,10 +784,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "An artistic arrangement of the metal swage on some nuts.",
         width: 3024,
         height: 2268,
-        title: ""
+        title: "We carry those DMM Brass Offsets all you Yosemite aid climbers go crazy for."
     },
     {
         src: Dyon_4_3_1440x1080,
@@ -800,10 +800,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The CAMP Dyon, a relatively new snag-less wiregate carabiner.",
         width: 3280,
         height: 2460,
-        title: ""
+        title: "CAMP Dyon? We got it."
     },
     {
         src: Draws2_5_3_1801x1080,
@@ -816,10 +816,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Quickdraws from Petzl and Black Diamond.",
         width: 3600,
         height: 2159,
-        title: ""
+        title: "We carry the ever classic Petzl Spirit Quickdraws as well as several others."
     },
     {
         src: Rhino_5_3_1800x1080,
@@ -832,10 +832,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "An assortment of Rhino Skincare products.",
         width: 3580,
         height: 2148,
-        title: ""
+        title: "We try to stay well stocked with Rhino Skincare products."
     },
     {
         src: BDPacks_1_1_1080x1080,
@@ -848,10 +848,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Durable backpacks from Black Diamond, which stand up the the abrasive sandstone out at Red Rock.",
         width: 2850,
         height: 2850,
-        title: ""
+        title: "Black Diamond makes some of the most durable and best selling cragging backpacks for this area."
     },
     {
         src: Headlamp_4_3_1440x1080,
@@ -864,10 +864,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Headlamps. We typically carry Petzl and Black Diamond.",
         width: 2881,
         height: 2161,
-        title: ""
+        title: "Headlamps! Don't multipitch without one! We typically have options from Petzl and Black Diamond."
     },
     {
         src: BoulderingIsDumb_1_1_1080x1080,
@@ -880,10 +880,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A popular shirt that says, 'Bouldering is dumb.' Sold by Sterling Rope, a company which makes no products for Bouldering.",
         width: 2764,
         height: 2764,
-        title: ""
+        title: "No comment."
     },
     {
         src: Isobutane_4_3_1800x1080,
@@ -896,10 +896,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Isobutane fuel for small gas stoves.",
         width: 4032,
         height: 2419,
-        title: ""
+        title: "We keep isobutane fuel in stock for all your small camp stoves, ie. Jetboil, MSR, etc... We don't typically carry the larger green bottles of propane, you can get those at most grocery stores or hardware stores like Lowes or Home Depot."
     },
     {
         src: Filters_3_2_1620x1080,
@@ -912,10 +912,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A small assortment of water filters for backpackers as well as water treatment tablets.",
         width: 3802,
         height: 2535,
-        title: ""
+        title: "We carry a few different water filters as well as water treatment tablets."
     },
     {
         src: Platy_4_3_1440x1080,
@@ -928,10 +928,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The ever popular Platypus 2L flexible water bottle.",
         width: 3667,
         height: 2750,
-        title: ""
+        title: "We sell the ever popular Platypus 2L flexible water bottle. Convince Travis to keep it in stock!"
     },
     {
         src: SmD_3_2_1620x1080,
@@ -944,10 +944,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Petzl Sm'D, a small 'D' shaped locking carabiner which is very popular.",
         width: 3225,
         height: 2150,
-        title: ""
+        title: "We carry the Petzl Sm'D in all 3 of its very popular models: screw, twist, and triact lock."
     },
     {
         src: Endo_1_1_1080x1080,
@@ -960,10 +960,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Endo Gymnastic Chalk. An OG favorite.",
         width: 2170,
         height: 2170,
-        title: ""
+        title: "Endo Gymnastic Chalk. An OG favorite. We well single 2oz blocks as well as 8 block bulk bricks (1 lb total)."
     },
     {
         src: BDPacks2_4_3_1440x1080,
@@ -976,10 +976,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Black Diamond climbers backpacks.",
         width: 3790,
         height: 2842,
-        title: ""
+        title: "Great packs from Black Diamond."
     },
     {
         src: Pads2_4_3_1440x1080,
@@ -992,10 +992,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Asana crash pads and pad blankets.",
         width: 3279,
         height: 2459,
-        title: ""
+        title: "We sell a lot of Asana pads as well as their Pro Spotter Pad blankets."
     },
     {
         src: Sheep_4_3_1440x1080,
@@ -1008,10 +1008,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A hand carved wood Big Horn Sheep statue.",
         width: 3251,
         height: 2438,
-        title: ""
+        title: "If you are lucky you might get to see one of these dudes out in the canyons! A rare treat!"
     },
     {
         src: Yeti2_5_3_1800x1080,
@@ -1024,10 +1024,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Yeti brand insulated drink products.",
         width: 4032,
         height: 2419,
-        title: ""
+        title: "Great for keeping your drink hot or cold."
     },
     {
         src: MSRFuel_1_1_1080x1080,
@@ -1040,10 +1040,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "MSR liquid fuel containers.",
         width: 3024,
         height: 3024,
-        title: ""
+        title: "MSR liquid fuel containers for all you more alpine and expedition focused folks who shy away from isobutane fuel canisters."
     },
     {
         src: DualConnectVario_9_16_1080x1920,
@@ -1056,10 +1056,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Petzl Dual Connect Vario. One of many variations of the Petzl Connect Adjust. We try to keep a few options in stock.",
         width: 2045,
         height: 3636,
-        title: ""
+        title: "The Petzl Dual Connect Vario. One of many variations of the Petzl Connect Adjust. We try to keep a few options in stock."
     },
     {
         src: Katanas_5_3_1800x1080,
@@ -1072,10 +1072,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The LaSportiva Katana lace. A very comfortable yet aggressive climbing shoe.",
         width: 3685,
         height: 2211,
-        title: ""
+        title: "LaSportiva Katana. A very comfortable yet aggressive climbing shoe."
     },
     {
         src: CanyoneeringBags_3_2_1620x1080,
@@ -1088,10 +1088,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Canyoneering rope bags made of durable vinyl coated fabric with drainage holes for water and a few with foam inserts for flotation.",
         width: 4032,
         height: 2688,
-        title: ""
+        title: "We try to keep several options on hand for canyoneering rope bags of different sizes."
     },
     {
         src: Cords_1_1_1080x1080,
@@ -1104,10 +1104,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "An artistic assortment of accessory cord, available by the foot.",
         width: 2605,
         height: 2605,
-        title: ""
+        title: "We keep a variety of accessory cord and webbing on hand for cordellettes, friction hitches, rap anchors, impromptu slacklines, and even shoe laces. Pictured here: 1.5mm, 2mm, 3mm, 4mm, 5mm, 5.9mm technora core, 6mm, 7mm, 15mm webbing, 25mm webbing."
     },
     {
         src: Cords2_16_9_1920x1080,
@@ -1120,10 +1120,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "We sell our static work ropes by the foot in 9, 10, and 11mm as well as some of our canyoneering rope in 8.5mm",
         width: 3285,
         height: 1848,
-        title: ""
+        title: "We sell our static work ropes by the foot in 9, 10, and 11mm as well as some of our canyoneering rope in 8.5mm. Pictured: 11mm, 9mm, 8.5mm. Want short lengths of dynamic by the foot for positioning lanyards? Help me convince Travis to order a spool."
     },
     {
         src: HandledAscenders_1_1_1080x1080,
@@ -1136,10 +1136,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Petzl handled ascenders",
         width: 2549,
         height: 2549,
-        title: ""
+        title: "We always try to keep stocked with the ever popular Petzl Ascension handled ascenders."
     },
     {
         src: Approach_3_4_1080x1440,
@@ -1152,10 +1152,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Up close selection of some of the most popular approach shoe models from La Sportiva in M's and W's models. The TX2, TX3, TX4, and TX Guide",
         width: 2905,
         height: 3874,
-        title: ""
+        title: "These are the most popular La Sportiva approach shoes. We keep stocked with M's and W's models in many sizes."
     },
     {
         src: HMS_5_3_1800x1080,
@@ -1168,10 +1168,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Up close picture of several larger close to rounded stock HMS locking carabiners.",
         width: 3671,
         height: 2202,
-        title: ""
+        title: "We keep a good selection of locking carabiners in stock. Heres some Black Diamond and Trango models."
     },
     {
         src: VaporVCS_3_2_1620x1080,
@@ -1184,10 +1184,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Scarpa Vapor VCS, a popular aggressive climbing shoe.",
         width: 3157,
         height: 2105,
-        title: ""
+        title: "The Scarpa Vapor VCS, a popular aggressive climbing shoe."
     },
     {
         src: Harnesses2_5_3_1800x1080,
@@ -1200,10 +1200,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "More climbing harnesses, overflowing from shelves.",
         width: 4032,
         height: 2419,
-        title: ""
+        title: "For some reason not many people in the US seem to be familiar with Edelrid harnesses, a shame, they are excellent. Come try one on."
     },
     {
         src: C4Red_4_3_1440x1080,
@@ -1216,10 +1216,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "An artistic close up of Black Diamond cams",
         width: 2556,
         height: 1917,
-        title: ""
+        title: "Roses are red... and #1 's are too, get something for your Boo!"
     },
     {
         src: Skyhook_16_9_1920x1080,
@@ -1232,10 +1232,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The popular Super Clip, used on the end of a painter's pole to clip quickdraws from the ground is now available with a high quality extendable aluminum pole: The Skyhook.",
         width: 3356,
         height: 1888,
-        title: ""
+        title: "The popular Super Clip, used on the end of a painter's pole to clip quickdraws from the ground is now available with a high quality extendable aluminum pole: The Skyhook."
     },
     {
         src: Pants_16_9_1919x1080,
@@ -1248,10 +1248,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Artistic closeup on the pattern and fabric of some women's pants.",
         width: 3518,
         height: 1980,
-        title: ""
+        title: "We are not just gear. We sell some pretty sweet climbing clothes too, get some new threads here!"
     },
     {
         src: Slings2_16_9_1920x1080,
@@ -1264,10 +1264,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A few quad length (240cm) dyneema slings.",
         width: 3179,
         height: 1788,
-        title: ""
+        title: "We got your quad length (240cm) dyneema slings. Excellent option to replace heavier cordellette for trad anchors."
     },
     {
         src: Brass_4_3_1440x1080,
@@ -1280,10 +1280,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Close up picture of DMM Brass Offset nuts.",
         width: 3024,
         height: 2268,
-        title: ""
+        title: "We got your DMM Brass Offsets."
     },
     {
         src: Bug_4_3_1440x1080,
@@ -1296,10 +1296,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Petzl Bug, a great multipitch follower pack option.",
         width: 3777,
         height: 2833,
-        title: ""
+        title: "The Petzl Bug, a great multipitch follower pack option. (Left and right pack are the same dimensions, its just foreground / background distortion making the one on the left look bigger.)"
     },
     {
         src: MicroTraxion_1_1_1080x1080,
@@ -1312,10 +1312,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Closeup of the Petzl Microtraxion. A popular progress capture pulley.",
         width: 2153,
         height: 2153,
-        title: ""
+        title: "Petzl Microtraxion. We got 'em."
     },
     {
         src: Nimbus_1_1_1080x1080,
@@ -1328,10 +1328,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The CAMP Nimbus. A great feeling HMS screwgate carabiner.",
         width: 2748,
         height: 2748,
-        title: ""
+        title: "Looking for a new compact HMS carabiner? Check out the CAMP Nimbus."
     },
     {
         src: Reverso_1_1_1080x1080,
@@ -1344,10 +1344,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Petzl Reverso, a popular climbing belay / rappel device, with a top-belay guide mode.",
         width: 2463,
         height: 2463,
-        title: ""
+        title: "A classic."
     },
     {
         src: Miniwire_3_2_1620x1080,
@@ -1360,10 +1360,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A wide assortment of available colors in the in the Black Diamond Miniwire, a small wire gate carabiner.",
         width: 3000,
         height: 2000,
-        title: ""
+        title: "Looking for that ONE special carabiner for your keys or shoes? We have a good selection of colors available."
     },
     {
         src: Solution_5_3_1801x1080,
@@ -1376,10 +1376,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The LaSportiva Solution in M's and W's models. A super classic aggressive shoe.",
         width: 3480,
         height: 2087,
-        title: ""
+        title: "We keep the classic in stock."
     },
     {
         src: SolutionComp_5_3_1800x1080,
@@ -1392,10 +1392,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The LaSportiva Solution Comp in M's and W's models. A softer model of the classic.",
         width: 3565,
         height: 2139,
-        title: ""
+        title: "The Solution Comp is a softer version of the classic, try 'em on!"
     },
     {
         src: Dragonflys_16_9_1920x1080,
@@ -1408,10 +1408,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "DMM Dragonfly cams in all sizes. A new and great option for smaller cams.",
         width: 4032,
         height: 2268,
-        title: ""
+        title: "DMM Dragonfly. A great small cam option. We try to keep a variety of small cam options in stock from Black Diamond, Fixe, Totem, DMM, and Metolius."
     },
     {
         src: Spoc_1_1_1080x1080,
@@ -1424,10 +1424,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Edelrid Spoc, a new option for those in the market for a progress capture pulley.",
         width: 2833,
         height: 2833,
-        title: ""
+        title: "Edelrid Spoc, a new option for those in the market for a progress capture pulley."
     },
     {
         src: Pivot_1_1_1080x1080,
@@ -1440,10 +1440,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "DMM Pivot, a popular guide mode belay device like the ATC-Guide or Reverso.",
         width: 2502,
         height: 2502,
-        title: ""
+        title: "We have the DMM Pivot often. An excellent option to replace your ATC-Guide or Reverso that you dropped off of Birdland, only the 2nd group to drop a belay device that day!"
     },
     {
         src: BigBros_4_3_1440x1080,
@@ -1456,10 +1456,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Trango Big Bro adjustable tube chock. We keep the #3 (green) and #4 (blue) in stock. A lightweight option for the offwidth explorer.",
         width: 4032,
         height: 3024,
-        title: ""
+        title: "The Trango Big Bro adjustable tube chock. We keep the #3 (green) and #4 (blue) in stock. A lightweight option for the offwidth explorer."
     },
     {
         src: TenayaRa_5_3_1800x1080,
@@ -1472,10 +1472,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Tenaya Ra, a great option for a comfortable all day or gym shoe.",
         width: 3497,
         height: 2098,
-        title: ""
+        title: "The Tenaya Ra, an excellent option for a comfortable all day or gym shoe."
     },
     {
         src: C4GreenPurple_16_9_1920x1080,
@@ -1488,10 +1488,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Artistic close up photo of Black Diamond #0.5 and #0.75 cams.",
         width: 4032,
         height: 2268,
-        title: ""
+        title: "Favorite size cam? We got it."
     },
     {
         src: Brushes_1_1_1080x1080,
@@ -1504,10 +1504,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "An assortment of bouldering brushes to clean and brush off holds on bouldering problems which have been caked up with too much chalk, actually resulting in a lower friction surface.",
         width: 2977,
         height: 2977,
-        title: ""
+        title: "Chalk hurting instead of helping your send? Brush it off."
     },
     {
         src: Gridlock_9_16_1080x1920,
@@ -1520,10 +1520,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Black Diamond Gridlock screw gate carabiner. A great option in the realm of anti-crossloading belay carabiners.",
         width: 2268,
         height: 4032,
-        title: ""
+        title: "The Black Diamond Gridlock screw gate carabiner. A great option in the realm of anti-crossloading belay carabiners."
     },
     {
         src: BigBros2_1_1_1080x1080,
@@ -1536,10 +1536,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Close up photo of the warning on Big Bro adjustable tube chocks. Don't just push the button carelessly, the spring is strong and can definitely break your nose or teeth.",
         width: 2765,
         height: 2765,
-        title: ""
+        title: "Big Bros can be dangerous, don't dry fire them carelessly. You can easily break a nose, tooth, or worse."
     },
     {
         src: TotemBlue_4_3_1440x1080,
@@ -1552,10 +1552,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Artistic close up of a Totem Cam. Totem Cams are a unique and new variation on the classic spring loaded camming device which excells in pin scars and other places where normally offset cams would be best. Really interesting engineering.",
         width: 2441,
         height: 1831,
-        title: ""
+        title: "Totem cams, yep. We have them. People are always surprised to see them in stock, but this isn't Yosemite, there are no pin scars here."
     },
     {
         src: BulletproofHMS_9_16_1080x1920,
@@ -1568,10 +1568,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Edelrid Bulletproof carabiners, unique locking carabiners with a stainless steel insert to resist rope wear and last longer than pure aluminum carabiners.",
         width: 2029,
         height: 3607,
-        title: ""
+        title: "Edelrid has made some excellent carabiner innovations recently, like these 'Bulletproof' carabiners with stainless steel areas that resist rope wear better than aluminum... and keep your rope cleaner too!"
     },
     {
         src: BulletproofScrew_9_16_1080x1920,
@@ -1584,10 +1584,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Edelrid Bulletproof carabiners, unique locking carabiners with a stainless steel insert to resist rope wear and last longer than pure aluminum carabiners.",
         width: 1618,
         height: 2877,
-        title: ""
+        title: "Edelrid makes a great masterpoint carabiner that resists wear for top roping through."
     },
     {
         src: Approach2_5_3_1800x1080,
@@ -1600,10 +1600,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Closeup of Scarpa Crux and Black Diamond Technician Approach Shoes.",
         width: 4032,
         height: 2419,
-        title: ""
+        title: "The Scarpa Crux is our best selling wider foot approach shoe for those who feel that LaSportiva is too narrow. Black Diamond Technician is a great alternative to the LaSportiva TX2 or TX3."
     },
     {
         src: SmallLockers_16_9_1920x1080,
@@ -1616,10 +1616,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Close up picture of several small locking carabiners.",
         width: 3161,
         height: 1778,
-        title: ""
+        title: "We carry many options for smaller locking carabiners. Typically options from Black Diamond, Petzl, Metolius, Edelrid, ... sometimes DMM and Grivel too."
     },
     {
         src: Postcards_3_4_1080x1440,
@@ -1632,10 +1632,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Stickers and postcards designed by local artists.",
         width: 2695,
         height: 3594,
-        title: ""
+        title: "Stickers and postcards make great mementos!"
     },
     {
         src: Barnacle_4_3_1440x1080,
@@ -1648,10 +1648,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Well behaved dogs are very welcome in the shop.",
         width: 3024,
         height: 2268,
-        title: ""
+        title: "Well behaved dogs are very welcome in the shop!"
     },
     {
         src: Houdini_1_1_1080x1080,
@@ -1664,10 +1664,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "The Patagonia Houdini, a super packable windshell that works great for Red Rock multipitch climbing.",
         width: 3024,
         height: 3024,
-        title: ""
+        title: "The Patagonia Houdini, a super packable windshell that works great for Red Rock multipitch climbing. Throw it on at belays so the wind doesn't take away all your heat and you shiver and shoot daggers out of your eyes up towards your leader who is off doing who knows what and should have you on belay already! Sheesh!"
     },
     {
         src: Puffy_9_16_1080x1920,
@@ -1680,10 +1680,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "A Patagonia Puffy jacket.",
         width: 2268,
         height: 4032,
-        title: ""
+        title: "We sell a variety of jackets, wind, fleece, and puffy, from Patagonia."
     },
     {
         src: Yeti_1_1_1080x1080,
@@ -1696,10 +1696,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Yeti can coolers. These fit standard soda or beer size cans and keep your drink cooler than a normal neoprene Koozie would.",
         width: 3024,
         height: 3024,
-        title: ""
+        title: "Yeti can coolers. These fit standard soda or beer size cans and keep your drink cooler than a normal neoprene Koozie would."
     },
     {
         src: Dromedary_16_9_1920x1080,
@@ -1712,10 +1712,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "MSR Dromlite and Dromedary water storage bags. Great option for durable water storage.",
         width: 3806,
         height: 2141,
-        title: ""
+        title: "MSR Dromlite and Dromedary water storage bags. Great option for durable water storage."
     },
     {
         src: Patagonia_1_1_1080x1080,
@@ -1728,10 +1728,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Patagonia wicking shirt with old school hexentric chock graphic and 'clean climbing' text.",
         width: 3024,
         height: 3024,
-        title: ""
+        title: "Patagonia clothing, we got it."
     },
     {
         src: Top100_9_16_1080x1920,
@@ -1744,10 +1744,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Top 100 Outdoor Retailers trophy.",
         width: 1883,
         height: 3347,
-        title: ""
+        title: "Maybe we can jam it in a chimney?"
     },
     {
         src: WLB_1_1_1080x1080,
@@ -1760,10 +1760,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Wendell Broussard, 'The Dean of Red Rock'",
         width: 1930,
         height: 1930,
-        title: ""
+        title: "Wendell Broussard, 'The Dean of Red Rock.' Mentor to soooo many."
     },
     {
         src: Bowls_16_9_1920x1080,
@@ -1776,10 +1776,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "MSR Plates and Bowls for camping",
         width: 3892,
         height: 2189,
-        title: ""
+        title: "MSR Makes some great lightweight camping cookery options."
     },
     {
         src: DRSVintage_1_1_1080x1080,
@@ -1792,10 +1792,10 @@ export const photos = [
             `
         ],
         sizes: srcSetSizes,
-        alt: "",
+        alt: "Desert Rock Sports, vintage-retro tank",
         width: 2798,
         height: 2798,
-        title: ""
+        title: "Desert Rock Sports, vintage-retro tank. We will get these re-made soon (if they are not already)"
     },
     // {
     //     src: ,
