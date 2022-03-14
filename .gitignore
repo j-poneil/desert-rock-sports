@@ -16,7 +16,7 @@
 # This line should prevent tracking any changes in the img folder
 # Uploading so many images to github makes no sense, takes so long
 #... just back them up periodically locally
-src/img/*
+# src/img/*
 
 # misc
 .DS_Store
