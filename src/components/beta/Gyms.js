@@ -113,7 +113,8 @@ export const gyms = {
             subSectionTitle: 'regular boring gyms',
             subSectionContent: () => (
                 <>
-                    (thoughts ... probably not enough reason to have this section)
+                    <p>(probably not enough reason to have this section)</p>
+                    <p>Vegas has many options for traditional gyms. Planet Fitness is near our shop and very reasonably priced for a 24h access gym.</p>
                 </>
             )
         },
