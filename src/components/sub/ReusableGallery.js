@@ -61,14 +61,14 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 //     -webkit-text-stroke-color: black
 
 // can't get this to work... like this
-const testStyles = {
-    fontWeight: 'bold',
-    fontSize: 'medium',
-    color: 'black',
-    webkitTextFillColor: 'white',
-    webkitTextStrokeWidth: '1px',
-    webkitTextStrokeColor: 'black'
-};
+// const testStyles = {
+//     fontWeight: 'bold',
+//     fontSize: 'medium',
+//     color: 'black',
+//     webkitTextFillColor: 'white',
+//     webkitTextStrokeWidth: '1px',
+//     webkitTextStrokeColor: 'black'
+// };
 
 
 

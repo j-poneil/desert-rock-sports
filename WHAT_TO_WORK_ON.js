@@ -69,6 +69,9 @@ https://nomadventures.com/
     OR set domain names hosted at other locations to just point to a proper hosted domain name
 * Choose main domain name
 * Point all other domain names to forward to main
+* - Sendinblue... when I have the hosting / domain, change the defaults to reflect that emails are from:
+    whatever@desertrocksports.com or w/e the proper domain name is
+    Make sure that respond to email makes sense too. (or set no-reply@desertrocksportslv.com ?)
 * Get old site code
     *archive / double check if there is anything I need
 * Get paypal acct transferred?
@@ -86,14 +89,22 @@ https://nomadventures.com/
 ! - FOR FINAL PRODUCTION - SEO optimization... create-react-app does some basics, but I can certainly improve it more
 ! - FOR FINAL PRODUCTION - Have someone navigate it all with a screen reader to test accessability
 ! - FOR FINAL PRODUCTION - Check for color-blindness / contrast compatability
-! - FOR FINAL PRODUCTION - (minor?) what if someone changes the font size themselves, does it still look ok?
 ! - FOR FINAL PRODUCTION - loading speed, efficiency, no extraneous re-renders, etc...
 ! - FOR FINAL PRODUCTION - React.lazy / lazy loading / Suspense
-! - FOR FINAL PRODUCTION - Make sure my important comments that i made about author of site are visible after build process
-! - For rough release - look over all files
-! - For rough release - full spelling/grammer check, have a few people proof it
-! - For rough release - test keyboard nav
+! - FOR FINAL PRODUCTION - Make sure my important comments that i made about author of site are visible after build process?
+    in index.html should survive minification, I'd think
+
 ! - npm audit / npm audit fix
+    This could lead to a lot of issues
+! - FOR ROUGH RELEASE - look over all files, check for issues, tidy up a bit, remove SOME unused code an files
+! - FOR ROUGH RELEASE
+    [] full spelling/grammer check myself
+    [] have a few people proof it
+    [] fix spelling, wording, inaccuracies
+! - FOR ROUGH RELEASE - experience
+    [] test keyboard nav
+    [] test on different devices
+
 -------------------
 ? - some sort of server integration?
     Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
@@ -142,9 +153,6 @@ todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
     * https://www.youtube.com/watch?v=sNlycRiaeac
-! - Sendinblue... when I have the hosting / domain, change the defaults to reflect that emails are from:
-    whatever@desertrocksports.com or w/e the proper domain name is
-    Make sure that respond to email makes sense too.
 ! - sometimes on npm start only the background looks to load? Refreshing the page fixes it... but why?
     Is it because I'm on battery saver mode on laptop? Didn't seem to happen before this?
         That doesn't seem to be the issue
@@ -618,6 +626,9 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
+// todo - beautify bio pics
+//     5-15% lower brightness, 5-15% higher contrast, auto color boost thing, maybe auto whitebalance
+//     ( do it on originals, then re-compress w/ imagecompressor.com )
 // todo - Image titles/captions, alt text... creative
 // todo - Smaller file dimensions for srcset tablet and phone ( copy / pasted from gear section where I need to do the same )
 //     [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
@@ -644,9 +655,6 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 //     [x] Set default as a smaller size (1080 or 1440w ish for most of them) = 1.440 S
 //     [x] Test that on a small device, small images are loaded
 //     [x] onClick on small device opens modal for the fullsize image (actually loads ALL fullsize in the background too... acceptable, for now I guess)
-todo - beautify bio pics
-    5-15% lower brightness, 5-15% higher contrast, auto color boost thing, maybe auto whitebalance
-    ( do it on originals, then re-compress w/ imagecompressor.com )
 // todo - batchcompress.com on the bio pics and guiding headings... while smaller in dimensions, they are larger in file size and actually load slower than the now compressed medium size guiding gallery photos... HA!
 //     [x] Tier pics from 615 kB ---> 151 kB... quality sucked... trying something else
 //     [x] Tier pics from 615 kB ---> 385 kB using imagecompressor.com ... acceptable quality
@@ -703,12 +711,6 @@ todo - beautify bio pics
 
 
 @ Other page --------------------------------------
-? - What will it be?
-        Something else?
-            What?
-                Nothing. Get rid of it.
-
-
 
 
 
@@ -729,7 +731,6 @@ todo - beautify bio pics
 
 
 @ About page --------------------------------------
-? - a section on its own for the 3 owners??? then other employees below?
 // todo - probably move nav link position of the 'About' page to just left of 'Shop'
 // todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, but a simple CSS color transition would be fine too 
 // todo - suitable enough for now side image
