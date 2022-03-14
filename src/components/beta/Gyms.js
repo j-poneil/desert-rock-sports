@@ -98,6 +98,14 @@ export const gyms = {
                         <a href="https://goo.gl/maps/857D9QcztBJqJu11A" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Lifetime Fitness</a>
                         <p>Located off Charleston in W Vegas / Summerlin, this location has a climbing wall. If you are already a Lifetime Fitness member, it may be worthwhile.</p>
                     </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>UNLV</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.unlv.edu/campusrec/outdoor-adventures/climbing-facilities" target="_blank" rel="noopener noreferrer">UNLV - Climbing Facilities <FaExternalLinkAlt /></a><br />
+                        <a href="https://goo.gl/maps/6QyRK14HhqKm89ZC9" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to UNLV Student Recreaction and Wellness Center</a>
+                        <p>For UNLV students, they have a bouldering wall, treadwall, run outdoor trips, as well as have some rental equipment available (tents, sleeping pads and bags, stoves, etc...)</p>
+                    </Card.Text>
                 </>
             )
         },

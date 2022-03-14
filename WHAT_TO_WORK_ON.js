@@ -425,6 +425,18 @@ todo - Some of the images in the gallery are still excessively large. It shouldn
 
 
 @ Beta page ---------------------------------------
+    @ Beta sub sections ---------------------------------------------------------
+    @ ---------------------------------------------------------------------------
+    % GeneralInfo
+        todo - add content for 'Wet Rock'
+    % LodgingLogistics
+        todo - add content for 'Hotels'
+        todo - add more content for other shower locations like truck stops
+    % Food
+        todo - add content / trim content
+        todo - fill out breweries & bars
+    % Gyms
+        // todo - add UNLV to walls
 % - This is an example of a great page linking to other sites for local info
     * https://www.thedesertrat.net/localinfo
 todo - FOR FINAL PRODUCTION - Nice photos for the cards / section titles
@@ -482,16 +494,7 @@ todo - try a background color gradient instead of just color for the accordion s
 // todo - implement a email link icon
 // todo - STRONG WORDS ABOUT FIRES
 // todo - free and paid camping options for all seasons, maps to them, or rather google map link to them
-    @ Beta sub sections ---------------------------------------------------------
-    @ ---------------------------------------------------------------------------
-    % GeneralInfo
-        todo - add content for 'Wet Rock'
-    % LodgingLogistics
-        todo - add content for 'Hotels'
-        todo - add more content for other shower locations like truck stops
-    % Food
-        todo - add content / trim content
-        todo - fill out breweries & bars
+    
 
 
 
@@ -596,16 +599,10 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
 
 
 @ Guiding page ------------------------------------
-! - Wording EVERYWHERE, and trim down amount of text a bit
-! - gallery or carousel of photos from guiding
-    Initially tried lightgallery... its great, but not perfect and paid
-    Now different approach of separate responsive grid + lightbox libraries
-        react-photo-gallery -- for the gallery
-            react-images -- for the carousel and modal
-                react-zoom-pan-pinch -- for the zoom in... but can't get it to work perfectly with the modal, so disabled for now
-    AMBITIOUS option - My secret package for this
-! - FOR PRODUCTION - get peoples desired blurbs, photos, links to whatever, etc...
-! - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...
+! - FOR-ANY-RELEASE - Wording EVERYWHERE, and trim down amount of text a bit
+! - FOR-ANY-RELEASE - get peoples desired blurbs, photos, links to whatever, etc...
+    be sure to polish, compress if needed
+! - FOR-ANY-RELEASE - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...
 ! - consider re-structuring...
     * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
     * THEN RRCG / How it Works Steps + About our guiding columns...
@@ -616,9 +613,11 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 todo - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
+    ... however, then I need to tease that they can be interacted with like that
+    ... and more testing for different devices, accessability tests (tab through, screen readers)
 todo - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
     add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
-todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button
+todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button / form
     Implement skip to links
         tiers
         guides
