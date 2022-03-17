@@ -174,11 +174,11 @@ todo - the galleries title text is just white text on whatever the image is for 
             ... tried a bit, can't get it to work... bleh
             its in bootstrap-with-overrides.sass
 ! - alt srcset, sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
-    [] Home - Hero BG
+    [x] Home - Hero BG / Splash
         [] sizes
-    [] Home - Pickles
+    [] Home - Pickles... actually it may be fine as its supposed to just be a temp img
         [] sizes
-    [] Home - Sufferpup Simba
+    [] Home - Sufferpup Simba... actually it may be fine as its supposed to just be a temp img
         [] sizes
     [x] Home - Julie Born to Bleed
         [] sizes

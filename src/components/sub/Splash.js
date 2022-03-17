@@ -10,7 +10,11 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 // Image(s)
 // import Vellinga5 from '../../img/Splash/Vellinga5_1619x1080.jpg';
 // import Vellinga6 from '../../img/Splash/vellinga6_crop_1713x1080.jpg';
-import Vellinga6_2 from '../../img/Splash/vellinga6_crop2_1709x1080.jpg';
+// import Vellinga6_2 from '../../img/Splash/vellinga6_crop2_1709x1080.jpg';
+import Vellinga6c2_506x320 from '../../img/Splash/vellinga6c2_506x320-min.jpg';
+import Vellinga6c2_760x480 from '../../img/Splash/vellinga6c2_760x480-min.jpg';
+import Vellinga6c2_1215x768 from '../../img/Splash/vellinga6c2_1215x768-min.jpg';
+import Vellinga6c2_1709x1080 from '../../img/Splash/vellinga6c2_1709x1080-min.jpg';
 
 // TEMPORARY IMAGE for mocking up
 // import splashImgCanyon from '../../img/temp/canyon_hd.jpg';
@@ -92,7 +96,14 @@ export default function Splash(){
             <Image
                 // fluid
                 style={ splashImageStyles }
-                src={ Vellinga6_2 }
+                src={ Vellinga6c2_506x320 }
+                srcSet={
+                    `${Vellinga6c2_506x320} 506w,
+                    ${Vellinga6c2_760x480} 760w,
+                    ${Vellinga6c2_1215x768} 1215w,
+                    ${Vellinga6c2_1709x1080} 1709w`
+                }
+                // sizes={``}
                 alt="Amazing photo of Red Rock Canyon by Trevor Vellinga"
             />
             <div style={ splashTextStyles } >

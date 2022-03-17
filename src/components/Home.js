@@ -21,6 +21,7 @@ import NewsletterIFrame from './sub/NewsletterIFrame';
 
 import { FaGithub } from 'react-icons/fa';
 
+
 // Images
 // import Julie from '../img/HomePage/Julie_medium.jpg';
 import Julie_480x320 from '../img/HomePage/Julie_480x320-min.jpg';
