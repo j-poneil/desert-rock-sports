@@ -182,7 +182,7 @@ todo - the galleries title text is just white text on whatever the image is for 
         [] sizes
     [] Home - Julie Born to Bleed
         [] sizes
-    [] Home - Newsletter signup BG
+    [x] Home - Newsletter signup BG
         [] sizes
     [] Weather - SOMETHING EVENTUALLY
         [] sizes
