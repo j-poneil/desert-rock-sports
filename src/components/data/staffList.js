@@ -234,11 +234,12 @@ export const staff = [
     {
         name: "Josh Diggs",
         position: "",
-        certs: "",
-        exp: "",
+        certs: "AMGA Apprentice Rock Guide",
+        exp: "2 years guiding, 4 years Vegas local",
         bio: () => (
             <>
-                <p></p>
+                <p>Teacher by training, I relocated to Vegas in pursuit of desert splitters. The big days out are my favorite. Enthusiastic goofball, bad storyteller, good listener. Can tell you about the burrowing owl, kleptothermy, and rock rust! Need some technique work? Consider dropping your heels.</p>
+                <p>Favorite climb: Cloud Tower</p>
             </>
         ),
         imgSrc: JoshD,
