@@ -17,7 +17,11 @@ import { staff } from './data/staffList';
 import { Jumbotron } from 'react-bootstrap';
 
 // side img, etc
-import Cat_medium from '../img/About/Cat_medium.jpg';
+// import Cat_medium from '../img/About/Cat_medium.jpg';
+import Cat_480x320 from '../img/About/cat_480x320.jpg';
+import Cat_720x480 from '../img/About/cat_720x480.jpg';
+import Cat_1152x768 from '../img/About/cat_1152x768.jpg';
+import Cat_1620x1080 from '../img/About/cat_1620x1080.jpg';
 
 // styles here:
 // src\stylesheets\pages\_about.sass
@@ -91,7 +95,17 @@ export default function About(){
                 </Col>
                 <Col className="mb-3">
                     <Card style={{'height': '100%'}}>
-                        <Card.Img src={ Cat_medium } alt="Stuffed animal hanging out in a sandstone nook" />
+                        <Card.Img
+                            src={ Cat_480x320 }
+                            srcSet={
+                                `${Cat_480x320} 480w,
+                                ${Cat_720x480} 720w,
+                                ${Cat_1152x768} 1152w,
+                                ${Cat_1620x1080} 1620w`
+                            }
+                            // sizes={``}
+                            alt="Stuffed animal hanging out in a sandstone nook"
+                        />
                     </Card>
                 </Col>
                 {/* <Col className="mb-3">

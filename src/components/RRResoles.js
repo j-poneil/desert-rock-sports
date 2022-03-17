@@ -9,7 +9,9 @@ import Card from 'react-bootstrap/Card';
 // Images
 // import Lynx from '../img/RRR/Lynx_450x450.jpg';
 // import Ganda from '../img/RRR/Gandas_450x450.jpg';
-import LynxGandas from '../img/RRR/LynxGandas_900x450.jpg';
+import LynxGandas_568x284 from '../img/RRR/LynxGandas_568x284-min.jpg';
+import LynxGandas_854x427 from '../img/RRR/LynxGandas_854x427-min.jpg';
+import LynxGandas_900x450 from '../img/RRR/LynxGandas_900x450-min.jpg';
 
 // ! no longer used
 // src\stylesheets\layout\_layout_containers.sass
@@ -45,7 +47,17 @@ function RRResoles() {
                 </Col>
                 <Col className="mb-3">
                     <Card style={ previousWorkStyles }>
-                        <Card.Img src={ LynxGandas } alt="Freshly resoled pairs of climbing and approach shoes, looking sharp" fluid />
+                        <Card.Img
+                            src={ LynxGandas_568x284 }
+                            srcSet={
+                                `${LynxGandas_568x284} 568w,
+                                ${LynxGandas_854x427} 854w,
+                                ${LynxGandas_900x450} 900w`
+                            }
+                            // sizes={``}
+                            alt="Freshly resoled pairs of climbing and approach shoes, looking sharp"
+                            fluid
+                        />
                     </Card>
                 </Col>
                 <Col className="mb-3">

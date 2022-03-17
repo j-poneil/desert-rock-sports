@@ -173,7 +173,7 @@ todo - the galleries title text is just white text on whatever the image is for 
             span (where the title text ends up)
             ... tried a bit, can't get it to work... bleh
             its in bootstrap-with-overrides.sass
-! - alt srcset sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
+! - alt srcset, sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
     [] Home - Hero BG
         [] sizes
     [] Home - Pickles
@@ -186,9 +186,9 @@ todo - the galleries title text is just white text on whatever the image is for 
         [] sizes
     [] Weather - SOMETHING EVENTUALLY
         [] sizes
-    [] Resoles - Shoes
+    [x] Resoles - Shoes
         [] sizes
-    [] About - Cat plush aside
+    [x] About - Cat plush aside
         [] sizes
     [x] Shop - Books
         [] sizes
@@ -389,6 +389,7 @@ todo - Some of the images in the gallery are still excessively large. It shouldn
 ! - add images (too_large / large / medium / small / phone ... and all compressed. Don't use too_large.)
     [] Webbing / Cord off the spool ?
     [] Hollowblocks / Friction hitches ?
+! - add something saying SOMETIMES we sell off our old rental fleet crashpads?
 // todo - Image titles/captions, alt text... creative
 // todo - Smaller file dimensions for srcset tablet and phone
 //    [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
