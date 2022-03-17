@@ -22,7 +22,11 @@ import NewsletterIFrame from './sub/NewsletterIFrame';
 import { FaGithub } from 'react-icons/fa';
 
 // Images
-import Julie from '../img/HomePage/Julie_medium.jpg';
+// import Julie from '../img/HomePage/Julie_medium.jpg';
+import Julie_480x320 from '../img/HomePage/Julie_480x320-min.jpg';
+import Julie_720x480 from '../img/HomePage/Julie_720x480-min.jpg';
+import Julie_1152x768 from '../img/HomePage/Julie_1152x768-min.jpg';
+import Julie_1242x828 from '../img/HomePage/Julie_1242x828-min.jpg';
 
 // TEMP IMAGES for mocking up only
 import Pickles from '../img/temp/Pickles_900x600.jpg';
@@ -135,7 +139,14 @@ export default function Home(){
                     <Col>
                         <Card>
                             <Card.Img
-                                src={ Julie }
+                                src={ Julie_480x320 }
+                                srcSet={
+                                    `${Julie_480x320} 480w,
+                                    ${Julie_720x480} 720w,
+                                    ${Julie_1152x768} 1152w,
+                                    ${Julie_1242x828} 1242w`
+                                }
+                                // sizes={``}
                                 fluid
                                 alt="Julie crushing the boulder roof crack known as Born to Bleed"
                                 data-bs-toggle="tooltip"

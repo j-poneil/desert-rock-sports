@@ -180,7 +180,7 @@ todo - the galleries title text is just white text on whatever the image is for 
         [] sizes
     [] Home - Sufferpup Simba
         [] sizes
-    [] Home - Julie Born to Bleed
+    [x] Home - Julie Born to Bleed
         [] sizes
     [x] Home - Newsletter signup BG
         [] sizes
