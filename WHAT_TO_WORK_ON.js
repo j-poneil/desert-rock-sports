@@ -78,9 +78,7 @@ https://nomadventures.com/
 * Get paypal button codes
 * Live but protected testing
 * SSL cert / http and https testing
-    * how to auto-keep ssl cert valid
-? Make an "Under Construction" mode?
-    * Still provide useful info, but state some info could change, hours, prices, may be different, etc...?
+    * how to auto-keep ssl cert valid ?
 
 
 @ index.html & other general stuff ----------------------------------------
@@ -108,17 +106,21 @@ https://nomadventures.com/
 -------------------
 ? - some sort of server integration?
     Like maybe make a control panel site that TG can log into to change: hours, address, phone numbers, mark things as in stock or sold out?
-    The site reads/updates a DB, like firebase
-    Then the deployed site gets updated values from firebase with fallbacks if no connection?
-    ... actually maybe not firebase, since it would possibly cost... maybe a DB hosted at the same web host if it seems cheaper... MySQL maybe
-    short circuit / default setup
-        * automatic hours true/false
-            * manual hours set
-            * automatic hours season1 set
-            * automatic hours season2 set
-        * Resole turn around time
-        * Guide service pricing
-        * phone numbers, emails, addresses?
+    The site reads/updates a DB... Then the deployed site gets updated values from MySQL with fallbacks
+        news items
+        automatic hours true/false
+            manual hours set ( really, this is all he would use )
+            automatic hours season1 set
+            automatic hours season2 set
+        Resole turn around time
+        Guide service pricing
+        phone numbers, emails, addresses?
+        Adv:
+            Guide/Staff Bios, images, order
+            Guiding Gallery Images, order (alt sizes?)
+        ==> None of this makes all that much sense to do.
+        Its easy enough for me to just make small changes and updates the 3-4 times a year it is needed.
+        Especially considering how I have laid out all this.
 ! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
     * looks like when you inspect a page it doesn't show up as a global breakpoint option
     * I should be able to add it
@@ -133,14 +135,6 @@ https://nomadventures.com/
         EX. About > How they met... looks bad
             - add subtitles, more text
         EX. About > JJ Card... looks good
-todo - add more photos of the inside / outside of DRS
-    clothing
-    artwork?
-    new local guidebooks
-    route topos
-    stick clips
-    chalk selection
-    canyoneering ropes, bags, critter, quicklinks, etc?
 todo - replace generic <div> when it makes sense to do so, with semantic html, like article, section, etc...
 todo - use the fonts in index.html (refer to them in a more readable form in NOTES.md)
 todo - loading animations that I can use in various places
@@ -153,18 +147,6 @@ todo - Newsletter Signup should look good at all sizes
     * https://github.com/davidjbradshaw/iframe-resizer
     * https://github.com/davidjbradshaw/iframe-resizer-react
     * https://www.youtube.com/watch?v=sNlycRiaeac
-! - sometimes on npm start only the background looks to load? Refreshing the page fixes it... but why?
-    Is it because I'm on battery saver mode on laptop? Didn't seem to happen before this?
-        That doesn't seem to be the issue
-    Maybe too much stuff to load and it just times out?
-        ... doesn't seem like that should happen. It wasn't before. If anything files sizes are smaller so should be faster
-    ! DOES THIS HAPPEN WITH A PRODUCTION BUILD?!?!?!?!?!?!??!!?!?
-! - alt srcset sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
-    [] Make sure the large is not excessively large
-    [] Don't mess with 'sizes' rules when images are in a gallery, only when its like a background or aside or something
-    ... or do mess with it?!
-    https://neptunian.github.io/react-photo-gallery/srcset-and-sizes.html
-    https://neptunian.github.io/react-photo-gallery/examples/srcset-and-sizes.html
 todo - Maybe ambitious - gallery lazy loading
     on small device, load page, click an image, it loads the large version (and loads the large of all the others in the background)
     Find a way to stop that loading of everything in the background. Either just the one clicked, or it and the 3-5 adjacent ones, ideally.
@@ -191,7 +173,12 @@ todo - the galleries title text is just white text on whatever the image is for 
             span (where the title text ends up)
             ... tried a bit, can't get it to work... bleh
             its in bootstrap-with-overrides.sass
-
+! - alt srcset sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
+    [] Make sure the large is not excessively large
+    [] Don't mess with 'sizes' rules when images are in a gallery, only when its like a background or aside or something
+    ... or do mess with it?!
+    https://neptunian.github.io/react-photo-gallery/srcset-and-sizes.html
+    https://neptunian.github.io/react-photo-gallery/examples/srcset-and-sizes.html
 // todo - make sendinblue signup email show proper company, etc in the email header/body
 //     and not go straight to spam... maybe... or add a note to check spam folder
 // todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
@@ -426,16 +413,28 @@ todo - Some of the images in the gallery are still excessively large. It shouldn
 
 @ Beta page ---------------------------------------
     @ Beta sub sections ---------------------------------------------------------
+        todo - links and link icons don't look amazing... particularly in like the gym > climbing gym section
+            think about alternative ways to make this kinda thing look better
     @ ---------------------------------------------------------------------------
     % GeneralInfo
-        todo - add content for 'Wet Rock'
+        ! - FOR-ANY-RELEASE - add info for wet rock / link to weather page
     % LodgingLogistics
-        todo - add content for 'Hotels'
-        todo - add more content for other shower locations like truck stops
+        todo - add content for 'Hotels' ... maybe?
+        todo - add more content for other shower locations like truck stops ?
     % Food
-        todo - add content / trim content
-        todo - fill out breweries & bars
+        todo - add content / trim content... its a mess
+        ! - FOR-ANY-RELEASE - fill out breweries & bars
+    % Other Outdoor
+        ! - FOR-ANY-RELEASE - add link to canyoneering book, fill in 'some comment' at bottom
+        ! - FOR-ANY-RELEASE - fill out rainy day options
+        ! - FOR-ANY-RELEASE - fill out 1-3 more trail runs / hikes recommendations
+        ! - FOR-ANY-RELEASE - fill out at least a few MTB trails?
+        ! - FOR-ANY-RELEASE - add Kraft Loop, Turtle head, ??? to hike recommendations, maybe comment out a few others
+    % Route Recommendations
+        ! - FOR-ANY-RELEASE - do I even want this section?
+            Too many options... suggesting things drives traffic to them
     % Gyms
+        ! - FOR-ANY-RELEASE - Regular gyms too or not?
         // todo - add UNLV to walls
 % - This is an example of a great page linking to other sites for local info
     * https://www.thedesertrat.net/localinfo
