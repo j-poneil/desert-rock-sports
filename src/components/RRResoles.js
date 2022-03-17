@@ -54,7 +54,7 @@ function RRResoles() {
                                 ${LynxGandas_854x427} 854w,
                                 ${LynxGandas_900x450} 900w`
                             }
-                            // sizes={``}
+                            sizes="100vw"
                             alt="Freshly resoled pairs of climbing and approach shoes, looking sharp"
                             fluid
                         />

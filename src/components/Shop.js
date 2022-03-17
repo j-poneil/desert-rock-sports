@@ -220,7 +220,7 @@ export default function Shop(){
                                     ${Big4_768x1024} 768w,
                                     ${Big4_1080x1440} 1080w`
                                 }
-                                // sizes={``}
+                                sizes="100vw"
                                 alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin"
                                 fluid
                                 style={ guideBooksAsideStyles }

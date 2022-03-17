@@ -147,7 +147,7 @@ export default function Home(){
                                     ${Julie_1152x768} 1152w,
                                     ${Julie_1242x828} 1242w`
                                 }
-                                // sizes={``}
+                                sizes="100vw"
                                 fluid
                                 alt="Julie crushing the boulder roof crack known as Born to Bleed"
                                 data-bs-toggle="tooltip"

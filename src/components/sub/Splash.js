@@ -96,14 +96,14 @@ export default function Splash(){
             <Image
                 // fluid
                 style={ splashImageStyles }
-                src={ Vellinga6c2_506x320 }
+                src={ Vellinga6c2_1215x768 }
                 srcSet={
                     `${Vellinga6c2_506x320} 506w,
                     ${Vellinga6c2_760x480} 760w,
                     ${Vellinga6c2_1215x768} 1215w,
                     ${Vellinga6c2_1709x1080} 1709w`
                 }
-                // sizes={``}
+                sizes="100vw"
                 alt="Amazing photo of Red Rock Canyon by Trevor Vellinga"
             />
             <div style={ splashTextStyles } >

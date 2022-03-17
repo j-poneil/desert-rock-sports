@@ -103,7 +103,7 @@ export default function About(){
                                 ${Cat_1152x768} 1152w,
                                 ${Cat_1620x1080} 1620w`
                             }
-                            // sizes={``}
+                            sizes="100vw"
                             alt="Stuffed animal hanging out in a sandstone nook"
                         />
                     </Card>

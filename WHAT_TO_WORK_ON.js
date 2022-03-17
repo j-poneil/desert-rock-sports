@@ -174,19 +174,37 @@ todo - the galleries title text is just white text on whatever the image is for 
             ... tried a bit, can't get it to work... bleh
             its in bootstrap-with-overrides.sass
 ! - alt srcset, sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
+    * MIND BLOWN. ( https://observablehq.com/@eeeps/w-descriptors-and-sizes-under-the-hood )
+        Browsers determine what to load based on dynamic resource densities, which are calculated from x descriptors and sizes
+        Once they have that... the browser does whatever it wants to.
+        Can test responsive imgs with RespImageLint, rather than my probably-flawed expectations about which
+        resource "should" be loaded. RespImageLint is now saved as a bookmarklet
+            Running it spits out a responsive images report for w/e page you are on
+            
+        A side effect is that sizes ends up setting the intrinsic width of your image. Its weird. So, IF you need an image to
+        scale only below its normal max width, you need to specify its normal full size width in the <img />
+        In my use case, because very often I want the images to scale with width=100% of container, all this is different for me
+        -- for 100% view width images specify sizes="100vw"
+        -- for grid stuff...?
     [x] Home - Hero BG / Splash
-        [] sizes
+        [x] sizes - straightforward since its width is 100% of view, no grid, etc...
     [] Home - Pickles... actually it may be fine as its supposed to just be a temp img
-        [] sizes
+        [] sizes - same as for Julie
     [] Home - Sufferpup Simba... actually it may be fine as its supposed to just be a temp img
-        [] sizes
+        [] sizes - same as for Julie
     [x] Home - Julie Born to Bleed
+            at <992px vw, 1 col = img width = 100vw - padding/margins
+            at larger sizes: 2 cols = img width = 50vw - padding/margins
         [] sizes
     [x] Home - Newsletter signup BG
+            kinda not ideal currently... so maybe hold off until I'm really satisfied with it?
+            else 100vw - padding/margins
         [] sizes
     [] Weather - SOMETHING EVENTUALLY
         [] sizes
     [x] Resoles - Shoes
+            at <1200px vw, 1 col = img width = 100vw - padding/margins
+            at larger sizes: 2 cols = img width = 50vw - padding/margins
         [] sizes
     [x] About - Cat plush aside
         [] sizes
