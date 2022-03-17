@@ -43,7 +43,7 @@ function App() {
     // style={ backgroundStyles }
     <div>
       {/* //@ test to make sure this works... if I remove sr-only, it is visible */}
-      <a id='skip-nav' class="sr-only sr-only-focusable" href='#main-content'>Skip Navigation</a>
+      <a id='skip-nav' className="sr-only sr-only-focusable" href='#main-content'>Skip Navigation</a>
 
 
       {/* Navbar here */}
