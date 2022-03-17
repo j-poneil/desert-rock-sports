@@ -94,7 +94,7 @@ https://nomadventures.com/
 
 ! - npm audit / npm audit fix
     This could lead to a lot of issues
-! - FOR ROUGH RELEASE - look over all files, check for issues, tidy up a bit, remove SOME unused code an files
+! - FOR ROUGH RELEASE - look over all files, check for issues, tidy up a bit, remove SOME unused code and files
 ! - FOR ROUGH RELEASE
     [] full spelling/grammer check myself
     [] have a few people proof it
@@ -174,6 +174,26 @@ todo - the galleries title text is just white text on whatever the image is for 
             ... tried a bit, can't get it to work... bleh
             its in bootstrap-with-overrides.sass
 ! - alt srcset sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
+    [] Home - Hero BG
+        [] sizes
+    [] Home - Pickles
+        [] sizes
+    [] Home - Sufferpup Simba
+        [] sizes
+    [] Home - Julie Born to Bleed
+        [] sizes
+    [] Home - Newsletter signup BG
+        [] sizes
+    [] Weather - SOMETHING EVENTUALLY
+        [] sizes
+    [] Resoles - Shoes
+        [] sizes
+    [] About - Cat plush aside
+        [] sizes
+    [x] Shop - Books
+        [] sizes
+    [x] 404
+        [] sizes
     [] Make sure the large is not excessively large
     [] Don't mess with 'sizes' rules when images are in a gallery, only when its like a background or aside or something
     ... or do mess with it?!
@@ -412,6 +432,7 @@ todo - Some of the images in the gallery are still excessively large. It shouldn
 
 
 @ Beta page ---------------------------------------
+! - I feel like there needs to be some pictures here, asides, maybe a main BG ? Logos for places?
     @ Beta sub sections ---------------------------------------------------------
         todo - links and link icons don't look amazing... particularly in like the gym > climbing gym section
             think about alternative ways to make this kinda thing look better

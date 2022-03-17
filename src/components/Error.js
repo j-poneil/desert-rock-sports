@@ -6,7 +6,11 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 // Images
-import Rope_404 from '../img/404_Rope_Cropped_1366x670.jpg';
+// import Rope_404 from '../img/404_Rope_Cropped_1366x670.jpg';
+import Rope_404_1920x941 from '../img/404/404_Rope_Cropped_1920x941.jpg';
+import Rope_404_1366x670 from '../img/404/404_Rope_Cropped_1366x670.jpg';
+import Rope_404_854x419 from '../img/404/404_Rope_Cropped_854x419.jpg';
+import Rope_404_568x278 from '../img/404/404_Rope_Cropped_568x278.jpg';
 
 // styles here:
 // src\stylesheets\pages\_error.sass
@@ -33,7 +37,14 @@ export default function Error(){
             <Container>
                 <Col className="m-auto">
                 <Image
-                    src={ Rope_404 }
+                    src={ Rope_404_568x278 }
+                    srcSet={
+                        `${Rope_404_568x278} 568w,
+                        ${Rope_404_854x419} 854w,
+                        ${Rope_404_1366x670} 1366w,
+                        ${Rope_404_1920x941} 1920w`
+                    }
+                    // sizes={``}
                     alt="404 - File Not Found"
                     // style={{'margin': '0 auto'}}
                     className="d-block mx-auto img-fluid w-70"

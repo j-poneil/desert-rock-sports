@@ -10,7 +10,11 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 
 // imgs
 import BuyNow from '../img/DRS_webShop/buyNow.gif';
-import Big4 from '../img/DRS_webShop/Big4_563x750.jpg';
+// import Big4 from '../img/DRS_webShop/Big4_563x750.jpg';
+import Big4_320x427 from '../img/DRS_webShop/Big4_320x427.jpg';
+import Big4_480x640 from '../img/DRS_webShop/Big4_480x640.jpg';
+import Big4_768x1024 from '../img/DRS_webShop/Big4_768x1024.jpg';
+import Big4_1080x1440 from '../img/DRS_webShop/Big4_1080x1440.jpg';
 
 // styles here:
 // src\stylesheets\pages\_shop.sass
@@ -208,7 +212,18 @@ export default function Shop(){
 
                     <Col>
                         <Card>
-                            <Card.Img src={ Big4 } alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin" fluid style={ guideBooksAsideStyles } />
+                            <Card.Img
+                                src={ Big4_320x427 }
+                                srcSet={
+                                    `${Big4_320x427} 320w,
+                                    ${Big4_480x640} 480w,
+                                    ${Big4_768x1024} 768w,
+                                    ${Big4_1080x1440} 1080w`
+                                }
+                                alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin"
+                                fluid
+                                style={ guideBooksAsideStyles }
+                            />
                         </Card>
                     </Col>
                 </Row>
