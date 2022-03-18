@@ -1,4 +1,9 @@
 import React from 'react';
+
+// can replace all 'p' with 'Card.Text' ... but do I have to?
+// import Card from 'react-bootstrap/Card';
+
+
 // % Photo imports here:
 // import Calico from '../../img/RRCG/calicobasin_original_by_Matt_Kuehl.jpg';
 import Calico_500w from '../../img/RRCG/calicobasin_500px_by_Matt_Kuehl.jpg';

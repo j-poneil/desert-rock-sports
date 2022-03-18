@@ -141,19 +141,19 @@ export default function Beta(){
         <Container fluid>
             {/* //@ SR skip / get to quick links */}
             {/* //! Makes sense to hold off on filling this out until the content is in sub-components */}
-            <a id='skip-to-RR-general-info' class="sr-only sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
+            <a id='skip-to-RR-general-info' className="sr-only sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
             {/* //? Should I do it so that you skip to the card, which can be opened (and say that in the sr-only text)... or should I make a compact list that allows you to skip to any individual accordion item on the entire page all from here?... that would be "slick" but may be a bit harder... would they get the info w/o having to open the cards?... hmm ohh... yeah, especially once I componentize this all. Hmm should still be able to do like href="#idOfSection", since they will be in the page once the component is imported ... yeah... a SR-only link list here going to each individual accordion item would be ideal... the pretty cards and accordions are for quick sighted navigation, something quick for blind navigation as well would be best. */}
-            <a id='skip-to-SNCC-ethics-camping-showers-laundry' class="sr-only sr-only-focusable" href='#SNCC-ethics-camping-showers-laundry'>Skip to Southern Nevada Climbers Coalition, Local Ethics, Camping, Showers, and Laundry</a>
+            <a id='skip-to-SNCC-ethics-camping-showers-laundry' className="sr-only sr-only-focusable" href='#SNCC-ethics-camping-showers-laundry'>Skip to Southern Nevada Climbers Coalition, Local Ethics, Camping, Showers, and Laundry</a>
 
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
-            <a id='skip-or-skip-to' class="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
+            <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
 
             {/* 
                 //! - style={{'height': '100%'}}

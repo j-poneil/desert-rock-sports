@@ -42,18 +42,20 @@ export default function News(){
     // newsReal not newsReel, b/c reference to Sean King, TFM.
     const newsReal = newsItems.map((i, index) => {
         return (
-            <Card.Text key={ index }>
-                <Card.Subtitle className="text-muted mb-2" as="h7">
+            // Can't wrap it all with <Card.Text></Card.Text> as that leads to paragraphs w/o paragraphs
+            <div key={ index }>
+                <Card.Subtitle className="text-muted mb-2" as="h6">
                     {/* { i.date } */}
                     { formatDistance(parseDate(i.date, 'MM/dd/yyyy', new Date()), new Date(), { addSuffix: true }) }
                 </Card.Subtitle>
                 <Card.Subtitle className="mb-1" as="h5">
                     { i.title }
                 </Card.Subtitle>
-                <Card.Text className="mb-4" style={ postTextStyles }>
+                {/* Can't wrap this with 'Card.Text' as its just a 'p' and the posts also contain 'p' */}
+                <div className="mb-4" style={ postTextStyles }>
                     { i.post() }
-                </Card.Text>
-            </Card.Text>
+                </div>
+            </div>
         );
     });
 

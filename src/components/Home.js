@@ -88,7 +88,6 @@ export default function Home(){
                                 // at <992px vw, 1 col = img width = 100vw - padding/margins
                                 // at larger sizes: 2 cols = img width = 50vw - padding/margins
                                 // sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
-                                fluid
                                 alt="A glorious dog named Pickles, looking adorable"
                                 style={ picklesStyles }
                                 data-bs-toggle="tooltip"
@@ -113,7 +112,6 @@ export default function Home(){
                                 // at <992px vw, 1 col = img width = 100vw - padding/margins
                                 // at larger sizes: 2 cols = img width = 50vw - padding/margins
                                 // sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
-                                fluid
                                 alt="Suffer Pup, a rescued dog, held high, getting the 'Simba' experience"
                                 style={ sufferPupStyles }
                                 data-bs-toggle="tooltip"
@@ -161,7 +159,6 @@ export default function Home(){
                                 // at <992px vw, 1 col = img width = 100vw - padding/margins
                                 // at larger sizes: 2 cols = img width = 50vw - padding/margins
                                 sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
-                                fluid
                                 alt="Julie crushing the boulder roof crack known as Born to Bleed"
                                 data-bs-toggle="tooltip"
                                 data-bs-placement="top"
@@ -211,9 +208,9 @@ export default function Home(){
                 style={{
                     'textAlign': 'right',
                     'padding': 0,
-                    'margin-top': 0,
-                    'margin-bottom': 0,
-                    'margin-right': '5px'
+                    'marginTop': 0,
+                    'marginBottom': 0,
+                    'marginRight': '5px'
                 }}
             >
                 Site design by: <a href="https://github.com/j-poneil" target="_blank" rel="noopener noreferrer"><FaGithub />John-Paul O'Neil</a>

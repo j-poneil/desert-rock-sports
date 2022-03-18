@@ -67,17 +67,14 @@ export const routeRecommendations = {
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                 </>
             )
@@ -90,22 +87,18 @@ export const routeRecommendations = {
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                 </>
             )
@@ -118,27 +111,22 @@ export const routeRecommendations = {
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                 </>
             )
@@ -151,22 +139,18 @@ export const routeRecommendations = {
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                 </>
             )
@@ -179,22 +163,18 @@ export const routeRecommendations = {
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                 </>
             )
@@ -207,17 +187,14 @@ export const routeRecommendations = {
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        <p></p>
                     </Card.Text>
                 </>
             )

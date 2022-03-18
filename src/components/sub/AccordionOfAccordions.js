@@ -242,7 +242,7 @@ export default function AccordionOfAccordions(props) {
                     style={ accordionVisible ? accordionStyles : {...accordionStyles, ...hideAccordion} }
                     key={ index }
                 >
-                    <Accordion id={ props.accordionIdBase + `Id${index}` } style={ accordionStyles } class='accordion-sub-section-button'>
+                    <Accordion id={ props.accordionIdBase + `Id${index}` } style={ accordionStyles } className='accordion-sub-section-button'>
                         <span className="sr-only">Screen Reader note: these buttons show / hide information related to the the button's text which is like a minor section title</span>
                         <Card>
                             <Accordion.Toggle

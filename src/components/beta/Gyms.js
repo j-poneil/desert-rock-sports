@@ -63,48 +63,48 @@ export const gyms = {
                     <Card.Subtitle>Red Rock Climbing Center (R2C2)</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.redrockclimbingcenter.com/" target="_blank" rel="noopener noreferrer">Red Rock Climbing Center <FaExternalLinkAlt /></a><br />
-                        <a href="https://goo.gl/maps/eJtf2ZcR8DKuMio2A" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Red Rock Climbing Center</a>
-                        <p>Located in the same shopping center as our shop! Bouldering, Lead, Top Rope, and Auto Belays!</p>
+                        <a href="https://goo.gl/maps/eJtf2ZcR8DKuMio2A" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Red Rock Climbing Center</a><br />
+                        Located in the same shopping center as our shop! Bouldering, Lead, Top Rope, and Auto Belays!
                     </Card.Text>
                     <hr />
 
                     <Card.Subtitle>The Refuge Climbing &amp; Fitness</Card.Subtitle>
                     <Card.Text>
                         <a href="http://climbrefuge.com/" target="_blank" rel="noopener noreferrer">The Refuge <FaExternalLinkAlt /></a><br />
-                        <a href="https://goo.gl/maps/8Hbc31i8PNqaJkVt7" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to The Refuge</a>
-                        <p>Just west of McCarran International Airport. Primarily Bouldering, with a few Auto Belays.</p>
+                        <a href="https://goo.gl/maps/8Hbc31i8PNqaJkVt7" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to The Refuge</a><br />
+                        Just west of McCarran International Airport. Primarily Bouldering, with a few Auto Belays.
                     </Card.Text>
                     <hr />
 
                     <Card.Subtitle>Nevada Climbing Center</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.nvclimbingcenter.com/" target="_blank" rel="noopener noreferrer">Nevada Climbing Center <FaExternalLinkAlt /></a><br />
-                        <a href="https://goo.gl/maps/LiY1EHZRYDGTJXay8" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Nevada Climbing Center</a>
-                        <p>Just east of McCarran International Airport. Bouldering, Lead, Top Rope, and Auto Belays!</p>
+                        <a href="https://goo.gl/maps/LiY1EHZRYDGTJXay8" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Nevada Climbing Center</a><br />
+                        Just east of McCarran International Airport. Bouldering, Lead, Top Rope, and Auto Belays!
                     </Card.Text>
                     <hr />
 
                     <Card.Subtitle>The Pad Henderson (used to be Origin)</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.thepadclimbing.org/" target="_blank" rel="noopener noreferrer">The Pad <FaExternalLinkAlt /></a><br />
-                        <a href="https://goo.gl/maps/1GkbKu3ULz3mzSGq6" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to The Pad</a>
-                        <p>Located in Southwest Vegas / Henderson. Bouldering, Lead, Top Rope, and Auto Belays!</p>
+                        <a href="https://goo.gl/maps/1GkbKu3ULz3mzSGq6" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to The Pad</a><br />
+                        Located in Southwest Vegas / Henderson. Bouldering, Lead, Top Rope, and Auto Belays!
                     </Card.Text>
                     <hr />
 
                     <Card.Subtitle>Lifetime Fitness</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.lifetime.life/life-time-locations/nv-las-vegas-summerlin.html" target="_blank" rel="noopener noreferrer">Lifetime Fitness - Summerlin <FaExternalLinkAlt /></a><br />
-                        <a href="https://goo.gl/maps/857D9QcztBJqJu11A" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Lifetime Fitness</a>
-                        <p>Located off Charleston in W Vegas / Summerlin, this location has a climbing wall. If you are already a Lifetime Fitness member, it may be worthwhile.</p>
+                        <a href="https://goo.gl/maps/857D9QcztBJqJu11A" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Lifetime Fitness</a><br />
+                        Located off Charleston in W Vegas / Summerlin, this location has a climbing wall. If you are already a Lifetime Fitness member, it may be worthwhile.
                     </Card.Text>
                     <hr />
 
                     <Card.Subtitle>UNLV</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.unlv.edu/campusrec/outdoor-adventures/climbing-facilities" target="_blank" rel="noopener noreferrer">UNLV - Climbing Facilities <FaExternalLinkAlt /></a><br />
-                        <a href="https://goo.gl/maps/6QyRK14HhqKm89ZC9" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to UNLV Student Recreaction and Wellness Center</a>
-                        <p>For UNLV students, they have a bouldering wall, treadwall, run outdoor trips, as well as have some rental equipment available (tents, sleeping pads and bags, stoves, etc...)</p>
+                        <a href="https://goo.gl/maps/6QyRK14HhqKm89ZC9" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to UNLV Student Recreaction and Wellness Center</a><br />
+                        For UNLV students, they have a bouldering wall, treadwall, run outdoor trips, as well as have some rental equipment available (tents, sleeping pads and bags, stoves, etc...)
                     </Card.Text>
                 </>
             )

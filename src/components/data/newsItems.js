@@ -1,6 +1,8 @@
 import React from 'react';
 // Used in News.js, which is a component in Home.js
 
+// Could switch all 'p' to 'Card.Text'... but do I really have to?
+// import Card from 'react-bootstrap/Card';
 
 // title up to __ characters looks good
 // date format: MM/DD/YYYY ... BUT it will be displayed as " x days ago, over a month ago, over a year ago etc... "

@@ -68,21 +68,17 @@ export default function Shop(){
                                                 <Card.Subtitle style={ bookTitleStyles }>Jerry Handren</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>THE Book for Sport, Trad, and Multipitch on Red Rock sandstone.</Card.Subtitle>
-                                                <Card.Text>
-                                                    <p>In glorious color. There has been a reprinting with a new cover image and minor changes, but its still the 2nd Edition. Jerry updated and added what he could without increasing the page count.</p>
-                                                    <p>
-                                                        {/* RR A Climbers Guide 2 order button*/}
-                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                                            <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
-                                                            <input type="hidden" name="cmd" value="_s-xclick" />
-                                                            <input type="hidden" name="hosted_button_id" value="WU4XDHLKDL5P4" />
-                                                            <input
-                                                                style={ ppButtonStyle }
-                                                                type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                        </form>
-                                                    </p>
-                                                </Card.Text>
+                                                <Card.Text>In glorious color. There has been a reprinting with a new cover image and minor changes, but its still the 2nd Edition. Jerry updated and added what he could without increasing the page count.</Card.Text>
+                                                {/* RR A Climbers Guide 2 order button*/}
+                                                <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                    <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="hosted_button_id" value="WU4XDHLKDL5P4" />
+                                                    <input
+                                                        style={ ppButtonStyle }
+                                                        type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
                                             </Card.Body>
                                         </Card>
                                     </Col>
@@ -94,21 +90,17 @@ export default function Shop(){
                                                 <Card.Subtitle style={ bookTitleStyles }>Tom Moulin</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>THE Book for bouldering in the area</Card.Subtitle>
-                                                <Card.Text>
-                                                    <p>Covers many nearby areas, mostly sandstone, some limestone. Much easier to navigate to your obscure boulders when you have a map. This is the 2nd Edition.</p>
-                                                    <p>
-                                                        {/* SN Bouldering 2 order button*/}
-                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                                            <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
-                                                            <input type="hidden" name="cmd" value="_s-xclick" />
-                                                            <input type="hidden" name="hosted_button_id" value="LN2BBTL6XCPXN" />
-                                                            <input
-                                                                style={ ppButtonStyle }
-                                                                type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                        </form>
-                                                    </p>
-                                                </Card.Text>
+                                                <Card.Text>Covers many nearby areas, mostly sandstone, some limestone. Much easier to navigate to your obscure boulders when you have a map. This is the 2nd Edition.</Card.Text>
+                                                {/* SN Bouldering 2 order button*/}
+                                                <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                    <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="hosted_button_id" value="LN2BBTL6XCPXN" />
+                                                    <input
+                                                        style={ ppButtonStyle }
+                                                        type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
                                             </Card.Body>
                                         </Card>
                                     </Col>
@@ -120,23 +112,19 @@ export default function Shop(){
                                                 <Card.Subtitle style={ bookTitleStyles }>Jerry Handren</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>THE Book for limestone sport in the Vegas area</Card.Subtitle>
-                                                <Card.Text>
-                                                    <p>Covers many areas such as Mt Charleston, Mt Potosi, many smaller areas, as well as surrounding areas including southern Utah, Northern Arizona, and even a bonus section on Rainbow Canyon (basalt cracks!) a few hours North of Vegas.</p>
-                                                    <p>This new book makes the out of print Islands in the Sky guide very obsolete.</p>
-                                                    <p>Excellent book to have if you are looking for harder sport climbing or need alternatives when the Red Rock Sandstone is wet.</p>
-                                                    <p>
-                                                        {/* Mojave Limestone */}
-                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                                            <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
-                                                            <input type="hidden" name="cmd" value="_s-xclick" />
-                                                            <input type="hidden" name="hosted_button_id" value="" /> {/* //! add value */}
-                                                            <input
-                                                                style={ ppButtonStyle }
-                                                                type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                        </form>
-                                                    </p>
-                                                </Card.Text>
+                                                <Card.Text>Covers many areas such as Mt Charleston, Mt Potosi, many smaller areas, as well as surrounding areas including southern Utah, Northern Arizona, and even a bonus section on Rainbow Canyon (basalt cracks!) a few hours North of Vegas.</Card.Text>
+                                                <Card.Text>This new book makes the out of print Islands in the Sky guide very obsolete.</Card.Text>
+                                                <Card.Text>Excellent book to have if you are looking for harder sport climbing or need alternatives when the Red Rock Sandstone is wet.</Card.Text>
+                                                {/* Mojave Limestone */}
+                                                <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                    <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="hosted_button_id" value="" /> {/* //! add value */}
+                                                    <input
+                                                        style={ ppButtonStyle }
+                                                        type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
                                             </Card.Body>
                                         </Card>
                                     </Col>
@@ -148,21 +136,17 @@ export default function Shop(){
                                                 <Card.Subtitle style={ bookTitleStyles }>Jason Martin</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>Selected routes and top rope areas</Card.Subtitle>
-                                                <Card.Text>
-                                                    <p>Great option for those who will only have a limited time in the area or those trying to find spots to set up top ropes for partners who can't be trusted to belay them, or when they are finding areas to top rope solo at.</p>
-                                                    <p>
-                                                        {/* Fun Climbs RR top ropes and moderates */}
-                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                                            <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
-                                                            <input type="hidden" name="cmd" value="_s-xclick" />
-                                                            <input type="hidden" name="hosted_button_id" value="KRQW8B9PPX7F6" />
-                                                            <input
-                                                                style={ ppButtonStyle }
-                                                                type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                        </form>
-                                                    </p>
-                                                </Card.Text>
+                                                <Card.Text>Great option for those who will only have a limited time in the area or those trying to find spots to set up top ropes for partners who can't be trusted to belay them, or when they are finding areas to top rope solo at.</Card.Text>
+                                                {/* Fun Climbs RR top ropes and moderates */}
+                                                <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                    <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="hosted_button_id" value="KRQW8B9PPX7F6" />
+                                                    <input
+                                                        style={ ppButtonStyle }
+                                                        type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
                                             </Card.Body>
                                         </Card>
                                     </Col>
@@ -174,21 +158,17 @@ export default function Shop(){
                                                 <Card.Subtitle style={ bookTitleStyles }>Frodo</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>JTree-like granite near Vegas</Card.Subtitle>
-                                                <Card.Text>
-                                                    <p>This area is an excellent option to check out if Red Rock Canyon is wet! Their annual Keyhole Classic is a party you don't want to miss!</p>
-                                                    <p>
-                                                        {/* Keyhole Canyon */}
-                                                        <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                                            <span style={{'font-weight': 'bold'}}>$PRICE &nbsp;</span>
-                                                            <input type="hidden" name="cmd" value="_s-xclick" />
-                                                            <input type="hidden" name="hosted_button_id" value="" /> {/* //! add value */}
-                                                            <input
-                                                                style={ ppButtonStyle }
-                                                                type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                        </form>
-                                                    </p>
-                                                </Card.Text>
+                                                <Card.Text>This area is an excellent option to check out if Red Rock Canyon is wet! Their annual Keyhole Classic is a party you don't want to miss!</Card.Text>
+                                                {/* Keyhole Canyon */}
+                                                <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                    <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="hosted_button_id" value="" /> {/* //! add value */}
+                                                    <input
+                                                        style={ ppButtonStyle }
+                                                        type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
                                             </Card.Body>
                                         </Card>
                                     </Col>
@@ -227,7 +207,6 @@ export default function Shop(){
                                 sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
                                 // sizes="100vw"
                                 alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin"
-                                fluid
                                 style={ guideBooksAsideStyles }
                             />
                         </Card>

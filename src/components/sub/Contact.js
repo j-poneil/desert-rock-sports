@@ -151,7 +151,8 @@ export default function Contact(){
                     <Card style={ drsContactStyles }>
                         <Card.Body>
                             <Card.Title>Desert Rock Sports</Card.Title>
-                            <Card.Text>
+                            {/* Can't use 'Card.Text' as it is just a 'p', can't put 'table' in 'p' */}
+                            <div>
                                 <Table striped bordered hover size="sm">
                                     <thead>
                                         <tr>
@@ -172,7 +173,7 @@ export default function Contact(){
                                     Suite #102<br />
                                     Las Vegas, NV 89117
                                 </address>
-                            </Card.Text>
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -234,7 +235,7 @@ export default function Contact(){
                                 </tbody>
                             </Table>
                             <p>Holiday Hours: 12/24 Close at 5pm, 12/25 Closed, 12/31 Close at 9pm, 1/1 Close at 9pm</p>
-                            <Card.Text>
+                            <div>
                                 <address>
                                     Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a><br />
                                     Gym email: <a href="mailto:sales@redrockclimbingcenter.com" target="_blank" rel="noopener noreferrer">sales@redrockclimbingcenter.com</a>
@@ -245,7 +246,7 @@ export default function Contact(){
                                     #150<br />
                                     Las Vegas, NV 89117
                                 </address>
-                            </Card.Text>
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
