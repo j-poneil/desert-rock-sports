@@ -44,7 +44,8 @@ export default function Error(){
                         ${Rope_404_1366x670} 1366w,
                         ${Rope_404_1920x941} 1920w`
                     }
-                    // sizes={``}
+                    // seems good enough!
+                    sizes="70vw"
                     alt="404 - File Not Found"
                     // style={{'margin': '0 auto'}}
                     className="d-block mx-auto img-fluid w-70"

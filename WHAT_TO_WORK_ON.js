@@ -193,25 +193,31 @@ todo - the galleries title text is just white text on whatever the image is for 
     [] Home - Sufferpup Simba... actually it may be fine as its supposed to just be a temp img
         [] sizes - same as for Julie
     [x] Home - Julie Born to Bleed
-            at <992px vw, 1 col = img width = 100vw - padding/margins
-            at larger sizes: 2 cols = img width = 50vw - padding/margins
-        [] sizes
+        at <992px vw, 1 col = img width = 100vw - padding/margins
+        at larger sizes: 2 cols = img width = 50vw - padding/margins
+        [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
     [x] Home - Newsletter signup BG
-            kinda not ideal currently... so maybe hold off until I'm really satisfied with it?
-            else 100vw - padding/margins
-        [] sizes
+        kinda not ideal currently... so maybe hold off until I'm really satisfied with it?
+        else 100vw - padding/margins
+        [x] sizes - sizes="100vw - 30px"
     [] Weather - SOMETHING EVENTUALLY
         [] sizes
     [x] Resoles - Shoes
-            at <1200px vw, 1 col = img width = 100vw - padding/margins
-            at larger sizes: 2 cols = img width = 50vw - padding/margins
-        [] sizes
+        at <1200px vw, 1 col = img width = 100vw - padding/margins
+        at larger sizes: 2 cols = img width = 50vw - padding/margins
+        [x] sizes - sizes="(min-width: 1200px) 50vw - 32px, 100vw - 32px"
     [x] About - Cat plush aside
-        [] sizes
+        at <992px vs, 1 col = img width = 100vw - padding/margins
+        at larger sizes: 2 cols = img width = 50vw - padding/margins
+        [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
     [x] Shop - Books
-        [] sizes
+        at <992px vs, 1 col = img width = 100vw - padding/margins
+        at larger sizes: 2 cols = img width = 50vw - padding/margins
+        [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
     [x] 404
-        [] sizes
+        used: className="d-block mx-auto img-fluid w-70"
+        so think sizes="70vw" should be good-enough
+        [x] sizes
     [] Make sure the large is not excessively large
     [] Don't mess with 'sizes' rules when images are in a gallery, only when its like a background or aside or something
     ... or do mess with it?!

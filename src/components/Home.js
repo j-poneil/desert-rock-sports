@@ -83,6 +83,11 @@ export default function Home(){
                         <Card>
                             <Card.Img
                                 src={ Pickles }
+                                // srcSet={``}
+                                // sizes="100vw"
+                                // at <992px vw, 1 col = img width = 100vw - padding/margins
+                                // at larger sizes: 2 cols = img width = 50vw - padding/margins
+                                // sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
                                 fluid
                                 alt="A glorious dog named Pickles, looking adorable"
                                 style={ picklesStyles }
@@ -103,6 +108,11 @@ export default function Home(){
                         <Card>
                             <Card.Img
                                 src={ SufferPup }
+                                // srcSet={``}
+                                // sizes="100vw"
+                                // at <992px vw, 1 col = img width = 100vw - padding/margins
+                                // at larger sizes: 2 cols = img width = 50vw - padding/margins
+                                // sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
                                 fluid
                                 alt="Suffer Pup, a rescued dog, held high, getting the 'Simba' experience"
                                 style={ sufferPupStyles }
@@ -147,7 +157,10 @@ export default function Home(){
                                     ${Julie_1152x768} 1152w,
                                     ${Julie_1242x828} 1242w`
                                 }
-                                sizes="100vw"
+                                // sizes="100vw"
+                                // at <992px vw, 1 col = img width = 100vw - padding/margins
+                                // at larger sizes: 2 cols = img width = 50vw - padding/margins
+                                sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
                                 fluid
                                 alt="Julie crushing the boulder roof crack known as Born to Bleed"
                                 data-bs-toggle="tooltip"

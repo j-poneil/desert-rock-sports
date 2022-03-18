@@ -1,4 +1,9 @@
 import React from 'react';
+
+// can change all <p></p> to <Card.Text></Card.Text>
+// ... but do I really have to?
+// import Card from 'react-bootstrap/Card';
+
 //% photos for staff
 // standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';

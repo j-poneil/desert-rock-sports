@@ -213,14 +213,19 @@ export default function Shop(){
                     <Col>
                         <Card>
                             <Card.Img
-                                src={ Big4_320x427 }
+                                src={ Big4_480x640 }
                                 srcSet={
                                     `${Big4_320x427} 320w,
                                     ${Big4_480x640} 480w,
                                     ${Big4_768x1024} 768w,
                                     ${Big4_1080x1440} 1080w`
                                 }
-                                sizes="100vw"
+                                // at <992px vw, 1 col = img width = 100vw - padding/margins
+                                // ... this is 32px of dead space total on the left + right sides
+                                // at larger sizes: 2 cols = img width = 50vw - padding/margins
+                                // ... this is 32px of dead space total, IN ITS COLUMN
+                                sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
+                                // sizes="100vw"
                                 alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin"
                                 fluid
                                 style={ guideBooksAsideStyles }

@@ -65,9 +65,11 @@ export default function About(){
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.position !== "" && i.position }</Card.Subtitle>
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.certs !== "" && i.certs }</Card.Subtitle>
                             <Card.Subtitle className="mb-2 text-muted text-center">{ i.exp !== "" && i.exp }</Card.Subtitle>
-                            <Card.Text>
+                            {/* Card.Text renders as a <p></p>, not supposed to have paragraphs within paragraphs! */}
+                            {/* <Card.Text>
                                 <>{ i.bio() }</>
-                            </Card.Text>
+                            </Card.Text> */}
+                            <>{ i.bio() }</>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -87,8 +89,10 @@ export default function About(){
                         <Card.Body>
                             <Card.Title>How they met...</Card.Title>
                             <Card.Text>
-                                <p>Mike Lorenzo, Steve Mallory and Travis Graves met through their love of climbing at Red Rock Climbing Center (formerly, Powerhouse Gym). Travis, who was the store manager for Desert Rock Sports, approached Mike and Steve with the idea of forming a partnership to buy the store from Mike and Tim Ward who wanted to retire. In February 2005 the partnership was born.</p>
-                                <p>All three are active climbers and are members of Las Vegas Climbers' Liaison Council, an organization that is dedicated to ensuring climbing access, encouraging stewardship of the environment, and cultivating a sense of community in a world-class climbing destination.</p>
+                                Mike Lorenzo, Steve Mallory and Travis Graves met through their love of climbing at Red Rock Climbing Center (formerly, Powerhouse Gym). Travis, who was the store manager for Desert Rock Sports, approached Mike and Steve with the idea of forming a partnership to buy the store from Mike and Tim Ward who wanted to retire. In February 2005 the partnership was born.
+                            </Card.Text>
+                            <Card.Text>
+                                All three are active climbers and are members of Las Vegas Climbers' Liaison Council, an organization that is dedicated to ensuring climbing access, encouraging stewardship of the environment, and cultivating a sense of community in a world-class climbing destination.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -103,7 +107,10 @@ export default function About(){
                                 ${Cat_1152x768} 1152w,
                                 ${Cat_1620x1080} 1620w`
                             }
-                            sizes="100vw"
+                            // sizes="100vw"
+                            // at <992px vs, 1 col = img width = 100vw - padding/margins
+                            // at larger sizes: 2 cols = img width = 50vw - padding/margins
+                            sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
                             alt="Stuffed animal hanging out in a sandstone nook"
                         />
                     </Card>

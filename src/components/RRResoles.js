@@ -54,7 +54,10 @@ function RRResoles() {
                                 ${LynxGandas_854x427} 854w,
                                 ${LynxGandas_900x450} 900w`
                             }
-                            sizes="100vw"
+                            // sizes="100vw"
+                            // at <1200px vw, 1 col = img width = 100vw - padding/margins
+                            // at larger sizes: 2 cols = img width = 50vw - padding/margins
+                            sizes="(min-width: 1200px) 50vw - 32, 100vw - 32"
                             alt="Freshly resoled pairs of climbing and approach shoes, looking sharp"
                             fluid
                         />
