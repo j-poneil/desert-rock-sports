@@ -224,8 +224,6 @@ todo - the galleries title text is just white text on whatever the image is for 
     https://neptunian.github.io/react-photo-gallery/srcset-and-sizes.html
     https://neptunian.github.io/react-photo-gallery/examples/srcset-and-sizes.html
 // todo - some general small fixes and changes to get rid of chrome linting warnings
-! todo - gearGalleryPhotos.js - commenting out largest img doesn't work like that, fix/remove. Sizes string not valid.
-! todo - guidingGalleryPhotos.js - commenting out largest img doesn't work like that, fix/remove. Sizes string not valid.
 // todo - make sendinblue signup email show proper company, etc in the email header/body
 //     and not go straight to spam... maybe... or add a note to check spam folder
 // todo - Guiding Gallery and Gear Gallery (& any other 'same setup' galleries) should use a re-usable gallery component with the 'photos' passed in (array of objects). This is so very easy to do, just get it done... good small thing to get back into a flow.
@@ -417,6 +415,7 @@ todo - Some of the images in the gallery are still excessively large. It shouldn
     [] Webbing / Cord off the spool ?
     [] Hollowblocks / Friction hitches ?
 ! - add something saying SOMETIMES we sell off our old rental fleet crashpads?
+// todo - gearGalleryPhotos.js - commenting out largest img doesn't work like that, fix/remove.
 // todo - Image titles/captions, alt text... creative
 // todo - Smaller file dimensions for srcset tablet and phone
 //    [x] Should be able to batch resize and maintain aspect ratio easy-ish (Image Resizer on left click menu)
@@ -673,6 +672,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
 todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
+// todo - guidingGalleryPhotos.js - commenting out largest img doesn't work like that, fix/remove.
 // todo - beautify bio pics
 //     5-15% lower brightness, 5-15% higher contrast, auto color boost thing, maybe auto whitebalance
 //     ( do it on originals, then re-compress w/ imagecompressor.com )

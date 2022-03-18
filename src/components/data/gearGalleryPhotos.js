@@ -44,92 +44,92 @@
 
 //! too_large, cropped and polished to look good, large dimensions AFTER batchcompress.com (75% file size reduction, in total!)
 // 4:3
-import Barnacle_4_3_3024x2268 from '../../img/DRS_store/too_large/Barnacle_4_3_3024x2268.jpg';
-import BDPacks2_4_3_3790x2842 from '../../img/DRS_store/too_large/BDPacks2_4_3_3790x2842.jpg';
-import BigBros_4_3_4032x3024 from '../../img/DRS_store/too_large/BigBros_4_3_4032x3024.jpg';
-import Brass_4_3_3024x2268 from '../../img/DRS_store/too_large/Brass_4_3_3024x2268.jpg';
-import BrassSwage_4_3_3024x2268 from '../../img/DRS_store/too_large/BrassSwage_4_3_3024x2268.jpg';
-import Bug_4_3_3777x2833 from '../../img/DRS_store/too_large/Bug_4_3_3777x2833.jpg';
-import C4Red_4_3_2556x1917 from '../../img/DRS_store/too_large/C4Red_4_3_2556x1917.jpg';
-import Dyon_4_3_3280x2460 from '../../img/DRS_store/too_large/Dyon_4_3_3280x2460.jpg';
-import Headlamp_4_3_2881x2161 from '../../img/DRS_store/too_large/Headlamp_4_3_2881x2161.jpg';
-import Isobutane_4_3_4032x2419 from '../../img/DRS_store/too_large/Isobutane_4_3_4032x2419.jpg';
-import Pads_4_3_3641x2731 from '../../img/DRS_store/too_large/Pads_4_3_3641x2731.jpg';
-import Pads2_4_3_3279x2459 from '../../img/DRS_store/too_large/Pads2_4_3_3279x2459.jpg';
-import Platy_4_3_3667x2750 from '../../img/DRS_store/too_large/Platy_4_3_3667x2750.jpg';
-import Sheep_4_3_3251x2438 from '../../img/DRS_store/too_large/Sheep_4_3_3251x2438.jpg';
-import TotemBlue_4_3_2441x1831 from '../../img/DRS_store/too_large/TotemBlue_4_3_2441x1831.jpg';
+// import Barnacle_4_3_3024x2268 from '../../img/DRS_store/too_large/Barnacle_4_3_3024x2268.jpg';
+// import BDPacks2_4_3_3790x2842 from '../../img/DRS_store/too_large/BDPacks2_4_3_3790x2842.jpg';
+// import BigBros_4_3_4032x3024 from '../../img/DRS_store/too_large/BigBros_4_3_4032x3024.jpg';
+// import Brass_4_3_3024x2268 from '../../img/DRS_store/too_large/Brass_4_3_3024x2268.jpg';
+// import BrassSwage_4_3_3024x2268 from '../../img/DRS_store/too_large/BrassSwage_4_3_3024x2268.jpg';
+// import Bug_4_3_3777x2833 from '../../img/DRS_store/too_large/Bug_4_3_3777x2833.jpg';
+// import C4Red_4_3_2556x1917 from '../../img/DRS_store/too_large/C4Red_4_3_2556x1917.jpg';
+// import Dyon_4_3_3280x2460 from '../../img/DRS_store/too_large/Dyon_4_3_3280x2460.jpg';
+// import Headlamp_4_3_2881x2161 from '../../img/DRS_store/too_large/Headlamp_4_3_2881x2161.jpg';
+// import Isobutane_4_3_4032x2419 from '../../img/DRS_store/too_large/Isobutane_4_3_4032x2419.jpg';
+// import Pads_4_3_3641x2731 from '../../img/DRS_store/too_large/Pads_4_3_3641x2731.jpg';
+// import Pads2_4_3_3279x2459 from '../../img/DRS_store/too_large/Pads2_4_3_3279x2459.jpg';
+// import Platy_4_3_3667x2750 from '../../img/DRS_store/too_large/Platy_4_3_3667x2750.jpg';
+// import Sheep_4_3_3251x2438 from '../../img/DRS_store/too_large/Sheep_4_3_3251x2438.jpg';
+// import TotemBlue_4_3_2441x1831 from '../../img/DRS_store/too_large/TotemBlue_4_3_2441x1831.jpg';
 // 3:4
-import Approach_3_4_2905x3874 from '../../img/DRS_store/too_large/Approach_3_4_2905x3874.jpg';
-import G7_3_4_2552x3403 from '../../img/DRS_store/too_large/G7_3_4_2552x3403.jpg';
-import Postcards_3_4_2695x3594 from '../../img/DRS_store/too_large/Postcards_3_4_2695x3594.jpg';
-import Ropes_3_4_2744x3659 from '../../img/DRS_store/too_large/Ropes_3_4_2744x3659.jpg';
+// import Approach_3_4_2905x3874 from '../../img/DRS_store/too_large/Approach_3_4_2905x3874.jpg';
+// import G7_3_4_2552x3403 from '../../img/DRS_store/too_large/G7_3_4_2552x3403.jpg';
+// import Postcards_3_4_2695x3594 from '../../img/DRS_store/too_large/Postcards_3_4_2695x3594.jpg';
+// import Ropes_3_4_2744x3659 from '../../img/DRS_store/too_large/Ropes_3_4_2744x3659.jpg';
 // 1:1
-import BDPacks_1_1_2850x2850 from '../../img/DRS_store/too_large/BDPacks_1_1_2850x2850.jpg';
-import BigBros2_1_1_2765x2765 from '../../img/DRS_store/too_large/BigBros2_1_1_2765x2765.jpg';
-import BoulderingIsDumb_1_1_2764x2764 from '../../img/DRS_store/too_large/BoulderingIsDumb_1_1_2764x2764.jpg';
-import Brushes_1_1_2977x2977 from '../../img/DRS_store/too_large/Brushes_1_1_2977x2977.jpg';
-import Cords_1_1_2605x2605 from '../../img/DRS_store/too_large/Cords_1_1_2605x2605.jpg';
-import DRSVintage_1_1_2798x2798 from '../../img/DRS_store/too_large/DRSVintage_1_1_2798x2798.jpg';
-import DRSVintage2_1_1_2571x2571 from '../../img/DRS_store/too_large/DRSVintage2_1_1_2571x2571.jpg';
-import Endo_1_1_2170x2170 from '../../img/DRS_store/too_large/Endo_1_1_2170x2170.jpg';
-import HandledAscenders_1_1_2549x2549 from '../../img/DRS_store/too_large/HandledAscenders_1_1_2549x2549.jpg';
-import Houdini_1_1_3024x3024 from '../../img/DRS_store/too_large/Houdini_1_1_3024x3024.jpg';
-import MicroTraxion_1_1_2153x2153 from '../../img/DRS_store/too_large/MicroTraxion_1_1_2153x2153.jpg';
-import MSRFuel_1_1_3024x3024 from '../../img/DRS_store/too_large/MSRFuel_1_1_3024x3024.jpg';
-import Nimbus_1_1_2748x2748 from '../../img/DRS_store/too_large/Nimbus_1_1_2748x2748.jpg';
-import Patagonia_1_1_3024x3024 from '../../img/DRS_store/too_large/Patagonia_1_1_3024x3024.jpg';
-import Pivot_1_1_2502x2502 from '../../img/DRS_store/too_large/Pivot_1_1_2502x2502.jpg';
-import Reverso_1_1_2463x2463 from '../../img/DRS_store/too_large/Reverso_1_1_2463x2463.jpg';
-import Shoes_1_1_3024x3024 from '../../img/DRS_store/too_large/Shoes_1_1_3024x3024.jpg';
-import Spoc_1_1_2833x2833 from '../../img/DRS_store/too_large/Spoc_1_1_2833x2833.jpg';
-import WLB_1_1_1930x1930 from '../../img/DRS_store/too_large/WLB_1_1_1930x1930.jpg';
-import Yeti_1_1_3024x3024 from '../../img/DRS_store/too_large/Yeti_1_1_3024x3024.jpg';
+// import BDPacks_1_1_2850x2850 from '../../img/DRS_store/too_large/BDPacks_1_1_2850x2850.jpg';
+// import BigBros2_1_1_2765x2765 from '../../img/DRS_store/too_large/BigBros2_1_1_2765x2765.jpg';
+// import BoulderingIsDumb_1_1_2764x2764 from '../../img/DRS_store/too_large/BoulderingIsDumb_1_1_2764x2764.jpg';
+// import Brushes_1_1_2977x2977 from '../../img/DRS_store/too_large/Brushes_1_1_2977x2977.jpg';
+// import Cords_1_1_2605x2605 from '../../img/DRS_store/too_large/Cords_1_1_2605x2605.jpg';
+// import DRSVintage_1_1_2798x2798 from '../../img/DRS_store/too_large/DRSVintage_1_1_2798x2798.jpg';
+// import DRSVintage2_1_1_2571x2571 from '../../img/DRS_store/too_large/DRSVintage2_1_1_2571x2571.jpg';
+// import Endo_1_1_2170x2170 from '../../img/DRS_store/too_large/Endo_1_1_2170x2170.jpg';
+// import HandledAscenders_1_1_2549x2549 from '../../img/DRS_store/too_large/HandledAscenders_1_1_2549x2549.jpg';
+// import Houdini_1_1_3024x3024 from '../../img/DRS_store/too_large/Houdini_1_1_3024x3024.jpg';
+// import MicroTraxion_1_1_2153x2153 from '../../img/DRS_store/too_large/MicroTraxion_1_1_2153x2153.jpg';
+// import MSRFuel_1_1_3024x3024 from '../../img/DRS_store/too_large/MSRFuel_1_1_3024x3024.jpg';
+// import Nimbus_1_1_2748x2748 from '../../img/DRS_store/too_large/Nimbus_1_1_2748x2748.jpg';
+// import Patagonia_1_1_3024x3024 from '../../img/DRS_store/too_large/Patagonia_1_1_3024x3024.jpg';
+// import Pivot_1_1_2502x2502 from '../../img/DRS_store/too_large/Pivot_1_1_2502x2502.jpg';
+// import Reverso_1_1_2463x2463 from '../../img/DRS_store/too_large/Reverso_1_1_2463x2463.jpg';
+// import Shoes_1_1_3024x3024 from '../../img/DRS_store/too_large/Shoes_1_1_3024x3024.jpg';
+// import Spoc_1_1_2833x2833 from '../../img/DRS_store/too_large/Spoc_1_1_2833x2833.jpg';
+// import WLB_1_1_1930x1930 from '../../img/DRS_store/too_large/WLB_1_1_1930x1930.jpg';
+// import Yeti_1_1_3024x3024 from '../../img/DRS_store/too_large/Yeti_1_1_3024x3024.jpg';
 // 9:16
-import Aid_9_16_1934x3438 from '../../img/DRS_store/too_large/Aid_9_16_1934x3438.jpg';
-import BulletproofHMS_9_16_2029x3607 from '../../img/DRS_store/too_large/BulletproofHMS_9_16_2029x3607.jpg';
-import BulletproofScrew_9_16_1618x2877 from '../../img/DRS_store/too_large/BulletproofScrew_9_16_1618x2877.jpg';
-import DualConnectVario_9_16_2045x3636 from '../../img/DRS_store/too_large/DualConnectVario_9_16_2045x3636.jpg';
-import Gridlock_9_16_2268x4032 from '../../img/DRS_store/too_large/Gridlock_9_16_2268x4032.jpg';
-import Nuts_9_16_1918x3409 from '../../img/DRS_store/too_large/Nuts_9_16_1918x3409.jpg';
-import Puffy_9_16_2268x4032 from '../../img/DRS_store/too_large/Puffy_9_16_2268x4032.jpg';
-import Top100_9_16_1883x3347 from '../../img/DRS_store/too_large/Top100_9_16_1883x3347.jpg';
+// import Aid_9_16_1934x3438 from '../../img/DRS_store/too_large/Aid_9_16_1934x3438.jpg';
+// import BulletproofHMS_9_16_2029x3607 from '../../img/DRS_store/too_large/BulletproofHMS_9_16_2029x3607.jpg';
+// import BulletproofScrew_9_16_1618x2877 from '../../img/DRS_store/too_large/BulletproofScrew_9_16_1618x2877.jpg';
+// import DualConnectVario_9_16_2045x3636 from '../../img/DRS_store/too_large/DualConnectVario_9_16_2045x3636.jpg';
+// import Gridlock_9_16_2268x4032 from '../../img/DRS_store/too_large/Gridlock_9_16_2268x4032.jpg';
+// import Nuts_9_16_1918x3409 from '../../img/DRS_store/too_large/Nuts_9_16_1918x3409.jpg';
+// import Puffy_9_16_2268x4032 from '../../img/DRS_store/too_large/Puffy_9_16_2268x4032.jpg';
+// import Top100_9_16_1883x3347 from '../../img/DRS_store/too_large/Top100_9_16_1883x3347.jpg';
 // 16:9
-import BigCams_16_9_3724x2095 from '../../img/DRS_store/too_large/BigCams_16_9_3724x2095.jpg';
-import Bowls_16_9_3892x2189 from '../../img/DRS_store/too_large/Bowls_16_9_3892x2189.jpg';
-import C4cams_16_9_3896x2192 from '../../img/DRS_store/too_large/C4cams_16_9_3896x2192.jpg';
-import C4GreenPurple_16_9_4032x2268 from '../../img/DRS_store/too_large/C4GreenPurple_16_9_4032x2268.jpg';
-import Cords2_16_9_3285x1848 from '../../img/DRS_store/too_large/Cords2_16_9_3285x1848.jpg';
-import CrackGloves_16_9_3677x2069 from '../../img/DRS_store/too_large/CrackGloves_16_9_3677x2069.jpg';
-import Dragonflys_16_9_4032x2268 from '../../img/DRS_store/too_large/Dragonflys_16_9_4032x2268.jpg';
-import Dromedary_16_9_3806x2141 from '../../img/DRS_store/too_large/Dromedary_16_9_3806x2141.jpg';
-import GriGri_16_9_4032x2268 from '../../img/DRS_store/too_large/GriGri_16_9_4032x2268.jpg';
-import Harnesses_16_9_4032x2268 from '../../img/DRS_store/too_large/Harnesses_16_9_4032x2268.jpg';
-import Pants_16_9_3518x1980 from '../../img/DRS_store/too_large/Pants_16_9_3518x1980.jpg';
-import Skyhook_16_9_3356x1888 from '../../img/DRS_store/too_large/Skyhook_16_9_3356x1888.jpg';
-import Slings2_16_9_3179x1788 from '../../img/DRS_store/too_large/Slings2_16_9_3179x1788.jpg';
-import SmallLockers_16_9_3161x1778 from '../../img/DRS_store/too_large/SmallLockers_16_9_3161x1778.jpg';
+// import BigCams_16_9_3724x2095 from '../../img/DRS_store/too_large/BigCams_16_9_3724x2095.jpg';
+// import Bowls_16_9_3892x2189 from '../../img/DRS_store/too_large/Bowls_16_9_3892x2189.jpg';
+// import C4cams_16_9_3896x2192 from '../../img/DRS_store/too_large/C4cams_16_9_3896x2192.jpg';
+// import C4GreenPurple_16_9_4032x2268 from '../../img/DRS_store/too_large/C4GreenPurple_16_9_4032x2268.jpg';
+// import Cords2_16_9_3285x1848 from '../../img/DRS_store/too_large/Cords2_16_9_3285x1848.jpg';
+// import CrackGloves_16_9_3677x2069 from '../../img/DRS_store/too_large/CrackGloves_16_9_3677x2069.jpg';
+// import Dragonflys_16_9_4032x2268 from '../../img/DRS_store/too_large/Dragonflys_16_9_4032x2268.jpg';
+// import Dromedary_16_9_3806x2141 from '../../img/DRS_store/too_large/Dromedary_16_9_3806x2141.jpg';
+// import GriGri_16_9_4032x2268 from '../../img/DRS_store/too_large/GriGri_16_9_4032x2268.jpg';
+// import Harnesses_16_9_4032x2268 from '../../img/DRS_store/too_large/Harnesses_16_9_4032x2268.jpg';
+// import Pants_16_9_3518x1980 from '../../img/DRS_store/too_large/Pants_16_9_3518x1980.jpg';
+// import Skyhook_16_9_3356x1888 from '../../img/DRS_store/too_large/Skyhook_16_9_3356x1888.jpg';
+// import Slings2_16_9_3179x1788 from '../../img/DRS_store/too_large/Slings2_16_9_3179x1788.jpg';
+// import SmallLockers_16_9_3161x1778 from '../../img/DRS_store/too_large/SmallLockers_16_9_3161x1778.jpg';
 // 3:2
-import CanyoneeringBags_3_2_4032x2688 from '../../img/DRS_store/too_large/CanyoneeringBags_3_2_4032x2688.jpg';
-import Draws_3_2_3108x2072 from '../../img/DRS_store/too_large/Draws_3_2_3108x2072.jpg';
-import Filters_3_2_3802x2535 from '../../img/DRS_store/too_large/Filters_3_2_3802x2535.jpg';
-import FrictionLabs_3_2_3548x2365 from '../../img/DRS_store/too_large/FrictionLabs_3_2_3548x2365.jpg';
-import Miniwire_3_2_3000x2000 from '../../img/DRS_store/too_large/Miniwire_3_2_3000x2000.jpg';
-import Slings_3_2_4032x2688 from '../../img/DRS_store/too_large/Slings_3_2_4032x2688.jpg';
-import SmD_3_2_3225x2150 from '../../img/DRS_store/too_large/SmD_3_2_3225x2150.jpg';
-import VaporVCS_3_2_3157x2105 from '../../img/DRS_store/too_large/VaporVCS_3_2_3157x2105.jpg';
+// import CanyoneeringBags_3_2_4032x2688 from '../../img/DRS_store/too_large/CanyoneeringBags_3_2_4032x2688.jpg';
+// import Draws_3_2_3108x2072 from '../../img/DRS_store/too_large/Draws_3_2_3108x2072.jpg';
+// import Filters_3_2_3802x2535 from '../../img/DRS_store/too_large/Filters_3_2_3802x2535.jpg';
+// import FrictionLabs_3_2_3548x2365 from '../../img/DRS_store/too_large/FrictionLabs_3_2_3548x2365.jpg';
+// import Miniwire_3_2_3000x2000 from '../../img/DRS_store/too_large/Miniwire_3_2_3000x2000.jpg';
+// import Slings_3_2_4032x2688 from '../../img/DRS_store/too_large/Slings_3_2_4032x2688.jpg';
+// import SmD_3_2_3225x2150 from '../../img/DRS_store/too_large/SmD_3_2_3225x2150.jpg';
+// import VaporVCS_3_2_3157x2105 from '../../img/DRS_store/too_large/VaporVCS_3_2_3157x2105.jpg';
 // 2:3
 // 5:3
-import Approach2_5_3_4032x2419 from '../../img/DRS_store/too_large/Approach2_5_3_4032x2419.jpg';
-import Draws2_5_3_3600x2159 from '../../img/DRS_store/too_large/Draws2_5_3_3600x2159.jpg';
-import Harnesses2_5_3_4032x2419 from '../../img/DRS_store/too_large/Harnesses2_5_3_4032x2419.jpg';
-import HMS_5_3_3671x2202 from '../../img/DRS_store/too_large/HMS_5_3_3671x2202.jpg';
-import Katanas_5_3_3685x2211 from '../../img/DRS_store/too_large/Katanas_5_3_3685x2211.jpg';
-import Rhino_5_3_3580x2148 from '../../img/DRS_store/too_large/Rhino_5_3_3580x2148.jpg';
-import Solution_5_3_3480x2087 from '../../img/DRS_store/too_large/Solution_5_3_3480x2087.jpg';
-import SolutionComp_5_3_3565x2139 from '../../img/DRS_store/too_large/SolutionComp_5_3_3565x2139.jpg';
-import TenayaRa_5_3_3497x2098 from '../../img/DRS_store/too_large/TenayaRa_5_3_3497x2098.jpg';
-import Yeti2_5_3_4032x2419 from '../../img/DRS_store/too_large/Yeti2_5_3_4032x2419.jpg';
+// import Approach2_5_3_4032x2419 from '../../img/DRS_store/too_large/Approach2_5_3_4032x2419.jpg';
+// import Draws2_5_3_3600x2159 from '../../img/DRS_store/too_large/Draws2_5_3_3600x2159.jpg';
+// import Harnesses2_5_3_4032x2419 from '../../img/DRS_store/too_large/Harnesses2_5_3_4032x2419.jpg';
+// import HMS_5_3_3671x2202 from '../../img/DRS_store/too_large/HMS_5_3_3671x2202.jpg';
+// import Katanas_5_3_3685x2211 from '../../img/DRS_store/too_large/Katanas_5_3_3685x2211.jpg';
+// import Rhino_5_3_3580x2148 from '../../img/DRS_store/too_large/Rhino_5_3_3580x2148.jpg';
+// import Solution_5_3_3480x2087 from '../../img/DRS_store/too_large/Solution_5_3_3480x2087.jpg';
+// import SolutionComp_5_3_3565x2139 from '../../img/DRS_store/too_large/SolutionComp_5_3_3565x2139.jpg';
+// import TenayaRa_5_3_3497x2098 from '../../img/DRS_store/too_large/TenayaRa_5_3_3497x2098.jpg';
+// import Yeti2_5_3_4032x2419 from '../../img/DRS_store/too_large/Yeti2_5_3_4032x2419.jpg';
 // 3:5
 
 
@@ -529,7 +529,7 @@ import Yeti2_5_3_533x320 from '../../img/DRS_store/phone/Yeti2_5_3_533x320.jpg';
 
 
 // const srcSetSizes = ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"];
-const srcSetSizes = [""];
+const srcSetSizes = "";
 
 
 export const photos = [
@@ -540,8 +540,8 @@ export const photos = [
             ${Draws_3_2_720x480} 720w,
             ${Draws_3_2_1152x768} 1152w,
             ${Draws_3_2_1620x1080} 1620w,
-            // ${Draws_3_2_3108x2072} 3108w
             `
+            // ${Draws_3_2_3108x2072} 3108w
         ],
         sizes: srcSetSizes,
         alt: "We are usually stocked with quickdraws from 3-5 different brands.",
@@ -556,8 +556,8 @@ export const photos = [
             ${BigCams_16_9_853x480} 853w,
             ${BigCams_16_9_1365x768} 1365w,
             ${BigCams_16_9_1920x1080} 1920w,
-            // ${BigCams_16_9_3724x2095} 3724w
             `
+            // ${BigCams_16_9_3724x2095} 3724w
         ],
         sizes: srcSetSizes,
         alt: "Large spring loaded camming devices from Black Diamond",
@@ -572,8 +572,8 @@ export const photos = [
             ${Nuts_9_16_480x853} 480w,
             ${Nuts_9_16_768x1365} 768w,
             ${Nuts_9_16_1080x1920} 1080w,
-            // ${Nuts_9_16_1918x3409} 1918w
             `
+            // ${Nuts_9_16_1918x3409} 1918w
         ],
         sizes: srcSetSizes,
         alt: "An artistic arrangement of an assortment of DMM nuts. We try to stay stocked with the DMM Wallnuts, Offsets, and Brass Offsets. Often DMM Peenuts as well.",
@@ -588,8 +588,8 @@ export const photos = [
             ${Slings_3_2_720x480} 720w,
             ${Slings_3_2_1152x768} 1152w,
             ${Slings_3_2_1620x1080} 1620w,
-            // ${Slings_3_2_4032x2688} 4032w
             `
+            // ${Slings_3_2_4032x2688} 4032w
         ],
         sizes: srcSetSizes,
         alt: "A large assortment of slings from Mammut, Black Diamond, Edelrid, and DMM.",
@@ -604,8 +604,8 @@ export const photos = [
             ${Shoes_1_1_480x480} 480w,
             ${Shoes_1_1_768x768} 768w,
             ${Shoes_1_1_1080x1080} 1080w,
-            // ${Shoes_1_1_3024x3024} 3024w
             `
+            // ${Shoes_1_1_3024x3024} 3024w
         ],
         sizes: srcSetSizes,
         alt: "A wide assortment of climbing and approach shoes from La Sportiva, Scarpa, Black Diamond, Arcteryx, Tenaya, and 5.10 / Adidas. There is also a test wall to compare and really see if a model and size will work for you.",
@@ -620,8 +620,8 @@ export const photos = [
             ${Pads_4_3_640x480} 640w,
             ${Pads_4_3_1024x768} 1024w,
             ${Pads_4_3_1440x1080} 1440w,
-            // ${Pads_4_3_3641x2731} 3641w
             `
+            // ${Pads_4_3_3641x2731} 3641w
         ],
         sizes: srcSetSizes,
         alt: "Tons of Asana brand crash pads for sale for bouldering. Sometimes we have used ones from our rental fleet for sale, or used pads from others on consignment.",
@@ -636,8 +636,8 @@ export const photos = [
             ${C4cams_16_9_853x480} 853w,
             ${C4cams_16_9_1365x768} 1365w,
             ${C4cams_16_9_1920x1080} 1920w,
-            // ${C4cams_16_9_3896x2192} 3896w
             `
+            // ${C4cams_16_9_3896x2192} 3896w
         ],
         sizes: srcSetSizes,
         alt: "A selection of Black Diamond Cams.",
@@ -652,8 +652,8 @@ export const photos = [
             ${DRSVintage2_1_1_480x480} 480w,
             ${DRSVintage2_1_1_768x768} 768w,
             ${DRSVintage2_1_1_1080x1080} 1080w,
-            // ${DRSVintage2_1_1_2571x2571} 2571w
             `
+            // ${DRSVintage2_1_1_2571x2571} 2571w
         ],
         sizes: srcSetSizes,
         alt: "A very vintage-retro sweater with our old logo on it. We are trying to get them reprinted.",
@@ -668,8 +668,8 @@ export const photos = [
             ${Ropes_3_4_480x640} 480w,
             ${Ropes_3_4_768x1024} 768w,
             ${Ropes_3_4_1080x1440} 1080w,
-            // ${Ropes_3_4_2744x3659} 2744w
             `
+            // ${Ropes_3_4_2744x3659} 2744w
         ],
         sizes: srcSetSizes,
         alt: "A large assorment of dynamic climbing ropes from Edelrid, Sterling Rope, Beal, Black Diamond, Mammut, Trango, Edelweiss, etc... Single, halfs/twins, and triple rated ropes available in 60 to 80m lengths, rarely 90m. Static taglines too. We also have canyoneering rope and work static, in a different corner of the shop.",
@@ -684,8 +684,8 @@ export const photos = [
             ${FrictionLabs_3_2_720x480} 720w,
             ${FrictionLabs_3_2_1152x768} 1152w,
             ${FrictionLabs_3_2_1620x1080} 1620w,
-            // ${FrictionLabs_3_2_3548x2365} 3548w
             `
+            // ${FrictionLabs_3_2_3548x2365} 3548w
         ],
         sizes: srcSetSizes,
         alt: "A display of FrictionLabs Chalk",
@@ -700,8 +700,8 @@ export const photos = [
             ${CrackGloves_16_9_853x480} 853w,
             ${CrackGloves_16_9_1365x768} 1365w,
             ${CrackGloves_16_9_1919x1080} 1919w,
-            // ${CrackGloves_16_9_3677x2069} 3677w
             `
+            // ${CrackGloves_16_9_3677x2069} 3677w
         ],
         sizes: srcSetSizes,
         alt: "Crack climbing gloves",
@@ -716,8 +716,8 @@ export const photos = [
             ${Aid_9_16_480x853} 480w,
             ${Aid_9_16_768x1365} 768w,
             ${Aid_9_16_1080x1920} 1080w,
-            // ${Aid_9_16_1934x3438} 1934w
             `
+            // ${Aid_9_16_1934x3438} 1934w
         ],
         sizes: srcSetSizes,
         alt: "Some aid climbing gear: various hooks, ball nuts, tricams, and a fifi hook.",
@@ -732,8 +732,8 @@ export const photos = [
             ${G7_3_4_480x640} 480w,
             ${G7_3_4_768x1024} 768w,
             ${G7_3_4_1080x1440} 1080w,
-            // ${G7_3_4_2552x3403} 2552w
             `
+            // ${G7_3_4_2552x3403} 2552w
         ],
         sizes: srcSetSizes,
         alt: "G7 crack gloves, a newer brand",
@@ -748,8 +748,8 @@ export const photos = [
             ${GriGri_16_9_853x480} 853w,
             ${GriGri_16_9_1365x768} 1365w,
             ${GriGri_16_9_1920x1080} 1920w,
-            // ${GriGri_16_9_4032x2268} 4032w
             `
+            // ${GriGri_16_9_4032x2268} 4032w
         ],
         sizes: srcSetSizes,
         alt: "The Petzl GriGri in several colors and models.",
@@ -764,8 +764,8 @@ export const photos = [
             ${Harnesses_16_9_853x480} 853w,
             ${Harnesses_16_9_1365x768} 1365w,
             ${Harnesses_16_9_1920x1080} 1920w,
-            // ${Harnesses_16_9_4032x2268} 4032w
             `
+            // ${Harnesses_16_9_4032x2268} 4032w
         ],
         sizes: srcSetSizes,
         alt: "A variety of climbing harnesses from Petzl, Black Diamond, Edelrid, and Misty Mountain. Sometimes Arcteryx.",
@@ -780,8 +780,8 @@ export const photos = [
             ${BrassSwage_4_3_640x480} 640w,
             ${BrassSwage_4_3_1024x768} 1024w,
             ${BrassSwage_4_3_1440x1080} 1440w,
-            // ${BrassSwage_4_3_3024x2268} 3024w
             `
+            // ${BrassSwage_4_3_3024x2268} 3024w
         ],
         sizes: srcSetSizes,
         alt: "An artistic arrangement of the metal swage on some nuts.",
@@ -796,8 +796,8 @@ export const photos = [
             ${Dyon_4_3_640x480} 640w,
             ${Dyon_4_3_1024x768} 1024w,
             ${Dyon_4_3_1440x1080} 1440w,
-            // ${Dyon_4_3_3280x2460} 3280w
             `
+            // ${Dyon_4_3_3280x2460} 3280w
         ],
         sizes: srcSetSizes,
         alt: "The CAMP Dyon, a relatively new snag-less wiregate carabiner.",
@@ -812,8 +812,8 @@ export const photos = [
             ${Draws2_5_3_800x480} 800w,
             ${Draws2_5_3_1281x768} 1281w,
             ${Draws2_5_3_1801x1080} 1801w,
-            // ${Draws2_5_3_3600x2159} 3600w
             `
+            // ${Draws2_5_3_3600x2159} 3600w
         ],
         sizes: srcSetSizes,
         alt: "Quickdraws from Petzl and Black Diamond.",
@@ -828,8 +828,8 @@ export const photos = [
             ${Rhino_5_3_800x480} 800w,
             ${Rhino_5_3_1280x768} 1280w,
             ${Rhino_5_3_1800x1080} 1800w,
-            // ${Rhino_5_3_3580x2148} 3580w
             `
+            // ${Rhino_5_3_3580x2148} 3580w
         ],
         sizes: srcSetSizes,
         alt: "An assortment of Rhino Skincare products.",
@@ -844,8 +844,8 @@ export const photos = [
             ${BDPacks_1_1_480x480} 480w,
             ${BDPacks_1_1_768x768} 768w,
             ${BDPacks_1_1_1080x1080} 1080w,
-            // ${BDPacks_1_1_2850x2850} 2850w
             `
+            // ${BDPacks_1_1_2850x2850} 2850w
         ],
         sizes: srcSetSizes,
         alt: "Durable backpacks from Black Diamond, which stand up the the abrasive sandstone out at Red Rock.",
@@ -860,8 +860,8 @@ export const photos = [
             ${Headlamp_4_3_640x480} 640w,
             ${Headlamp_4_3_1024x768} 1024w,
             ${Headlamp_4_3_1440x1080} 1440w,
-            // ${Headlamp_4_3_2881x2161} 2881w
             `
+            // ${Headlamp_4_3_2881x2161} 2881w
         ],
         sizes: srcSetSizes,
         alt: "Headlamps. We typically carry Petzl and Black Diamond.",
@@ -876,8 +876,8 @@ export const photos = [
             ${BoulderingIsDumb_1_1_480x480} 480w,
             ${BoulderingIsDumb_1_1_768x768} 768w,
             ${BoulderingIsDumb_1_1_1080x1080} 1080w,
-            // ${BoulderingIsDumb_1_1_2764x2764} 2764w
             `
+            // ${BoulderingIsDumb_1_1_2764x2764} 2764w
         ],
         sizes: srcSetSizes,
         alt: "A popular shirt that says, 'Bouldering is dumb.' Sold by Sterling Rope, a company which makes no products for Bouldering.",
@@ -892,8 +892,8 @@ export const photos = [
             ${Isobutane_4_3_800x480} 800w,
             ${Isobutane_4_3_1280x768} 1280w,
             ${Isobutane_4_3_1800x1080} 1800w,
-            // ${Isobutane_4_3_4032x2419} 4032w
             `
+            // ${Isobutane_4_3_4032x2419} 4032w
         ],
         sizes: srcSetSizes,
         alt: "Isobutane fuel for small gas stoves.",
@@ -908,8 +908,8 @@ export const photos = [
             ${Filters_3_2_720x480} 720w,
             ${Filters_3_2_1152x768} 1152w,
             ${Filters_3_2_1620x1080} 1620w,
-            // ${Filters_3_2_3802x2535} 3802w
             `
+            // ${Filters_3_2_3802x2535} 3802w
         ],
         sizes: srcSetSizes,
         alt: "A small assortment of water filters for backpackers as well as water treatment tablets.",
@@ -924,8 +924,8 @@ export const photos = [
             ${Platy_4_3_640x480} 640w,
             ${Platy_4_3_1024x768} 1024w,
             ${Platy_4_3_1440x1080} 1440w,
-            // ${Platy_4_3_3667x2750} 3667w
             `
+            // ${Platy_4_3_3667x2750} 3667w
         ],
         sizes: srcSetSizes,
         alt: "The ever popular Platypus 2L flexible water bottle.",
@@ -940,8 +940,8 @@ export const photos = [
             ${SmD_3_2_720x480} 720w,
             ${SmD_3_2_1152x768} 1152w,
             ${SmD_3_2_1620x1080} 1620w,
-            // ${SmD_3_2_3225x2150} 3225w
             `
+            // ${SmD_3_2_3225x2150} 3225w
         ],
         sizes: srcSetSizes,
         alt: "The Petzl Sm'D, a small 'D' shaped locking carabiner which is very popular.",
@@ -956,8 +956,8 @@ export const photos = [
             ${Endo_1_1_480x480} 480w,
             ${Endo_1_1_768x768} 768w,
             ${Endo_1_1_1080x1080} 1080w,
-            // ${Endo_1_1_2170x2170} 2170w
             `
+            // ${Endo_1_1_2170x2170} 2170w
         ],
         sizes: srcSetSizes,
         alt: "Endo Gymnastic Chalk. An OG favorite.",
@@ -972,8 +972,8 @@ export const photos = [
             ${BDPacks2_4_3_640x480} 640w,
             ${BDPacks2_4_3_1024x768} 1024w,
             ${BDPacks2_4_3_1440x1080} 1440w,
-            // ${BDPacks2_4_3_3790x2842} 3790w
             `
+            // ${BDPacks2_4_3_3790x2842} 3790w
         ],
         sizes: srcSetSizes,
         alt: "Black Diamond climbers backpacks.",
@@ -988,8 +988,8 @@ export const photos = [
             ${Pads2_4_3_640x480} 640w,
             ${Pads2_4_3_1024x768} 1024w,
             ${Pads2_4_3_1440x1080} 1440w,
-            // ${Pads2_4_3_3279x2459} 3279w
             `
+            // ${Pads2_4_3_3279x2459} 3279w
         ],
         sizes: srcSetSizes,
         alt: "Asana crash pads and pad blankets.",
@@ -1004,8 +1004,8 @@ export const photos = [
             ${Sheep_4_3_640x480} 640w,
             ${Sheep_4_3_1024x768} 1024w,
             ${Sheep_4_3_1440x1080} 1440w,
-            // ${Sheep_4_3_3251x2438} 3251w
             `
+            // ${Sheep_4_3_3251x2438} 3251w
         ],
         sizes: srcSetSizes,
         alt: "A hand carved wood Big Horn Sheep statue.",
@@ -1020,8 +1020,8 @@ export const photos = [
             ${Yeti2_5_3_800x480} 800w,
             ${Yeti2_5_3_1280x768} 1280w,
             ${Yeti2_5_3_1800x1080} 1800w,
-            // ${Yeti2_5_3_4032x2419} 4032w
             `
+            // ${Yeti2_5_3_4032x2419} 4032w
         ],
         sizes: srcSetSizes,
         alt: "Yeti brand insulated drink products.",
@@ -1036,8 +1036,8 @@ export const photos = [
             ${MSRFuel_1_1_480x480} 480w,
             ${MSRFuel_1_1_768x768} 768w,
             ${MSRFuel_1_1_1080x1080} 1080w,
-            // ${MSRFuel_1_1_3024x3024} 3024w
             `
+            // ${MSRFuel_1_1_3024x3024} 3024w
         ],
         sizes: srcSetSizes,
         alt: "MSR liquid fuel containers.",
@@ -1052,8 +1052,8 @@ export const photos = [
             ${DualConnectVario_9_16_480x853} 480w,
             ${DualConnectVario_9_16_768x1366} 768w,
             ${DualConnectVario_9_16_1080x1920} 1080w,
-            // ${DualConnectVario_9_16_2045x3636} 2045w
             `
+            // ${DualConnectVario_9_16_2045x3636} 2045w
         ],
         sizes: srcSetSizes,
         alt: "The Petzl Dual Connect Vario. One of many variations of the Petzl Connect Adjust. We try to keep a few options in stock.",
@@ -1068,8 +1068,8 @@ export const photos = [
             ${Katanas_5_3_800x480} 800w,
             ${Katanas_5_3_1280x768} 1280w,
             ${Katanas_5_3_1800x1080} 1800w,
-            // ${Katanas_5_3_3685x2211} 3685w
             `
+            // ${Katanas_5_3_3685x2211} 3685w
         ],
         sizes: srcSetSizes,
         alt: "The LaSportiva Katana lace. A very comfortable yet aggressive climbing shoe.",
@@ -1084,8 +1084,8 @@ export const photos = [
             ${CanyoneeringBags_3_2_720x480} 720w,
             ${CanyoneeringBags_3_2_1152x768} 1152w,
             ${CanyoneeringBags_3_2_1620x1080} 1620w,
-            // ${CanyoneeringBags_3_2_4032x2688} 4032w
             `
+            // ${CanyoneeringBags_3_2_4032x2688} 4032w
         ],
         sizes: srcSetSizes,
         alt: "Canyoneering rope bags made of durable vinyl coated fabric with drainage holes for water and a few with foam inserts for flotation.",
@@ -1100,8 +1100,8 @@ export const photos = [
             ${Cords_1_1_480x480} 480w,
             ${Cords_1_1_768x768} 768w,
             ${Cords_1_1_1080x1080} 1080w,
-            // ${Cords_1_1_2605x2605} 2605w
             `
+            // ${Cords_1_1_2605x2605} 2605w
         ],
         sizes: srcSetSizes,
         alt: "An artistic assortment of accessory cord, available by the foot.",
@@ -1116,8 +1116,8 @@ export const photos = [
             ${Cords2_16_9_853x480} 853w,
             ${Cords2_16_9_1365x768} 1365w,
             ${Cords2_16_9_1920x1080} 1920w,
-            // ${Cords2_16_9_3285x1848} 3285w
             `
+            // ${Cords2_16_9_3285x1848} 3285w
         ],
         sizes: srcSetSizes,
         alt: "We sell our static work ropes by the foot in 9, 10, and 11mm as well as some of our canyoneering rope in 8.5mm",
@@ -1132,8 +1132,8 @@ export const photos = [
             ${HandledAscenders_1_1_480x480} 480w,
             ${HandledAscenders_1_1_768x768} 768w,
             ${HandledAscenders_1_1_1080x1080} 1080w,
-            // ${HandledAscenders_1_1_2549x2549} 2549w
             `
+            // ${HandledAscenders_1_1_2549x2549} 2549w
         ],
         sizes: srcSetSizes,
         alt: "Petzl handled ascenders",
@@ -1148,8 +1148,8 @@ export const photos = [
             ${Approach_3_4_480x640} 480w,
             ${Approach_3_4_768x1024} 768w,
             ${Approach_3_4_1080x1440} 1080w,
-            // ${Approach_3_4_2905x3874} 2905w
             `
+            // ${Approach_3_4_2905x3874} 2905w
         ],
         sizes: srcSetSizes,
         alt: "Up close selection of some of the most popular approach shoe models from La Sportiva in M's and W's models. The TX2, TX3, TX4, and TX Guide",
@@ -1164,8 +1164,8 @@ export const photos = [
             ${HMS_5_3_800x480} 800w,
             ${HMS_5_3_1280x768} 1280w,
             ${HMS_5_3_1800x1080} 1800w,
-            // ${HMS_5_3_3671x2202} 3671w
             `
+            // ${HMS_5_3_3671x2202} 3671w
         ],
         sizes: srcSetSizes,
         alt: "Up close picture of several larger close to rounded stock HMS locking carabiners.",
@@ -1180,8 +1180,8 @@ export const photos = [
             ${VaporVCS_3_2_720x480} 720w,
             ${VaporVCS_3_2_1152x768} 1152w,
             ${VaporVCS_3_2_1620x1080} 1620w,
-            // ${VaporVCS_3_2_3157x2105} 3157w
             `
+            // ${VaporVCS_3_2_3157x2105} 3157w
         ],
         sizes: srcSetSizes,
         alt: "The Scarpa Vapor VCS, a popular aggressive climbing shoe.",
@@ -1196,8 +1196,8 @@ export const photos = [
             ${Harnesses2_5_3_800x480} 800w,
             ${Harnesses2_5_3_1280x768} 1280w,
             ${Harnesses2_5_3_1800x1080} 1800w,
-            // ${Harnesses2_5_3_4032x2419} 4032w
             `
+            // ${Harnesses2_5_3_4032x2419} 4032w
         ],
         sizes: srcSetSizes,
         alt: "More climbing harnesses, overflowing from shelves.",
@@ -1212,8 +1212,8 @@ export const photos = [
             ${C4Red_4_3_640x480} 640w,
             ${C4Red_4_3_1024x768} 1024w,
             ${C4Red_4_3_1440x1080} 1440w,
-            // ${C4Red_4_3_2556x1917} 2556w
             `
+            // ${C4Red_4_3_2556x1917} 2556w
         ],
         sizes: srcSetSizes,
         alt: "An artistic close up of Black Diamond cams",
@@ -1228,8 +1228,8 @@ export const photos = [
             ${Skyhook_16_9_853x480} 853w,
             ${Skyhook_16_9_1365x768} 1365w,
             ${Skyhook_16_9_1920x1080} 1920w,
-            // ${Skyhook_16_9_3356x1888} 3356w
             `
+            // ${Skyhook_16_9_3356x1888} 3356w
         ],
         sizes: srcSetSizes,
         alt: "The popular Super Clip, used on the end of a painter's pole to clip quickdraws from the ground is now available with a high quality extendable aluminum pole: The Skyhook.",
@@ -1244,8 +1244,8 @@ export const photos = [
             ${Pants_16_9_853x480} 853w,
             ${Pants_16_9_1365x768} 1365w,
             ${Pants_16_9_1919x1080} 1919w,
-            // ${Pants_16_9_3518x1980} 3518w
             `
+            // ${Pants_16_9_3518x1980} 3518w
         ],
         sizes: srcSetSizes,
         alt: "Artistic closeup on the pattern and fabric of some women's pants.",
@@ -1260,8 +1260,8 @@ export const photos = [
             ${Slings2_16_9_853x480} 853w,
             ${Slings2_16_9_1365x768} 1365w,
             ${Slings2_16_9_1920x1080} 1920w,
-            // ${Slings2_16_9_3179x1788} 3179w
             `
+            // ${Slings2_16_9_3179x1788} 3179w
         ],
         sizes: srcSetSizes,
         alt: "A few quad length (240cm) dyneema slings.",
@@ -1276,8 +1276,8 @@ export const photos = [
             ${Brass_4_3_640x480} 640w,
             ${Brass_4_3_1024x768} 1024w,
             ${Brass_4_3_1440x1080} 1440w,
-            // ${Brass_4_3_3024x2268} 3024w
             `
+            // ${Brass_4_3_3024x2268} 3024w
         ],
         sizes: srcSetSizes,
         alt: "Close up picture of DMM Brass Offset nuts.",
@@ -1292,8 +1292,8 @@ export const photos = [
             ${Bug_4_3_640x480} 640w,
             ${Bug_4_3_1024x768} 1024w,
             ${Bug_4_3_1440x1080} 1440w,
-            // ${Bug_4_3_3777x2833} 3777w
             `
+            // ${Bug_4_3_3777x2833} 3777w
         ],
         sizes: srcSetSizes,
         alt: "The Petzl Bug, a great multipitch follower pack option.",
@@ -1308,8 +1308,8 @@ export const photos = [
             ${MicroTraxion_1_1_480x480} 480w,
             ${MicroTraxion_1_1_768x768} 768w,
             ${MicroTraxion_1_1_1080x1080} 1080w,
-            // ${MicroTraxion_1_1_2153x2153} 2153w
             `
+            // ${MicroTraxion_1_1_2153x2153} 2153w
         ],
         sizes: srcSetSizes,
         alt: "Closeup of the Petzl Microtraxion. A popular progress capture pulley.",
@@ -1324,8 +1324,8 @@ export const photos = [
             ${Nimbus_1_1_480x480} 480w,
             ${Nimbus_1_1_768x768} 768w,
             ${Nimbus_1_1_1080x1080} 1080w,
-            // ${Nimbus_1_1_2748x2748} 2748w
             `
+            // ${Nimbus_1_1_2748x2748} 2748w
         ],
         sizes: srcSetSizes,
         alt: "The CAMP Nimbus. A great feeling HMS screwgate carabiner.",
@@ -1340,8 +1340,8 @@ export const photos = [
             ${Reverso_1_1_480x480} 480w,
             ${Reverso_1_1_768x768} 768w,
             ${Reverso_1_1_1080x1080} 1080w,
-            // ${Reverso_1_1_2463x2463} 2463w
             `
+            // ${Reverso_1_1_2463x2463} 2463w
         ],
         sizes: srcSetSizes,
         alt: "The Petzl Reverso, a popular climbing belay / rappel device, with a top-belay guide mode.",
@@ -1356,8 +1356,8 @@ export const photos = [
             ${Miniwire_3_2_720x480} 720w,
             ${Miniwire_3_2_1152x768} 1152w,
             ${Miniwire_3_2_1620x1080} 1620w,
-            // ${Miniwire_3_2_3000x2000} 3000w
             `
+            // ${Miniwire_3_2_3000x2000} 3000w
         ],
         sizes: srcSetSizes,
         alt: "A wide assortment of available colors in the in the Black Diamond Miniwire, a small wire gate carabiner.",
@@ -1372,8 +1372,8 @@ export const photos = [
             ${Solution_5_3_800x480} 800w,
             ${Solution_5_3_1281x768} 1281w,
             ${Solution_5_3_1801x1080} 1801w,
-            // ${Solution_5_3_3480x2087} 3480w
             `
+            // ${Solution_5_3_3480x2087} 3480w
         ],
         sizes: srcSetSizes,
         alt: "The LaSportiva Solution in M's and W's models. A super classic aggressive shoe.",
@@ -1388,8 +1388,8 @@ export const photos = [
             ${SolutionComp_5_3_800x480} 800w,
             ${SolutionComp_5_3_1280x768} 1280w,
             ${SolutionComp_5_3_1800x1080} 1800w,
-            // ${SolutionComp_5_3_3565x2139} 3565w
             `
+            // ${SolutionComp_5_3_3565x2139} 3565w
         ],
         sizes: srcSetSizes,
         alt: "The LaSportiva Solution Comp in M's and W's models. A softer model of the classic.",
@@ -1404,8 +1404,8 @@ export const photos = [
             ${Dragonflys_16_9_853x480} 853w,
             ${Dragonflys_16_9_1365x768} 1365w,
             ${Dragonflys_16_9_1920x1080} 1920w,
-            // ${Dragonflys_16_9_4032x2268} 4032w
             `
+            // ${Dragonflys_16_9_4032x2268} 4032w
         ],
         sizes: srcSetSizes,
         alt: "DMM Dragonfly cams in all sizes. A new and great option for smaller cams.",
@@ -1420,8 +1420,8 @@ export const photos = [
             ${Spoc_1_1_480x480} 480w,
             ${Spoc_1_1_768x768} 768w,
             ${Spoc_1_1_1080x1080} 1080w,
-            // ${Spoc_1_1_2833x2833} 2833w
             `
+            // ${Spoc_1_1_2833x2833} 2833w
         ],
         sizes: srcSetSizes,
         alt: "Edelrid Spoc, a new option for those in the market for a progress capture pulley.",
@@ -1436,8 +1436,8 @@ export const photos = [
             ${Pivot_1_1_480x480} 480w,
             ${Pivot_1_1_768x768} 768w,
             ${Pivot_1_1_1080x1080} 1080w,
-            // ${Pivot_1_1_2502x2502} 2502w
             `
+            // ${Pivot_1_1_2502x2502} 2502w
         ],
         sizes: srcSetSizes,
         alt: "DMM Pivot, a popular guide mode belay device like the ATC-Guide or Reverso.",
@@ -1452,8 +1452,8 @@ export const photos = [
             ${BigBros_4_3_640x480} 640w,
             ${BigBros_4_3_1024x768} 1024w,
             ${BigBros_4_3_1440x1080} 1440w,
-            // ${BigBros_4_3_4032x3024} 4032w
             `
+            // ${BigBros_4_3_4032x3024} 4032w
         ],
         sizes: srcSetSizes,
         alt: "The Trango Big Bro adjustable tube chock. We keep the #3 (green) and #4 (blue) in stock. A lightweight option for the offwidth explorer.",
@@ -1468,8 +1468,8 @@ export const photos = [
             ${TenayaRa_5_3_800x480} 800w,
             ${TenayaRa_5_3_1280x768} 1280w,
             ${TenayaRa_5_3_1800x1080} 1800w,
-            // ${TenayaRa_5_3_3497x2098} 3497w
             `
+            // ${TenayaRa_5_3_3497x2098} 3497w
         ],
         sizes: srcSetSizes,
         alt: "Tenaya Ra, a great option for a comfortable all day or gym shoe.",
@@ -1484,8 +1484,8 @@ export const photos = [
             ${C4GreenPurple_16_9_853x480} 853w,
             ${C4GreenPurple_16_9_1365x768} 1365w,
             ${C4GreenPurple_16_9_1920x1080} 1920w,
-            // ${C4GreenPurple_16_9_4032x2268} 4032w
             `
+            // ${C4GreenPurple_16_9_4032x2268} 4032w
         ],
         sizes: srcSetSizes,
         alt: "Artistic close up photo of Black Diamond #0.5 and #0.75 cams.",
@@ -1500,8 +1500,8 @@ export const photos = [
             ${Brushes_1_1_480x480} 480w,
             ${Brushes_1_1_768x768} 768w,
             ${Brushes_1_1_1080x1080} 1080w,
-            // ${Brushes_1_1_2977x2977} 2977w
             `
+            // ${Brushes_1_1_2977x2977} 2977w
         ],
         sizes: srcSetSizes,
         alt: "An assortment of bouldering brushes to clean and brush off holds on bouldering problems which have been caked up with too much chalk, actually resulting in a lower friction surface.",
@@ -1516,8 +1516,8 @@ export const photos = [
             ${Gridlock_9_16_480x853} 480w,
             ${Gridlock_9_16_768x1365} 768w,
             ${Gridlock_9_16_1080x1920} 1080w,
-            // ${Gridlock_9_16_2268x4032} 2268w
             `
+            // ${Gridlock_9_16_2268x4032} 2268w
         ],
         sizes: srcSetSizes,
         alt: "The Black Diamond Gridlock screw gate carabiner. A great option in the realm of anti-crossloading belay carabiners.",
@@ -1532,8 +1532,8 @@ export const photos = [
             ${BigBros2_1_1_480x480} 480w,
             ${BigBros2_1_1_768x768} 768w,
             ${BigBros2_1_1_1080x1080} 1080w,
-            // ${BigBros2_1_1_2765x2765} 2765w
             `
+            // ${BigBros2_1_1_2765x2765} 2765w
         ],
         sizes: srcSetSizes,
         alt: "Close up photo of the warning on Big Bro adjustable tube chocks. Don't just push the button carelessly, the spring is strong and can definitely break your nose or teeth.",
@@ -1548,8 +1548,8 @@ export const photos = [
             ${TotemBlue_4_3_640x480} 640w,
             ${TotemBlue_4_3_1024x768} 1024w,
             ${TotemBlue_4_3_1440x1080} 1440w,
-            // ${TotemBlue_4_3_2441x1831} 2441w
             `
+            // ${TotemBlue_4_3_2441x1831} 2441w
         ],
         sizes: srcSetSizes,
         alt: "Artistic close up of a Totem Cam. Totem Cams are a unique and new variation on the classic spring loaded camming device which excells in pin scars and other places where normally offset cams would be best. Really interesting engineering.",
@@ -1564,8 +1564,8 @@ export const photos = [
             ${BulletproofHMS_9_16_480x853} 480w,
             ${BulletproofHMS_9_16_768x1365} 768w,
             ${BulletproofHMS_9_16_1080x1920} 1080w,
-            // ${BulletproofHMS_9_16_2029x3607} 2029w
             `
+            // ${BulletproofHMS_9_16_2029x3607} 2029w
         ],
         sizes: srcSetSizes,
         alt: "Edelrid Bulletproof carabiners, unique locking carabiners with a stainless steel insert to resist rope wear and last longer than pure aluminum carabiners.",
@@ -1580,8 +1580,8 @@ export const photos = [
             ${BulletproofScrew_9_16_480x853} 480w,
             ${BulletproofScrew_9_16_768x1366} 768w,
             ${BulletproofScrew_9_16_1080x1920} 1080w,
-            // ${BulletproofScrew_9_16_1618x2877} 1618w
             `
+            // ${BulletproofScrew_9_16_1618x2877} 1618w
         ],
         sizes: srcSetSizes,
         alt: "Edelrid Bulletproof carabiners, unique locking carabiners with a stainless steel insert to resist rope wear and last longer than pure aluminum carabiners.",
@@ -1596,8 +1596,8 @@ export const photos = [
             ${Approach2_5_3_800x480} 800w,
             ${Approach2_5_3_1280x768} 1280w,
             ${Approach2_5_3_1800x1080} 1800w,
-            // ${Approach2_5_3_4032x2419} 4032w
             `
+            // ${Approach2_5_3_4032x2419} 4032w
         ],
         sizes: srcSetSizes,
         alt: "Closeup of Scarpa Crux and Black Diamond Technician Approach Shoes.",
@@ -1612,8 +1612,8 @@ export const photos = [
             ${SmallLockers_16_9_853x480} 853w,
             ${SmallLockers_16_9_1365x768} 1365w,
             ${SmallLockers_16_9_1920x1080} 1920w,
-            // ${SmallLockers_16_9_3161x1778} 3161w
             `
+            // ${SmallLockers_16_9_3161x1778} 3161w
         ],
         sizes: srcSetSizes,
         alt: "Close up picture of several small locking carabiners.",
@@ -1628,8 +1628,8 @@ export const photos = [
             ${Postcards_3_4_480x640} 480w,
             ${Postcards_3_4_768x1024} 768w,
             ${Postcards_3_4_1080x1440} 1080w,
-            // ${Postcards_3_4_2695x3594} 2695w
             `
+            // ${Postcards_3_4_2695x3594} 2695w
         ],
         sizes: srcSetSizes,
         alt: "Stickers and postcards designed by local artists.",
@@ -1644,8 +1644,8 @@ export const photos = [
             ${Barnacle_4_3_640x480} 640w,
             ${Barnacle_4_3_1024x768} 1024w,
             ${Barnacle_4_3_1440x1080} 1440w,
-            // ${Barnacle_4_3_3024x2268} 3024w
             `
+            // ${Barnacle_4_3_3024x2268} 3024w
         ],
         sizes: srcSetSizes,
         alt: "Well behaved dogs are very welcome in the shop.",
@@ -1660,8 +1660,8 @@ export const photos = [
             ${Houdini_1_1_480x480} 480w,
             ${Houdini_1_1_768x768} 768w,
             ${Houdini_1_1_1080x1080} 1080w,
-            // ${Houdini_1_1_3024x3024} 3024w
             `
+            // ${Houdini_1_1_3024x3024} 3024w
         ],
         sizes: srcSetSizes,
         alt: "The Patagonia Houdini, a super packable windshell that works great for Red Rock multipitch climbing.",
@@ -1676,8 +1676,8 @@ export const photos = [
             ${Puffy_9_16_480x853} 480w,
             ${Puffy_9_16_768x1365} 768w,
             ${Puffy_9_16_1080x1920} 1080w,
-            // ${Puffy_9_16_2268x4032} 2268w
             `
+            // ${Puffy_9_16_2268x4032} 2268w
         ],
         sizes: srcSetSizes,
         alt: "A Patagonia Puffy jacket.",
@@ -1692,8 +1692,8 @@ export const photos = [
             ${Yeti_1_1_480x480} 480w,
             ${Yeti_1_1_768x768} 768w,
             ${Yeti_1_1_1080x1080} 1080w,
-            // ${Yeti_1_1_3024x3024} 3024w
             `
+            // ${Yeti_1_1_3024x3024} 3024w
         ],
         sizes: srcSetSizes,
         alt: "Yeti can coolers. These fit standard soda or beer size cans and keep your drink cooler than a normal neoprene Koozie would.",
@@ -1708,8 +1708,8 @@ export const photos = [
             ${Dromedary_16_9_853x480} 853w,
             ${Dromedary_16_9_1365x768} 1365w,
             ${Dromedary_16_9_1920x1080} 1920w,
-            // ${Dromedary_16_9_3806x2141} 3806w
             `
+            // ${Dromedary_16_9_3806x2141} 3806w
         ],
         sizes: srcSetSizes,
         alt: "MSR Dromlite and Dromedary water storage bags. Great option for durable water storage.",
@@ -1724,8 +1724,8 @@ export const photos = [
             ${Patagonia_1_1_480x480} 480w,
             ${Patagonia_1_1_768x768} 768w,
             ${Patagonia_1_1_1080x1080} 1080w,
-            // ${Patagonia_1_1_3024x3024} 3024w
             `
+            // ${Patagonia_1_1_3024x3024} 3024w
         ],
         sizes: srcSetSizes,
         alt: "Patagonia wicking shirt with old school hexentric chock graphic and 'clean climbing' text.",
@@ -1740,8 +1740,8 @@ export const photos = [
             ${Top100_9_16_480x853} 480w,
             ${Top100_9_16_768x1365} 768w,
             ${Top100_9_16_1080x1920} 1080w,
-            // ${Top100_9_16_1883x3347} 1883w
             `
+            // ${Top100_9_16_1883x3347} 1883w
         ],
         sizes: srcSetSizes,
         alt: "Top 100 Outdoor Retailers trophy.",
@@ -1756,8 +1756,8 @@ export const photos = [
             ${WLB_1_1_480x480} 480w,
             ${WLB_1_1_768x768} 768w,
             ${WLB_1_1_1080x1080} 1080w,
-            // ${WLB_1_1_1930x1930} 1930w
             `
+            // ${WLB_1_1_1930x1930} 1930w
         ],
         sizes: srcSetSizes,
         alt: "Wendell Broussard, 'The Dean of Red Rock'",
@@ -1772,8 +1772,8 @@ export const photos = [
             ${Bowls_16_9_853x480} 853w,
             ${Bowls_16_9_1365x768} 1365w,
             ${Bowls_16_9_1920x1080} 1920w,
-            // ${Bowls_16_9_3892x2189} 3892w
             `
+            // ${Bowls_16_9_3892x2189} 3892w
         ],
         sizes: srcSetSizes,
         alt: "MSR Plates and Bowls for camping",
@@ -1788,8 +1788,8 @@ export const photos = [
             ${DRSVintage_1_1_480x480} 480w,
             ${DRSVintage_1_1_768x768} 768w,
             ${DRSVintage_1_1_1080x1080} 1080w,
-            // ${DRSVintage_1_1_2798x2798} 2798w
             `
+            // ${DRSVintage_1_1_2798x2798} 2798w
         ],
         sizes: srcSetSizes,
         alt: "Desert Rock Sports, vintage-retro tank",
