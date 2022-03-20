@@ -173,56 +173,51 @@ todo - the galleries title text is just white text on whatever the image is for 
             span (where the title text ends up)
             ... tried a bit, can't get it to work... bleh
             its in bootstrap-with-overrides.sass
-! - alt srcset, sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
-    * MIND BLOWN. ( https://observablehq.com/@eeeps/w-descriptors-and-sizes-under-the-hood )
-        Browsers determine what to load based on dynamic resource densities, which are calculated from x descriptors and sizes
-        Once they have that... the browser does whatever it wants to.
-        Can test responsive imgs with RespImageLint, rather than my probably-flawed expectations about which
-        resource "should" be loaded. RespImageLint is now saved as a bookmarklet
-            Running it spits out a responsive images report for w/e page you are on
+// todo - alt srcset, sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
+//     * MIND BLOWN. ( https://observablehq.com/@eeeps/w-descriptors-and-sizes-under-the-hood )
+//         Browsers determine what to load based on dynamic resource densities, which are calculated from x descriptors and sizes
+//         Once they have that... the browser does whatever it wants to.
+//         Can test responsive imgs with RespImageLint, rather than my probably-flawed expectations about which
+//         resource "should" be loaded. RespImageLint is now saved as a bookmarklet
+//             Running it spits out a responsive images report for w/e page you are on
             
-        A side effect is that sizes ends up setting the intrinsic width of your image. Its weird. So, IF you need an image to
-        scale only below its normal max width, you need to specify its normal full size width in the <img />
-        In my use case, because very often I want the images to scale with width=100% of container, all this is different for me
-        -- for 100% view width images specify sizes="100vw"
-        -- for grid stuff...?
-    [x] Home - Hero BG / Splash
-        [x] sizes - straightforward since its width is 100% of view, no grid, etc...
-    [] Home - Pickles... actually it may be fine as its supposed to just be a temp img
-        [] sizes - same as for Julie
-    [] Home - Sufferpup Simba... actually it may be fine as its supposed to just be a temp img
-        [] sizes - same as for Julie
-    [x] Home - Julie Born to Bleed
-        at <992px vw, 1 col = img width = 100vw - padding/margins
-        at larger sizes: 2 cols = img width = 50vw - padding/margins
-        [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
-    [x] Home - Newsletter signup BG
-        kinda not ideal currently... so maybe hold off until I'm really satisfied with it?
-        else 100vw - padding/margins
-        [x] sizes - sizes="100vw - 30px"
-    [] Weather - SOMETHING EVENTUALLY
-        [] sizes
-    [x] Resoles - Shoes
-        at <1200px vw, 1 col = img width = 100vw - padding/margins
-        at larger sizes: 2 cols = img width = 50vw - padding/margins
-        [x] sizes - sizes="(min-width: 1200px) 50vw - 32px, 100vw - 32px"
-    [x] About - Cat plush aside
-        at <992px vs, 1 col = img width = 100vw - padding/margins
-        at larger sizes: 2 cols = img width = 50vw - padding/margins
-        [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
-    [x] Shop - Books
-        at <992px vs, 1 col = img width = 100vw - padding/margins
-        at larger sizes: 2 cols = img width = 50vw - padding/margins
-        [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
-    [x] 404
-        used: className="d-block mx-auto img-fluid w-70"
-        so think sizes="70vw" should be good-enough
-        [x] sizes
-    [] Make sure the large is not excessively large
-    [] Don't mess with 'sizes' rules when images are in a gallery, only when its like a background or aside or something
-    ... or do mess with it?!
-    https://neptunian.github.io/react-photo-gallery/srcset-and-sizes.html
-    https://neptunian.github.io/react-photo-gallery/examples/srcset-and-sizes.html
+//         A side effect is that sizes ends up setting the intrinsic width of your image. Its weird. So, IF you need an image to
+//         scale only below its normal max width, you need to specify its normal full size width in the <img />
+//         In my use case, because very often I want the images to scale with width=100% of container, all this is different for me
+//         -- for 100% view width images specify sizes="100vw"
+//         -- for grid stuff...?
+//     [x] Home - Hero BG / Splash
+//         [x] sizes - straightforward since its width is 100% of view, no grid, etc...
+//     [x] Home - Julie Born to Bleed
+//         at <992px vw, 1 col = img width = 100vw - padding/margins
+//         at larger sizes: 2 cols = img width = 50vw - padding/margins
+//         [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
+//     [x] Home - Newsletter signup BG
+//         kinda not ideal currently... so maybe hold off until I'm really satisfied with it?
+//         else 100vw - padding/margins
+//         [x] sizes - sizes="100vw - 30px"
+//     [x] Resoles - Shoes
+//         at <1200px vw, 1 col = img width = 100vw - padding/margins
+//         at larger sizes: 2 cols = img width = 50vw - padding/margins
+//         [x] sizes - sizes="(min-width: 1200px) 50vw - 32px, 100vw - 32px"
+//     [x] About - Cat plush aside
+//         at <992px vs, 1 col = img width = 100vw - padding/margins
+//         at larger sizes: 2 cols = img width = 50vw - padding/margins
+//         [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
+//     [x] Shop - Books
+//         at <992px vs, 1 col = img width = 100vw - padding/margins
+//         at larger sizes: 2 cols = img width = 50vw - padding/margins
+//         [x] sizes - sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
+//     [x] 404
+//         used: className="d-block mx-auto img-fluid w-70"
+//         so think sizes="70vw" should be good-enough
+//         [x] sizes
+//     [x] Make sure the large is not excessively large
+//     Don't mess with 'sizes' rules when images are in a gallery, only when its like a background or aside or something
+//     ... or do mess with it?!
+//     [x] I just set static rules, like 100vw - dead screen width in pixels
+//     https://neptunian.github.io/react-photo-gallery/srcset-and-sizes.html
+//     https://neptunian.github.io/react-photo-gallery/examples/srcset-and-sizes.html
 // todo - some general small fixes and changes to get rid of chrome linting warnings
 // todo - make sendinblue signup email show proper company, etc in the email header/body
 //     and not go straight to spam... maybe... or add a note to check spam folder
@@ -357,6 +352,17 @@ todo - MORE PERMANENT fix for news item scroll / column heights
         ...
         { this.imgRef.current.clientHeight }
         { this.imgRef.current.clientWidth }
+todo - srcSet / sizes
+    [] Home - Pickles srcSet... actually it may be fine as its supposed to just be a temp img
+        [] sizes - same as for Julie:
+            at <992px vw, 1 col = img width = 100vw - padding/margins
+            at larger sizes: 2 cols = img width = 50vw - padding/margins
+            sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
+    [] Home - Sufferpup Simba srcSet... actually it may be fine as its supposed to just be a temp img
+        [] sizes - same as for Julie:
+            at <992px vw, 1 col = img width = 100vw - padding/margins
+            at larger sizes: 2 cols = img width = 50vw - padding/margins
+            sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
 // * - TOO AMBITIOUS - Instagram feed embed
     // Apparently this is WAY harder than it used to be, due to recently increased security.
     // Check your bookmarks, you made a folder with all the info you need to do it.
@@ -500,7 +506,6 @@ todo - add something when you hover over the cards, like outline color change, l
 todo - when you close open major section accordion it snaps closed instead of having the previous smooth animated behavior... This is obviously because of my intervention below... how can I smooth this out????...
     * ... Really, the behavior currently isn't TERRIBLE. I just think it is. I. Me.
     * Realistically I can get back to this later. If that means copy/pasting in many files and places, well, oh well... more important to actually get the meat of the site out into a functional state.
-todo - add a main background of some kind? Something to fit multiple sizes, maybe multiple images
 todo - find / implement section backgrounds
     * 94px high
     * up to 1248px wide on 2560x1440
@@ -511,8 +516,8 @@ todo - find / implement section backgrounds
     ? How can I have multiple options for background, based on screen width, w/o @media?
         *<picture></picture>, with source + srcset, and media...
         ? how to then make this behave as a section background? position and z-index?
-todo - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
-* - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
+! - fix section backgrounds. Need to be able to have multiple sizes for multiple screen sizes. Currently <picture>...</picture>, with source srcset doesn't work... but a standard img tag inside does... a hackey way to fix the overflow is 'overflow': 'hidden'... Apparently you can do srcset inside an <img />, including media queries and specified widths... so I'll try this stuff next instead of <picture>...</picture>
+    * - I see 'The srcset attribute has an effect only when the <source> element is the direct child of a <picture> element.' on MDN... but elsewhere they contradict themselves... so... huh?
 ? - should the group of accordions try to initially center itself in the viewport?
 todo - try a background color gradient instead of just color for the accordion sub-section button/titles... darker on left side to help with text contrast... can't just do it on a button it seems. I think it must be a div w/ anchor tag or something similar
 ! - https://www.southernnevadaclimberscoalition.org/local-ethics/climbing-after-rain/
@@ -621,6 +626,9 @@ todo - links
         * https://57hours.com/blog/red-rock-climbing-etiquette/
         * https://www.redrockcanyonlv.org/wp-content/uploads/rrckeystone2017_vfin-web.pdf
         * ??
+todo - srcSet / sizes
+    [] Weather - srcSet SOMETHING EVENTUALLY, PROBABLY
+        [] sizes
 todo - images / video
     what wet rock looks like, including inside, pics and vids from others
 todo - search through the site and add links/text that people should check out the weather link/section of the site for more info on wet rock
@@ -659,10 +667,10 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
     * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
-todo - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
+? - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
     ... however, then I need to tease that they can be interacted with like that
     ... and more testing for different devices, accessability tests (tab through, screen readers)
-todo - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
+? - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
     add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
 todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button / form
     Implement skip to links

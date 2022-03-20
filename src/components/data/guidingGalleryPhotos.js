@@ -182,7 +182,9 @@ import JulieChrysler_3_2_480x320 from '../../img/RRCG/GuidingGalleryImgs/phone/J
 
 // original value: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"]
 // const srcSetSizes = "33vw";
-const srcSetSizes = "";
+// 67px, 99px, 99px, 67px
+// not the single number for dead width that I was looking for, will just use 99px
+const srcSetSizes = "100vw - 99px";
 
 export const photos = [
     {

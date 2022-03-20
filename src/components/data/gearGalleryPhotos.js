@@ -529,7 +529,11 @@ import Yeti2_5_3_533x320 from '../../img/DRS_store/phone/Yeti2_5_3_533x320.jpg';
 
 
 // const srcSetSizes = ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"];
-const srcSetSizes = "";
+// seems max width for any image, IF the gallery chooses to use it as the only image on a line is:
+// 100vw - 101px
+// ... but this is only 1 piece of the puzzle. Oh well!
+const srcSetSizes = "100vw - 101px";
+// const srcSetSizes = "100vw";
 
 
 export const photos = [
