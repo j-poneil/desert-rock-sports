@@ -21,6 +21,15 @@ export const newsItems = [
     //     )
     // },
     {
+        title: "Petzl Connect Adjust!",
+        date: "03/17/2022",
+        post: () => (
+            <>
+                <p>The adjustable lanyard / PAS that everyone has been asking about. These are finally back in stock. Get them while you can!</p>
+            </>
+        )
+    },
+    {
         title: "Totem Cams back in stock!",
         date: "02/02/2022",
         post: () => (
