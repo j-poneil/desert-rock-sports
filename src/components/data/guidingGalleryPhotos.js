@@ -1,3 +1,4 @@
+// import React from 'react';
 /*
     An array of objects, each containing src, width, height (width and height as variables/names, not strings)... width / height for knowing aspect ratio so it is maintained...
     property    type        default     desc

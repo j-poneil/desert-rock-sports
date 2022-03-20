@@ -163,6 +163,7 @@ todo - the galleries title text is just white text on whatever the image is for 
     If I can add something like this:
         font-weight: bolder;
         font-size: medium;
+        -or- font-size: 20px;
         color: black;
         -webkit-text-fill-color: white;
         -webkit-text-stroke-width: 1px;
