@@ -155,25 +155,17 @@ todo - Maybe ambitious - gallery lazy loading
         ... maybe not as easy as I was expecting
         You can set a custom imageRenderer for react-loading... so MAYBE thats an option
         ... but basically I want the default renderer, just wrapped ...?
-todo - the galleries title text is just white text on whatever the image is for the background.
-    ? Can I make the text have a black background? Or white Text w/ black outline?
-    ? Can I make the text larger?
-    ? Can I change the no mouse movement / timeout delay for the text to disapear? It goes away a bit too fast for some of the titles
-    Eventually the text is in a span
-    If I can add something like this:
-        font-weight: bolder;
-        font-size: medium;
-        -or- font-size: 20px;
-        color: black;
-        -webkit-text-fill-color: white;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: black;
-    That would work
-    div.react-images__footer
-        span.react-images__footer__caption
-            span (where the title text ends up)
-            ... tried a bit, can't get it to work... bleh
-            its in bootstrap-with-overrides.sass
+? Can I change the no mouse movement / timeout delay for the text to disapear? It goes away a bit too fast for some of the titles
+// todo - the galleries title text is just white text on whatever the image is for the background.
+//     Can I make the text have a black background? Or white Text w/ black outline?
+//     Can I make the text larger?
+//     % I found a way!
+//         Instead of passing a string of text to title, use JSX and pass a variable that has a styled 'span'
+//         ... Now find a way that I can implement this on all of them.
+//         ... Preferably w/o copy pasting or find/replace a ton
+//         1. Make a function styleModalTitle(text) ===> <span STYLES >{ text }</span>
+//         2. map over the array of objects and output a new array where every title has been wrapped... export that one lol
+//             Went with this, works well, placed the funcs in a utils.js file to not further complicate the existing hot mess
 // todo - alt srcset, sizes, and smaller file sizes for other general images on the site (besides the galleries). IE backgrounds, asides.
 //     * MIND BLOWN. ( https://observablehq.com/@eeeps/w-descriptors-and-sizes-under-the-hood )
 //         Browsers determine what to load based on dynamic resource densities, which are calculated from x descriptors and sizes

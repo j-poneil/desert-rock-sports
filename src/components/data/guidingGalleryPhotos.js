@@ -1,4 +1,5 @@
-// import React from 'react';
+import { styleModalTitles } from '../../utils/utils';
+
 /*
     An array of objects, each containing src, width, height (width and height as variables/names, not strings)... width / height for knowing aspect ratio so it is maintained...
     property    type        default     desc
@@ -162,6 +163,7 @@ import JulieChrysler_3_2_480x320 from '../../img/RRCG/GuidingGalleryImgs/phone/J
 
 
 
+
 //% can just set a const for sizes and only have to edit in one place
 // cell: 320w - 568w
 // small: 480w - 853w
@@ -187,7 +189,7 @@ import JulieChrysler_3_2_480x320 from '../../img/RRCG/GuidingGalleryImgs/phone/J
 // not the single number for dead width that I was looking for, will just use 99px
 const srcSetSizes = "100vw - 99px";
 
-export const photos = [
+const photosPreStyledTitle = [
     {
         src: FirstCreekSlabsAwe_3_4_1080x1440,
         srcSet: [
@@ -491,3 +493,10 @@ export const photos = [
     //     title: ""
     // },
 ];
+
+
+
+// Here I take the array of objects, photosPreStyledTitle
+// and for every piece of title, which is a text string, I replace it with a <span></span> wrapped title.
+// I use utility functions I import in so as to not further clutter this hot mess of a file
+export const photos = styleModalTitles(photosPreStyledTitle);

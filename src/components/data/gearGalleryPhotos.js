@@ -1,3 +1,5 @@
+import { styleModalTitles } from '../../utils/utils';
+
 /*
     An array of objects, each containing src, width, height (width and height as variables/names, not strings)... width / height for knowing aspect ratio so it is maintained...
     property    type        default     desc
@@ -536,7 +538,7 @@ const srcSetSizes = "100vw - 101px";
 // const srcSetSizes = "100vw";
 
 
-export const photos = [
+export const photosPreStyledTitle = [
     {
         src: Draws_3_2_1620x1080,
         srcSet: [
@@ -1809,3 +1811,11 @@ export const photos = [
     //     title: ""
     // },
 ];
+
+
+
+
+// Here I take the array of objects, photosPreStyledTitle
+// and for every piece of title, which is a text string, I replace it with a <span></span> wrapped title.
+// I use utility functions I import in so as to not further clutter this hot mess of a file
+export const photos = styleModalTitles(photosPreStyledTitle);
