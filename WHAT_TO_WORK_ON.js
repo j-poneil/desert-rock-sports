@@ -155,7 +155,35 @@ todo - Maybe ambitious - gallery lazy loading
         ... maybe not as easy as I was expecting
         You can set a custom imageRenderer for react-loading... so MAYBE thats an option
         ... but basically I want the default renderer, just wrapped ...?
+! - [Intervention] Unable to preventDefault inside passive event listener due to target being treated as passive. See <URL>
+    Happens when scrolling/dragging between modal images, gets into the thousands of reports, easily
+    Seems like happening in Swipe.js
+    ... .addEventListener('touchmove', handler, {passive: false});
+    https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+    maybe add css touchAction: none ... or touchAction: 'pan-y' to the scrollable container?
+    https://github.com/akiran/react-slick/issues/1650
+        ... not the same, but should be ... parallel-ish
+        ... .slick-list, .slick-track { touch-action:pan-y; }
+        ... I should be able to find similar for Swipe.js or something
+    https://github.com/nolimits4web/swiper/issues/3312
+        slideoption={
+            zoom:true,
+            passiveListeners: false,
+        }
+        "Use this inside the component"
+        ... element with class .touch
+        <style lang="scss"> .touch { -ms-touch-action: pan-y; touch-action: pan-y; } </style>
+    window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, {passive: false});
+        This in index.html at the bottom... does not work as intended. Can't touch scroll normally.
+        Can touch scroll in modal/carousel.
+        passive: true - ALSO doesn't work as intended. Scroll works as before, but extra errors for any scrolling, not just when
+        inside the modal / carousel
+        
 ? Can I change the no mouse movement / timeout delay for the text to disapear? It goes away a bit too fast for some of the titles
+todo - galleries title text - what about restricting the width of the text?
+// todo - NOTE - galleries title text - wrapping title in spans fails a propTypes test... but I never asked for it
+//     So long as it still works after the production build, I'll live with it!
+// todo - galleries title text - add a transparent black background for even better readability
 // todo - the galleries title text is just white text on whatever the image is for the background.
 //     Can I make the text have a black background? Or white Text w/ black outline?
 //     Can I make the text larger?
