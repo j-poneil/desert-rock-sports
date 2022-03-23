@@ -121,6 +121,8 @@ https://nomadventures.com/
         ==> None of this makes all that much sense to do.
         Its easy enough for me to just make small changes and updates the 3-4 times a year it is needed.
         Especially considering how I have laid out all this.
+? - galleries title text - Can I change the no mouse movement / timeout delay for the text to disapear?
+? - galleries title text - what about restricting the width of the text?
 ! - in Row and Col xxl=(#) doesn't work, period. All other sizes are fine, but xxl settings never work. NEVER.
     * looks like when you inspect a page it doesn't show up as a global breakpoint option
     * I should be able to add it
@@ -179,8 +181,6 @@ todo - Maybe ambitious - gallery lazy loading
         passive: true - ALSO doesn't work as intended. Scroll works as before, but extra errors for any scrolling, not just when
         inside the modal / carousel
         
-? Can I change the no mouse movement / timeout delay for the text to disapear? It goes away a bit too fast for some of the titles
-todo - galleries title text - what about restricting the width of the text?
 // todo - NOTE - galleries title text - wrapping title in spans fails a propTypes test... but I never asked for it
 //     So long as it still works after the production build, I'll live with it!
 // todo - galleries title text - add a transparent black background for even better readability
@@ -384,6 +384,9 @@ todo - srcSet / sizes
             at <992px vw, 1 col = img width = 100vw - padding/margins
             at larger sizes: 2 cols = img width = 50vw - padding/margins
             sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
+? - Contact divs for DRS and R2C2
+    To make them easier to see which is which at a glance besides reading...
+    What about a very light background of gear and of a climbing wall?
 // * - TOO AMBITIOUS - Instagram feed embed
     // Apparently this is WAY harder than it used to be, due to recently increased security.
     // Check your bookmarks, you made a folder with all the info you need to do it.
@@ -826,8 +829,10 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 
 
 @ Shop page ---------------------------------------
-! - ADD link data thing for Mojave Limestone and Keyhole Canyon
+! - ADD link data thing for Southern Nevada Bouldering 3 - WHEN RELEASED
+! - ADD link data thing for Mojave Limestone, Keyhole Canyon
 ! - ADD current prices
+// todo - Southern Nevada Bouldering II is out of print now, add a rough maybe next version out date
 // todo - ADD a note on shipping pricing???? -- 10 for 1-2 books flat rate shipping envelope is pretty easy IIRC
 // todo - make the image be a Card.Img inside a Card component for consistent corner rounding
 // todo - Alignment...

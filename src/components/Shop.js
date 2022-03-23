@@ -11,10 +11,15 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 // imgs
 import BuyNow from '../img/DRS_webShop/buyNow.gif';
 // import Big4 from '../img/DRS_webShop/Big4_563x750.jpg';
-import Big4_320x427 from '../img/DRS_webShop/Big4_320x427-min.jpg';
-import Big4_480x640 from '../img/DRS_webShop/Big4_480x640-min.jpg';
-import Big4_768x1024 from '../img/DRS_webShop/Big4_768x1024-min.jpg';
-import Big4_1080x1440 from '../img/DRS_webShop/Big4_1080x1440-min.jpg';
+// import Big4_320x427 from '../img/DRS_webShop/Big4_320x427-min.jpg';
+// import Big4_480x640 from '../img/DRS_webShop/Big4_480x640-min.jpg';
+// import Big4_768x1024 from '../img/DRS_webShop/Big4_768x1024-min.jpg';
+// import Big4_1080x1440 from '../img/DRS_webShop/Big4_1080x1440-min.jpg';
+// Southern Nevada Bouldering 2 crossed out - out of print!
+import Big4_320x427 from '../img/DRS_webShop/Big4_2_320x427-min.jpg';
+import Big4_480x640 from '../img/DRS_webShop/Big4_2_480x640-min.jpg';
+import Big4_768x1024 from '../img/DRS_webShop/Big4_2_768x1024-min.jpg';
+import Big4_1080x1440 from '../img/DRS_webShop/Big4_2_1080x1440-min.jpg';
 
 // styles here:
 // src\stylesheets\pages\_shop.sass
@@ -86,13 +91,15 @@ export default function Shop(){
                                     <Col className='mt-3'>
                                         <Card style={ bookCardStyles }>
                                             <Card.Body>
-                                                <Card.Title style={ bookTitleStyles }>Southern Nevada Bouldering 2</Card.Title>
+                                                <Card.Title style={ bookTitleStyles }><span style={{textDecoration: 'line-through'}}>Southern Nevada Bouldering 2</span><br />
+                                                OUT OF PRINT<br />
+                                                3rd Edition will be in stock when it is released, maybe Spring 2023</Card.Title>
                                                 <Card.Subtitle style={ bookTitleStyles }>Tom Moulin</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>THE Book for bouldering in the area</Card.Subtitle>
                                                 <Card.Text>Covers many nearby areas, mostly sandstone, some limestone. Much easier to navigate to your obscure boulders when you have a map. This is the 2nd Edition.</Card.Text>
                                                 {/* SN Bouldering 2 order button*/}
-                                                <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                {/* <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                                     <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
                                                     <input type="hidden" name="cmd" value="_s-xclick" />
                                                     <input type="hidden" name="hosted_button_id" value="LN2BBTL6XCPXN" />
@@ -100,7 +107,7 @@ export default function Shop(){
                                                         style={ ppButtonStyle }
                                                         type="image" src={ BuyNow } border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
                                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                </form>
+                                                </form> */}
                                             </Card.Body>
                                         </Card>
                                     </Col>
