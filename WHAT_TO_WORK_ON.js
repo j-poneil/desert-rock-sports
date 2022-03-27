@@ -680,22 +680,15 @@ todo - ambitious, but maybe AUTO alert with react-bootstrap style for when wet w
 @ Guiding page ------------------------------------
 ! - FOR-ANY-RELEASE - Wording EVERYWHERE, and trim down amount of text a bit
 ! - FOR-ANY-RELEASE - get peoples desired blurbs, photos, links to whatever, etc...
-    be sure to polish, compress if needed
 ! - FOR-ANY-RELEASE - manually add more content to everyone so that their bios end up closer to the same length... can use lists, etc...
+? - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc... accessability concern
+? - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
+? - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 ! - consider re-structuring...
     * Tier Cards First (or after a wide jumbotron w/ Red Rock Climbing Guides)
     * THEN RRCG / How it Works Steps + About our guiding columns...
     * THEN Pics from guided climbing outings
     * THEN Check out some of our guides, etc...
-! - guide inquiry form
-    * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
-    Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
-    * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
-? - AMBITIOUS - consider on tier cards some sort of 3d, animation, click on to flip over to a description, etc...
-    ... however, then I need to tease that they can be interacted with like that
-    ... and more testing for different devices, accessability tests (tab through, screen readers)
-? - AMBITIOUS - Un-necessary hassle - dynamic climbing experience for the guides
-    add an estimated date when they started climbing and calculate how long they have been climbing total, in years based on user clock? One less thing to update from time to time...
 todo - make sure tab through accessibility is there... IF there is a reason for it to be, like a 'book it now' button / form
     Implement skip to links
         tiers
@@ -703,7 +696,10 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
         gallery
         if there is a email form? ... probably should be
             thus I can prompt them for some of the common basic info we need to know to actually be able to help them
-todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
+! - guide inquiry form
+    * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
+    Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
+    * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
 // todo - guidingGalleryPhotos.js - commenting out largest img doesn't work like that, fix/remove.
 // todo - beautify bio pics
 //     5-15% lower brightness, 5-15% higher contrast, auto color boost thing, maybe auto whitebalance
@@ -829,6 +825,7 @@ todo - Canyoneering, Adventure Hiking, etc Tier 3-ish cards?
 
 
 @ Shop page ---------------------------------------
+? - Tab thru accessability?
 ! - ADD link data thing for Southern Nevada Bouldering 3 - WHEN RELEASED
 ! - ADD link data thing for Mojave Limestone, Keyhole Canyon
 ! - ADD current prices

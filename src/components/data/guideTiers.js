@@ -153,31 +153,70 @@ export const tiers = [
             </>
         )
     },
+    //% ================================================================
+    // For future anticipated tiers
     // {
-    //     imgSm: Levitation29_500w,
-    //     imgAltText: "A climbers on a difficult and very classic multipitch rock climb, Levitation 29.",
-    //     imgCredit: "Levitation 29. Photo by Matt Kuehl.",
-    //     tierName: "Tier 4 - Adventure Hike",
-    //     tierDuration: "8-14+ Hours",
-    //     tierDescription: () => (<><p>For long remote adventure hikes, like Bridge Mountain</p></>),
+    //     // img: ?,
+    //     imgSm: ______,
+    //     imgAltText: "",
+    //     imgCredit: "Photo by ______",
+    //     tierName: "Tier - Canyoneering",
+    //     tierDuration: "??? hours",
+    //     tierDescription: () => (
+    //         <>
+    //             <p>We rarely guide canyoneering, but it is an option.</p>
+    //             <ul>
+    //                 <li>The Maze / Ice Cube Canyon</li>
+    //                 <li>...</li>
+    //                 <li>...</li>
+    //                 <li>etc...</li>
+    //             </ul>
+    //         </>
+    //     ),
     //     costTable: [
-    //         {1: "$400 to $600"},
-    //         {2: "$700 to $900"}
+    //         {1: '$???'},
+    //         {2: '$???'},
+    //         {3: '$???'},
+    //         {4: '$???'},
+    //         {5: '$???'}
     //     ],
-    //     tierNotes: () => (<><p>Fitness is necessary.</p></>)
+    //     tierNotes: () => (
+    //         <>
+    //             <p>( Notes on our canyoneering outing... )</p>
+    //         </>
+    //     )
     // },
     // {
-    //     img: Levitation29,
-    //     imgSm: Levitation29_500w,
-    //     imgAltText: "A climbers on a difficult and very classic multipitch rock climb, Levitation 29.",
-    //     imgCredit: "Levitation 29. Photo by Matt Kuehl.",
-    //     tierName: "Tier 5 - Big Wall",
-    //     tierDuration: "24h+",
-    //     tierDescription: () => (<><p>For multi-day climbs where you are sleeping on the wall, either on portaledge or a big enough natural rock ledge.</p></>),
+    //     // img: ?,
+    //     imgSm: ______,
+    //     imgAltText: "",
+    //     imgCredit: "Photo by ______",
+    //     tierName: "Tier - Adventure Hike",
+    //     tierDuration: "??? hours",
+    //     tierDescription: () => (
+    //         <>
+    //             <p>Our adventure hike tier is a flexible option. In the past some experienced multipitch climbers have used this on active rest days as a good way to go with a guide and scope out the walk off descent for big routes that they plan to do in the future.</p>
+    //             <p>Its also a good option if you just want to go hiking.</p>
+    //             <ul>
+    //                 <li>Bridge Mountain</li>
+    //                 <li>Wilson via First Creek</li>
+    //                 <li>Juniper Summit</li>
+    //                 <li>White Rock Loop</li>
+    //                 <li>etc...</li>
+    //             </ul>
+    //         </>
+    //     ),
     //     costTable: [
-    //         {1: "$400 to $600"},
-    //         {2: "$700 to $900"}
+    //         {1: '$???'},
+    //         {2: '$???'},
+    //         {3: '$???'},
+    //         {4: '$???'},
+    //         {5: '$???'}
     //     ],
-    //     tierNotes: () => (<><p>This is a huge ordeal.</p></>)
-    // }
+    //     tierNotes: () => (
+    //         <>
+    //             <p>( Notes on our adventure hike excursions... )</p>
+    //         </>
+    //     )
+    // },
 ];

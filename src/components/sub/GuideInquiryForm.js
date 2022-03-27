@@ -43,37 +43,89 @@ function GuideInquiryForm() {
                     {/* <input type="text" name="name" placeholder="Your name" value={state.name} onChange={handleChange} required /> */}
                     <Form.Group controlId='formName'>
                         <Form.Label>Full Name (or Names)</Form.Label>
-                        <Form.Control type="text" name="name" placeholder="Your name" value={state.name} onChange={handleChange} required />
+                        <Form.Control
+                            type="text"
+                            name="name"
+                            placeholder="Your name"
+                            value={state.name}
+                            onChange={handleChange}
+                            required
+                        />
                     </Form.Group>
 
                     {/* <input type="tel" name="tel" placeholder="Phone number" required /> */}
                     <Form.Group controlId='formTel'>
-                        <Form.Label>Best phone number to reach you at</Form.Label>
-                        <Form.Control type="tel" name="tel" placeholder="Phone number" required />
+                        <Form.Label>Best phone number to reach you at, can provide multiple methods of contact below under "more details"</Form.Label>
+                        <Form.Control
+                            type="tel"
+                            name="tel"
+                            placeholder="Phone number"
+                            required
+                        />
                     </Form.Group>
 
                     {/* <input type="email" name="email" placeholder="youremailaddress@something.com" required /> */}
                     <Form.Group controlId='formEmail'>
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" name="email" placeholder="youremailaddress@something.com" required />
+                        <Form.Control
+                            type="email"
+                            name="email"
+                            placeholder="youremailaddress@something.com"
+                            required
+                        />
                     </Form.Group>
 
-
-                    <Form.Group controlId=''>
-                        <Form.Label></Form.Label>
-                        <Form.Control />
+                    <Form.Group controlId='formDates'>
+                        <Form.Label>Date or dates which you are interested in</Form.Label>
+                        <Form.Control
+                            type="text"
+                            name="dates"
+                            placeholder="ex: a specific date, multiple dates, or... 'its complicated / flexible' and explain below"
+                            required
+                        />
                     </Form.Group>
 
-
-                    <Form.Group controlId=''>
-                        <Form.Label></Form.Label>
-                        <Form.Control />
+                    <Form.Group controlId='formExpLevel'>
+                        <Form.Label>Current experience level(s). Please be very honest.</Form.Label>
+                        <Form.Control
+                            as='textarea'
+                            name="experience_level"
+                            placeholder="Ex. climbing on and off for ~8 years, mostly outside, all sport, no trad. Son, 17, red points 5.12- in gyms, has never climbed real rock, has never climbed a crack. Other son, 15, has never climbed at all. Daughter, 18, spent a month climbing at Indian Creek and has cleanly lead several 5.11 cracks there, but usually prefers 5.8-10a multipitch."
+                            rows={3}
+                            required
+                        />
                     </Form.Group>
 
-                    {/* <textarea name="details" placeholder="Give us the details!" rows="10" required /> */}
-                    <Form.Group controlId=''>
-                        <Form.Label></Form.Label>
-                        <Form.Control as='textarea' name="details" placeholder="Give us more details! What are your goals? What are your experience level(s)? Age(s)? Are there particular logistical difficulties associated with these dates? Such as hard deadlines you need to be back in Vegas by to catch a flight. Is other contact info needed? Whats the best way to contact you? Is there a particular route or routes you are interested in? Are there particular skills you are wanting to learn? etc..." rows={5} required />
+                    <Form.Group controlId='formMoreDetails'>
+                        <Form.Label>Give us more details of what you would like to accomplish</Form.Label>
+                        <Form.Control
+                            as='textarea'
+                            name="more_details"
+                            placeholder="What are your goals? Is there a particular route or routes you are interested in? Are there particular skills you are wanting to learn? Wanting to learn trad climbing? Multipitch sport climbing? Self/partner rescue skills? Just want to get some fun climbing in?"
+                            rows={5}
+                            required
+                        />
+                    </Form.Group>
+
+                    <Form.Group controlId='formLogistics'>
+                        <Form.Label>Give us any important logistical details we need to keep in mind or work around.</Form.Label>
+                        <Form.Control
+                            as='textarea'
+                            name='logistic_details'
+                            placeholder="Ex. wont have a car available, need to be back at the shop no later than 4pm to be able to catch an Uber to the airport on time. Will be out of cell service 2 days before the date. Staying at Red Rock Campground (so poor to no cell service). Best time to reach out is on Wednesday between 9:30am and 10am."
+                            rows={3}
+                            required
+                        />
+                    </Form.Group>
+                    
+                    <Form.Group>
+                        <Form.Label>What tier(s) are you interested in</Form.Label>
+                        <Form.Check type='checkbox' name='T1-Half' label='Tier 1 - Half Day' />
+                        <Form.Check type='checkbox' name='T1-Full' label='Tier 1 - Full Day' />
+                        <Form.Check type='checkbox' name='T2' label='Tier 2' />
+                        <Form.Check type='checkbox' name='T3' label='Tier 3' />
+                        <Form.Check type='checkbox' name='Canyoneering' label='Canyoneering' />
+                        <Form.Check type='checkbox' name='Adventure_Hike' label='Adventure Hike' />
                     </Form.Group>
 
 
@@ -81,19 +133,6 @@ function GuideInquiryForm() {
                         <Form.Label></Form.Label>
                         <Form.Control />
                     </Form.Group> */}
-                    
-                    {/* <input type="date" name="date" /> */}
-                    <input type="checkbox" name="T1" />
-                    <input type="checkbox" name="T2" />
-                    <input type="checkbox" name="T3" />
-                    <Form.Group>
-                        <Form.Label>What tier(s) are you interested in</Form.Label>
-                        <Form.Check type='checkbox' name='' label='' />
-                        <Form.Check type='checkbox' name='' label='' />
-                        <Form.Check type='checkbox' name='' label='' />
-                        <Form.Check type='checkbox' name='' label='' />
-                        <Form.Check type='checkbox' name='' label='' />
-                    </Form.Group>
 
 
                     
@@ -101,6 +140,7 @@ function GuideInquiryForm() {
                     <input type="hidden" name="_subject" value="New guiding inquiry via web form" />
                     <input type="hidden" name="_template" value="table" />
                     <input type="text" name="_honey" style={{'display': 'none'}} />
+
                     {/* Submit button */}
                     <Button type="submit">Send</Button>
                 </Form>
