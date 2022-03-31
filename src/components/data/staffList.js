@@ -33,7 +33,8 @@ import Nathan from '../../img/RRCG/GuideBioImgs/Nathan_450w_450h.jpg';
 import Roxanna from '../../img/RRCG/GuideBioImgs/Roxanna_450w_450h.jpg';
 import JoshD from '../../img/RRCG/GuideBioImgs/JoshD_450w_450h.jpg';
 import Jakob from '../../img/RRCG/GuideBioImgs/Jakob_450w_450h.jpg';
-import Kat from '../../img/RRCG/GuideBioImgs/Kat_450w_450h.jpg';
+// import Kat from '../../img/RRCG/GuideBioImgs/Kat_450w_450h.jpg';
+import Kat from '../../img/RRCG/GuideBioImgs/Kat_by_Jaz_Morris_450x450_enhanced-min.jpg';
 
 // % For bio, its an arrow function that returns JSX, so just write 'basically' HTML between the <></>. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
 
@@ -263,8 +264,8 @@ export const staff = [
         bio: () => (
             <>
                 <p>Elaina is one of the co-owners of Chicks Climbing &amp; Skiing and owner/operator of New River Mountain Guides. She has pursued climbing as a career for over 24 years. She's traveled all over North America and Europe and was instrumental in establishing El Potrero Chico, Mexico.</p>
-                <p>Las Vegas, NV is her home base and she guides almost year-round in Red Rock. During the hottest/coldest months she travels to work rock and ice programs for Chicks Climbing &amp; Skiing, teach SPI Courses and manages things back at the New River Gorge, WV. She is a newly minted AMGA SPI Provider Trainer as of 2018 and has worked as a Warrior's Way Trainer since 2006. The Warrior's Way is a method of approaching climbing which helps one to stay focused to overcome fear of falling and improve commitment in climbing. Elaina served on the Board of Directors of the Access Fund 2014-2017 and has supported their efforts for the last 20 years as an Athlete Ambassador. In 2001 she was awarded the Sharp End Award by The Access Fund for her outstanding contribution to climbers’ advocacy.</p>
-                <p>Elaina has appeared in the Women of Climbing Calendar in 2001 and 2003 and is also featured in photographer Chris Noble’s book called Women Who Dare: North America's Most Inspiring Women Climbers, alongside her climbing heroes Lynn Hill and Kitty Calhoun.</p>
+                <p>Las Vegas, NV is her home base and she guides almost year-round in Red Rock. During the hottest/coldest months she travels to work rock and ice programs for Chicks Climbing &amp; Skiing, teach SPI Courses and manages things back at the New River Gorge, WV. She is a newly minted AMGA SPI Provider Trainer as of 2018 and has worked as a Warrior's Way Trainer since 2006. The Warrior's Way is a method of approaching climbing which helps one to stay focused to overcome fear of falling and improve commitment in climbing. Elaina served on the Board of Directors of the Access Fund 2014-2017 and has supported their efforts for the last 20 years as an Athlete Ambassador. In 2001 she was awarded the Sharp End Award by The Access Fund for her outstanding contribution to climbers' advocacy.</p>
+                <p>Elaina has appeared in the Women of Climbing Calendar in 2001 and 2003 and is also featured in photographer Chris Noble's book called Women Who Dare: North America's Most Inspiring Women Climbers, alongside her climbing heroes Lynn Hill and Kitty Calhoun.</p>
             </>
         ),
         imgSrc: Elaina,
@@ -282,8 +283,8 @@ export const staff = [
         exp: "More experience than almost any other climbers you will ever meet",
         bio: () => (
             <>
-                <p>Jorge and I are honored to be DRS guides, especially considering that our combined ages will total 155 years in the coming months.  During most of these years, we’ve immersed ourselves in the beauty and risk of mountain terrain to the fullest extent that our bodies have allowed--- AND we are delighted to have survived and still be here on this glorious planet, toasting each sunrise.</p>
-                <p>Our experience includes a shit-ton of alpine ascents all over the US, Canada, and the Andes, during the era in which information was either absent or scant.  Rescues were unavailable.   For those who survived this type of climbing, judgement became an art-form--- or perhaps, even a 6th sense.  Jorge and I settled in Las Vegas in 1974 and were hungry to climb, so we turned to Red Rock’s sandstone which was uncharted territory back then.  These explorations blew our minds --- over and over again --- resulting in many first ascents that are now world-cherished classics:  Frogland, Crimson Chrysalis, Epinephrine, Levitation 29, and others.</p>
+                <p>Jorge and I are honored to be DRS guides, especially considering that our combined ages will total 155 years in the coming months.  During most of these years, we've immersed ourselves in the beauty and risk of mountain terrain to the fullest extent that our bodies have allowed--- AND we are delighted to have survived and still be here on this glorious planet, toasting each sunrise.</p>
+                <p>Our experience includes a shit-ton of alpine ascents all over the US, Canada, and the Andes, during the era in which information was either absent or scant.  Rescues were unavailable.   For those who survived this type of climbing, judgement became an art-form--- or perhaps, even a 6th sense.  Jorge and I settled in Las Vegas in 1974 and were hungry to climb, so we turned to Red Rock's sandstone which was uncharted territory back then.  These explorations blew our minds --- over and over again --- resulting in many first ascents that are now world-cherished classics:  Frogland, Crimson Chrysalis, Epinephrine, Levitation 29, and others.</p>
                 <p>Even though I am pushing 70 and Jorge is pushing 85, we are still climbing moderates at Red Rock, and we feel fortunate to continue to share the rope with friends, family, and clients.</p>
             </>
         ),
@@ -386,8 +387,8 @@ export const staff = [
         exp: "Climbing 14+ years",
         bio: () => (
             <>
-                <p>I travel and experience the world mostly through climbing and adventures. If I’m not adventuring I’m probably drinking espressos or playing with my two puppies. Finally settled in Washington but regularly drawn back to the desert for climbing and guiding in Red Rock.</p>
-                <p>I enjoy combining my passion with expanding people’s skillsets for exploring the vertical world.</p>
+                <p>I travel and experience the world mostly through climbing and adventures. If I'm not adventuring I'm probably drinking espressos or playing with my two puppies. Finally settled in Washington but regularly drawn back to the desert for climbing and guiding in Red Rock.</p>
+                <p>I enjoy combining my passion with expanding people's skillsets for exploring the vertical world.</p>
             </>
         ),
         imgSrc: Kat,
