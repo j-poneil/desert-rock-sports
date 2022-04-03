@@ -23,7 +23,8 @@ import Button from 'react-bootstrap/Button';
 function GuideInquiryForm() {
     const [state, setState] = useState({
         name: '',
-        dates: ''
+        email: '',
+        // dates: ''
     });
     // const [name, setName] = useState("");
     // const [dates, setDates] = useState();
@@ -33,7 +34,12 @@ function GuideInquiryForm() {
             ...state,
             [e.target.name]: e.target.value
         });
-    } 
+    }
+
+    {/* https://www.freecodecamp.org/news/how-to-work-with-multiple-checkboxes-in-react/ */}
+    // const [checkedState, setCheckedState] = useState(
+    //     new Array(toppings.length).fill(false)
+    // );
 
     return (
         <Card style={{'height': '100%'}}>
@@ -47,8 +53,8 @@ function GuideInquiryForm() {
                             type="text"
                             name="name"
                             placeholder="Your name"
-                            value={state.name}
-                            onChange={handleChange}
+                            value={ state.name }
+                            onChange={ handleChange }
                             required
                         />
                     </Form.Group>
@@ -71,6 +77,8 @@ function GuideInquiryForm() {
                             type="email"
                             name="email"
                             placeholder="youremailaddress@something.com"
+                            value={ state.email }
+                            onChange={ handleChange }
                             required
                         />
                     </Form.Group>
@@ -118,6 +126,7 @@ function GuideInquiryForm() {
                         />
                     </Form.Group>
                     
+
                     <Form.Group>
                         <Form.Label>What tier(s) are you interested in</Form.Label>
                         <Form.Check type='checkbox' name='T1-Half' label='Tier 1 - Half Day' />
@@ -126,6 +135,7 @@ function GuideInquiryForm() {
                         <Form.Check type='checkbox' name='T3' label='Tier 3' />
                         <Form.Check type='checkbox' name='Canyoneering' label='Canyoneering' />
                         <Form.Check type='checkbox' name='Adventure_Hike' label='Adventure Hike' />
+                        <Form.Check type='checkbox' name='Bouldering' label='Bouldering' />
                     </Form.Group>
 
 
@@ -137,7 +147,11 @@ function GuideInquiryForm() {
 
                     
                     {/* Hidden inputs */}
-                    <input type="hidden" name="_subject" value="New guiding inquiry via web form" />
+                    {/* this line a test */}
+                    <input type="hidden" name="_replyto" value={ state.email } />
+                    {/*  */}
+                    {/* //! CHANGE THIS IF IT WORKS TO... New guiding inquiry via web form */}
+                    <input type="hidden" name="_subject" value={ "JPO TESTING GUIDING INQUIRY FORM from: " + state.name } />
                     <input type="hidden" name="_template" value="table" />
                     <input type="text" name="_honey" style={{'display': 'none'}} />
 

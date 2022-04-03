@@ -700,6 +700,8 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
     * Formik, react-bootstrap, yup... https://formsubmit.co/ instead of backend PHP stuff...
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
+    ? add state for tier checkboxes to be able to include them in the email title?
+! - when hovering over the guiding gallery, tooltip appears, [Object object]
 // todo - guidingGalleryPhotos.js - commenting out largest img doesn't work like that, fix/remove.
 // todo - beautify bio pics
 //     5-15% lower brightness, 5-15% higher contrast, auto color boost thing, maybe auto whitebalance

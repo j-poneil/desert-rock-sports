@@ -134,6 +134,7 @@ export default function Home(){
                         <Jumbotron style={ boulderingJumbotronStyle }>
                             <h3 className='text-center'>Yes! We rent Bouldering Pads!</h3>
                             <ul>
+                                <li>**$5 / day - Book: Southern Nevada Bouldering II by Tom Moulin</li>
                                 <li>$10 / day - Pad Blankets</li>
                                 <li>$15 / day - Regular Size Asana Pads</li>
                                 <li>$25 / day - XL Asana Pads</li>
@@ -143,6 +144,7 @@ export default function Home(){
                             <p>(Stop calling us to check if we have them. Yes, we have them.)</p>
                             <p>We rent by the day, not per 24h... but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
                             <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open (their hours are below) and make sure to write down your name and staple it to the pad when it is returned so we can shred up your paperwork when we get the pad back.</p>
+                            <p>**note: Southern Nevada Bouldering II is now out of print while Tom is working on the 3rd edition, which we think will be available Spring 2023. Until then we have a -very- limited number of guides to rent out. This could be useful if you are going to somewhere more obscure and hard to get to, however, if you are going to Kraft Boulders, the most popular, very short approach, very high concentration of problems area... you can really just flip through someone else's book. At any given time during the prime season there is probably ~30 books floating around out there. We also have a store copy. Come hang out on the couch and flip through it.</p>
                         </Jumbotron>
                     </Col>
                     <Col>

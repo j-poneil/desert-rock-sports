@@ -91,9 +91,11 @@ export default function Shop(){
                                     <Col className='mt-3'>
                                         <Card style={ bookCardStyles }>
                                             <Card.Body>
-                                                <Card.Title style={ bookTitleStyles }><span style={{textDecoration: 'line-through'}}>Southern Nevada Bouldering 2</span><br />
+                                                {/* <span style={{textDecoration: 'line-through'}}></span> */}
+                                                <Card.Title style={ bookTitleStyles }>Southern Nevada Bouldering 2<br />
                                                 OUT OF PRINT<br />
-                                                3rd Edition will be in stock when it is released, maybe Spring 2023</Card.Title>
+                                                3rd Edition will be in stock when it is released, we think Spring 2023<br />
+                                                Until then we have a -very- limited number of guides to rent out at $5 / day</Card.Title>
                                                 <Card.Subtitle style={ bookTitleStyles }>Tom Moulin</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>THE Book for bouldering in the area</Card.Subtitle>
@@ -165,7 +167,7 @@ export default function Shop(){
                                                 <Card.Subtitle style={ bookTitleStyles }>Frodo</Card.Subtitle>
                                                 <hr />
                                                 <Card.Subtitle>JTree-like granite near Vegas</Card.Subtitle>
-                                                <Card.Text>This area is an excellent option to check out if Red Rock Canyon is wet! Their annual Keyhole Classic is a party you don't want to miss!</Card.Text>
+                                                <Card.Text>This area is an excellent option to check out if Red Rock Canyon is wet! Their annual Keyhole Classic is a party you don't want to miss! ... but you probably will because they don't promote it very much.</Card.Text>
                                                 {/* Keyhole Canyon */}
                                                 <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                                     <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>

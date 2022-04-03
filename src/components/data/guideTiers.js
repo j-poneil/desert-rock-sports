@@ -219,4 +219,38 @@ export const tiers = [
     //         </>
     //     )
     // },
+    // {
+    //     // img: ?,
+    //     imgSm: ______,
+    //     imgAltText: "",
+    //     imgCredit: "Photo by ______",
+    //     tierName: "Tier - Bouldering",
+    //     tierDuration: "??? hours",
+    //     tierDescription: () => (
+    //         <>
+    //             <p>Our guides specialize in sport, trad, and multipitch climbing. Many of them only have a minor exposure to the bouldering that Red Rock Canyon has to offer.</p>
+    //             <p>We are checking to see if our permit with the BLM allows us to provide this as a guided service. There does not seem to be much demand.</p>
+    //             <p></p>
+    //             <ul>
+    //                 <li>Kraft Boulders</li>
+    //                 <li>?</li>
+    //                 <li>?</li>
+    //                 <li>?</li>
+    //                 <li>etc...</li>
+    //             </ul>
+    //         </>
+    //     ),
+    //     costTable: [
+    //         {1: '$???'},
+    //         {2: '$???'},
+    //         {3: '$???'},
+    //         {4: '$???'},
+    //         {5: '$???'}
+    //     ],
+    //     tierNotes: () => (
+    //         <>
+    //             <p>( Notes on our bouldering excursions... )</p>
+    //         </>
+    //     )
+    // },
 ];
