@@ -150,8 +150,7 @@ function GuideInquiryForm() {
                     {/* this line a test */}
                     <input type="hidden" name="_replyto" value={ state.email } />
                     {/*  */}
-                    {/* //! CHANGE THIS IF IT WORKS TO... New guiding inquiry via web form */}
-                    <input type="hidden" name="_subject" value={ "JPO TESTING GUIDING INQUIRY FORM from: " + state.name } />
+                    <input type="hidden" name="_subject" value={ "Guiding: " + state.name + " - inquiry via web form" } />
                     <input type="hidden" name="_template" value="table" />
                     <input type="text" name="_honey" style={{'display': 'none'}} />
 
