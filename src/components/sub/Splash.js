@@ -44,13 +44,18 @@ import Vellinga6c2_1709x1080 from '../../img/Splash/vellinga6c2_1709x1080-min.jp
 const splashDivStyles = {
     // the important bit that allows the absolutely positioned children to work correctly
     position: 'relative',
-    // for fluid text
-    // fontSize: 'calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))'
+    // display: 'block',
+    //! This approach works... but no srcSet / sizes
+    // background: `no-repeat fixed center cover url(${Vellinga6c2_760x480})`,
+    // width: '100%',
+    // 56px is navbar height
+    // height: '100vh - 56px'
+
 };
 const splashImageStyles = {
-    // instead of fluid... which doesn't scale image up to very large sizes
+    // width: '100%' and height: 'auto' --- not the best approach since the navbar is above still
     width: '100%',
-    height: 'auto'
+    height: 'auto',
 };
 const splashTextStyles = {
     textAlign: 'center',
@@ -58,16 +63,15 @@ const splashTextStyles = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    backdropFilter: 'blur(5px) invert(1)',
-    // paddingLeft: '10px',
-    // paddingRight: '10px',
-    borderRadius: '10px',
-    color: 'white'
-    // color: 'black',
-    // stroke/outline attempts... stroke is not official so shouldn't use it on live sites...
-    // webkitTextFillColor: 'white',
-    // webkitTextStrokeWidth: '2px',
-    // webkitTextStrokeColor: 'black'
+    //
+    color: 'white',
+    background: 'rgb(255,255,255)',
+    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.35) 50%, rgba(255,255,255,0) 100%)',
+    // width 100% correctly sets width of this gradient area, but height 100% messes up position of text
+    width: '100%',
+    paddingTop: '25vh',
+    paddingBottom: '25vh'
+    
 };
 // original for ref
 // fontSize: 'calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))'
@@ -94,7 +98,7 @@ export default function Splash(){
     return (
         <div style={ splashDivStyles } >
             <Image
-                // fluid
+                // approach NOT using background img
                 style={ splashImageStyles }
                 src={ Vellinga6c2_1215x768 }
                 srcSet={
@@ -110,7 +114,7 @@ export default function Splash(){
                 {/* //% can use &nbsp; to control text-wrap on small screens */}
                 <h1 style={ splashTitleStyles } >Desert&nbsp;Rock&nbsp;Sports</h1>
                 {/* <p style={ splashSubTitleStyles } >- Climbing - Canyoneering - Hiking - Camping -</p> */}
-                <p style={ splashSubTitleStyles } >Climbing&nbsp;-&nbsp;Canyoneering&nbsp;- Hiking&nbsp;-&nbsp;Camping</p>
+                {/* <p style={ splashSubTitleStyles } >Climbing&nbsp;-&nbsp;Canyoneering&nbsp;- Hiking&nbsp;-&nbsp;Camping</p> */}
                 
             </div>
             <p style={ splashPhotoCreditStyle } >
