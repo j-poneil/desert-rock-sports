@@ -7,6 +7,8 @@ import Card from 'react-bootstrap/Card';
 // import Image from 'react-bootstrap/Image';
 import Table from 'react-bootstrap/Table';
 
+import { FaExternalLinkAlt } from 'react-icons/fa';
+
 
 // determines the season and adjusts the displayed hours automatically
 // Really, this Hours component should be its own component..
@@ -237,8 +239,11 @@ export default function Contact(){
                             <p>Holiday Hours: 12/24 Close at 5pm, 12/25 Closed, 12/31 Close at 9pm, 1/1 Close at 9pm</p>
                             <div>
                                 <address>
-                                    Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a><br />
+                                    Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a>
+                                    <br />
                                     Gym email: <a href="mailto:sales@redrockclimbingcenter.com" target="_blank" rel="noopener noreferrer">sales@redrockclimbingcenter.com</a>
+                                    <br />
+                                    <a href="https://www.redrockclimbingcenter.com/" target="_blank" rel="noopener noreferrer">Red Rock Climbing Center <sup><FaExternalLinkAlt /></sup></a>
                                 </address>
                                 <address>
                                     Red Rock Climbing Center<br />
