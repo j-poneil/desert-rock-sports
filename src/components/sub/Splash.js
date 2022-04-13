@@ -55,7 +55,10 @@ const splashDivStyles = {
 const splashImageStyles = {
     // width: '100%' and height: 'auto' --- not the best approach since the navbar is above still
     width: '100%',
-    height: 'auto',
+    height: '85vh',
+    objectFit: 'cover',
+
+    //
 };
 const splashTextStyles = {
     textAlign: 'center',
@@ -91,7 +94,11 @@ const splashPhotoCreditStyle = {
     position: 'absolute',
     right: '10px',
     bottom: '0',
-    color: 'grey'
+    color: 'grey',
+    background: 'rgba(0,0,0,0.35)',
+    // background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.35) 50%, rgba(255,255,255,0) 100%)',
+    paddingLeft: '5px',
+    paddingRight: '5px'
 };
 // Variation on old way, but in-file styles
 export default function Splash(){
