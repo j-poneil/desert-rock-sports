@@ -102,6 +102,70 @@ https://nomadventures.com/
 ! - FOR ROUGH RELEASE - experience
     [] test keyboard nav
     [] test on different devices
+    
+todo - M thoughts, etc
+    General feedback
+        Move away from two column
+            Make things fit into ~920, 960 or 980px width column in the middle, will feel less cluttered
+            Hero images, headers, etc can span full width... but sections of text to read should not... unless small screens
+        Maybe don't even do a background like this
+    Home
+        News nice to have, but akward how it can disrupt the scrolling experience
+            ESPECIALLY on mobile!
+                Perhaps a separate news page
+                or modal with scroll that is easy to close
+                or just show the most recent 3-4 and have a link to see all news on a separate page
+        Contact info for shop and gym
+            Make it much much more clear which is which, visually
+                BGs or my inbetween image thing? (but that forces 3 cols pretty much)
+            Hours tables take up a lot of space on laptop, but nice to see times clearly... hmm
+        Map is a bit big
+        If I'm doing full size map and newsletter signup, make them edge to edge, and no gaps between them
+            prob no gap below either
+        My credit at bottom of home page should look much better
+
+    Gear
+        What is the point of this page?
+        Move consignment info to top of gear page / trim gear gallery
+        Very few will actually scroll all the way down
+        ... Maybe just push to get a 3D walkthrough / vid / photosphere thing?
+        What to do with the "What are you looking for?" thing...
+    Beta
+        Kinda cool in an old school way
+        Probably fix the bump that happens when a scroll bar appears/disapears
+    Weather
+        not a great look
+        No one will read that much on any given page
+            Summary / weather API stuff at the top
+            Sciency shit below -- that most will not read
+    Guiding
+        Tier images more like 4:3 ???
+        Trim info
+            Its too much to read!
+            Can I consolidate examples to a pop-up or dropdown or something?
+        Add a hiking tier (w/Charleston as well)
+        Contact Form is probably a bit big!
+        Liability waiver is akward when presented like this
+    Resoles
+        Again, not 2 column layout
+        If you have questions, direct them to Steve Krall
+    About
+        Again, not 2 col layout
+            How they met / history?
+            Diff img than the cat on sandstone, if img at all
+    Shop
+        Kinda confusing having a gear page and shop page
+        Crossing out SN Bouldering II like that looks not great
+    404
+        OK for now... but shitty img quality
+        Add a link home
+    // Having a link to the gym in the top bar is kinda distruptive, maybe just don't
+    //     maybe a link in the gym hours section / gym info / w/e
+    
+    
+
+
+
 
 -------------------
 ? - some sort of server integration?
@@ -387,6 +451,10 @@ todo - srcSet / sizes
 ? - Contact divs for DRS and R2C2
     To make them easier to see which is which at a glance besides reading...
     What about a very light background of gear and of a climbing wall?
+// todo - M - For home hero img
+//     no negative thing
+//     use a linear gradient to darken behind the text, will work with any width / text
+//     height of hero img restrained to 100vh (* maybe 100vh - height of top nav bar)
 // * - TOO AMBITIOUS - Instagram feed embed
     // Apparently this is WAY harder than it used to be, due to recently increased security.
     // Check your bookmarks, you made a folder with all the info you need to do it.
@@ -701,6 +769,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
     Need to make it not too extensive... but I still want to get a lot of basic info that we need... So that we don't have to regurgitate over and over all the basics and guess what they want to do.
     * Do I need labels? What about just using the starting value/text or placeholder? This way I could condense the area it covers a lot. Not sure how that would impact accessability
     ? add state for tier checkboxes to be able to include them in the email title?
+    ? the tier checkbox doesn't look great on our resulting form summary... is just a dialog box better?
 ! - when hovering over the guiding gallery, tooltip appears, [Object object]
 // todo - guidingGalleryPhotos.js - commenting out largest img doesn't work like that, fix/remove.
 // todo - beautify bio pics
