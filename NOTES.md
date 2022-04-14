@@ -319,6 +319,24 @@ Inherited defaults from react-bootstrap
 --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
+x-small < 576px
+small >= 576px
+medium >= 768px
+large >= 992px
+x-large >= 1200px
+xxl >= 1400px
+
+CUSTOM BREAKPOINTS
+if you want to use custom breakpoints, you must wrap your application with a theme provider and use the breakpoints prop to specify
+the breakpoints you will use. This ensures that components such as Row or Col can parse the correct custom breakpoint props
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
+<ThemeProvider
+  breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+>
+  <div>Your app...</div>
+</ThemeProvider>;
+
+
 ==================================================================
 Tooltips...
 Add them by adding this line to whatever element (often images)

@@ -82,7 +82,7 @@ export default function About(){
 
 
     return (
-        <Container fluid className="mt-3">
+        <Container fluid="md" className="mt-3">
             <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
                 <Col className="mb-3">
                     <Card style={{'height': '100%'}}>
@@ -143,7 +143,8 @@ export default function About(){
             </Jumbotron>
 
             <Container fluid className="mt-3">
-                <Row xxl={3} xl={3} lg={2} md={2} sm={1} xs={1}>
+                {/* <Row xxl={3} xl={3} lg={2} md={2} sm={1} xs={1}> */}
+                <Row xxl={2} xl={2} lg={1} md={1} sm={1} xs={1}>
                     { staffList }
                 </Row>
             </Container>

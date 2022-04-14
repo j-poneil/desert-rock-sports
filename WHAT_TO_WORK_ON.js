@@ -108,13 +108,20 @@ todo - M thoughts, etc
         Move away from two column
             Make things fit into ~920, 960 or 980px width column in the middle, will feel less cluttered
             Hero images, headers, etc can span full width... but sections of text to read should not... unless small screens
+                ** setting Container fluid="md" has the desired behavior
+                ... container will be fluid / 100% width UNTIL md breakpoint
+                ... so smaller screens get full width
+                NOW I just need to move back to single column
+
+                ALSO need to re-think srcSet / sizes slightly
+            
         Maybe don't even do a background like this
     Home
         News nice to have, but akward how it can disrupt the scrolling experience
             ESPECIALLY on mobile!
                 Perhaps a separate news page
                 or modal with scroll that is easy to close
-                or just show the most recent 3-4 and have a link to see all news on a separate page
+                >>    or just show the most recent 3-4 and have a link to see all news on a separate page
         Contact info for shop and gym
             Make it much much more clear which is which, visually
                 BGs or my inbetween image thing? (but that forces 3 cols pretty much)
