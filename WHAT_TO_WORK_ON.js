@@ -200,9 +200,6 @@ todo - M thoughts, etc
     * I have a feeling like I may need to add an xxs one too... hmm
     https://react-bootstrap.github.io/layout/grid/#row-props
 ! - Play with overall colors
-    Darker Nav
-        Lighter Title text
-        Not as light menu text?
     Darker than that overall default page BG
     * Cards that tend too have too much dead white space don't look good... but they are fine when they are filled with text
         EX. About > How they met... looks bad
@@ -251,7 +248,10 @@ todo - Maybe ambitious - gallery lazy loading
         Can touch scroll in modal/carousel.
         passive: true - ALSO doesn't work as intended. Scroll works as before, but extra errors for any scrolling, not just when
         inside the modal / carousel
-        
+
+// Darker Nav (bg="dark")
+    //     Lighter Title text (variant="dark")
+    //     Not as light menu text? (variant="dark")
 // todo - NOTE - galleries title text - wrapping title in spans fails a propTypes test... but I never asked for it
 //     So long as it still works after the production build, I'll live with it!
 // todo - galleries title text - add a transparent black background for even better readability

@@ -16,11 +16,24 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 import NavbarRBS from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+
+
 // ? fixed="top" in the NavbarRBS could be nice. BUT it would mean needing to add padding-top to the Switch or something to prevent it from cutting off the top content of all pages... so will go w/o for now.
+//! variant NOT varient GAH!
 export default function Navbar(){
     return (
-        <NavbarRBS collapseOnSelect expand="lg" bg="light" varient="light" role="navigation" aria-label='Navigation Menu' fixed='top'>
-            <NavbarRBS.Brand href="/">
+        <NavbarRBS
+            collapseOnSelect
+            expand="lg"
+            // bg="light"
+            // variant="light"
+            bg="dark"
+            variant="dark"
+            role="navigation"
+            aria-label='Navigation Menu'
+            fixed='top'
+        >
+            <NavbarRBS.Brand href="/" varient="light">
                 {/* <img
                     src="/logo.svg"
                     width="30"
