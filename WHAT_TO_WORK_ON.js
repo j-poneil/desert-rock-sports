@@ -116,6 +116,22 @@ todo - M thoughts, etc
                 ALSO need to re-think srcSet / sizes slightly
             
         Maybe don't even do a background like this
+            Instead have containers basically be full width
+                ... but text within constrained to "md"
+                ... potentially light color background
+                ... potentially light pattern or attractive detail in background
+                MAYBE standardized styles
+            jumbotrons / sections separators be full width
+                ... text also, PROBABLY constrained to "md"
+                ... potentially light color background
+                ... potentially light pattern or attractive detail in background
+                MAYBE make a standardized custom Jumbotron for sections / header types / separators
+                OR just custom style that can be imported and used
+                ex. M often uses full width sections with white text near the bottom and linear gradient to make it more readable
+                with images that work well at all sizes with the focus being in the middle
+                
+
+
     Home
         News nice to have, but akward how it can disrupt the scrolling experience
             ESPECIALLY on mobile!
@@ -458,6 +474,7 @@ todo - srcSet / sizes
 ? - Contact divs for DRS and R2C2
     To make them easier to see which is which at a glance besides reading...
     What about a very light background of gear and of a climbing wall?
+todo - Splash photo credit, stick in bottom corner of img
 // todo - M - For home hero img
 //     no negative thing
 //     use a linear gradient to darken behind the text, will work with any width / text
