@@ -7,9 +7,8 @@ import Card from 'react-bootstrap/Card';
 // import Image from 'react-bootstrap/Image';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
-import CustomJumbo from './sub/CustomJumbo';
-import CustomJumbo2 from './sub/CustomJumbo2';
-import dead_tree_med from '../img/BackgroundImages/dead_tree_med.jpg';
+import CustomHeader from './sub/CustomHeader';
+import rope_med from '../img/BackgroundImages/rope_med.jpg';
 
 
 // imgs
@@ -51,22 +50,15 @@ export default function Shop(){
             {/*
                 //! In the future, not a page/component, just a link to a separate secure shopping portal.
             */}
-            <CustomJumbo
-                text="test text"
-                backgroundImage={{dead_tree_med}}
-            />
 
-            <CustomJumbo2
-                text="test text"
-                backgroundImage={{dead_tree_med}}
+            <CustomHeader
+                text="We have the best local guidebooks available for online purchase"
+                bgImg={ rope_med }
             />
 
 
             <Container fluid="md" className="mt-3 mb-3">
-                {/* <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1} > */}
-
                 <Jumbotron>
-                    <h3>We have the best local guidebooks available for online purchase</h3>
                     <p>
                         We pretty much always have stock of Red Rock: A Climbers Guide 2 by Jerry Handren, Southern Nevada Bouldering 2 by Tom Moulin, and Mojave Limestone by Jerry Handren... and if we run out we can get more fast since the authors are local. Please call us ahead of time to check on our stock of the other books listed below.
                     </p>
