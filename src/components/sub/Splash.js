@@ -120,8 +120,7 @@ export default function Splash(){
             <div style={ splashTextStyles } >
                 {/* //% can use &nbsp; to control text-wrap on small screens */}
                 <h1 style={ splashTitleStyles } >Desert&nbsp;Rock&nbsp;Sports</h1>
-                {/* <p style={ splashSubTitleStyles } >- Climbing - Canyoneering - Hiking - Camping -</p> */}
-                {/* <p style={ splashSubTitleStyles } >Climbing&nbsp;-&nbsp;Canyoneering&nbsp;- Hiking&nbsp;-&nbsp;Camping</p> */}
+                {/* <p style={ splashSubTitleStyles }></p> */}
                 
             </div>
             <p style={ splashPhotoCreditStyle } >
