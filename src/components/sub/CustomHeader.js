@@ -1,5 +1,7 @@
 import React from 'react';
 
+// import Container from 'react-bootstrap/Container';
+
 // text=""
 // bgImg=""
 
@@ -31,6 +33,8 @@ const CustomHeader = (props) => {
             style={{
                 position: 'relative',
                 color: 'white',
+                textAlign: 'center',
+                maxWidth: '992px',
             }}
         >
             { props.text }
