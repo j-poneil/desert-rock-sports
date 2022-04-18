@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 // decided to just have funcs in the objects which return JSX directly
 // import parse from 'html-react-parser';
@@ -16,19 +17,6 @@ import { newsItems } from '../data/newsItems';
 // BUT NOT USING ANY RIGHT NOW
 // ..\src\stylesheets\components\_news.sass
 
-const newsCardStyles = {
-    // height 100% is how things were before
-    // height: '100%',
-    // width: '100%',
-    // maxHeight: 65vh is TEMP hacky fix-ish
-    maxHeight: '65vh',
-    overflowY: 'scroll'
-};
-
-const newsItemStyles = {
-
-};
-
 const postTextStyles = {
     paddingLeft: '15px'
 };
@@ -39,10 +27,15 @@ const postTextStyles = {
 // News happenings.
 // Sales, events, competitions, closures, new red rock policies, etc... maybe even rain, but that could get a bit crazy
 export default function News(){
+    const [ showAll, setShowAll ] = useState(false);
+    function endPoint(showAll){
+        return showAll ? newsItems.length : 4;
+    }
+
     // newsReal not newsReel, b/c reference to Sean King, TFM.
-    const newsReal = newsItems.map((i, index) => {
+    // const newsReal = newsItems.map((i, index) => {
+    const newsReal = newsItems.slice(0, endPoint(showAll)).map((i, index) => {
         return (
-            // Can't wrap it all with <Card.Text></Card.Text> as that leads to paragraphs w/o paragraphs
             <div key={ index }>
                 <Card.Subtitle className="text-muted mb-2" as="h6">
                     {/* { i.date } */}
@@ -51,7 +44,6 @@ export default function News(){
                 <Card.Subtitle className="mb-1" as="h5">
                     { i.title }
                 </Card.Subtitle>
-                {/* Can't wrap this with 'Card.Text' as its just a 'p' and the posts also contain 'p' */}
                 <div className="mb-4" style={ postTextStyles }>
                     { i.post() }
                 </div>
@@ -60,11 +52,25 @@ export default function News(){
     });
 
     return (
-        <Card style={ newsCardStyles }>
+        <Card>
             <Card.Body>
                 <Card.Title className="text-center" as='h3'>News</Card.Title>
                 <hr style={{width: '25%'}}/>
-                <section style={ newsItemStyles }>{ newsReal }</section>
+                <section>{ newsReal }</section>
+                <div
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center'
+                    }}
+                >
+                    <Button
+                        variant="outline-info"
+                        size="sm"
+                        onClick={() => setShowAll(!showAll)}
+                    >
+                        { showAll ? "Hide older news" : "Show older news"}
+                    </Button>
+                </div>
             </Card.Body>
         </Card>
     );
