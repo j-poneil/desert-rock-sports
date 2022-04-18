@@ -102,6 +102,8 @@ https://nomadventures.com/
 ! - FOR ROUGH RELEASE - experience
     [] test keyboard nav
     [] test on different devices
+?? - easy way to highlight some accessability concerns
+    https://www.youtube.com/watch?v=Xe1_paniVB4
     
 todo - M thoughts, etc
     General feedback
@@ -133,11 +135,15 @@ todo - M thoughts, etc
 
 
     Home
-        News nice to have, but akward how it can disrupt the scrolling experience
-            ESPECIALLY on mobile!
-                Perhaps a separate news page
-                or modal with scroll that is easy to close
-                >>    or just show the most recent 3-4 and have a link to see all news on a separate page
+        todo - fix dead space on right on home... bleh!
+        News
+            Remove the Card style?
+            Maybe add a header / spacer before it
+        
+        Bouldering Pads
+            Remove the card style
+            Maybe add a header / spacer before it
+
         Contact info for shop and gym
             Make it much much more clear which is which, visually
                 BGs or my inbetween image thing? (but that forces 3 cols pretty much)
@@ -184,6 +190,12 @@ todo - M thoughts, etc
         Add a link home
     // Having a link to the gym in the top bar is kinda distruptive, maybe just don't
     //     maybe a link in the gym hours section / gym info / w/e
+    
+    todo - header text and images for sections
+        ? images need to be minified... can i still do alt sizes? thats a lot to pass in... hmm
+    todo - overall site background ... or page background(s)
+        CSS gradient + SVG w/ transparency?
+        climbing gear, RR skyline, ???
     
     
 
@@ -375,91 +387,21 @@ todo - other role="" to add for the future 'form'(subscribe to email, guiding in
 @ Home page ---------------------------------------
 ! - I think it would be cool if I had some big image between the DRS and R2C2 contact info
     ... that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down... could even style the DRS and R2C2 info sections with the prevailing color scheme of the photo...
-todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
 ? - should I add the parser to the news titles too?
 ? - should I implement date-fns on DRS hours?
     We don't tend to be strict with when we change our hours so it is pretty rough on trying to code it in
 ? - should splash background image corners be rounded consistent with other images on home page?
     *If so, in Splash.js, put everything in a Card component and change img to Card.Img
 ! - Title and text need to resize better for smaller screens... but also for MUCH bigger screens.
-todo - an indicator that you should scroll down should be added
-todo - OK ENOUGH FOR NOW - but later...
-    * Hero image/section notes
-        - NAME
-        - WHAT ITS ABOUT
-        - WHY YOU SHOULD CARE / WHAT IT CAN DO FOR YOU
-        - (USUALLY: Button/link to do something)
-    * Figured it out... do old style with
-            div position relative
-                img width 100% height auto
-                text position absolute -- absolute within the bounds of the parent element -- that is the key
-        Can stack multiple adjacent children of the parent element by specifying their position absolute and left / top the same
-        Then use transparency and z-stack height
-    ! on very small screens, card margin to edge of screens in larger on right side for some reason
-    ! nexus 10... edge cuts off cards for some reason
-    % lazy fix would be... With a suitable hero image, just edit the text into the actual image...
-        % probably not as good for SEO though
-* If I want parallax... or fixed position backgrounds with stuff moving in front
-    Its easier if I use CSS set backgroundImage...
-    A harder way that can work with conventional images is using JS...
-    BUT it is possible w/ conventional images and CSS only... and isn't THAT hard.
-        https://keithclark.co.uk/articles/pure-css-parallax-websites/
-        https://keithclark.co.uk/articles/practical-css-parallax/
-! - Text box seems too low on hero image...
-    Either
-        raise it
-        resize vertical height of image to show better on a standard laptop
-            but double check that it will still look good on smaller screens down to iPhone5
+todo - an indicator that you should scroll down should be added ... unless its obvious
+todo - FOR FINAL PRODUCTION - play with background (backgrounds) parrallax with great images, else pattern or simple CSS transition
+    * If I want parallax... or fixed position backgrounds with stuff moving in front
+        Its easier if I use CSS set backgroundImage...
+        A harder way that can work with conventional images is using JS...
+        BUT it is possible w/ conventional images and CSS only... and isn't THAT hard.
+            https://keithclark.co.uk/articles/pure-css-parallax-websites/
+            https://keithclark.co.uk/articles/practical-css-parallax/
 todo - add more tooltips to various images/things (see instructions near the end of NOTES.md)
-todo - MORE PERMANENT fix for news item scroll / column heights
-    ... currently items are added and section gets longer and longer instead of the scroll bar becoming active
-    This problem is similar with the other rows.
-    Hmm. Seems tricky to get the responsive image behavior I want and have the col with the news items to match the image columns height
-    ... w/o JS finding the image height and using that for the news col max-height... ish
-    ... which is after page loading, and would lead to an extra re-render
-    ... not really optimal, but maybe worth it if the result looks good enough?
-    ... also, maybe for the initial render, have everything draw invisible, so there isn't a FOUC or rather flash of not appropriately styled content
-    ... if I use refs... MAYBE it makes more sense to have the proper place ot "own" that state, higher up.
-    ... BUT can't use the ref attribute on function components because they don't have instances
-    ... you can, however use the ref attribute inside a function component as long as you refer to a DOM element or a class component
-        https://reactjs.org/docs/refs-and-the-dom.html
-        function CustomTextInput(props) {
-            ### textInput must be declared here so the ref can refer to it
-            const textInput = useRef(null);
-            
-            function handleClick() {
-                textInput.current.focus();
-            }
-
-            return (
-                <div>
-                <input
-                    type="text"
-                    ref={textInput} />
-                <input
-                    type="button"
-                    value="Focus the text input"
-                    onClick={handleClick}
-                />
-                </div>
-            );
-        }
-        https://medium.com/@ttennant/react-inline-styles-and-media-queries-using-a-custom-react-hook-e76fa9ec89f6
-            ... hmm
-        https://www.tutorialrepublic.com/faq/how-to-get-current-image-size-in-javascript.php
-        function imgSize(){
-            let myImg = document.querySelector(#imgDesired);
-            let currWidth = myImg.clientWidth;
-            let currHeight = myImg.clientHeight;
-        }
-        https://www.geeksforgeeks.org/how-to-get-the-height-and-width-of-an-image-using-reactjs/
-        <img ref={this.imgRef} />
-        ...
-        constructor
-        this.imgRef = React.createRef()
-        ...
-        { this.imgRef.current.clientHeight }
-        { this.imgRef.current.clientWidth }
 todo - srcSet / sizes
     [] Home - Pickles srcSet... actually it may be fine as its supposed to just be a temp img
         [] sizes - same as for Julie:
@@ -475,6 +417,8 @@ todo - srcSet / sizes
     To make them easier to see which is which at a glance besides reading...
     What about a very light background of gear and of a climbing wall?
 todo - Splash photo credit, stick in bottom corner of img
+// News nice to have, but akward how it can disrupt the scrolling experience
+    // >>    or just show the most recent 3-4 and have a button to show/hide all
 // todo - M - For home hero img
 //     no negative thing
 //     use a linear gradient to darken behind the text, will work with any width / text
