@@ -36,7 +36,7 @@ function GuideInquiryForm() {
         });
     }
 
-    {/* https://www.freecodecamp.org/news/how-to-work-with-multiple-checkboxes-in-react/ */}
+    /* https://www.freecodecamp.org/news/how-to-work-with-multiple-checkboxes-in-react/ */
     // const [checkedState, setCheckedState] = useState(
     //     new Array(toppings.length).fill(false)
     // );
