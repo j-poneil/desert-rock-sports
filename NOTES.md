@@ -326,6 +326,10 @@ large >= 992px
 x-large >= 1200px
 xxl >= 1400px
 
+If making things follow this mostly 1 column layout, this could be helpful in situations where not using
+<Container fluid="md"></Container>
+maxWidth: '992px'
+
 CUSTOM BREAKPOINTS
 if you want to use custom breakpoints, you must wrap your application with a theme provider and use the breakpoints prop to specify
 the breakpoints you will use. This ensures that components such as Row or Col can parse the correct custom breakpoint props
