@@ -23,12 +23,6 @@ import Secret from './components/Secret';
 import Error from './components/Error';
 
 
-// overall background photo
-// import dead_tree_med from './img/BackgroundImages/dead_tree_med.jpg';
-// import rope_med from './img/BackgroundImages/rope_med.jpg';
-// import plumbers_med from './img/BackgroundImages/plumbers_med.jpg';
-// import skyline_med from './img/BackgroundImages/skyline_med.jpg';
-// import sandstone_texture_med from './img/BackgroundImages/sandstone_texture_med.jpg';
 
 // background styling
 // const backgroundStyles = {
