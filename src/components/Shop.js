@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-// import Image from 'react-bootstrap/Image';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import Image from 'react-bootstrap/Image';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
@@ -44,33 +44,39 @@ export default function Shop(){
     const ppButtonStyle = {
         verticalAlign: 'text-top'
     };
+    const divStyles = {
+        // background: 'rgb(255,255,255)',
+        // background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(255,255,255,1) 100%)',
+        background: 'rgb(255,255,255)',
+        background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+        height: '100%',
+    };
 
     return (
-        <div>
-            {/*
-                //! In the future, not a page/component, just a link to a separate secure shopping portal.
-            */}
+        <div style={ divStyles }>
+            {/* //! In the future, not a page/component, just a link to a separate secure shopping portal. */}
 
             <CustomHeader
-                text="We have the best local guidebooks available for online purchase"
+                text="The best local guidebooks are available for online purchase"
                 bgImg={ rope_med }
             />
 
 
             <Container fluid="md" className="mt-3 mb-3">
-                <Jumbotron>
-                    <p>
-                        We pretty much always have stock of Red Rock: A Climbers Guide 2 by Jerry Handren, Southern Nevada Bouldering 2 by Tom Moulin, and Mojave Limestone by Jerry Handren... and if we run out we can get more fast since the authors are local. Please call us ahead of time to check on our stock of the other books listed below.
-                    </p>
-                    <p>
-                        In the future we will set up a more featured shopping site where you can order many more products. Currently you can only order 1 book at a time through this site with the buttons. If you want to order more than 1 book, please email us: <a href="mailto:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a>. Be sure to include your name, address, and phone number. We will call you back when we have figured out an order total with shipping and take credit card payment over the phone.
-                    </p>
-                    <p>
-                        Typically we can fit 2 books in a flat rate mailer envelope, $10 shipping.
-                    </p>
+                <p>
+                    We pretty much always have stock of Red Rock: A Climbers Guide 2 by Jerry Handren, <strike>Southern Nevada Bouldering 2 by Tom Moulin</strike>, and Mojave Limestone by Jerry Handren... and if we run out we can get more fast since the authors are local. Please call us ahead of time to check on our stock of the other books listed below.
+                </p>
+                <p>
+                    In the future we will set up a more featured shopping site where you can order many more products. Currently you can only order 1 book at a time through this site with the buttons. If you want to order more than 1 book, please email us: <a href="mailto:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a>. Be sure to include your name, address, and phone number. We will call you back when we have figured out an order total with shipping and take credit card payment over the phone.
+                </p>
+                <p>
+                    Typically we can fit 2 books in a flat rate mailer envelope, $10 shipping.
+                </p>
+                
+                    
 
                 {/* TEST ==================================================================================*/ }
-                    <Card style={ bookCardStyles }>
+                    <Card style={ bookCardStyles } className="mt-3 mb-3">
                         <Card.Body>
                             <Card.Title style={ bookTitleStyles }>Red Rocks: A Climber's Guide 2</Card.Title>
                             <Card.Subtitle style={ bookTitleStyles }>Jerry Handren</Card.Subtitle>
@@ -90,7 +96,7 @@ export default function Shop(){
                         </Card.Body>
                     </Card>
 
-                    <Card style={ bookCardStyles }>
+                    <Card style={ bookCardStyles } className="mt-3 mb-3">
                         <Card.Body>
                             {/* <span style={{textDecoration: 'line-through'}}></span> */}
                             <Card.Title style={ bookTitleStyles }>Southern Nevada Bouldering 2<br />
@@ -114,7 +120,7 @@ export default function Shop(){
                         </Card.Body>
                     </Card>
 
-                    <Card style={ bookCardStyles }>
+                    <Card style={ bookCardStyles } className="mt-3 mb-3">
                         <Card.Body>
                             <Card.Title style={ bookTitleStyles }>Mojave Limestone</Card.Title>
                             <Card.Subtitle style={ bookTitleStyles }>Jerry Handren</Card.Subtitle>
@@ -136,7 +142,7 @@ export default function Shop(){
                         </Card.Body>
                     </Card>
 
-                    <Card style={ bookCardStyles }>
+                    <Card style={ bookCardStyles } className="mt-3 mb-3">
                         <Card.Body>
                             <Card.Title style={ bookTitleStyles }>Fun Climbs Red Rocks: Top Ropes and Moderates</Card.Title>
                             <Card.Subtitle style={ bookTitleStyles }>Jason Martin</Card.Subtitle>
@@ -156,7 +162,7 @@ export default function Shop(){
                         </Card.Body>
                     </Card>
 
-                    <Card style={ bookCardStyles }>
+                    <Card style={ bookCardStyles } className="mt-3 mb-3">
                         <Card.Body>
                             <Card.Title style={ bookTitleStyles }>Keyhole Canyon</Card.Title>
                             <Card.Subtitle style={ bookTitleStyles }>Frodo</Card.Subtitle>
@@ -176,9 +182,8 @@ export default function Shop(){
                         </Card.Body>
                     </Card>
                 {/* TEST ==================================================================================*/ }
-                </Jumbotron>
 
-                <Card>
+                {/* <Card>
                     <Card.Img
                         src={ Big4_480x640 }
                         srcSet={
@@ -196,7 +201,7 @@ export default function Shop(){
                         alt="The big 4 guidebooks for the area: Red Rocks: A Climbers Guide 2nd Ed. by Jerry Handren, Southern Nevada II by Tom Moulin, Mojave Limestone by Jerry Handren, and Fun Climbs Red Rocks: Topropes and Moderates by Jason D. Martin"
                         style={ guideBooksAsideStyles }
                     />
-                </Card>
+                </Card> */}
                 
             </Container>
             
