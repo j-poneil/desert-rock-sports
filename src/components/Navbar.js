@@ -3,7 +3,7 @@ import React from 'react';
 
 // ! - The external link icon definitely looks out of place. May have to remove.
 // ! - The tooltip shows up too slowly to be useful... and doesn't show with tab-through navigation or on touchscreen, probably
-import { FaExternalLinkAlt } from 'react-icons/fa';
+// import { FaExternalLinkAlt } from 'react-icons/fa';
 
 // % Secret Door icon for hidden gallery / whatever
 // import { GiSecretDoor } from 'react-icons/gi';
