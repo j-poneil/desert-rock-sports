@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 // import Image from 'react-bootstrap/Image';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -40,14 +40,10 @@ import SufferPup from '../img/temp/SufferPup_900x600.jpg';
 // Styles here:
 // src\stylesheets\pages\_home.sass
 
-const welcomeStyles = { height: '100%' };
-// news styles in News component
-const boulderingJumbotronStyle = { height: '100%' };
-
-const picklesStyles = { width: '100%' };
-const sufferPupStyles = { width: '100%' };
-
-
+const homeOverallStyle = {
+    background: 'rgb(255,255,255)',
+    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+};
 
 
 //@Notes
@@ -59,26 +55,21 @@ export default function Home(){
     // const [modalShow, setModalShow] = React.useState(false);
 
     return (
-        <Container fluid className='pl-0 pr-0'>
+        <Container fluid className='pl-0 pr-0 ml-0 mr-0' style={ homeOverallStyle }>
             {/* Container fluid */}
             <Container fluid className='pl-0 pr-0'>
                 <Splash />
             </Container>
 
             {/* Was fluid */}
-            <Container fluid="md" className="mt-3 mb-3">
-                {/* <Row xl={2} lg={2} md={1} sm={1} xs={1}> */}
-                <Jumbotron style={ welcomeStyles }>
-                    <h3>Welcome to Desert Rock Sports</h3>
-                    <p>
-                        the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for climbers, canyoneers, cavers, backpackers, and other outdoor sports enthusiasts.
-                    </p>
-                    <p>We carry top of the line technical gear and outdoor clothing not likely to be found anywhere else in the area.</p>
-                    <p>Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our WIFI! We're here to help make your visit to the area a memorable one.</p>
-                    {/* //! Not using the button modal approach for now since I couldn't get it to work the way I wanted */}
-                    {/* <NewsletterModal /> */}
-                </Jumbotron>
-                <Card>
+            <Container fluid="md" className="mt-3 mb-3 pl-0 pr-0">
+                <h3>Welcome to Desert Rock Sports</h3>
+                <p>
+                    the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for climbers, canyoneers, cavers, backpackers, and other outdoor sports enthusiasts.
+                </p>
+                <p>We carry top of the line technical gear and outdoor clothing not likely to be found anywhere else in the area.</p>
+                <p>Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our WIFI! We're here to help make your visit to the area a memorable one.</p>
+                {/* <Card>
                     <Card.Img
                         src={ Pickles }
                         // srcSet={``}
@@ -92,14 +83,13 @@ export default function Home(){
                         data-bs-placement="top"
                         title="Pickles using his 'please' stare, begging you to buy more gear"
                     />
-                </Card>
+                </Card> */}
             </Container>
 
             {/* Local news / happenings / sales / events */}
             {/* was fluid */}
             <Container fluid="md" className="mt-3 mb-3">
-                {/* <Row xl={2} lg={2} md={1} sm={1} xs={1}> */}
-                <Card>
+                {/* <Card>
                     <Card.Img
                         src={ SufferPup }
                         // srcSet={``}
@@ -108,12 +98,11 @@ export default function Home(){
                         // at larger sizes: 2 cols = img width = 50vw - padding/margins
                         // sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
                         alt="Suffer Pup, a rescued dog, held high, getting the 'Simba' experience"
-                        style={ sufferPupStyles }
                         data-bs-toggle="tooltip"
                         data-bs-placement="top"
                         title="Suffer Pup, rescue doggo, getting the full 'Simba' experience. Everything the sun touches will be yours some day."
                     />
-                </Card>
+                </Card> */}
                 
                 {/* Limited to most recent HERE, but a link to a page to see all of them */}
                 <News />
@@ -123,7 +112,7 @@ export default function Home(){
             {/* was fluid */}
             <Container fluid="md" className="mt-3 mb-3">
                 {/* <Row xl={2} lg={2} md={1} sm={1} xs={1}> */}
-                <Jumbotron style={ boulderingJumbotronStyle }>
+                <Jumbotron>
                     <h3 className='text-center'>Yes! We rent Bouldering Pads!</h3>
                     <ul>
                         <li>**$5 / day - Book: Southern Nevada Bouldering II by Tom Moulin</li>
@@ -139,7 +128,7 @@ export default function Home(){
                     <p>**note: Southern Nevada Bouldering II is now out of print while Tom is working on the 3rd edition, which we think will be available Spring 2023. Until then we have a -very- limited number of guides to rent out. This could be useful if you are going to somewhere more obscure and hard to get to, however, if you are going to Kraft Boulders, the most popular, very short approach, very high concentration of problems area... you can really just flip through someone else's book. At any given time during the prime season there is probably ~30 books floating around out there. We also have a store copy. Come hang out on the couch and flip through it.</p>
                 </Jumbotron>
 
-                <Card>
+                {/* <Card>
                     <Card.Img
                         src={ Julie_480x320 }
                         srcSet={
@@ -157,7 +146,7 @@ export default function Home(){
                         data-bs-placement="top"
                         title="Julie on the fun Born to Bleed V2 invert offwidth boulder problem"
                     />
-                </Card>
+                </Card> */}
             </Container>
 
             {/* A few popular products you can order from us */}
@@ -166,30 +155,19 @@ export default function Home(){
             {/* Check us out on IG? Subscribe to our mailing list? */}
             
 
-            <Container fluid>
+            <Container fluid className="mt-0 mr-0 pl-0 pr-0">
                 {/* Contact Us info */}
                 <Contact />
             </Container>
             
 
-            <Container fluid className="mt-3 mb-3">
+            <Container fluid className="mt-0 mb-0 pl-0 pr-0">
                 {/* Embedded Google Map, somewhat responsive */}
                 <Map />
             </Container>
 
 
-            {/* <Container fluid>
-                <Row xl={2} lg={2} md={1} sm={1} xs={1}>
-                    <Col>
-                    </Col>
-                    <Col>
-                        <NewsletterIFrame />
-                        <NewsletterForm />
-                    </Col>
-                </Row>
-            </Container> */}
-
-            <Container fluid className="mb-3">
+            <Container fluid className="mt-0 mb-0 pl-0 pr-0">
                 <NewsletterIFrame />
             </Container>
 
@@ -197,14 +175,12 @@ export default function Home(){
             {/* Author / credit */}
             <div
                 style={{
-                    'textAlign': 'right',
-                    'padding': 0,
-                    'marginTop': 0,
-                    'marginBottom': 0,
-                    // 'marginRight': '5px',
-                    'paddingRight': '5px',
-                    'background': 'black',
-                    'color': 'white'
+                    textAlign: 'right',
+                    padding: 0,
+                    margin : 0,
+                    paddingRight: '5px',
+                    background: 'black',
+                    color: 'white'
                 }}
             >
                 Site design by: <a href="https://github.com/j-poneil" target="_blank" rel="noopener noreferrer"><FaGithub /> John-Paul O'Neil</a>
