@@ -1,9 +1,9 @@
 import React from 'react';
 
-// import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 // import Image from 'react-bootstrap/Image';
 import Table from 'react-bootstrap/Table';
 
@@ -141,19 +141,115 @@ function Hours(){
 // ! styles not used anymore
 // src/stylesheets/layout/_contact.sass
 
-const drsContactStyles = { height: '100%' };
-const r2c2ContactStyles = { height: '100%' };
+const drsContactStyles = {};
+const r2c2ContactStyles = {};
 
 
 export default function Contact(){
     return (
         <>
-            <Row xl={2} lg={2} md={2} sm={1} xs={1}>
+            <Container>
+                <Row xl={1} lg={1} md={1} sm={1} xs={1}>
+                    <Col>
+                        <h3>Desert Rock Sports</h3>
+                        {/* Can't use 'Card.Text' as it is just a 'p', can't put 'table' in 'p' */}
+                        <Row xs={2} sm={2} md={2} lg={2} xl={2} >
+                            <Col>
+                                <Table striped bordered hover size="sm">
+                                    <thead>
+                                        <tr>
+                                            <th colSpan='2'>Desert Rock Sports &amp; Guide Service Phone Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <Hours />
+                                </Table>
+                            </Col>
+                            <Col>
+                                <p>Holiday Hours: </p>
+                                <address>
+                                    Shop: <a href="tel:702-254-1143" target="_blank" rel="noopener noreferrer">702-254-1143</a><br />
+                                    Guide Service: <a href="tel:702-506-6640" target="_blank" rel="noopener noreferrer">702-506-6640</a><br />
+                                    Shop / Guide Service email: <a href="mailto:info@climbvegas.com" target="_blank" rel="noopener noreferrer">info@climbvegas.com</a>
+                                </address>
+                                <address>
+                                    Desert Rock Sports<br />
+                                    8221 W Charleston Blvd<br />
+                                    Suite #102<br />
+                                    Las Vegas, NV 89117
+                                </address>
+                            </Col>
+                        </Row>
+                    </Col>
+
+                    <Col>
+                        <h3>Red Rock Climbing Center</h3>
+                        <Row xs={2} sm={2} md={2} lg={2} xl={2} >
+                            <Col>
+                                <Table striped bordered hover size="sm">
+                                    <thead>
+                                        <tr>
+                                            <th colSpan='2'>Red Rock Climbing Center Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Monday</td>
+                                            <td>9am - 11pm</td>  
+                                        </tr>
+                                        <tr>
+                                            <td>Tuesday</td>
+                                            <td>6am - 11pm</td>  
+                                        </tr>
+                                        <tr>
+                                            <td>Wednesday</td>
+                                            <td>6am - 11pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thursday</td>
+                                            <td>6am - 11pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Friday</td>
+                                            <td>9am - 11pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saturday</td>
+                                            <td>9am - 9pm</td>  
+                                        </tr>
+                                        <tr>
+                                            <td>Sunday</td>
+                                            <td>9am - 9pm</td>  
+                                        </tr>
+                                    </tbody>
+                                </Table>
+                            </Col>
+                            <Col>
+                                <p>Holiday Hours: 12/24 Close at 5pm, 12/25 Closed, 12/31 Close at 9pm, 1/1 Close at 9pm</p>
+                                <div>
+                                    <address>
+                                        Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a>
+                                        <br />
+                                        Gym email: <a href="mailto:sales@redrockclimbingcenter.com" target="_blank" rel="noopener noreferrer">sales@redrockclimbingcenter.com</a>
+                                        <br />
+                                        <a href="https://www.redrockclimbingcenter.com/" target="_blank" rel="noopener noreferrer">Red Rock Climbing Center <sup><FaExternalLinkAlt /></sup></a>
+                                    </address>
+                                    <address>
+                                        Red Rock Climbing Center<br />
+                                        8201 W Charleston Blvd<br />
+                                        #150<br />
+                                        Las Vegas, NV 89117
+                                    </address>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
+            {/* <Row xl={2} lg={2} md={2} sm={1} xs={1}>
                 <Col>
                     <Card style={ drsContactStyles }>
                         <Card.Body>
                             <Card.Title>Desert Rock Sports</Card.Title>
-                            {/* Can't use 'Card.Text' as it is just a 'p', can't put 'table' in 'p' */}
                             <div>
                                 <Table striped bordered hover size="sm">
                                     <thead>
@@ -179,21 +275,6 @@ export default function Contact(){
                         </Card.Body>
                     </Card>
                 </Col>
-
-                {/* I think it would be cool if I had some big image here that ended up being about as tall as the tallest section, for DRS or R2C2... something like a square cut diagonally, with photo of gear in top-left, photo of gym in bottom-right... thus on a large screen if I set 3 col per row it sits nicely in the middle, but on smaller screens it still works as a transition between DRS and R2C2 with single column vertical scroll down */}
-                {/* <Col>
-                    <Card>
-                        <Card.Body>
-                            <Card.Text>
-                                
-                            </Card.Text>
-
-                            <Card.Text>
-                                
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col> */}
 
                 <Col>
                     <Card style={ r2c2ContactStyles }>
@@ -255,7 +336,7 @@ export default function Contact(){
                         </Card.Body>
                     </Card>
                 </Col>
-            </Row>
+            </Row> */}
         </>
     );
 }

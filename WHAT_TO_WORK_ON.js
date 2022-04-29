@@ -135,13 +135,11 @@ todo - M thoughts, etc
 
 
     Home
-        todo - fix dead space on right on home... bleh!
         News
             Remove the Card style?
             Maybe add a header / spacer before it
         
         Bouldering Pads
-            Remove the card style
             Maybe add a header / spacer before it
 
         Contact info for shop and gym
