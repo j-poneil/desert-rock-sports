@@ -845,6 +845,7 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
 
 
 @ About page --------------------------------------
+todo - add CustomHeader
 // todo - probably move nav link position of the 'About' page to just left of 'Shop'
 // todo - FOR PRODUCTION - figure out a nice background, maybe use some parallax, but a simple CSS color transition would be fine too 
 // todo - suitable enough for now side image
@@ -868,6 +869,9 @@ todo - make sure tab through accessibility is there... IF there is a reason for 
 ! - ADD link data thing for Southern Nevada Bouldering 3 - WHEN RELEASED
 ! - ADD link data thing for Mojave Limestone, Keyhole Canyon
 ! - ADD current prices
+todo - landscape orientation book photos of same finished dimensions... or another fix to get them all the same height
+        * OR a completely different approach, like not cards, where identical height doesn't matter as much
+todo - better image for CustomHeader
 // todo - Southern Nevada Bouldering II is out of print now, add a rough maybe next version out date
 // todo - ADD a note on shipping pricing???? -- 10 for 1-2 books flat rate shipping envelope is pretty easy IIRC
 // todo - make the image be a Card.Img inside a Card component for consistent corner rounding

@@ -43,6 +43,7 @@ import SufferPup from '../img/temp/SufferPup_900x600.jpg';
 const homeOverallStyle = {
     background: 'rgb(255,255,255)',
     background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+    overflowX: 'hidden', //% hacky... but couldn't find where the extra margin was coming from, this fixes it
 };
 
 
@@ -57,18 +58,22 @@ export default function Home(){
     return (
         <Container fluid className='pl-0 pr-0 ml-0 mr-0' style={ homeOverallStyle }>
             {/* Container fluid */}
-            <Container fluid className='pl-0 pr-0'>
+            <Container fluid className='pl-0 pr-0 ml-0 mr-0'>
                 <Splash />
             </Container>
 
             {/* Was fluid */}
-            <Container fluid="md" className="mt-3 mb-3 pl-0 pr-0">
+            <Container fluid="md" className="mt-3 mb-3">
                 <h3>Welcome to Desert Rock Sports</h3>
                 <p>
                     the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for climbers, canyoneers, cavers, backpackers, and other outdoor sports enthusiasts.
                 </p>
-                <p>We carry top of the line technical gear and outdoor clothing not likely to be found anywhere else in the area.</p>
-                <p>Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our WIFI! We're here to help make your visit to the area a memorable one.</p>
+                <p>
+                    We carry top of the line technical gear and outdoor clothing not likely to be found anywhere else in the area.
+                </p>
+                <p>
+                    Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our WIFI! We're here to help make your visit to the area a memorable one.
+                </p>
                 {/* <Card>
                     <Card.Img
                         src={ Pickles }
@@ -110,23 +115,19 @@ export default function Home(){
 
             {/* Yes, we rent bouldering pads */}
             {/* was fluid */}
-            <Container fluid="md" className="mt-3 mb-3">
-                {/* <Row xl={2} lg={2} md={1} sm={1} xs={1}> */}
-                <Jumbotron>
-                    <h3 className='text-center'>Yes! We rent Bouldering Pads!</h3>
-                    <ul>
-                        <li>**$5 / day - Book: Southern Nevada Bouldering II by Tom Moulin</li>
-                        <li>$10 / day - Pad Blankets</li>
-                        <li>$15 / day - Regular Size Asana Pads</li>
-                        <li>$25 / day - XL Asana Pads</li>
-                    </ul>
-                    {/* <p>Regular size $15/day, XL $25/day, pad blankets $10/day</p> */}
-                    <p>We don't do reservations anymore, but our fleet is now so large that we almost never run out.</p>
-                    <p>(Stop calling us to check if we have them. Yes, we have them.)</p>
-                    <p>We rent by the day, not per 24h... but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
-                    <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open (their hours are below) and make sure to write down your name and staple it to the pad when it is returned so we can shred up your paperwork when we get the pad back.</p>
-                    <p>**note: Southern Nevada Bouldering II is now out of print while Tom is working on the 3rd edition, which we think will be available Spring 2023. Until then we have a -very- limited number of guides to rent out. This could be useful if you are going to somewhere more obscure and hard to get to, however, if you are going to Kraft Boulders, the most popular, very short approach, very high concentration of problems area... you can really just flip through someone else's book. At any given time during the prime season there is probably ~30 books floating around out there. We also have a store copy. Come hang out on the couch and flip through it.</p>
-                </Jumbotron>
+            <Container fluid="md" className="mt-3 mb-3">              
+                <h3 className='text-center'>Yes! We rent Bouldering Pads!</h3>
+                <ul>
+                    <li>**$5 / day - Book: Southern Nevada Bouldering II by Tom Moulin</li>
+                    <li>$10 / day - Pad Blankets</li>
+                    <li>$15 / day - Regular Size Asana Pads</li>
+                    <li>$25 / day - XL Asana Pads</li>
+                </ul>
+                <p>We don't do reservations anymore, but our fleet is now so large that we don't run out. Please stop calling to ask if we have any available.</p>
+                <p>We rent by the day, not per 24h... but we are reasonable. If you come in to rent near closing time we will only charge you for the next day.</p>
+                <p>If you are bouldering late you can return pads to Red Rock Climbing Center which is open later than we are, check how late they will be open (their hours are below) and make sure to write down your name and staple it to the pad when it is returned so we can shred up your paperwork when we get the pad back.</p>
+                <p>**note: Southern Nevada Bouldering II is now out of print while Tom is working on the 3rd edition, which we think will be available Spring 2023. Until then we have a -very- limited number of guides to rent out. We also have a store copy you can flip through.</p>
+                
 
                 {/* <Card>
                     <Card.Img
@@ -155,19 +156,19 @@ export default function Home(){
             {/* Check us out on IG? Subscribe to our mailing list? */}
             
 
-            <Container fluid className="mt-0 mr-0 pl-0 pr-0">
+            <Container fluid className="mt-0 mb-0 ml-0 mr-0 pl-0 pr-0">
                 {/* Contact Us info */}
                 <Contact />
             </Container>
             
 
-            <Container fluid className="mt-0 mb-0 pl-0 pr-0">
+            <Container fluid className="mt-0 mb-0 ml-0 mr-0 pl-0 pr-0">
                 {/* Embedded Google Map, somewhat responsive */}
                 <Map />
             </Container>
 
 
-            <Container fluid className="mt-0 mb-0 pl-0 pr-0">
+            <Container fluid className="mt-0 mb-0 ml-0 mr-0 pl-0 pr-0">
                 <NewsletterIFrame />
             </Container>
 

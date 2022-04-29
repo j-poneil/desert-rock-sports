@@ -6,7 +6,6 @@ export default function Map(){
     return (
         <div 
             className="map-responsive"
-            // style={{width: '100%'}}
         >
             <iframe 
             title="Desert Rock Sports on Google Maps"

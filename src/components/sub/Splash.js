@@ -57,7 +57,6 @@ const splashImageStyles = {
     width: '100%',
     height: '85vh',
     objectFit: 'cover',
-
     //
 };
 const splashTextStyles = {
@@ -73,8 +72,7 @@ const splashTextStyles = {
     // width 100% correctly sets width of this gradient area, but height 100% messes up position of text
     width: '100%',
     paddingTop: '25vh',
-    paddingBottom: '25vh'
-    
+    paddingBottom: '25vh',
 };
 // original for ref
 // fontSize: 'calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))'
@@ -103,7 +101,7 @@ const splashPhotoCreditStyle = {
 // Variation on old way, but in-file styles
 export default function Splash(){
     return (
-        <div style={ splashDivStyles } >
+        <div style={ splashDivStyles }>
             <Image
                 // approach NOT using background img
                 style={ splashImageStyles }

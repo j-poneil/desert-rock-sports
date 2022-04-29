@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
+//% Thinking of using, but it is for toggling full elements
+// ... here the stories never fully go away, I just toggle between showing some and all
+// import { Animated } from 'react-animated-css';
+
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -56,7 +60,9 @@ export default function News(){
             <Card.Body>
                 <Card.Title className="text-center" as='h3'>News</Card.Title>
                 <hr style={{width: '25%'}}/>
-                <section>{ newsReal }</section>
+                <section>
+                    { newsReal }
+                </section>
                 <div
                     style={{
                         display: 'flex',

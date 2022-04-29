@@ -22,19 +22,8 @@ import Shop from './components/Shop';
 import Secret from './components/Secret';
 import Error from './components/Error';
 
-
-
-// background styling
-// const backgroundStyles = {
-//   backgroundImage: `url(${ sandstone_texture_med })`,
-//   backgroundPosition: 'center',
-//   backgroundRepeat: 'no-repeat',
-//   backgroundSize: 'cover'
-// };
-
 function App() {
   return (
-    // style={ backgroundStyles }
     <div>
       {/* //@ test to make sure this works... if I remove sr-only, it is visible */}
       <a id='skip-nav' className="sr-only sr-only-focusable" href='#main-content'>Skip Navigation</a>
