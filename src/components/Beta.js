@@ -4,7 +4,7 @@ import React from 'react';
 // Standard?
 // FaExternalLinkAlt AFTER links away
 // FaDirections BEFORE Gmaps links away
-// import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone, FaGithub } from 'react-icons/fa';
 // import { HiOutlineMail } from 'react-icons/hi';
 
 
@@ -18,6 +18,10 @@ import Col from 'react-bootstrap/Col';
 
 // AccordionOfAccordions which I made
 import AccordionOfAccordions from './sub/AccordionOfAccordions';
+
+// take 'text' and 'bgImg' as props
+import CustomHeader from './sub/CustomHeader';
+import rope_med from '../img/BackgroundImages/rope_med.jpg';
 
 // for when testing the template used for the other section components
 // import Template from './beta/Template';
@@ -134,11 +138,16 @@ Maybe better to keep the Card/Section title, and just open/close the accordion g
 //     backgroundSize: 'cover'
 // };
 
+const backgroundStyles = {
+    // backgroundColor: 'white'
+    background: 'rgb(255,255,255)',
+    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+    overflowX: 'hidden',
+}
+
 export default function Beta(){
     return (
-        // style={ backgroundStyles }
-        // Container fluid
-        <Container fluid>
+        <Container fluid className="pl-0 pr-0" style={ backgroundStyles }>
             {/* //@ SR skip / get to quick links */}
             {/* //! Makes sense to hold off on filling this out until the content is in sub-components */}
             <a id='skip-to-RR-general-info' className="sr-only sr-only-focusable" href='#RR-general-info'>Skip to Red Rock General Info</a>
@@ -155,16 +164,11 @@ export default function Beta(){
             <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
             <a id='skip-or-skip-to' className="sr-only sr-only-focusable" href='#main-content'>Skip / Skip to</a>
 
-            {/* 
-                //! - style={{'height': '100%'}}
-                //! - Can I use it to get things to look better?
-                //! - Should I use it?
-                //? - Should I maybe just have 1 column... or rather no column?
-                    //? - then inside of each major section component have row/col set up to break stuff up?
-                    //... thinking no... but not thinking too hard about it either right now
-            */}
-            {/* <Row xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}> */}
-            {/* <Row xxl={2} xl={2} lg={2} md={2} sm={2} xs={1}> */}
+            <CustomHeader
+                text="All the basic Vegas area info"
+                bgImg={ rope_med }
+            />
+
             <Row className='mt-3' >
                 {/* //! Intentionally empty column */}
                 <Col
@@ -259,17 +263,19 @@ export default function Beta(){
                     xs={0}
                 ></Col>
             </Row>
-            <Row>
-                <footer
-                    style={{
-                        'position': 'fixed',
-                        'bottom': '0',
-                        'right': '0',
-                    }}
-                >
-                    Art by <a href='https://github.com/j-poneil' target="_blank" rel="noopener noreferrer">JPO</a> &copy; 2021
-                </footer>
-            </Row>
+            {/* Author / credit */}
+            <div
+                style={{
+                    textAlign: 'right',
+                    padding: 0,
+                    margin : 0,
+                    paddingRight: '5px',
+                    background: 'black',
+                    color: 'white'
+                }}
+            >
+                Art by: <a href="https://github.com/j-poneil" target="_blank" rel="noopener noreferrer"><FaGithub /> JPO &copy; 2021</a>
+            </div>
         </Container>
     );
 }

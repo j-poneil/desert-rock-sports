@@ -23,8 +23,17 @@ import Cat_720x480 from '../img/About/cat_720x480.jpg';
 import Cat_1152x768 from '../img/About/cat_1152x768.jpg';
 import Cat_1620x1080 from '../img/About/cat_1620x1080.jpg';
 
+import CustomHeader from './sub/CustomHeader';
+import rope_med from '../img/BackgroundImages/rope_med.jpg';
+
 // styles here:
 // src\stylesheets\pages\_about.sass
+
+const backgroundStyles = {
+    // backgroundColor: 'white'
+    background: 'rgb(255,255,255)',
+    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+}
 
 export default function About(){
     const staffList = staff.map((i) => {
@@ -82,71 +91,85 @@ export default function About(){
 
 
     return (
-        <Container fluid="md" className="mt-3">
-            <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
-                <Col className="mb-3">
-                    <Card style={{'height': '100%'}}>
-                        <Card.Body>
-                            <Card.Title>How they met...</Card.Title>
-                            <Card.Text>
-                                Mike Lorenzo, Steve Mallory and Travis Graves met through their love of climbing at Red Rock Climbing Center (formerly, Powerhouse Gym). Travis, who was the store manager for Desert Rock Sports, approached Mike and Steve with the idea of forming a partnership to buy the store from Mike and Tim Ward who wanted to retire. In February 2005 the partnership was born.
-                            </Card.Text>
-                            <Card.Text>
-                                All three are active climbers and are members of Las Vegas Climbers' Liaison Council, an organization that is dedicated to ensuring climbing access, encouraging stewardship of the environment, and cultivating a sense of community in a world-class climbing destination.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col className="mb-3">
-                    <Card style={{'height': '100%'}}>
-                        <Card.Img
-                            src={ Cat_480x320 }
-                            srcSet={
-                                `${Cat_480x320} 480w,
-                                ${Cat_720x480} 720w,
-                                ${Cat_1152x768} 1152w,
-                                ${Cat_1620x1080} 1620w`
-                            }
-                            // sizes="100vw"
-                            // at <992px vs, 1 col = img width = 100vw - padding/margins
-                            // at larger sizes: 2 cols = img width = 50vw - padding/margins
-                            sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
-                            alt="Stuffed animal hanging out in a sandstone nook"
-                        />
-                    </Card>
-                </Col>
-                {/* <Col className="mb-3">
-                    <Card style={{'height': '100%'}}>
-                        <Card.Body>
-                            <Card.Title>History ???</Card.Title>
-                            <Card.Text>
-                                lorem ipsum et dolor something yada ydad dydyafdsa
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col> */}
-                {/* <Col className="mb-3">
-                    <Card style={{'height': '100%'}}>
-                        <Card.Body>
-                            <Card.Title>Something else???</Card.Title>
-                            <Card.Text>
-                                lorem ipsum et dolor something yada ydad dydyafdsa
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col> */}
-            </Row>
+        <Container fluid className="pr-0 pl-0" style={ backgroundStyles }>
+            <CustomHeader
+                text="How it all started"
+                bgImg={ rope_med }
+            />
 
-            <Jumbotron className="text-center mb-3">
-                <h1>The wonderful staff behind Desert Rock Sports</h1>
-                <p>We can help you find whatever you are looking for.</p>
-            </Jumbotron>
-
-            <Container fluid className="mt-3">
-                {/* <Row xxl={3} xl={3} lg={2} md={2} sm={1} xs={1}> */}
-                <Row xxl={2} xl={2} lg={1} md={1} sm={1} xs={1}>
-                    { staffList }
+            <Container fluid="md">
+                <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
+                    <Col className="mb-3">
+                        <Card style={{'height': '100%'}}>
+                            <Card.Body>
+                                <Card.Title>How they met...</Card.Title>
+                                <Card.Text>
+                                    Mike Lorenzo, Steve Mallory and Travis Graves met through their love of climbing at Red Rock Climbing Center (formerly, Powerhouse Gym). Travis, who was the store manager for Desert Rock Sports, approached Mike and Steve with the idea of forming a partnership to buy the store from Mike and Tim Ward who wanted to retire. In February 2005 the partnership was born.
+                                </Card.Text>
+                                <Card.Text>
+                                    All three are active climbers and are members of Las Vegas Climbers' Liaison Council, an organization that is dedicated to ensuring climbing access, encouraging stewardship of the environment, and cultivating a sense of community in a world-class climbing destination.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className="mb-3">
+                        <Card style={{'height': '100%'}}>
+                            <Card.Img
+                                src={ Cat_480x320 }
+                                srcSet={
+                                    `${Cat_480x320} 480w,
+                                    ${Cat_720x480} 720w,
+                                    ${Cat_1152x768} 1152w,
+                                    ${Cat_1620x1080} 1620w`
+                                }
+                                // sizes="100vw"
+                                // at <992px vs, 1 col = img width = 100vw - padding/margins
+                                // at larger sizes: 2 cols = img width = 50vw - padding/margins
+                                sizes="(min-width: 992px) 50vw - 32px, 100vw - 32px"
+                                alt="Stuffed animal hanging out in a sandstone nook"
+                            />
+                        </Card>
+                    </Col>
+                    {/* <Col className="mb-3">
+                        <Card style={{'height': '100%'}}>
+                            <Card.Body>
+                                <Card.Title>History ???</Card.Title>
+                                <Card.Text>
+                                    lorem ipsum et dolor something yada ydad dydyafdsa
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col> */}
+                    {/* <Col className="mb-3">
+                        <Card style={{'height': '100%'}}>
+                            <Card.Body>
+                                <Card.Title>Something else???</Card.Title>
+                                <Card.Text>
+                                    lorem ipsum et dolor something yada ydad dydyafdsa
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col> */}
                 </Row>
+            </Container>
+
+            <CustomHeader
+                text="Our wonderful staff"
+                bgImg={ rope_med }
+            />
+
+            <Container fluid="md">
+                {/* <Jumbotron className="text-center mb-3">
+                    <h1>The wonderful staff behind Desert Rock Sports</h1>
+                    <p>We can help you find whatever you are looking for.</p>
+                </Jumbotron> */}
+
+                <Container fluid className="mt-3">
+                    {/* <Row xxl={3} xl={3} lg={2} md={2} sm={1} xs={1}> */}
+                    <Row xxl={2} xl={2} lg={1} md={1} sm={1} xs={1}>
+                        { staffList }
+                    </Row>
+                </Container>
             </Container>
         </Container>
     );
