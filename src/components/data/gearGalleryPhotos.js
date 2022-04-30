@@ -155,7 +155,7 @@ import Isobutane_4_3_1800x1080 from '../../img/DRS_store/large/Isobutane_4_3_180
 import Pads_4_3_1440x1080 from '../../img/DRS_store/large/Pads_4_3_1440x1080.jpg';
 import Pads2_4_3_1440x1080 from '../../img/DRS_store/large/Pads2_4_3_1440x1080.jpg';
 import Platy_4_3_1440x1080 from '../../img/DRS_store/large/Platy_4_3_1440x1080.jpg';
-import Sheep_4_3_1440x1080 from '../../img/DRS_store/large/Sheep_4_3_1440x1080.jpg';
+// import Sheep_4_3_1440x1080 from '../../img/DRS_store/large/Sheep_4_3_1440x1080.jpg';
 import TotemBlue_4_3_1440x1080 from '../../img/DRS_store/large/TotemBlue_4_3_1440x1080.jpg';
 // 3:4
 import Approach_3_4_1080x1440 from '../../img/DRS_store/large/Approach_3_4_1080x1440.jpg';
@@ -164,7 +164,7 @@ import Postcards_3_4_1080x1440 from '../../img/DRS_store/large/Postcards_3_4_108
 import Ropes_3_4_1080x1440 from '../../img/DRS_store/large/Ropes_3_4_1080x1440.jpg';
 // 1:1
 import BDPacks_1_1_1080x1080 from '../../img/DRS_store/large/BDPacks_1_1_1080x1080.jpg';
-import BigBros2_1_1_1080x1080 from '../../img/DRS_store/large/BigBros2_1_1_1080x1080.jpg';
+// import BigBros2_1_1_1080x1080 from '../../img/DRS_store/large/BigBros2_1_1_1080x1080.jpg';
 import BoulderingIsDumb_1_1_1080x1080 from '../../img/DRS_store/large/BoulderingIsDumb_1_1_1080x1080.jpg';
 import Brushes_1_1_1080x1080 from '../../img/DRS_store/large/Brushes_1_1_1080x1080.jpg';
 import Cords_1_1_1080x1080 from '../../img/DRS_store/large/Cords_1_1_1080x1080.jpg';
@@ -204,7 +204,7 @@ import Dromedary_16_9_1920x1080 from '../../img/DRS_store/large/Dromedary_16_9_1
 import GriGri_16_9_1920x1080 from '../../img/DRS_store/large/GriGri_16_9_1920x1080.jpg';
 import Harnesses_16_9_1920x1080 from '../../img/DRS_store/large/Harnesses_16_9_1920x1080.jpg';
 import Pants_16_9_1919x1080 from '../../img/DRS_store/large/Pants_16_9_1919x1080.jpg';
-import Skyhook_16_9_1920x1080 from '../../img/DRS_store/large/Skyhook_16_9_1920x1080.jpg';
+// import Skyhook_16_9_1920x1080 from '../../img/DRS_store/large/Skyhook_16_9_1920x1080.jpg';
 import Slings2_16_9_1920x1080 from '../../img/DRS_store/large/Slings2_16_9_1920x1080.jpg';
 import SmallLockers_16_9_1920x1080 from '../../img/DRS_store/large/SmallLockers_16_9_1920x1080.jpg';
 // 3:2
@@ -220,7 +220,7 @@ import VaporVCS_3_2_1620x1080 from '../../img/DRS_store/large/VaporVCS_3_2_1620x
 // 5:3
 import Approach2_5_3_1800x1080 from '../../img/DRS_store/large/Approach2_5_3_1800x1080.jpg';
 import Draws2_5_3_1801x1080 from '../../img/DRS_store/large/Draws2_5_3_1801x1080.jpg';
-import Harnesses2_5_3_1800x1080 from '../../img/DRS_store/large/Harnesses2_5_3_1800x1080.jpg';
+// import Harnesses2_5_3_1800x1080 from '../../img/DRS_store/large/Harnesses2_5_3_1800x1080.jpg';
 import HMS_5_3_1800x1080 from '../../img/DRS_store/large/HMS_5_3_1800x1080.jpg';
 import Katanas_5_3_1800x1080 from '../../img/DRS_store/large/Katanas_5_3_1800x1080.jpg';
 import Rhino_5_3_1800x1080 from '../../img/DRS_store/large/Rhino_5_3_1800x1080.jpg';
@@ -249,7 +249,7 @@ import Isobutane_4_3_1280x768 from '../../img/DRS_store/medium/Isobutane_4_3_128
 import Pads_4_3_1024x768 from '../../img/DRS_store/medium/Pads_4_3_1024x768.jpg';
 import Pads2_4_3_1024x768 from '../../img/DRS_store/medium/Pads2_4_3_1024x768.jpg';
 import Platy_4_3_1024x768 from '../../img/DRS_store/medium/Platy_4_3_1024x768.jpg';
-import Sheep_4_3_1024x768 from '../../img/DRS_store/medium/Sheep_4_3_1024x768.jpg';
+// import Sheep_4_3_1024x768 from '../../img/DRS_store/medium/Sheep_4_3_1024x768.jpg';
 import TotemBlue_4_3_1024x768 from '../../img/DRS_store/medium/TotemBlue_4_3_1024x768.jpg';
 // 3:4
 import Approach_3_4_768x1024 from '../../img/DRS_store/medium/Approach_3_4_768x1024.jpg';
@@ -258,7 +258,7 @@ import Postcards_3_4_768x1024 from '../../img/DRS_store/medium/Postcards_3_4_768
 import Ropes_3_4_768x1024 from '../../img/DRS_store/medium/Ropes_3_4_768x1024.jpg';
 // 1:1
 import BDPacks_1_1_768x768 from '../../img/DRS_store/medium/BDPacks_1_1_768x768.jpg';
-import BigBros2_1_1_768x768 from '../../img/DRS_store/medium/BigBros2_1_1_768x768.jpg';
+// import BigBros2_1_1_768x768 from '../../img/DRS_store/medium/BigBros2_1_1_768x768.jpg';
 import BoulderingIsDumb_1_1_768x768 from '../../img/DRS_store/medium/BoulderingIsDumb_1_1_768x768.jpg';
 import Brushes_1_1_768x768 from '../../img/DRS_store/medium/Brushes_1_1_768x768.jpg';
 import Cords_1_1_768x768 from '../../img/DRS_store/medium/Cords_1_1_768x768.jpg';
@@ -298,7 +298,7 @@ import Dromedary_16_9_1365x768 from '../../img/DRS_store/medium/Dromedary_16_9_1
 import GriGri_16_9_1365x768 from '../../img/DRS_store/medium/GriGri_16_9_1365x768.jpg';
 import Harnesses_16_9_1365x768 from '../../img/DRS_store/medium/Harnesses_16_9_1365x768.jpg';
 import Pants_16_9_1365x768 from '../../img/DRS_store/medium/Pants_16_9_1365x768.jpg';
-import Skyhook_16_9_1365x768 from '../../img/DRS_store/medium/Skyhook_16_9_1365x768.jpg';
+// import Skyhook_16_9_1365x768 from '../../img/DRS_store/medium/Skyhook_16_9_1365x768.jpg';
 import Slings2_16_9_1365x768 from '../../img/DRS_store/medium/Slings2_16_9_1365x768.jpg';
 import SmallLockers_16_9_1365x768 from '../../img/DRS_store/medium/SmallLockers_16_9_1365x768.jpg';
 // 3:2
@@ -314,7 +314,7 @@ import VaporVCS_3_2_1152x768 from '../../img/DRS_store/medium/VaporVCS_3_2_1152x
 // 5:3
 import Approach2_5_3_1280x768 from '../../img/DRS_store/medium/Approach2_5_3_1280x768.jpg';
 import Draws2_5_3_1281x768 from '../../img/DRS_store/medium/Draws2_5_3_1281x768.jpg';
-import Harnesses2_5_3_1280x768 from '../../img/DRS_store/medium/Harnesses2_5_3_1280x768.jpg';
+// import Harnesses2_5_3_1280x768 from '../../img/DRS_store/medium/Harnesses2_5_3_1280x768.jpg';
 import HMS_5_3_1280x768 from '../../img/DRS_store/medium/HMS_5_3_1280x768.jpg';
 import Katanas_5_3_1280x768 from '../../img/DRS_store/medium/Katanas_5_3_1280x768.jpg';
 import Rhino_5_3_1280x768 from '../../img/DRS_store/medium/Rhino_5_3_1280x768.jpg';
@@ -344,7 +344,7 @@ import Isobutane_4_3_800x480 from '../../img/DRS_store/small/Isobutane_4_3_800x4
 import Pads_4_3_640x480 from '../../img/DRS_store/small/Pads_4_3_640x480.jpg';
 import Pads2_4_3_640x480 from '../../img/DRS_store/small/Pads2_4_3_640x480.jpg';
 import Platy_4_3_640x480 from '../../img/DRS_store/small/Platy_4_3_640x480.jpg';
-import Sheep_4_3_640x480 from '../../img/DRS_store/small/Sheep_4_3_640x480.jpg';
+// import Sheep_4_3_640x480 from '../../img/DRS_store/small/Sheep_4_3_640x480.jpg';
 import TotemBlue_4_3_640x480 from '../../img/DRS_store/small/TotemBlue_4_3_640x480.jpg';
 // 3:4
 import Approach_3_4_480x640 from '../../img/DRS_store/small/Approach_3_4_480x640.jpg';
@@ -353,7 +353,7 @@ import Postcards_3_4_480x640 from '../../img/DRS_store/small/Postcards_3_4_480x6
 import Ropes_3_4_480x640 from '../../img/DRS_store/small/Ropes_3_4_480x640.jpg';
 // 1:1
 import BDPacks_1_1_480x480 from '../../img/DRS_store/small/BDPacks_1_1_480x480.jpg';
-import BigBros2_1_1_480x480 from '../../img/DRS_store/small/BigBros2_1_1_480x480.jpg';
+// import BigBros2_1_1_480x480 from '../../img/DRS_store/small/BigBros2_1_1_480x480.jpg';
 import BoulderingIsDumb_1_1_480x480 from '../../img/DRS_store/small/BoulderingIsDumb_1_1_480x480.jpg';
 import Brushes_1_1_480x480 from '../../img/DRS_store/small/Brushes_1_1_480x480.jpg';
 import Cords_1_1_480x480 from '../../img/DRS_store/small/Cords_1_1_480x480.jpg';
@@ -393,7 +393,7 @@ import Dromedary_16_9_853x480 from '../../img/DRS_store/small/Dromedary_16_9_853
 import GriGri_16_9_853x480 from '../../img/DRS_store/small/GriGri_16_9_853x480.jpg';
 import Harnesses_16_9_853x480 from '../../img/DRS_store/small/Harnesses_16_9_853x480.jpg';
 import Pants_16_9_853x480 from '../../img/DRS_store/small/Pants_16_9_853x480.jpg';
-import Skyhook_16_9_853x480 from '../../img/DRS_store/small/Skyhook_16_9_853x480.jpg';
+// import Skyhook_16_9_853x480 from '../../img/DRS_store/small/Skyhook_16_9_853x480.jpg';
 import Slings2_16_9_853x480 from '../../img/DRS_store/small/Slings2_16_9_853x480.jpg';
 import SmallLockers_16_9_853x480 from '../../img/DRS_store/small/SmallLockers_16_9_853x480.jpg';
 // 3:2
@@ -409,7 +409,7 @@ import VaporVCS_3_2_720x480 from '../../img/DRS_store/small/VaporVCS_3_2_720x480
 // 5:3
 import Approach2_5_3_800x480 from '../../img/DRS_store/small/Approach2_5_3_800x480.jpg';
 import Draws2_5_3_800x480 from '../../img/DRS_store/small/Draws2_5_3_800x480.jpg';
-import Harnesses2_5_3_800x480 from '../../img/DRS_store/small/Harnesses2_5_3_800x480.jpg';
+// import Harnesses2_5_3_800x480 from '../../img/DRS_store/small/Harnesses2_5_3_800x480.jpg';
 import HMS_5_3_800x480 from '../../img/DRS_store/small/HMS_5_3_800x480.jpg';
 import Katanas_5_3_800x480 from '../../img/DRS_store/small/Katanas_5_3_800x480.jpg';
 import Rhino_5_3_800x480 from '../../img/DRS_store/small/Rhino_5_3_800x480.jpg';
@@ -439,7 +439,7 @@ import Isobutane_4_3_533x320 from '../../img/DRS_store/phone/Isobutane_4_3_533x3
 import Pads_4_3_427x320 from '../../img/DRS_store/phone/Pads_4_3_427x320.jpg';
 import Pads2_4_3_427x320 from '../../img/DRS_store/phone/Pads2_4_3_427x320.jpg';
 import Platy_4_3_427x320 from '../../img/DRS_store/phone/Platy_4_3_427x320.jpg';
-import Sheep_4_3_427x320 from '../../img/DRS_store/phone/Sheep_4_3_427x320.jpg';
+// import Sheep_4_3_427x320 from '../../img/DRS_store/phone/Sheep_4_3_427x320.jpg';
 import TotemBlue_4_3_427x320 from '../../img/DRS_store/phone/TotemBlue_4_3_427x320.jpg';
 // 3:4
 import Approach_3_4_320x427 from '../../img/DRS_store/phone/Approach_3_4_320x427.jpg';
@@ -448,7 +448,7 @@ import Postcards_3_4_320x427 from '../../img/DRS_store/phone/Postcards_3_4_320x4
 import Ropes_3_4_320x427 from '../../img/DRS_store/phone/Ropes_3_4_320x427.jpg';
 // 1:1
 import BDPacks_1_1_320x320 from '../../img/DRS_store/phone/BDPacks_1_1_320x320.jpg';
-import BigBros2_1_1_320x320 from '../../img/DRS_store/phone/BigBros2_1_1_320x320.jpg';
+// import BigBros2_1_1_320x320 from '../../img/DRS_store/phone/BigBros2_1_1_320x320.jpg';
 import BoulderingIsDumb_1_1_320x320 from '../../img/DRS_store/phone/BoulderingIsDumb_1_1_320x320.jpg';
 import Brushes_1_1_320x320 from '../../img/DRS_store/phone/Brushes_1_1_320x320.jpg';
 import Cords_1_1_320x320 from '../../img/DRS_store/phone/Cords_1_1_320x320.jpg';
@@ -488,7 +488,7 @@ import Dromedary_16_9_568x320 from '../../img/DRS_store/phone/Dromedary_16_9_568
 import GriGri_16_9_568x320 from '../../img/DRS_store/phone/GriGri_16_9_568x320.jpg';
 import Harnesses_16_9_568x320 from '../../img/DRS_store/phone/Harnesses_16_9_568x320.jpg';
 import Pants_16_9_568x320 from '../../img/DRS_store/phone/Pants_16_9_568x320.jpg';
-import Skyhook_16_9_568x320 from '../../img/DRS_store/phone/Skyhook_16_9_568x320.jpg';
+// import Skyhook_16_9_568x320 from '../../img/DRS_store/phone/Skyhook_16_9_568x320.jpg';
 import Slings2_16_9_568x319 from '../../img/DRS_store/phone/Slings2_16_9_568x319.jpg';
 import SmallLockers_16_9_568x320 from '../../img/DRS_store/phone/SmallLockers_16_9_568x320.jpg';
 // 3:2
@@ -504,7 +504,7 @@ import VaporVCS_3_2_480x320 from '../../img/DRS_store/phone/VaporVCS_3_2_480x320
 // 5:3
 import Approach2_5_3_533x320 from '../../img/DRS_store/phone/Approach2_5_3_533x320.jpg';
 import Draws2_5_3_534x320 from '../../img/DRS_store/phone/Draws2_5_3_534x320.jpg';
-import Harnesses2_5_3_533x320 from '../../img/DRS_store/phone/Harnesses2_5_3_533x320.jpg';
+// import Harnesses2_5_3_533x320 from '../../img/DRS_store/phone/Harnesses2_5_3_533x320.jpg';
 import HMS_5_3_533x320 from '../../img/DRS_store/phone/HMS_5_3_533x320.jpg';
 import Katanas_5_3_533x320 from '../../img/DRS_store/phone/Katanas_5_3_533x320.jpg';
 import Rhino_5_3_533x320 from '../../img/DRS_store/phone/Rhino_5_3_533x320.jpg';
@@ -1003,22 +1003,22 @@ export const photosPreStyledTitle = [
         height: 2459,
         title: "We sell a lot of Asana pads as well as their Pro Spotter Pad blankets."
     },
-    {
-        src: Sheep_4_3_1440x1080,
-        srcSet: [
-            `${Sheep_4_3_427x320} 427w,
-            ${Sheep_4_3_640x480} 640w,
-            ${Sheep_4_3_1024x768} 1024w,
-            ${Sheep_4_3_1440x1080} 1440w,
-            `
-            // ${Sheep_4_3_3251x2438} 3251w
-        ],
-        sizes: srcSetSizes,
-        alt: "A hand carved wood Big Horn Sheep statue.",
-        width: 3251,
-        height: 2438,
-        title: "If you are lucky you might get to see one of these dudes out in the canyons! A rare treat!"
-    },
+    // {
+    //     src: Sheep_4_3_1440x1080,
+    //     srcSet: [
+    //         `${Sheep_4_3_427x320} 427w,
+    //         ${Sheep_4_3_640x480} 640w,
+    //         ${Sheep_4_3_1024x768} 1024w,
+    //         ${Sheep_4_3_1440x1080} 1440w,
+    //         `
+    //         // ${Sheep_4_3_3251x2438} 3251w
+    //     ],
+    //     sizes: srcSetSizes,
+    //     alt: "A hand carved wood Big Horn Sheep statue.",
+    //     width: 3251,
+    //     height: 2438,
+    //     title: "If you are lucky you might get to see one of these dudes out in the canyons! A rare treat!"
+    // },
     {
         src: Yeti2_5_3_1800x1080,
         srcSet: [
@@ -1195,22 +1195,22 @@ export const photosPreStyledTitle = [
         height: 2105,
         title: "The Scarpa Vapor VCS, a popular aggressive climbing shoe."
     },
-    {
-        src: Harnesses2_5_3_1800x1080,
-        srcSet: [
-            `${Harnesses2_5_3_533x320} 533w,
-            ${Harnesses2_5_3_800x480} 800w,
-            ${Harnesses2_5_3_1280x768} 1280w,
-            ${Harnesses2_5_3_1800x1080} 1800w,
-            `
-            // ${Harnesses2_5_3_4032x2419} 4032w
-        ],
-        sizes: srcSetSizes,
-        alt: "More climbing harnesses, overflowing from shelves.",
-        width: 4032,
-        height: 2419,
-        title: "For some reason not many people in the US seem to be familiar with Edelrid harnesses, a shame, they are excellent. Come try one on."
-    },
+    // {
+    //     src: Harnesses2_5_3_1800x1080,
+    //     srcSet: [
+    //         `${Harnesses2_5_3_533x320} 533w,
+    //         ${Harnesses2_5_3_800x480} 800w,
+    //         ${Harnesses2_5_3_1280x768} 1280w,
+    //         ${Harnesses2_5_3_1800x1080} 1800w,
+    //         `
+    //         // ${Harnesses2_5_3_4032x2419} 4032w
+    //     ],
+    //     sizes: srcSetSizes,
+    //     alt: "More climbing harnesses, overflowing from shelves.",
+    //     width: 4032,
+    //     height: 2419,
+    //     title: "For some reason not many people in the US seem to be familiar with Edelrid harnesses, a shame, they are excellent. Come try one on."
+    // },
     {
         src: C4Red_4_3_1440x1080,
         srcSet: [
@@ -1227,22 +1227,22 @@ export const photosPreStyledTitle = [
         height: 1917,
         title: "Roses are red... and #1 's are too, get something for your Boo!"
     },
-    {
-        src: Skyhook_16_9_1920x1080,
-        srcSet: [
-            `${Skyhook_16_9_568x320} 568w,
-            ${Skyhook_16_9_853x480} 853w,
-            ${Skyhook_16_9_1365x768} 1365w,
-            ${Skyhook_16_9_1920x1080} 1920w,
-            `
-            // ${Skyhook_16_9_3356x1888} 3356w
-        ],
-        sizes: srcSetSizes,
-        alt: "The popular Super Clip, used on the end of a painter's pole to clip quickdraws from the ground is now available with a high quality extendable aluminum pole: The Skyhook.",
-        width: 3356,
-        height: 1888,
-        title: "The popular Super Clip, used on the end of a painter's pole to clip quickdraws from the ground is now available with a high quality extendable aluminum pole: The Skyhook."
-    },
+    // {
+    //     src: Skyhook_16_9_1920x1080,
+    //     srcSet: [
+    //         `${Skyhook_16_9_568x320} 568w,
+    //         ${Skyhook_16_9_853x480} 853w,
+    //         ${Skyhook_16_9_1365x768} 1365w,
+    //         ${Skyhook_16_9_1920x1080} 1920w,
+    //         `
+    //         // ${Skyhook_16_9_3356x1888} 3356w
+    //     ],
+    //     sizes: srcSetSizes,
+    //     alt: "The popular Super Clip, used on the end of a painter's pole to clip quickdraws from the ground is now available with a high quality extendable aluminum pole: The Skyhook.",
+    //     width: 3356,
+    //     height: 1888,
+    //     title: "The popular Super Clip, used on the end of a painter's pole to clip quickdraws from the ground is now available with a high quality extendable aluminum pole: The Skyhook."
+    // },
     {
         src: Pants_16_9_1919x1080,
         srcSet: [
@@ -1531,22 +1531,22 @@ export const photosPreStyledTitle = [
         height: 4032,
         title: "The Black Diamond Gridlock screw gate carabiner. A great option in the realm of anti-crossloading belay carabiners."
     },
-    {
-        src: BigBros2_1_1_1080x1080,
-        srcSet: [
-            `${BigBros2_1_1_320x320} 320w,
-            ${BigBros2_1_1_480x480} 480w,
-            ${BigBros2_1_1_768x768} 768w,
-            ${BigBros2_1_1_1080x1080} 1080w,
-            `
-            // ${BigBros2_1_1_2765x2765} 2765w
-        ],
-        sizes: srcSetSizes,
-        alt: "Close up photo of the warning on Big Bro adjustable tube chocks. Don't just push the button carelessly, the spring is strong and can definitely break your nose or teeth.",
-        width: 2765,
-        height: 2765,
-        title: "Big Bros can be dangerous, don't dry fire them carelessly. You can easily break a nose, tooth, or worse."
-    },
+    // {
+    //     src: BigBros2_1_1_1080x1080,
+    //     srcSet: [
+    //         `${BigBros2_1_1_320x320} 320w,
+    //         ${BigBros2_1_1_480x480} 480w,
+    //         ${BigBros2_1_1_768x768} 768w,
+    //         ${BigBros2_1_1_1080x1080} 1080w,
+    //         `
+    //         // ${BigBros2_1_1_2765x2765} 2765w
+    //     ],
+    //     sizes: srcSetSizes,
+    //     alt: "Close up photo of the warning on Big Bro adjustable tube chocks. Don't just push the button carelessly, the spring is strong and can definitely break your nose or teeth.",
+    //     width: 2765,
+    //     height: 2765,
+    //     title: "Big Bros can be dangerous, don't dry fire them carelessly. You can easily break a nose, tooth, or worse."
+    // },
     {
         src: TotemBlue_4_3_1440x1080,
         srcSet: [
