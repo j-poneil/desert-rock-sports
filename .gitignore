@@ -28,15 +28,33 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# /src should be the one that works?
+# don't publish, because password, 
 /src/.htpasswd
 /public/.htaccess
+
+# should be fine to publish
 /public/robots.txt
 
+# don't publish, because my notes, etc...
 WHAT_TO_WORK_ON.js
+HOW_TO_UPDATE_SITE.md
+NOTES.md
+create_react_app_default_readme.md
+
+# don't publish, because no need to take up space with these
 /src/files
+/src/vid
+
+# don't publish, because CRON job tests/thoughts
 /src/cronRest
+
+# don't publish, because PHP scripts often have API keys or other secrets
 /src/php
+
+# don't publish, because API key
 /src/components/sub/NewsletterModal.js
 /src/components/sub/NewsletterIFrame.js
 /src/components/sub/NewsletterForm.js
+
+# should not be a big deal, but don't publish the formsubmit email/link...?
+/src/components/sub/GuideInquiryForm.js
