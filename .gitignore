@@ -11,12 +11,6 @@
 # production
 /build
 
-# images
-/src/img
-# This line should prevent tracking any changes in the img folder
-# Uploading so many images to github makes no sense, takes so long
-#... just back them up periodically locally
-
 # misc
 .DS_Store
 .env.local
@@ -44,6 +38,7 @@ create_react_app_default_readme.md
 # don't publish, because no need to take up space with these
 /src/files
 /src/vid
+/src/img
 
 # don't publish, because CRON job tests/thoughts
 /src/cronRest
