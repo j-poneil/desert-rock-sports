@@ -22,6 +22,8 @@ import AccordionOfAccordions from './sub/AccordionOfAccordions';
 // take 'text' and 'bgImg' as props
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import fyfe_chrysler from '../img/HeaderImgs/FyfeChrysler_16_9_polished-min.jpg';
+import sandstone from '../img/HeaderImgs/Sandstone_16_9_polished-min.jpg';
 
 // for when testing the template used for the other section components
 // import Template from './beta/Template';
@@ -166,7 +168,7 @@ export default function Beta(){
 
             <CustomHeader
                 text="All the basic Vegas area info"
-                bgImg={ rope_med }
+                bgImg={ sandstone }
             />
 
             <Row className='mt-3' >

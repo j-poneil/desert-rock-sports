@@ -30,6 +30,12 @@ import RRCGCombinedWaiver8_20 from '../files/liability/RRCG Combined Waiver 8_20
 
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import WRL_2 from '../img/HeaderImgs/WRL_2_16_9_polished-min.jpg';
+import barnacle from '../img/HeaderImgs/Barnacle_16_9_polished-min.jpg';
+import dead_wood from '../img/HeaderImgs/DeadWood_16_9_polished-min.jpg';
+import barnacle_goggles from '../img/HeaderImgs/BarnacleGoggles_16_9_polished-min.jpg';
+// import sunset_3 from '../img/HeaderImgs/Sunset_3_16_9_polished-min.jpg';
+import pink_flowers from '../img/HeaderImgs/PinkFlowers_16_9_polished-min.jpg';
 
 
 
@@ -128,7 +134,7 @@ export default function Guiding(){
         <Container fluid className="pr-0 pl-0" style={ backgroundStyles }>
             <CustomHeader
                 text="Guide Service"
-                bgImg={ rope_med }
+                bgImg={ WRL_2 }
             />
 
 
@@ -154,7 +160,7 @@ export default function Guiding(){
 
             <CustomHeader
                 text="All about our guiding services!"
-                bgImg={ rope_med }
+                bgImg={ barnacle }
             />
 
             <Container fluid="md">
@@ -176,7 +182,7 @@ export default function Guiding(){
 
             <CustomHeader
                 text="Pictures from some of our outings"
-                bgImg={ rope_med }
+                bgImg={ dead_wood }
             />
 
             {/* <Jumbotron className="text-center mt-3">
@@ -192,7 +198,7 @@ export default function Guiding(){
 
             <CustomHeader
                 text="Some of our amazing guides"
-                bgImg={ rope_med }
+                bgImg={ barnacle_goggles }
             />
 
             {/* <Jumbotron className="text-center mt-3 mb-3">
@@ -210,8 +216,8 @@ export default function Guiding(){
 
             
             <CustomHeader
-                text="We can accomodate many different situations besides what we have mentioned, just contact us!"
-                bgImg={ rope_med }
+                text="We can accomodate many different situations, just contact us!"
+                bgImg={ pink_flowers }
             />
             {/* We can accomodate other things, just ask! */}
             {/* <Jumbotron className="text-center mt-5">

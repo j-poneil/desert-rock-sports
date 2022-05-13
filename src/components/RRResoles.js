@@ -9,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import lynx from '../img/HeaderImgs/Lynx_16_9_polished-min.jpg';
 
 // Images
 // import Lynx from '../img/RRR/Lynx_450x450.jpg';
@@ -35,7 +36,7 @@ function RRResoles() {
         <Container fluid className="pr-0 pl-0" style={ backgroundStyles }>
             <CustomHeader
                 text="Red Rock Resoles (no affiliation to us)"
-                bgImg={ rope_med }
+                bgImg={ lynx }
             />
 
             <Container fluid="md">

@@ -32,6 +32,13 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import sunset_7 from '../img/HeaderImgs/Sunset_7_16_9_polished-min.jpg';
+import sandstone from '../img/HeaderImgs/Sandstone_16_9_polished-min.jpg';
+import plant from '../img/HeaderImgs/Plant_16_9_polished-min.jpg';
+import barnacle from '../img/HeaderImgs/Barnacle_16_9_polished-min.jpg';
+import sunset_3 from '../img/HeaderImgs/Sunset_3_16_9_polished-min.jpg';
+import white_yellow_flowers_2 from '../img/HeaderImgs/WhiteYellowFlowers_2_16_9_polished-min.jpg';
+
 
 const backgroundStyles = {
     // backgroundColor: 'white'
@@ -45,7 +52,7 @@ const Weather = () => {
 
             <CustomHeader
                 text="Weather"
-                bgImg={ rope_med }
+                bgImg={ sunset_7 }
             />
 
         
@@ -65,7 +72,7 @@ const Weather = () => {
 
             <CustomHeader
                 text="The Science of Wet Sandstone"
-                bgImg={ rope_med }
+                bgImg={ sandstone }
             />
 
             <Container fluid="md">
@@ -123,7 +130,7 @@ const Weather = () => {
 
             <CustomHeader
                 text="Real examples of wet rock"
-                bgImg={ rope_med }
+                bgImg={ plant }
             />
 
             <Container fluid="md">
@@ -161,7 +168,7 @@ const Weather = () => {
 
             <CustomHeader
                 text="When is it dry enough?"
-                bgImg={ rope_med }
+                bgImg={ barnacle }
             />
 
             <Container fluid="md">
@@ -183,7 +190,7 @@ const Weather = () => {
 
             <CustomHeader
                 text="Links to further resources"
-                bgImg={ rope_med }
+                bgImg={ sunset_3 }
             />
 
             <Container fluid="md">
@@ -211,7 +218,7 @@ const Weather = () => {
 
             <CustomHeader
                 text="How to help the wet rock situation"
-                bgImg={ rope_med }
+                bgImg={ white_yellow_flowers_2 }
             />
 
             <Container fluid="md">

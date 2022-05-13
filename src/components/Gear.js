@@ -10,6 +10,9 @@ import Container from 'react-bootstrap/Container';
 // takes 'text' and 'bgImg' as props
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import rope from '../img/HeaderImgs/Rope_16_9_polished-min.jpg';
+import barnacle_goggles from '../img/HeaderImgs/BarnacleGoggles_16_9_polished-min.jpg';
+import barnacle from '../img/HeaderImgs/Barnacle_16_9_polished-min.jpg';
 
 
 // import GearCarousel from '../components/sub/GearCarousel';
@@ -42,7 +45,7 @@ export default function Gear(){
 
             <CustomHeader
                 text="We specialize in all things climbing"
-                bgImg={ rope_med }
+                bgImg={ rope }
             />
 
             {/* //% I want a photo sphere of the shop... */}
@@ -55,7 +58,7 @@ export default function Gear(){
 
             <CustomHeader
                 text="We take and sell used gear on consignment"
-                bgImg={ rope_med }
+                bgImg={ barnacle_goggles }
             />
             <Container fluid="md">
                 {/* <h2>Consignment</h2> */}
@@ -88,7 +91,7 @@ export default function Gear(){
 
             <CustomHeader
                 text="This is the kind of shiny new climbing gear and clothing you can find here"
-                bgImg={ rope_med }
+                bgImg={ barnacle }
             />
             <Container fluid className="pl-0 pr-0" style={ galleryStyles }>
                 <ReusableGallery photos={ photos } />

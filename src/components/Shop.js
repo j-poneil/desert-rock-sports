@@ -9,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import white_yellow_flowers from '../img/HeaderImgs/WhiteYellowFlowers_16_9_polished-min.jpg';
 
 
 // imgs
@@ -65,7 +66,7 @@ export default function Shop(){
 
             <CustomHeader
                 text="The best local guidebooks are available for online purchase"
-                bgImg={ rope_med }
+                bgImg={ white_yellow_flowers }
             />
 
 

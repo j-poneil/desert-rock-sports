@@ -131,6 +131,7 @@ todo - M thoughts, etc
                 OR just custom style that can be imported and used
                 ex. M often uses full width sections with white text near the bottom and linear gradient to make it more readable
                 with images that work well at all sizes with the focus being in the middle
+                ! Don't have too many such CustomHeader 's ... it gets excessive at some point, and hard to have enough images
                 
 
 

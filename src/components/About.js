@@ -25,6 +25,10 @@ import Cat_1620x1080 from '../img/About/cat_1620x1080.jpg';
 
 import CustomHeader from './sub/CustomHeader';
 import rope_med from '../img/BackgroundImages/rope_med.jpg';
+import spiky from '../img/HeaderImgs/Spiky_16_9_polished-min.jpg';
+import fossil from '../img/HeaderImgs/Fossil_16_9_polished-min.jpg';
+import barnacleGoggles from '../img/HeaderImgs/BarnacleGoggles_16_9_polished-min.jpg';
+import whiteYellowFlowers from '../img/HeaderImgs/WhiteYellowFlowers_16_9_polished-min.jpg';
 
 // styles here:
 // src\stylesheets\pages\_about.sass
@@ -94,12 +98,15 @@ export default function About(){
         <Container fluid className="pr-0 pl-0" style={ backgroundStyles }>
             <CustomHeader
                 text="How it all started"
-                bgImg={ rope_med }
+                bgImg={ fossil }
             />
 
             <Container fluid="md">
-                <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}>
-                    <Col className="mb-3">
+                {/* <h3>How they met...</h3> */}
+                <p>Mike Lorenzo, Steve Mallory and Travis Graves met through their love of climbing at Red Rock Climbing Center (formerly, Powerhouse Gym). Travis, who was the store manager for Desert Rock Sports, approached Mike and Steve with the idea of forming a partnership to buy the store from Mike and Tim Ward who wanted to retire. In February 2005 the partnership was born.</p>
+                <p>All three are active climbers and are members of Las Vegas Climbers' Liaison Council, an organization that is dedicated to ensuring climbing access, encouraging stewardship of the environment, and cultivating a sense of community in a world-class climbing destination.</p>
+                {/* <Row xxl={2} xl={2} lg={2} md={1} sm={1} xs={1}> */}
+                    {/* <Col className="mb-3">
                         <Card style={{'height': '100%'}}>
                             <Card.Body>
                                 <Card.Title>How they met...</Card.Title>
@@ -111,8 +118,8 @@ export default function About(){
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col className="mb-3">
+                    </Col> */}
+                    {/* <Col className="mb-3">
                         <Card style={{'height': '100%'}}>
                             <Card.Img
                                 src={ Cat_480x320 }
@@ -129,7 +136,7 @@ export default function About(){
                                 alt="Stuffed animal hanging out in a sandstone nook"
                             />
                         </Card>
-                    </Col>
+                    </Col> */}
                     {/* <Col className="mb-3">
                         <Card style={{'height': '100%'}}>
                             <Card.Body>
@@ -150,12 +157,12 @@ export default function About(){
                             </Card.Body>
                         </Card>
                     </Col> */}
-                </Row>
+                {/* </Row> */}
             </Container>
 
             <CustomHeader
                 text="Our wonderful staff"
-                bgImg={ rope_med }
+                bgImg={ whiteYellowFlowers }
             />
 
             <Container fluid="md">

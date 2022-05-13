@@ -18,6 +18,9 @@ const CustomHeader = (props) => {
             backgroundSize: 'cover',
             objectFit: 'cover',
             width: '100%',
+            // 20vh is what I had originally, but for the image of Barnacle w/ goggles, on 1920x1080 laptop... around 40vh looks better
+            //! I should just code an optional prop to use custom vh... but default to 20vh
+            // and/or make these headers default to different vh for different screen sizes
             height: '20vh',
             borderRadius: '0',
             padding: '0',
