@@ -12,11 +12,10 @@
 /build
 
 # images
-#/src/img
+/src/img
 # This line should prevent tracking any changes in the img folder
 # Uploading so many images to github makes no sense, takes so long
 #... just back them up periodically locally
-# src/img/*
 
 # misc
 .DS_Store
@@ -30,6 +29,7 @@ yarn-debug.log*
 yarn-error.log*
 .htpasswd
 src/.htpasswd
+/src/.htpasswd
 public/.htaccess
 public/robots.txt
 
