@@ -141,8 +141,8 @@ function Hours(){
 // ! styles not used anymore
 // src/stylesheets/layout/_contact.sass
 
-const drsContactStyles = {};
-const r2c2ContactStyles = {};
+// const drsContactStyles = {};
+// const r2c2ContactStyles = {};
 
 
 export default function Contact(){

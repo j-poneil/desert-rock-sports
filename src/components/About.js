@@ -14,20 +14,20 @@ import Card from 'react-bootstrap/Card';
 
 //% update staff bios, imgs, etc here
 import { staff } from './data/staffList';
-import { Jumbotron } from 'react-bootstrap';
+// import { Jumbotron } from 'react-bootstrap';
 
 // side img, etc
 // import Cat_medium from '../img/About/Cat_medium.jpg';
-import Cat_480x320 from '../img/About/cat_480x320.jpg';
-import Cat_720x480 from '../img/About/cat_720x480.jpg';
-import Cat_1152x768 from '../img/About/cat_1152x768.jpg';
-import Cat_1620x1080 from '../img/About/cat_1620x1080.jpg';
+// import Cat_480x320 from '../img/About/cat_480x320.jpg';
+// import Cat_720x480 from '../img/About/cat_720x480.jpg';
+// import Cat_1152x768 from '../img/About/cat_1152x768.jpg';
+// import Cat_1620x1080 from '../img/About/cat_1620x1080.jpg';
 
 import CustomHeader from './sub/CustomHeader';
-import rope_med from '../img/BackgroundImages/rope_med.jpg';
-import spiky from '../img/HeaderImgs/Spiky_16_9_polished-min.jpg';
+// import rope_med from '../img/BackgroundImages/rope_med.jpg';
+// import spiky from '../img/HeaderImgs/Spiky_16_9_polished-min.jpg';
 import fossil from '../img/HeaderImgs/Fossil_16_9_polished-min.jpg';
-import barnacleGoggles from '../img/HeaderImgs/BarnacleGoggles_16_9_polished-min.jpg';
+// import barnacleGoggles from '../img/HeaderImgs/BarnacleGoggles_16_9_polished-min.jpg';
 import whiteYellowFlowers from '../img/HeaderImgs/WhiteYellowFlowers_16_9_polished-min.jpg';
 
 // styles here:

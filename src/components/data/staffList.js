@@ -7,7 +7,7 @@ import React from 'react';
 //% photos for staff
 // standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';
-// import Placeholder from '../../img/RRCG/GuideBioImgs/Placeholder_450w_450h.jpg';
+import Placeholder from '../../img/RRCG/GuideBioImgs/Placeholder_450w_450h.jpg';
 import TG from '../../img/DRS_staff/TG2_450w_450h.jpg';
 import Mike from '../../img/DRS_staff/Mike2_450w_450h.jpg';
 import Steve from '../../img/DRS_staff/Steve_450w_450h.jpg';
@@ -35,6 +35,7 @@ import JoshD from '../../img/RRCG/GuideBioImgs/JoshD_450w_450h.jpg';
 import Jakob from '../../img/RRCG/GuideBioImgs/Jakob_450w_450h.jpg';
 // import Kat from '../../img/RRCG/GuideBioImgs/Kat_450w_450h.jpg';
 import Kat from '../../img/RRCG/GuideBioImgs/Kat_by_Jaz_Morris_450x450_enhanced-min.jpg';
+// import 
 
 // % For bio, its an arrow function that returns JSX, so just write 'basically' HTML between the <></>. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
 
@@ -207,7 +208,7 @@ export const staff = [
             <>
                 <p>I have climbed in so many cool places, but Red Rock is still my favorite!</p>
                 <p>I'm a Kiwi!</p>
-                <p>I have the coolest dog ever, Barnacle!</p>
+                <p>I have the coolest dog ever, Barnacle! Some days I will let him join us.</p>
             </>
         ),
         imgSrc: Samantha,
@@ -255,6 +256,24 @@ export const staff = [
         active: true,
         isGuide: true,
         isRetail: true
+    },
+    {
+        name: "Selena Pang",
+        position: "",
+        certs: "AMGA Apprentice Rock Guide",
+        exp: "",
+        bio: () => (
+            <>
+                <p></p>
+            </>
+        ),
+        imgSrc: Placeholder,
+        ig: 'https://www.instagram.com/selena_pang/',
+        site: '',
+        youtube: '',
+        active: true,
+        isGuide: true,
+        isRetail: false
     },
     {
         name: "Elaina Arenz",

@@ -4,11 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 // import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import CustomHeader from './sub/CustomHeader';
-import rope_med from '../img/BackgroundImages/rope_med.jpg';
+// import rope_med from '../img/BackgroundImages/rope_med.jpg';
 import white_yellow_flowers from '../img/HeaderImgs/WhiteYellowFlowers_16_9_polished-min.jpg';
 
 
@@ -21,9 +21,9 @@ import BuyNow from '../img/DRS_webShop/buyNow.gif';
 // import Big4_1080x1440 from '../img/DRS_webShop/Big4_1080x1440-min.jpg';
 // Southern Nevada Bouldering 2 crossed out - out of print!
 import Big4_320x427 from '../img/DRS_webShop/Big4_2_320x427-min.jpg';
-import Big4_480x640 from '../img/DRS_webShop/Big4_2_480x640-min.jpg';
-import Big4_768x1024 from '../img/DRS_webShop/Big4_2_768x1024-min.jpg';
-import Big4_1080x1440 from '../img/DRS_webShop/Big4_2_1080x1440-min.jpg';
+// import Big4_480x640 from '../img/DRS_webShop/Big4_2_480x640-min.jpg';
+// import Big4_768x1024 from '../img/DRS_webShop/Big4_2_768x1024-min.jpg';
+// import Big4_1080x1440 from '../img/DRS_webShop/Big4_2_1080x1440-min.jpg';
 //
 import Handren_319x475 from '../img/DRS_webShop/Handren_319x475.jpg';
 import Moulin_300x461 from '../img/DRS_webShop/Moulin_300x461.jpg';
@@ -41,10 +41,10 @@ export default function Shop(){
     const bookCardStyles = {
         height: '100%',
     };
-    const guideBooksAsideStyles = {
-        width: '100%',
-        height: 'auto'
-    };
+    // const guideBooksAsideStyles = {
+    //     width: '100%',
+    //     height: 'auto'
+    // };
     const bookTitleStyles = {
         textAlign: 'center'
     };

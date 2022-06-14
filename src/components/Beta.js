@@ -4,7 +4,8 @@ import React from 'react';
 // Standard?
 // FaExternalLinkAlt AFTER links away
 // FaDirections BEFORE Gmaps links away
-import { FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone, FaGithub } from 'react-icons/fa';
+// currently not used: FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone,
+import { FaGithub } from 'react-icons/fa';
 // import { HiOutlineMail } from 'react-icons/hi';
 
 
@@ -21,8 +22,8 @@ import AccordionOfAccordions from './sub/AccordionOfAccordions';
 
 // take 'text' and 'bgImg' as props
 import CustomHeader from './sub/CustomHeader';
-import rope_med from '../img/BackgroundImages/rope_med.jpg';
-import fyfe_chrysler from '../img/HeaderImgs/FyfeChrysler_16_9_polished-min.jpg';
+// import rope_med from '../img/BackgroundImages/rope_med.jpg';
+// import fyfe_chrysler from '../img/HeaderImgs/FyfeChrysler_16_9_polished-min.jpg';
 import sandstone from '../img/HeaderImgs/Sandstone_16_9_polished-min.jpg';
 
 // for when testing the template used for the other section components

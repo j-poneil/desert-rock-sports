@@ -82,12 +82,12 @@ const splashTitleStyles = {
     // fontSize: 'calc(1rem + 3vw)'
     fontSize: 'calc(24px + (64 - 24) * ((100vw - 300px) / (1600 - 300)))',
 };
-const splashSubTitleStyles = {
-    // 1em works well-enough, kinda for smallest screen
-    // fontSize: 'calc(1rem + 1vw)' --- works pretty well
-    // fontSize: 'calc(1rem + 1vw)'
-    fontSize: 'calc(12px + (50 - 12) * ((100vw - 300px) / (1600 - 300)))',
-};
+// const splashSubTitleStyles = {
+//     // 1em works well-enough, kinda for smallest screen
+//     // fontSize: 'calc(1rem + 1vw)' --- works pretty well
+//     // fontSize: 'calc(1rem + 1vw)'
+//     fontSize: 'calc(12px + (50 - 12) * ((100vw - 300px) / (1600 - 300)))',
+// };
 const splashPhotoCreditStyle = {
     position: 'absolute',
     right: '10px',

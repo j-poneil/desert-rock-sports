@@ -3,20 +3,20 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
+// import Card from 'react-bootstrap/Card';
+// import Image from 'react-bootstrap/Image';
 
 
 import CustomHeader from './sub/CustomHeader';
-import rope_med from '../img/BackgroundImages/rope_med.jpg';
+// import rope_med from '../img/BackgroundImages/rope_med.jpg';
 import lynx from '../img/HeaderImgs/Lynx_16_9_polished-min.jpg';
 
 // Images
 // import Lynx from '../img/RRR/Lynx_450x450.jpg';
 // import Ganda from '../img/RRR/Gandas_450x450.jpg';
-import LynxGandas_568x284 from '../img/RRR/LynxGandas_568x284-min.jpg';
-import LynxGandas_854x427 from '../img/RRR/LynxGandas_854x427-min.jpg';
-import LynxGandas_900x450 from '../img/RRR/LynxGandas_900x450-min.jpg';
+// import LynxGandas_568x284 from '../img/RRR/LynxGandas_568x284-min.jpg';
+// import LynxGandas_854x427 from '../img/RRR/LynxGandas_854x427-min.jpg';
+// import LynxGandas_900x450 from '../img/RRR/LynxGandas_900x450-min.jpg';
 
 // ! no longer used
 // src\stylesheets\layout\_layout_containers.sass
@@ -46,6 +46,13 @@ function RRResoles() {
                 <p><strong>Steve Krall</strong> is now your Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time (4-5wks). You don't even need to ship them out!</p>
                 <h3 className='text-center'>How it works:</h3>
                 <p>Drop them off at the convient box in Desert Rock Sports. Text Steve the make/model and size of each pair that you drop off, take a picture too if you would like. Thats it!</p>
+                <p>You can also ship shoes to him:</p>
+                <address>
+                    Desert Rock Sports ATTN: Red Rock Resoles<br />
+                    8221 W Charleston Blvd<br />
+                    Suite #102<br />
+                    Las Vegas, NV 89117
+                </address>
                 <p>Just wait to hear back from him about what he thinks the shoes need and the cost, then you pay him with cash, check, or venmo (@resoleSteve), and he drops them back off at Desert Rock Sports when they are finished. (He can ship too if needed).</p>
 
                 {/* //! Need to get image working to fit this fluid="md" space... */}

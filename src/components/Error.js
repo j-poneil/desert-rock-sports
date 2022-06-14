@@ -15,9 +15,18 @@ import Rope_404_568x278 from '../img/404/404_Rope_Cropped_568x278.jpg';
 // styles here:
 // src\stylesheets\pages\_error.sass
 
+const backgroundStyles = {
+    // backgroundColor: 'white'
+    background: 'rgb(255,255,255)',
+    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+    //! 100vh is not the most elegant solution, as scrolling is possible
+    height: '100vh'
+}
+
+
 export default function Error(){
     return (
-        <div id="error-container">
+        <div id="error-container" style={ backgroundStyles }>
             <span className="sr-only">Screen Reader note: 404 Error. File Not Found.</span>
             
             {/*
@@ -52,10 +61,9 @@ export default function Error(){
                     rounded
                     style={{'border': '5px solid black'}}
                 />
-                {/* <div id="error">
-                    404<br/>
-                    File Not Found
-                </div> */}  
+                <div id="error">
+                    Go <a href="/" target="_blank" rel="noopener noreferrer">home</a>
+                </div>
                 </Col>
             </Container>
         </div>

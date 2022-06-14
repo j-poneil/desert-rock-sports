@@ -3,9 +3,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 // import Image from 'react-bootstrap/Image';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
 // import Button from 'react-bootstrap/Button';
 // import Modal from 'react-bootstrap/Modal';
 
@@ -24,14 +24,14 @@ import { FaGithub } from 'react-icons/fa';
 
 // Images
 // import Julie from '../img/HomePage/Julie_medium.jpg';
-import Julie_480x320 from '../img/HomePage/Julie_480x320-min.jpg';
-import Julie_720x480 from '../img/HomePage/Julie_720x480-min.jpg';
-import Julie_1152x768 from '../img/HomePage/Julie_1152x768-min.jpg';
-import Julie_1242x828 from '../img/HomePage/Julie_1242x828-min.jpg';
+// import Julie_480x320 from '../img/HomePage/Julie_480x320-min.jpg';
+// import Julie_720x480 from '../img/HomePage/Julie_720x480-min.jpg';
+// import Julie_1152x768 from '../img/HomePage/Julie_1152x768-min.jpg';
+// import Julie_1242x828 from '../img/HomePage/Julie_1242x828-min.jpg';
 
 // TEMP IMAGES for mocking up only
-import Pickles from '../img/temp/Pickles_900x600.jpg';
-import SufferPup from '../img/temp/SufferPup_900x600.jpg';
+// import Pickles from '../img/temp/Pickles_900x600.jpg';
+// import SufferPup from '../img/temp/SufferPup_900x600.jpg';
 // import Bouldering from '../img/temp/IMG_20190111_121054970_HDR.jpg';
 // import FyfeBouldering from '../img/temp/fyfe_900x600.jpg';
 
@@ -66,13 +66,16 @@ export default function Home(){
             <Container fluid="md" className="mt-3 mb-3">
                 <h3>Welcome to Desert Rock Sports</h3>
                 <p>
-                    the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for climbers, canyoneers, cavers, backpackers, and other outdoor sports enthusiasts.
+                    the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for climbers, canyoneers, cavers, scramblers, hikers, backpackers, and other outdoor sports enthusiasts.
                 </p>
                 <p>
                     We carry top of the line technical gear and outdoor clothing not likely to be found anywhere else in the area.
                 </p>
                 <p>
-                    Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Use our WIFI! We're here to help make your visit to the area a memorable one.
+                    We don't tend to carry arborist or industrial work at height specific professional products (like full body harnesses, specialty products like the Petzl Zig Zag, etc...), though we carry some that have crossover uses to climbers like handled and chest ascenders, progress capture and regular pulleys, some steel carabiners, etc...
+                </p>
+                <p>
+                    Our staff is friendly and helpful. Come in and ask us about routes, conditions, permits, camping, or where to get a good beer. Hang out on our couch and use our WIFI! We are pretty much the community center hub of climbing in Vegas and we are here to help make your visit to the area a memorable one.
                 </p>
                 {/* <Card>
                     <Card.Img

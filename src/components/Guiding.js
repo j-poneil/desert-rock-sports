@@ -29,7 +29,7 @@ import { photos } from './data/guidingGalleryPhotos';
 import RRCGCombinedWaiver8_20 from '../files/liability/RRCG Combined Waiver 8_20.pdf';
 
 import CustomHeader from './sub/CustomHeader';
-import rope_med from '../img/BackgroundImages/rope_med.jpg';
+// import rope_med from '../img/BackgroundImages/rope_med.jpg';
 import WRL_2 from '../img/HeaderImgs/WRL_2_16_9_polished-min.jpg';
 import barnacle from '../img/HeaderImgs/Barnacle_16_9_polished-min.jpg';
 import dead_wood from '../img/HeaderImgs/DeadWood_16_9_polished-min.jpg';
@@ -145,7 +145,7 @@ export default function Guiding(){
                 <ol className="text-left">
                     <li>Check out our options below</li>
                     <li>call us at <a href="tel:1-702-506-6640" target="_blank" rel="noopener noreferrer">1-702-506-6640</a> or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information</li>
-                    <li>We take credit card payment in full over the phone to reserve your spot on our calendar</li>
+                    <li>We take credit card payment in full over the phone to reserve your spot on our calendar or in person at our shop, in advance of the date</li>
                     <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location</li>
                     <li>You have a blast!</li>
                 </ol>

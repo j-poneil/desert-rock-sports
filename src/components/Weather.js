@@ -24,14 +24,14 @@ import {
 import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 // import Image from 'react-bootstrap/Image';
 // import Table from 'react-bootstrap/Table';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
 import CustomHeader from './sub/CustomHeader';
-import rope_med from '../img/BackgroundImages/rope_med.jpg';
+// import rope_med from '../img/BackgroundImages/rope_med.jpg';
 import sunset_7 from '../img/HeaderImgs/Sunset_7_16_9_polished-min.jpg';
 import sandstone from '../img/HeaderImgs/Sandstone_16_9_polished-min.jpg';
 import plant from '../img/HeaderImgs/Plant_16_9_polished-min.jpg';
@@ -39,11 +39,15 @@ import barnacle from '../img/HeaderImgs/Barnacle_16_9_polished-min.jpg';
 import sunset_3 from '../img/HeaderImgs/Sunset_3_16_9_polished-min.jpg';
 import white_yellow_flowers_2 from '../img/HeaderImgs/WhiteYellowFlowers_2_16_9_polished-min.jpg';
 
+// import cactusSVG from '../img/Patterns/500x500_cactus2_black.svg';
 
 const backgroundStyles = {
     // backgroundColor: 'white'
     background: 'rgb(255,255,255)',
     background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+
+    // testing svg
+    // backgroundImage: `url(${cactusSVG})`
 }
 
 const Weather = () => {
@@ -173,7 +177,10 @@ const Weather = () => {
 
             <Container fluid="md">
                 <p>Hard to be sure! Depends on how much rain the desired objective's area got hit with, ambient day and night temperatures, humidity, its sun exposure, wind, etc... Areas that get a ton of sun and wind will dry faster. Areas that stay in shade will take much longer.</p>
+
                 <p>... Since its hard to know exactly how much rain hit any given area unless you were actually out there the entire time it was happening, its hard to know how wet it is. The rain gauges are not close enough or numerous enough to be much help (yet). Often the nearby rain gauges don't actually get hit with rain at all. Word of mouth from people who were actually there at the time is the best info you can get. Not simply at Red Rock, but at the particular canyon in Red Rock that you are interested in climbing at. Often it rains overnight and no one was out there to know how bad it was until they hike out there to look.</p>
+
+                <p>As if that wasn't bad enough, who are you hearing reports from? Is this a Colorado or California granite climber who doesn't understand our sandstone's peculiarities? Are they saying it is dry because the surface of the rock appears dry, which is the metric they are used to? This happens way too often, unfourtunately.</p>
 
                 <h6>In the Summer</h6>
                 <p>Very sunny aspects are typically OK to climb in 24h if they only got a light sprinkle, 48-72h for heavier rains.</p>
@@ -245,10 +252,27 @@ const Weather = () => {
 
                 <h5>Inform climbers you see (gently)</h5>
                 <p>Inform any climbers ignoring or oblivious to the situation. Please be gentle and explain. As noted, most of those climbing at Red Rocks on any given day are passing through or just flew in a day or two before. They are used to other rock types that don't lose strength when wet, the rock surface will probably appear dry, and they probably didn't check the historical weather... but even if they did, as noted before, the closest rain gauge often doesn't register what actually happens out in the calico pullouts and especially not the deeper canyons.</p>
-                <p>We know that it is super frustrating to have your trip ruined by rain... but how bad will your trip be when you break a hold and take a bad fall and break a bone? Or permanently damage a route ruining it for future climbers? It doesn't make it OK and acceptable to climb and damage routes just because you have spent time and money to come here.</p>
+                <p>We know that it is super frustrating to have your trip ruined by rain... but how bad will your trip be when you break a hold and take a bad fall and break a bone? Or permanently damage a route ruining it for future climbers? It doesn't make it OK and acceptable to climb and damage routes just because you have spent time and money to come here. You are not special.</p>
 
                 <h5>Ask experienced locals when you are unsure</h5>
-                <p>Please ask others in the Vegas Climbers Facebook Group or Mountain Project Nevada Forum if they think its OK to climb tomorrow at the area and wall(s) you are wanting to go to. <strong>As a last resort,</strong> you can call us, however we typically have not had time to get out and see ourselves, we are typically only going off what we have read in those above mentioned places or what it looks like down the road from us. As you can imagine, after any given rain, the next day, we are bombarded by calls asking if it is dry enough or when we think it will be dry... but we probably have not been out there yet, so we are not the best source of information!</p>
+                <p>Please ask others in the Vegas Climbers Facebook Group or Mountain Project Nevada Forum if they think its OK to climb tomorrow at the area and wall(s) you are wanting to go to. <strong>As a last resort,</strong> you can call us, however we typically have not had time to get out and see ourselves, we are typically only going off what we have read in those above mentioned places or what it looks like down the road from us (if its actively raining we can probably see that). As you can imagine, after any given rain, the next day, we are bombarded by calls asking if it is dry enough or when we think it will be dry... but we probably have not been out there yet, so we are not the best source of information!</p>
+
+                <h5>If you will ignore the warnings and climb sandstone anyways</h5>
+                <p>Go trad FA some obscure choss, so you don't damage established routes. Be prepared to pay rescue fines due to gross incompetance.</p>
+            </Container>
+
+
+            <CustomHeader
+                text="Wild Fires"
+                bgImg={ white_yellow_flowers_2 }
+            />
+
+            <Container fluid="md">
+                <h5>The science behind the increasing problem</h5>
+                <p>Native desert plants have evolved to generally space themselves out enough to prevent the propagation of wild fires.</p>
+                <p>Invasive desert grasses don't do this natural spacing, and even worse, their seeds propagate easier after wild fires... Its actually in their best interest to burn.</p>
+                <p>Not only do we not want to have more, but every time we have one, the area that grows back has more of these invasive grasses which makes the area further prone to wild fires... Its a vicious cycle.</p>
+                <p>Being a very dry desert environment, the plants here burn readily. The higher elevation areas of Red Rock and Mt Charleston have increasing greenery, but it becomes dominated with pines, whose high sap content, coupled with such a dry environment is very prone to fast spreading fires. If you drive around at Mt Charleston you can see a lot of the work they do to try thin out trees to limit the spread of any fires. As well you will see the numerous burn scars from past fires. The burn scars at Red Rock seem to be a little bit less obvious, but they are definitely there. It seems almost no matter the canyon you hike up in, you will find some evidence of burned trees somewhere.</p>
             </Container>
         </Container>
     )
