@@ -170,24 +170,17 @@ $gyms-button-border: #27332d
     content: '\2E3B'
 
 
+
+
+
+
+
+
 // Custom class for newsletter signup modal sizing / styling
 .newsletterSignupModal
     // position: absolute
     // width: 800px
     // height: 600px
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // SendInBlue stuff
 // @font-face
@@ -221,6 +214,30 @@ $gyms-button-border: #27332d
 //     text-align: left
 //     font-family: "Helvetica", sans-serif
 //     color: #c0ccda
+
+
+
+
+
+
+
+
+// since setting overall background to be tiled cactus img on top of linear gradient...
+// now I need to make sure that text on top stays readable
+// some components, like react-bootstrap card components already force a white background
+// but here I can try to catch and set a bunch of others to be more readable all at once
+// ... actually may not work right as I don't have classes or IDs on them, and they will compile down to divs, etc... hmm
+// <Container> reduces to <div>
+// ... most have fluid='md' ... so could try to use that?
+// ... reduces to div.container-md
+// .onTopOfBackground
+//     background-color: white
+// ... instead change this stuff in layout/_layout_containers.sass
+
+
+
+
+
 
 
 

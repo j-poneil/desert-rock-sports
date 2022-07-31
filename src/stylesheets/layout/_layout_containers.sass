@@ -19,20 +19,71 @@
 // generic responsive media query template from: https://angrytools.com/css/mediaquery/
 
 // desktops - higher resolution
-// @media (min-width: 1281px) {}
+@media (min-width: 1281px)
+    .customHeader
+        clip-path: polygon(0% 0%, 0% 100%, 74% 100%, 76% 96%, 77% 89%, 79% 91%, 80% 94%, 82% 89%, 83% 84%, 85% 85%, 86% 89%, 88% 89%, 90% 92%, 91% 96%, 92% 94%, 94% 87%, 95% 84%, 97% 86%, 98% 81%, 99% 85%, 100% 76%, 100% 70%, 100% 0%)
 
 // laptops, desktops
-// @media (min-width: 1025px) and (max-width: 1280px) {}
+@media (min-width: 1025px) and (max-width: 1280px)
+    .customHeader
+        clip-path: polygon(0% 0%, 0% 100%, 74% 100%, 76% 96%, 77% 89%, 79% 91%, 80% 94%, 82% 89%, 83% 84%, 85% 85%, 86% 89%, 88% 89%, 90% 92%, 91% 96%, 92% 94%, 94% 87%, 95% 84%, 97% 86%, 98% 81%, 99% 85%, 100% 76%, 100% 70%, 100% 0%)
 
 // tablets, ipads (portrait)
-// @media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px)
+    .customHeader
+        clip-path: polygon(0% 0%, 0% 100%, 74% 100%, 76% 96%, 77% 89%, 79% 91%, 80% 94%, 82% 89%, 83% 84%, 85% 85%, 86% 89%, 88% 89%, 90% 92%, 91% 96%, 92% 94%, 94% 87%, 95% 84%, 97% 86%, 98% 81%, 99% 85%, 100% 76%, 100% 70%, 100% 0%)
 
 // tablets, ipads (landscape)
-// @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+    .customHeader
+        clip-path: polygon(0% 0%, 0% 100%, 74% 100%, 76% 96%, 77% 89%, 79% 91%, 80% 94%, 82% 89%, 83% 84%, 85% 85%, 86% 89%, 88% 89%, 90% 92%, 91% 96%, 92% 94%, 94% 87%, 95% 84%, 97% 86%, 98% 81%, 99% 85%, 100% 76%, 100% 70%, 100% 0%)
 
 // low resolution tablets, mobiles (landscape)
-// @media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 481px) and (max-width: 767px)
+    .customHeader
+        clip-path: polygon(0% 0%, 0% 100%, 72% 100%, 77% 93%, 80% 94%, 85% 88%, 88% 89%, 91% 94%, 96% 82%, 100% 85%, 100% 0%)
 
 // smartphones mobiles (portrait)
-// @media (min-width: 320px) and (max-width: 480px) {}
+@media (min-width: 320px) and (max-width: 480px)
+    .customHeader
+        clip-path: polygon(0% 0%, 0% 100%, 70% 100%, 78% 91%, 82% 95%, 86% 87%, 92% 90%, 100% 81%, 100% 0%)
 
+
+
+
+
+// White background, semi-transparent, blurred edges to be used to make text readable against overall site background
+.onTopOfBackground
+    // background-color: white
+    background-color: rgba(255, 255, 255, 0.9)
+    box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.9)
+
+
+
+
+
+// EXPERIMENTAL
+// trying to make the bottom edge of CustomHeaders more interesting
+// URLs need to locate the img relative to the compiled .css file location!
+// this makes it much more confusing
+// correct way:    background: url('../img/Patterns/200x50_test_bottom_right_edge.svg')
+// found by using main.css
+
+// .customHeader::after
+    // content: ''
+    // top: 100%
+    // left: 0
+    // height: 100px
+    // width: 100%
+    // position: absolute
+    // clip-path: polygon(0% 100%, 13% 83%, 22% 54%, 35% 48%, 47% 66%, 60% 61%, 72% 43%, 81% 28%, 92% 24%, 100% 36%, 100% 100%)
+    // background: black
+    // background: url('../img/Patterns/200x50_test_bottom_right_edge.svg') bottom right no-repeat
+    // background-clip: content-box
+    // background-size: 150%
+
+// clip-path approach
+// just a test that it works
+// different rules for different screens, set using the media queries above
+// .customHeader
+//     clip-path: polygon(0% 0%, 0% 100%, 77% 100%, 82% 94%, 87% 95%, 90% 96%, 95% 94%, 98% 92%, 100% 88%, 100% 0%)
