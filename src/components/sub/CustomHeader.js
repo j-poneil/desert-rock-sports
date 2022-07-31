@@ -5,9 +5,13 @@ import React from 'react';
 // text=""
 // bgImg=""
 
+//! the className thing is for experimental effect to get a more interesting bottom edge effect
+// it ties into _layout_containers.sass
+
 const CustomHeader = (props) => {
   return (
     <header
+        className='customHeader'
         style={{
             backgroundImage: `
                 linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7) 0%, rgba(255,255,255,0) 100%),
@@ -29,7 +33,7 @@ const CustomHeader = (props) => {
             // 
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'flex-end'
+            alignItems: 'flex-end',
         }}
     >
         <h1
