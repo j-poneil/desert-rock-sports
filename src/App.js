@@ -22,9 +22,21 @@ import Shop from './components/Shop';
 import Secret from './components/Secret';
 import Error from './components/Error';
 
+
+//! Overall site background
+import Cactus from './img/Patterns/500x500_cactus2_black.svg';
+const overallBackgroundStyles = {
+  // backgroundImage: `url(${Cactus})`
+  // cactus on top of original gradient:
+  backgroundImage: `url(${Cactus}), linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)`,
+  // original size is good, but 20% or 15% also looks good, maybe better... on laptop, on cell its too small...
+  // backgroundSize: '20%',
+  backgroundSize: '250px, 250px',
+};
+
 function App() {
   return (
-    <div>
+    <div style={ overallBackgroundStyles }>
       {/* //@ test to make sure this works... if I remove sr-only, it is visible */}
       <a id='skip-nav' className="sr-only sr-only-focusable" href='#main-content'>Skip Navigation</a>
 

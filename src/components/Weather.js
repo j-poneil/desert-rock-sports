@@ -39,15 +39,11 @@ import barnacle from '../img/HeaderImgs/Barnacle_16_9_polished-min.jpg';
 import sunset_3 from '../img/HeaderImgs/Sunset_3_16_9_polished-min.jpg';
 import white_yellow_flowers_2 from '../img/HeaderImgs/WhiteYellowFlowers_2_16_9_polished-min.jpg';
 
-// import cactusSVG from '../img/Patterns/500x500_cactus2_black.svg';
 
 const backgroundStyles = {
     // backgroundColor: 'white'
-    background: 'rgb(255,255,255)',
-    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
-
-    // testing svg
-    // backgroundImage: `url(${cactusSVG})`
+    // background: 'rgb(255,255,255)',
+    // background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
 }
 
 const Weather = () => {

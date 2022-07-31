@@ -41,9 +41,9 @@ import { FaGithub } from 'react-icons/fa';
 // src\stylesheets\pages\_home.sass
 
 const homeOverallStyle = {
-    background: 'rgb(255,255,255)',
-    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
     overflowX: 'hidden', //% hacky... but couldn't find where the extra margin was coming from, this fixes it
+    // background: 'rgb(255,255,255)',
+    // background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
 };
 
 

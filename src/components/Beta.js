@@ -143,8 +143,8 @@ Maybe better to keep the Card/Section title, and just open/close the accordion g
 
 const backgroundStyles = {
     // backgroundColor: 'white'
-    background: 'rgb(255,255,255)',
-    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+    // background: 'rgb(255,255,255)',
+    // background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
     overflowX: 'hidden',
 }
 

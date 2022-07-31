@@ -22,11 +22,10 @@ import lynx from '../img/HeaderImgs/Lynx_16_9_polished-min.jpg';
 // src\stylesheets\layout\_layout_containers.sass
 // src\stylesheets\components\_rrresoles.sass
 
-
 const backgroundStyles = {
     // backgroundColor: 'white'
-    background: 'rgb(255,255,255)',
-    background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
+    // background: 'rgb(255,255,255)',
+    // background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,101,35,1) 0%, rgba(139,221,255,1) 100%)',
 }
 
 // IG feed embed for him would be great too, but IG embeds are now, after FB changes, a big hassle as I have noted elsewhere
@@ -35,19 +34,19 @@ function RRResoles() {
     return (
         <Container fluid className="pr-0 pl-0" style={ backgroundStyles }>
             <CustomHeader
-                text="Red Rock Resoles (no affiliation to us)"
+                text="Red Rock Resoles"
                 bgImg={ lynx }
             />
 
-            <Container fluid="md">
-                <h5 className='text-center' as='h1'>Red Rock Resoles</h5>
+            <Container fluid="md" className="onTopOfBackground">
+                {/* <h5 className='text-center' as='h1'>Red Rock Resoles</h5> */}
                 {/* <Card.Subtitle className='text-center' as='h4'>Steve Krall</Card.Subtitle> */}
                 <h2 className='text-center'>Get some fresh rubber on those shoes!</h2>
                 <p><strong>Steve Krall</strong> is now your Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time (4-5wks). You don't even need to ship them out!</p>
                 <h3 className='text-center'>How it works:</h3>
                 <p>Drop them off at the convient box in Desert Rock Sports. Text Steve the make/model and size of each pair that you drop off, take a picture too if you would like. Thats it!</p>
                 <p>You can also ship shoes to him:</p>
-                <address>
+                <address style={{'paddingLeft': '25px'}}>
                     Desert Rock Sports ATTN: Red Rock Resoles<br />
                     8221 W Charleston Blvd<br />
                     Suite #102<br />
