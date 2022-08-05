@@ -69,9 +69,16 @@ export const otherOutdoor = {
                         <a href="https://www.birdandhike.com" target="_blank" rel="noopener noreferrer">Bird and Hike <FaExternalLinkAlt /></a><br />
                         <a href="https://www.hikinglasvegas.com/" target="_blank" rel="noopener noreferrer">Hiking Las Vegas <FaExternalLinkAlt /></a><br />
                         <a href="https://www.52peakclub.com/" target="_blank" rel="noopener noreferrer">52 Peaks Club <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.trailforks.com/" target="_blank" rel="noopener noreferrer">Trailforks Route Database <FaExternalLinkAlt /></a>
                     </Card.Text>
                     <hr />
 
+
+                    <Card.Subtitle>Kraft Mountain Loop - 3.2mi 600' gain</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.alltrails.com/trail/us/nevada/kraft-mountain-loop" target="_blank" rel="noopener noreferrer">See it on AllTrails <FaExternalLinkAlt /></a><br />
+                        Nice shorter trail around Kraft Mountain. The elevation gain will still get you, especially if you go clockwise. Passes through Kraft Boulders so you may be many people out Bouldering.
+                    </Card.Text>
                     <Card.Subtitle>White Rock Loop + La Madre Spring - 7.5mi 1500' gain</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.alltrails.com/explore/trail/us/nevada/white-rock-la-madre-springs-loop-trail" target="_blank" rel="noopener noreferrer">See it on AllTrails <FaExternalLinkAlt /></a><br />
@@ -137,7 +144,10 @@ export const otherOutdoor = {
                         <a href="https://www.trailrunproject.com/" target="_blank" rel="noopener noreferrer">Trail Run Project <FaExternalLinkAlt /></a><br />
                         <a href="https://www.alltrails.com" target="_blank" rel="noopener noreferrer">AllTrails <FaExternalLinkAlt /></a><br />
                         <a href="https://www.trailforks.com/" target="_blank" rel="noopener noreferrer">Trailforks Route Database <FaExternalLinkAlt /></a><br />
-                        These links should get you started! Or heres a select few below!
+                        Their Route Planning tool is fantastic, though there is a bit of a learning curve. Highly recommend trying it out and linking up some trails to run.
+                        <br />
+                        <br />
+                        Those links should get you sorted, otherwise heres a few recommendations:
                     </Card.Text>
                     <hr />
 
@@ -171,8 +181,38 @@ export const otherOutdoor = {
                     <Card.Subtitle>Soooo many options. Its insane.</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.trailforks.com/" target="_blank" rel="noopener noreferrer">Trailforks Route Database <FaExternalLinkAlt /></a><br />
-                        This is your best bet for finding the best trails.
+                        This is your best bet for finding the best trails. Vegas has many trail networks. So usually you will be at a trail network and link up several trails to build an outing that interests you instead of sticking on a single trail the entire time.
+                        <br />
+                        <a href="https://www.twowheeledwanderer.com/posts/las-vegas-mountain-biking/" target="_blank" rel="noopener noreferrer">Two Wheeled Wanderer <FaExternalLinkAlt /></a><br />
+                        Great recommendations on areas and trails
+                        <br />
+                        <a href="https://www.lasvegascyclery.com/" target="_blank" rel="noopener noreferrer">Las Vegas Cyclery <FaExternalLinkAlt /></a><br />
+                        Awesome spot to get your bike, get it serviced, or rent one.
+                        <br />
+                        <a href="https://escapeadventures.com/destination/nevada-bike-tours/" target="_blank" rel="noopener noreferrer">Escape Adventures <FaExternalLinkAlt /></a><br />
+                        Runs bike tours, shuttles, etc...
+                        {/* <br /> */}
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <br /> */}
                     </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>Blue Diamond Loop - 9.5mi 640' gain</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.trailforks.com/route/blue-diamond-loop" target="_blank" rel="noopener noreferrer">See it at trailforks <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Ebbing &amp; Flowing - 12.9mi 1720' gain</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.trailforks.com/route/ebbing--flowing/" target="_blank" rel="noopener noreferrer">See it at trailforks <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Bear's Best Loop - 10.9mi 895' gain</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.trailforks.com/route/las-vegas-bear-s-best" target="_blank" rel="noopener noreferrer">See it at trailforks <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    {/* <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text> */}
                 </>
             )
         },
@@ -183,9 +223,8 @@ export const otherOutdoor = {
                     <Card.Title>Canyoneering</Card.Title>
                     <Card.Subtitle>Las Vegas Slots by Rick Ianniello</Card.Subtitle>
                     <Card.Text>
-                        {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
-                        [ LINK TO BOOK NEEDS TO BE ADDED ]<br />
-                        Great book for canyoneers to get familiar with what the Vegas area has to offer. Available at Desert Rock Sports.
+                        <a href="https://inlo.blog/" target="_blank" rel="noopener noreferrer">Rick's Blog</a><br />
+                        Great book for canyoneers to get familiar with what the Vegas area has to offer. Available at Desert Rock Sports and a few other retailers.
                     </Card.Text>
                     <Card.Subtitle>BluuGnome</Card.Subtitle>
                     <Card.Text>
@@ -203,12 +242,15 @@ export const otherOutdoor = {
                     <Card.Subtitle>Las Vegas Canyoneering Meetup Group</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.meetup.com/Las-Vegas-Canyoneering-Meetup-Group/" target="_blank" rel="noopener noreferrer">Meetup Group <FaExternalLinkAlt /></a><br />
-                        Some comment
+                        A good option to make some friends in the local community.
                     </Card.Text>
-                    {/* <Card.Subtitle></Card.Subtitle>
+                    <hr />
+
+                    <Card.Subtitle>Ice Cube Canyon (The Maze)</Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"></a><br />
-                    </Card.Text> */}
+                        <a href="http://ropewiki.com/Ice_Cube_Canyon_(The_Maze)" target="_blank" rel="noopener noreferrer">The Maze</a><br />
+                        Perhaps the most known canyoneering route in the Vegas area.
+                    </Card.Text>
                 </>
             )
         },
