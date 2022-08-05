@@ -113,8 +113,54 @@ export const gyms = {
             subSectionTitle: 'regular boring gyms',
             subSectionContent: () => (
                 <>
-                    <p>(probably not enough reason to have this section)</p>
-                    <p>Vegas has many options for traditional gyms. Planet Fitness is near our shop and very reasonably priced for a 24h access gym.</p>
+                    {/* <p>(probably not enough reason to have this section)</p>
+                    <p>Vegas has many options for traditional gyms. Planet Fitness is near our shop and very reasonably priced for a 24h access gym.</p> */}
+                    <Card.Subtitle>Planet Fitness</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.planetfitness.com/gyms/las-vegas-w-charleston-blvd-nv" target="_blank" rel="noopener noreferrer">Planet Fitness - Charleston <FaExternalLinkAlt /></a><br />
+                        <a href="https://goo.gl/maps/h7HQSd3yaTscyPTh7" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Planet Fitness - Charleston</a><br />
+                        Open 24h. 4min from our shop. Great option. Very affordable.
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>TruFusion</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://trufusion.com/summerlin/" target="_blank" rel="noopener noreferrer">TruFusion - Summerlin <FaExternalLinkAlt /></a><br />
+                        <a href="https://g.page/TruFusionSummerlin?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to TruFusion - Summerlin</a><br />
+                        Probably one of the best places in Vegas for Yoga, Hot Yoga, Barre, Pilates, Cycle, Boxing, Kettlebell, HIIT, and other classes.
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>EOS</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://eosfitness.com/location/sahara/" target="_blank" rel="noopener noreferrer">EOS - Sahara / Cimarron <FaExternalLinkAlt /></a><br />
+                        <a href="https://goo.gl/maps/g9TgEaZGDYp5ovts6" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to EOS - Sahara / Cimarron</a><br />
+                        Another great 24h option.
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>Lifetime Fitness</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.lifetime.life/life-time-locations/nv-las-vegas-summerlin.html" target="_blank" rel="noopener noreferrer">Lifetime Fitness - Summerlin <FaExternalLinkAlt /></a><br />
+                        <a href="https://goo.gl/maps/pEeemcbEpAkcQiht7" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Lifetime Fitness - Summerlin</a><br />
+                        A huge gym option. Also has a climbing wall (limited hours). Good option for families.
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>Smash Iron Fitness</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://smashironfitness.com/" target="_blank" rel="noopener noreferrer">Smash Iron Fitness <FaExternalLinkAlt /></a><br />
+                        <a href="https://goo.gl/maps/8KmsZ91vNMWqnasd6" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to Smash Iron Fitness</a><br />
+                        24h. One of the few more weight lifting focused gyms. This is its central location. Its Summerlin location (south of 215) also has RoninJitsu (Jiu-Jitsu, Boxing, MMA).
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Subtitle>LVAC</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.lvac.com/locations/northwest/" target="_blank" rel="noopener noreferrer">LVAC - NW <FaExternalLinkAlt /></a><br />
+                        <a href="https://g.page/LVAC_Northwest?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Google Map to LVAC - NW</a><br />
+                        Las Vegas Athletic Clubs is a local chain of mega gyms. Many locations. All 24h. Tons of amenities.
+                    </Card.Text>
                 </>
             )
         },
