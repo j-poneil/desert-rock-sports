@@ -258,6 +258,121 @@ export const otherOutdoor = {
             subSectionTitle: 'Rainy Day Options',
             subSectionContent: () => (
                 <>
+                    <Card.Title>Hot Springs</Card.Title>
+                    <Card.Text>
+                        <a href="https://goo.gl/maps/At2r4Pn4fEuoukRe9" target="_blank" rel="noopener noreferrer">Gold Strike Hot Springs Trailhead on Google Maps <FaExternalLinkAlt /></a><br />
+                        <a href="https://goo.gl/maps/rU1vrTK5SBpBY2tH8" target="_blank" rel="noopener noreferrer">Arizona Hot Springs Trailhead on Google Maps <FaExternalLinkAlt /></a><br />
+                        <strong>Both are closed in the summers from May 15th - September 30th.</strong><br />
+                        Trust us, you don't want to go to either of them when it is that hot out anyways.<br />
+                        <strong>Due to the inherint brain eating amoeba risk at natural hot springs, do not submurge your nose in the water. This pathogen gets in through the nose. While certainly rare, infection is almost always fatal. The culprit is the amoeba Naegleria Fowleri which can survive up to 115F. Hot springs that humans can tollerate are within its habitable zone.</strong><br />
+                        The approach to Gold Strike Hot Springs is a bit more involved with more boulder hopping, some hand over hand on fixed ropes, etc... While the approach to Arizona Hot Springs is longer.<br />
+                        <br />
+                        Both are great hot spring options. Both free. Practice leave no trace. Excellent for rainy/dryout or rest days. There is a decent hike required to either and the hot water will also dehydrate you to a suprising degree, so be sure to bring enough water and snacks. If you bring beer, please, aluminum or steel cans, not glass, and of course pack it out. Be sure to have some form of GPS (ie. cell phone) as the trails out here are not exactly marked well, lots of forks to different places.<br />
+                        <br />
+                        Water will be scalding hot where it seeps out of the rocks and will get more tollerable the further away you get from it. For example, at Arizona Hot Springs, if you are coming in from the top (as opposed to from next to the river) you will probably want to move very quickly through the first pool as its uncomfortably hot (yes, even for women). The 2nd and third pool down are much more tollerable temperatures.
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Title>Non-Sandstone Climbing</Card.Title>
+                    <Card.Subtitle>The Gun Club, Lone Mountain, and The La Madre Range</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.mountainproject.com/area/105887126/the-gun-club" target="_blank" rel="noopener noreferrer">See The Gun Club on Mountain Project <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.mountainproject.com/area/105852099/lone-mountain" target="_blank" rel="noopener noreferrer">See Lone Mountain on Mountain Project <FaExternalLinkAlt /></a><br />
+                        These are the closest to Vegas go-to limestone sport options when it rains or the rock still needs time to dry out. They are practically IN Vegas. Both have very short approaches. The greater La Madre Range also has other options to check out, they are just a bit more obscure, and/or recent construction has complicated access trails. Best in the cooler months, but you can still often tollerate climbing in the summer as long as you stay in the shade (very early morning start or late after noon... or at night!).
+                    </Card.Text>
+                    <Card.Subtitle>Mt. Charleston</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.mountainproject.com/area/105850026/mount-charleston" target="_blank" rel="noopener noreferrer">See it on Mountain Project <FaExternalLinkAlt /></a><br />
+                        Mt. Charleston is an excellent option for limestone sport close to Vegas. High elevation so usually best as a summer option. Usually a good option May thru September or October depending on weather.
+                    </Card.Text>
+                    <Card.Subtitle>Mt. Potosi</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.mountainproject.com/area/107690045/mount-potosi" target="_blank" rel="noopener noreferrer">See it on Mountain Project <FaExternalLinkAlt /></a><br />
+                        Another great limestone sport option close to Vegas. Not as high elevation at Mt. Charleston, so it can sometimes still be a winter option.
+                    </Card.Text>
+                    <Card.Subtitle>Keyhole Canyon</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.mountainproject.com/area/105941578/keyhole-canyon" target="_blank" rel="noopener noreferrer">See it on Mountain Project <FaExternalLinkAlt /></a><br />
+                        A close to Vegas area of granite similar to J-Tree. Old school ratings. Unlikely to see bolts. Best April-October<br />
+                        The Keyhole Classic is a climbing fest that happens yearly the first weekend after Halloween here.
+                    </Card.Text>
+                    <Card.Subtitle>Lime Kiln Canyon</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.mountainproject.com/area/106795137/lime-kiln-canyon" target="_blank" rel="noopener noreferrer">See it on Mountain Project <FaExternalLinkAlt /></a><br />
+                        Great limestone sport option nearby in Arizona. Lime Kiln is best in the fall and spring. Winter is cold and summer is hot. Human waste is a problem both near The Grail and near the camping/parking areas. Please come prepared to pack your shit out. Best June-September.
+                    </Card.Text>
+                    <Card.Subtitle>Virgin River Gorge</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.mountainproject.com/area/106062943/virgin-river-gorge" target="_blank" rel="noopener noreferrer">See it on Mountain Project <FaExternalLinkAlt /></a><br />
+                        Hard limestone sport climbing. Grades pretty much start at 5.12. Best April-October.
+                    </Card.Text>
+                    <Card.Subtitle>Joshua Tree, Paradise Forks, and ... ?</Card.Subtitle>
+                    <Card.Text>
+                        <a href="https://www.mountainproject.com/area/105720495/joshua-tree-national-park" target="_blank" rel="noopener noreferrer">Joshua Tree NP on Mountain Project <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.mountainproject.com/area/105787813/paradise-forks" target="_blank" rel="noopener noreferrer">Paradise Forks on Mountain Project <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.mountainproject.com/area/105849658/rainbow-canyon" target="_blank" rel="noopener noreferrer">Rainbow Canyon <FaExternalLinkAlt /></a><br />
+                        {/* Bishop<br /> */}
+                        {/* New Jack City<br /> */}
+                        {/* Arrow Canyon<br /> */}
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
+                        If you are at Red Rock Canyon for trad, not sport, and we get too much rain, such that you know you wont be able to climb for several days, consider changing your trip entirely. JTree dries out fast and the rain wont hurt it. Paradise Forks and Rainbow Canyon will often get hit by the same storms that hit Red Rock, so double check weather and historical weather, but rain wont hurt these rock types either and they are great options for trad.
+                    </Card.Text>
+                    <br />
+                    There are MANY less traveled, but still documented non-sandstone options near Vegas. I have only touched on the more popular ones here. Get on Mountain Project and go nuts.<br />
+                    People often think St. George sandstone will be dry when Red Rock gets rain, the unfortunate reality is that typically storms will hit both. You can always get in a St. George climbing group and ask though. Maybe you will get lucky.
+                    <hr />
+
+                    <Card.Title>Indoor Climbing</Card.Title>
+                    {/* <Card.Subtitle></Card.Subtitle> */}
+                    <Card.Text>
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
+                        Its not the beautiful Red Rock sandstone you want, but its convienient, affordable, and fun. Check out the Gyms section for a full list.
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Title></Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <hr />
+
+                    <Card.Title></Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+
+                    <Card.Title></Card.Title>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <hr />
                 </>
             )
         },
