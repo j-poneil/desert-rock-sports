@@ -330,19 +330,78 @@ export const otherOutdoor = {
                     </Card.Text>
                     <hr />
 
-                    <Card.Title></Card.Title>
-                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Title>Touristy Things</Card.Title>
+                    <Card.Subtitle>See a show</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        Vegas is world reknown for its shows. Acrobatics, stunts, burlesque, magic, comedy, etc... There are great options for everyone in town.
+                    </Card.Text>
+                    <Card.Subtitle>See a movie</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        Many theatres in town. While not something unique to Vegas, still an excellent rainy day activity option.
+                    </Card.Text>
+                    <Card.Subtitle>Ice Skating</Card.Subtitle>
                     <Card.Text>
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
                     </Card.Text>
-                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Subtitle>Bowling</Card.Subtitle>
                     <Card.Text>
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
                     </Card.Text>
-                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Subtitle>Mini Golf</Card.Subtitle>
                     <Card.Text>
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
                     </Card.Text>
+                    <Card.Subtitle>Take a class</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        Aerial Silks, Pole Dancing, Yoga, etc...
+                    </Card.Text>
+                    <Card.Subtitle>Tea/Coffee shops</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Speakeasy / Bar</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Brewery</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Foooooooood</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Area 15 / Omega Mart / etc...</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Art Galleries, Museums</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Hoover Dam</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Ethel M Chocolate factory</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Springs Preserve</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    <Card.Subtitle>Massage / Yoga / Spa recovery day</Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text>
+                    {/* <Card.Subtitle></Card.Subtitle>
+                    <Card.Text>
+                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                    </Card.Text> */}
                     <hr />
 
                     <Card.Title></Card.Title>
