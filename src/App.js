@@ -32,6 +32,7 @@ const overallBackgroundStyles = {
   // original size is good, but 20% or 15% also looks good, maybe better... on laptop, on cell its too small...
   // backgroundSize: '20%',
   backgroundSize: '250px, 250px',
+  minHeight: '100vh',
 };
 
 function App() {
