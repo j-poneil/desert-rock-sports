@@ -267,7 +267,7 @@ export default function Beta(){
                 ></Col>
             </Row>
             {/* Author / credit */}
-            <div
+            {/* <div
                 style={{
                     textAlign: 'right',
                     padding: 0,
@@ -278,7 +278,7 @@ export default function Beta(){
                 }}
             >
                 Art by: <a href="https://github.com/j-poneil" target="_blank" rel="noopener noreferrer"><FaGithub /> JPO &copy; 2021</a>
-            </div>
+            </div> */}
         </Container>
     );
 }
