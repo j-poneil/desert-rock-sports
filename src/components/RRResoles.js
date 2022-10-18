@@ -42,14 +42,13 @@ function RRResoles() {
                 {/* <h5 className='text-center' as='h1'>Red Rock Resoles</h5> */}
                 {/* <Card.Subtitle className='text-center' as='h4'>Steve Krall</Card.Subtitle> */}
                 <h2 className='text-center'>Get some fresh rubber on those shoes!</h2>
-                <p><strong>Steve Krall</strong> is now your Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time (4-5wks). You don't even need to ship them out!</p>
+                <p><strong>Steve Krall</strong> is now your Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time (7wks now). You don't even need to ship them out!</p>
                 <h3 className='text-center'>How it works:</h3>
                 <p>Drop them off at the convient box in Desert Rock Sports. Text Steve the make/model and size of each pair that you drop off, take a picture too if you would like. Thats it!</p>
                 <p>You can also ship shoes to him:</p>
                 <address style={{'paddingLeft': '25px'}}>
-                    Desert Rock Sports ATTN: Red Rock Resoles<br />
-                    8221 W Charleston Blvd<br />
-                    Suite #102<br />
+                    9811 W. Charleston Blvd.<br />
+                    Suite 2-634<br />
                     Las Vegas, NV 89117
                 </address>
                 <p>Just wait to hear back from him about what he thinks the shoes need and the cost, then you pay him with cash, check, or venmo (@resoleSteve), and he drops them back off at Desert Rock Sports when they are finished. (He can ship too if needed).</p>
@@ -71,14 +70,21 @@ function RRResoles() {
 
                 <h5>Prices:</h5>
                 <ul>
-                    <li>Half Sole: $40 / Pair</li>
-                    <li>Rand Repair: $10 / Each Shoe</li>
-                    <li>Approach Shoes / Other: Discuss with him</li>
+                    <li>Half Sole: $55 / Pair</li>
+                    <li>Rand Repair: $12 / Each Shoe</li>
+                    <li>Approach Shoes / Other: $65/pair</li>
                     <li>Rush Charge: $20 / Pair (approval required)</li>
+                    <li>Return Shipping: $17</li>
                 </ul>
-                <p>He uses Unparallel Rubber (Stealth C4 equivalent)</p>
-                <p>Current turn around time ~5 weeks</p>
 
+                <h5>Rubbers:</h5>
+                <ul>
+                    <li>Unparalell RH rubber (C4 equivalent)</li>
+                    <li>Unparalell RS rubber (Soft/High Friction)</li>
+                    <li>Unparalell DOT rubber (C4 Equiv. for Approach Shoes)</li>
+                </ul>
+
+                <p>Current turn around time ~7 weeks</p>
 
                 <h5>Contact Info:</h5>
                 <ul>
