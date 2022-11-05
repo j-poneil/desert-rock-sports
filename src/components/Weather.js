@@ -61,7 +61,7 @@ const Weather = () => {
                     ( placeholder for realtime weather data )
                 </Jumbotron>
 
-                <div className="text-center mb-3">
+                <div className="text-center mt-3 mb-3 onTopOfBackground">
                     <h1>Weather</h1>
                     <p>Vegas is known for an average of over 300 sunny days per year. Even still, it can, and does rain. Further complication is that Red Rock Canyon, at a higher elevation, tends to get hit harder than Las Vegas itself. As well, there are no weather stations out in/on the rocks (yet?) so our best look at rainfall measurements are from just a few weather stations in the general area which often have recorded nothing when its plainly obvious for many on the west side of Vegas to see that the canyons are getting dumped on.</p>
                     <p>The Spring Mountains act as a barrier to storms coming from the Pacific and very often these storms will dump on these mountains and Las Vegas itself will see very little if any rain. Unfourtunately Red Rock Canyon is between the two and often gets some of the precipitation. Higher elevation areas tend to get hit harder than lower ones. Sometimes the Calico Hills don't get hit, or get light precip while the canyons are soaked. Sometimes everything gets soaked. If Las Vegas itself is visibly wet, it is almost assured that Red Rock Canyon was hit as well.</p>
@@ -75,7 +75,7 @@ const Weather = () => {
                 bgImg={ sandstone }
             />
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 <h5>There are many types of sandstone. Different strengths. Different resistances to water.</h5>
                 <p>
                     The sandstone here at Red Rock Canyon is not as weak as the sandstone at the Fisher Towers in Moab (mud). It is also not as strong as the sandstone found in places such as the Red River Gorge or Horseshoe Canyon Ranch. Also much weaker than the sandstone at Eldorado Canyon in CO, which has been changed by heat and pressure, fusing it to a larger degree to something closer to granite, while technically still a stone made of sand.
@@ -133,7 +133,7 @@ const Weather = () => {
                 bgImg={ plant }
             />
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 <h5>An example of dry surface and wet interior</h5>
                 {/*
                     https://video-react.js.org/components/player/
@@ -171,7 +171,7 @@ const Weather = () => {
                 bgImg={ barnacle }
             />
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 <p>Hard to be sure! Depends on how much rain the desired objective's area got hit with, ambient day and night temperatures, humidity, its sun exposure, wind, etc... Areas that get a ton of sun and wind will dry faster. Areas that stay in shade will take much longer.</p>
 
                 <p>... Since its hard to know exactly how much rain hit any given area unless you were actually out there the entire time it was happening, its hard to know how wet it is. The rain gauges are not close enough or numerous enough to be much help (yet). Often the nearby rain gauges don't actually get hit with rain at all. Word of mouth from people who were actually there at the time is the best info you can get. Not simply at Red Rock, but at the particular canyon in Red Rock that you are interested in climbing at. Often it rains overnight and no one was out there to know how bad it was until they hike out there to look.</p>
@@ -196,7 +196,7 @@ const Weather = () => {
                 bgImg={ sunset_3 }
             />
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 <a href="https://wetrockpolice.com/redrock" target="_blank" rel="noopener noreferrer">Wet Rock Police - Red Rock <sup><FaExternalLinkAlt /></sup></a>
                 <p>Excellent site for looking at real-time and historical rain fall. It uses the weather station at the Red Rock Canyon NCA Visitor Center. It is known that sometimes (often) the visitor center doesn't get any rain while the canyons get soaked, so it is not a go / no go indicator. It is simply data from one rain gauge, a few miles away, updated hourly.</p>
 
@@ -224,7 +224,7 @@ const Weather = () => {
                 bgImg={ white_yellow_flowers_2 }
             />
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 <h5>Add internet connected weather stations!</h5>
                 <p>Stations that record rainfall data and automatically upload/share it with weather services such as Weather Underground. Areas that need it most: Calico Basin, Spring Mountain Ranch, Bonnie Springs, Blue Diamond, Mountain Springs. The more places with data we can look at the better. Currently there is a station at the Scenic Loop Visitor Center, Mountain Springs Fire Department, and maybe Spring Mountain Ranch (I think maybe it isn't hooked up to the internet).</p>
                 <p>
@@ -263,7 +263,7 @@ const Weather = () => {
                 bgImg={ white_yellow_flowers_2 }
             />
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 <h5>The science behind the increasing problem</h5>
                 <p>Native desert plants have evolved to generally space themselves out enough to prevent the propagation of wild fires.</p>
                 <p>Invasive desert grasses don't do this natural spacing, and even worse, their seeds propagate easier after wild fires... Its actually in their best interest to burn.</p>

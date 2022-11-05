@@ -60,7 +60,7 @@ export default function Gear(){
                 text="We take and sell used gear on consignment"
                 bgImg={ barnacle_goggles }
             />
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 {/* <h2>Consignment</h2> */}
                 <p>You can bring us used items you don't want any more. You can price them or we can price them. After they sell you get 75% of whatever they sold for as store credit or 60% as a check (notify us and give us a few days to get it written by a manager). Our system does not automatically drop prices over time and there is no notification when things sell. People just check back from time to time when they are in the area or call us periodically. Credit on file has no expiration.</p>
                 <p>We reserve the right to change prices. Both to increase prices on high quality items so you and we both make more off them, as well as dropping prices on lower quality or low demand items to get them to sell to make more space for other items. We can also take items out of consignment and notify you to pick them up or have us donate them... Mostly this happens to low quality things we should have never accepted in the first place that just sit in consignment for years with no interest.</p>

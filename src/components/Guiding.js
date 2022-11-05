@@ -138,7 +138,7 @@ export default function Guiding(){
             />
 
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 <h1 className="text-center">Red Rock Climbing Guides</h1>
                 <hr style={{width: '30%'}} />
                 <h5 className="text-center">How it works:</h5>
@@ -163,7 +163,7 @@ export default function Guiding(){
                 bgImg={ barnacle }
             />
 
-            <Container fluid="md">
+            <Container fluid="md" className="onTopOfBackground">
                 {/* <h5 className='text-center'>About our guiding services!</h5> */}
                 {/* <hr style={{width: '30%'}} /> */}
                 <p>The entire staff of the Red Rock Climbing Guides (RRCG) believes our responsibility to the climbing community does not begin and end at our front door. We recognize it extends across the globe, anywhere our climbers are climbing.</p>
@@ -225,15 +225,17 @@ export default function Guiding(){
             </Jumbotron> */}
 
             {/* Contact us form... to prompt on some of the info we need to help */}
-            <Container fluid="md" className="">
+            <Container fluid="md" >
                 {/* Using formsubmit.co to simplify / eliminate dealing with backend */}
                 <GuideInquiryForm />
 
-                <h5>Liability Waivers</h5>
-                <p>We typically just fill out liability waivers in person when we meet up. You can print and fill this one out ahead of time if you prefer. Sorry, its long. Emailing us is not sufficient since the guide needs to be able to look over your waiver, especially medical, to be made aware of any important info like severe allergic reactions, if one is diabetic, chronic injuries (may need to avoid a particular type of climbing move to not aggravate it), etc... Many of our guides don't have access to our email and sometimes the meetup location is not in cell service. The guide needs to have all pertinant medical and emergency info.</p>
-                <p>
-                    <a href={ RRCGCombinedWaiver8_20 } target="_blank" rel="noopener noreferrer">RRCG Combined Waiver 8/20</a>
-                </p>
+                <div className="mt-3 mb-3 onTopOfBackground">
+                    <h5>Liability Waivers</h5>
+                    <p>We typically just fill out liability waivers in person when we meet up. You can print and fill this one out ahead of time if you prefer. Sorry, its long. Emailing us is not sufficient since the guide needs to be able to look over your waiver, especially medical, to be made aware of any important info like severe allergic reactions, if one is diabetic, chronic injuries (may need to avoid a particular type of climbing move to not aggravate it), etc... Many of our guides don't have access to our email and sometimes the meetup location is not in cell service. The guide needs to have all pertinant medical and emergency info.</p>
+                    <p>
+                        <a href={ RRCGCombinedWaiver8_20 } target="_blank" rel="noopener noreferrer">RRCG Combined Waiver 8/20</a>
+                    </p>
+                </div>
             </Container>
             
         </Container>

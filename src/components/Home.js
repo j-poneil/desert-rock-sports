@@ -63,7 +63,7 @@ export default function Home(){
             </Container>
 
             {/* Was fluid */}
-            <Container fluid="md" className="mt-3 mb-3">
+            <Container fluid="md" className="mt-3 mb-3 onTopOfBackground">
                 <h3>Welcome to Desert Rock Sports</h3>
                 <p>
                     the Las Vegas area's best store for climbing and wilderness adventure. Desert Rock Sports is owned and operated by climbers for climbers, canyoneers, cavers, scramblers, hikers, backpackers, and other outdoor sports enthusiasts.
@@ -118,7 +118,7 @@ export default function Home(){
 
             {/* Yes, we rent bouldering pads */}
             {/* was fluid */}
-            <Container fluid="md" className="mt-3 mb-3">              
+            <Container fluid="md" className="mt-3 mb-3 onTopOfBackground">              
                 <h3 className='text-center'>Yes! We rent Bouldering Pads!</h3>
                 <ul>
                     <li>**$5 / day - Book: Southern Nevada Bouldering II by Tom Moulin</li>

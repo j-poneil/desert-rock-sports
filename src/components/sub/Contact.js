@@ -148,7 +148,7 @@ function Hours(){
 export default function Contact(){
     return (
         <>
-            <Container>
+            <Container className="onTopOfBackground">
                 <Row xl={1} lg={1} md={1} sm={1} xs={1}>
                     <Col>
                         <h3>Desert Rock Sports</h3>

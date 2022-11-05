@@ -70,7 +70,7 @@ export default function Shop(){
             />
 
 
-            <Container fluid="md" className="mt-3 mb-3">
+            <Container fluid="md" className="mt-3 mb-3 onTopOfBackground">
                 <p>
                     We pretty much always have stock of the most up to date books for local climbing and if we run out we can get more fast since the authors are local.
                 </p>
@@ -80,6 +80,9 @@ export default function Shop(){
                 <p>
                     Typically we can fit 2 books in a flat rate mailer envelope, $10 shipping.
                 </p>
+            </Container>
+
+            <Container fluid="md" className="mt-3 mb-3">
                 
                     
 
