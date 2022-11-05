@@ -333,28 +333,39 @@ export const otherOutdoor = {
                     <Card.Title>Touristy Things</Card.Title>
                     <Card.Subtitle>See a show</Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.vegas.com/shows/" target="_blank" rel="noopener noreferrer">Find out whats going on here <FaExternalLinkAlt /></a><br />
                         Vegas is world reknown for its shows. Acrobatics, stunts, burlesque, magic, comedy, etc... There are great options for everyone in town.
                     </Card.Text>
                     <Card.Subtitle>See a movie</Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.google.com/maps/search/movie+theater/@36.1526004,-115.2868795,11z" target="_blank" rel="noopener noreferrer">Google map of local theatres <FaExternalLinkAlt /></a><br />
                         Many theatres in town. While not something unique to Vegas, still an excellent rainy day activity option.
                     </Card.Text>
                     <Card.Subtitle>Ice Skating</Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.lasvegasice.com/" target="_blank" rel="noopener noreferrer">Las Vegas Ice <FaExternalLinkAlt /></a><br />
+                        Several ice rinks are in town to choose from. As well there are often seasonal outdoor rinks when it is cold enough:
+                        <br />
+                        <a href="https://summerlin.com/event/rock-rink/" target="_blank" rel="noopener noreferrer">The Rock Rink @ Summerlin <FaExternalLinkAlt /></a><br />
+                        November 12, 2021 - January 17, 2022, Presented by Live Nation
                     </Card.Text>
                     <Card.Subtitle>Bowling</Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.redrockresort.com/see-and-do/red-rock-lanes/" target="_blank" rel="noopener noreferrer">Red Rock Lanes @ Red Rock Resort &amp; Casino <FaExternalLinkAlt /></a><br />
+                        One of the many options in Vegas.
                     </Card.Text>
                     <Card.Subtitle>Mini Golf</Card.Subtitle>
                     <Card.Text>
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://syfyminigolf.com/" target="_blank" rel="noopener noreferrer">Twilight Zone Blacklight Mini Golf <FaExternalLinkAlt /></a><br />
+                        Of the many fun options.
                     </Card.Text>
                     <Card.Subtitle>Take a class</Card.Subtitle>
                     <Card.Text>
+                        <a href="https://www.lasvegascircuscenter.com/classes" target="_blank" rel="noopener noreferrer">Las Vegas Circus Center Class List <FaExternalLinkAlt /></a><br />
+                        Sooo many classes available, such as: Aerial Silks, Aerial Hoop/Lyra, Aerial Pole, Aerial Dance Trapeze, Dance, Ninja Warrior, Parkour, Tricking, Unicycle, Juggling, Chinese Pole, Capoeira, etc...
+                        <a href="https://www.polefitnessstudio.com/" target="_blank" rel="noopener noreferrer">Pole Fitness Studio <FaExternalLinkAlt /></a><br />
+                        <a href="https://trufusion.com/summerlin/" target="_blank" rel="noopener noreferrer">TruFusion Summerlin <FaExternalLinkAlt /></a><br />
+                        One of the nicest fitness studios in Vegas. Yoga, Barre, Cycle, Boxing, Bootcamp, Battle Ropes, HIIT, Kettlebell, Pilates, and more. First Class Free!
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
                         Aerial Silks, Pole Dancing, Yoga, etc...
                     </Card.Text>
