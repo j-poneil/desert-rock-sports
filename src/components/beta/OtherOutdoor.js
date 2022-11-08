@@ -363,11 +363,15 @@ export const otherOutdoor = {
                     <Card.Text>
                         <a href="https://www.lasvegascircuscenter.com/classes" target="_blank" rel="noopener noreferrer">Las Vegas Circus Center Class List <FaExternalLinkAlt /></a><br />
                         Sooo many classes available, such as: Aerial Silks, Aerial Hoop/Lyra, Aerial Pole, Aerial Dance Trapeze, Dance, Ninja Warrior, Parkour, Tricking, Unicycle, Juggling, Chinese Pole, Capoeira, etc...
+                        <br />
                         <a href="https://www.polefitnessstudio.com/" target="_blank" rel="noopener noreferrer">Pole Fitness Studio <FaExternalLinkAlt /></a><br />
                         <a href="https://trufusion.com/summerlin/" target="_blank" rel="noopener noreferrer">TruFusion Summerlin <FaExternalLinkAlt /></a><br />
                         One of the nicest fitness studios in Vegas. Yoga, Barre, Cycle, Boxing, Bootcamp, Battle Ropes, HIIT, Kettlebell, Pilates, and more. First Class Free!
+                        <br />
+                        <a href="https://www.cozymeal.com/las-vegas/cooking-classes" target="_blank" rel="noopener noreferrer"> Cozymeal - Cooking classes from expert chefs<FaExternalLinkAlt /></a><br />
+                        <a href="https://www.viator.com/tours/Las-Vegas/Adventure-in-Glassblowing-by-Torch/d684-147752P1" target="_blank" rel="noopener noreferrer">Adventures in Glassblowing by Torch <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.eventbrite.com/e/introductory-blacksmith-class-tickets-162744141107" target="_blank" rel="noopener noreferrer">Introductory Blacksmitch Class <FaExternalLinkAlt /></a><br />
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
-                        Aerial Silks, Pole Dancing, Yoga, etc...
                     </Card.Text>
                     <Card.Subtitle>Tea/Coffee shops</Card.Subtitle>
                     <Card.Text>
