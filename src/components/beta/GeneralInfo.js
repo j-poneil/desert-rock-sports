@@ -126,7 +126,8 @@ export const generalInfo = {
                 <>
                     <div>
                         <Card.Text>Call 911 if you have a life-threatening emergency, for Police, Fire, or Medical assistance.</Card.Text>
-                        <Card.Text>Give them clear information on where you are. Specific climbing wall or route is good. Helicopter ride to the ER is provided by the local Police Department and paid for by taxes, you wont get a bill for that. Don't worry. If its an emergency, just call. The ER visit itself will still cost you at normal ER rates.</Card.Text>
+                        <Card.Text>Give them clear information on where you are. Specific climbing wall or route is good. GPS coordinates are great too. Pretty much everyones cell phone has GPS now and many peoples smart watches do as well.</Card.Text>
+                        <Card.Text>Helicopter rescue is provided by the local Police Department and paid for by taxes. If its an emergency, just call. If they fly or drive you to the ER, that visit itself will still cost you at normal ER rates. The Search &amp; Rescue team climbers are all volunteers and they just want everyone to get home safe.</Card.Text>
                         <Card.Text>
                             If your loved one is lost or missing call the LV SAR hotline 24/7:<br />
                             <a href="tel:1-702-758-4727" target="_blank" rel="noopener noreferrer"><FaPhone /> 1-702-758-4727</a><br />
@@ -154,11 +155,21 @@ export const generalInfo = {
                     </Card.Text>
                     <Card.Subtitle>Wag Bag Program</Card.Subtitle>
                     <Card.Text>
-                        Use facilities when they are available. If they're not, make sure you are at a location at least 200 feet from water sources and away from the base of climbing walls. Bury your waste in a cathole a minimum of 6 inches deep. Pack out your paper! The SNCC restocks human waste disposal bags in and around Red Rock Conservation area. This is a large undertaking, and many dedicated volunteers have spent their time keeping these dispensers full and clear of trash. Also, if you bring dogs to a climbing area, make sure to pick up after them and do not leave it on the trails!
+                        Use facilities when they are available. The SNCC restocks human waste disposal bags in and around Red Rock Conservation area. This is a large undertaking, and many dedicated volunteers have spent their time keeping these dispensers full and clear of trash. The wag bags seal up extremely well. Pack them out and throw them in a dumpster.
+                        <br />
+                        If its an emergency and you don't have a wag bag or any other plastic bag to use... make sure you are at a location at least 200 feet from water sources, away from the base of climbing walls, and not on a trail. Bury your waste in a cathole a minimum of 6 inches deep. Pack out your paper! Re-fill your hole and tamp it down well. This is a poor practice because our desert environment is so dry that human waste does not break down rapidly. More likely someones dog will find it and dig it up and you will make that dogs owners very, very mad.
+                        <br />
+                        We also have wag bags for a small cash donation to the SNCC at our shop. Consider it an essential part of your rack. You have grand plans to get up earlier than you body is used to, coffee up, race to Red Rock, and hike in quick to be the first party on the wall? Did you forget about going #2? It won't forget about you. Don't be like that dude who caused the poop-acolypse on Epinephrine back in Jan 2021.7722
+                        <br />
+                        Also, if you bring dogs to a climbing area, make sure to pick up after them and do not leave it on the trails!
                     </Card.Text>
                     <Card.Subtitle>Be Respectful of the Area</Card.Subtitle>
                     <Card.Text>
-                        Be respectful of all wildlife and give them space. Keep your pets on leashes or in a controlled area. Be respectful of others in the climbing areas as well.
+                        Be respectful of all wildlife and give them space. Keep your pets on leashes or in a controlled area. Be respectful of others in the climbing areas as well. 
+                        <ul>
+                            <li>If you see a Desert Tortoise, consider yourself very lucky. DO NOT TOUCH IT. Picking one up or otherwise scaring it will often cause it to pee itself, dehydrating itself, and very likely killing it shortly as water is so scarce here. As well the oils on our skins attract the attention of curious predators who have been habituated to associate human smells with free food. It is a threatened species.</li>
+                            <li>Big Horn Sheep are a rare sight. Don't approach them. Their horns are not just for show.</li>
+                        </ul>
                     </Card.Text>
                     <Card.Subtitle>Take Action!</Card.Subtitle>
                     <Card.Text>
@@ -180,7 +191,7 @@ export const generalInfo = {
                     <Card.Subtitle>Fixed draws in Red Rock / Charleston / Potosi</Card.Subtitle>
                     <Card.Text>
                         <a href="https://www.southernnevadaclimberscoalition.org/local-ethics/fixed-draws-in-red-rock/" target="_blank" rel="noopener noreferrer">Read about the SNCC's view on them here. <FaExternalLinkAlt /></a><br />
-                        Fixed ropes are MUCH less common and are not usually left up for very long, often they are there due to some in-process rebolting effort. If in doubt, ask on Mountain Project in the Nevada area forum or Facebook Vegas Climbers group.
+                        Fixed ropes are MUCH less common and are not usually left up for very long, often they are there due to some in-process rebolting effort. If in doubt, ask us about them at our shop. Or on Mountain Project in the Nevada area forum or Facebook Vegas Climbers group.
                     </Card.Text>
                     <Card.Subtitle>Lost and Found</Card.Subtitle>
                     <Card.Text>
