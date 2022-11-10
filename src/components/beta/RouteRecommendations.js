@@ -65,15 +65,15 @@ export const routeRecommendations = {
                 <>
                     <Card.Title>Shady Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                 </>
@@ -85,19 +85,19 @@ export const routeRecommendations = {
                 <>
                     <Card.Title>Sunny Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                 </>
@@ -109,23 +109,23 @@ export const routeRecommendations = {
                 <>
                     <Card.Title>Rainy day / dryout day options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                 </>
@@ -137,19 +137,19 @@ export const routeRecommendations = {
                 <>
                     <Card.Title>Crack Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                 </>
@@ -161,19 +161,19 @@ export const routeRecommendations = {
                 <>
                     <Card.Title>Offwidth Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                 </>
@@ -185,15 +185,15 @@ export const routeRecommendations = {
                 <>
                     <Card.Title>No-Crowd Options</Card.Title>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
+                    <Card.Text className="pl-3">
                         {/* <a href="" target="_blank" rel="noopener noreferrer"></a><br /> */}
                     </Card.Text>
                 </>
