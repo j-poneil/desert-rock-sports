@@ -5,7 +5,7 @@ import React from 'react';
 // FaExternalLinkAlt AFTER links away
 // FaDirections BEFORE Gmaps links away
 // currently not used: FaExternalLinkAlt, FaDirections, FaMapMarked, FaMapMarkedAlt, FaMapMarkerAlt, FaMap, FaPhone,
-import { FaGithub } from 'react-icons/fa';
+// import { FaGithub } from 'react-icons/fa';
 // import { HiOutlineMail } from 'react-icons/hi';
 
 
