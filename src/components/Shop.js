@@ -29,6 +29,7 @@ import Handren_319x475 from '../img/DRS_webShop/Handren_319x475.jpg';
 import Moulin_300x461 from '../img/DRS_webShop/Moulin_300x461.jpg';
 import Martin_300x465 from '../img/DRS_webShop/Martin_300x465.jpg';
 import Mojave_320x487 from '../img/DRS_webShop/Mojave_320x487.jpg';
+import Keyhole_416x555 from '../img/DRS_webShop/KeyholeCanyon_from_MP_416x555.jpg';
 
 // styles here:
 // src\stylesheets\pages\_shop.sass
@@ -78,7 +79,7 @@ export default function Shop(){
                     In the future we will set up a more featured shopping site where you can order many more products. Currently you can only order 1 book at a time through this site with the buttons. If you want to order more than 1 book, please email us: <a href="mailto:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a>. Be sure to include your name, address, and phone number. We will call you back when we have figured out an order total with shipping and take credit card payment over the phone.
                 </p>
                 <p>
-                    Typically we can fit 2 books in a flat rate mailer envelope, $10 shipping.
+                    Typically we can fit 2 books in a flat rate mailer envelope, which would be $10 shipping.
                 </p>
             </Container>
 
@@ -96,7 +97,7 @@ export default function Shop(){
                                 <Card.Subtitle style={ bookTitleStyles }>Jerry Handren</Card.Subtitle>
                                 <hr />
                                 <Card.Subtitle>THE Book for Sport, Trad, and Multipitch on Red Rock sandstone.</Card.Subtitle>
-                                <Card.Text>In glorious color. There has been a reprinting with a new cover image and minor changes, but its still the 2nd Edition. Jerry updated and added what he could without increasing the page count.</Card.Text>
+                                <Card.Text>In glorious color. This is the third printing of the 2nd edition. Every time Jerry does a print run he makes updates, adds some routes, and other minor changes without changing the page count. The cover is new and may be different from <i>your</i> 2nd edition, but its still the 2nd edition, basically.</Card.Text>
                                 {/* RR A Climbers Guide 2 order button*/}
                                 <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
@@ -117,12 +118,13 @@ export default function Shop(){
                                 {/* <span style={{textDecoration: 'line-through'}}></span> */}
                                 <Card.Title style={ bookTitleStyles }>Southern Nevada Bouldering 2<br />
                                 OUT OF PRINT<br />
-                                3rd Edition will be in stock when it is released, we think Spring 2023<br />
-                                Until then we have a -very- limited number of guides to rent out at $5 / day</Card.Title>
+                                3rd Edition will be in stock when it is released. Tom is actively working on it. So we imagine it will probably be released sometime just before fall 2023, but we don't have a date.<br />
+                                <br />
+                                Until then we have a -very- limited number of copies of Southern Nevada Bouldering 2 to rent out at $5 / day</Card.Title>
                                 <Card.Subtitle style={ bookTitleStyles }>Tom Moulin</Card.Subtitle>
                                 <hr />
                                 <Card.Subtitle>THE Book for bouldering in the area</Card.Subtitle>
-                                <Card.Text>Covers many nearby areas, mostly sandstone, some limestone. Much easier to navigate to your obscure boulders when you have a map. This is the 2nd Edition.</Card.Text>
+                                <Card.Text>Covers many nearby areas, mostly sandstone, some limestone, some granite. Much easier to navigate to your obscure boulders when you have a map. This is the 2nd Edition.</Card.Text>
                                 {/* SN Bouldering 2 order button*/}
                                 {/* <form className='text-right' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <span style={{'fontWeight': 'bold'}}>$PRICE &nbsp;</span>
@@ -184,7 +186,7 @@ export default function Shop(){
                     </Col>
                     <Col className="mb-3">
                         <Card style={ bookCardStyles } className="mt-3 mb-3">
-                            <Card.Img variant="top" src={Big4_320x427} />
+                            <Card.Img variant="top" src={ Keyhole_416x555 } />
                             <Card.Body>
                                 <Card.Title style={ bookTitleStyles }>Keyhole Canyon</Card.Title>
                                 <Card.Subtitle style={ bookTitleStyles }>Frodo</Card.Subtitle>
