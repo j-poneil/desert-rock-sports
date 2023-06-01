@@ -41,13 +41,16 @@ export const tiers = [
         costTable: [
             {1: '$250'},
             {2: '$350'},
-            {3: '$420'},
-            {4: '$520'},
-            {5: '$600'}
+            {3: '$450'},
+            // {4: '$600'},
+            // {5: '$750'},
+            // {6: '$900'},
+            // {7: '$1050'},
+            // {8: '$1,200'}
         ],
         tierNotes: () => (
             <>
-                <p>In general for every climber after 5 climbers, we add $100. Example: 8 climbers would be $900 total.</p>
+                <p>3-8 Climbers is just $150/person. Call us for larger groups.</p>
                 <p>4-5 hours means 4-5h hours meetup at shop to back at shop. ~4h at the crag is typical.</p>
             </>
         )
@@ -63,19 +66,32 @@ export const tiers = [
             <>
                 <p>Tier 1 full day gives significantly more time to climb but is still aimed for areas where the approach hikes are short. Great for getting a lot of top roped sport climbing in.</p>
                 <p>A full day also has enough time to make it worth while to check out 2 different walls, where usually, with a half day, there is only really time for 1 wall and packing up and moving to a different wall doesn't make sense with the limited time available.</p>
-                <p>Sometimes another option is doing a very short multipitch and then climbing single pitch nearby.</p>
+                <p>Its also great for longer instructional or coaching focused outings, just tell us what you are interested in and we will build a curriculum for you, some example topics and goals:</p>
+                <ul>
+                    <li>Gym to Crag instruction</li>
+                    <li>Trad gear placements & anchors</li>
+                    <li>Multipitch transitions</li>
+                    <li>Self rescue</li>
+                    <li>Crack climbing techniqe</li>
+                    <li>Offwidth climbing technique</li>
+                    <li>General climbing movement coaching<br />We have guides who are appropriate for beginners all the way up to 5.12-13 crushers</li>
+                </ul>
+                <p>Another popular option is doing a very short multipitch, like one of those which would fit into a Tier 1 half-day, and then doing some single pitch cragging near by.</p>
             </>
         ),
         costTable: [
             {1: "$350"},
             {2: "$450"},
             {3: "$600"},
-            {4: "$775"},
-            {5: "$925"}
+            // {4: "$800"},
+            // {5: "$1,000"},
+            // {6: "$1,200"},
+            // {7: "$1,400"},
+            // {8: "$1,600"},
         ],
         tierNotes: () => (
             <>
-                <p>6 or more climbers add $150 each additional climber.</p>
+                <p>3-8 Climbers is just $200/person. Call us for larger groups.</p>
                 <p>~7h at Red Rock / crags is typical</p>
             </>
         )
@@ -113,7 +129,6 @@ export const tiers = [
                 {/* <p>We add $50 for any route that is accessed from the Late Night trailhead system, such as Black Velvet Canyon.</p> */}
                 <p>In multipitch we limit it to 2 clients per guide, anything higher is excessively complicated, slow, and fairly rude to any other climbing parties who may be stuck waiting for excessively long times below. So if you have 3 who want to do multipitch, 2 will be with 1 guide and the third will be with a separate guide as if booked separately. $600 + $375</p>
                 <p>The client must be able to lead belay the guide. If the client is very young and small/light, and a parent/guardian can't go up to lead belay, then a 2nd guide may be required to make it a party of 3 so that the leader has a suitable belayer.</p>
-                <p>If the approach and/or descent hikes are long enough, we may bump it up to a Tier 3 day, even if the number of pitches is low. We are going mostly by an estimate of the number of hours needed. Ex. The route, Northeast Arete on Bridge Mtn is 5.5 5p... but thats after many miles of complicated hiking and the descent hike is something like 8-10mi. The hike to the route easily takes much longer than it takes to actually climb the route, so it is most certainly not Tier 2.</p>
             </>
         )
     },
@@ -123,10 +138,10 @@ export const tiers = [
         imgAltText: "A climbers on a difficult and very classic multipitch rock climb, Levitation 29.",
         imgCredit: "Levitation 29. Photo by Matt Kuehl.",
         tierName: "Tier 3 - Multipitch",
-        tierDuration: "8-14+ Hours",
+        tierDuration: "~8-14+ Hours",
         tierDescription: () => (
             <>
-                <p>Tier 3 is for considerably longer multipitch routes in the canyons. Long approaches, linkups of multiple routes, full on adventure, long walkoffs are typical, views are amazing. Popular choices:</p>
+                <p>Tier 3 is for considerably longer multipitch routes in the canyons. Long approaches, linkups of multiple routes, full on adventure, long walkoffs are typical, views are amazing. Typically 8+ pitches. Though, for example, Northeast Arete of Bridge Mountain, while only 5.6 5p would fit in this tier due to the excessively long approach and descent which would take longer to do than to climb the actual route. We only rarely guide canyoneering routes, but if we were to, it would likely fit in this pricing tier. Popular choices:</p>
                 <ul>
                     <li>Johnny Vegas 5.7 4p + Solar Slab 5.6 9p (rap or walk off)</li>
                     <li>MysterZ 5.7 7p + Armatron 5.9 6p</li>
@@ -144,12 +159,12 @@ export const tiers = [
             </>
         ),
         costTable: [
-            {1: "$400 to $600"},
+            {1: "$450 to $600"},
             {2: "$700 to $900"}
         ],
         tierNotes: () => (
             <>
-                <p>Prior experience is absolutely necessary. Pre-dawn starts are not unusual. Prices are determined based on the difficulties and complexities of the route chosen as well as estimated time needed. For example, Solar Slab with rap off would be $400 for 1 climber, Solar Slab with walk off is $500... while Epinephrine, Levitation 29, or a route on Rainbow Wall would be at least $600. Linkups of multiple long routes, extraordinarily long routes, or other complexities could lead to even higher prices.</p>
+                <p>Prior experience is absolutely necessary. Pre-dawn starts are not unusual. Prices are determined based on the difficulties and complexities of the route chosen as well as estimated time needed. For example, Solar Slab with rap off would be $450 for 1 climber, Solar Slab with walk off is $500... while Epinephrine, Levitation 29, or a route on Rainbow Wall would be at least $600. Linkups of multiple long routes, extraordinarily long routes, or other complexities could lead to even higher prices.</p>
                 <p>Very often it is a good idea to try to book a half day with the same guide in advance so they can get a good idea of your movement skills to make sure that they feel the route selected is a good fit for you. Or so they can select an appropriate route if you don't have something in mind.</p>
             </>
         )
