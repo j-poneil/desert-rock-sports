@@ -136,7 +136,7 @@ export const staff = [
         isRetail: true
     },
     // {
-    //     name: "Lisa Buchina",
+    //     name: "Lisa Buchina", //! Currently commented out since not filled out
     //     position: "",
     //     certs: "",
     //     exp: "",
@@ -149,20 +149,20 @@ export const staff = [
     //     isGuide: false,
     //     isRetail: true
     // },
-    {
-        name: "Lisa Aquino",
-        position: "",
-        certs: "",
-        exp: "",
-        bio: () => (<></>),
-        imgSrc: "https://via.placeholder.com/500x400",
-        ig: "https://www.instagram.com/monilisa.aquino/",
-        site: '',
-        youtube: '',
-        active: false,
-        isGuide: false,
-        isRetail: true
-    },
+    // {
+    //     name: "Lisa Aquino", //! Currently commented out since not filled out, not active
+    //     position: "",
+    //     certs: "",
+    //     exp: "",
+    //     bio: () => (<></>),
+    //     imgSrc: "https://via.placeholder.com/500x400",
+    //     ig: "https://www.instagram.com/monilisa.aquino/",
+    //     site: '',
+    //     youtube: '',
+    //     active: false,
+    //     isGuide: false,
+    //     isRetail: true
+    // },
     {
         name: "Travis O'Neil (aka T2)",
         position: "",
@@ -186,20 +186,20 @@ export const staff = [
         isGuide: true,
         isRetail: true
     },
-    {
-        name: "Adam Happensack",
-        position: "",
-        certs: "",
-        exp: "",
-        bio: () => (<></>),
-        imgSrc: "https://via.placeholder.com/500x400",
-        ig: "https://www.instagram.com/a.happensack/",
-        site: '',
-        youtube: '',
-        active: false,
-        isGuide: true,
-        isRetail: true
-    },
+    // {
+    //     name: "Adam Happensack", //! Currently commented out since not filled out... and not active
+    //     position: "",
+    //     certs: "",
+    //     exp: "",
+    //     bio: () => (<></>),
+    //     imgSrc: "https://via.placeholder.com/500x400",
+    //     ig: "https://www.instagram.com/a.happensack/",
+    //     site: '',
+    //     youtube: '',
+    //     active: false,
+    //     isGuide: true,
+    //     isRetail: true
+    // },
     {
         name: "Samantha Weichert",
         position: "",
@@ -259,7 +259,7 @@ export const staff = [
         isRetail: true
     },
     // {
-    //     name: "TJ",
+    //     name: "TJ", //! Currently commented out since not filled out
     //     position: "",
     //     certs: "AMGA Apprentice Rock Guide",
     //     exp: "",
@@ -268,7 +268,7 @@ export const staff = [
     //             <p></p>
     //         </>
     //     ),
-    //     imgSrc: TJ, //!
+    //     imgSrc: TJ,
     //     ig: '',
     //     site: '',
     //     youtube: '',
@@ -276,24 +276,24 @@ export const staff = [
     //     isGuide: true,
     //     isRetail: true
     // },
-    {
-        name: "Selena Pang",
-        position: "",
-        certs: "AMGA Apprentice Rock Guide",
-        exp: "",
-        bio: () => (
-            <>
-                <p></p>
-            </>
-        ),
-        imgSrc: Placeholder,
-        ig: 'https://www.instagram.com/selena_pang/',
-        site: '',
-        youtube: '',
-        active: true,
-        isGuide: true,
-        isRetail: false
-    },
+    // {
+    //     name: "Selena Pang", //! Currently commented out since not filled out
+    //     position: "",
+    //     certs: "AMGA Apprentice Rock Guide",
+    //     exp: "",
+    //     bio: () => (
+    //         <>
+    //             <p></p>
+    //         </>
+    //     ),
+    //     imgSrc: Placeholder,
+    //     ig: 'https://www.instagram.com/selena_pang/',
+    //     site: '',
+    //     youtube: '',
+    //     active: true,
+    //     isGuide: true,
+    //     isRetail: false
+    // },
     {
         name: "Elaina Arenz",
         position: "",
@@ -394,30 +394,30 @@ export const staff = [
         ig: "https://www.instagram.com/mattkuehlphoto/",
         site: 'https://www.mattkuehlphoto.com/',
         youtube: 'https://www.youtube.com/user/sometimesmatt',
-        active: false,
-        isGuide: true,
-        isRetail: false
-    },
-    {
-        name: "Cody Bradford",
-        position: "",
-        certs: "AMGA Certified Rock Guide, WFR",
-        exp: "?+ years climbing, 9+ Guiding",
-        bio: () => (
-            <>
-                <p>I began my career on the sculpted meta-sandstone escarpments of the North Carolina High Country at the height of the Eastern Continental Divide. I received my Bachelors of Science in Recreation Management from Appalachian State University in 2012 and subsequently began my guiding career by earning my AMGA Single Pitch Instructor certification later that year.</p>
-                <p>I currently reside in Las Vegas, guiding out of Red Rock National Conservation Area, Joshua Tree National Park, the Sierra, and Moab. During the summer, I spend my time guiding in the Cascades as well as Wyoming in locations such as the Tetons and the Winds.</p>
-                <p>Musician by night.</p>
-            </>
-        ),
-        imgSrc: Cody,
-        ig: "https://www.instagram.com/thecodybradford/",
-        site: 'https://www.codybradford.com/',
-        youtube: 'https://www.youtube.com/channel/UCDN5bJMKsAjQ3YE9VK5ezwQ',
         active: true,
         isGuide: true,
         isRetail: false
     },
+    // {
+    //     name: "Cody Bradford", //! Rest in Peace
+    //     position: "",
+    //     certs: "AMGA Certified Rock Guide, WFR",
+    //     exp: "?+ years climbing, 9+ Guiding",
+    //     bio: () => (
+    //         <>
+    //             <p>I began my career on the sculpted meta-sandstone escarpments of the North Carolina High Country at the height of the Eastern Continental Divide. I received my Bachelors of Science in Recreation Management from Appalachian State University in 2012 and subsequently began my guiding career by earning my AMGA Single Pitch Instructor certification later that year.</p>
+    //             <p>I currently reside in Las Vegas, guiding out of Red Rock National Conservation Area, Joshua Tree National Park, the Sierra, and Moab. During the summer, I spend my time guiding in the Cascades as well as Wyoming in locations such as the Tetons and the Winds.</p>
+    //             <p>Musician by night.</p>
+    //         </>
+    //     ),
+    //     imgSrc: Cody,
+    //     ig: "https://www.instagram.com/thecodybradford/",
+    //     site: 'https://www.codybradford.com/',
+    //     youtube: 'https://www.youtube.com/channel/UCDN5bJMKsAjQ3YE9VK5ezwQ',
+    //     active: false,
+    //     isGuide: true,
+    //     isRetail: false
+    // },
     {
         name: "Kat Vollinger",
         position: "",
@@ -478,7 +478,11 @@ export const staff = [
         position: "",
         certs: "",
         exp: "",
-        bio: () => (<></>),
+        bio: () => (
+            <>
+                <p>Continuing the most excellent legacy of his parents, Danny gets out on big rad adventures all the time.</p>
+            </>
+        ),
         imgSrc: Danny,
         ig: "https://www.instagram.com/dynooftheshire/",
         site: '',
