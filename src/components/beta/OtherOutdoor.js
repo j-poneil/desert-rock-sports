@@ -270,6 +270,8 @@ export const otherOutdoor = {
                         Both are great hot spring options. Both free. Practice leave no trace. Excellent for rainy/dryout or rest days. There is a decent hike required to either and the hot water will also dehydrate you to a suprising degree, so be sure to bring enough water and snacks. If you bring beer, please, aluminum or steel cans, not glass, and of course pack it out. Be sure to have some form of GPS (ie. cell phone) as the trails out here are not exactly marked well, lots of forks to different places.<br />
                         <br />
                         Water will be scalding hot where it seeps out of the rocks and will get more tollerable the further away you get from it. For example, at Arizona Hot Springs, if you are coming in from the top (as opposed to from next to the river) you will probably want to move very quickly through the first pool as its uncomfortably hot (yes, even for women). The 2nd and third pool down are much more tollerable temperatures.
+                        <br />
+                        As with many natural hot springs, some consider them clothing optional.
                     </Card.Text>
                     <hr />
 
@@ -368,55 +370,112 @@ export const otherOutdoor = {
                         <a href="https://trufusion.com/summerlin/" target="_blank" rel="noopener noreferrer">TruFusion Summerlin <FaExternalLinkAlt /></a><br />
                         One of the nicest fitness studios in Vegas. Yoga, Barre, Cycle, Boxing, Bootcamp, Battle Ropes, HIIT, Kettlebell, Pilates, and more. First Class Free!
                         <br />
-                        <a href="https://www.cozymeal.com/las-vegas/cooking-classes" target="_blank" rel="noopener noreferrer"> Cozymeal - Cooking classes from expert chefs<FaExternalLinkAlt /></a><br />
+                        <a href="https://www.cozymeal.com/las-vegas/cooking-classes" target="_blank" rel="noopener noreferrer">Cozymeal - Cooking classes from expert chefs <FaExternalLinkAlt /></a><br />
                         <a href="https://www.viator.com/tours/Las-Vegas/Adventure-in-Glassblowing-by-Torch/d684-147752P1" target="_blank" rel="noopener noreferrer">Adventures in Glassblowing by Torch <FaExternalLinkAlt /></a><br />
                         <a href="https://www.eventbrite.com/e/introductory-blacksmith-class-tickets-162744141107" target="_blank" rel="noopener noreferrer">Introductory Blacksmitch Class <FaExternalLinkAlt /></a><br />
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
                     </Card.Text>
-                    <Card.Subtitle>Tea/Coffee shops</Card.Subtitle>
+                    <Card.Subtitle>Area 15</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://area15.com/" target="_blank" rel="noopener noreferrer">Immersive art and experiences like no other! <FaExternalLinkAlt /></a><br />
+                        Seriously this place should be high up on your list of shows or places to see!<br />
+                        <a href="https://www.youtube.com/watch?v=fXmhf-6itUg" target="_blank" rel="noopener noreferrer">Omega Mart Las Vegas (YouTube, 1min) <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.youtube.com/watch?v=mNfhhALu_Qc" target="_blank" rel="noopener noreferrer">Meow Wolf Alex Grey (YouTube, 4min) <FaExternalLinkAlt /></a><br />
+                        No longer running in Las Vegas, I believe, but excellent example of the kind of amazing immersive experiences you can find at Area 15!
                     </Card.Text>
-                    <Card.Subtitle>Speakeasy / Bar</Card.Subtitle>
+                    
+
+                    <Card.Subtitle>Art Galleries</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://goo.gl/maps/3FxjwrZdRy1ZHmSw5" target="_blank" rel="noopener noreferrer">Arts District <FaExternalLinkAlt /></a><br />
+                        Several Art Galleries in this area of Las Vegas. Plus others scattered around.
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
                     </Card.Text>
-                    <Card.Subtitle>Brewery</Card.Subtitle>
+                    
+
+
+                    <Card.Subtitle>Museums</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://themobmuseum.org/" target="_blank" rel="noopener noreferrer">The Mob Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/LPqicomwLZjgi9ji8 - Gmap to The Mob Museum */}
+
+                        <a href="https://www.neonmuseum.org/" target="_blank" rel="noopener noreferrer">The Neon Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/PhDzK9fdCqzEY89FA - Gmap to The Neon Museum */}
+
+                        <a href="https://www.atomicmuseum.vegas/" target="_blank" rel="noopener noreferrer">Atomic Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/pLSiMUTubtFjPBSv8 - Gmap to Atomic Museum */}
+
+                        <a href="https://www.lasvegasnvmuseum.org/" target="_blank" rel="noopener noreferrer">Nevada State Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/AGps83wxcHr5uWPo9 - Gmap to NSM */}
+                    
+                        <a href="https://www.lvnhm.org/" target="_blank" rel="noopener noreferrer">Las Vegas Natural History Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/gbVPxCEGNAHR44Ds8 - Gmap to LV N Hist Mus */}
+
+                        <a href="https://hollywoodcarsmuseum.com/" target="_blank" rel="noopener noreferrer">Hollywood Cars Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/pxnPQxdRX6MMRki16 - Gmap to Hollywood Cars & Liberace Garage */}
+
+                        <a href="https://goo.gl/maps/5gtN9YmV7tiGvZjc7" target="_blank" rel="noopener noreferrer">Discovery Children's Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/5gtN9YmV7tiGvZjc7 - Gmap to Discovery Children's Museum */}
+
+                        <a href="http://www.pinballmuseum.org/" target="_blank" rel="noopener noreferrer">Pinball Hall of Fame / Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/UsCjuYjdokbinr9M8 - Gmap to Pinball Hall of Fame */}
+
+                        <a href="https://thehauntedmuseum.com/" target="_blank" rel="noopener noreferrer">Zak Bagans' The Haunted Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/cmWVkA71puqc8gSR8 - Gmap to Spooky */}
+
+                        <a href="https://www.madametussauds.com/las-vegas/" target="_blank" rel="noopener noreferrer">Madame Tussaud's Wax Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/WSeNF3gYPbGRzXxU7 - Gmap to Wax Mus */}
+
+                        <a href="https://www.burlesquehall.com/" target="_blank" rel="noopener noreferrer">Burlesque Hall of Fame <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/zBezTZmtRrFnE9Rr5 - Gmap to Burlesque Hall of Fame */}
+
+                        <a href="https://eroticmuseumvegas.com/" target="_blank" rel="noopener noreferrer">Erotic Heritage Museum <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/e7sQ8iq6gi1EGhHu7 - Gmap to Erotic Heritage Museum */}
+
+                        <a href="https://welderup.com/" target="_blank" rel="noopener noreferrer">Welder Up Rat Rod Showroom <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/MzeaCFRLVC5Skb9dA - Gmap to Welder Up  */}
+
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
+
+
+                        Tons of awesome ones to check out, many appropriate for all ages, but some certainly adult only!
                     </Card.Text>
-                    <Card.Subtitle>Foooooooood</Card.Subtitle>
-                    <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
-                    </Card.Text>
-                    <Card.Subtitle>Area 15 / Omega Mart / etc...</Card.Subtitle>
-                    <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
-                    </Card.Text>
-                    <Card.Subtitle>Art Galleries, Museums</Card.Subtitle>
-                    <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
-                    </Card.Text>
+
+
                     <Card.Subtitle>Hoover Dam</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.usbr.gov/lc/hooverdam/service/index.html" target="_blank" rel="noopener noreferrer">Tour info and costs <FaExternalLinkAlt /></a><br />
                     </Card.Text>
-                    <Card.Subtitle>Ethel M Chocolate factory</Card.Subtitle>
+
+                    <Card.Subtitle>Ethel M Chocolate Factory &amp; Cactus Garden</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.ethelm.com/" target="_blank" rel="noopener noreferrer">Satisfy that chocolate craving <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/CogYCNLWvbHcuNp29 Gmap to*/}
                     </Card.Text>
+
                     <Card.Subtitle>Springs Preserve</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        <a href="https://www.springspreserve.org/" target="_blank" rel="noopener noreferrer">Springs Preserve <FaExternalLinkAlt /></a><br />
+                        {/* https://goo.gl/maps/BJhtUkJc6ko8kTuR6 - gmap to */}
+                        Great nature focused preserve to wander around.
                     </Card.Text>
+
                     <Card.Subtitle>Massage / Yoga / Spa recovery day</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
+                        Many possible great places to unwind and give your body some TLC.
                     </Card.Text>
+
                     {/* <Card.Subtitle></Card.Subtitle>
                     <Card.Text className="pl-3">
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
                     </Card.Text> */}
+                    {/* <Card.Subtitle>Check out some of the previous food and drink recommendations</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        Tons of awesome ones up above!
+                    </Card.Text>
                     <hr />
 
                     <Card.Title></Card.Title>
@@ -446,7 +505,7 @@ export const otherOutdoor = {
                     <Card.Text className="pl-3">
                         <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
                     </Card.Text>
-                    <hr />
+                    <hr /> */}
                 </>
             )
         },

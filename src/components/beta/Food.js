@@ -352,20 +352,64 @@ export const food = {
 
                     <Card.Subtitle>Ramen</Card.Subtitle>
                     <hr />
-                    {/* <Card.Subtitle></Card.Subtitle>
+                    <Card.Subtitle>JINYA Ramen Bar</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> Name</a>
+                        <a href="https://goo.gl/maps/mTo6yKciSv999Vud6" target="_blank" rel="noopener noreferrer"><FaDirections /> JINYA Ramen Bar - Flamingo</a>
                         <br />
-                    </Card.Text> */}
+                        <a href="https://g.page/Jinya-ramen-on-rainbow?share" target="_blank" rel="noopener noreferrer"><FaDirections /> JINYA Ramen Bar - Rainbow</a>
+                        <br />
+                        One of the most popular places for ramen in Vegas, over 2000 reviews.
+                    </Card.Text>
+                    <Card.Subtitle>Monta Noodle House</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://goo.gl/maps/7YMJAFQaTb8pPcjE9" target="_blank" rel="noopener noreferrer"><FaDirections /> Monta Noodle House</a>
+                        <br />
+                        One of the most popular places for ramen in Vegas, over 2000 reviews.
+                    </Card.Text>
+                    <Card.Subtitle>Ramen Sora</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://goo.gl/maps/9R4h2fcN4fBDskGX8" target="_blank" rel="noopener noreferrer"><FaDirections /> Ramen Sora</a>
+                        <br />
+                        One of the most popular places for ramen in Vegas, over 2000 reviews.
+                    </Card.Text>
+                    <Card.Subtitle>Ramen KoBo</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> Ramen KoBo</a>
+                        <br />
+                        Limited broth options, but has Tsukemen available, which the big 3 giants don't seem to do.
+                    </Card.Text>
+                    <Card.Subtitle>Soru Ramen Sushi and Boba Milk Tea</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://g.page/soruramen?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Soru Ramen Sushi and Boba Milk Tea</a>
+                        <br />
+                        Close to Red Rock option. Tons of menu items.
+                    </Card.Text>
                     <br />
 
                     <Card.Subtitle>24H Options</Card.Subtitle>
+                    <Card.Text>Sometimes you get back late from a multipitch and you still need to eat, ya know?</Card.Text>
                     <hr />
                     <Card.Subtitle>Roberto's Taco Shop</Card.Subtitle>
                     <Card.Text className="pl-3">
                         <a href="https://robertostacoshop.com/locations/" target="_blank" rel="noopener noreferrer">Roberto's Taco Shop Locator <FaExternalLinkAlt /></a>
                         <br />
                         Tons of Vegas locations, all 24H (I think). Try the ham or bacon breakfast burrito, always great, never too greasy, re-heats well, awesome vehicle for hot sauce delivery. (T2 is addicted to them). Great to grab on your way out to Red Rock to fuel a long day.
+                    </Card.Text>
+                    <Card.Subtitle>The Martini</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> The Martini</a>
+                        <br />
+                        24h dining
+                    </Card.Text>
+                    <Card.Subtitle>Taqueria Casa Del Sabor</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://goo.gl/maps/S3vciUkT6tqEtesw8" target="_blank" rel="noopener noreferrer"><FaDirections /> Taqueria Casa Del Sabor</a>
+                        <br />
+                        Looks like a good taco option
+                    </Card.Text>
+                    <Card.Subtitle>Chicago Brewing Company (see brewery's further down)</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        24h. Good food options too.
                     </Card.Text>
                     {/* <Card.Subtitle></Card.Subtitle>
                     <Card.Text className="pl-3">
@@ -452,7 +496,35 @@ export const food = {
                         <br />
                         Korean style BBQ chicken. Looks good. I don't know!
                     </Card.Text>
+                    <Card.Subtitle>Juan's Flaming Fajitas & Cantina</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://g.page/juansflamingfajitas?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Juan's Flaming Fajitas & Cantina</a>
+                        <br />
+                        Really, really good. Get a reservation in advance.
+                    </Card.Text>
+                    <Card.Subtitle>Bomb Tacos</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://goo.gl/maps/5xaFtXxLcg3m13Lj7" target="_blank" rel="noopener noreferrer"><FaDirections /> Bomb Tacos</a>
+                        <br />
+                        Really good tacos.
+                    </Card.Text>
+                    <Card.Subtitle>Tacos El Gordo</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://goo.gl/maps/ekvHZHay5YSccuqd9" target="_blank" rel="noopener noreferrer"><FaDirections /> Tacos El Gordo</a>
+                        <br />
+                        6000+ reviews can't be wrong.
+                    </Card.Text>
                     {/* <Card.Subtitle></Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> Name</a>
+                        <br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> Name</a>
+                        <br />
+                    </Card.Text>
+                    <Card.Subtitle></Card.Subtitle>
                     <Card.Text className="pl-3">
                         <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> Name</a>
                         <br />
@@ -464,16 +536,66 @@ export const food = {
             subSectionTitle: 'Breweries & Bars',
             subSectionContent: () => (
                 <>
+                    {/* //! WORK HERE */}
                     <Card.Subtitle>Breweries</Card.Subtitle>
+                    <hr />
+                    <Card.Subtitle>Tenaya Creek Brewery</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        {/* <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /></a><br />
-                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /></a><br /> */}
+                        <a href="https://goo.gl/maps/ENQzxCSo7NFFb3Sp6" target="_blank" rel="noopener noreferrer"><FaDirections /> Tenaya Creek Brewery</a>
+                        <br />
+                        Great option
                     </Card.Text>
+                    <Card.Subtitle>Big Dog's Brewing Company</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://g.page/bigdogsbrews?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Big Dog's Brewing Company</a>
+                        <br />
+                        Good option
+                    </Card.Text>
+                    <Card.Subtitle>Chicago Brewing Company</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://goo.gl/maps/padAdbZLaQA6JvJS6" target="_blank" rel="noopener noreferrer"><FaDirections /> Chicago Brewing Company</a>
+                        <br />
+                        24h. Great option with food.
+                    </Card.Text>
+                    <Card.Subtitle>Able Baker Brewing</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://g.page/ablebakerbrewing?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Able Baker Brewing</a>
+                        <br />
+                        Great option.
+                    </Card.Text>
+                    <Card.Subtitle>Hop Nuts Brewing</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://g.page/hopnuts?share" target="_blank" rel="noopener noreferrer"><FaDirections /> Hop Nuts Brewing</a>
+                        <br />
+                        Great option.
+                    </Card.Text>
+                    <Card.Subtitle>Banger Brewing</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://goo.gl/maps/inqSsar6QS9UBauB9" target="_blank" rel="noopener noreferrer"><FaDirections /> Banger Brewing</a>
+                        <br />
+                        Another good option.
+                    </Card.Text>
+                    <br />
+
                     <Card.Subtitle>Bars</Card.Subtitle>
+                    <hr />
+                    <Card.Subtitle>PKWY Tavern Tivoli</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        {/* <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /></a><br />
-                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /></a><br /> */}
+                        <a href="https://goo.gl/maps/B4zAmsxJ9kD3JDtG7" target="_blank" rel="noopener noreferrer"><FaDirections /> PKWY Tavern Tivoli</a>
+                        <br />
+                        24h. Not too far from Red Rock. May be hard for larger or taller vehicles to get parking (vans).
                     </Card.Text>
+                    <Card.Subtitle>El Dorado Cantina - Tivoli Village</Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="https://g.page/el-dorado-cantina-tivoli-village?share" target="_blank" rel="noopener noreferrer"><FaDirections /> El Dorado Cantina - Tivoli Village</a>
+                        <br />
+                        24h. Another good option in the same area as PKWY Tavern Tivoli.
+                    </Card.Text>
+                    {/* <Card.Subtitle></Card.Subtitle>
+                    <Card.Text className="pl-3">
+                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> NAME</a>
+                        <br />
+                    </Card.Text> */}
                 </>
             )
         }
