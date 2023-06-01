@@ -61,8 +61,13 @@ export default function Error(){
                     rounded
                     style={{'border': '5px solid black'}}
                 />
-                <div id="error">
-                    Go <a href="/" target="_blank" rel="noopener noreferrer">home</a>
+                <div
+                    id="error"
+                    style={{
+                        'background-color': 'white'
+                    }}
+                >
+                    Go back <a href="/" rel="noopener noreferrer">home</a>
                 </div>
                 </Col>
             </Container>
