@@ -51,7 +51,8 @@ export default function Navbar(){
                     <Nav.Link href="/weather">Weather</Nav.Link>
                     {/* <Nav.Link href="https://www.redrockclimbingcenter.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Opens in a new tab">Gym <sup><FaExternalLinkAlt /></sup></Nav.Link> */}
                     <Nav.Link href="/guiding">Guiding</Nav.Link>
-                    <Nav.Link href="/resoles">Resoles</Nav.Link>
+                    {/* //! Resoles temp(?) disabled */}
+                    {/* <Nav.Link href="/resoles">Resoles</Nav.Link> */}
                     {/* <Nav.Link href="/other">Other</Nav.Link> */}
                     <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/shop">Shop</Nav.Link>

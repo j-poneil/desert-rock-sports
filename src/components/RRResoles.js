@@ -6,6 +6,10 @@ import Container from 'react-bootstrap/Container';
 // import Card from 'react-bootstrap/Card';
 // import Image from 'react-bootstrap/Image';
 
+import Alert from 'react-bootstrap/Alert';
+
+import { FaExternalLinkAlt } from 'react-icons/fa';
+
 
 import CustomHeader from './sub/CustomHeader';
 // import rope_med from '../img/BackgroundImages/rope_med.jpg';
@@ -42,7 +46,26 @@ function RRResoles() {
                 {/* <h5 className='text-center' as='h1'>Red Rock Resoles</h5> */}
                 {/* <Card.Subtitle className='text-center' as='h4'>Steve Krall</Card.Subtitle> */}
                 <h2 className='text-center'>Get some fresh rubber on those shoes!</h2>
-                <p><strong>Steve Krall</strong> is now your Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time (7wks now). You don't even need to ship them out!</p>
+                {/* //! Alert to say not currently accepting resoles */}
+                <Alert variant='danger'>
+                    <p>
+                        Steve is not accepting resoles at the moment.
+                    </p>
+                    <p>
+                        He is going to school to become a professional commercial airline pilot and so the future of his resoling company is uncertain. He may be doing limited work for close friends and family, but does not have the time to do work for others beyond that right now.
+                    </p>
+                    <p>
+                        Until we know for certain his future plans and remove this notice, consider the info below unreliable and not up to date. This page will also stay unaccessible from the top navigation bar, but will remain direct linkable and google searchable for now... As we are hopeful that Red Rock Resoles will eventually start up again in some capacity.
+                    </p>
+                    <p>
+                        Here is a great link to a list of other resolers:<br />
+                        <a href="https://blog.weighmyrack.com/where-resole-rock-climbing-shoes/" target="_blank" rel="noopener noreferrer">22 Great Places to Resole Your Rock Climbing Shoes @ Weigh My Rack Blog <FaExternalLinkAlt /></a><br />
+                        Valley Shoe Repair (previously Flop House Resoles) in Joshua Tree may be the closest currently:<br />
+                        <a href="https://www.valleyshoerepair.com/" target="_blank" rel="noopener noreferrer">Valley Shoe Repair <FaExternalLinkAlt /></a>
+                    </p>
+                    Note: Black Rainbow Resoles, Vegas' previous resoler is not likely to ever start up again.
+                </Alert>
+                <p><strong>Steve Krall</strong> is now your Vegas local resoler. Excellent reviews, industry standard prices, and reasonable turn around time (how long?). You don't even need to ship them out!</p>
                 <h3 className='text-center'>How it works:</h3>
                 <p>Drop them off at the convient box in Desert Rock Sports. Text Steve the make/model and size of each pair that you drop off, take a picture too if you would like. Thats it!</p>
                 <p>You can also ship shoes to him:</p>
