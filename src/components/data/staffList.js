@@ -14,7 +14,7 @@ import Steve from '../../img/DRS_staff/Steve_450w_450h.jpg';
 import T2 from '../../img/RRCG/GuideBioImgs/T2_450w_450h.jpg';
 import Dan from '../../img/RRCG/GuideBioImgs/Dan_450w_450h.jpg';
 import Josh from '../../img/RRCG/GuideBioImgs/Josh_450w_450h.jpg'; // Josh Janes
-import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
+// import LisaB from '../../img/DRS_staff/LisaB_450w_450h.jpg';
 import Samantha from '../../img/RRCG/GuideBioImgs/Samantha_450w_450h.jpg';
 import TingTing from '../../img/RRCG/GuideBioImgs/SzuTingYi_450w_450h.jpg';
 // import JoshD from ''; // Josh Diggs
@@ -35,6 +35,7 @@ import JoshD from '../../img/RRCG/GuideBioImgs/JoshD_450w_450h.jpg';
 import Jakob from '../../img/RRCG/GuideBioImgs/Jakob_450w_450h.jpg';
 // import Kat from '../../img/RRCG/GuideBioImgs/Kat_450w_450h.jpg';
 import Kat from '../../img/RRCG/GuideBioImgs/Kat_by_Jaz_Morris_450x450_enhanced-min.jpg';
+// import TJ from '../../img/RRCG/GuideBioImgs/TJ';
 // import 
 
 // % For bio, its an arrow function that returns JSX, so just write 'basically' HTML between the <></>. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
@@ -134,20 +135,20 @@ export const staff = [
         isGuide: true,
         isRetail: true
     },
-    {
-        name: "Lisa Buchina",
-        position: "",
-        certs: "",
-        exp: "",
-        bio: () => (<></>),
-        imgSrc: LisaB,
-        ig: "https://www.instagram.com/lmbuch/",
-        site: '',
-        youtube: '',
-        active: true,
-        isGuide: false,
-        isRetail: true
-    },
+    // {
+    //     name: "Lisa Buchina",
+    //     position: "",
+    //     certs: "",
+    //     exp: "",
+    //     bio: () => (<></>),
+    //     imgSrc: LisaB,
+    //     ig: "",
+    //     site: '',
+    //     youtube: '',
+    //     active: true,
+    //     isGuide: false,
+    //     isRetail: true
+    // },
     {
         name: "Lisa Aquino",
         position: "",
@@ -257,6 +258,24 @@ export const staff = [
         isGuide: true,
         isRetail: true
     },
+    // {
+    //     name: "TJ",
+    //     position: "",
+    //     certs: "AMGA Apprentice Rock Guide",
+    //     exp: "",
+    //     bio: () => (
+    //         <>
+    //             <p></p>
+    //         </>
+    //     ),
+    //     imgSrc: TJ, //!
+    //     ig: '',
+    //     site: '',
+    //     youtube: '',
+    //     active: true,
+    //     isGuide: true,
+    //     isRetail: true
+    // },
     {
         name: "Selena Pang",
         position: "",
