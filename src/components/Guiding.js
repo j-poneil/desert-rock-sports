@@ -3,7 +3,7 @@ import React from 'react';
 // it should be fine to use it like this. Where user is not doing any input. Remember, this doesn't do any sanitizing of HTML, its just a clean alternative to dangerouslySetInnerHTML.
 // import parse from 'html-react-parser';
 
-import { FaInstagram, FaYoutube, FaHome, FaGithub } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaHome, FaGithub, FaRegFilePdf } from 'react-icons/fa';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -149,12 +149,17 @@ export default function Guiding(){
                     <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location</li>
                     <li>You have a blast!</li>
                 </ol>
-                <h5>However...</h5>
-                <p>Our guides have their own lives, schedules, other careers, and personal climbing trips. They are not just sitting around waiting to get a call. Please give us as much advanced notice as possible, 2-3wks during the peak season is great (Oct - Apr) or 1-2wks during the summer. We will always try to get a guide for any booking, even if it is last minute, same or next day, it just gets much more likely that they are all already busy or wont get back to us in time. For large groups, like 12+ please give us extra time, on our end it is no longer finding 1 guide, it is finding 3+ guides who are all going to be available.</p>
-                <p>Most of the time the clients and guide carpool together out from Desert Rock Sports to Red Rock Canyon. Picking up clients and dropping them off if they are on the way is often possible. We greatly prefer to not need to pickup and dropoff at the strip as it is completely in the opposite direction from where we are trying to go to and from.</p>
-                <p>We do full refund if you (or we) need to cancel for any reason, we just ask for ~24h advanced notice so we can notify the guide so they can make other plans. We can also keep credit on file for a future date indefinately. The sandstone is more dangerous to climb after a rain, it loses a lot of its strength, so if that happens we can go climb limestone or refund / keep credit on file if you prefer.</p>
-                <p>On our Tier 1 and 2 outings for 5 or more climbers we will typically add a second guide to make sure everyone gets enough time on the rock, the prices already reflect this. We can also add a second guide (or more) on request for smaller groups... For example, a group of 4 climbers Tier 1 half day, 2 adults and 2 kids. The parents may want to climb harder routes on the same wall with one guide, while a second guide watches and belays the kids. We would generally treat this as 2 separate half days with 2ppl each, so $300 + $300, only slightly more expensive than 4ppl half day with a single guide for $520.</p>
-                <p>Prices are total, not per-person. We can accomodate large groups, but due to BLM regulations and terms of our commercial usage permit, we have have to split large groups into multiple smaller groups going to different areas.</p>
+                <h5>Give us as much heads up as you can</h5>
+                <p>Our guides have their own lives, schedules, other careers, and personal climbing trips. They are not just sitting around waiting to get a call. Many of our guides are only here during the peak season. Please give us as much advanced notice as possible, and get paid up early, 2-3wks during the peak season is great (Oct - Apr) or 1-2wks during the summer. We will always try to get a guide for any booking, even if it is last minute, same or next day, it just gets much more likely that they are all already busy or wont get back to us in time. For large groups, like 12+ please give us extra time, on our end it is no longer finding 1 guide, it is finding 3+ guides who are all going to be available.</p>
+                <h5>Transportation</h5>
+                <p>We do not pickup/drop off from the strip. If you can get to our shop with your own transportation (or Uber / Lyft), then you can carpool in the guide's vehicle from our shop out to Red Rock and back to our shop. Note that some of our guides only have 1 free seat in their vehicle so guide selection can vary and for larger groups you very well may need your own transportation. There is no company shuttle. Picking up clients and dropping them off if their hotel is on the way out (minimal detour) to Red Rock is often possible, especially if the clients already have all their own personal climbing gear. The Strip is in the completely opposite direction and would easily add almost 2 hours to the guides day between pickup and drop off, which is why we don't.</p>
+                <h5>Weather</h5>
+                <p>Vegas is blessed, or cursed, with on average 300 days of sun a year... but rain does happen. Red Rock is higher elevation than Vegas and the canyons where the multipitch is get more precip than most people would think, storms often coming from the west coast, hitting them, then dissapating before really hitting Vegas itself. Its not anywhere near as bad the "every day" afternoon thunderstorms like mountainous areas of Colorado get. Unlike the Colorado granite however, our sandstone is more dangerous to climb after a rain, it loses a lot of its strength, so if that happens we can go climb limestone, refund, or keep keep credit on file for a future date if you prefer.</p>
+                <p>Note that while the cooler months are by far the best temps to climb at Red Rock, when there is precip and it is cold, like near freezing, it takes longer for the rock to dry out. If we get multiple days in a row of heavy precip, it can take multiple days to dry out... Sometimes it can be a good idea to just bail to Joshua Tree or elsewhere to climb. This past 2022/2023 fall/winter was brutal with the amount of precip. You will probably remember all the reports of record or near record snowfall all over the west, so Red Rock was not an isolated anamoly. Weather related cancellations do occur, and especially in peak season due to the necessary drying out time sometimes being prolonged due to the lower temps. An unfortunate reality.</p>
+                <h5>Group sizes, multiple guides</h5>
+                <p>We can accomodate large groups, but due to BLM regulations and terms of our commercial usage permit, we may have to split large groups into multiple smaller groups going to different areas.</p>
+                <p>On our Tier 1 and 2 outings for 5 or more climbers we will typically add a second guide to make sure everyone gets enough time on the rock, the prices already reflect this. We can also add a second guide (or more) on request for smaller groups... For example, a group of 4 climbers Tier 1 half day, 2 adults and 2 kids. The parents may want to climb harder routes on the same wall with one guide, while a second guide watches and belays the kids. We would generally treat this as 2 separate half days with 2ppl each, so $350 + $350 = $700, only slightly more expensive than 4ppl half day with a single guide for $600.</p>
+                
 
             </Container>
 
@@ -179,6 +184,44 @@ export default function Guiding(){
                     { tierList }
                 </Row>
             </Container>
+
+
+            <Container fluid="md" className="onTopOfBackground">
+                {/* <h5>Cancellation policy:</h5>
+                <p>
+                    Please note that our cancellation policy allows you to cancel for any reason 72+ hours in advance of your reservation for a credit towards a future outing or for a full refund. If you cancel within the period of 24-72 hours before the date of your reservation we will not process a refund rather we will create a credit for you for the full dollar amount of the reservation to use for up to 12 months from the date of your reservation. The only exception is if the outing is cancelled by us and this can happen due to weather, guide sickness, or other unforeseen factors and then you will have the option to receive either a credit or a full refund even if it is within 72 hours of the date of your outing. If you are visiting Vegas and issues arise outside or even within 72 hours on either of our ends we will try to help you rebook if possible, depending on our guide availability, for a different day if you still desire to climb and have flexibility during your trip. If you cancel within 24 hours of your outing we will not issue a credit or refund unless you are able to make arrangements to rebook directly with your same guide so they do not lose out on a workday (they may not be able to be assigned other work last minute). However if within 24 hours the cancellation is weather related or an issue on our end you can choose a credit or full refund.
+                </p> */}
+                <h5>Cancellation Policy:</h5>
+                <p>
+                    &gt;72 hours notice:
+                    <ul>
+                        <li>Full refund or full credit to a future outing.</li>
+                    </ul>
+                </p>
+                <p>
+                    72-24 hours notice:
+                    <ul>
+                        <li>No refund, but full credit to use for up to 12 months on your next trip.</li>
+                    </ul>
+                </p>
+                <p>
+                    &lt;24 hours notice, or "no shows":
+                    <ul>
+                        <li>No refund, no credit, unless you can arrange to rebook with your same guide so they do not lose out on a workday.<br/>
+                        They may not be able to be assigned other work at the last minute.</li>
+                    </ul>
+                </p>
+                <p>
+                    Cancellation due to weather, guide sickness, other unforeseen issue on our end:
+                    <ul>
+                        <li>Full refund or credit to a future outing. Even if its &lt;72 hours, or even &lt;24 hours.</li>
+                    </ul>
+                </p>
+                <p>
+                    If you are visiting Vegas and issues arise outside or even within 72 hours on either of our ends we will try to help you rebook if possible, depending on our guide availability, for a different day if you still desire to climb and have flexibility during your trip.
+                </p>
+            </Container>
+
 
             <CustomHeader
                 text="Pictures from some of our outings"
@@ -228,14 +271,21 @@ export default function Guiding(){
             <Container fluid="md" >
                 {/* Using formsubmit.co to simplify / eliminate dealing with backend */}
                 <GuideInquiryForm />
+                <br />
 
                 <div className="mt-3 mb-3 onTopOfBackground">
                     <h5>Liability Waivers</h5>
                     <p>We typically just fill out liability waivers in person when we meet up. You can print and fill this one out ahead of time if you prefer. Sorry, its long. Emailing us is not sufficient since the guide needs to be able to look over your waiver, especially medical, to be made aware of any important info like severe allergic reactions, if one is diabetic, chronic injuries (may need to avoid a particular type of climbing move to not aggravate it), etc... Many of our guides don't have access to our email and sometimes the meetup location is not in cell service. The guide needs to have all pertinant medical and emergency info.</p>
                     <p>
-                        <a href={ RRCGCombinedWaiver8_20 } target="_blank" rel="noopener noreferrer">RRCG Combined Waiver 8/20</a>
+                        <strong><a
+                            href={ RRCGCombinedWaiver8_20 }
+                            target="_blank" rel="noopener noreferrer"
+                        >
+                            RRCG Combined Waiver 8/20 <FaRegFilePdf />
+                        </a></strong>
                     </p>
                 </div>
+                <br />
             </Container>
             
         </Container>
