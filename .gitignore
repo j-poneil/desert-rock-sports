@@ -43,8 +43,9 @@ create_react_app_default_readme.md
 # don't publish, because CRON job tests/thoughts
 /src/cronRest
 
-# don't publish, because PHP scripts often have API keys or other secrets
+# don't publish, because PHP, etc... scripts often have API keys or other secrets
 /src/php
+/src/scripts
 
 # don't publish, because API key
 /src/components/sub/NewsletterModal.js
