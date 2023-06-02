@@ -144,9 +144,10 @@ export default function Guiding(){
                 <h5 className="text-center">How it works:</h5>
                 <ol className="text-left">
                     <li>Check out our options below</li>
-                    <li>call us at <a href="tel:1-702-506-6640" target="_blank" rel="noopener noreferrer">1-702-506-6640</a> or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information</li>
-                    <li>We take credit card payment in full over the phone to reserve your spot on our calendar or in person at our shop, in advance of the date</li>
-                    <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location. They typically reach out 24-72h in advance of the date.</li>
+                    <li>Call us at <a href="tel:1-702-506-6640" target="_blank" rel="noopener noreferrer">1-702-506-6640</a> or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information.<br />
+                    Calling us during our shop business hours is best. We can most likely answer all your questions in just a few minutes, where-as with email there often needs to be more back and forth so we can be sure our answers are relevant to your situation.</li>
+                    <li>Call when you are ready to book with us. We make sure we have all the important contact info, goals, and logistical details noted down. Then we take credit card payment in full over the phone to reserve your spot on our calendar. We don't find and reserve you a guide until after you have paid. Thus, all bookings must be paid in advance of the date, the sooner the better to be sure you get a guide. After you are paid up, we email you a receipt as well as helpful guidelines on what to expect regarding where to meet, what to bring, etc...</li>
+                    <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location. They typically reach out 24-72h in advance of the date. We understand sometimes our clients will be out of cell service the day before, such as when visiting nearby destinations like Zion or the Grand Canyon. If this is going to be the case make sure to tell us so we can put notes in the booking so the guide knows to reach out sooner.</li>
                     <li>You have a blast!</li>
                 </ol>
                 <h5>Give us as much heads up as you can</h5>
