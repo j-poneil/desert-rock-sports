@@ -19,8 +19,7 @@ import BuyNow from '../img/DRS_webShop/buyNow.gif';
 // import Big4_480x640 from '../img/DRS_webShop/Big4_480x640-min.jpg';
 // import Big4_768x1024 from '../img/DRS_webShop/Big4_768x1024-min.jpg';
 // import Big4_1080x1440 from '../img/DRS_webShop/Big4_1080x1440-min.jpg';
-// Southern Nevada Bouldering 2 crossed out - out of print!
-import Big4_320x427 from '../img/DRS_webShop/Big4_2_320x427-min.jpg';
+// import Big4_320x427 from '../img/DRS_webShop/Big4_2_320x427-min.jpg';
 // import Big4_480x640 from '../img/DRS_webShop/Big4_2_480x640-min.jpg';
 // import Big4_768x1024 from '../img/DRS_webShop/Big4_2_768x1024-min.jpg';
 // import Big4_1080x1440 from '../img/DRS_webShop/Big4_2_1080x1440-min.jpg';

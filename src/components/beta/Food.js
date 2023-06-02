@@ -374,7 +374,7 @@ export const food = {
                     </Card.Text>
                     <Card.Subtitle>Ramen KoBo</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> Ramen KoBo</a>
+                        <a href="https://www.ramen-kobo.com/" target="_blank" rel="noopener noreferrer"><FaDirections /> Ramen KoBo</a>
                         <br />
                         Limited broth options, but has Tsukemen available, which the big 3 giants don't seem to do.
                     </Card.Text>
@@ -397,7 +397,7 @@ export const food = {
                     </Card.Text>
                     <Card.Subtitle>The Martini</Card.Subtitle>
                     <Card.Text className="pl-3">
-                        <a href="" target="_blank" rel="noopener noreferrer"><FaDirections /> The Martini</a>
+                        <a href="https://www.themartinilv.com/" target="_blank" rel="noopener noreferrer"><FaDirections /> The Martini</a>
                         <br />
                         24h dining
                     </Card.Text>

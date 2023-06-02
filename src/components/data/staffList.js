@@ -7,6 +7,7 @@ import React from 'react';
 //% photos for staff
 // standard is 450 x 450px, just because
 // import PHOTO from '../../img/DRS_staff/SOMEPHOTO.JPG';
+// eslint-disable-next-line
 import Placeholder from '../../img/RRCG/GuideBioImgs/Placeholder_450w_450h.jpg';
 import TG from '../../img/DRS_staff/TG2_450w_450h.jpg';
 import Mike from '../../img/DRS_staff/Mike2_450w_450h.jpg';
@@ -25,7 +26,7 @@ import Matt from '../../img/RRCG/GuideBioImgs/Matt_450w_450h.jpg';
 import Elaina from '../../img/RRCG/GuideBioImgs/Elaina_450w_450h.jpg';
 import Rachel from '../../img/RRCG/GuideBioImgs/Rachel_450w_450h.jpg';
 import Tracy from '../../img/RRCG/GuideBioImgs/Tracy_450w_450h.jpg';
-import Cody from '../../img/RRCG/GuideBioImgs/Cody_450w_450h.jpg';
+// import Cody from '../../img/RRCG/GuideBioImgs/Cody_450w_450h.jpg'; //! Rest in Peace
 import Danny from '../../img/RRCG/GuideBioImgs/Danny_450w_450h.jpg';
 // import Adam from '../../img/RRCG/GuideBioImgs/Adam_450w_450h.jpg';
 import Joanne from '../../img/RRCG/GuideBioImgs/Joanne_450w_450h.jpg';

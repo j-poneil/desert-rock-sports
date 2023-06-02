@@ -68,6 +68,7 @@ const splashTextStyles = {
     //
     color: 'white',
     background: 'rgb(255,255,255)',
+    // eslint-disable-next-line
     background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.35) 50%, rgba(255,255,255,0) 100%)',
     // width 100% correctly sets width of this gradient area, but height 100% messes up position of text
     width: '100%',

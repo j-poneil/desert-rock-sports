@@ -373,7 +373,7 @@ export const otherOutdoor = {
                         <a href="https://www.cozymeal.com/las-vegas/cooking-classes" target="_blank" rel="noopener noreferrer">Cozymeal - Cooking classes from expert chefs <FaExternalLinkAlt /></a><br />
                         <a href="https://www.viator.com/tours/Las-Vegas/Adventure-in-Glassblowing-by-Torch/d684-147752P1" target="_blank" rel="noopener noreferrer">Adventures in Glassblowing by Torch <FaExternalLinkAlt /></a><br />
                         <a href="https://www.eventbrite.com/e/introductory-blacksmith-class-tickets-162744141107" target="_blank" rel="noopener noreferrer">Introductory Blacksmitch Class <FaExternalLinkAlt /></a><br />
-                        <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br />
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"> <FaExternalLinkAlt /></a><br /> */}
                     </Card.Text>
                     <Card.Subtitle>Area 15</Card.Subtitle>
                     <Card.Text className="pl-3">
