@@ -146,7 +146,7 @@ export default function Guiding(){
                     <li>Check out our options below</li>
                     <li>call us at <a href="tel:1-702-506-6640" target="_blank" rel="noopener noreferrer">1-702-506-6640</a> or email: <a href="email:redrockguides@gmail.com" target="_blank" rel="noopener noreferrer">redrockguides@gmail.com</a> for more information</li>
                     <li>We take credit card payment in full over the phone to reserve your spot on our calendar or in person at our shop, in advance of the date</li>
-                    <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location</li>
+                    <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location. They typically reach out 24-72h in advance of the date.</li>
                     <li>You have a blast!</li>
                 </ol>
                 <h5>Give us as much heads up as you can</h5>
