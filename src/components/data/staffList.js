@@ -36,7 +36,7 @@ import JoshD from '../../img/RRCG/GuideBioImgs/JoshD_450w_450h.jpg';
 import Jakob from '../../img/RRCG/GuideBioImgs/Jakob_450w_450h.jpg';
 // import Kat from '../../img/RRCG/GuideBioImgs/Kat_450w_450h.jpg';
 import Kat from '../../img/RRCG/GuideBioImgs/Kat_by_Jaz_Morris_450x450_enhanced-min.jpg';
-// import TJ from '../../img/RRCG/GuideBioImgs/TJ';
+import TJ from '../../img/RRCG/GuideBioImgs/TJ_450w_450h.jpg';
 // import 
 
 // % For bio, its an arrow function that returns JSX, so just write 'basically' HTML between the <></>. Any HTML will be turned intro react components, great formatting can be had with just paragraph and list tags.
@@ -259,24 +259,24 @@ export const staff = [
         isGuide: true,
         isRetail: true
     },
-    // {
-    //     name: "TJ", //! Currently commented out since not filled out
-    //     position: "",
-    //     certs: "AMGA Apprentice Rock Guide",
-    //     exp: "",
-    //     bio: () => (
-    //         <>
-    //             <p></p>
-    //         </>
-    //     ),
-    //     imgSrc: TJ,
-    //     ig: '',
-    //     site: '',
-    //     youtube: '',
-    //     active: true,
-    //     isGuide: true,
-    //     isRetail: true
-    // },
+    {
+        name: "TJ Ciotti",
+        position: "",
+        certs: "AMGA Certified Rock Guide + Ice Instructor, AMGA SPI, NY State Licensed Guide, WFR, AIARE L1",
+        exp: "over a decade",
+        bio: () => (
+            <>
+                <p>A recent Vegas transplant, TJ hails from the Gunks in NY and has been guiding for over a decade. TJ equally enjoys big days in the mountains and time spent instructing technical skills. Watching new climbers get psyched is the best!</p>
+            </>
+        ),
+        imgSrc: TJ,
+        ig: 'https://www.instagram.com/bigcitymountainguide/',
+        site: 'https://www.bigcitymountainguide.com/',
+        youtube: '',
+        active: true,
+        isGuide: true,
+        isRetail: true
+    },
     // {
     //     name: "Selena Pang", //! Currently commented out since not filled out
     //     position: "",
@@ -431,7 +431,7 @@ export const staff = [
             </>
         ),
         imgSrc: Kat,
-        ig: '',
+        ig: 'https://www.instagram.com/klimbkat/',
         site: '',
         youtube: '',
         active: true,
