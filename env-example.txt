@@ -1,0 +1,24 @@
+# example .env file, would live in the scripts folder or root directory
+# make sure it has the correct permissions
+
+# weather api
+WX_KEY = ""
+
+# server & db to receive wx data
+WX_HOSTNAME = ""
+WX_USERNAME = ""
+WX_PASSWORD = ""
+WX_DB = ""
+
+# install:
+# $ pip install python-decouple
+
+# put in .py script where you are retrieving this data from:
+# import os
+# from decouple import config
+
+# retrieve via:
+# CONST_NAME = config('WX_KEY')
+# CONST_NAME = config('WX_KEY', default=False, cast=bool)
+# so can have defaults like 'localhost', 25, etc...
+# so can cast strings as bool, int, etc...
