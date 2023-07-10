@@ -4,6 +4,8 @@ import { Player } from 'video-react';
 
 import "../../node_modules/video-react/dist/video-react.css";
 
+import Wx from './sub/Wx';
+
 import Rock_Wet_Inside_Preview from '../vid/rock_wet_inside_preview_732x792.jpg';
 import Rock_Wet_Inside from '../vid/rock_wet_inside.mp4';
 
@@ -58,7 +60,8 @@ const Weather = () => {
         
             <Container fluid="md" className="mt-3">
                 <Jumbotron className="text-center mb-3">
-                    ( placeholder for realtime weather data )
+                    {/* ( placeholder for realtime weather data ) */}
+                    <Wx />
                 </Jumbotron>
 
                 <div className="text-center mt-3 mb-3 onTopOfBackground">
