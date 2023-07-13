@@ -25,6 +25,7 @@ Require valid-user
 # have access to the .env file.
 # Make sure that the .htaccess file is located in the same directory
 # as your .env file or in a directory that applies to the relevant URL path.
+# cool
 <Files ".env">
     Order allow,deny
     Deny from all
