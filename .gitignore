@@ -26,6 +26,7 @@ yarn-error.log*
 # don't publish, because password, access settings
 /src/.htpasswd
 /public/.htaccess
+.htaccess
 /public/.env
 
 # should be fine to publish
