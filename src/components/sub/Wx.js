@@ -1,32 +1,33 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense} from 'react';
 
 import { BoltLoaderComponent } from './BoltLoader';
+const PlotlyWxRRChart = lazy(() => import('./'));
+// const PlotlyWx__Chart = lazy(() => import('./'));
+
+
 
 /*
-A lot of this is just ideas taken from elsewhere, and not necissarily appropriate to my MySQL DB situation
-... but it should help spur my thought process
+@ For now:
+	It will show a spinner until the chart is ready to be shown
 
-? Especially... how do I want to split this stuff up into different components?
-? Where do I want to query the DB from, handle the data, display data, return graph to?
+	Individual charts
+		will lazy load
+			Plotly js lib
+		will lazy load or await
+			w/e JSON, --OR-- API response stuff to get data
+		return a plot -- to be lazy loaded into here
 */
 
 function Wx() {
-	const [loading, setLoading] = useState(false);
+	// const [loading, setLoading] = useState(false);
 
-	const fetchData = async () => {
-		setLoading(true);
-		await fetch("/").then(() => {
-			// handle data
-		});
-		setLoading(false);
-	}
-
-	const WxGraph = () => {
-		return (
-			<>
-			</>
-		)
-	}
+	// const fetchData = async () => {
+	// 	setLoading(true);
+	// 	await fetch("/").then(() => {
+	// 		// handle data
+	// 	});
+	// 	setLoading(false);
+	// }
 	
 	return (
 		<div>
@@ -41,8 +42,15 @@ function Wx() {
 					"alignItems": "center"
 				}}
 			>
-				<BoltLoaderComponent />
-				{/* { loading ? <BoltLoaderComponent /> : <WxGraph /> } */}
+				<Suspense fallback={<BoltLoaderComponent />}>
+					<PlotlyWxRRChart />
+				</Suspense>
+				{/* <Suspense fallback={<BoltLoaderComponent />}>
+					<PlotlyWx__Chart />
+				</Suspense> */}
+				{/* <Suspense fallback={<BoltLoaderComponent />}>
+					<PlotlyWx__Chart />
+				</Suspense> */}
 			</div>
 		</div>
 	)
