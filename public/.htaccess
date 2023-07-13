@@ -18,3 +18,14 @@ AuthType Basic
 AuthName "Protected Area"
 AuthUserFile /src/.htpasswd
 Require valid-user
+
+# By placing this code in your .htaccess file,
+# it will deny access to any file named .env from external requests.
+# However, server-side scripts running on the same server will still
+# have access to the .env file.
+# Make sure that the .htaccess file is located in the same directory
+# as your .env file or in a directory that applies to the relevant URL path.
+<Files ".env">
+    Order allow,deny
+    Deny from all
+</Files>

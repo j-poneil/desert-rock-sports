@@ -23,9 +23,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# don't publish, because password, 
+# don't publish, because password, access settings
 /src/.htpasswd
 /public/.htaccess
+/public/.env
 
 # should be fine to publish
 /public/robots.txt
@@ -48,6 +49,7 @@ create_react_app_default_readme.md
 # .env is above too
 /src/php
 /src/scripts
+/src/.env
 
 # don't publish, because API key
 /src/components/sub/NewsletterModal.js
