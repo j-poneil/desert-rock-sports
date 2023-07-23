@@ -149,6 +149,7 @@ export default function Guiding(){
                     <li>Call when you are ready to book with us. We make sure we have all the important contact info, goals, and logistical details noted down. Then we take credit card payment in full over the phone to reserve your spot on our calendar. We don't find and reserve you a guide until after you have paid. Thus, all bookings must be paid in advance of the date, the sooner the better to be sure you get a guide. After you are paid up, we email you a receipt as well as helpful guidelines on what to expect regarding where to meet, what to bring, etc...</li>
                     <li>We find a guide. They contact you directly to talk about what you are looking to get out of the day and fine-tune meetup time and location. They typically reach out 24-72h in advance of the date. We understand sometimes our clients will be out of cell service the day before, such as when visiting nearby destinations like Zion or the Grand Canyon. If this is going to be the case make sure to tell us so we can put notes in the booking so the guide knows to reach out sooner.</li>
                     <li>You have a blast!</li>
+                    <li>( we may be experimenting with holding a few pre-scheduled skills classes & camps, deets below )</li>
                 </ol>
                 <h5>Give us as much heads up as you can</h5>
                 <p>Our guides have their own lives, schedules, other careers, and personal climbing trips. They are not just sitting around waiting to get a call. Many of our guides are only here during the peak season. Please give us as much advanced notice as possible, and get paid up early, 2-3wks during the peak season is great (Oct - Apr) or 1-2wks during the summer. We will always try to get a guide for any booking, even if it is last minute, same or next day, it just gets much more likely that they are all already busy or wont get back to us in time. For large groups, like 12+ please give us extra time, on our end it is no longer finding 1 guide, it is finding 3+ guides who are all going to be available.</p>
@@ -257,6 +258,8 @@ export default function Guiding(){
                     { guideList }
                 </Row>
             </Container>
+
+            {/* //@ If going to have pre-scheduled classes that people can sign up for in advance, and hopefully pay online, I'd put that section here */}
 
             
             <CustomHeader
