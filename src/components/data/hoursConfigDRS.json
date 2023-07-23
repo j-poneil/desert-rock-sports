@@ -1,0 +1,31 @@
+{
+    "useSeasonalPresets": true,
+    "holidayHours": "TBD",
+    "manuallySetHours": {
+        "monday": "10am - 6pm",
+        "tuesday": "10am - 6pm",
+        "wednesday": "10am - 6pm",
+        "thursday": "10am - 6pm",
+        "friday": "10am - 6pm",
+        "saturday": "10am - 6pm",
+        "sunday": "10am - 6pm"
+    },
+    "presetJuneSeptHours": {
+        "monday": "10am - 7pm",
+        "tuesday": "10am - 7pm",
+        "wednesday": "10am - 7pm",
+        "thursday": "10am - 7pm",
+        "friday": "10am - 7pm",
+        "saturday": "10am - 7pm",
+        "sunday": "10am - 6pm"
+    },
+    "presetOctMayHours": {
+        "monday": "9am - 8pm",
+        "tuesday": "9am - 8pm",
+        "wednesday": "9am - 8pm",
+        "thursday": "9am - 8pm",
+        "friday": "9am - 8pm",
+        "saturday": "9am - 8pm",
+        "sunday": "10am - 6pm"
+    }
+}

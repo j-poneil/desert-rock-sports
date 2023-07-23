@@ -1,0 +1,12 @@
+{
+    "holidayHours": "12/24 Close at 5pm, 12/25 Closed, 12/31 Close at 9pm, 1/1 Close at 9pm",
+    "manuallySetHours": {
+        "monday": "9am - 11pm",
+        "tuesday": "6am - 11pm",
+        "wednesday": "6am - 11pm",
+        "thursday": "6am - 11pm",
+        "friday": "9am - 11pm",
+        "saturday": "9am - 9pm",
+        "sunday": "9am - 9pm"
+    }
+}

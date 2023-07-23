@@ -9,6 +9,42 @@ import Table from 'react-bootstrap/Table';
 
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
+import hoursDataDRS from '../data/hoursConfigDRS.json';
+import hoursDataR2C2 from '../data/hoursConfigR2C2.json';
+
+let hoursDRS;
+if(hoursDataDRS['useSeasonalPresets']){
+    // useSeasonalPresets setting is true, hours will be those found in:
+    // data/hoursConfig.json > "manuallySetHours"
+    hoursDRS = {
+        monday: hoursDataDRS['manuallySetHours']['monday'],
+        tuesday: hoursDataDRS['manuallySetHours']['tuesday'],
+        wednesday: hoursDataDRS['manuallySetHours']['wednesday'],
+        thursday: hoursDataDRS['manuallySetHours']['thursday'],
+        friday: hoursDataDRS['manuallySetHours']['friday'],
+        saturday: hoursDataDRS['manuallySetHours']['saturday'],
+        sunday: hoursDataDRS['manuallySetHours']['sunday']
+    };
+} else {
+    const date = new Date();
+    // 0-11, 0 = January
+    let currentMonth = date.getMonth();
+    // 4 = May, 5 = June, 8 = September, 9 = October
+    // checks what month it is, and displays hours only for that season
+    let presetKey = (currentMonth >= 5 && currentMonth <=8) ? 'presetJuneSeptHours' : 'presetOctMayHours';
+    // These hour presets can be adjusted here:
+    // data/hoursConfig.json > "presetJuneSeptHours" and "presetOctMayHours"
+
+    hoursDRS = {
+        monday: hoursDataDRS[presetKey]['monday'],
+        tuesday: hoursDataDRS[presetKey]['tuesday'],
+        wednesday: hoursDataDRS[presetKey]['wednesday'],
+        thursday: hoursDataDRS[presetKey]['thursday'],
+        friday: hoursDataDRS[presetKey]['friday'],
+        saturday: hoursDataDRS[presetKey]['saturday'],
+        sunday: hoursDataDRS[presetKey]['sunday']
+    };
+}
 
 // determines the season and adjusts the displayed hours automatically
 // Really, this Hours component should be its own component..
@@ -17,121 +53,41 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 // ALSO, need to specify that the shop and guide number hours are the same
 // AND that they gym is a separate entity with different hours
 function Hours(){
-    //! juneSeptHours and octMayHours are to be used when you have predefined times and want to automatically switch hours when the seasons change
-    //! ONLY MODIFY THESE IF YOU WANT TO CHANGE HOURS SEASON WIDE
-    //! If you want to change hours to something else, temporarily, scroll down to the return statement and read the comments there
-
-    // M-Sat 10-7, Sun 10-6
-    const juneSeptHours = (
-        <tbody>
-            <tr>
-                <td>Monday</td>
-                <td>10am - 7pm</td>  
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-                <td>10am - 7pm</td>  
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-                <td>10am - 7pm</td>
-            </tr>
-            <tr>
-                <td>Thursday</td>
-                <td>10am - 7pm</td>
-            </tr>
-            <tr>
-                <td>Friday</td>
-                <td>10am - 7pm</td>
-            </tr>
-            <tr>
-                <td>Saturday</td>
-                <td>10am - 7pm</td>  
-            </tr>
-            <tr>
-                <td>Sunday</td>
-                <td>10am - 6pm</td>  
-            </tr>
-        </tbody>
-    );
-    
-    // M-Sat 9-8, Sun 10-6
-    const octMayHours = (
-        <tbody>
-            <tr>
-                <td>Monday</td>
-                <td>9am - 8pm</td>  
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-                <td>9am - 8pm</td>  
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-                <td>9am - 8pm</td>
-            </tr>
-            <tr>
-                <td>Thursday</td>
-                <td>9am - 8pm</td>
-            </tr>
-            <tr>
-                <td>Friday</td>
-                <td>9am - 8pm</td>
-            </tr>
-            <tr>
-                <td>Saturday</td>
-                <td>9am - 8pm</td>  
-            </tr>
-            <tr>
-                <td>Sunday</td>
-                <td>9am - 6pm</td>  
-            </tr>
-        </tbody>
-    );
-
-    const date = new Date();
-    // 0-11, 0 = January
-    let currentMonth = date.getMonth();
-    // 4 = May, 5 = June, 8 = September, 9 = October
-    // checks what month it is, and displays hours only for that season
-    let hours = (currentMonth >= 5 && currentMonth <= 8) ?
-        juneSeptHours
-        : octMayHours;
+//! Changes to hours MUST be made in data/hoursConfig.json
+//! OR via Login admin panel if I go that route eventually
 
     return (
         <>
-            { hours }
-            {/*//! To manually set hours, comment out { hours } above, then un-comment the below chunk of code and edit the hours, do the opposite to switch back to automatic */}
-            {/* <tbody>
+            <tbody>
                 <tr>
                     <td>Monday</td>
-                    <td>10am - 7pm</td>  
+                    <td>{ hoursDRS.monday }</td>  
                 </tr>
                 <tr>
                     <td>Tuesday</td>
-                    <td>10am - 7pm</td>  
+                    <td>{ hoursDRS.tuesday }</td>  
                 </tr>
                 <tr>
                     <td>Wednesday</td>
-                    <td>10am - 7pm</td>
+                    <td>{ hoursDRS.wednesday }</td>
                 </tr>
                 <tr>
                     <td>Thursday</td>
-                    <td>10am - 7pm</td>
+                    <td>{ hoursDRS.thursday }</td>
                 </tr>
                 <tr>
                     <td>Friday</td>
-                    <td>10am - 7pm</td>
+                    <td>{ hoursDRS.friday }</td>
                 </tr>
                 <tr>
                     <td>Saturday</td>
-                    <td>10am - 6pm</td>  
+                    <td>{ hoursDRS.saturday }</td>  
                 </tr>
                 <tr>
                     <td>Sunday</td>
-                    <td>10am - 6pm</td>  
+                    <td>{ hoursDRS.sunday }</td>  
                 </tr>
-            </tbody> */}
+            </tbody>
         </>
     );
 }
@@ -165,7 +121,8 @@ export default function Contact(){
                                 </Table>
                             </Col>
                             <Col>
-                                <p>Holiday Hours: </p>
+                                <p>Holiday Hours:<br/>
+                                { hoursDataDRS['holidayHours'] }</p>
                                 <address>
                                     Shop: <a href="tel:702-254-1143" target="_blank" rel="noopener noreferrer">702-254-1143</a><br />
                                     Guide Service: <a href="tel:702-506-6640" target="_blank" rel="noopener noreferrer">702-506-6640</a><br />
@@ -194,37 +151,38 @@ export default function Contact(){
                                     <tbody>
                                         <tr>
                                             <td>Monday</td>
-                                            <td>9am - 11pm</td>  
+                                            <td>{ hoursDataR2C2['manuallySetHours']['monday'] }</td>  
                                         </tr>
                                         <tr>
                                             <td>Tuesday</td>
-                                            <td>6am - 11pm</td>  
+                                            <td>{ hoursDataR2C2['manuallySetHours']['tuesday'] }</td>  
                                         </tr>
                                         <tr>
                                             <td>Wednesday</td>
-                                            <td>6am - 11pm</td>
+                                            <td>{ hoursDataR2C2['manuallySetHours']['wednesday'] }</td>
                                         </tr>
                                         <tr>
                                             <td>Thursday</td>
-                                            <td>6am - 11pm</td>
+                                            <td>{ hoursDataR2C2['manuallySetHours']['thursday'] }</td>
                                         </tr>
                                         <tr>
                                             <td>Friday</td>
-                                            <td>9am - 11pm</td>
+                                            <td>{ hoursDataR2C2['manuallySetHours']['friday'] }</td>
                                         </tr>
                                         <tr>
                                             <td>Saturday</td>
-                                            <td>9am - 9pm</td>  
+                                            <td>{ hoursDataR2C2['manuallySetHours']['saturday'] }</td>  
                                         </tr>
                                         <tr>
                                             <td>Sunday</td>
-                                            <td>9am - 9pm</td>  
+                                            <td>{ hoursDataR2C2['manuallySetHours']['sunday'] }</td>  
                                         </tr>
                                     </tbody>
                                 </Table>
                             </Col>
                             <Col>
-                                <p>Holiday Hours: 12/24 Close at 5pm, 12/25 Closed, 12/31 Close at 9pm, 1/1 Close at 9pm</p>
+                                <p>Holiday Hours:<br/>
+                                { hoursDataR2C2['holidayHours'] }</p>
                                 <div>
                                     <address>
                                         Gym: <a href="tel:702-254-5604" target="_blank" rel="noopener noreferrer">702-254-5604</a>
