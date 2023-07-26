@@ -47,97 +47,106 @@ const PlotlyWxRRChart = () => {
 	// 	# row content:
 	// 	# { 'datetime': '2023-07-25 00:00:00', 'name': 'RRKN2', ... }
 
-	// daily cols
-	// 'datetime', 'name', 'tempmax', 'tempmin', 'temp', 'feelslikemax', 'feelslikemin', 'feelslike', 'humidity', 'precip', 'precipprob', 'precipcover', 'preciptype', 'windgust', 'windspeed', 'winddir', 'pressure', 'cloudcover', 'visibility', 'sunrise', 'sunset', 'moonphase', 'conditions', 'description', 'icon', 'source'
-	// hourly cols
-	// 'datetime', 'name', 'temp', 'feelslike', 'humidity', 'precip', 'precipprob', 'preciptype', 'windgust', 'windspeed', 'winddir', 'pressure', 'visibility', 'cloudcover', 'conditions', 'icon', 'source'
+	const arrayedData = {};
 
-	//! This is nice and all... but surely, there must be a more concise way to write it.
+	// no real checks in this
+	// ex. saveValsAsArray(fakeData, 'hourly', 'datetime', 'x'); 
+	function saveValsAsArray(dataSet, table, key, ax){
+		let axis = ax == 'x' ? 'x' : 'y';
 
-	//@ Name
+		//! consider making it so that for the daily data, it saves it w/o it inside an array
+		//! ... for daily I will display or graph differently than the hourly data
+		//? ... or will I? hmm...
+		//! change fake_ to something else when used w/ real data
+		arrayedData[`fake_${table}_${key}_${axis}`] = dataSet[table].map(hour => hour[key]);
+		console.log(`arrayedData['fake_${table}_${key}_${axis}'] now exists...`);
+	}
+
+	// Could re-write these so they are grabbed from the imported (or returned) data, not hard coded
+	const dailyCols = ['datetime', 'name', 'tempmax', 'tempmin', 'temp', 'feelslikemax', 'feelslikemin', 'feelslike', 'humidity', 'precip', 'precipprob', 'precipcover', 'preciptype', 'windgust', 'windspeed', 'winddir', 'pressure', 'cloudcover', 'visibility', 'sunrise', 'sunset', 'moonphase', 'conditions', 'description', 'icon', 'source'];
+	const hourlyCols = ['datetime', 'name', 'temp', 'feelslike', 'humidity', 'precip', 'precipprob', 'preciptype', 'windgust', 'windspeed', 'winddir', 'pressure', 'visibility', 'cloudcover', 'conditions', 'icon', 'source'];
+
 	const fakeName = fakeData['name'];
+	// makes nice arrays stored as key: val in arrayedData object
+	// datetime is x, all other keys are y
+	dailyCols.forEach((key, i) => {
+		if (i == 0){
+			saveValsAsArray(fakeData, 'daily', key, 'x');
+			return;
+		} else if (key == 'name'){
+			return;
+		}
+		saveValsAsArray(fakeData, 'daily', key, 'y');
+	});
+
+	hourlyCols.forEach((key, i) => {
+		if (i == 0){
+			saveValsAsArray(fakeData, 'hourly', key, 'x');
+			return;
+		} else if (key == 'name'){
+			return;
+		}
+		saveValsAsArray(fakeData, 'hourly', key, 'y');
+	});
 	
-	//@ Daily
-	const fakeTimeDailyX = fakeData['daily'].map(hour => hour['datetime']);
+	// prints out all, both daily and hourly, x and y axis
+	console.log(arrayedData.keys()); // ['fake_hourly_datetime_x', 'fake_hourly_temp_y', ... ]
 
-	const fakeTempMaxDailyY = fakeData['daily'].map(hour => hour['tempmax']);
-	const fakeTempMinDailyY = fakeData['daily'].map(hour => hour['tempmin']);
-	const fakeTempDailyY = fakeData['daily'].map(hour => hour['temp']);
-	const  = fakeData['daily'].map(hour => hour['feelslikemax']);
-	const  = fakeData['daily'].map(hour => hour['feelslikemin']);
-	const  = fakeData['daily'].map(hour => hour['feelslike']);
-	const  = fakeData['daily'].map(hour => hour['humidity']);
-	const  = fakeData['daily'].map(hour => hour['precip']);
-	const  = fakeData['daily'].map(hour => hour['precipprob']);
-	const  = fakeData['daily'].map(hour => hour['precipcover']);
-	const  = fakeData['daily'].map(hour => hour['preciptype']);
-	const  = fakeData['daily'].map(hour => hour['windgust']);
-	const  = fakeData['daily'].map(hour => hour['windspeed']);
-	const  = fakeData['daily'].map(hour => hour['winddir']);
-	const  = fakeData['daily'].map(hour => hour['pressure']);
-	const  = fakeData['daily'].map(hour => hour['cloudcover']);
-	const  = fakeData['daily'].map(hour => hour['visibility']);
-	const  = fakeData['daily'].map(hour => hour['sunrise']);
-	const  = fakeData['daily'].map(hour => hour['sunset']);
-	const  = fakeData['daily'].map(hour => hour['moonphase']);
-	const  = fakeData['daily'].map(hour => hour['conditions']);
-	const  = fakeData['daily'].map(hour => hour['description']);
-	const  = fakeData['daily'].map(hour => hour['icon']);
-	const  = fakeData['daily'].map(hour => hour['source']);
+	//! cool idea
+	// forEach / map to generate plot data objects w/ x, y, type, mode, marker... titles corresponding, colors changing automatically, etc...
+	// need to get more background data so can auto build appropriate data objects
 
+	//! Also make sure that other non-graphed data is available...
+	// like probably timezone, lat/lon, ...?
+	// overall this means making sure I do indeed get such data back from SQL query (bottle server api endpoint)
 
-	//@ Hourly
-	const fakeTimeHourlyX = fakeData['hourly'].map(hour => hour['datetime']);
-
-	const fakeTempHourlyY = fakeData['hourly'].map(hour => hour['temp']);
-	const fakeFeelsLikeHourlyY = fakeData['hourly'].map(hour => hour['feelslike']);
-	const fakeHumidityHourlyY = fakeData['hourly'].map(hour => hour['humidity']);
-	const fakePrecipHourlyY = fakeData['hourly'].map(hour => hour['precip']);
-	const fakePrecipProbHourlyY = fakeData['hourly'].map(hour => hour['precipprob']);
-	const fakePrecipTypeHourlyY = fakeData['hourly'].map(hour => hour['preciptype']);
-	const fakeWindGustHourlyY = fakeData['hourly'].map(hour => hour['windgust']);
-	const fakeWindSpeedHourlyY = fakeData['hourly'].map(hour => hour['windspeed']);
-	const fakeWindDirHourlyY = fakeData['hourly'].map(hour => hour['winddir']);
-	const fakePressureHourlyY = fakeData['hourly'].map(hour => hour['pressure']);
-	const fakeVisibilityHourlyY = fakeData['hourly'].map(hour => hour['visibility']);
-	const fakeCloudCoverHourlyY = fakeData['hourly'].map(hour => hour['cloudcover']);
-	const fakeConditionsHourlyY = fakeData['hourly'].map(hour => hour['conditions']);
-	const fakeIconHourlyY = fakeData['hourly'].map(hour => hour['icon']);
-	const fakeSourceHourlyY = fakeData['hourly'].map(hour => hour['source']);
-	
-
+	//? how to display daily data, and general station data?
 
 	return (
-		<Suspense fallback={<BoltLoaderComponent />}>
-			{/* { wxData } */}
-			<Plot
-				data={
-					[
-						{
-							x: [...fakeTimeHourlyX],
-							y: [...fakeTempHourlyY],
-							type: 'scatter',
-							mode: 'lines+markers',
-							marker: {color: 'red'}
-						},
-						{
-							x: [...fakeTimeHourlyX],
-							y: [...fakeFeelsLikeHourlyY],
-							type: 'scatter',
-							mode: 'lines+markers',
-							marker: {color: 'blue'}
-						}
-					]
-				}
-				layout={
-					{
-						width: 320,
-						height: 240,
-						title: 'title'
+		<>
+			<Suspense fallback={<BoltLoaderComponent />}>
+				{/* { wxData } */}
+				<Plot
+					data={
+						[
+							{
+								name: 'hourly temp',
+								x: [...fake_hourly_datetime_x],
+								y: [...fake_hourly_temp_y],
+								type: 'scatter',
+								mode: 'markers',
+								marker: {color: 'red'}
+							},
+							{
+								name: 'hourly feelslike',
+								x: [...fake_hourly_datetime_x],
+								y: [...fake_hourly_feelslike_y],
+								type: 'scatter',
+								mode: 'markers',
+								marker: {color: 'blue'}
+							}
+						]
 					}
-				}
-			/>
-		</Suspense>
+					layout={
+						{
+							width: 320,
+							height: 240,
+							title: 'Hourly WX Data for Red Rock Canyon, NCA (station: RRKN2)',
+							xaxis: {
+								title: 'hourly datetime'
+							},
+							yaxis: {
+								title: 'temp'
+							}
+						}
+					}
+				/>
+			</Suspense>
+			<Suspense fallback={<BoltLoaderComponent />}>
+				{/* <Plot
+				/> */}
+			</Suspense>
+		</>
 	)
 }
 
