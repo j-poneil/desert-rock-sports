@@ -131,6 +131,16 @@ const PlotlyWxRRChart = () => {
 	// warning: close to inhabitable zone?
 
 	//? how to display daily data, and general station data?
+	//? how to display multiple stations? In a reusable way
+	//? something with checkboxes for which data you want to see graphed together would be
+	//? soooo good, and then tabs unnecissary... hmmmm
+	//* dropdown --> fetch(RR, Mtn Springs, Charleston, or RR+Charleston) & callback(switch(single station or 2 station comparision))
+	//		RR
+	//		Mtn Springs
+	//		Charleston area
+	//		RR vs Charleston area
+	//	* Tabs for different graphs
+	//		Hourly temp, feels like, humidity, 
 
 	/*
 	hourly
@@ -156,7 +166,7 @@ const PlotlyWxRRChart = () => {
 	// for 'fcst' data, dotted lines would be cool, solid where its 'obs'
 	// or a overlayed shade for 'fcst'
 
-	//* axes in js
+	//* multiple axes in js
 	// https://plotly.com/javascript/axes/
 	// GREAT example of multiple Y axis:
 	// https://codepen.io/plotly/pen/OVqZEO
