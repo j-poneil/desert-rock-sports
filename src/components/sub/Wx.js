@@ -1,7 +1,8 @@
 import React, { useState, useEffect, lazy, Suspense} from 'react';
 
-import { BoltLoaderComponent } from './BoltLoader';
-const PlotlyWxRRChart = lazy(() => import('./'));
+import PlotlyWxRRChart from './PlotlyWxRRChart';
+// import { BoltLoaderComponent } from './BoltLoader';
+// const PlotlyWxRRChart = lazy(() => import('./PlotlyWxRRChart'));
 // const PlotlyWx__Chart = lazy(() => import('./'));
 
 
@@ -42,9 +43,7 @@ function Wx() {
 					"alignItems": "center"
 				}}
 			>
-				<Suspense fallback={<BoltLoaderComponent />}>
-					<PlotlyWxRRChart />
-				</Suspense>
+				<PlotlyWxRRChart />
 				{/* <Suspense fallback={<BoltLoaderComponent />}>
 					<PlotlyWx__Chart />
 				</Suspense> */}
