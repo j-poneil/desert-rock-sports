@@ -42,6 +42,7 @@ create_react_app_default_readme.md
 /src/files
 /src/vid
 /src/img
+/.vscode
 
 # don't publish, because CRON job tests/thoughts... but not using anymore anyways
 /src/cronRest
@@ -51,6 +52,7 @@ create_react_app_default_readme.md
 /src/php
 /src/scripts
 /src/.env
+/src/scripts/__pycache__
 
 # don't publish, because API key
 /src/components/sub/NewsletterModal.js
