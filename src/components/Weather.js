@@ -5,6 +5,7 @@ import { Player } from 'video-react';
 import "../../node_modules/video-react/dist/video-react.css";
 
 import Wx from './sub/Wx';
+import PlotlyWxRRChart from './sub/PlotlyWxRRChart';
 
 import Rock_Wet_Inside_Preview from '../vid/rock_wet_inside_preview_732x792.jpg';
 import Rock_Wet_Inside from '../vid/rock_wet_inside.mp4';
@@ -30,6 +31,11 @@ import Container from 'react-bootstrap/Container';
 // import Image from 'react-bootstrap/Image';
 // import Table from 'react-bootstrap/Table';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
+import TabContainer from 'react-bootstrap/TabContainer';
+import TabContent from 'react-bootstrap/TabContent';
+import TabPane from 'react-bootstrap/TabPane';
 
 
 import CustomHeader from './sub/CustomHeader';
@@ -40,6 +46,7 @@ import plant from '../img/HeaderImgs/Plant_16_9_polished-min.jpg';
 import barnacle from '../img/HeaderImgs/Barnacle_16_9_polished-min.jpg';
 import sunset_3 from '../img/HeaderImgs/Sunset_3_16_9_polished-min.jpg';
 import white_yellow_flowers_2 from '../img/HeaderImgs/WhiteYellowFlowers_2_16_9_polished-min.jpg';
+
 
 
 const backgroundStyles = {
@@ -58,16 +65,44 @@ const Weather = () => {
             />
 
         
-            <Container fluid="md" className="mt-3">
-                <Jumbotron className="text-center mb-3">
+            {/* Originally The chart and wx intro text were all in the same fluid="md" Container */}
+            {/* <Container fluid="md" className="mt-3"> */}
+            <Container fluid className="mt-3">
+                {/* <Jumbotron className="text-center mb-3"> */}
                     {/* ( placeholder for realtime weather data ) */}
-                    <Wx />
-                </Jumbotron>
+                    {/* <Wx /> */}
+                    {/* //! currently bypassing <Wx /> */}
+                    {/* <PlotlyWxRRChart /> */}
+                {/* </Jumbotron> */}
 
+                <Tabs defaultActiveKey="RRKN2" id="tabbed-wx-display" style={{"backgroundColor": "rgb(238, 238, 238)"}}>
+                    <Tab eventKey="RRKN2" title="RRKN2">
+                        <PlotlyWxRRChart />
+                    </Tab>
+                    <Tab eventKey="otherwx1" title="other1">
+                        {/* <Plotly____ /> */}
+                    </Tab>
+                    <Tab eventKey="otherwx2" title="other2">
+                        {/* <Plotly____ /> */}
+                    </Tab>
+                    <Tab eventKey="otherwx3" title="other3">
+                        {/* <Plotly____ /> */}
+                    </Tab>
+                </Tabs>
+                {/* 
+                    //! in <Tabs /> can do:
+                    onSelect={(eventKey, SyntheticEvent event?) => callback func body}
+                    ... per perhaps on click a new tab, have it pull in data, loading animation while waiting
+                    
+                 */}
+            </Container>
+
+            <Container fluid="md" className="mt-3">
                 <div className="text-center mt-3 mb-3 onTopOfBackground">
                     <h1>Weather</h1>
                     <p>Vegas is known for an average of over 300 sunny days per year. Even still, it can, and does rain. Further complication is that Red Rock Canyon, at a higher elevation, tends to get hit harder than Las Vegas itself. As well, there are no weather stations out in/on the rocks (yet?) so our best look at rainfall measurements are from just a few weather stations in the general area which often have recorded nothing when its plainly obvious for many on the west side of Vegas to see that the canyons are getting dumped on.</p>
                     <p>The Spring Mountains act as a barrier to storms coming from the Pacific and very often these storms will dump on these mountains and Las Vegas itself will see very little if any rain. Unfourtunately Red Rock Canyon is between the two and often gets some of the precipitation. Higher elevation areas tend to get hit harder than lower ones. Sometimes the Calico Hills don't get hit, or get light precip while the canyons are soaked. Sometimes everything gets soaked. If Las Vegas itself is visibly wet, it is almost assured that Red Rock Canyon was hit as well.</p>
+                    <a href="https://www.visualcrossing.com/legacy/weather/weather-event-planner" target="_blank" rel="noopener noreferrer">Visual Crossing: Weather Event Planner</a><br />
 
                     <a href="https://www.blm.gov/sites/blm.gov/files/documents/files/Nevada_Red_Rock_Canyon_Weather_Brochure.pdf" target="_blank" rel="noopener noreferrer">BLM Red Rock Canyon Weather Brochure (pdf)</a>
                 </div>
