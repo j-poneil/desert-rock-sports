@@ -90,10 +90,12 @@ const Weather = () => {
                     </Tab>
                 </Tabs>
                 {/* 
-                    //! in <Tabs /> can do:
+                    //! in <Tabs /> could do:
                     onSelect={(eventKey, SyntheticEvent event?) => callback func body}
                     ... per perhaps on click a new tab, have it pull in data, loading animation while waiting
-                    
+                    //! OR since so much info I want to be able to show... but having all graphs for a station on at once is overwhelming
+                    // maybe for each tab, sub tabs for the different graphs?
+
                  */}
             </Container>
 
