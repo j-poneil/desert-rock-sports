@@ -140,7 +140,14 @@ const PlotlyWxRRChart = () => {
 	//		Charleston area
 	//		RR vs Charleston area
 	//	* Tabs for different graphs
-	//		Hourly temp, feels like, humidity, 
+	//		Hourly temp, feels like, humidity,
+	//! kinda like the idea of having a row above be for daily, with an extended daily data option of some sort
+	//! then hourly below
+	//! tabbed
+	//		Station - temp, feelslike, humidity ?
+	//		Station - rain?
+	//! how to get the equivalent of accumulated precip?
+	
 
 	/*
 	hourly
